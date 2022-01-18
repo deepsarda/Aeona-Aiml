@@ -27,6 +27,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
@@ -34,6 +35,8 @@ import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import aeona.Main;
 
 /**
  * Class representing the AIML bot
@@ -198,7 +201,19 @@ public class Bot {
             //this.categories.addAll(moreCategories);
         }
     }
+     
+    
+    File[] getFiles(File folder){
+        File[] listOfFiles = folder.listFiles();
+        int chunk=listOfFiles.length/Main.serverNumber;
 
+        if(Main.serverNumber==Main.totalServers-1){
+            chunk+=listOfFiles.length%Main.serverNumber;
+        }
+        int start=chunk*Main.serverNumber;
+        int end=start+chunk-1;
+        return Arrays.copyOfRange(listOfFiles,start,end);
+    }
     /**
      * Load all brain categories from AIML directory
      */
@@ -210,7 +225,7 @@ public class Bot {
             String file;
             File folder = new File(MagicStrings.aiml_path);
             if (folder.exists()) {
-                File[] listOfFiles = folder.listFiles();
+                File[] listOfFiles = getFiles(folder);
                 log.info("Loading AIML files from '{}'", MagicStrings.aiml_path);
                 for (File listOfFile : listOfFiles) {
                     if (listOfFile.isFile()) {

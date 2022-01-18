@@ -1,4 +1,10 @@
 package org.alicebot.ab;
+import java.io.BufferedInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 /* Program AB Reference AIML 2.0 implementation
         Copyright (C) 2013 ALICE A.I. Foundation
         Contact: info@alicebot.org
@@ -22,6 +28,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.google.gson.Gson;
+
 import org.alicebot.ab.utils.CalendarUtils;
 import org.alicebot.ab.utils.DomUtils;
 import org.alicebot.ab.utils.IOUtils;
@@ -30,6 +38,9 @@ import org.slf4j.LoggerFactory;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import aeona.Main;
+import aeona.Response;
 
 /**
  * The core AIML parser and interpreter.
@@ -315,6 +326,37 @@ public class AIMLProcessor {
             if (leaf == null) {return(response);}
             //log.info("Srai returned "+leaf.category.inputThatTopic()+":"+leaf.category.getTemplate());
             response = evalTemplate(leaf.category.getTemplate(), new ParseState(ps.depth+1, ps.chatSession, ps.input, ps.that, topic, leaf));
+            if(response.contains("idk")){
+                Gson gson=new Gson();
+                Response request=new Response(ps.chatSession, ps.input);
+                String requesString=gson.toJson(request);
+                for(String server:Main.otherServers){
+                    URL url = new URL(server+"/test");
+                    HttpURLConnection con = (HttpURLConnection) url.openConnection();
+                    con.setRequestMethod("GET");
+                    con.setDoOutput(true);
+                    con.setRequestMethod("POST");
+                    OutputStream os = con.getOutputStream();
+                    OutputStreamWriter osw = new OutputStreamWriter(os, "UTF-8");    
+                    osw.write(requesString);
+                    osw.flush();
+                    osw.close();
+                    os.close();  //don't forget to close the OutputStream
+                    con.connect();
+                    
+                    BufferedInputStream bis = new BufferedInputStream(con.getInputStream());
+                    ByteArrayOutputStream buf = new ByteArrayOutputStream();
+                    int result2 = bis.read();
+                    while(result2 != -1) {
+                        buf.write((byte) result2);
+                        result2 = bis.read();
+                    }
+                    String responseFromServer = gson.fromJson(buf.toString(),Response.class).response;
+                    if(!response.contains("idk")){
+                        return responseFromServer;
+                    }
+                }
+            }
             //log.info("That="+that);
         } catch (Exception ex) {
             ex.printStackTrace();
