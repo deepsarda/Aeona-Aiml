@@ -205,13 +205,9 @@ public class Bot {
     
     File[] getFiles(File folder){
         File[] listOfFiles = folder.listFiles();
-        int chunk=listOfFiles.length/Main.totalServers;
-
-        if(Main.serverNumber==Main.totalServers-1){
-            chunk+=listOfFiles.length%Main.totalServers;
-        }
+        int chunk=(listOfFiles.length-30)/Main.totalServers;
         int start=chunk*Main.serverNumber;
-        int end=start+chunk-1;
+        int end=start+chunk-1+listOfFiles.length%Main.totalServers+30;
         return Arrays.copyOfRange(listOfFiles,start,end);
     }
     /**
