@@ -2,8 +2,7 @@ package aeona;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
-import com.sun.net.httpserver.Headers;
-import com.sun.net.httpserver.HttpContext;
+
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
@@ -12,16 +11,11 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
-import java.io.PrintStream;
-import java.io.Reader;
-import java.lang.reflect.Type;
 import java.net.InetSocketAddress;
-import java.net.URI;
+import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.Executor;
-
+import java.util.*;  
 import org.alicebot.ab.AIMLProcessor;
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
@@ -35,11 +29,15 @@ public class Main {
 	private static final Logger log = LoggerFactory.getLogger(Main.class);
     public static Bot bot ; //
     public  static File file = new File("save");
+    public static int aiNumber=0;
     public static void main (String[] args)  throws IOException, ClassNotFoundException{
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter AI number:");  
+        aiNumber=sc.nextInt();
         MagicStrings.root_path = System.getProperty("user.dir");
         log.info("Working Directory = " + MagicStrings.root_path);
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
-        bot= new Bot("Aeona", MagicStrings.root_path, "chat");
+        bot= new Bot("Aeona-Part"+aiNumber, MagicStrings.root_path, "chat");
        
         MagicBooleans.trace_mode = true;
         if (!file.exists()) {
@@ -101,5 +99,5 @@ public class Main {
           }
           return map;
         }
-      }
+    }
 }
