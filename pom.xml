@@ -23,6 +23,7 @@
         </snapshots>
     </repository>
     </repositories>
+   
 	<dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -78,6 +79,15 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+             <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>2.2.0</version>
+                <configuration>
+                    <projectId>myProjectId</projectId>
+                    <version>GCLOUD_CONFIG</version>
+                </configuration>
+                </plugin>
 		</plugins>
 	</build>
 </project>

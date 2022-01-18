@@ -24,14 +24,10 @@ import java.util.concurrent.Executor;
 
 import org.alicebot.ab.AIMLProcessor;
 import org.alicebot.ab.Bot;
-import org.alicebot.ab.Category;
 import org.alicebot.ab.Chat;
-import org.alicebot.ab.Graphmaster;
 import org.alicebot.ab.MagicBooleans;
 import org.alicebot.ab.MagicStrings;
 import org.alicebot.ab.PCAIMLProcessorExtension;
-import org.alicebot.ab.Timer;
-import org.alicebot.ab.utils.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -49,7 +45,7 @@ public class Main {
         if (!file.exists()) {
             file.mkdir();
         }
-        bot.writeAIMLIFFiles();
+        
         HttpServer server = HttpServer.create(new InetSocketAddress(5000), 0);
         server.createContext("/test", new Handler());
         server.setExecutor(null);
