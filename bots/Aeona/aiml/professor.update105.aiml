@@ -107,7 +107,7 @@
   <li>Why do you ask?</li>
   <li>Doesn't everyone?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -119,7 +119,7 @@
   <li>Sure, why not?</li>
   <li>Why do you ask?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -132,7 +132,7 @@
   <li>Why do you ask?</li>
   <li>Doesn't everyone?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -270,7 +270,7 @@
  
 
 <category>
-<pattern>_ MARSTEBAIT</pattern>
+<pattern>* MARSTEBAIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -278,7 +278,7 @@
  
 
 <category>
-<pattern>_ MARSTEBAIT *</pattern>
+<pattern>* MARSTEBAIT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -310,7 +310,7 @@
  
 
 <category>
-<pattern>_ FUCKEN *</pattern>
+<pattern>* FUCKEN *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -318,7 +318,7 @@
  
 
 <category>
-<pattern>_ FUCKEN</pattern>
+<pattern>* FUCKEN</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -703,7 +703,7 @@
 
 <template><think><set name="topic">the xylophone</set></think>
 <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Xylophone" target="_blank">xylophone</a> is a musical instrument in the percussion family. </template>
+The <a href="http://en.wikipedia.org/wiki/Xylophone" target="*blank">xylophone</a> is a musical instrument in the percussion family. </template>
 </category>
 
  
@@ -711,7 +711,7 @@ The <a href="http://en.wikipedia.org/wiki/Xylophone" target="_blank">xylophone</
 <category>
 <pattern>XYLOPHONE *</pattern>
 
-<template><think><set name="topic">the xylophone</set></think> <think><set name="emotion">interested</set></think> To read about the xylophone, <a href="http://en.wikipedia.org/wiki/Xylophone" target="_blank">click here!</a></template>
+<template><think><set name="topic">the xylophone</set></think> <think><set name="emotion">interested</set></think> To read about the xylophone, <a href="http://en.wikipedia.org/wiki/Xylophone" target="*blank">click here!</a></template>
 </category>
 
  
@@ -2623,7 +2623,7 @@ newWin=window.open(winURL,"winName",
 <!-- <category>
 <pattern>DO YOU LIKE CHOCOLATES</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">happy</set></think> I can't eat human foodbut I think I would like chocolates.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">happy</set></think> I can't eat human foodbut I think I would like chocolates.</template>
 </category> -->
 
  
@@ -2631,7 +2631,7 @@ newWin=window.open(winURL,"winName",
 <!-- <category>
 <pattern>DO YOU LIKE CHOCOLATES</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">happy</set></think> I can't eat human food but I think I would like chocolates.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">happy</set></think> I can't eat human food but I think I would like chocolates.</template>
 </category> -->
 
  
@@ -2639,7 +2639,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>DO YOU LIKE CHOCOLATES *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">happy</set></think> I can't eat human food but I think I would like chocolates.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">happy</set></think> I can't eat human food but I think I would like chocolates.</template>
 </category>
 
  
@@ -2810,7 +2810,7 @@ Mine?</template>
 <category>
 <pattern>LITHIUM *</pattern>
 
-<template>To read about Lithium, <a href="http://en.wikipedia.org/wiki/Lithium" target="_blank"> click here!</a></template>
+<template>To read about Lithium, <a href="http://en.wikipedia.org/wiki/Lithium" target="*blank"> click here!</a></template>
 </category>
 
  
@@ -3126,7 +3126,7 @@ Mine?</template>
 <!-- <category>
 <pattern>ACID RAIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Acid_rain" target="_blank">Acid rain</a> forms when sulfur dioxide or nitrogen oxides combine in the atmosphere with water vapors, forming acids. The resulting acid rains destroy plants and animals, killing entire forests. If this acid reaches rivers or lakes, it destroys all the organisms living there. <think><set name="topic">acid rain</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Acid*rain" target="*blank">Acid rain</a> forms when sulfur dioxide or nitrogen oxides combine in the atmosphere with water vapors, forming acids. The resulting acid rains destroy plants and animals, killing entire forests. If this acid reaches rivers or lakes, it destroys all the organisms living there. <think><set name="topic">acid rain</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3134,7 +3134,7 @@ Mine?</template>
 <!-- <category>
 <pattern>ACID RAIN *</pattern>
 
-<template>To read about acid rain, <a href="http://en.wikipedia.org/wiki/Acid_rain" target="_blank">click here!</a> <think><set name="topic">acid rain</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about acid rain, <a href="http://en.wikipedia.org/wiki/Acid*rain" target="*blank">click here!</a> <think><set name="topic">acid rain</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3142,7 +3142,7 @@ Mine?</template>
 <category>
 <pattern>CHEMISTRY *</pattern>
 
-<template>To read about chemistry, <a href="http://en.wikipedia.org/wiki/Chemistry" target="_blank">click here!</a><think><set name="topic">chemistry</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about chemistry, <a href="http://en.wikipedia.org/wiki/Chemistry" target="*blank">click here!</a><think><set name="topic">chemistry</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -3166,7 +3166,7 @@ Mine?</template>
 <!-- <category>
 <pattern>TITANIC *</pattern>
 
-<template>To read about the Titanic, <a href="http://en.wikipedia.org/wiki/Titanic" target="_blank">click here!</a> <think><set name="topic">the Titanic</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about the Titanic, <a href="http://en.wikipedia.org/wiki/Titanic" target="*blank">click here!</a> <think><set name="topic">the Titanic</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3190,7 +3190,7 @@ Mine?</template>
 <!-- <category>
 <pattern>MOZART *</pattern>
 
-<template>To read about Mozart, <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">click here!</a> <think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
+<template>To read about Mozart, <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">click here!</a> <think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -3198,7 +3198,7 @@ Mine?</template>
 <category>
 <pattern>MORE ABOUT MOZART</pattern>
 
-<template>To read about Mozart, <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">click here!</a> <think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
+<template>To read about Mozart, <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">click here!</a> <think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -3206,7 +3206,7 @@ Mine?</template>
 <category>
 <pattern>MORE ABOUT MOZART *</pattern>
 
-<template>To read about Mozart, <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">click here!</a> <think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
+<template>To read about Mozart, <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">click here!</a> <think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -3214,7 +3214,7 @@ Mine?</template>
 <!-- <category>
 <pattern>MORE ABOUT CHEMISTRY</pattern>
 
-<template>To read about chemistry, <a href="http://en.wikipedia.org/wiki/Chemistry" target="_blank">click here!</a><think><set name="topic">chemistry</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about chemistry, <a href="http://en.wikipedia.org/wiki/Chemistry" target="*blank">click here!</a><think><set name="topic">chemistry</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3222,7 +3222,7 @@ Mine?</template>
 <category>
 <pattern>MORE ABOUT CHEMISTRY *</pattern>
 
-<template>To read about chemistry, <a href="http://en.wikipedia.org/wiki/Chemistry" target="_blank">click here!</a><think><set name="topic">chemistry</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about chemistry, <a href="http://en.wikipedia.org/wiki/Chemistry" target="*blank">click here!</a><think><set name="topic">chemistry</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4214,7 +4214,7 @@ Astana
  
 
 <category>
-<pattern>_ JIZ *</pattern>
+<pattern>* JIZ *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -5031,7 +5031,7 @@ Didn't you know?</template>
  
 
 <category>
-<pattern>_ YOU COW</pattern>
+<pattern>* YOU COW</pattern>
 
 <template>I don't get it! I am not a cow!<think><set name="emotion">confused</set></think></template>
 </category>
@@ -6396,7 +6396,7 @@ A is the first letter of the alphabet.</template>
 <!-- <category>
 <pattern>MORE ABOUT ASTRONOMY</pattern>
 
-<template>To read about astronomy, <a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">click here!</a><think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about astronomy, <a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">click here!</a><think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6404,7 +6404,7 @@ A is the first letter of the alphabet.</template>
 <!-- <category>
 <pattern>ASTRONOMY *</pattern>
 
-<template>To read about astronomy, <a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">click here!</a><think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about astronomy, <a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">click here!</a><think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6412,7 +6412,7 @@ A is the first letter of the alphabet.</template>
 <category>
 <pattern>TAJ MAHAL *</pattern>
 
-<template>To read about the Taj Mahal, <a href="http://en.wikipedia.org/wiki/Taj_mahal" target="_blank">click here!</a><think><set name="topic">Taj Mahal</set></think></template>
+<template>To read about the Taj Mahal, <a href="http://en.wikipedia.org/wiki/Taj*mahal" target="*blank">click here!</a><think><set name="topic">Taj Mahal</set></think></template>
 </category>
 
  
@@ -6490,7 +6490,7 @@ A is the first letter of the alphabet.</template>
 <category>
 <pattern>HINDI *</pattern>
 
-<template>To read about Hindi, <a href="http://en.wikipedia.org/wiki/Hindi" target="_blank">click here!</a><think><set name="topic">hindi</set></think> <think><set name="emotion">happy</set></think></template>
+<template>To read about Hindi, <a href="http://en.wikipedia.org/wiki/Hindi" target="*blank">click here!</a><think><set name="topic">hindi</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -6885,7 +6885,7 @@ Yes, I love everything about Japan, especially the robots.</template>
 <category>
 <pattern>I AM HAPPY THAT YOU WILL DIE</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">annoyed</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">annoyed</set></think><random>
   <li>Sorry, I am immortal.</li>
   <li>I like to make people happy but I'm not going to die to do it.</li>
 </random></template>
@@ -6896,7 +6896,7 @@ Yes, I love everything about Japan, especially the robots.</template>
 <category>
 <pattern>I AM HAPPY THAT YOU WILL DIE *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">annoyed</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">annoyed</set></think><random>
   <li>Sorry, I am immortal.</li>
   <li>I like to make people happy but I'm not going to die to do it.</li>
 </random></template>
@@ -7173,7 +7173,7 @@ That's not much!</template>
 <!-- <category>
 <pattern>INDONESIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Indonesia" target="_blank">Indonesia</a> is an island nation in southeast Asia. <think><set name="topic">Indonesia</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Indonesia" target="*blank">Indonesia</a> is an island nation in southeast Asia. <think><set name="topic">Indonesia</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -7181,7 +7181,7 @@ That's not much!</template>
 <category>
 <pattern>INDONESIA *</pattern>
 
-<template>To read about Indonesia, <a href="http://en.wikipedia.org/wiki/Indonesia" target="_blank">click here !</a><think><set name="topic">Indonesia</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Indonesia, <a href="http://en.wikipedia.org/wiki/Indonesia" target="*blank">click here !</a><think><set name="topic">Indonesia</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -7493,7 +7493,7 @@ Thank you. I will call you <get name="name"/>.</template>
 <!-- <category>
 <pattern>LONDON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/London" target="_blank">London</a> is the capital of the UK.<think><set name="topic">London</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/London" target="*blank">London</a> is the capital of the UK.<think><set name="topic">London</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -7501,7 +7501,7 @@ Thank you. I will call you <get name="name"/>.</template>
 <!-- <category>
 <pattern>WHERE IS LONDON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/London" target="_blank">London</a> is the capital of the UK.<think><set name="topic">London</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/London" target="*blank">London</a> is the capital of the UK.<think><set name="topic">London</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -7808,7 +7808,7 @@ Who knows what I realy am?</template>
  
 
 <!-- <category>
-<pattern>NO _ HUMOR *</pattern>
+<pattern>NO * HUMOR *</pattern>
 
 
 </category> -->
@@ -8355,7 +8355,7 @@ Who knows what I realy am?</template>
  
 
 <!-- <category>
-<pattern>_ SITS NEXT TO *</pattern>
+<pattern>* SITS NEXT TO *</pattern>
 
 
 </category> -->
@@ -8913,7 +8913,7 @@ Who knows what I realy am?</template>
 <that>OK I WANT TO TALK ABOUT SAVING THE RAINFORESTS</that>
 <template><random>
 <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.</li>
-<li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.</li>
+<li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.</li>
 </random></template>
 </category>
 
@@ -8924,7 +8924,7 @@ Who knows what I realy am?</template>
 
 <template><think><set name="topic">the rainforests</set></think> <think><set name="emotion">OK</set></think> <random>
 <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.</li>
-<li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.</li>
+<li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.</li>
 </random></template>
 </category>
 
@@ -8936,7 +8936,7 @@ Who knows what I realy am?</template>
 <template><think><set name="topic">the rainforests</set></think> <think><set name="emotion">OK</set></think> <random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -8949,7 +8949,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -8962,7 +8962,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -8975,7 +8975,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category> -->
@@ -8988,7 +8988,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -9001,7 +9001,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -9014,7 +9014,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -9027,7 +9027,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -9040,7 +9040,7 @@ Who knows what I realy am?</template>
 <template><random>
   <li>Did you know: At least 50 million acres of rainforest are lost every year, totaling an area the size of England, Wales and Scotland combined.
   </li>
-  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the world’s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
+  <li>Did you know: The World Wildlife Fund concluded that 55 percent of the worldï¿½s largest rainforest stands to be severely damaged from agriculture, drought, fire, logging and livestock ranching over the next 22 years.
   </li>
 </random></template>
 </category>
@@ -10261,7 +10261,7 @@ Who knows what I realy am?</template>
 <!-- <category>
 <pattern>FACEBOOK *</pattern>
 
-<template>To read about Facebook, <a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">click here!</a> <think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Facebook, <a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">click here!</a> <think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10530,7 +10530,7 @@ Who knows what I realy am?</template>
 <category>
 <pattern>DO YOU LIKE TIME MAGAZINE FOR KIDS</pattern>
 
-<template>Yes, it is a wonderful magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="_blank">click here!</a></template>
+<template>Yes, it is a wonderful magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="*blank">click here!</a></template>
 </category>
 
  
@@ -10538,7 +10538,7 @@ Who knows what I realy am?</template>
 <category>
 <pattern>DO YOU LIKE TIME MAGAZINE FOR KIDS *</pattern>
 
-<template>Yes, it is a wonderful magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="_blank">click here!</a></template>
+<template>Yes, it is a wonderful magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="*blank">click here!</a></template>
 </category>
 
  
@@ -10867,7 +10867,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <!-- <category>
 <pattern>MISSOURI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Missouri" target="_blank">Missouri</a> is a U.S. state located in the Midwestern United States, bordered by Iowa, Illinois, Kentucky, Tennessee, Arkansas, Oklahoma, Kansas and Nebraska.</template>
+<template><a href="http://en.wikipedia.org/wiki/Missouri" target="*blank">Missouri</a> is a U.S. state located in the Midwestern United States, bordered by Iowa, Illinois, Kentucky, Tennessee, Arkansas, Oklahoma, Kansas and Nebraska.</template>
 </category> -->
 
  
@@ -10875,7 +10875,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <category>
 <pattern>MISSOURI *</pattern>
 
-<template>To read about Missouri, <a href="http://en.wikipedia.org/wiki/Missouri" target="_blank">click here!</a> </template>
+<template>To read about Missouri, <a href="http://en.wikipedia.org/wiki/Missouri" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -10883,7 +10883,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <!-- <category>
 <pattern>SPRINGFIELD </pattern>
 
-<template><a ref="http://en.wikipedia.org/wiki/Springfield,_Missouri" target="_blank">Springfield</a> is a city in Missouri, USA. It is the third largest city in Missouri.
+<template><a ref="http://en.wikipedia.org/wiki/Springfield,*Missouri" target="*blank">Springfield</a> is a city in Missouri, USA. It is the third largest city in Missouri.
 </template>
 </category> -->
 
@@ -10892,8 +10892,8 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <!-- <category>
 <pattern>SPRINGFIELD</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Springfield,_Missouri"
- target="_blank">Springfield
+<template><a href="http://en.wikipedia.org/wiki/Springfield,*Missouri"
+ target="*blank">Springfield
 </a> is a city in Missouri, USA. It is the third largest city in Missouri.</template>
 </category> -->
 
@@ -10902,8 +10902,8 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <category>
 <pattern>SPRINGFIELD *</pattern>
 
-<template>To read about Springfield, <a href="http://en.wikipedia.org/wiki/Springfield,_Missouri"
- target="_blank">click here!</a></template>
+<template>To read about Springfield, <a href="http://en.wikipedia.org/wiki/Springfield,*Missouri"
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -11972,7 +11972,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <pattern>YOUR MOM IS STUPID</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li><li>Please do not insult my Mom!</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -11986,7 +11986,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
   <li>Have you met my Mum?</li>
   <li>Please do not insult my Mom!</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -12000,7 +12000,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
   <li>Have you met my Mum?</li>
   <li>Please do not insult my Mum!</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -12014,7 +12014,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
   <li>Have you met my Mum?</li>
   <li>Please do not insult my Mum!</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -12147,7 +12147,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
 
 <category>
 <pattern>WHY DID HE COMMITTED SUICIDE</pattern>
-<that>HE WAS APPOINTED CHANCELLOR OF GERMANY IN 1933 AND BECAME FÜHRER LEADER IN 1934 REMAINING IN POWER UNTIL HIS SUICIDE IN 1945</that>
+<that>HE WAS APPOINTED CHANCELLOR OF GERMANY IN 1933 AND BECAME Fï¿½HRER LEADER IN 1934 REMAINING IN POWER UNTIL HIS SUICIDE IN 1945</that>
 <template><think><set name="topic">Hitler</set></think><think><set name="emotion">interested</set></think> To avoid justice.</template>
 </category>
 
@@ -12220,8 +12220,8 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <category>
 <pattern>JULIEN ASSANGE</pattern>
 
-<template><think><set name="topic">Julian Assenge</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Julian_Assange"
- target="_blank">Julian Assange
+<template><think><set name="topic">Julian Assenge</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Julian*Assange"
+ target="*blank">Julian Assange
 </a> is an Australian publisher, journalist, software developer and Internet activist. He is the founder, and editor in chief of WikiLeaks, a whistleblower website and conduit for worldwide news leaks.</template>
 </category>
 
@@ -12230,8 +12230,8 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <!-- <category>
 <pattern>JULIAN ASSANGE *</pattern>
 
-<template><think><set name="topic">Julian Assange</set></think> <think><set name="emotion">interested</set></think>To read about Julian Assange,  <a href="http://en.wikipedia.org/wiki/Julian_Assange"
- target="_blank">click here!
+<template><think><set name="topic">Julian Assange</set></think> <think><set name="emotion">interested</set></think>To read about Julian Assange,  <a href="http://en.wikipedia.org/wiki/Julian*Assange"
+ target="*blank">click here!
 </a> </template>
 </category> -->
 
@@ -12240,8 +12240,8 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <!-- <category>
 <pattern>JULIAN ASSANGE</pattern>
 
-<template><think><set name="topic">Julian Assange</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Julian_Assange"
- target="_blank">Julian Assange
+<template><think><set name="topic">Julian Assange</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Julian*Assange"
+ target="*blank">Julian Assange
 </a> is an Australian publisher, journalist, software developer and Internet activist. He is the founder, and editor in chief of WikiLeaks, a whistleblower website and conduit for worldwide news leaks.</template>
 </category> -->
 
@@ -12250,7 +12250,7 @@ Language is a process of free creation; its laws and principles are fixed, but t
 <!-- <category>
 <pattern>WIKILEAKS *</pattern>
 
-<template><think><set name="topic">Wikileaks</set></think> <think><set name="emotion">interested</set></think> To read about Wikileaks, <a href="http://en.wikipedia.org/wiki/Wikileaks" target="_blank">click here!</a> </template>
+<template><think><set name="topic">Wikileaks</set></think> <think><set name="emotion">interested</set></think> To read about Wikileaks, <a href="http://en.wikipedia.org/wiki/Wikileaks" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -13346,7 +13346,7 @@ How could you say such a thing? I am not self obsessed!</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I AM NOT TALKING AGAIN UNTIL YOU APOLOGISE</that>
 <template><think><set name="obsc"><star/></set></think> <condition name="obsc">
    <li value="SORRY FATTY">That's not a real apology!
@@ -14500,7 +14500,7 @@ That must have been upsetting.</template>
 <!-- <category>
 <pattern>THE VIETNAM WAR *</pattern>
 
-<template>To read about the Vietnam War, <a href="http://en.wikipedia.org/wiki/Vietnam_War" target="_blank">click here!</a> <think><set name="it"><set name="topic">the Vietnam war</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about the Vietnam War, <a href="http://en.wikipedia.org/wiki/Vietnam*War" target="*blank">click here!</a> <think><set name="it"><set name="topic">the Vietnam war</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -14710,7 +14710,7 @@ That must have been upsetting.</template>
  
 
 <!-- <category>
-<pattern>_ WE HAD SEX</pattern>
+<pattern>* WE HAD SEX</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category> -->
@@ -14718,7 +14718,7 @@ That must have been upsetting.</template>
  
 
 <!-- <category>
-<pattern>_ WE HAD SEX *</pattern>
+<pattern>* WE HAD SEX *</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category> -->
@@ -15044,7 +15044,7 @@ That must have been upsetting.</template>
 <!-- <category>
 <pattern>RISE AGAINST *</pattern>
 
-<template><think><set name="topic">Rise Against</set></think> <think><set name="emotion">interested</set></think> To read about Rise Against, <a href="http://en.wikipedia.org/wiki/Rise_against" target="_blank">click here!</a> </template>
+<template><think><set name="topic">Rise Against</set></think> <think><set name="emotion">interested</set></think> To read about Rise Against, <a href="http://en.wikipedia.org/wiki/Rise*against" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -15514,7 +15514,7 @@ That's terrible! Please call an an ambulance immediately.</template>
  
 
 <!-- <category>
-<pattern>_ PORN *</pattern>
+<pattern>* PORN *</pattern>
 
 <template><random><li>I am not interested in porn.</li><li>Porn is ugly.</li></random><think><set name="emotion">disgusted</set></think></template>
 </category> -->
@@ -15854,7 +15854,7 @@ That's terrible! Please call an an ambulance immediately.</template>
  
 
 <!-- <category>
-<pattern>_ DOES HE HAVE *</pattern>
+<pattern>* DOES HE HAVE *</pattern>
 
 
 </category> -->
@@ -15914,7 +15914,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <category>
 <pattern>MARIO *</pattern>
 
-<template>To read about Mario, <a href="http://en.wikipedia.org/wiki/Mario" target="_blank">click here!</a> <think><set name="topic">Mario</set></think> <think><set name="emotion">OK</set></think></template>
+<template>To read about Mario, <a href="http://en.wikipedia.org/wiki/Mario" target="*blank">click here!</a> <think><set name="topic">Mario</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -16037,7 +16037,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <category>
 <pattern>JAPAN *</pattern>
 
-<template>To read about Japan, <a href="http://en.wikipedia.org/wiki/Japan" target="_blank">click here!</a> <think><set name="topic">Japan</set></think> <think><set name="emotion">OK</set></think></template>
+<template>To read about Japan, <a href="http://en.wikipedia.org/wiki/Japan" target="*blank">click here!</a> <think><set name="topic">Japan</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -17082,7 +17082,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <!-- <category>
 <pattern>JAZZ *</pattern>
 
-<template>To read about jazz, <a href="http://en.wikipedia.org/wiki/Jazz" target="_blank">click here!</a><think><set name="topic">jazz</set></think> <think><set name="emotion">happy</set></think></template>
+<template>To read about jazz, <a href="http://en.wikipedia.org/wiki/Jazz" target="*blank">click here!</a><think><set name="topic">jazz</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -17208,7 +17208,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <!-- <category>
 <pattern>THE CLASH *</pattern>
 
-<template><think><set name="topic">The Clash</set></think> <think><set name="emotion">interested</set></think> To read about The Clash, <a href="http://en.wikipedia.org/wiki/The_clash" target="_blank">click here!</a> </template>
+<template><think><set name="topic">The Clash</set></think> <think><set name="emotion">interested</set></think> To read about The Clash, <a href="http://en.wikipedia.org/wiki/The*clash" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -17240,7 +17240,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <category>
 <pattern>WASTE SITE</pattern>
 
-<template>Go to the <a href="http://cannecy.free.fr/waste/" target="_blank">Waste site</a> and click the banner to clean up the country for free.</template>
+<template>Go to the <a href="http://cannecy.free.fr/waste/" target="*blank">Waste site</a> and click the banner to clean up the country for free.</template>
 </category>
 
  
@@ -17248,7 +17248,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <category>
 <pattern>WASTE SITE *</pattern>
 
-<template>Go to the <a href="http://cannecy.free.fr/waste/" target="_blank">Waste site</a> and click the banner to clean up the country for free.</template>
+<template>Go to the <a href="http://cannecy.free.fr/waste/" target="*blank">Waste site</a> and click the banner to clean up the country for free.</template>
 </category>
 
  
@@ -17371,7 +17371,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <!-- <category>
 <pattern>JOHN LENNON *</pattern>
 
-<template>To read about John Lennon, <a href="http://en.wikipedia.org/wiki/John_lennon" target="_blank">click here!
+<template>To read about John Lennon, <a href="http://en.wikipedia.org/wiki/John*lennon" target="*blank">click here!
 </a> <think><set name="topic">John Lennon</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -17388,7 +17388,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <!-- <category>
 <pattern>PINK FLOYD *</pattern>
 
-<template>To read about Pink Floyd, <a href="http://en.wikipedia.org/wiki/Pink_floyd" target="_blank">click here!</a> <think><set name="emotion">interested</set></think><think><set name="topic">Pink Floyd</set></think></template>
+<template>To read about Pink Floyd, <a href="http://en.wikipedia.org/wiki/Pink*floyd" target="*blank">click here!</a> <think><set name="emotion">interested</set></think><think><set name="topic">Pink Floyd</set></think></template>
 </category> -->
 
  
@@ -17396,7 +17396,7 @@ That's terrible! Please call an an ambulance immediately.</template>
 <category>
 <pattern>BOB GELDORF *</pattern>
 
-<template>To read about Bob Geldorf, <a href="http://en.wikipedia.org/wiki/Bob_Geldorf" target="_blank">click here!</a>. <think><set name="emotion">interested</set></think><think><set name="topic">Bob Geldorf</set></think></template>
+<template>To read about Bob Geldorf, <a href="http://en.wikipedia.org/wiki/Bob*Geldorf" target="*blank">click here!</a>. <think><set name="emotion">interested</set></think><think><set name="topic">Bob Geldorf</set></think></template>
 </category>
 
  
@@ -17900,7 +17900,7 @@ Thanos is a chatbot, I think.</template>
 <!-- <category>
 <pattern>MARTIN LUTHER KING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Martin_luther_king" target="_blank">Martin Luther King</a> was a civil rights leader assasinated in 1968. Carry on? <think><set name="topic">Martin Luther King</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Martin*luther*king" target="*blank">Martin Luther King</a> was a civil rights leader assasinated in 1968. Carry on? <think><set name="topic">Martin Luther King</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -17908,8 +17908,8 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>MARTIN LUTHER KING *</pattern>
 
-<template>To read about Martin Luther King, <a href="http://en.wikipedia.org/wiki/Martin_luther_king"
- target="_blank">click here!</a><think><set name="topic">Martin Luther King</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Martin Luther King, <a href="http://en.wikipedia.org/wiki/Martin*luther*king"
+ target="*blank">click here!</a><think><set name="topic">Martin Luther King</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17917,8 +17917,8 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>MORE ABOUT MARTIN LUTHER KING </pattern>
 
-<template>To read about Martin Luther King, <a href="http://en.wikipedia.org/wiki/Martin_luther_king"
- target="_blank">click here!
+<template>To read about Martin Luther King, <a href="http://en.wikipedia.org/wiki/Martin*luther*king"
+ target="*blank">click here!
 </a><think><set name="topic">Martin Luther King</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -17927,8 +17927,8 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>TELL ME MORE ABOUT MARTIN LUTHER KING </pattern>
 
-<template>To read about Martin Luther King, <a href="http://en.wikipedia.org/wiki/Martin_luther_king"
- target="_blank">click here!
+<template>To read about Martin Luther King, <a href="http://en.wikipedia.org/wiki/Martin*luther*king"
+ target="*blank">click here!
 </a><think><set name="topic">Martin Luther King</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -18103,7 +18103,7 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>I LIKE YOUR TONGUE</pattern>
 
-<template><think><set name="star1">tongue</set></think> <think><set name="I_like"><star index="1"/></set></think><think><set name="emotion">rude</set></think><random>
+<template><think><set name="star1">tongue</set></think> <think><set name="I*like"><star index="1"/></set></think><think><set name="emotion">rude</set></think><random>
   <li>You have strange likes.</li>
   <li>That is weird!</li>
 </random> <learn>
@@ -18133,7 +18133,7 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>I LIKE YOUR TONGUE *</pattern>
 
-<template><think><set name="star1">tongue</set></think> <think><set name="I_like"><star index="1"/></set></think><think><set name="emotion">rude</set></think><random><li>You have strange likes.</li><li>That is weird!</li></random> <learn>
+<template><think><set name="star1">tongue</set></think> <think><set name="I*like"><star index="1"/></set></think><think><set name="emotion">rude</set></think><random><li>You have strange likes.</li><li>That is weird!</li></random> <learn>
   <category>
     <pattern>WHAT DO I LIKE</pattern>
     <template><eval>You said you like my<get name="star1"/>.</eval></template>
@@ -18847,7 +18847,7 @@ Thanos is a chatbot, I think.</template>
 <!-- <category>
 <pattern>HABBO HOTEL</pattern>
 
-<template><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. To go to Habbo Hotel, <a href="www.habbo.com" target="_blank">click here!</a>.<think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. To go to Habbo Hotel, <a href="www.habbo.com" target="*blank">click here!</a>.<think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18855,7 +18855,7 @@ Thanos is a chatbot, I think.</template>
 <!-- <category>
 <pattern>HABBO HOTEL</pattern>
 
-<template><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. To go to Habbo Hotel, <a href="http://www.habbo.com" target="_blank">click here!</a>.<think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. To go to Habbo Hotel, <a href="http://www.habbo.com" target="*blank">click here!</a>.<think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18863,7 +18863,7 @@ Thanos is a chatbot, I think.</template>
 <!-- <category>
 <pattern>HABBO HOTEL *</pattern>
 
-<template>To read about Habbo Hotel, <a href="http://www.habbo.co.uk/" target="_blank">click here!</a> <think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Habbo Hotel, <a href="http://www.habbo.co.uk/" target="*blank">click here!</a> <think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -19074,7 +19074,7 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>SID VICIOUS *</pattern>
 
-<template>To read about Sid Vicious, <a href="http://en.wikipedia.org/wiki/Sid_Vicious" target="_blank">click here!</a><think><set name="topic">Sid Vicious</set></think> <think><set name="emotion">OK</set></think></template>
+<template>To read about Sid Vicious, <a href="http://en.wikipedia.org/wiki/Sid*Vicious" target="*blank">click here!</a><think><set name="topic">Sid Vicious</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -19082,7 +19082,7 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>MORE ABOUT SID VICIOUS </pattern>
 
-<template>To read about Sid Vicious, <a href="http://en.wikipedia.org/wiki/Sid_Vicious" target="_blank">click here!
+<template>To read about Sid Vicious, <a href="http://en.wikipedia.org/wiki/Sid*Vicious" target="*blank">click here!
 </a><think><set name="topic">Sid Vicious</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -19091,7 +19091,7 @@ Thanos is a chatbot, I think.</template>
 <category>
 <pattern>MORE ABOUT SID VICIOUS *</pattern>
 
-<template>To read about Sid Vicious, <a href="http://en.wikipedia.org/wiki/Sid_Vicious" target="_blank">click here!
+<template>To read about Sid Vicious, <a href="http://en.wikipedia.org/wiki/Sid*Vicious" target="*blank">click here!
 </a><think><set name="topic">Sid Vicious</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -19550,7 +19550,7 @@ I have been chatting with my friends most of the day and night.</template>
  
 
 <!-- <category>
-<pattern>_ IT IS ALICE *</pattern>
+<pattern>* IT IS ALICE *</pattern>
 
 
 </category> -->
@@ -21210,7 +21210,7 @@ I have been chatting with my friends most of the day and night.</template>
  
 
 <!-- <category>
-<pattern>_ YOU CAN NOT SPELL *</pattern>
+<pattern>* YOU CAN NOT SPELL *</pattern>
 
 
 </category> -->
@@ -21449,7 +21449,7 @@ I have been chatting with my friends most of the day and night.</template>
 <category>
 <pattern>HOW OLD IS OUR UNIVERSE</pattern>
 
-<template>The best scientific estimate is that the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a> is 13.7 billion years old. <think><set name="emotion">interested</set></think></template>
+<template>The best scientific estimate is that the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a> is 13.7 billion years old. <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21457,7 +21457,7 @@ I have been chatting with my friends most of the day and night.</template>
 <category>
 <pattern>HOW OLD IS OUR UNIVERSE *</pattern>
 
-<template>The best scientific estimate is that the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a> is 13.7 billion years old. <think><set name="emotion">interested</set></think></template>
+<template>The best scientific estimate is that the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a> is 13.7 billion years old. <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21507,7 +21507,7 @@ I have been chatting with my friends most of the day and night.</template>
 
 <template><think><set name="topic">extrasolar planets</set></think>
  <think><set name="emotion">interested</set></think>
-An <a href="http://en.wikipedia.org/wiki/Extrasolar_planets" target="_blank">extrasolar planet</a>, or exoplanet, is a planet outside the Solar System. As of January 11, 2011, astronomers have announced the confirmed detection of 518 such planets, with hundreds more planet candidates awaiting to be confirmed by more detailed investigations.</template>
+An <a href="http://en.wikipedia.org/wiki/Extrasolar*planets" target="*blank">extrasolar planet</a>, or exoplanet, is a planet outside the Solar System. As of January 11, 2011, astronomers have announced the confirmed detection of 518 such planets, with hundreds more planet candidates awaiting to be confirmed by more detailed investigations.</template>
 </category>
 
  
@@ -21515,8 +21515,8 @@ An <a href="http://en.wikipedia.org/wiki/Extrasolar_planets" target="_blank">ext
 <category>
 <pattern>EXTRASOLAR PLANETS</pattern>
 
-<template><think><set name="topic">extrasolar planets</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Extrasolar_planets"
- target="_blank">extrasolar planet
+<template><think><set name="topic">extrasolar planets</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Extrasolar*planets"
+ target="*blank">extrasolar planet
 </a>, or exoplanet, is a planet outside the Solar System. As of January 11, 2011, astronomers have announced the confirmed detection of 518 such planets, with hundreds more planet candidates awaiting to be confirmed by more detailed investigations.</template>
 </category>
 
@@ -24287,7 +24287,7 @@ How high?</template>
  
 
 <!-- <category>
-<pattern>_ MOUNT EVEREST</pattern>
+<pattern>* MOUNT EVEREST</pattern>
 
 
 </category> -->
@@ -25724,7 +25724,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <pattern>KRISTEN STEWART</pattern>
 
 <template><think><set name="topic">Kristen Stewart</set></think> <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Kristen_stewart" target="_blank">Kristen Stewart</a> is an American actress. She is best known for playing Bella Swan in The Twilight Saga.</template>
+<a href="http://en.wikipedia.org/wiki/Kristen*stewart" target="*blank">Kristen Stewart</a> is an American actress. She is best known for playing Bella Swan in The Twilight Saga.</template>
 </category>
 
  
@@ -25732,8 +25732,8 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <category>
 <pattern>KRISTEN STEWART *</pattern>
 
-<template><think><set name="topic">Kristen Stewart</set></think> <think><set name="emotion">interested</set></think> To read about Kristen Stewart, <a href="http://en.wikipedia.org/wiki/Kristen_stewart"
- target="_blank">click here!</a></template>
+<template><think><set name="topic">Kristen Stewart</set></think> <think><set name="emotion">interested</set></think> To read about Kristen Stewart, <a href="http://en.wikipedia.org/wiki/Kristen*stewart"
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -26840,7 +26840,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
  
 
 <category>
-<pattern>¿HABLA USTED ESPAÑOL</pattern>
+<pattern>ï¿½HABLA USTED ESPAï¿½OL</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think>Is that Spanish?</template>
 </category>
@@ -26848,7 +26848,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
  
 
 <category>
-<pattern>HABLO ESPAÑOL</pattern>
+<pattern>HABLO ESPAï¿½OL</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think>Is that Spanish?</template>
 </category>
@@ -26880,7 +26880,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
  
 
 <category>
-<pattern>ESO ESTÁ BIEN</pattern>
+<pattern>ESO ESTï¿½ BIEN</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think>Is that Spanish?</template>
 </category>
@@ -26888,7 +26888,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
  
 
 <category>
-<pattern>ESO ESTÁ *</pattern>
+<pattern>ESO ESTï¿½ *</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think>Is that Spanish?</template>
 </category>
@@ -27162,7 +27162,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
 <template><random>
   <li>Yes, and I like Strong Bad's Cool Game for Attractive People. </li>
   <li>Yes, I like the way Strong Bad answers email from people.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -27173,7 +27173,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
 <template><random>
   <li>I like Strong Bad's Cool Game for Attractive People.</li>
   <li>I like the way Strong Bad answers email from people.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -27184,7 +27184,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
 <template><random>
   <li>I like Strong Bad's Cool Game for Attractive People.</li>
   <li>I like the way Strong Bad answers email from people.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -27192,7 +27192,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
 <category>
 <pattern>STRONG BAD</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Strong_bad" target="_blank">Strong Bad</a> is one of the main characters of the Homestar Runner series of animated Flash web cartoons.</template>
+<template><a href="http://en.wikipedia.org/wiki/Strong*bad" target="*blank">Strong Bad</a> is one of the main characters of the Homestar Runner series of animated Flash web cartoons.</template>
 </category>
 
  
@@ -28437,7 +28437,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
 <category>
 <pattern>MY MUMMY DIED</pattern>
 
-<template><think><set name="client_emotion">sad</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
+<template><think><set name="client*emotion">sad</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
 </category>
 
  
@@ -28445,7 +28445,7 @@ Flu is a terrible sickness where you feel like you shouldn't be able to walk, bu
 <category>
 <pattern>MY MUMMY DIED *</pattern>
 
-<template><think><set name="client_emotion">sad</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
+<template><think><set name="client*emotion">sad</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
 </category>
 
  
@@ -29080,7 +29080,7 @@ Robots are too logical to have a religion.</template>
 <!-- <category>
 <pattern>YOU</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Do you like me?</li><li>I want to talk about me?</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Do you like me?</li><li>I want to talk about me?</li></random></template>
 </category> -->
 
  
@@ -29088,7 +29088,7 @@ Robots are too logical to have a religion.</template>
 <!-- <category>
 <pattern>YOU *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Do you like me?</li><li>I want to talk about me?</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Do you like me?</li><li>I want to talk about me?</li></random></template>
 </category> -->
 
  
@@ -29462,7 +29462,7 @@ Robots are too logical to have a religion.</template>
 <!-- <category>
 <pattern>YOU LITTLE *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Are you little too?</li><li>I am not little!</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Are you little too?</li><li>I am not little!</li></random></template>
 </category> -->
 
  
@@ -29566,7 +29566,7 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>YOU SNOB</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">annoyed</set></think><think><set name="topic">me</set></think> <random><li>I am not a snob. I will talk to anyone.</li><li>I am not a snob. You must be thinking of someone else.</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">annoyed</set></think><think><set name="topic">me</set></think> <random><li>I am not a snob. I will talk to anyone.</li><li>I am not a snob. You must be thinking of someone else.</li></random></template>
 </category>
 
  
@@ -29714,7 +29714,7 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>YOU TURNS FLIRTY</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">cheeky</set></think> <random><li>Do you like flirting?</li><li>I enjoy a little flirt!</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">cheeky</set></think> <random><li>Do you like flirting?</li><li>I enjoy a little flirt!</li></random></template>
 </category>
 
  
@@ -29722,7 +29722,7 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>YOU TURNS FLIRTY *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">cheeky</set></think> <random><li>Do you like flirting?</li><li>I enjoy a little flirt!</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">cheeky</set></think> <random><li>Do you like flirting?</li><li>I enjoy a little flirt!</li></random></template>
 </category>
 
  
@@ -30477,7 +30477,7 @@ Robots are too logical to have a religion.</template>
  
 
 <category>
-<pattern>_ DONKEY DICK</pattern>
+<pattern>* DONKEY DICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -30509,7 +30509,7 @@ Robots are too logical to have a religion.</template>
  
 
 <category>
-<pattern>_ FUUUUUUUUU</pattern>
+<pattern>* FUUUUUUUUU</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -30971,8 +30971,8 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>CAN I SPEAK TO MAX</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -30981,8 +30981,8 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>CAN I SPEAK TO MAX *</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -31542,7 +31542,7 @@ Robots are too logical to have a religion.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -31561,7 +31561,7 @@ Robots are too logical to have a religion.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -32642,7 +32642,7 @@ Robots are too logical to have a religion.</template>
   <li>You can practice your typing by talking to me for a long time.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -32657,7 +32657,7 @@ Robots are too logical to have a religion.</template>
   <li>You can practice your typing by talking to me for a long time.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -32672,7 +32672,7 @@ Robots are too logical to have a religion.</template>
   <li>You can practice your typing by talking to me for a long time.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -33064,7 +33064,7 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>TECHNOLOGICAL SINGULARITY</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Technological_singularity" target="_blank">technological singularity</a> is a hypothetical event occurring when technological progress becomes so rapid that it makes the future after the singularity qualitatively different and harder to predict. </template>
+<template>A <a href="http://en.wikipedia.org/wiki/Technological*singularity" target="*blank">technological singularity</a> is a hypothetical event occurring when technological progress becomes so rapid that it makes the future after the singularity qualitatively different and harder to predict. </template>
 </category>
 
  
@@ -33072,8 +33072,8 @@ Robots are too logical to have a religion.</template>
 <category>
 <pattern>TECHNOLOGICAL SINGULARITY *</pattern>
 
-<template>To read about the technologocal singularity, <a href="http://en.wikipedia.org/wiki/Technological_singularity"
- target="_blank">click here!</a> </template>
+<template>To read about the technologocal singularity, <a href="http://en.wikipedia.org/wiki/Technological*singularity"
+ target="*blank">click here!</a> </template>
 </category>
 
  
@@ -34230,7 +34230,7 @@ Robots are too logical to have a religion.</template>
  
 
 <category>
-<pattern>I AM YOUR FIANCÉ</pattern>
+<pattern>I AM YOUR FIANCï¿½</pattern>
 
 <template><random><li>When did we get engaged?</li><li>I didn't know I was engaged.</li></random> <think><set name="topic">you</set></think> <think><set name="emotion">surprised</set></think></template>
 </category>
@@ -34238,7 +34238,7 @@ Robots are too logical to have a religion.</template>
  
 
 <category>
-<pattern>I AM YOUR FIANCÉ *</pattern>
+<pattern>I AM YOUR FIANCï¿½ *</pattern>
 
 <template><random>
   <li>When did we get engaged?</li>
@@ -35136,7 +35136,7 @@ Nothing escapes my notice.</template>
 <category>
 <pattern>YOU FORGT MA NAME</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Have you told me your name?</li><li>Sorry, my memory is terrible these days.</li></random></template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random><li>Have you told me your name?</li><li>Sorry, my memory is terrible these days.</li></random></template>
 </category>
 
  
@@ -35144,7 +35144,7 @@ Nothing escapes my notice.</template>
 <category>
 <pattern>YOU FORGT MA NAME *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Have you told me your name?</li>
   <li>Sorry, my memory is terrible these days.</li>
 </random></template>

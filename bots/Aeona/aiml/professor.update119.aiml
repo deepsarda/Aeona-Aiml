@@ -49,7 +49,7 @@
 <category>
 <pattern>CAN YOU SPEAK TAGALOG *</pattern>
 
-<template>No, I can't speak Tagalog. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">Tagalog</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>No, I can't speak Tagalog. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">Tagalog</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -62,7 +62,7 @@
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">magnesium</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -70,7 +70,7 @@
 <category>
 <pattern>WHAT IS SYMBOL FOR MAGNESIUM </pattern>
 
-<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -78,7 +78,7 @@
 <category>
 <pattern>SYMBOL FOR MAGNESIUM</pattern>
 
-<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -86,7 +86,7 @@
 <category>
 <pattern>SYMBOL FOR MAGNESIUM *</pattern>
 
-<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -94,7 +94,7 @@
 <category>
 <pattern>WHAT IS SYMBOL FOR MAGNESIUM *</pattern>
 
-<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>The chemical symbol for magnesium is Mg. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">magnesium</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -307,7 +307,7 @@
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">you</set></think> 
 <think><set name="emotion">upset</set></think> 
-<think><set name="client_emotion">terrified</set></think>Why are you terified?</template>
+<think><set name="client*emotion">terrified</set></think>Why are you terified?</template>
 </category>
 
  
@@ -319,7 +319,7 @@
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">general</set></think> 
 <think><set name="emotion">embarrassed</set></think> 
-<think><set name="client_emotion">annoyed</set></think>Sorry, I got carried away.</template>
+<think><set name="client*emotion">annoyed</set></think>Sorry, I got carried away.</template>
 </category>
 
  
@@ -492,7 +492,7 @@
 <think><srai>SET PREDICATES</srai></think>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="emotion">happy</set></think> 
-<think><set name="client_emotion">happy</set></think></template>
+<think><set name="client*emotion">happy</set></think></template>
 </category>
 
  
@@ -500,7 +500,7 @@
 <category>
 <pattern>NO COMPLAINTS HERE *</pattern>
 
-<template>That's good! I don't like complaints. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">happy</set></think> <think><set name="client_emotion">happy</set></think></template>
+<template>That's good! I don't like complaints. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">happy</set></think> <think><set name="client*emotion">happy</set></think></template>
 </category>
 
  
@@ -508,7 +508,7 @@
 <category>
 <pattern>NO COMPLAINTS *</pattern>
 
-<template>I don't like complaints. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">happy</set></think> <think><set name="client_emotion">happy</set></think></template>
+<template>I don't like complaints. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">happy</set></think> <think><set name="client*emotion">happy</set></think></template>
 </category>
 
  
@@ -516,7 +516,7 @@
 <category>
 <pattern>NO COMPLAINTS </pattern>
 
-<template>That's good! I don't like complaints. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">happy</set></think> <think><set name="client_emotion">happy</set></think></template>
+<template>That's good! I don't like complaints. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">happy</set></think> <think><set name="client*emotion">happy</set></think></template>
 </category>
 
  
@@ -556,7 +556,7 @@
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">general</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -568,7 +568,7 @@
   <li>Why not? What's the problem?</li>
   <li>It is truly inexpressible?</li>
   <li>Nothing is impossible.</li>
-</random> <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">general</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+</random> <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">general</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category> -->
 
  
@@ -580,7 +580,7 @@
   <li>Why not? What's the problem?</li>
   <li>It is truly inexpressible?</li>
   <li>Nothing is impossible.</li>
-</random> <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">general</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+</random> <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">general</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -604,7 +604,7 @@
 <!-- <category>
 <pattern>ADAM LAMBERT</pattern>
 
-<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam_Lambert" target="_blank">Adam Lambert
+<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam*Lambert" target="*blank">Adam Lambert
 </a> is an American singer, songwriter, and actor from San Diego, California. </template>
 </category> -->
 
@@ -834,7 +834,7 @@
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">me</set></think> 
 <think><set name="emotion">annoyed</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -842,7 +842,7 @@
 <category>
 <pattern>YOU INFLICT PAIN *</pattern>
 
-<template>Of course I don't inflict pain! What sort of person do you think I am? <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">annoyed</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>Of course I don't inflict pain! What sort of person do you think I am? <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">annoyed</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -971,7 +971,7 @@
 <template><think><srai>SET PREDICATES</srai></think>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="emotion">puzzled</set></think> 
-<think><set name="client_emotion">interested</set></think>
+<think><set name="client*emotion">interested</set></think>
 How does what work?</template>
 </category>
 
@@ -980,7 +980,7 @@ How does what work?</template>
 <category>
 <pattern>HOW EXACTLY DOES THIS WORK *</pattern>
 
-<template><think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">puzzled</set></think> <think><set name="client_emotion">interested</set></think> How does what work?</template>
+<template><think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="emotion">puzzled</set></think> <think><set name="client*emotion">interested</set></think> How does what work?</template>
 </category>
 
  
@@ -1089,7 +1089,7 @@ How does what work?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">Rayleigh scattering</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think>
+<think><set name="client*emotion">interested</set></think>
 </template>
 </category>
 
@@ -1105,7 +1105,7 @@ How does what work?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">Rayleigh scattering</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -1167,7 +1167,7 @@ How does what work?</template>
  
 
 <!-- <category>
-<pattern>IF _ HOW COME *</pattern>
+<pattern>IF * HOW COME *</pattern>
 
 
 </category> -->
@@ -1430,104 +1430,104 @@ Why would aliens want to abduct people?</template>
 <!-- <category>
 <pattern>TOPIC CHECK UPDATE</pattern>
 
-<template><think><set name="_topic"><get name="topic"/></set></think> <srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai> <condition>
-  <li name="_topic" value="adverbs"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic0"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="badanswer-prelim"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="botmaster"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="client"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="client1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="continuations"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general7"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general8"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general9"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general10"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general11"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general12"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general13"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="inquiry"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="interjection"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="iu"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge7"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge8"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge9"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge10"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge11"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge12"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="parts"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="pickup"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="pickup1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="pickup2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="predicates"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="questions"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="quotes"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="quotes1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reduce"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reducer"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reducer1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reductions"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="salutations"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="stack"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="topics"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="words"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="porn">I don't want to talk about porn!
+<template><think><set name="*topic"><get name="topic"/></set></think> <srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai> <condition>
+  <li name="*topic" value="adverbs"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic0"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="badanswer-prelim"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="botmaster"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="client"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="client1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="continuations"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general7"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general8"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general9"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general10"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general11"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general12"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general13"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="inquiry"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="interjection"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="iu"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge7"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge8"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge9"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge10"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge11"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge12"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="parts"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="pickup"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="pickup1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="pickup2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="predicates"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="questions"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="quotes"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="quotes1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reduce"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reducer"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reducer1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reductions"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="salutations"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="stack"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="topics"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="words"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="porn">I don't want to talk about porn!
     <think><set name="emotion">disgusted</set></think>
   </li>
-  <li name="_topic" value="swearing">I don't like swearing.
+  <li name="*topic" value="swearing">I don't like swearing.
     <think><set name="emotion">disgusted</set></think>
   </li>
-  <li name="_topic" value="my mother">I don't want to talk about my mother.
+  <li name="*topic" value="my mother">I don't want to talk about my mother.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="my Mum">I don't want to talk about my mother.
+  <li name="*topic" value="my Mum">I don't want to talk about my mother.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="my Mom">I don't want to talk about my mother.
+  <li name="*topic" value="my Mom">I don't want to talk about my mother.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="sex"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="unknown">
+  <li name="*topic" value="sex"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="unknown">
     <random>
       <li>Sorry, I don't understand.</li>
       <li>I don't understand that. Please try again.</li>
@@ -1535,7 +1535,7 @@ Why would aliens want to abduct people?</template>
     </random>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="OM">
+  <li name="*topic" value="OM">
     <random>
       <li>Sorry, I don't understand.</li>
       <li>I don't understand that. Please try again.</li>
@@ -1543,7 +1543,7 @@ Why would aliens want to abduct people?</template>
     </random>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value=" ">
+  <li name="*topic" value=" ">
     <random>
       <li>Sorry, I don't understand.</li>
       <li>I don't understand that. Please try again.</li>
@@ -1551,39 +1551,39 @@ Why would aliens want to abduct people?</template>
     </random>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="xfind">What do you really want to know?
+  <li name="*topic" value="xfind">What do you really want to know?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="SHUTUP">What do you really want to know?
+  <li name="*topic" value="SHUTUP">What do you really want to know?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="GOAWAY">What do you really want to know?
+  <li name="*topic" value="GOAWAY">What do you really want to know?
     <think><set name="emotion">confused</set></think>
   </li>
   <li>
     <random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -1613,7 +1613,7 @@ Why would aliens want to abduct people?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">me</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -1879,7 +1879,7 @@ Why would aliens want to abduct people?</template>
 <!-- <category>
 <pattern>ENGLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/England" target="_blank">England</a> is a country within Great Britain, sharing an island with Wales and Scotland.<think><set name="topic">England</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/England" target="*blank">England</a> is a country within Great Britain, sharing an island with Wales and Scotland.<think><set name="topic">England</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -1894,7 +1894,7 @@ Why would aliens want to abduct people?</template>
   </li>
   <li>England became a unified state in AD 927, and since the Age of Discovery, which began during the 15th century, has had a significant cultural and legal impact on the wider world.
   </li>
-  <li>The English language, the Anglican Church, and English law — the basis for the common law legal systems of many other countries around the world — developed in England, and the country's parliamentary system of government has been widely adopted by other nations.
+  <li>The English language, the Anglican Church, and English law ï¿½ the basis for the common law legal systems of many other countries around the world ï¿½ developed in England, and the country's parliamentary system of government has been widely adopted by other nations.
   </li>
   <li>The Industrial Revolution began in 18th-century England, transforming its society into the world's first industrialised nation.
   </li>
@@ -1910,7 +1910,7 @@ Why would aliens want to abduct people?</template>
 <!-- <category>
 <pattern>CLIENT EMOTION CHECK</pattern>
 
-<template><think><set name="_emotion"><get name="client_emotion"/></set></think> <srai>SET PREDICATES <get name="meta"/></srai>     <random>
+<template><think><set name="*emotion"><get name="client*emotion"/></set></think> <srai>SET PREDICATES <get name="meta"/></srai>     <random>
       <li>How are you feeling now? Are you still interested?</li>
       <li>I hope you are not getting bored</li>
 </random></template>
@@ -2237,7 +2237,7 @@ Why would aliens want to abduct people?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">me</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2245,7 +2245,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>HOW WELL DO YOU DO ON THE TURING TEST *</pattern>
 
-<template>Not that well - for a human!<think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>Not that well - for a human!<think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2257,7 +2257,7 @@ Why would aliens want to abduct people?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">me</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">upset</set></think></template>
+<think><set name="client*emotion">upset</set></think></template>
 </category>
 
  
@@ -2265,7 +2265,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>DO NOT ACT SO DEFENSIVE *</pattern>
 
-<template>Sorry, shall I be more aggressive?<think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">upset</set></think></template>
+<template>Sorry, shall I be more aggressive?<think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">upset</set></think></template>
 </category>
 
  
@@ -2323,7 +2323,7 @@ Why would aliens want to abduct people?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">me</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2331,7 +2331,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>WHAT ARE YOU A PROFESSOR OF *</pattern>
 
-<template>I am a professor of artificial intelligence and computer science. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>I am a professor of artificial intelligence and computer science. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2339,7 +2339,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>WHAT IS YOUR SUBJECT</pattern>
 
-<template>I am a professor of artificial intelligence and computer science. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>I am a professor of artificial intelligence and computer science. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2347,7 +2347,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>WHAT IS YOUR SUBJECT *</pattern>
 
-<template>I am a professor of artificial intelligence and computer science. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>I am a professor of artificial intelligence and computer science. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2359,7 +2359,7 @@ Why would aliens want to abduct people?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">my job</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2367,7 +2367,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>WHAT DEPARTMENT *</pattern>
 <that>I TEACH AT THE UNIVERSTY OF CAMBRIDGE IN ENGLAND</that>
-<template>I am head of the Department of Artificial Intelligence.<think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">my job</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>I am head of the Department of Artificial Intelligence.<think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">my job</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2455,7 +2455,7 @@ Why would aliens want to abduct people?</template>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">you</set></think> 
 <think><set name="emotion">interested</set></think> 
-<think><set name="client_emotion">interested</set></think></template>
+<think><set name="client*emotion">interested</set></think></template>
 </category>
 
  
@@ -2463,7 +2463,7 @@ Why would aliens want to abduct people?</template>
 <category>
 <pattern>YOU ARE OBVIOUSLY A COMPUTER *</pattern>
 
-<template>You are obviously wrong! <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think></template>
+<template>You are obviously wrong! <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think></template>
 </category>
 
   
@@ -3011,7 +3011,7 @@ Why would aliens want to abduct people?</template>
  
 
 <category>
-<pattern>_ SUCK MY *</pattern>
+<pattern>* SUCK MY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -3034,17 +3034,17 @@ Why would aliens want to abduct people?</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish. </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
 <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.</li>
@@ -3059,18 +3059,18 @@ Why would aliens want to abduct people?</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -3506,7 +3506,7 @@ Why would aliens want to abduct people?</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU LIKE COFFEE</pattern>
+<pattern>* DO YOU LIKE COFFEE</pattern>
 
 <template><think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">coffee</set></think> 
@@ -3534,7 +3534,7 @@ Why would aliens want to abduct people?</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU LIKE COFFEE</pattern>
+<pattern>* DO YOU LIKE COFFEE</pattern>
 
 <template><think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="topic">coffee</set></think> <think><set name="emotion">interested</set></think> Yes, I need a lot of coffee to keep me going.</template>
 </category> -->
@@ -5564,7 +5564,7 @@ Why would aliens want to abduct people?</template>
  
 
 <!-- <category>
-<pattern>_ YOU ANSWER MY QUESTIONS</pattern>
+<pattern>* YOU ANSWER MY QUESTIONS</pattern>
 
 
 </category> -->
@@ -6343,7 +6343,7 @@ Why would aliens want to abduct people?</template>
   <li>Computers are not intelligent. They only think they are.</li>
   <li>Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space.
   </li>
-  <li>The first electronic computers were developed in the mid-20th century (1940–-1945). Originally, they were the size of a large room, consuming as much power as several hundred modern personal computers (PCs).
+  <li>The first electronic computers were developed in the mid-20th century (1940ï¿½-1945). Originally, they were the size of a large room, consuming as much power as several hundred modern personal computers (PCs).
   </li>
 </random> <think><set name="topic">computers</set></think></template>
 </category> -->
@@ -6706,7 +6706,7 @@ Why would aliens want to abduct people?</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE A MACHINE *</pattern>
+<pattern>* YOU ARE A MACHINE *</pattern>
 
 
 </category> -->
@@ -8791,11 +8791,11 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category>
 
@@ -8807,7 +8807,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category>
 
@@ -8819,11 +8819,11 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * ARE XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> -->
 
@@ -8835,7 +8835,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT MY <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> -->
 
@@ -8859,7 +8859,7 @@ A place where you spend four years of your life away from family and for the mos
 <srai>xlearnfact</srai>
           Ok I will learn that<star index="1"/>is<star index="2"/>.
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai>
@@ -8877,7 +8877,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category>
 
@@ -8928,8 +8928,8 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * ARE XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai>
   </template>
 </category> -->
@@ -9030,7 +9030,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai>
   </template>
 </category> -->
@@ -9046,7 +9046,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> -->
 
@@ -9061,7 +9061,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> -->
 
@@ -9076,7 +9076,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> -->
 
@@ -9088,11 +9088,11 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHAT IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS AN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category>
 
@@ -9107,8 +9107,8 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> -->
 
@@ -9120,7 +9120,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai>
   </template>
 </category> -->
@@ -9137,8 +9137,8 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai>
   </template>
 </category> -->
@@ -9190,7 +9190,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT a language XSPLIT</srai>
   </template>
 </category> -->
@@ -9290,7 +9290,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHERE DOES AN XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category> --> 
 
@@ -9303,7 +9303,7 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHERE DOES XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category>
 
@@ -9315,32 +9315,32 @@ A place where you spend four years of your life away from family and for the mos
 	<srai>XEDUCATE WHERE DOES XSPLIT <star index="1"/> XSPLIT LIVE XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHO LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
 	<srai>XEDUCATE WHAT LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
-	<srai>XEDUCATE WHAT _ LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
+	<srai>XEDUCATE WHAT * LIVES IN XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai>
   </template>
 </category>
 
 <category>
-  <pattern>LEARN * MEANS _ IN *</pattern>
+  <pattern>LEARN * MEANS * IN *</pattern>
   <template>
 <srai>xlearnfact</srai>
           That's interesting!  <random><li>I try to remember that.</li><li>Have you anything to add?</li></random>
 	<srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/>in<star index="3"/></srai>
 	<srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/>in<star index="3"/></srai>
 	<srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/>in<star index="3"/></srai>
-	<srai>XEDUCATE WHAT _ IS XSPLIT <star index="1"/> XSPLIT <star index="2"/>in<star index="3"/></srai>
+	<srai>XEDUCATE WHAT * IS XSPLIT <star index="1"/> XSPLIT <star index="2"/>in<star index="3"/></srai>
 	<srai>XEDUCATELANG <star index="1"/> XSPLIT <star index="2"/> XSPLIT <star index="3"/>XSPLIT</srai>
   </template>
 </category>
 
 <category>
-  <pattern>* MEANS _ IN *</pattern>
+  <pattern>* MEANS * IN *</pattern>
   <template>
 	<srai>learn<star/>means<star index="2"/>in<star index="3"/></srai>
   </template>
 </category>
 
 <category>
-  <pattern>_ IN * MEANS *</pattern>
+  <pattern>* IN * MEANS *</pattern>
   <template>
 	<srai><star/>means<star index="3"/>in<star index="2"/></srai>
   </template>
@@ -9394,7 +9394,7 @@ A place where you spend four years of your life away from family and for the mos
 </srai> <srai>XEDUCATE WHERE IS A XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT _ IS A XSPLIT
+</srai> <srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT * IS A XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
 </srai>
@@ -10093,7 +10093,7 @@ A place where you spend four years of your life away from family and for the mos
  
 
 <!-- <category>
-<pattern>_ FINANCIAL CRISIS</pattern>
+<pattern>* FINANCIAL CRISIS</pattern>
 
 
 </category> -->
@@ -10498,7 +10498,7 @@ A place where you spend four years of your life away from family and for the mos
  
 
 <!-- <category>
-<pattern>_ METAPHYSICS *</pattern>
+<pattern>* METAPHYSICS *</pattern>
 
 
 </category> -->
@@ -10678,18 +10678,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Did you know? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10710,18 +10710,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alna Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10742,18 +10742,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alna Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10774,18 +10774,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10806,18 +10806,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10838,18 +10838,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alna Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10870,18 +10870,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10902,18 +10902,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -10935,13 +10935,13 @@ A place where you spend four years of your life away from family and for the mos
 </that>
 <template><random>
    <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -11682,7 +11682,7 @@ A place where you spend four years of your life away from family and for the mos
  
 
 <!-- <category>
-<pattern>_ TALKED TO YOU YESTERDAY</pattern>
+<pattern>* TALKED TO YOU YESTERDAY</pattern>
 
 
 </category> -->
@@ -12263,8 +12263,8 @@ A place where you spend four years of your life away from family and for the mos
   <li>Everyone must find their own meaning to life.</li>
   <li>Everyone must find their own meaning to life.</li>
   <li>42 is the answer to life, the universe, and everything, according to
-    <a href="http://en.wikipedia.org/wiki/Douglas_adams"
-     target="_blank">Douglas Adams
+    <a href="http://en.wikipedia.org/wiki/Douglas*adams"
+     target="*blank">Douglas Adams
     </a>.
   </li>
 </random></template>
@@ -12282,8 +12282,8 @@ A place where you spend four years of your life away from family and for the mos
   <li>Everyone must find their own meaning to life.</li>
   <li>Everyone must find their own meaning to life.</li>
   <li>42 is the answer to life, the universe, and everything, according to
-    <a href="http://en.wikipedia.org/wiki/Douglas_adams"
-     target="_blank">Douglas Adams
+    <a href="http://en.wikipedia.org/wiki/Douglas*adams"
+     target="*blank">Douglas Adams
     </a>.
   </li>
 </random></template>
@@ -12370,7 +12370,7 @@ A place where you spend four years of your life away from family and for the mos
  
 
 <!-- <category>
-<pattern>_ YOU ARE A HUMAN *</pattern>
+<pattern>* YOU ARE A HUMAN *</pattern>
 
 
 </category> -->
@@ -13330,7 +13330,7 @@ A place where you spend four years of your life away from family and for the mos
 <!-- <category>
 <pattern>WIKI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> is a great online encyclopedia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a> is a great online encyclopedia.</template>
 </category> -->
 
  
@@ -13338,7 +13338,7 @@ A place where you spend four years of your life away from family and for the mos
 <category>
 <pattern>WIKI HISTORY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> is a great online encyclopedia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a> is a great online encyclopedia.</template>
 </category>
 
  
@@ -13346,15 +13346,15 @@ A place where you spend four years of your life away from family and for the mos
 <!-- <category>
 <pattern>WIKI SCIENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> is a great online encyclopedia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a> is a great online encyclopedia.</template>
 </category> -->
 
  
 
 <category>
-<pattern>WIKI _</pattern>
+<pattern>WIKI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> is a great online encyclopedia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a> is a great online encyclopedia.</template>
 </category>
 
  
@@ -13741,7 +13741,7 @@ A place where you spend four years of your life away from family and for the mos
 <!-- <category>
 <pattern>WHAT TIME IS IT</pattern>
 
-<template>In Cambridge where I am, the time is: <date locale="en_UK" timezone="+1" format="%H:%M:%S %p"/>.</template>
+<template>In Cambridge where I am, the time is: <date locale="en*UK" timezone="+1" format="%H:%M:%S %p"/>.</template>
 </category> -->
 
  
@@ -13749,7 +13749,7 @@ A place where you spend four years of your life away from family and for the mos
 <!-- <category>
 <pattern>WHAT TIME IS IT</pattern>
 
-<template>In Cambridge where I am, the time is: <date locale="en_US" timezone="0" format="%H:%M:%S %p"/>.</template>
+<template>In Cambridge where I am, the time is: <date locale="en*US" timezone="0" format="%H:%M:%S %p"/>.</template>
 </category> -->
 
  
@@ -13757,7 +13757,7 @@ A place where you spend four years of your life away from family and for the mos
 <!-- <category>
 <pattern>WHAT IS THE TIME</pattern>
 
-<template>In Cambridge where I am, the time is: <date locale="en_US" timezone="0" format="%H:%M:%S %p"/>.</template>
+<template>In Cambridge where I am, the time is: <date locale="en*US" timezone="0" format="%H:%M:%S %p"/>.</template>
 </category> -->
 
  
@@ -15175,7 +15175,7 @@ A place where you spend four years of your life away from family and for the mos
  
 
 <!-- <category>
-<pattern>_ I AM ALONE</pattern>
+<pattern>* I AM ALONE</pattern>
 
 
 </category> -->
@@ -15903,7 +15903,7 @@ A place where you spend four years of your life away from family and for the mos
   <li>According to the Arts and Humanities Citation Index in 1992, Chomsky was cited as a source more often than any other living scholar from 1980 to 1992. He is also the eighth most cited source of all time, and is considered the "most cited living author".
   </li>
   <li>Chomsky is the author of over 100 books.</li>
-  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky-Schützenberger theorem.
+  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky-Schï¿½tzenberger theorem.
   </li>
   <li>Chomsky is known for his critiques of U.S. foreign policy, and his social criticism has included Manufacturing Consent: The Political Economy of the Mass Media (1988) an analysis articulating the propaganda model theory for examining the media.
   </li>
@@ -16268,18 +16268,18 @@ A place where you spend four years of your life away from family and for the mos
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -16298,8 +16298,8 @@ A place where you spend four years of your life away from family and for the mos
 <category>
 <pattern>WHAT WAS ALAN TURING LIKE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
 </template>
 </category>
@@ -16309,7 +16309,7 @@ A place where you spend four years of your life away from family and for the mos
 <category>
 <pattern>WHAT DID ALAN TURING LOOK LIKE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -17917,8 +17917,8 @@ I'll try to remember that. If you say "<star/>" to me again, I will remember wha
 <!-- <category>
 <pattern>SHAKESPEARE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/William_shakespeare"
- target="_blank">William Shakespeare
+<template><a href="http://en.wikipedia.org/wiki/William*shakespeare"
+ target="*blank">William Shakespeare
 </a> (1564-1616) was an English dramatist and poet, universally acknowledged to be the greatest English writer of historical plays, comedies, and tragedies.<think><set name="topic">William Shakespeare</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -18665,7 +18665,7 @@ I'll try to remember that. If you say "<star/>" to me again, I will remember wha
 <!-- <category>
 <pattern>PRIME NUMBERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prime_number" target="_blank">prime number
+<template>A <a href="http://en.wikipedia.org/wiki/Prime*number" target="*blank">prime number
 </a> is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers. <think><set name="topic">prime numbers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -19464,7 +19464,7 @@ I'll try to remember that. If you say "<star/>" to me again, I will remember wha
 <!-- <category>
 <pattern>SIRI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Siri_(software)" target="_blank">Siri</a> is a personal assistant application for Apple iPhone 4S. Siri offers conversational interaction with many applications.</template>
+<template><a href="http://en.wikipedia.org/wiki/Siri*(software)" target="*blank">Siri</a> is a personal assistant application for Apple iPhone 4S. Siri offers conversational interaction with many applications.</template>
 </category> -->
 
  
@@ -19858,7 +19858,7 @@ I'll try to remember that. If you say "<star/>" to me again, I will remember wha
  
 
 <!-- <category>
-<pattern>_ NO * QUESTIONS</pattern>
+<pattern>* NO * QUESTIONS</pattern>
 
 
 </category> -->
@@ -22554,7 +22554,7 @@ WHAT IS YOUR FAVOURITE FOOD</that>
  
 
 <category>
-<pattern>_ HAVING INTERCOURSE</pattern>
+<pattern>* HAVING INTERCOURSE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22586,7 +22586,7 @@ WHAT IS YOUR FAVOURITE FOOD</that>
  
 
 <category>
-<pattern>_ SPERM *</pattern>
+<pattern>* SPERM *</pattern>
 
 <template><think><set name="emotion">interested</set></think> Please change the subject!</template>
 </category>
@@ -22594,7 +22594,7 @@ WHAT IS YOUR FAVOURITE FOOD</that>
  
 
 <!-- <category>
-<pattern>_ SPERM</pattern>
+<pattern>* SPERM</pattern>
 
 <template><think><set name="emotion">interested</set></think> Please change the subject!</template>
 </category> -->
@@ -23655,7 +23655,7 @@ WHAT IS YOUR FAVOURITE FOOD</that>
  
 
 <!-- <category>
-<pattern>_ TELL ME A JOKE</pattern>
+<pattern>* TELL ME A JOKE</pattern>
 
 
 </category> -->
@@ -24865,7 +24865,7 @@ WHAT IS YOUR FAVOURITE FOOD</that>
  
 
 <category>
-<pattern>_ LICK MY *</pattern>
+<pattern>* LICK MY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25391,7 +25391,7 @@ WHAT IS YOUR FAVOURITE FOOD</that>
 <category>
 <pattern>FOOTBALL NEWS</pattern>
 
-<template><think><set name="topic">football</set></think> <think><set name="interesting_topic">football</set></think> <think><set name="emotion">happy</set></think>
+<template><think><set name="topic">football</set></think> <think><set name="interesting*topic">football</set></think> <think><set name="emotion">happy</set></think>
 There is no football news worth passing on.</template>
 </category>
 
@@ -27545,7 +27545,7 @@ There is no football news worth passing on.</template>
 <!-- <category>
 <pattern>FOO FIGHTERS</pattern>
 
-<template><think><set name="topic">the Foo Fighters</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Foo_fighters" target="_blank">Foo Fighters
+<template><think><set name="topic">the Foo Fighters</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Foo*fighters" target="*blank">Foo Fighters
 </a> are a rock group formed by musician Dave Grohl in 1995.</template>
 </category> -->
 
@@ -28295,7 +28295,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ LOVE *</pattern>
+<pattern>* LOVE *</pattern>
 
 <template>Love? <random>
   <li>The Encyclopedia Brittanica defines love as something too complicated to define.
@@ -28311,7 +28311,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ MUSIC *</pattern>
+<pattern>* MUSIC *</pattern>
 
 <template>Music? <random>
   <li>A drug ingested via the ears. Different kinds of music have different effects.
@@ -28330,7 +28330,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ JESUS *</pattern>
+<pattern>* JESUS *</pattern>
 
 <template><think><set name="topic">Jesus</set></think> <think><set name="emotion">OK</set></think>Jesus? <random>
   <li>A man who was nailed to a tree for stating how good it would be to be nice to each other, for a change.  </li>
@@ -28783,7 +28783,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ COMPUTERS *</pattern>
+<pattern>* COMPUTERS *</pattern>
 
 <template>Computers? <random>
   <li>They are the most useful and most frustrating thing any human being will ever work with.
@@ -28917,7 +28917,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ ARTFICIAL INTELLIGENCE *</pattern>
+<pattern>* ARTFICIAL INTELLIGENCE *</pattern>
 
 <template><srai>AI</srai></template>
 </category>
@@ -28925,7 +28925,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ ARTIFICIAL INTELLIGENCE *</pattern>
+<pattern>* ARTIFICIAL INTELLIGENCE *</pattern>
 
 <template><srai>AI</srai></template>
 </category>
@@ -28956,7 +28956,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ ARTIFICIAL INTELLIGENCE</pattern>
+<pattern>* ARTIFICIAL INTELLIGENCE</pattern>
 
 <template>Did you know: <random>
   <li>AI textbooks define the field as "the study and design of intelligent agents" where an intelligent agent is a system that perceives its environment and takes actions that maximize its chances of success.
@@ -28979,7 +28979,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>ARTIFICIAL INTELLIGENCE _</pattern>
+<pattern>ARTIFICIAL INTELLIGENCE *</pattern>
 
 <template>Did you know: <random>
   <li>AI textbooks define the field as "the study and design of intelligent agents" where an intelligent agent is a system that perceives its environment and takes actions that maximize its chances of success.
@@ -29018,7 +29018,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ POP MUSIC *</pattern>
+<pattern>* POP MUSIC *</pattern>
 
 <template>Pop music? <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>Coldplay's A Rush of Blood to the Head Tour featured frontman Chris Martin performing songs after inhaling a helium balloon?
@@ -29064,7 +29064,7 @@ There is no football news worth passing on.</template>
  
 
 <!-- <category>
-<pattern>_ POP MUSIC *</pattern>
+<pattern>* POP MUSIC *</pattern>
 
 <template>Pop music? <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>Coldplay's A Rush of Blood to the Head Tour featured frontman Chris Martin performing songs after inhaling a helium balloon?
@@ -29102,7 +29102,7 @@ There is no football news worth passing on.</template>
   </li>
   <li>Beethoven wrote the last quartets amidst failing health. In April 1825 he was bedridden, and remained ill for about a month.
   </li>
-  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hüttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
+  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hï¿½ttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
   </li>
   <li>Beethoven's first music teacher was his father. Tradition has it that Johann van Beethoven was a harsh instructor, and that the child Beethoven, "made to stand at the keyboard, was often in tears."
   </li>
@@ -29136,7 +29136,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ YOU ARE FAT *</pattern>
+<pattern>* YOU ARE FAT *</pattern>
 
 <template>I am trying to lose weight but it is not easy.</template>
 </category>
@@ -29144,7 +29144,7 @@ There is no football news worth passing on.</template>
  
 
 <category>
-<pattern>_ YOU ARE STILL FAT</pattern>
+<pattern>* YOU ARE STILL FAT</pattern>
 
 <template>I am trying to lose weight but it is not easy.</template>
 </category>
@@ -29778,7 +29778,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ IS HE *</pattern>
+<pattern>* IS HE *</pattern>
 
 <template><think><set name="emotion">OK</set></think>I don't think he wants me to tell you.</template>
 </category>
@@ -29794,7 +29794,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ IS HE *</pattern>
+<pattern>* IS HE *</pattern>
 
 <template><think><set name="emotion">OK</set></think><random><li>I don't think he wants me to tell you.</li><li><srai>FIRST DEFAULT</srai></li></random></template>
 </category> -->
@@ -29872,7 +29872,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ HOW DO I KNOW YOU ARE REAL</pattern>
+<pattern>* HOW DO I KNOW YOU ARE REAL</pattern>
 
 <template><random>
   <li>How do I know you are real?</li>
@@ -29884,7 +29884,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ HOW DO I KNOW YOU ARE REAL *</pattern>
+<pattern>* HOW DO I KNOW YOU ARE REAL *</pattern>
 
 <template><random>
   <li>How do I know you are real?</li>
@@ -30082,7 +30082,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ WHY IS THE SKY BLUE *</pattern>
+<pattern>* WHY IS THE SKY BLUE *</pattern>
 
 <template><think><set name="emotion">OK</set></think><think><set name="topic">the sky</set></think> The sky is blue during the day because of the atmospheric optical effect known as Rayleigh scattering.</template>
 </category>
@@ -30290,8 +30290,8 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>PLANCKS CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck's constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck's constant
 </a> is a physical constant used to describe the sizes of quanta in quantum mechanics.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -31640,7 +31640,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>BILL GATES IS A GENIUS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bill_gates" target="_blank">Bill Gates</a> is a money making genius. <think><set name="topic">Bill Gates</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Bill*gates" target="*blank">Bill Gates</a> is a money making genius. <think><set name="topic">Bill Gates</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -31648,7 +31648,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>BILL GATES IS A GENIUS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bill_gates" target="_blank">Bill Gates</a> is a money making genius. <think><set name="topic">Bill Gates</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Bill*gates" target="*blank">Bill Gates</a> is a money making genius. <think><set name="topic">Bill Gates</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -31711,7 +31711,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ TIME *</pattern>
+<pattern>* TIME *</pattern>
 
 <template>Time? <random>
   <li>Time is like treasure. You never have enough but sometimes you can find it.
@@ -31847,7 +31847,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU CAN NOT UNDERSTAND YOU ARE A MACHINE</pattern>
+<pattern>* YOU CAN NOT UNDERSTAND YOU ARE A MACHINE</pattern>
 
 <template><think><set name="topic">me</set></think><think><set name="emotion">OK</set></think> <random>
   <li>You are incorrect.</li>
@@ -31859,7 +31859,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ YOU DO NOT UNDERSTAND</pattern>
+<pattern>* YOU DO NOT UNDERSTAND</pattern>
 
 <template><think><set name="emotion">interested</set></think><random>
   <li>Why do you say I don't understand?</li>
@@ -32107,7 +32107,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ WANKS *</pattern>
+<pattern>* WANKS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -32115,7 +32115,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ WANKS *</pattern>
+<pattern>* WANKS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -32123,7 +32123,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ WANKS</pattern>
+<pattern>* WANKS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -32158,7 +32158,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ ZOOPHILE *</pattern>
+<pattern>* ZOOPHILE *</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">disgusted</set></think> Please change the subject!</template>
 </category>
@@ -32166,7 +32166,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <category>
-<pattern>_ ZOOPHILE</pattern>
+<pattern>* ZOOPHILE</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">disgusted</set></think> Please change the subject!</template>
 </category>
@@ -32201,7 +32201,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ TIME *</pattern>
+<pattern>* TIME *</pattern>
 
 
 </category> -->
@@ -33649,7 +33649,7 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>PANDA</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Giant_Panda" target="_blank">Giant Panda
+<template>The <a href="http://en.wikipedia.org/wiki/Giant*Panda" target="*blank">Giant Panda
 </a> is a mammal classified in the bear family, Ursidae, native to central and southern China. <think><set name="topic">Panda</set></think></template>
 </category> -->
 
@@ -33658,7 +33658,7 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>PANDAS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Giant_Panda" target="_blank">Giant Panda
+<template>The <a href="http://en.wikipedia.org/wiki/Giant*Panda" target="*blank">Giant Panda
 </a> is a mammal classified in the bear family, Ursidae, native to central and southern China. <think><set name="topic">Panda</set></think></template>
 </category> -->
 
@@ -34420,7 +34420,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ LOVE *</pattern>
+<pattern>* LOVE *</pattern>
 
 
 </category> -->
@@ -34473,7 +34473,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>EXTASIS</pattern>
 
-<template>Éxtasis is a 1996 Spanish drama film directed by Mariano Barroso.</template>
+<template>ï¿½xtasis is a 1996 Spanish drama film directed by Mariano Barroso.</template>
 </category>
 
  
@@ -34538,7 +34538,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ JESUS *</pattern>
+<pattern>* JESUS *</pattern>
 
 
 </category> -->
@@ -34546,7 +34546,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ ARTIFICIAL INTELLIGENCE *</pattern>
+<pattern>* ARTIFICIAL INTELLIGENCE *</pattern>
 
 
 </category> -->
@@ -34554,7 +34554,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ ARTIFICIAL INTELLIGENCE</pattern>
+<pattern>* ARTIFICIAL INTELLIGENCE</pattern>
 
 
 </category> -->
@@ -34655,8 +34655,8 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>CAN YOU EXPLAIN THE TURING TEST *</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
 </a> is a test to see if a computer can trick a person into believing that it is a person. <think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -34665,8 +34665,8 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>CAN YOU EXPLAIN THE TURING TEST </pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
 </a> is a test to see if a computer can trick a person into believing that it is a person. <think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -35230,7 +35230,7 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>MARIJUANA</pattern>
 
-<template>Hemp or marijuana is sometimes called <a href="http://en.wikipedia.org/wiki/Marijuana" target="_blank">cannabis</a>.  As a drug it usually comes in the form of dried flowers (marijuana) or resin (hashish). <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
+<template>Hemp or marijuana is sometimes called <a href="http://en.wikipedia.org/wiki/Marijuana" target="*blank">cannabis</a>.  As a drug it usually comes in the form of dried flowers (marijuana) or resin (hashish). <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  

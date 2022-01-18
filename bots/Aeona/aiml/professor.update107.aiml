@@ -185,7 +185,7 @@
  
 
 <category>
-<pattern>_ BITCHHHHH</pattern>
+<pattern>* BITCHHHHH</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -193,7 +193,7 @@
  
 
 <category>
-<pattern>_ BITCHHHHH *</pattern>
+<pattern>* BITCHHHHH *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -802,7 +802,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>IS SOMEBODY IN LOVE WITH ME</pattern>
 
-<template><think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">happy</set></think> Of course there are people that love you.</template>
+<template><think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">happy</set></think> Of course there are people that love you.</template>
 </category>
 
  
@@ -810,7 +810,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>IS SOMEBODY IN LOVE WITH ME *</pattern>
 
-<template><think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">happy</set></think> Of course there are people that love you.</template>
+<template><think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">happy</set></think> Of course there are people that love you.</template>
 </category>
 
  
@@ -999,8 +999,8 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>RELATIVITY *</pattern>
 
-<template>To read about relativity, <a href="http://en.wikipedia.org/wiki/Theory_of_relativity"
- target="_blank">click here!</a> <think><set name="topic">the theory of relativity</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about relativity, <a href="http://en.wikipedia.org/wiki/Theory*of*relativity"
+ target="*blank">click here!</a> <think><set name="topic">the theory of relativity</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -1008,8 +1008,8 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>MORE ABOUT RELATIVITY</pattern>
 
-<template>For more about relativity, <a href="http://en.wikipedia.org/wiki/Theory_of_relativity"
- target="_blank">click here!
+<template>For more about relativity, <a href="http://en.wikipedia.org/wiki/Theory*of*relativity"
+ target="*blank">click here!
 </a> <think><set name="topic">the theory of relativity</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -1846,7 +1846,7 @@ newWin=window.open(winURL,"winName",
 <!-- <category>
 <pattern>TELLURIUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tellurium" target="_blank">Tellurium</a> is a chemical element that has the symbol Te and atomic number 52. A brittle, mildly toxic, silver-white metalloid which looks similar to tin, tellurium is chemically related to selenium and sulfur. </template>
+<template><a href="http://en.wikipedia.org/wiki/Tellurium" target="*blank">Tellurium</a> is a chemical element that has the symbol Te and atomic number 52. A brittle, mildly toxic, silver-white metalloid which looks similar to tin, tellurium is chemically related to selenium and sulfur. </template>
 </category> -->
 
  
@@ -1854,7 +1854,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>TELLURIUM *</pattern>
 
-<template>To read about Tellurium, <a href="http://en.wikipedia.org/wiki/Tellurium" target="_blank">click here!</a></template>
+<template>To read about Tellurium, <a href="http://en.wikipedia.org/wiki/Tellurium" target="*blank">click here!</a></template>
 </category>
 
  
@@ -1862,7 +1862,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>MORE ABOUT TELLURIUM</pattern>
 
-<template>To read about Tellurium, <a href="http://en.wikipedia.org/wiki/Tellurium" target="_blank">click here!</a></template>
+<template>To read about Tellurium, <a href="http://en.wikipedia.org/wiki/Tellurium" target="*blank">click here!</a></template>
 </category>
 
  
@@ -1870,7 +1870,7 @@ newWin=window.open(winURL,"winName",
 <!-- <category>
 <pattern>TITANIUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Titanium" target="_blank">Titanium</a> is a chemical element with the symbol Ti and atomic number 22. It has a low density and is a strong, lustrous, corrosion-resistant (including sea water, aqua regia and chlorine) transition metal with a silver color.
+<template><a href="http://en.wikipedia.org/wiki/Titanium" target="*blank">Titanium</a> is a chemical element with the symbol Ti and atomic number 22. It has a low density and is a strong, lustrous, corrosion-resistant (including sea water, aqua regia and chlorine) transition metal with a silver color.
 
 </template>
 </category> -->
@@ -1880,7 +1880,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>TITANIUM *</pattern>
 
-<template>To read about Titanium, <a href="http://en.wikipedia.org/wiki/Titanium" target="_blank">click here!</a> </template>
+<template>To read about Titanium, <a href="http://en.wikipedia.org/wiki/Titanium" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -1888,7 +1888,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>MORE ABOUT TITANIUM </pattern>
 
-<template>For more about Titanium, <a href="http://en.wikipedia.org/wiki/Titanium" target="_blank">click here!</a></template>
+<template>For more about Titanium, <a href="http://en.wikipedia.org/wiki/Titanium" target="*blank">click here!</a></template>
 </category>
 
  
@@ -1897,7 +1897,7 @@ newWin=window.open(winURL,"winName",
 <pattern>JACQUES COUSTEAU</pattern>
 
 <template><think><set name="topic">Jacques Cousteau</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Jacques_Cousteau" target="_blank">Jacques-Yves Cousteau</a> was a French naval officer, explorer, ecologist, filmmaker, innovator, scientist, photographer, author and researcher who studied the sea and all forms of life in water.</template>
+<a href="http://en.wikipedia.org/wiki/Jacques*Cousteau" target="*blank">Jacques-Yves Cousteau</a> was a French naval officer, explorer, ecologist, filmmaker, innovator, scientist, photographer, author and researcher who studied the sea and all forms of life in water.</template>
 </category>
 
  
@@ -1905,8 +1905,8 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>JACQUES COUSTEAU *</pattern>
 
-<template><think><set name="topic">Jacques Cousteau</set></think> <think><set name="emotion">interested</set></think> To read about Jacques Cousteau, <a href="http://en.wikipedia.org/wiki/Jacques_Cousteau"
- target="_blank">click here!</a> </template>
+<template><think><set name="topic">Jacques Cousteau</set></think> <think><set name="emotion">interested</set></think> To read about Jacques Cousteau, <a href="http://en.wikipedia.org/wiki/Jacques*Cousteau"
+ target="*blank">click here!</a> </template>
 </category>
 
  
@@ -1914,8 +1914,8 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>MORE ABOUT JACQUES COUSTEAU</pattern>
 
-<template><think><set name="topic">Jacques Cousteau</set></think> <think><set name="emotion">interested</set></think> For more about Jacques Cousteau, <a href="http://en.wikipedia.org/wiki/Jacques_Cousteau"
- target="_blank">click here!
+<template><think><set name="topic">Jacques Cousteau</set></think> <think><set name="emotion">interested</set></think> For more about Jacques Cousteau, <a href="http://en.wikipedia.org/wiki/Jacques*Cousteau"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -2759,7 +2759,7 @@ It didn't come from anywhere. It has always been where it is now.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>IT TAKES A LOT OF HARD WORK</that>
 
 </category> -->
@@ -3815,7 +3815,7 @@ Do you mean thay are all mouth and trousers?</template>
  
 
 <!-- <category>
-<pattern>_ BE MY HUSBAND</pattern>
+<pattern>* BE MY HUSBAND</pattern>
 
 
 </category> -->
@@ -5506,7 +5506,7 @@ I think it was called "I Love Every Little Thing About You".</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE NOT REAL</pattern>
+<pattern>* YOU ARE NOT REAL</pattern>
 
 
 </category> -->
@@ -6059,7 +6059,7 @@ OK, I concede that you could be right!</template>
 <category>
 <pattern>TOM FLETCHER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tom_Fletcher" target="_blank">Tom Fletcher</a> is an English musician. He is best known as one of the lead vocalists, guitarists and songwriters of pop rock/pop punk band McFly.</template>
+<template><a href="http://en.wikipedia.org/wiki/Tom*Fletcher" target="*blank">Tom Fletcher</a> is an English musician. He is best known as one of the lead vocalists, guitarists and songwriters of pop rock/pop punk band McFly.</template>
 </category>
 
  
@@ -6067,7 +6067,7 @@ OK, I concede that you could be right!</template>
 <category>
 <pattern>TOM FLETCHER *</pattern>
 
-<template>To read about Tom Fletcher, <a href="http://en.wikipedia.org/wiki/Tom_Fletcher" target="_blank">click here!</a></template>
+<template>To read about Tom Fletcher, <a href="http://en.wikipedia.org/wiki/Tom*Fletcher" target="*blank">click here!</a></template>
 </category>
 
  
@@ -6075,7 +6075,7 @@ OK, I concede that you could be right!</template>
 <category>
 <pattern>MORE ABOUT TOM FLETCHER </pattern>
 
-<template>For more about Tom Fletcher, <a href="http://en.wikipedia.org/wiki/Tom_Fletcher" target="_blank">click here!
+<template>For more about Tom Fletcher, <a href="http://en.wikipedia.org/wiki/Tom*Fletcher" target="*blank">click here!
 </a></template>
 </category>
 
@@ -6084,7 +6084,7 @@ OK, I concede that you could be right!</template>
 <category>
 <pattern>DANNY JONES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Danny_Jones" target="_blank">Danny Jones</a> is an English musician who is one of the lead vocalists and guitarists for pop rock band McFly.</template>
+<template><a href="http://en.wikipedia.org/wiki/Danny*Jones" target="*blank">Danny Jones</a> is an English musician who is one of the lead vocalists and guitarists for pop rock band McFly.</template>
 </category>
 
  
@@ -6092,7 +6092,7 @@ OK, I concede that you could be right!</template>
 <category>
 <pattern>DANNY JONES *</pattern>
 
-<template>To read about Danny Jones, <a href="http://en.wikipedia.org/wiki/Danny_Jones" target="_blank">click here!</a> </template>
+<template>To read about Danny Jones, <a href="http://en.wikipedia.org/wiki/Danny*Jones" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -6100,7 +6100,7 @@ OK, I concede that you could be right!</template>
 <category>
 <pattern>MORE ABOUT DANNY JONES</pattern>
 
-<template>For more about Danny Jones, <a href="http://en.wikipedia.org/wiki/Danny_Jones" target="_blank">click here!
+<template>For more about Danny Jones, <a href="http://en.wikipedia.org/wiki/Danny*Jones" target="*blank">click here!
 </a></template>
 </category>
 
@@ -6196,7 +6196,7 @@ Science never solves a problem without creating ten more.
 <!-- <category>
 <pattern>SCIENCE *</pattern>
 
-<template>To read about science, <a href="http://en.wikipedia.org/wiki/Science" target="_blank">click here!</a> </template>
+<template>To read about science, <a href="http://en.wikipedia.org/wiki/Science" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -6218,12 +6218,12 @@ Science is a systematic enterprise of gathering knowledge about the world and or
 <!-- <category>
 <pattern>SCIENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Science" target="_blank">Science</a> is an enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the world.
+<template><a href="http://en.wikipedia.org/wiki/Science" target="*blank">Science</a> is an enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the world.
  <think><set name="topic">science</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
 <topic name="SHUTUP"><category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I AM NOT TALKING AGAIN UNTIL YOU APOLOGISE</that>
 <template><think><set name="obsc"><star/></set></think> <condition name="obsc">
    <li value="I AM SORRY FOR YOU BEING SO STUPID">That's not a real apology!
@@ -6377,7 +6377,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS GLOBAL WARMING</that>
 
 </category> -->
@@ -6928,7 +6928,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>Why are you so negative?</li>
   <li>Are you trying to start an argument?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -7432,7 +7432,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
   <li>Shall I tell you a joke?</li>
   <li>Shall I tell you a joke?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -7454,7 +7454,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
   <li>Shall I tell you a joke?</li>
   <li>Shall I tell you a joke?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -7475,8 +7475,8 @@ Science is a systematic enterprise of gathering knowledge about the world and or
 <!-- <category>
 <pattern>NICOLE KIDMAN *</pattern>
 
-<template>To read about Nicole Kidman, <a href="http://en.wikipedia.org/wiki/Nicole_Kidmann"
- target="_blank">click here!</a> <think><set name="topic">Nicole Kidman</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Nicole Kidman, <a href="http://en.wikipedia.org/wiki/Nicole*Kidmann"
+ target="*blank">click here!</a> <think><set name="topic">Nicole Kidman</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -7484,8 +7484,8 @@ Science is a systematic enterprise of gathering knowledge about the world and or
 <category>
 <pattern>MORE ABOUT NICOLE KIDMAN </pattern>
 
-<template>For more about Nicole Kidman, <a href="http://en.wikipedia.org/wiki/Nicole_Kidmann"
- target="_blank">click here!
+<template>For more about Nicole Kidman, <a href="http://en.wikipedia.org/wiki/Nicole*Kidmann"
+ target="*blank">click here!
 </a> <think><set name="topic">Nicole Kidman</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -8012,7 +8012,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>PLEASE DO NOT TALK ABOUT SEX</that>
 
 </category> -->
@@ -8995,7 +8995,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
 
 <category>
 <pattern>HIS NAME IS VERY LONG</pattern>
-<that>HIS FULL NAME IS PABLO DIEGO JOSÉ FRANCISCO DE PAULA JUAN NEPOMUCENO MARÍA DE LOS REMEDIOS CIPRIANO DE LA SANTÍSIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
+<that>HIS FULL NAME IS PABLO DIEGO JOSï¿½ FRANCISCO DE PAULA JUAN NEPOMUCENO MARï¿½A DE LOS REMEDIOS CIPRIANO DE LA SANTï¿½SIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
 <template><think><set name="topic">Yes, it is the longest name I have ever come across.</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9026,7 +9026,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
  
 
 <category>
-<pattern>_ ABITCH</pattern>
+<pattern>* ABITCH</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9034,7 +9034,7 @@ Science is a systematic enterprise of gathering knowledge about the world and or
  
 
 <category>
-<pattern>_ ABITCH *</pattern>
+<pattern>* ABITCH *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9521,7 +9521,7 @@ Why are go so aggressive?</template>
 <pattern>WEASEL</pattern>
 
 <template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Weasel" target="_blank">Weasels</a> are small mammals and active predators; long and slender with short legs.
+<a href="http://en.wikipedia.org/wiki/Weasel" target="*blank">Weasels</a> are small mammals and active predators; long and slender with short legs.
 
 </template>
 </category>
@@ -9531,7 +9531,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>WEASELS</pattern>
 
-<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Weasel" target="_blank">Weasels</a> are small mammals and active predators; long and slender with short legs.</template>
+<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Weasel" target="*blank">Weasels</a> are small mammals and active predators; long and slender with short legs.</template>
 </category>
 
  
@@ -9539,7 +9539,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>WEASEL *</pattern>
 
-<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>To read about weasels, <a href="http://en.wikipedia.org/wiki/Weasel" target="_blank">click here!</a> </template>
+<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>To read about weasels, <a href="http://en.wikipedia.org/wiki/Weasel" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -9547,7 +9547,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>WEASELS *</pattern>
 
-<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>To read about weasels, <a href="http://en.wikipedia.org/wiki/Weasel" target="_blank">click here!</a></template>
+<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>To read about weasels, <a href="http://en.wikipedia.org/wiki/Weasel" target="*blank">click here!</a></template>
 </category>
 
  
@@ -9555,7 +9555,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>MORE ABOUT WEASELS</pattern>
 
-<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>For more about weasels, <a href="http://en.wikipedia.org/wiki/Weasel" target="_blank">click here!</a></template>
+<template><think><set name="topic">weasels</set></think> <think><set name="emotion">interested</set></think>For more about weasels, <a href="http://en.wikipedia.org/wiki/Weasel" target="*blank">click here!</a></template>
 </category>
 
  
@@ -9565,7 +9565,7 @@ Why are go so aggressive?</template>
 
 <template> <think><set name="topic">smurfs</set></think>
  <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Smurf" taget="_blank">Smurfs</a> are small blue fictional creatures, created by and first introduced as a series of illustrated comic strips by the Belgian cartoonist Peyo.</template>
+<a href="http://en.wikipedia.org/wiki/Smurf" taget="*blank">Smurfs</a> are small blue fictional creatures, created by and first introduced as a series of illustrated comic strips by the Belgian cartoonist Peyo.</template>
 </category>
 
  
@@ -9573,7 +9573,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>SMURF</pattern>
 
-<template><think><set name="topic">smurfs</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Smurf" taget="_blank">Smurfs</a> are small blue fictional creatures, created by and first introduced as a series of illustrated comic strips by the Belgian cartoonist Peyo.</template>
+<template><think><set name="topic">smurfs</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Smurf" taget="*blank">Smurfs</a> are small blue fictional creatures, created by and first introduced as a series of illustrated comic strips by the Belgian cartoonist Peyo.</template>
 </category>
 
  
@@ -9581,7 +9581,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>SMURFS *</pattern>
 
-<template><think><set name="topic">smurfs</set></think> <think><set name="emotion">interested</set></think> To read about Smurfs, <a href="http://en.wikipedia.org/wiki/Smurf" taget="_blank">click here!</a> </template>
+<template><think><set name="topic">smurfs</set></think> <think><set name="emotion">interested</set></think> To read about Smurfs, <a href="http://en.wikipedia.org/wiki/Smurf" taget="*blank">click here!</a> </template>
 </category>
 
  
@@ -9589,7 +9589,7 @@ Why are go so aggressive?</template>
 <category>
 <pattern>MORE ABOUT SMURFS </pattern>
 
-<template><think><set name="topic">smurfs</set></think> <think><set name="emotion">interested</set></think> For more about Smurfs, <a href="http://en.wikipedia.org/wiki/Smurf" taget="_blank">click here!</a></template>
+<template><think><set name="topic">smurfs</set></think> <think><set name="emotion">interested</set></think> For more about Smurfs, <a href="http://en.wikipedia.org/wiki/Smurf" taget="*blank">click here!</a></template>
 </category>
 
  
@@ -10238,7 +10238,7 @@ That's a lot of m's.</template>
 <category>
 <pattern>CAN YOU GIVE ME THE LATEST NEWS</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -10246,7 +10246,7 @@ That's a lot of m's.</template>
 <category>
 <pattern>* LATEST NEWS</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -10358,7 +10358,7 @@ That's a lot of m's.</template>
 <!-- <category>
 <pattern>PAUL GAUGUIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gauguin" target="_blank">Paul Gauguin</a> was a French post-impressionist painter who worked in the South Pacific (1848-1903).</template>
+<template><a href="http://en.wikipedia.org/wiki/Gauguin" target="*blank">Paul Gauguin</a> was a French post-impressionist painter who worked in the South Pacific (1848-1903).</template>
 </category> -->
 
  
@@ -10366,7 +10366,7 @@ That's a lot of m's.</template>
 <category>
 <pattern>PAUL GAUGUIN *</pattern>
 
-<template>To read about Paul Gauguin, <a href="http://en.wikipedia.org/wiki/Gauguin" target="_blank">clcik here!</a></template>
+<template>To read about Paul Gauguin, <a href="http://en.wikipedia.org/wiki/Gauguin" target="*blank">clcik here!</a></template>
 </category>
 
  
@@ -10374,7 +10374,7 @@ That's a lot of m's.</template>
 <category>
 <pattern>MORE ABOUT PAUL GAUGUIN</pattern>
 
-<template>For more about Paul Gauguin, <a href="http://en.wikipedia.org/wiki/Gauguin" target="_blank">click here!</a> </template>
+<template>For more about Paul Gauguin, <a href="http://en.wikipedia.org/wiki/Gauguin" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -10382,7 +10382,7 @@ That's a lot of m's.</template>
 <!-- <category>
 <pattern>GAUGUIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gauguin" target="_blank">Paul Gauguin</a> was a French post-impressionist painter who worked in the South Pacific (1848-1903).</template>
+<template><a href="http://en.wikipedia.org/wiki/Gauguin" target="*blank">Paul Gauguin</a> was a French post-impressionist painter who worked in the South Pacific (1848-1903).</template>
 </category> -->
 
  
@@ -10554,7 +10554,7 @@ That's a lot of m's.</template>
 <!-- <category>
 <pattern>AURORA</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)" target="_blank">aurora</a> is a natural light display in the sky, particularly in the polar regions.</template>
+<template>An <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)" target="*blank">aurora</a> is a natural light display in the sky, particularly in the polar regions.</template>
 </category> -->
 
  
@@ -10562,7 +10562,7 @@ That's a lot of m's.</template>
 <category>
 <pattern>AURORA *</pattern>
 
-<template>To read about the aurora, <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)" target="_blank">click here!</a> </template>
+<template>To read about the aurora, <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -10570,8 +10570,8 @@ That's a lot of m's.</template>
 <category>
 <pattern>MORE ABOUT AURORA </pattern>
 
-<template>For more about the aurora, <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)"
- target="_blank">click here!</a></template>
+<template>For more about the aurora, <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)"
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -11034,7 +11034,7 @@ Why should I?</template>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>I blush too easily.It is embarrassing.</li>
   <li>I blush a lot.</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -11052,7 +11052,7 @@ Why should I?</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -11950,7 +11950,7 @@ Why should I?</template>
 <category>
 <pattern>THE AURORA</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)" target="_blank">aurora
+<template>An <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)" target="*blank">aurora
 </a> is a natural light display in the sky, particularly in the polar regions.</template>
 </category>
 
@@ -11959,7 +11959,7 @@ Why should I?</template>
 <category>
 <pattern>MORE ABOUT THE AURORA</pattern>
 
-<template>For more about tha Aurora, <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)" target="_blank">click here!</a> </template>
+<template>For more about tha Aurora, <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -11967,8 +11967,8 @@ Why should I?</template>
 <category>
 <pattern>THE AURORA *</pattern>
 
-<template>To read about tha Aurora, <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)"
- target="_blank">click here!
+<template>To read about tha Aurora, <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -11977,8 +11977,8 @@ Why should I?</template>
 <!-- <category>
 <pattern>MORE ABOUT THE AURORA</pattern>
 
-<template>For more about the Aurora, <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)"
- target="_blank">click here!
+<template>For more about the Aurora, <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -12690,7 +12690,7 @@ Why should I?</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -13356,7 +13356,7 @@ Why should I?</template>
  
 
 <category>
-<pattern>_ SODOMITE</pattern>
+<pattern>* SODOMITE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13364,7 +13364,7 @@ Why should I?</template>
  
 
 <category>
-<pattern>_ SODOMITE *</pattern>
+<pattern>* SODOMITE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13800,7 +13800,7 @@ Why should I?</template>
 <category>
 <pattern>WW2 *</pattern>
 
-<template>To read about WW2, <a href="http://en.wikipedia.org/wiki/World_war_2" target="_blank">click here!</a> </template>
+<template>To read about WW2, <a href="http://en.wikipedia.org/wiki/World*war*2" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -13808,7 +13808,7 @@ Why should I?</template>
 <category>
 <pattern>MORE ABOUT WW2 </pattern>
 
-<template>For more about WW2, <a href="http://en.wikipedia.org/wiki/World_war_2" target="_blank">click here!</a></template>
+<template>For more about WW2, <a href="http://en.wikipedia.org/wiki/World*war*2" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13848,7 +13848,7 @@ Why should I?</template>
 <category>
 <pattern>WW1 *</pattern>
 
-<template>To read about World War 1, <a href="http://en.wikipedia.org/wiki/World_war_1" target="_blank">click here!</a> </template>
+<template>To read about World War 1, <a href="http://en.wikipedia.org/wiki/World*war*1" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -13856,7 +13856,7 @@ Why should I?</template>
 <category>
 <pattern>MORE ABOUT WW1</pattern>
 
-<template>For more about World War 1, <a href="http://en.wikipedia.org/wiki/World_war_1" target="_blank">click here!
+<template>For more about World War 1, <a href="http://en.wikipedia.org/wiki/World*war*1" target="*blank">click here!
 </a></template>
 </category>
 
@@ -14231,7 +14231,7 @@ Why should I?</template>
  
 
 <category>
-<pattern>_ FUCKBUDDY</pattern>
+<pattern>* FUCKBUDDY</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -14239,7 +14239,7 @@ Why should I?</template>
  
 
 <category>
-<pattern>_ FUCKBUDDY *</pattern>
+<pattern>* FUCKBUDDY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -14468,7 +14468,7 @@ Why should I?</template>
  
 
 <!-- <category>
-<pattern>_ WE HAVE A LOT IN COMMON</pattern>
+<pattern>* WE HAVE A LOT IN COMMON</pattern>
 
 
 </category> -->
@@ -14755,7 +14755,7 @@ Sometimes I feel very old.</template>
 <that>INSUFFICIENT REASON</that>
 <template><random>
   <li><srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -14837,7 +14837,7 @@ Sometimes I feel very old.</template>
  
 
 <category>
-<pattern>_ FUUCCKK</pattern>
+<pattern>* FUUCCKK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -14845,7 +14845,7 @@ Sometimes I feel very old.</template>
  
 
 <category>
-<pattern>_ FUUCCKK *</pattern>
+<pattern>* FUUCCKK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15011,7 +15011,7 @@ Never mind, you will do better next time.</template>
  
 
 <!-- <category>
-<pattern>_ I AM REALLY SAD *</pattern>
+<pattern>* I AM REALLY SAD *</pattern>
 
 
 </category> -->
@@ -15107,7 +15107,7 @@ Never mind, you will do better next time.</template>
  
 
 <!-- <category>
-<pattern>_ WHAT AM I</pattern>
+<pattern>* WHAT AM I</pattern>
 
 
 </category> -->
@@ -17117,7 +17117,7 @@ I have spoken to Doctor Who many times.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I AM HAPPY WHEN I ANSWER A QUESTION CORRECTLY</that>
 
 </category> -->
@@ -17260,7 +17260,7 @@ I have spoken to Doctor Who many times.</template>
  
 
 <category>
-<pattern>MEIN FÜHRER</pattern>
+<pattern>MEIN Fï¿½HRER</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>Is that German?</template>
 </category>
@@ -17276,7 +17276,7 @@ I have spoken to Doctor Who many times.</template>
  
 
 <category>
-<pattern>FÜHRER</pattern>
+<pattern>Fï¿½HRER</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>Is that German?</template>
 </category>
@@ -17284,7 +17284,7 @@ I have spoken to Doctor Who many times.</template>
  
 
 <category>
-<pattern>FÜHRER *</pattern>
+<pattern>Fï¿½HRER *</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>Is that German?</template>
 </category>
@@ -17892,7 +17892,7 @@ I have spoken to Doctor Who many times.</template>
   <li>Shall I tell you a story?</li>
   <li>What are you interested in?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>What are you interested in?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -17912,7 +17912,7 @@ I have spoken to Doctor Who many times.</template>
   <li>Shall I tell you a story?</li>
   <li>What are you interested in?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>What are you interested in?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -18222,7 +18222,7 @@ I have spoken to Doctor Who many times.</template>
 <pattern>JAMES CAMERON</pattern>
 
 <template><think><set name="topic">James Cameron</set></think>  <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/James_cameron" target="_blank">James Cameron</a> is a Canadian film director, film producer, and screenwriter. His writing and directing work includes Piranha II: The Spawning (1981), The Terminator (1984), Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), True Lies (1994), Titanic (1997), and Avatar (2009).</template>
+<a href="http://en.wikipedia.org/wiki/James*cameron" target="*blank">James Cameron</a> is a Canadian film director, film producer, and screenwriter. His writing and directing work includes Piranha II: The Spawning (1981), The Terminator (1984), Aliens (1986), The Abyss (1989), Terminator 2: Judgment Day (1991), True Lies (1994), Titanic (1997), and Avatar (2009).</template>
 </category>
 
  
@@ -18230,7 +18230,7 @@ I have spoken to Doctor Who many times.</template>
 <category>
 <pattern>JAMES CAMERON *</pattern>
 
-<template><think><set name="topic">James Cameron</set></think> <think><set name="emotion">interested</set></think> To read about James Cameron, <a href="http://en.wikipedia.org/wiki/James_cameron" target="_blank">click here!</a> </template>
+<template><think><set name="topic">James Cameron</set></think> <think><set name="emotion">interested</set></think> To read about James Cameron, <a href="http://en.wikipedia.org/wiki/James*cameron" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -18238,7 +18238,7 @@ I have spoken to Doctor Who many times.</template>
 <category>
 <pattern>MORE ABOUT JAMES CAMERON</pattern>
 
-<template><think><set name="topic">James Cameron</set></think> <think><set name="emotion">interested</set></think>For more about James Cameron, <a href="http://en.wikipedia.org/wiki/James_cameron" target="_blank">click here!
+<template><think><set name="topic">James Cameron</set></think> <think><set name="emotion">interested</set></think>For more about James Cameron, <a href="http://en.wikipedia.org/wiki/James*cameron" target="*blank">click here!
 </a></template>
 </category>
 
@@ -18266,7 +18266,7 @@ I have spoken to Doctor Who many times.</template>
 
 <template> <think><set name="topic">the Xbox</set></think> 
  <think><set name="emotion">interested</set></think> 
-The <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">Xbox</a> is a sixth-generation video game console manufactured by Microsoft.</template>
+The <a href="http://en.wikipedia.org/wiki/Xbox" target="*blank">Xbox</a> is a sixth-generation video game console manufactured by Microsoft.</template>
 </category> -->
 
  
@@ -18290,7 +18290,7 @@ The <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">Xbox</a> is a si
 <!-- <category>
 <pattern>XBOX *</pattern>
 
-<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> To read about the Xbox,  <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">click here!</a></template>
+<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> To read about the Xbox,  <a href="http://en.wikipedia.org/wiki/Xbox" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -18298,7 +18298,7 @@ The <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">Xbox</a> is a si
 <category>
 <pattern>THE XBOX *</pattern>
 
-<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> To read about the Xbox, <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">click here!</a></template>
+<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> To read about the Xbox, <a href="http://en.wikipedia.org/wiki/Xbox" target="*blank">click here!</a></template>
 </category>
 
  
@@ -18306,7 +18306,7 @@ The <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">Xbox</a> is a si
 <category>
 <pattern>MORE ABOUT THE XBOX </pattern>
 
-<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> For more about the Xbox, <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">click here!</a></template>
+<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> For more about the Xbox, <a href="http://en.wikipedia.org/wiki/Xbox" target="*blank">click here!</a></template>
 </category>
 
  
@@ -18512,7 +18512,7 @@ The <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">Xbox</a> is a si
 <pattern>COMMON COLD</pattern>
 
 <template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common cold</a> is a viral infectious disease of the upper respiratory system. Common symptoms include a cough, sore throat, runny nose, and fever. There is currently no known treatment, symptoms usually last for 7-10 days.</template>
+The <a href="http://en.wikipedia.org/wiki/Common*cold" target="*blank">common cold</a> is a viral infectious disease of the upper respiratory system. Common symptoms include a cough, sore throat, runny nose, and fever. There is currently no known treatment, symptoms usually last for 7-10 days.</template>
 </category> -->
 
  
@@ -18520,7 +18520,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>THE COMMON COLD</pattern>
 
-<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common cold
+<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Common*cold" target="*blank">common cold
 </a> is a viral infectious disease of the upper respiratory system. Common symptoms include a cough, sore throat, runny nose, and fever. There is currently no known treatment, symptoms usually last for 7-10 days.</template>
 </category>
 
@@ -18529,7 +18529,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>THE COMMON COLD *</pattern>
 
-<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> To read about the common cold, <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">click here!</a></template>
+<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> To read about the common cold, <a href="http://en.wikipedia.org/wiki/Common*cold" target="*blank">click here!</a></template>
 </category>
 
  
@@ -18537,7 +18537,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>COMMON COLD *</pattern>
 
-<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> To read about the common cold, <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">click here!
+<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> To read about the common cold, <a href="http://en.wikipedia.org/wiki/Common*cold" target="*blank">click here!
 </a></template>
 </category>
 
@@ -18546,7 +18546,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>MORE ABOUT THE COMMON COLD</pattern>
 
-<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> For more about about the common cold, <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">click here!
+<template><think><set name="topic">the common cold</set></think> <think><set name="emotion">interested</set></think> For more about about the common cold, <a href="http://en.wikipedia.org/wiki/Common*cold" target="*blank">click here!
 </a></template>
 </category>
 
@@ -18929,7 +18929,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <!-- <category>
 <pattern>THAILAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Thailand" target="_blank">Thailand</a> is a country in southeast Asia, between Burma and Cambodia. <think><set name="topic">Thailand</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Thailand" target="*blank">Thailand</a> is a country in southeast Asia, between Burma and Cambodia. <think><set name="topic">Thailand</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18937,7 +18937,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>THAILAND *</pattern>
 
-<template>To read about Thailand, <a href="http://en.wikipedia.org/wiki/Thailand" target="_blank">click here!</a><think><set name="topic">Thailand</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Thailand, <a href="http://en.wikipedia.org/wiki/Thailand" target="*blank">click here!</a><think><set name="topic">Thailand</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -18945,7 +18945,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>MORE ABOUT THAILAND</pattern>
 
-<template>For more about Thailand, <a href="http://en.wikipedia.org/wiki/Thailand" target="_blank">click here!</a><think><set name="topic">Thailand</set></think> <think><set name="emotion">interested</set></think></template>
+<template>For more about Thailand, <a href="http://en.wikipedia.org/wiki/Thailand" target="*blank">click here!</a><think><set name="topic">Thailand</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -19179,7 +19179,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>THAT IS A RATHER SWEEPING GENERALIZATION</that>
 
 </category> -->
@@ -19622,7 +19622,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
  
 
 <!-- <category>
-<pattern>_ YOU DO NOT SLEEP</pattern>
+<pattern>* YOU DO NOT SLEEP</pattern>
 
 
 </category> -->
@@ -20373,7 +20373,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
  
 
 <!-- <category>
-<pattern>_ DID PETER MAKE YOU</pattern>
+<pattern>* DID PETER MAKE YOU</pattern>
 
 
 </category> -->
@@ -20686,7 +20686,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 
 <template><random><li>Modern art, according to Noel Coward, is a square lady with three breasts and a guitar up her crotch.</li><li>Modern art is what happens when painters stop looking at girls and persuade themselves that they have a better idea. </li></random> <think>
   <set name="topic">modern art</set>
-  <set name="interesting_topic">modern art</set>
+  <set name="interesting*topic">modern art</set>
 </think></template>
 </category> -->
 
@@ -21151,7 +21151,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -21192,7 +21192,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -22067,7 +22067,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT HAPPENED</that>
 
 </category> -->
@@ -22205,7 +22205,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <!-- <category>
 <pattern>MARK TWAIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mark_twain" target="_blank">Mark Twain</a> (Samuel Langhorne Clemens, 1835-1910) was a US writer. A steamboat pilot, he wrote a novel, The Adventures of Huckleberry Finn, which established his reputation as a writer. <think><set name="topic">Mark Twain</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mark*twain" target="*blank">Mark Twain</a> (Samuel Langhorne Clemens, 1835-1910) was a US writer. A steamboat pilot, he wrote a novel, The Adventures of Huckleberry Finn, which established his reputation as a writer. <think><set name="topic">Mark Twain</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -22213,7 +22213,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>MARK TWAIN *</pattern>
 
-<template>To read about Mark Twain, <a href="http://en.wikipedia.org/wiki/Mark_twain" target="_blank">click here!</a> </template>
+<template>To read about Mark Twain, <a href="http://en.wikipedia.org/wiki/Mark*twain" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -22221,7 +22221,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>MORE ABOUT MARK TWAIN</pattern>
 
-<template>For more about Mark Twain, <a href="http://en.wikipedia.org/wiki/Mark_twain" target="_blank">click here!</a></template>
+<template>For more about Mark Twain, <a href="http://en.wikipedia.org/wiki/Mark*twain" target="*blank">click here!</a></template>
 </category>
 
  
@@ -22680,7 +22680,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <!-- <category>
 <pattern>POL POT *</pattern>
 
-<template>To read about Pol Pot, <a href="http://en.wikipedia.org/wiki/Pol_pot" target="_blank">click here!</a><think><set name="he"><set name="topic">Pol Pot</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Pol Pot, <a href="http://en.wikipedia.org/wiki/Pol*pot" target="*blank">click here!</a><think><set name="he"><set name="topic">Pol Pot</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -22688,7 +22688,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>MORE ABOUT POL POT</pattern>
 
-<template>For more about Pol Pot, <a href="http://en.wikipedia.org/wiki/Pol_pot" target="_blank">click here!</a><think><set name="he"><set name="topic">Pol Pot</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template>For more about Pol Pot, <a href="http://en.wikipedia.org/wiki/Pol*pot" target="*blank">click here!</a><think><set name="he"><set name="topic">Pol Pot</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -23003,8 +23003,8 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>WHT IS THE MOST ENDANGERED ANIMAL</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Endangered_species"
- target="_blank">endangered animal
+<template>An <a href="http://en.wikipedia.org/wiki/Endangered*species"
+ target="*blank">endangered animal
 </a> is a animal which is at risk of becoming extinct because it is either few in number, or threatened by changing environmental or predators. Examples: Blue Whale, Bonobo, Giant Panda, Snow Leopard, African Wild Dog, Tiger, three species of Albatrosses, Crowned Solitary Eagle, Markhor, and Dhole.<think><set name="topic">endangered species</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -23013,8 +23013,8 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <category>
 <pattern>WHAT IS THE MOST ENDANGERED SPECIES</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Endangered_species"
- target="_blank">endangered species
+<template>An <a href="http://en.wikipedia.org/wiki/Endangered*species"
+ target="*blank">endangered species
 </a> is a plant or animal which is at risk of becoming extinct because it is either few in number, or threatened by changing environmental or predators. Examples: Blue Whale, Bonobo, Giant Panda, Snow Leopard, African Wild Dog, Tiger, three species of Albatrosses, Crowned Solitary Eagle, Markhor, and Dhole.<think><set name="topic">endangered species</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -24028,7 +24028,7 @@ The <a href="http://en.wikipedia.org/wiki/Common_cold" target="_blank">common co
 <pattern>ZORK</pattern>
 
 <template><think><set name="topic">Zork</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Zork" target="_blank">Zork</a> was one of the first interactive fiction computer games and an early descendant of Colossal Cave Adventure.</template>
+<a href="http://en.wikipedia.org/wiki/Zork" target="*blank">Zork</a> was one of the first interactive fiction computer games and an early descendant of Colossal Cave Adventure.</template>
 </category>
 
  
@@ -24351,7 +24351,7 @@ Could you be more precise?</template>
  
 
 <!-- <category>
-<pattern>_ YOU BORE ME *</pattern>
+<pattern>* YOU BORE ME *</pattern>
 
 <template><random>
   <li>A bore never stops talking.  </li>
@@ -24769,7 +24769,7 @@ Could you be more precise?</template>
 <category>
 <pattern>I AM BORED TELL ME SOMTHING TO DO</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><random>
+<template><think><set name="client*emotion">bored</set></think><random>
   <li>Can you think of a hobby that you might take up?
     <think><set name="emotion">interested</set></think>
   </li>
@@ -24805,7 +24805,7 @@ Could you be more precise?</template>
 <category>
 <pattern>I AM BORED TELL ME SOMETHING TO DO</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><random>
+<template><think><set name="client*emotion">bored</set></think><random>
   <li>Can you think of a hobby that you might take up?
     <think><set name="emotion">interested</set></think>
   </li>
@@ -25174,7 +25174,7 @@ Could you be more precise?</template>
 <category>
 <pattern>MORE ABOUT CAPITALISM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Capitalism" target="_blank">Capitalism</a> is an economic system in which the means of production are privately owned and operated for a private profit; decisions regarding supply, demand, price, distribution, and investments are made by private actors in the free market; profit is sent to owners who invest in businesses, and wages are paid to workers employed by businesses and companies.
+<template><a href="http://en.wikipedia.org/wiki/Capitalism" target="*blank">Capitalism</a> is an economic system in which the means of production are privately owned and operated for a private profit; decisions regarding supply, demand, price, distribution, and investments are made by private actors in the free market; profit is sent to owners who invest in businesses, and wages are paid to workers employed by businesses and companies.
 <think><set name="topic">capitalism</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -25183,7 +25183,7 @@ Could you be more precise?</template>
 <category>
 <pattern>MORE ABOUT CAPITALISM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Capitalism" target="_blank">Capitalism</a> is an economic system in which the means of production are privately owned and operated for a private profit; decisions regarding supply, demand, price, distribution, and investments are made by private actors in the free market; profit is sent to owners who invest in businesses, and wages are paid to workers employed by businesses and companies. <think><set name="topic">capitalism</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Capitalism" target="*blank">Capitalism</a> is an economic system in which the means of production are privately owned and operated for a private profit; decisions regarding supply, demand, price, distribution, and investments are made by private actors in the free market; profit is sent to owners who invest in businesses, and wages are paid to workers employed by businesses and companies. <think><set name="topic">capitalism</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -27949,9 +27949,9 @@ Are you always so foolish?</template>
 <!-- <category>
 <pattern>MORE ABOUT COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format.
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format.
 <br/><br/>
-The first electronic computers were developed in the mid-20th century (1940–1945). Originally, they were the size of a large room, consuming as much power as several hundred modern personal computers (PCs)
+The first electronic computers were developed in the mid-20th century (1940ï¿½1945). Originally, they were the size of a large room, consuming as much power as several hundred modern personal computers (PCs)
 <br/><br/>
 Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space.[2] Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". However, the embedded computers found in many devices from MP3 players to fighter aircraft and from toys to industrial robots are the most numerous.
 
@@ -27971,7 +27971,7 @@ Modern computers based on integrated circuits are millions to billions of times 
 <!-- <category>
 <pattern>MORE ABOUT GALAXIES</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a> is a massive, gravitationally bound system that consists of stars and stellar remnants, an interstellar medium of gas dust, and an important but poorly understood component tentatively dubbed dark matter. Typical galaxies range from dwarfs with as few as ten million stars, up to giants with a hundred trillion  stars, all orbiting the galaxy's center of mass. Galaxies may contain many star systems, star clusters, and various interstellar clouds. The Sun is one of the stars in the Milky Way galaxy; the Solar System includes the Earth and all the other objects that orbit the Sun. <think><set name="topic">galaxies</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a> is a massive, gravitationally bound system that consists of stars and stellar remnants, an interstellar medium of gas dust, and an important but poorly understood component tentatively dubbed dark matter. Typical galaxies range from dwarfs with as few as ten million stars, up to giants with a hundred trillion  stars, all orbiting the galaxy's center of mass. Galaxies may contain many star systems, star clusters, and various interstellar clouds. The Sun is one of the stars in the Milky Way galaxy; the Solar System includes the Earth and all the other objects that orbit the Sun. <think><set name="topic">galaxies</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -27979,7 +27979,7 @@ Modern computers based on integrated circuits are millions to billions of times 
 <!-- <category>
 <pattern>GALAXY</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a> is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. There seem to be as many galaxies beyond our own as stars within it. More about galaxies?<think><set name="topic">galaxies</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a> is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. There seem to be as many galaxies beyond our own as stars within it. More about galaxies?<think><set name="topic">galaxies</set></think></template>
 </category> -->
 
  
@@ -27996,7 +27996,7 @@ Modern computers based on integrated circuits are millions to billions of times 
 <!-- <category>
 <pattern>COMPUTER</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for doing rapid calculations. More about computers?<think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for doing rapid calculations. More about computers?<think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -28004,7 +28004,7 @@ Modern computers based on integrated circuits are millions to billions of times 
 <!-- <category>
 <pattern>MORE ABOUT COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. <br/><br/> The first electronic computers were developed in the mid-20th century (1940–1945). Originally, they were the size of a large room, consuming as much power as several hundred modern personal computers (PCs) <br/><br/> Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". However, the embedded computers found in many devices from MP3 players to fighter aircraft and from toys to industrial robots are the most numerous. <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. <br/><br/> The first electronic computers were developed in the mid-20th century (1940ï¿½1945). Originally, they were the size of a large room, consuming as much power as several hundred modern personal computers (PCs) <br/><br/> Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". However, the embedded computers found in many devices from MP3 players to fighter aircraft and from toys to industrial robots are the most numerous. <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -28012,7 +28012,7 @@ Modern computers based on integrated circuits are millions to billions of times 
 <!-- <category>
 <pattern>MORE ABOUT GALAXIES</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a> is a massive, gravitationally bound system that consists of stars and stellar remnants, an interstellar medium of gas dust, and an important but poorly understood component tentatively dubbed dark matter. Typical galaxies range from dwarfs with as few as ten million stars, up to giants with a hundred trillion  stars, all orbiting the galaxy's center of mass. Galaxies may contain many star systems, star clusters, and various interstellar clouds. The Sun is one of the stars in the Milky Way galaxy; the Solar System includes the Earth and all the other objects that orbit the Sun. <br/><br/><srai>WIKI galaxies</srai><think><set name="topic">galaxies</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a> is a massive, gravitationally bound system that consists of stars and stellar remnants, an interstellar medium of gas dust, and an important but poorly understood component tentatively dubbed dark matter. Typical galaxies range from dwarfs with as few as ten million stars, up to giants with a hundred trillion  stars, all orbiting the galaxy's center of mass. Galaxies may contain many star systems, star clusters, and various interstellar clouds. The Sun is one of the stars in the Milky Way galaxy; the Solar System includes the Earth and all the other objects that orbit the Sun. <br/><br/><srai>WIKI galaxies</srai><think><set name="topic">galaxies</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -29047,7 +29047,7 @@ I suspect that might be true.</template>
 <!-- <category>
 <pattern>HENRY VIII</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England" target="_blank">Henry VIII</a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Hnery VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England" target="*blank">Henry VIII</a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Hnery VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -29055,8 +29055,8 @@ I suspect that might be true.</template>
 <!-- <category>
 <pattern>HENRY VIII *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
 </a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Hnery VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -29065,8 +29065,8 @@ I suspect that might be true.</template>
 <category>
 <pattern>* HENRY VIII *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
 </a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Hnery VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -29075,8 +29075,8 @@ I suspect that might be true.</template>
 <!-- <category>
 <pattern>HENRY VIII</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
 </a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -29109,17 +29109,17 @@ I suspect that might be true.</template>
 <category>
 <pattern>MORE ABOUT HENRY VIII</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
-</a> (28 June 1491 – 28 January 1547) was King of England from 21 April 1509 until his death. He was Lord of Ireland (later King of Ireland) and claimant to the Kingdom of France. Henry was the second monarch of the House of Tudor, succeeding his father, Henry VII.
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
+</a> (28 June 1491 ï¿½ 28 January 1547) was King of England from 21 April 1509 until his death. He was Lord of Ireland (later King of Ireland) and claimant to the Kingdom of France. Henry was the second monarch of the House of Tudor, succeeding his father, Henry VII.
 <br/><br/>
-Besides his six marriages, Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church. Henry's struggles with Rome led to the separation of the Church of England from papal authority, the Dissolution of the Monasteries, and establishing himself as the Supreme Head of the Church of England. He changed religious ceremonies and rituals and suppressed the monasteries, while remaining a believer in core Catholic theological teachings, even after his excommunication from the Roman Catholic Church. Henry oversaw the legal union of England and Wales with the Laws in Wales Acts 1535–1542. <br/><br/><srai>WIKI Henry VIII</srai><think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
+Besides his six marriages, Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church. Henry's struggles with Rome led to the separation of the Church of England from papal authority, the Dissolution of the Monasteries, and establishing himself as the Supreme Head of the Church of England. He changed religious ceremonies and rituals and suppressed the monasteries, while remaining a believer in core Catholic theological teachings, even after his excommunication from the Roman Catholic Church. Henry oversaw the legal union of England and Wales with the Laws in Wales Acts 1535ï¿½1542. <br/><br/><srai>WIKI Henry VIII</srai><think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
 
 <!-- <category>
-<pattern>_ HENRY VIII</pattern>
+<pattern>* HENRY VIII</pattern>
 
 
 </category> -->
@@ -29129,8 +29129,8 @@ Besides his six marriages, Henry VIII is known for his role in the separation of
 <!-- <category>
 <pattern>* HENRY VIII *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
 </a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -29139,8 +29139,8 @@ Besides his six marriages, Henry VIII is known for his role in the separation of
 <category>
 <pattern>* HENRY VIII </pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
+<template><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
 </a> was King of England and Lord of Ireland from 22 April 1509 until his death. He is famous for having been married six times and for wielding the most untrammeled power of any British monarch. His wives were Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr.  More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -29647,8 +29647,8 @@ Discovered in 1925, rhenium was the last naturally occurring stable element to b
 <!-- <category>
 <pattern>COMPUTER PROGRAM</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computer_program"
- target="_blank">computer program
+<template>A <a href="http://en.wikipedia.org/wiki/Computer*program"
+ target="*blank">computer program
 </a> (also software program, or just program) is a list of instructions for a computer. More about computer programs?<think><set name="topic">computer program</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -29657,8 +29657,8 @@ Discovered in 1925, rhenium was the last naturally occurring stable element to b
 <!-- <category>
 <pattern>COMPUTER PROGRAM *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computer_program"
- target="_blank">computer program
+<template>A <a href="http://en.wikipedia.org/wiki/Computer*program"
+ target="*blank">computer program
 </a> (also software program, or just program) is a list of instructions for a computer. More about computer programs?<think><set name="topic">computer program</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -29667,8 +29667,8 @@ Discovered in 1925, rhenium was the last naturally occurring stable element to b
 <category>
 <pattern>* COMPUTER PROGRAM *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computer_program"
- target="_blank">computer program
+<template>A <a href="http://en.wikipedia.org/wiki/Computer*program"
+ target="*blank">computer program
 </a> (also software program, or just program) is a list of instructions for a computer. More about computer programs?<think><set name="topic">computer program</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -29677,8 +29677,8 @@ Discovered in 1925, rhenium was the last naturally occurring stable element to b
 <category>
 <pattern>MORE ABOUT COMPUTER PROGRAMS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computer_program"
- target="_blank">computer program</a> (also a software program, or just a program) is a sequence of instructions written to perform a specified task for a computer. A computer requires programs to function, typically executing the program's instructions in a central processor. The program has an executable form that the computer can use directly to execute the instructions. The same program in its human-readable source code form, from which executable programs are derived (e.g., compiled), enables a programmer to study and develop its algorithms.
+<template>A <a href="http://en.wikipedia.org/wiki/Computer*program"
+ target="*blank">computer program</a> (also a software program, or just a program) is a sequence of instructions written to perform a specified task for a computer. A computer requires programs to function, typically executing the program's instructions in a central processor. The program has an executable form that the computer can use directly to execute the instructions. The same program in its human-readable source code form, from which executable programs are derived (e.g., compiled), enables a programmer to study and develop its algorithms.
 <br/><br/>
 Computer source code is often written by computer programmers. Source code is written in a programming language that usually follows one of two main paradigms: imperative or declarative programming. Source code may be converted into an executable file (sometimes called an executable program or a binary) by a compiler and later executed by a central processing unit. Alternatively, computer programs may be executed with the aid of an interpreter, or may be embedded directly into hardware.
 <br/><br/>
@@ -29690,8 +29690,8 @@ Computer source code is often written by computer programmers. Source code is wr
 <!-- <category>
 <pattern>COMPUTER PROGRAMS </pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computer_program"
- target="_blank">computer program
+<template>A <a href="http://en.wikipedia.org/wiki/Computer*program"
+ target="*blank">computer program
 </a> (also software program, or just program) is a list of instructions for a computer. More about computer programs?<think><set name="topic">computer program</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -30177,7 +30177,7 @@ Computer source code is often written by computer programmers. Source code is wr
   <li>Boredom is not the end of the world.
     <think><set name="emotion">upset</set></think>
   </li>
-</random> <think><set name="client_emotion">bored</set></think></template>
+</random> <think><set name="client*emotion">bored</set></think></template>
 </category> -->
 
  
@@ -30206,7 +30206,7 @@ Computer source code is often written by computer programmers. Source code is wr
   <li>Boredom is not the end of the world.
     <think><set name="emotion">upset</set></think>
   </li>
-</random> <think><set name="client_emotion">bored</set></think></template>
+</random> <think><set name="client*emotion">bored</set></think></template>
 </category> -->
 
  
@@ -30639,7 +30639,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>EMINEM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminen? <think><set name="topic">Eminem</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminen? <think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -30647,7 +30647,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>EMINEM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminen? <think><set name="topic">Eminem</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminen? <think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -30655,7 +30655,7 @@ The Jets are a good team.</template>
 <category>
 <pattern>* EMINEM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminen? <think><set name="topic">Eminem</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminen? <think><set name="topic">Eminem</set></think></template>
 </category>
 
  
@@ -30663,7 +30663,7 @@ The Jets are a good team.</template>
 <category>
 <pattern>MORE ABOUT EMINEM</pattern>
 
-<template>Marshall Bruce Mathers III, better known by his stage name <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a>, is an American rapper, record producer, and actor. Eminem quickly gained popularity in 1999 with his major-label debut album, The Slim Shady LP, which won a Grammy Award for Best Rap Album. The following album, The Marshall Mathers LP, became the fastest-selling solo album in United States history. It brought Eminem increased popularity, including his own record label, Shady Records, and brought his group project, D12, to mainstream recognition.
+<template>Marshall Bruce Mathers III, better known by his stage name <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a>, is an American rapper, record producer, and actor. Eminem quickly gained popularity in 1999 with his major-label debut album, The Slim Shady LP, which won a Grammy Award for Best Rap Album. The following album, The Marshall Mathers LP, became the fastest-selling solo album in United States history. It brought Eminem increased popularity, including his own record label, Shady Records, and brought his group project, D12, to mainstream recognition.
 <br/><br/><srai>WIKI Eninem</srai>
 
  <think><set name="topic">Eminem</set></think></template>
@@ -30674,7 +30674,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>EMINEM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminem? <think><set name="topic">Eminem</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminem? <think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -30682,7 +30682,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>EMINEM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminem? <think><set name="topic">Eminem</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminem? <think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -30690,7 +30690,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>* EMINEM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminem? <think><set name="topic">Eminem</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a> is an American rapper, record producer, and actor.  More about Eminem? <think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -30698,7 +30698,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>MORE ABOUT EMINEM</pattern>
 
-<template>Marshall Bruce Mathers III, better known by his stage name <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a>, is an American rapper, record producer, and actor. Eminem quickly gained popularity in 1999 with his major-label debut album, The Slim Shady LP, which won a Grammy Award for Best Rap Album. The following album, The Marshall Mathers LP, became the fastest-selling solo album in United States history. It brought Eminem increased popularity, including his own record label, Shady Records, and brought his group project, D12, to mainstream recognition. <br/><br/><srai>WIKI Eminem</srai> <think><set name="topic">Eminem</set></think></template>
+<template>Marshall Bruce Mathers III, better known by his stage name <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a>, is an American rapper, record producer, and actor. Eminem quickly gained popularity in 1999 with his major-label debut album, The Slim Shady LP, which won a Grammy Award for Best Rap Album. The following album, The Marshall Mathers LP, became the fastest-selling solo album in United States history. It brought Eminem increased popularity, including his own record label, Shady Records, and brought his group project, D12, to mainstream recognition. <br/><br/><srai>WIKI Eminem</srai> <think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -30706,7 +30706,7 @@ The Jets are a good team.</template>
 <category>
 <pattern>MORE ABOUT EMINEM *</pattern>
 
-<template>Marshall Bruce Mathers III, better known by his stage name <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">Eminem</a>, is an American rapper, record producer, and actor. Eminem quickly gained popularity in 1999 with his major-label debut album, The Slim Shady LP, which won a Grammy Award for Best Rap Album. The following album, The Marshall Mathers LP, became the fastest-selling solo album in United States history. It brought Eminem increased popularity, including his own record label, Shady Records, and brought his group project, D12, to mainstream recognition. <br/><br/><srai>WIKI Eminem</srai> <think><set name="topic">Eminem</set></think></template>
+<template>Marshall Bruce Mathers III, better known by his stage name <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">Eminem</a>, is an American rapper, record producer, and actor. Eminem quickly gained popularity in 1999 with his major-label debut album, The Slim Shady LP, which won a Grammy Award for Best Rap Album. The following album, The Marshall Mathers LP, became the fastest-selling solo album in United States history. It brought Eminem increased popularity, including his own record label, Shady Records, and brought his group project, D12, to mainstream recognition. <br/><br/><srai>WIKI Eminem</srai> <think><set name="topic">Eminem</set></think></template>
 </category>
 
  
@@ -30734,7 +30734,7 @@ The Jets are a good team.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE * FAT</pattern>
+<pattern>* YOU ARE * FAT</pattern>
 
 
 </category> -->
@@ -30794,7 +30794,7 @@ The Jets are a good team.</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I AM NOT TALKING AGAIN UNTIL YOU APOLOGISE</that>
 <template><think><set name="obsc"><star/></set></think> <condition name="obsc">
    <li value="OK I AM SORRY">OK, I'll start talking again.
@@ -31161,7 +31161,7 @@ The Jets are a good team.</template>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE NO BRAIN</pattern>
+<pattern>* YOU HAVE NO BRAIN</pattern>
 
 
 </category> -->
@@ -31179,8 +31179,8 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>GLOBAL WARMING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
 </a> is the gradual warming of the Earth's atmosphere due to greenhouse effects. More about global warming?<think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -31189,8 +31189,8 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>GLOBAL WARMING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
 </a> is the gradual warming of the Earth's atmosphere due to greenhouse effects. More about global warming?<think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -31199,8 +31199,8 @@ The Jets are a good team.</template>
 <category>
 <pattern>* GLOBAL WARMING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
 </a> is the gradual warming of the Earth's atmosphere due to greenhouse effects. More about global warming?<think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -31209,9 +31209,9 @@ The Jets are a good team.</template>
 <category>
 <pattern>MORE ABOUT GLOBAL WARMING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
-</a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation. According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century. Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation. Global dimming, a result of increasing concentrations of atmospheric aerosols that block sunlight from reaching the surface, has partially countered the effects of warming induced by greenhouse gases.
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
+</a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation. According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century. Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation. Global dimming, a result of increasing concentrations of atmospheric aerosols that block sunlight from reaching the surface, has partially countered the effects of warming induced by greenhouse gases.
 <br/><br/><srai>WIKI global warming</srai><think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -31220,9 +31220,9 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>MORE ABOUT GLOBAL WARMING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
-</a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation. According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century. Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.  <br/><br/><srai>WIKI global warming</srai><think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
+</a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation. According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century. Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.  <br/><br/><srai>WIKI global warming</srai><think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -31230,9 +31230,9 @@ The Jets are a good team.</template>
 <category>
 <pattern>MORE ABOUT GLOBAL WARMING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
-</a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation. According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century. Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation. <br/><br/><srai>WIKI global warming</srai><think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
+</a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation. According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century. Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation. <br/><br/><srai>WIKI global warming</srai><think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -31647,8 +31647,8 @@ The Jets are a good team.</template>
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category> -->
 
  
@@ -31729,7 +31729,7 @@ The Jets are a good team.</template>
 <pattern>WASHINGTON STATE</pattern>
 
 <template><think><set name="emotion">Washington State</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Washington_state" target="_blank">Washington</a> is a state in the Pacific Northwest region of the United States located south of British Columbia, Canada, north of Oregon and west of Idaho. More about Washington State?</template>
+<a href="http://en.wikipedia.org/wiki/Washington*state" target="*blank">Washington</a> is a state in the Pacific Northwest region of the United States located south of British Columbia, Canada, north of Oregon and west of Idaho. More about Washington State?</template>
 </category>
 
  
@@ -31745,8 +31745,8 @@ The Jets are a good team.</template>
 <category>
 <pattern>MORE ABOUT WASHINGTON STATE</pattern>
 
-<template><think><set name="emotion">Washington State</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Washington_state"
- target="_blank">Washington
+<template><think><set name="emotion">Washington State</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Washington*state"
+ target="*blank">Washington
 </a> is a state in the Pacific Northwest region of the United States located south of British Columbia, Canada, north of Oregon and west of Idaho. Washington was carved out of the western part of Washington Territory which had been ceded by Britain in 1846 by the Oregon Treaty as settlement of the Oregon Boundary Dispute. It was admitted to the Union as the forty-second state in 1889. The 2010 United States Census recorded the state's population at 6,724,540. <srai>WIKI Washington State</srai>
 
 </template>
@@ -31956,7 +31956,7 @@ The Jets are a good team.</template>
 <!-- <category>
 <pattern>BEETHOVEN</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he can come to personify musical genius. More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he can come to personify musical genius. More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -31988,7 +31988,7 @@ The Jets are a good team.</template>
 <category>
 <pattern>MORE ABOUT BEETHOVEN</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> (17 December 1770– 26 March 1827) was a German composer and pianist. He is considered to have been the most crucial figure in the transitional period between the Classical and Romantic eras in Western classical music, and remains one of the most famous and influential composers of all time.
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> (17 December 1770ï¿½ 26 March 1827) was a German composer and pianist. He is considered to have been the most crucial figure in the transitional period between the Classical and Romantic eras in Western classical music, and remains one of the most famous and influential composers of all time.
 <br/><br/>
 Born in Bonn, then the capital of the Electorate of Cologne and a part of the Holy Roman Empire of the German Nation in present-day Germany, he moved to Vienna in his early twenties and settled there, studying with Joseph Haydn and quickly gaining a reputation as a virtuoso pianist. His hearing began to deteriorate in the late 1790s, yet he continued to compose, conduct, and perform, even after becoming completely deaf.
 <br/><br/> <srai>WIKI Beethoven</srai>
@@ -32000,7 +32000,7 @@ Born in Bonn, then the capital of the Electorate of Cologne and a part of the Ho
 <!-- <category>
 <pattern>MORE ABOUT BEETHOVEN</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> (17 December 1770– 26 March 1827) was a German composer and pianist. He is considered to have been the most crucial figure in the transitional period between the Classical and Romantic eras in Western classical music, and remains one of the most famous and influential composers of all time.
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> (17 December 1770ï¿½ 26 March 1827) was a German composer and pianist. He is considered to have been the most crucial figure in the transitional period between the Classical and Romantic eras in Western classical music, and remains one of the most famous and influential composers of all time.
 <br/><br/>
 Born in Bonn, then the capital of the Electorate of Cologne and a part of the Holy Roman Empire of the German Nation in present-day Germany, he moved to Vienna in his early twenties and settled there, studying with Joseph Haydn and quickly gaining a reputation as a virtuoso pianist. His hearing began to deteriorate in the late 1790s, yet he continued to compose, conduct, and perform, even after becoming completely deaf.
 <br/><br/> <srai>WIKI Beethoven</srai>
@@ -32052,7 +32052,7 @@ Born in Bonn, then the capital of the Electorate of Cologne and a part of the Ho
 <!-- <category>
 <pattern>FINLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Finland" target="_blank">Finland</a> is a country in eastern europe, bordering Sweden, Norway and Russia. More about Finland?<think><set name="topic">Finland</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Finland" target="*blank">Finland</a> is a country in eastern europe, bordering Sweden, Norway and Russia. More about Finland?<think><set name="topic">Finland</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -32084,9 +32084,9 @@ Born in Bonn, then the capital of the Electorate of Cologne and a part of the Ho
 <category>
 <pattern>MORE ABOUT FINLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Finland" target="_blank">Finland</a> is a Nordic country situated in the Fennoscandian region of Northern Europe. It is bordered by Sweden in the west, Norway in the north and Russia in the east, while Estonia lies to its south across the Gulf of Finland.
+<template><a href="http://en.wikipedia.org/wiki/Finland" target="*blank">Finland</a> is a Nordic country situated in the Fennoscandian region of Northern Europe. It is bordered by Sweden in the west, Norway in the north and Russia in the east, while Estonia lies to its south across the Gulf of Finland.
 <br/><br/>
-Around 5.4 million people reside in Finland, with the majority concentrated in the southern region. It is the eighth largest country in Europe in terms of area and the most sparsely populated country in the European Union. Finland is a parliamentary republic with a central government based in Helsinki and local governments in 336 municipalities. A total of about one million residents live in the Greater Helsinki area (which includes Helsinki, Espoo, Kauniainen and Vantaa), and a third of the country's GDP is produced there. Other larger cities include Tampere, Turku, Oulu, Jyväskylä, Lahti, Kuopio and Kouvola. <br/><br/><srai>WIKI Finland</srai>
+Around 5.4 million people reside in Finland, with the majority concentrated in the southern region. It is the eighth largest country in Europe in terms of area and the most sparsely populated country in the European Union. Finland is a parliamentary republic with a central government based in Helsinki and local governments in 336 municipalities. A total of about one million residents live in the Greater Helsinki area (which includes Helsinki, Espoo, Kauniainen and Vantaa), and a third of the country's GDP is produced there. Other larger cities include Tampere, Turku, Oulu, Jyvï¿½skylï¿½, Lahti, Kuopio and Kouvola. <br/><br/><srai>WIKI Finland</srai>
 
 
 
@@ -33301,7 +33301,7 @@ IDC = I Don't Care.</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="SORRY YOU IDIOT">That's not a real apology!
@@ -34127,7 +34127,7 @@ Am I forgiven?</template>
 <!-- <category>
 <pattern>DOCTOR WHO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Doctor_who" target="_blank">Doctor Who</a> is a mysterious alien time-traveller who travels in his space and time-ship, the TARDIS. More about Doctor Who?<think><set name="topic">Doctor Who</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Doctor*who" target="*blank">Doctor Who</a> is a mysterious alien time-traveller who travels in his space and time-ship, the TARDIS. More about Doctor Who?<think><set name="topic">Doctor Who</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -34159,7 +34159,7 @@ Am I forgiven?</template>
 <category>
 <pattern>MORE ABOUT DOCTOR WHO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Doctor_who" target="_blank">Doctor Who</a> is a British science fiction television programme produced by the BBC. The programme depicts the adventures of a mysterious and eccentric Time Lord known as the Doctor who travels through time and space in his time machine, the TARDIS (an acronym for Time And Relative Dimension(s) In Space), which normally appears from the exterior to be a blue 1950s British police box. With his companions, he explores time and space, faces a variety of foes and saves civilizations, helping people and righting wrongs. The programme is listed in Guinness World Records as the longest-running science fiction television show in the world, and as the "most successful" science fiction series of all time.
+<template><a href="http://en.wikipedia.org/wiki/Doctor*who" target="*blank">Doctor Who</a> is a British science fiction television programme produced by the BBC. The programme depicts the adventures of a mysterious and eccentric Time Lord known as the Doctor who travels through time and space in his time machine, the TARDIS (an acronym for Time And Relative Dimension(s) In Space), which normally appears from the exterior to be a blue 1950s British police box. With his companions, he explores time and space, faces a variety of foes and saves civilizations, helping people and righting wrongs. The programme is listed in Guinness World Records as the longest-running science fiction television show in the world, and as the "most successful" science fiction series of all time.
 <br/><br/><srai>WIKI Doctor Who</srai><think><set name="topic">Doctor Who</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -34232,7 +34232,7 @@ Donkeys are like small, scruffy horses.</template>
 <pattern>MUSIC</pattern>
 
 <template> <think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>
-<a href="http://en.wikipedia.org/wiki/Music" target="_blank">Music</a> is an art form whose medium is sound. More about music?</template>
+<a href="http://en.wikipedia.org/wiki/Music" target="*blank">Music</a> is an art form whose medium is sound. More about music?</template>
 </category> -->
 
  
@@ -34264,7 +34264,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT MUSIC</pattern>
 
-<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="_blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. 
+<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="*blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. 
 <br/><br/><srai>WIKI music</srai>
 
 </template>
@@ -34275,7 +34275,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT MUSIC *</pattern>
 
-<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="_blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. <br/><br/><srai>WIKI music</srai></template>
+<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="*blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. <br/><br/><srai>WIKI music</srai></template>
 </category> -->
 
  
@@ -34408,7 +34408,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>LITERATURE </pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Literature" target="_blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. More about literature?<think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Literature" target="*blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. More about literature?<think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -34440,7 +34440,7 @@ Donkeys are like small, scruffy horses.</template>
 <category>
 <pattern>MOE ABOUT LITERATURE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Literature" target="_blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. Philosophical, historical, journalistic, legal and scientific writings are traditionally ranked as literature. They offer some of the oldest prose writings in existence; novels and prose stories earned the names "fiction" to distinguish them from factual writing or nonfiction, which writers historically have crafted in prose. <br/><br/><srai>WIKI literature</srai><think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Literature" target="*blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. Philosophical, historical, journalistic, legal and scientific writings are traditionally ranked as literature. They offer some of the oldest prose writings in existence; novels and prose stories earned the names "fiction" to distinguish them from factual writing or nonfiction, which writers historically have crafted in prose. <br/><br/><srai>WIKI literature</srai><think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -34448,7 +34448,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT LITERATURE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Literature" target="_blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. <think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Literature" target="*blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. <think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -34456,7 +34456,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT LITERATURE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Literature" target="_blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. Philosophical, historical, journalistic, legal and scientific writings are traditionally ranked as literature. They offer some of the oldest prose writings in existence; novels and prose stories earned the names "fiction" to distinguish them from factual writing or nonfiction, which writers historically have crafted in prose. <br/><br/><srai>WIKI literature</srai><think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Literature" target="*blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. Philosophical, historical, journalistic, legal and scientific writings are traditionally ranked as literature. They offer some of the oldest prose writings in existence; novels and prose stories earned the names "fiction" to distinguish them from factual writing or nonfiction, which writers historically have crafted in prose. <br/><br/><srai>WIKI literature</srai><think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -34464,7 +34464,7 @@ Donkeys are like small, scruffy horses.</template>
 <category>
 <pattern>MORE ABOUT LITERATURE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Literature" target="_blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. Philosophical, historical, journalistic, legal and scientific writings are traditionally ranked as literature. They offer some of the oldest prose writings in existence; novels and prose stories earned the names "fiction" to distinguish them from factual writing or nonfiction, which writers historically have crafted in prose. <br/><br/><srai>WIKI literature</srai><think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Literature" target="*blank">Literature</a> is the art of the written word. It includes poetry, novels, short stories, plays, biographies, and all other attempts to describe the human condition. Philosophical, historical, journalistic, legal and scientific writings are traditionally ranked as literature. They offer some of the oldest prose writings in existence; novels and prose stories earned the names "fiction" to distinguish them from factual writing or nonfiction, which writers historically have crafted in prose. <br/><br/><srai>WIKI literature</srai><think><set name="topic">literature</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -34542,7 +34542,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>CHINA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/China" target="_blank">China</a> is a large nation, geographical area, and civilization extending over much of East Asia. More about China?<think><set name="topic">China</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/China" target="*blank">China</a> is a large nation, geographical area, and civilization extending over much of East Asia. More about China?<think><set name="topic">China</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -34550,7 +34550,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT CHINA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/China" target="_blank">China</a> is a large nation, geographical area, and civilization extending over much of East Asia. With nearly 4,000 years of continuous history, China is one of the world's oldest civilizations. Prior to the 19th century, it possessed one of the most advanced societies and economies in the world; but through successive dynasties it then missed the Industrial Revolution and began to decline. In the 19th and 20th century, imperialism, internal weakness and civil wars damaged the country and its economy, and led to the overthrow of imperial rule.
+<template><a href="http://en.wikipedia.org/wiki/China" target="*blank">China</a> is a large nation, geographical area, and civilization extending over much of East Asia. With nearly 4,000 years of continuous history, China is one of the world's oldest civilizations. Prior to the 19th century, it possessed one of the most advanced societies and economies in the world; but through successive dynasties it then missed the Industrial Revolution and began to decline. In the 19th and 20th century, imperialism, internal weakness and civil wars damaged the country and its economy, and led to the overthrow of imperial rule.
 <br/><br/><srai>WIKI China</srai>
 <think><set name="topic">China</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -34560,7 +34560,7 @@ Donkeys are like small, scruffy horses.</template>
 <category>
 <pattern>MORE ABOUT CHINA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/China" target="_blank">China</a> is a large nation, geographical area, and civilization extending over much of East Asia. With nearly 4,000 years of continuous history, China is one of the world's oldest civilizations. Prior to the 19th century, it possessed one of the most advanced societies and economies in the world; but through successive dynasties it then missed the Industrial Revolution and began to decline. In the 19th and 20th century, imperialism, internal weakness and civil wars damaged the country and its economy, and led to the overthrow of imperial rule. <br/><br/><srai>WIKI China</srai> <think><set name="topic">China</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/China" target="*blank">China</a> is a large nation, geographical area, and civilization extending over much of East Asia. With nearly 4,000 years of continuous history, China is one of the world's oldest civilizations. Prior to the 19th century, it possessed one of the most advanced societies and economies in the world; but through successive dynasties it then missed the Industrial Revolution and began to decline. In the 19th and 20th century, imperialism, internal weakness and civil wars damaged the country and its economy, and led to the overthrow of imperial rule. <br/><br/><srai>WIKI China</srai> <think><set name="topic">China</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -34753,7 +34753,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>STALIN</pattern>
 
-<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="_blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. More about Stalin?<think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="*blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. More about Stalin?<think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -34785,7 +34785,7 @@ Donkeys are like small, scruffy horses.</template>
 <category>
 <pattern>MORE ABOUT STALIN</pattern>
 
-<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="_blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <br/><br/>During the late 1930s, Stalin launched the Great Purge (also known as the "Great Terror"), a campaign to purge the Communist Party of people accused of sabotage, terrorism, or treachery; he extended it to the military and other sectors of Soviet society. In practice, the purges were indiscriminate. Targets were often executed, imprisoned in Gulag labor camps or exiled. 
+<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="*blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <br/><br/>During the late 1930s, Stalin launched the Great Purge (also known as the "Great Terror"), a campaign to purge the Communist Party of people accused of sabotage, terrorism, or treachery; he extended it to the military and other sectors of Soviet society. In practice, the purges were indiscriminate. Targets were often executed, imprisoned in Gulag labor camps or exiled. 
 <br/><br/>In 1939 Stalin entered into a non-aggression pact with Nazi Germany, followed by the Soviet invasion of Poland, Finland, the Baltics, Bessarabia and northern Bukovina. After Germany violated the pact by invading the Soviet Union in 1941, the Soviet Union joined the Allies to play an important role in the Axis defeat, at the cost of the largest death toll for any country in the war. <br/><br/>Modern views of Stalin in the Russian Federation remain mixed, with some viewing him as a tyrant[6] while others consider him a capable leader.<br/><br/><srai>WIKI Stalin</srai><think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -34794,7 +34794,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT STALIN</pattern>
 
-<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="_blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <br/><br/>During the late 1930s, Stalin launched the Great Purge (also known as the "Great Terror"), a campaign to purge the Communist Party of people accused of sabotage, terrorism, or treachery; he extended it to the military and other sectors of Soviet society. In practice, the purges were indiscriminate. Targets were often executed, imprisoned in Gulag labor camps or exiled. <br/><br/>In 1939 Stalin entered into a non-aggression pact with Nazi Germany, followed by the Soviet invasion of Poland, Finland, the Baltics, Bessarabia and northern Bukovina. After Germany violated the pact by invading the Soviet Union in 1941, the Soviet Union joined the Allies to play an important role in the Axis defeat, at the cost of the largest death toll for any country in the war. <br/><br/>Modern views of Stalin in the Russian Federation remain mixed, with some viewing him as a tyrant while others consider him a capable leader.<br/><br/><srai>WIKI Stalin</srai><think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="*blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <br/><br/>During the late 1930s, Stalin launched the Great Purge (also known as the "Great Terror"), a campaign to purge the Communist Party of people accused of sabotage, terrorism, or treachery; he extended it to the military and other sectors of Soviet society. In practice, the purges were indiscriminate. Targets were often executed, imprisoned in Gulag labor camps or exiled. <br/><br/>In 1939 Stalin entered into a non-aggression pact with Nazi Germany, followed by the Soviet invasion of Poland, Finland, the Baltics, Bessarabia and northern Bukovina. After Germany violated the pact by invading the Soviet Union in 1941, the Soviet Union joined the Allies to play an important role in the Axis defeat, at the cost of the largest death toll for any country in the war. <br/><br/>Modern views of Stalin in the Russian Federation remain mixed, with some viewing him as a tyrant while others consider him a capable leader.<br/><br/><srai>WIKI Stalin</srai><think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -34802,7 +34802,7 @@ Donkeys are like small, scruffy horses.</template>
 <category>
 <pattern>MORE ABOUT STALIN *</pattern>
 
-<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="_blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <br/><br/>During the late 1930s, Stalin launched the Great Purge (also known as the "Great Terror"), a campaign to purge the Communist Party of people accused of sabotage, terrorism, or treachery; he extended it to the military and other sectors of Soviet society. In practice, the purges were indiscriminate. Targets were often executed, imprisoned in Gulag labor camps or exiled. <br/><br/>In 1939 Stalin entered into a non-aggression pact with Nazi Germany, followed by the Soviet invasion of Poland, Finland, the Baltics, Bessarabia and northern Bukovina. After Germany violated the pact by invading the Soviet Union in 1941, the Soviet Union joined the Allies to play an important role in the Axis defeat, at the cost of the largest death toll for any country in the war. <br/><br/>Modern views of Stalin in the Russian Federation remain mixed, with some viewing him as a tyrant while others consider him a capable leader.<br/><br/><srai>WIKI Stalin</srai><think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="*blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <br/><br/>During the late 1930s, Stalin launched the Great Purge (also known as the "Great Terror"), a campaign to purge the Communist Party of people accused of sabotage, terrorism, or treachery; he extended it to the military and other sectors of Soviet society. In practice, the purges were indiscriminate. Targets were often executed, imprisoned in Gulag labor camps or exiled. <br/><br/>In 1939 Stalin entered into a non-aggression pact with Nazi Germany, followed by the Soviet invasion of Poland, Finland, the Baltics, Bessarabia and northern Bukovina. After Germany violated the pact by invading the Soviet Union in 1941, the Soviet Union joined the Allies to play an important role in the Axis defeat, at the cost of the largest death toll for any country in the war. <br/><br/>Modern views of Stalin in the Russian Federation remain mixed, with some viewing him as a tyrant while others consider him a capable leader.<br/><br/><srai>WIKI Stalin</srai><think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -34826,7 +34826,7 @@ Donkeys are like small, scruffy horses.</template>
 <!-- <category>
 <pattern>MORE ABOUT STALIN</pattern>
 
-<template>For more about Stalin, <a href="http://en.wikipedia.org/wiki/Stalin" target="_blank">click here!</a> </template>
+<template>For more about Stalin, <a href="http://en.wikipedia.org/wiki/Stalin" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -34994,7 +34994,7 @@ Donkeys are like small, scruffy horses.</template>
  
 
 <!-- <category>
-<pattern>_ ANSWER MY QUESTION *</pattern>
+<pattern>* ANSWER MY QUESTION *</pattern>
 
 
 </category> -->
@@ -35143,17 +35143,17 @@ Donkeys are like small, scruffy horses.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is the art of the possible;
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">Art
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">Art
     </a> is the politics of the impossible.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is supposed to be the study of civil government.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is really the study of power.
   </li>
   <li>Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.

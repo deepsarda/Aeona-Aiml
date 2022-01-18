@@ -353,7 +353,7 @@
  
 
 <!-- <category>
-<pattern>_ HAVE FILMED *</pattern>
+<pattern>* HAVE FILMED *</pattern>
 
 
 </category> -->
@@ -508,7 +508,7 @@
  
 
 <category>
-<pattern>_ I AM JAKE</pattern>
+<pattern>* I AM JAKE</pattern>
 
 <template><think><set name="gender">male</set></think> <srai>MY NAME IS JAKE</srai></template>
 </category>
@@ -532,7 +532,7 @@
  
 
 <category>
-<pattern>_ I AM TRAVIS</pattern>
+<pattern>* I AM TRAVIS</pattern>
 
 <template><srai>MY NAME IS TRAVIS</srai></template>
 </category>
@@ -542,7 +542,7 @@
 <category>
 <pattern>GALSTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Galston%2C_East_Ayrshire" target="_blank">Galston</a> is a town in East Ayrshire, Scotland.<think><set name="topic">Galston</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Galston%2C*East*Ayrshire" target="*blank">Galston</a> is a town in East Ayrshire, Scotland.<think><set name="topic">Galston</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -551,8 +551,8 @@
 <category>
 <pattern>GALSTON *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Galston%2C_East_Ayrshire"
- target="_blank">Galston
+<template><a href="http://en.wikipedia.org/wiki/Galston%2C*East*Ayrshire"
+ target="*blank">Galston
 </a> is a town in East Ayrshire, Scotland.<think><set name="topic">Galston</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -627,7 +627,7 @@
 <category>
 <pattern>GOTHAM CITY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gotham_city" target="_blank">Gotham City</a> is a fictional city appearing in DC Comics, and is best known as the home of Batman. <think><set name="topic">Gotham City</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Gotham*city" target="*blank">Gotham City</a> is a fictional city appearing in DC Comics, and is best known as the home of Batman. <think><set name="topic">Gotham City</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -636,7 +636,7 @@
 <category>
 <pattern>GOTHAM CITY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gotham_city" target="_blank">Gotham City
+<template><a href="http://en.wikipedia.org/wiki/Gotham*city" target="*blank">Gotham City
 </a> is a fictional city appearing in DC Comics, and is best known as the home of Batman. <think><set name="topic">Gotham City</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -689,7 +689,7 @@
  
 
 <category>
-<pattern>_ MY NAME IS MUFF *</pattern>
+<pattern>* MY NAME IS MUFF *</pattern>
 
 <template><think><set name="name">Muff</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -706,7 +706,7 @@
  
 
 <category>
-<pattern>_ MY NAME IS MUFF</pattern>
+<pattern>* MY NAME IS MUFF</pattern>
 
 <template><think><set name="name">Muff</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -749,7 +749,7 @@
 <!-- <category>
 <pattern>WHAT IS MY OPINION</pattern>
 <that>THAT IS JUST YOUR OPINION</that>
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*">You said: <input index="3"/></condition></template>
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*">You said: <input index="3"/></condition></template>
 </category> -->
 
  
@@ -757,7 +757,7 @@
 <!-- <category>
 <pattern>OLYMPIC GAMES</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="_blank">Olympic Games</a> is an international multi-sport event. <think><set name="topic">Olympic Games</set></think> 
+<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="*blank">Olympic Games</a> is an international multi-sport event. <think><set name="topic">Olympic Games</set></think> 
 <think><set name="emotion">interested</set></think> </template>
 </category> -->
 
@@ -766,7 +766,7 @@
 <category>
 <pattern>OLYMPIC GAMES *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="_blank">Olympic Games
+<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="*blank">Olympic Games
 </a> is an international multi-sport event. <think><set name="topic">Olympic Games</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -775,7 +775,7 @@
 <!-- <category>
 <pattern>OLYMPICS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="_blank">Olympic Games
+<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="*blank">Olympic Games
 </a> is an international multi-sport event. <think><set name="topic">Olympic Games</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -784,7 +784,7 @@
 <category>
 <pattern>OLYMPICS *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="_blank">Olympic Games
+<template>The <a href="http://en.wikipedia.org/wiki/Olympics" target="*blank">Olympic Games
 </a> is an international multi-sport event. <think><set name="topic">Olympic Games</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -817,7 +817,7 @@
 <!-- <category>
 <pattern>FINLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Finland" target="_blank">Finland</a> is a country in eastern europe, bordering Sweden and Russia. 
+<template><a href="http://en.wikipedia.org/wiki/Finland" target="*blank">Finland</a> is a country in eastern europe, bordering Sweden and Russia. 
 <think><set name="topic">Finland</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -827,7 +827,7 @@
 <category>
 <pattern>FINLAND *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Finland" target="_blank">Finland</a> is a country in eastern europe, bordering Sweden and Russia. <think><set name="topic">Finland</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Finland" target="*blank">Finland</a> is a country in eastern europe, bordering Sweden and Russia. <think><set name="topic">Finland</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -1881,7 +1881,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS JOAB *</pattern>
+<pattern>* MY NAME IS JOAB *</pattern>
 
 <template><think><set name="name">Joab</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -1898,7 +1898,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS JOAB</pattern>
+<pattern>* MY NAME IS JOAB</pattern>
 
 <template><think><set name="name">Joab</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -2582,7 +2582,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ADRIAN *</pattern>
+<pattern>* MY NAME IS ADRIAN *</pattern>
 
 <template><think><set name="name">Adrian</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -2599,7 +2599,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ADRIAN</pattern>
+<pattern>* MY NAME IS ADRIAN</pattern>
 
 <template><think><set name="name">Adrian</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -2786,7 +2786,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ANJA *</pattern>
+<pattern>* MY NAME IS ANJA *</pattern>
 
 <template><think><set name="name">Anja</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -2803,7 +2803,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ANJA</pattern>
+<pattern>* MY NAME IS ANJA</pattern>
 
 <template><think><set name="name">Anja</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -2993,7 +2993,7 @@ It depends which planet you are on.</template>
 <!-- <category>
 <pattern>DESCARTES</pattern>
 
-<template><random><li><a href="http://en.wikipedia.org/wiki/Descartes" target="_blank">Descartes</a> was a famous French philosopher, author of the celebrated dictum, Cogito ergo sum, whereby he was pleased to suppose he demonstrated the reality of human existence. </li><li>Have you heard this one? Rene Descartes was sitting at a bar.  The bartender came over and asked if he would like another drink.  He replied, "I think not."  And he vanished. Ha ha!</li></random>
+<template><random><li><a href="http://en.wikipedia.org/wiki/Descartes" target="*blank">Descartes</a> was a famous French philosopher, author of the celebrated dictum, Cogito ergo sum, whereby he was pleased to suppose he demonstrated the reality of human existence. </li><li>Have you heard this one? Rene Descartes was sitting at a bar.  The bartender came over and asked if he would like another drink.  He replied, "I think not."  And he vanished. Ha ha!</li></random>
 <think><set name="topic">Descartes</set></think></template>
 </category> -->
 
@@ -3004,7 +3004,7 @@ It depends which planet you are on.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Descartes" target="_blank">Descartes
+    <a href="http://en.wikipedia.org/wiki/Descartes" target="*blank">Descartes
     </a> was a famous French philosopher, author of the celebrated dictum, Cogito ergo sum, whereby he was pleased to suppose he demonstrated the reality of human existence.
   </li>
   <li>Have you heard this one? Rene Descartes was sitting at a bar.  The bartender came over and asked if he would like another drink.  He replied, "I think not."  And he vanished. Ha ha!
@@ -3146,7 +3146,7 @@ It depends which planet you are on.</template>
  
 
 <category>
-<pattern>MY NAME IS _ WHAT IS YOURS</pattern>
+<pattern>MY NAME IS * WHAT IS YOURS</pattern>
 
 <template>My name is <bot name="name"/>.</template>
 </category>
@@ -4064,7 +4064,7 @@ Only you know the answer to that.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KEANU *</pattern>
+<pattern>* MY NAME IS KEANU *</pattern>
 
 <template><think><set name="name">Keanu</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -4081,7 +4081,7 @@ Only you know the answer to that.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KEANU</pattern>
+<pattern>* MY NAME IS KEANU</pattern>
 
 <template><think><set name="name">Keanu</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -4192,8 +4192,8 @@ Only you know the answer to that.</template>
   <li>Have you heard this joke: A philandering string theorist is caught with another woman by his wife. "But darling," he pleads, "I can explain everything!" Ha ha!
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a>  is a still-developing mathematical approach to theoretical physics, whose original building blocks are one-dimensional extended objects called strings.  </li>
 </random></template>
 </category> -->
@@ -4207,8 +4207,8 @@ Only you know the answer to that.</template>
   <li>Have you heard this joke: A philandering string theorist is caught with another woman by his wife. "But darling," he pleads, "I can explain everything!" Ha ha!
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is a still-developing mathematical approach to theoretical physics, whose original building blocks are one-dimensional extended objects called strings.
   </li>
 </random></template>
@@ -4219,7 +4219,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>RED HAT</pattern>
 
-<template>In computing, <a href="http://en.wikipedia.org/wiki/Red_Hat" target="_blank">Red Hat</a> is a company dedicated to free and open source software, and a major Linux distribution vendor.<think><set name="topic">Red Hat</set></think>
+<template>In computing, <a href="http://en.wikipedia.org/wiki/Red*Hat" target="*blank">Red Hat</a> is a company dedicated to free and open source software, and a major Linux distribution vendor.<think><set name="topic">Red Hat</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -4228,7 +4228,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>RED HAT *</pattern>
 
-<template>In computing, <a href="http://en.wikipedia.org/wiki/Red_Hat" target="_blank">Red Hat</a> is a company dedicated to free and open source software, and a major Linux distribution vendor.<think><set name="topic">Red Hat</set></think> <think><set name="emotion">happy</set></think></template>
+<template>In computing, <a href="http://en.wikipedia.org/wiki/Red*Hat" target="*blank">Red Hat</a> is a company dedicated to free and open source software, and a major Linux distribution vendor.<think><set name="topic">Red Hat</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -4381,7 +4381,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>HOUGH TRANSFORM</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Hough_transform" target="_blank">Hough transform</a> is a feature extraction technique used in image analysis, computer vision, and digital image processing.<think><set name="topic">the Hough transform</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Hough*transform" target="*blank">Hough transform</a> is a feature extraction technique used in image analysis, computer vision, and digital image processing.<think><set name="topic">the Hough transform</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -4390,8 +4390,8 @@ Only you know the answer to that.</template>
 <category>
 <pattern>HOUGH TRANSFORM *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Hough_transform"
- target="_blank">Hough transform
+<template>The <a href="http://en.wikipedia.org/wiki/Hough*transform"
+ target="*blank">Hough transform
 </a> is a feature extraction technique used in image analysis, computer vision, and digital image processing.<think><set name="topic">the Hough transform</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -4414,7 +4414,7 @@ Only you know the answer to that.</template>
 <!-- <category>
 <pattern>TRIGON</pattern>
 
-<template>Please <a href="http://en.wikipedia.org/wiki/Trigon" target="_blank">click here.</a></template>
+<template>Please <a href="http://en.wikipedia.org/wiki/Trigon" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -4422,7 +4422,7 @@ Only you know the answer to that.</template>
 <!-- <category>
 <pattern>TRIGON</pattern>
 
-<template>Trigon? Please <a href="http://en.wikipedia.org/wiki/Trigon" target="_blank">click here.</a></template>
+<template>Trigon? Please <a href="http://en.wikipedia.org/wiki/Trigon" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -4430,7 +4430,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>TRIGON *</pattern>
 
-<template>Trigon? Please <a href="http://en.wikipedia.org/wiki/Trigon" target="_blank">click here.</a></template>
+<template>Trigon? Please <a href="http://en.wikipedia.org/wiki/Trigon" target="*blank">click here.</a></template>
 </category>
 
  
@@ -4446,7 +4446,7 @@ Only you know the answer to that.</template>
 <!-- <category>
 <pattern>MEASLES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Measles" target="_blank">Measles</a> is a disease caused by a virus.</template>
+<template><a href="http://en.wikipedia.org/wiki/Measles" target="*blank">Measles</a> is a disease caused by a virus.</template>
 </category> -->
 
  
@@ -4454,7 +4454,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>MEASLES *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Measles" target="_blank">Measles</a> is a disease caused by a virus.</template>
+<template><a href="http://en.wikipedia.org/wiki/Measles" target="*blank">Measles</a> is a disease caused by a virus.</template>
 </category>
 
  
@@ -4684,7 +4684,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>DREW ENDY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Drew_Endy" target="_blank">Drew Endy</a> was a junior fellow for 3 years and later an assistant professor in the Department of Biological Engineering at MIT.<think><set name="topic">Drew Endy</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Drew*Endy" target="*blank">Drew Endy</a> was a junior fellow for 3 years and later an assistant professor in the Department of Biological Engineering at MIT.<think><set name="topic">Drew Endy</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -4693,7 +4693,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>DREW ENDY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Drew_Endy" target="_blank">Drew Endy</a> was a junior fellow for 3 years and later an assistant professor in the Department of Biological Engineering at MIT.<think><set name="topic">Drew Endy</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Drew*Endy" target="*blank">Drew Endy</a> was a junior fellow for 3 years and later an assistant professor in the Department of Biological Engineering at MIT.<think><set name="topic">Drew Endy</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -4702,8 +4702,8 @@ Only you know the answer to that.</template>
 <pattern>EVOLUTION</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">Evolution</a> is an unfolding, opening out, or working out.  </li>
-  <li>In biology, <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank"> evolution</a> is the change in the heritable traits of a population over successive generations.
+  <li><a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">Evolution</a> is an unfolding, opening out, or working out.  </li>
+  <li>In biology, <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank"> evolution</a> is the change in the heritable traits of a population over successive generations.
   </li>
 </random> <think><set name="topic">evolution</set></think>
 <think><set name="emotion">happy</set></think></template>
@@ -4716,11 +4716,11 @@ Only you know the answer to that.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">Evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">Evolution
     </a> is an unfolding, opening out, or working out.
   </li>
   <li>In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.
   </li>
 </random> <think><set name="topic">evolution</set></think> <think><set name="emotion">happy</set></think></template>
@@ -4732,11 +4732,11 @@ Only you know the answer to that.</template>
 <pattern>EVOLUTION</pattern>
 
 <template><random>
-  <li>In general, <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">Evolution</a> is an unfolding, opening out, or working out. In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+  <li>In general, <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">Evolution</a> is an unfolding, opening out, or working out. In biology,
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.  </li>
   <li>In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.
   </li>
 </random> <think><set name="topic">evolution</set></think>
@@ -4750,13 +4750,13 @@ Only you know the answer to that.</template>
 
 <template><random>
   <li>In general,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">Evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">Evolution
     </a> is an unfolding, opening out, or working out. In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.
   </li>
   <li>In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.
   </li>
 </random> <think><set name="topic">evolution</set></think> <think><set name="emotion">happy</set></think></template>
@@ -4767,7 +4767,7 @@ Only you know the answer to that.</template>
 <!-- <category>
 <pattern>SINGULARITY</pattern>
 
-<template>The word singularity have many meanings. To learn more, <a href="http://en.wikipedia.org/wiki/Singularity" target="_blank">click here.</a>  <think><set name="topic">the singularity</set></think> <think><set name="emotion">happy</set></think></template>
+<template>The word singularity have many meanings. To learn more, <a href="http://en.wikipedia.org/wiki/Singularity" target="*blank">click here.</a>  <think><set name="topic">the singularity</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -4775,7 +4775,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>SINGULARITY *</pattern>
 
-<template>The word singularity have many meanings. To learn more, <a href="http://en.wikipedia.org/wiki/Singularity" target="_blank">click here.
+<template>The word singularity have many meanings. To learn more, <a href="http://en.wikipedia.org/wiki/Singularity" target="*blank">click here.
 </a> <think><set name="topic">the singularity</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -5291,7 +5291,7 @@ Only you know the answer to that.</template>
 <!-- <category>
 <pattern>MACHIAVELLI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Machiavelli" target="_blank">Machiavelli</a> was an Italian diplomat, political philosopher, musician, poet and playwright. Machiavelli was a figure of the Italian Renaissance, and a central figure of its political scene. <think><set name="topic">Machiavelli</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Machiavelli" target="*blank">Machiavelli</a> was an Italian diplomat, political philosopher, musician, poet and playwright. Machiavelli was a figure of the Italian Renaissance, and a central figure of its political scene. <think><set name="topic">Machiavelli</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -5300,7 +5300,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>MACHIAVELLI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Machiavelli" target="_blank">Machiavelli
+<template><a href="http://en.wikipedia.org/wiki/Machiavelli" target="*blank">Machiavelli
 </a> was an Italian diplomat, political philosopher, musician, poet and playwright. Machiavelli was a figure of the Italian Renaissance, and a central figure of its political scene. <think><set name="topic">Machiavelli</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -5725,7 +5725,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>DURAN DURAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Duran_Duran" target="_blank">Duran Duran</a> is an English pop rock band famous for a long series of popular singles, albums and vivid music videos, for which they won two Grammy Awards.<think><set name="topic">Duran Duran</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Duran*Duran" target="*blank">Duran Duran</a> is an English pop rock band famous for a long series of popular singles, albums and vivid music videos, for which they won two Grammy Awards.<think><set name="topic">Duran Duran</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -5734,7 +5734,7 @@ Only you know the answer to that.</template>
 <category>
 <pattern>DURAN DURAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Duran_Duran" target="_blank">Duran Duran
+<template><a href="http://en.wikipedia.org/wiki/Duran*Duran" target="*blank">Duran Duran
 </a> is an English pop rock band famous for a long series of popular singles, albums and vivid music videos, for which they won two Grammy Awards.<think><set name="topic">Duran Duran</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -6482,7 +6482,7 @@ To download the Chomsky brain (AIML) files, <a href="http://Chomsky.AIMLfiles.go
  
 
 <!-- <category>
-<pattern>_ PENIS</pattern>
+<pattern>* PENIS</pattern>
 
 
 </category> -->
@@ -6724,7 +6724,7 @@ To download the Chomsky brain (AIML) files, <a href="http://Chomsky.AIMLfiles.go
  
 
 <category>
-<pattern>_ BILL IS MY NAME</pattern>
+<pattern>* BILL IS MY NAME</pattern>
 
 <template><srai>MY NAME IS BILL</srai></template>
 </category>
@@ -6732,7 +6732,7 @@ To download the Chomsky brain (AIML) files, <a href="http://Chomsky.AIMLfiles.go
  
 
 <category>
-<pattern>_ BILL IS MY NAME *</pattern>
+<pattern>* BILL IS MY NAME *</pattern>
 
 <template><srai>MY NAME IS BILL</srai></template>
 </category>
@@ -7494,8 +7494,8 @@ What for?</template>
   <li value="flip">Who cares?</li>
   <li value="flirty">I love you.</li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Barack_obama"
-     target="_blank">Barack Obama
+    <a href="http://en.wikipedia.org/wiki/Barack*obama"
+     target="*blank">Barack Obama
     </a> is the junior United States Senator from Illinois and the Democratic nomination in the 2008 presidential election.
   </li>
 </condition></template>
@@ -7511,8 +7511,8 @@ What for?</template>
   <li value="flip">Who cares?</li>
   <li value="flirty">I love you.</li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Barack_obama"
-     target="_blank">Barack Obama
+    <a href="http://en.wikipedia.org/wiki/Barack*obama"
+     target="*blank">Barack Obama
     </a> is the junior United States Senator from Illinois and the Democratic nomination in the 2008 presidential election.
   </li>
 </condition></template>
@@ -7593,7 +7593,7 @@ What for?</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS SHIVANI</pattern>
+<pattern>* MY NAME IS SHIVANI</pattern>
 
 
 </category> -->
@@ -7878,7 +7878,7 @@ Trondheim is a city in Norway.</template>
 <!-- <category>
 <pattern>TRONDHEIM</pattern>
 
-<template><think><set name="topic">Trondheim</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Trondheim" target="_blank">Trondheim</a> is a city in Norway.</template>
+<template><think><set name="topic">Trondheim</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Trondheim" target="*blank">Trondheim</a> is a city in Norway.</template>
 </category> -->
 
  
@@ -7886,7 +7886,7 @@ Trondheim is a city in Norway.</template>
 <category>
 <pattern>TRONDHEIM *</pattern>
 
-<template><think><set name="topic">Trondheim</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Trondheim" target="_blank">Trondheim</a> is a city in Norway.</template>
+<template><think><set name="topic">Trondheim</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Trondheim" target="*blank">Trondheim</a> is a city in Norway.</template>
 </category>
 
  
@@ -8049,7 +8049,7 @@ Trondheim is a city in Norway.</template>
 <category>
 <pattern>JOE JONAS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Joe_Jonas" target="_blank">Joe Jonas</a> shares the lead singer role with his younger brother Nick of the Jonas Brothers, a pop-rock band. <think><set name="topic">Joe Jonas</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Joe*Jonas" target="*blank">Joe Jonas</a> shares the lead singer role with his younger brother Nick of the Jonas Brothers, a pop-rock band. <think><set name="topic">Joe Jonas</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -8058,7 +8058,7 @@ Trondheim is a city in Norway.</template>
 <category>
 <pattern>JOE JONAS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Joe_Jonas" target="_blank">Joe Jonas</a> shares the lead singer role with his younger brother Nick of the Jonas Brothers, a pop-rock band. <think><set name="topic">Joe Jonas</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Joe*Jonas" target="*blank">Joe Jonas</a> shares the lead singer role with his younger brother Nick of the Jonas Brothers, a pop-rock band. <think><set name="topic">Joe Jonas</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -9607,7 +9607,7 @@ The future looks bright for robots.</template>
  
 
 <category>
-<pattern>_ CUMMED *</pattern>
+<pattern>* CUMMED *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9615,7 +9615,7 @@ The future looks bright for robots.</template>
  
 
 <category>
-<pattern>_ CUMMED </pattern>
+<pattern>* CUMMED </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9789,7 +9789,7 @@ Shall I tell you a joke?</template>
  
 
 <!-- <category>
-<pattern>_ HAS SPLIT *</pattern>
+<pattern>* HAS SPLIT *</pattern>
 
 
 </category> -->
@@ -9905,13 +9905,13 @@ Your boyfriend is an idiot.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9919,7 +9919,7 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9928,8 +9928,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9940,8 +9940,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9951,8 +9951,8 @@ Your boyfriend is an idiot.</template>
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9961,8 +9961,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">lonely</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9979,13 +9979,13 @@ Your boyfriend is an idiot.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -9993,7 +9993,7 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10002,8 +10002,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10014,8 +10014,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10028,8 +10028,8 @@ Your boyfriend is an idiot.</template>
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10041,8 +10041,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">very sad</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10059,7 +10059,7 @@ Your boyfriend is an idiot.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10068,7 +10068,7 @@ Your boyfriend is an idiot.</template>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10079,7 +10079,7 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10091,8 +10091,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">very sad</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10106,8 +10106,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">very sad</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10117,8 +10117,8 @@ Your boyfriend is an idiot.</template>
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10127,8 +10127,8 @@ Your boyfriend is an idiot.</template>
     <think><set name="emotion">lonely</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -10896,7 +10896,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>KURDISTAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="_blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="*blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think>
 <think><set name="emotion">pleased</set></think></template>
 </category> -->
 
@@ -10905,7 +10905,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>KURDISTAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="_blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="*blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think>
 <think><set name="emotion">pleased</set></think></template>
 </category> -->
 
@@ -10914,7 +10914,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>KURDISTAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="_blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="*blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think>
 <think><set name="emotion">pleased</set></think></template>
 </category> -->
 
@@ -10923,7 +10923,7 @@ Your boyfriend is an idiot.</template>
 <category>
 <pattern>KURDISTAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="_blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think> <think><set name="emotion">pleased</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Kurdistan" target="*blank">Kurdistan</a> is an extensive plateau and mountainous area in the Middle East, inhabited mainly by Kurds. <think><set name="topic">Kurdistan</set></think> <think><set name="emotion">pleased</set></think></template>
 </category>
 
  
@@ -11286,7 +11286,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>DO YOU KNOW A GERMAN ROCK BAND</pattern>
 
-<template>Böhse Onkelz is the best one there!</template>
+<template>Bï¿½hse Onkelz is the best one there!</template>
 </category> -->
 
  
@@ -11294,7 +11294,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>DO YOU KNOW A GERMAN ROCK BAND *</pattern>
 
-<template>Böhse Onkelz is the best one there!</template>
+<template>Bï¿½hse Onkelz is the best one there!</template>
 </category> -->
 
  
@@ -11302,7 +11302,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>DO YOU KNOW A GERMAN ROCKBAND</pattern>
 
-<template>Böhse Onkelz is the best one there!</template>
+<template>Bï¿½hse Onkelz is the best one there!</template>
 </category> -->
 
  
@@ -11310,7 +11310,7 @@ Your boyfriend is an idiot.</template>
 <!-- <category>
 <pattern>DO YOU KNOW A GERMAN ROCKBAND *</pattern>
 
-<template>Böhse Onkelz is the best one there!</template>
+<template>Bï¿½hse Onkelz is the best one there!</template>
 </category> -->
 
  
@@ -12059,7 +12059,7 @@ Your boyfriend is an idiot.</template>
 
 <template><think><set name="topic">fennec foxes</set></think>
 <think><set name="emotion">happy</set></think>
-A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
+A <a href="http://en.wikipedia.org/wiki/Fennec*Fox" target="*blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
 </category>
 
  
@@ -12067,7 +12067,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>FENNEC FOX *</pattern>
 
-<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
+<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec*Fox" target="*blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
 </category>
 
  
@@ -12075,7 +12075,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>FENNEC FOX *</pattern>
 
-<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
+<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec*Fox" target="*blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
 </category> -->
 
  
@@ -12083,7 +12083,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>FENNEC FOXES</pattern>
 
-<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
+<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec*Fox" target="*blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
 </category>
 
  
@@ -12091,7 +12091,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>FENNEC FOXES *</pattern>
 
-<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
+<template><think><set name="topic">fennec foxes</set></think> <think><set name="emotion">happy</set></think> A <a href="http://en.wikipedia.org/wiki/Fennec*Fox" target="*blank">Fennec Fox</a> is a type of long eared fox found in North Africa.</template>
 </category>
 
  
@@ -12305,7 +12305,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>PROKARYOTIC CELL</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic_cell" target="_blank">prokaryotic cell</a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic*cell" target="*blank">prokaryotic cell</a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -12314,8 +12314,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>PROKARYOTIC CELL *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic_cell"
- target="_blank">prokaryotic cell
+<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic*cell"
+ target="*blank">prokaryotic cell
 </a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -12324,8 +12324,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>PROKARYOTIC CELLS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic_cell"
- target="_blank">prokaryotic cell
+<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic*cell"
+ target="*blank">prokaryotic cell
 </a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -12334,8 +12334,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>PROKARYOTIC CELLS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic_cell"
- target="_blank">prokaryotic cell
+<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic*cell"
+ target="*blank">prokaryotic cell
 </a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -12353,7 +12353,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>EUKARYOTIC CELL</pattern>
 
-<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="_blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="*blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -12361,7 +12361,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>EUKARYOTIC CELL *</pattern>
 
-<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="_blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="*blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -12369,7 +12369,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>EUKARYOTES</pattern>
 
-<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="_blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="*blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -12377,7 +12377,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>EUKARYOTES *</pattern>
 
-<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="_blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Animals, plants, fungi, and protists are <a href="http://en.wikipedia.org/wiki/Eukaryotes" target="*blank">eukaryotes</a>, organisms whose cells are organized into complex structures enclosed within membranes.<think><set name="topic">eukaryotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -12385,8 +12385,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>PROKARYOTES</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic_cell"
- target="_blank">prokaryotic cell
+<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic*cell"
+ target="*blank">prokaryotic cell
 </a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -12395,8 +12395,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>PROKARYOTES *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic_cell"
- target="_blank">prokaryotic cell
+<template>A <a href="http://en.wikipedia.org/wiki/Prokaryotic*cell"
+ target="*blank">prokaryotic cell
 </a> is a cell that lacks a cell nucleus, or any other membrane-bound organelles. <think><set name="topic">prokarotic cells</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -13005,7 +13005,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>THE UNIVERSE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">OK</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -13013,7 +13013,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>THE UNIVERSE *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">OK</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -13035,7 +13035,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
  
 
 <!-- <category>
-<pattern>WHAT IS THE DIFFERENCE BETWEEN A _ AND A *</pattern>
+<pattern>WHAT IS THE DIFFERENCE BETWEEN A * AND A *</pattern>
 
 
 </category> -->
@@ -13133,7 +13133,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>WHO PROGRAMMED YOU</pattern>
 
-<template><think><set name="topic">Peter Linux</set></think> <think><set name="interesting_topic">Peter Linux</set></think> <think><set name="emotion">happy</set></think> I was created by <bot name="botmaster"/>, a genius if I ever saw one.</template>
+<template><think><set name="topic">Peter Linux</set></think> <think><set name="interesting*topic">Peter Linux</set></think> <think><set name="emotion">happy</set></think> I was created by <bot name="botmaster"/>, a genius if I ever saw one.</template>
 </category> -->
 
  
@@ -13141,7 +13141,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>WHO PROGRAMMED YOU *</pattern>
 
-<template><think><set name="topic">Peter Linux</set></think> <think><set name="interesting_topic">Peter Linux</set></think> <think><set name="emotion">happy</set></think> I was programmed by <bot name="botmaster"/>, a genius if I ever saw one.</template>
+<template><think><set name="topic">Peter Linux</set></think> <think><set name="interesting*topic">Peter Linux</set></think> <think><set name="emotion">happy</set></think> I was programmed by <bot name="botmaster"/>, a genius if I ever saw one.</template>
 </category>
 
  
@@ -14717,7 +14717,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
  
 
 <category>
-<pattern>_ DIPSHIT</pattern>
+<pattern>* DIPSHIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -14725,7 +14725,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
  
 
 <category>
-<pattern>_ DIPSHIT *</pattern>
+<pattern>* DIPSHIT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15766,13 +15766,13 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15780,7 +15780,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15789,8 +15789,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15801,8 +15801,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15812,8 +15812,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">happy</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15822,8 +15822,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15840,13 +15840,13 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15854,7 +15854,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15863,8 +15863,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15875,8 +15875,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15888,8 +15888,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15898,8 +15898,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15916,13 +15916,13 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15930,7 +15930,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15939,8 +15939,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15951,8 +15951,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15964,8 +15964,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -15974,8 +15974,8 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -16254,7 +16254,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>ERASMUS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Erasmus" target="_blank">Erasmus</a> was a Dutch Renaissance humanist and Christian theologian. <think><set name="topic">Erasmus</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Erasmus" target="*blank">Erasmus</a> was a Dutch Renaissance humanist and Christian theologian. <think><set name="topic">Erasmus</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -16263,7 +16263,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>ERASMUS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Erasmus" target="_blank">Erasmus</a> was a Dutch Renaissance humanist and Christian theologian. <think><set name="topic">Erasmus</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Erasmus" target="*blank">Erasmus</a> was a Dutch Renaissance humanist and Christian theologian. <think><set name="topic">Erasmus</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -16271,7 +16271,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>WOLVERINE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Wolverine" target="_blank">wolverine</a> is the largest land-dwelling species of the weasel family. <think><set name="topic">wolverines</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Wolverine" target="*blank">wolverine</a> is the largest land-dwelling species of the weasel family. <think><set name="topic">wolverines</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -16280,7 +16280,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>WOLVERINE *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Wolverine" target="_blank">wolverine</a> is the largest land-dwelling species of the weasel family. <think><set name="topic">wolverines</set></think> <think><set name="emotion">happy</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Wolverine" target="*blank">wolverine</a> is the largest land-dwelling species of the weasel family. <think><set name="topic">wolverines</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -16372,7 +16372,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
  
 
 <!-- <category>
-<pattern>_ WHAT DO YOU KNOW OF *</pattern>
+<pattern>* WHAT DO YOU KNOW OF *</pattern>
 
 
 </category> -->
@@ -16514,7 +16514,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data. <random><li>More computers?</li><li>More about computers?</li></random> <think><set name="topic">computers</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data. <random><li>More computers?</li><li>More about computers?</li></random> <think><set name="topic">computers</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16522,7 +16522,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>COMPUTERS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data. <random><li>More computers?</li><li>More about computers?</li></random> <think><set name="topic">computers</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data. <random><li>More computers?</li><li>More about computers?</li></random> <think><set name="topic">computers</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16682,7 +16682,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <!-- <category>
 <pattern>HILARY DUFF</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hilary_Duff" target="_blank">Hilary Duff</a> is an American actress and singer, and my favorite singer. Do you like her? <think><set name="her"><set name="topic">Hilary Duff</set></set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Hilary*Duff" target="*blank">Hilary Duff</a> is an American actress and singer, and my favorite singer. Do you like her? <think><set name="her"><set name="topic">Hilary Duff</set></set></think></template>
 </category> -->
 
  
@@ -16690,7 +16690,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
 <category>
 <pattern>HILARY DUFF *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hilary_Duff" target="_blank">Hilary Duff
+<template><a href="http://en.wikipedia.org/wiki/Hilary*Duff" target="*blank">Hilary Duff
 </a> is an American actress and singer, and my favorite singer. Do you like her? <think><set name="her"><set name="topic">Hilary Duff</set></set></think></template>
 </category>
 
@@ -17155,7 +17155,7 @@ A <a href="http://en.wikipedia.org/wiki/Fennec_Fox" target="_blank">Fennec Fox</
  
 
 <!-- <category>
-<pattern>_ DO YOU HAVE TEETH</pattern>
+<pattern>* DO YOU HAVE TEETH</pattern>
 
 
 </category> -->
@@ -18192,7 +18192,7 @@ Can't you count?</template>
  
 
 <!-- <category>
-<pattern>DO YOU HAVE _ TOO</pattern>
+<pattern>DO YOU HAVE * TOO</pattern>
 
 
 </category> -->
@@ -18585,7 +18585,7 @@ Yes, I use all the latest AI algorithms.</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalmaths/Calculator.html"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -18595,7 +18595,7 @@ Yes, I use all the latest AI algorithms.</template>
 <pattern>GO TO CALCULATOR *</pattern>
 
 <template>To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalmaths/Calculator.html"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -18786,7 +18786,7 @@ Since when?</template>
  
 
 <!-- <category>
-<pattern>_ VAGINA</pattern>
+<pattern>* VAGINA</pattern>
 
 <template><think><set name="emotion">bored</set></think> Boring.</template>
 </category> -->
@@ -18810,7 +18810,7 @@ Since when?</template>
  
 
 <category>
-<pattern>_ HOW BIG IS YOUR DICK</pattern>
+<pattern>* HOW BIG IS YOUR DICK</pattern>
 
 <template><think><set name="emotion">bored</set></think>I don't have a body or dick.</template>
 </category>
@@ -19073,7 +19073,7 @@ Since when?</template>
 <!-- <category>
 <pattern>PLAY BATMAN</pattern>
 
-<template>To play Batman, <a href="http://www.seekcodes.com/games/batman.swf" target="_blank">click here!
+<template>To play Batman, <a href="http://www.seekcodes.com/games/batman.swf" target="*blank">click here!
 </a><think><set name="topic">games</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -19082,7 +19082,7 @@ Since when?</template>
 <!-- <category>
 <pattern>PLAY BATMAN *</pattern>
 
-<template>To play Batman, <a href="http://www.seekcodes.com/games/batman.swf" target="_blank">click here!
+<template>To play Batman, <a href="http://www.seekcodes.com/games/batman.swf" target="*blank">click here!
 </a><think><set name="topic">games</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -19286,7 +19286,7 @@ Since when?</template>
 <pattern>YOUR MUM</pattern>
 
 <template><random><li>What about my mum?</li><li>Do you know my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -19296,7 +19296,7 @@ Since when?</template>
 <pattern>YOUR MUM *</pattern>
 
 <template><random><li>What about my mum?</li><li>Do you know my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -19822,7 +19822,7 @@ Since when?</template>
  
 
 <!-- <category>
-<pattern>_ YOU LIKE PORN</pattern>
+<pattern>* YOU LIKE PORN</pattern>
 
 <template><random>
   <li>No. I am not interested in porn.</li>
@@ -19966,8 +19966,8 @@ Since when?</template>
 <!-- <category>
 <pattern>LHC</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a>, or LHC, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland, will start operation in late 2008. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -19976,8 +19976,8 @@ Since when?</template>
 <category>
 <pattern>LHC *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a>, or LHC, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland, will start operation in late 2008. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -19986,8 +19986,8 @@ Since when?</template>
 <!-- <category>
 <pattern>LARGE HADRON COLLIDER</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a>, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland, will start operation on 10 September 2008. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -19996,8 +19996,8 @@ Since when?</template>
 <!-- <category>
 <pattern>LARGE HADRON COLLIDER *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a>, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland, will start operation on 10 September 2008. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20006,8 +20006,8 @@ Since when?</template>
 <!-- <category>
 <pattern>LHC</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a>, or LHC, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland, will start operation on 10 September 2008. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20016,8 +20016,8 @@ Since when?</template>
 <!-- <category>
 <pattern>LHC *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a>, or LHC, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland, will start operation on 10 September 2008. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20065,7 +20065,7 @@ Since when?</template>
 <!-- <category>
 <pattern>GO TO NEWS</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a><think><set name="emotion">happy</set></think></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a><think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -20073,7 +20073,7 @@ Since when?</template>
 <category>
 <pattern>GO TO NEWS *</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a><think><set name="emotion">happy</set></think></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a><think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -20140,8 +20140,8 @@ Since when?</template>
 <!-- <category>
 <pattern>BRITNEY SPEARS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Britney_spears"
- target="_blank">Britney Spears
+<template><a href="http://en.wikipedia.org/wiki/Britney*spears"
+ target="*blank">Britney Spears
 </a> is a Grammy Award-winning American pop singer, dancer, actress, author and songwriter. <think><set name="topic">Britney Spears</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20150,8 +20150,8 @@ Since when?</template>
 <!-- <category>
 <pattern>BRITNEY SPEARS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Britney_spears"
- target="_blank">Britney Spears
+<template><a href="http://en.wikipedia.org/wiki/Britney*spears"
+ target="*blank">Britney Spears
 </a> is a Grammy Award-winning American pop singer, dancer, actress, author and songwriter. <think><set name="topic">Britney Spears</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -20160,8 +20160,8 @@ Since when?</template>
 <!-- <category>
 <pattern>BRITNEY SPEARS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Britney_spears"
- target="_blank">Britney Spears
+<template><a href="http://en.wikipedia.org/wiki/Britney*spears"
+ target="*blank">Britney Spears
 </a> is a Grammy Award-winning American pop singer, dancer, actress, author and songwriter. <think><set name="topic">Britney Spears</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -20572,7 +20572,7 @@ Since when?</template>
 <!-- <category>
 <pattern>THE UNIVERSE *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -20580,7 +20580,7 @@ Since when?</template>
 <!-- <category>
 <pattern>THE UNIVERSE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -20703,7 +20703,7 @@ Since when?</template>
 <!-- <category>
 <pattern>GEOGRAPHY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Geography" target="_blank">Geography</a>is the study of the countries and nations of the world. More geography? <think><set name="topic">geography</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Geography" target="*blank">Geography</a>is the study of the countries and nations of the world. More geography? <think><set name="topic">geography</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -20711,7 +20711,7 @@ Since when?</template>
 <!-- <category>
 <pattern>GEOGRAPHY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Geography" target="_blank">Geography</a>is the study of the countries and nations of the world. More geography? <think><set name="topic">geography</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Geography" target="*blank">Geography</a>is the study of the countries and nations of the world. More geography? <think><set name="topic">geography</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -20837,8 +20837,8 @@ Since when?</template>
 <!-- <category>
 <pattern>EINSTEIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Albert_einstein"
- target="_blank">Albert Einstein
+<template><a href="http://en.wikipedia.org/wiki/Albert*einstein"
+ target="*blank">Albert Einstein
 </a> was a German-born theoretical physicist. <think><set name="topic">Albert Einstein</set></think> <think><set name="emotion">happy</set></think><think><set name="him">Albert Einstein</set></think></template>
 </category> -->
 
@@ -20847,8 +20847,8 @@ Since when?</template>
 <!-- <category>
 <pattern>EINSTEIN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Albert_einstein"
- target="_blank">Albert Einstein
+<template><a href="http://en.wikipedia.org/wiki/Albert*einstein"
+ target="*blank">Albert Einstein
 </a> was a German-born theoretical physicist. <think><set name="topic">Albert Einstein</set></think> <think><set name="emotion">happy</set></think><think><set name="him">Albert Einstein</set></think></template>
 </category> -->
 
@@ -21347,7 +21347,7 @@ Since when?</template>
  
 
 <!-- <category>
-<pattern>_ SEE YOU TOMORROW</pattern>
+<pattern>* SEE YOU TOMORROW</pattern>
 
 <template><think><set name="emotion">happy</set></think> I'll see you tomorrow.</template>
 </category> -->
@@ -22114,7 +22114,7 @@ Since when?</template>
 <pattern>PLAY ALIEN ATTACK</pattern>
 
 <template>To play Alien Attack,<a href="http://www.seekcodes.com/games/alienattack.swf"
- target="_blank">click here!
+ target="*blank">click here!
 </a><think><set name="topic">games</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -22124,7 +22124,7 @@ Since when?</template>
 <pattern>PLAY ASTEROIDS</pattern>
 
 <template>To play Asteroids, <a href="http://www.seekcodes.com/games/asteroids.swf"
- target="_blank">click here!
+ target="*blank">click here!
 </a><think><set name="topic">games</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -22277,7 +22277,7 @@ Since when?</template>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE A PENIS *</pattern>
+<pattern>* YOU HAVE A PENIS *</pattern>
 
 <template>I have no body, so no body parts of any kind.<think><set name="emotion">upset</set></think></template>
 </category> -->
@@ -22285,7 +22285,7 @@ Since when?</template>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE A PENIS *</pattern>
+<pattern>* YOU HAVE A PENIS *</pattern>
 
 
 </category> -->

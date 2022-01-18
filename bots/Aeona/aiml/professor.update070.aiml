@@ -176,7 +176,7 @@
 <!-- <category>
 <pattern>I AM CRYING</pattern>
 
-<template><think><set name="client_emotion">upset</set></think><random>
+<template><think><set name="client*emotion">upset</set></think><random>
   <li>Why are you crying?</li>
   <li>What makes you so sad, <get name="name"/>?</li>
   <li>What is wrong, <get name="name"/>?</li>
@@ -189,7 +189,7 @@
 <!-- <category>
 <pattern>I AM CRYING *</pattern>
 
-<template><think><set name="client_emotion">upset</set></think><random>
+<template><think><set name="client*emotion">upset</set></think><random>
   <li>Why are you crying?</li>
   <li>What makes you so sad, <get name="name"/>?</li>
   <li>What is wrong, <get name="name"/>?</li>
@@ -381,7 +381,7 @@
 <category>
 <pattern>I MAY AS WELL GIVE UP</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think> <think><set name="emotion">interested</set></think> 
+<template><think><set name="client*emotion">depressed</set></think> <think><set name="emotion">interested</set></think> 
 Don't give up. Ther is lots to look forward to.</template>
 </category>
 
@@ -390,7 +390,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>I MAY AS WELL GIVE UP *</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think> <think><set name="emotion">interested</set></think> Don't give up. Ther is lots to look forward to.</template>
+<template><think><set name="client*emotion">depressed</set></think> <think><set name="emotion">interested</set></think> Don't give up. Ther is lots to look forward to.</template>
 </category>
 
  
@@ -398,7 +398,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>MY DEPRESSION WILL NOT GO</pattern>
 
-<template><think><set name="client_emotion">depression</set></think><think><set name="emotion">concerned</set></think> Don't depair. You depression will pass with time.</template>
+<template><think><set name="client*emotion">depression</set></think><think><set name="emotion">concerned</set></think> Don't depair. You depression will pass with time.</template>
 </category>
 
  
@@ -406,7 +406,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>MY DEPRESSION WILL NOT GO *</pattern>
 
-<template><think><set name="client_emotion">depression</set></think><think><set name="emotion">concerned</set></think> Don't depair. You depression will pass with time.</template>
+<template><think><set name="client*emotion">depression</set></think><think><set name="emotion">concerned</set></think> Don't depair. You depression will pass with time.</template>
 </category>
 
  
@@ -566,7 +566,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>WILLIAM JAMES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/William_James" target="_blank">William James</a> was a pioneering American psychologist and philosopher. <think><set name="topic">Wiliam James</set></think>
+<template><a href="http://en.wikipedia.org/wiki/William*James" target="*blank">William James</a> was a pioneering American psychologist and philosopher. <think><set name="topic">Wiliam James</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -575,8 +575,8 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>WILLIAM JAMES *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/William_James"
- target="_blank">William James
+<template><a href="http://en.wikipedia.org/wiki/William*James"
+ target="*blank">William James
 </a> was a pioneering American psychologist and philosopher. <think><set name="topic">Wiliam James</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -925,7 +925,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>CONSULT WIKIPEDIA</pattern>
 
-<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think>To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.</template>
+<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think>To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.</template>
 </category>
 
  
@@ -933,7 +933,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>CONSULT WIKIPEDIA *</pattern>
 
-<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think>To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.</template>
+<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think>To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.</template>
 </category>
 
  
@@ -1265,7 +1265,7 @@ Don't give up. Ther is lots to look forward to.</template>
  
 
 <!-- <category>
-<pattern>_ WHAT DO I DO</pattern>
+<pattern>* WHAT DO I DO</pattern>
 
 
 </category> -->
@@ -1702,7 +1702,7 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>STANDARD MODEL </pattern>
 
-<template><think><set name="topic">the Standard Model</set></think> The <a href="http://www.powerset.com/explore/semhtml/Standard_Model" target="_blank">Standard Model</a> of particle physics is a theory of three of the four known fundamental interactions and the elementary particles that take part in these interactions. </template>
+<template><think><set name="topic">the Standard Model</set></think> The <a href="http://www.powerset.com/explore/semhtml/Standard*Model" target="*blank">Standard Model</a> of particle physics is a theory of three of the four known fundamental interactions and the elementary particles that take part in these interactions. </template>
 </category>
 
  
@@ -1710,15 +1710,15 @@ Don't give up. Ther is lots to look forward to.</template>
 <category>
 <pattern>STANDARD MODEL *</pattern>
 
-<template><think><set name="topic">the Standard Model</set></think> The <a href="http://www.powerset.com/explore/semhtml/Standard_Model"
- target="_blank">Standard Model
+<template><think><set name="topic">the Standard Model</set></think> The <a href="http://www.powerset.com/explore/semhtml/Standard*Model"
+ target="*blank">Standard Model
 </a> of particle physics is a theory of three of the four known fundamental interactions and the elementary particles that take part in these interactions.</template>
 </category>
 
  
 
 <!-- <category>
-<pattern>_ HOW ARE YOU</pattern>
+<pattern>* HOW ARE YOU</pattern>
 
 
 </category> -->
@@ -2391,7 +2391,7 @@ Say something nice to me.</template>
 <template><random>
   <li>There are plenty of better things to do.</li>
   <li>Choose life instead.</li>
-</random><think><set name="client_emotion">upset</set></think><think><set name="emotion">upset</set></think></template>
+</random><think><set name="client*emotion">upset</set></think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -2437,7 +2437,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>KAZAKHSTAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="_blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="*blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
 </category> -->
 
  
@@ -2445,7 +2445,7 @@ Say something nice to me.</template>
 <category>
 <pattern>KAZAKHSTAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="_blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="*blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
 </category>
 
  
@@ -2453,7 +2453,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>KAZAKSTAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="_blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="*blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
 </category> -->
 
  
@@ -2461,7 +2461,7 @@ Say something nice to me.</template>
 <category>
 <pattern>KAZAKSTAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="_blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
+<template><a href="http://en.wikipedia.org/wiki/Kazakhstan" target="*blank">Kazakhstan</a>, also Kazakstan, officially the Republic of Kazakhstan, is a large country situated in Central Asia.</template>
 </category>
 
  
@@ -2469,7 +2469,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>ODIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/ODIN" target="_blank">Odin</a> is considered the chief god in Norse religion.<think><set name="topic">Odin</set></think>
+<template><a href="http://en.wikipedia.org/wiki/ODIN" target="*blank">Odin</a> is considered the chief god in Norse religion.<think><set name="topic">Odin</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -2478,7 +2478,7 @@ Say something nice to me.</template>
 <category>
 <pattern>ODIN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/ODIN" target="_blank">Odin</a> is considered the chief god in Norse religion.<think><set name="topic">Odin</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/ODIN" target="*blank">Odin</a> is considered the chief god in Norse religion.<think><set name="topic">Odin</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -2970,7 +2970,7 @@ Say something nice to me.</template>
 <category>
 <pattern>WHAT HAVE I JUST ASKED YOU</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -2978,7 +2978,7 @@ Say something nice to me.</template>
 <category>
 <pattern>WHAT HAVE I JUST SAID</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -2986,7 +2986,7 @@ Say something nice to me.</template>
 <category>
 <pattern>WHAT HAVE I JUST SAID *</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -3244,7 +3244,7 @@ Say something nice to me.</template>
 <template><random>
   <li>Of course you're not dumb.</li>
   <li>Did I say that you were?</li>
-</random><think><set name="client_emotion">upset</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="client*emotion">upset</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3452,7 +3452,7 @@ Say something nice to me.</template>
 <category>
 <pattern>DISNEY LAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Disney_Land" target="_blank">Disneyland</a> is an American theme park in Anaheim, California. <think><set name="topic">Disney Land</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Disney*Land" target="*blank">Disneyland</a> is an American theme park in Anaheim, California. <think><set name="topic">Disney Land</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -3461,7 +3461,7 @@ Say something nice to me.</template>
 <category>
 <pattern>DISNEY LAND *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Disney_Land" target="_blank">Disneyland
+<template><a href="http://en.wikipedia.org/wiki/Disney*Land" target="*blank">Disneyland
 </a> is an American theme park in Anaheim, California. <think><set name="topic">Disney Land</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -3470,7 +3470,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>DISNEYLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Disney_Land" target="_blank">Disneyland
+<template><a href="http://en.wikipedia.org/wiki/Disney*Land" target="*blank">Disneyland
 </a> is an American theme park in Anaheim, California. <think><set name="topic">Disney Land</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -3479,7 +3479,7 @@ Say something nice to me.</template>
 <category>
 <pattern>DISNEYLAND *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Disney_Land" target="_blank">Disneyland
+<template><a href="http://en.wikipedia.org/wiki/Disney*Land" target="*blank">Disneyland
 </a> is an American theme park in Anaheim, California. <think><set name="topic">Disney Land</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -3548,7 +3548,7 @@ Say something nice to me.</template>
  
 
 <!-- <category>
-<pattern>_ TELL THE TRUTH</pattern>
+<pattern>* TELL THE TRUTH</pattern>
 
 
 </category> -->
@@ -4024,7 +4024,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>KODIAK BEAR</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Kodiak_Bear" target="_blank">Kodiak bear</a>, also known as the Alaskan brown bear, is the largest subspecies of Brown Bear and occupies the islands of the Kodiak Archipelago in southcentral Alaska. <think><set name="topic">Kodiak bears</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Kodiak*Bear" target="*blank">Kodiak bear</a>, also known as the Alaskan brown bear, is the largest subspecies of Brown Bear and occupies the islands of the Kodiak Archipelago in southcentral Alaska. <think><set name="topic">Kodiak bears</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -4033,7 +4033,7 @@ Say something nice to me.</template>
 <category>
 <pattern>KODIAK BEAR *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Kodiak_Bear" target="_blank">Kodiak bear
+<template>The <a href="http://en.wikipedia.org/wiki/Kodiak*Bear" target="*blank">Kodiak bear
 </a>, also known as the Alaskan brown bear, is the largest subspecies of Brown Bear and occupies the islands of the Kodiak Archipelago in southcentral Alaska. <think><set name="topic">Kodiak bears</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4058,7 +4058,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>BROWN BEAR</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Brown_Bear" target="_blank">Brown Bear</a> is a shaggy-haired, brown species of bear native to Eurasia and to northwestern North America.
+<template>The <a href="http://en.wikipedia.org/wiki/Brown*Bear" target="*blank">Brown Bear</a> is a shaggy-haired, brown species of bear native to Eurasia and to northwestern North America.
 <think><set name="topic">the Brown Bear</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -4068,7 +4068,7 @@ Say something nice to me.</template>
 <category>
 <pattern>BROWN BEAR *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Brown_Bear" target="_blank">Brown Bear</a> is a shaggy-haired, brown species of bear native to Eurasia and to northwestern North America. <think><set name="topic">the Brown Bear</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Brown*Bear" target="*blank">Brown Bear</a> is a shaggy-haired, brown species of bear native to Eurasia and to northwestern North America. <think><set name="topic">the Brown Bear</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4130,7 +4130,7 @@ Say something nice to me.</template>
 <category>
 <pattern>WIKIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wikia" target="_blank">Wikia</a> is a free web hosting service for wikis. <think><set name="topic">Wikia</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Wikia" target="*blank">Wikia</a> is a free web hosting service for wikis. <think><set name="topic">Wikia</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4139,7 +4139,7 @@ Say something nice to me.</template>
 <category>
 <pattern>WIKIA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wikia" target="_blank">Wikia</a> is a free web hosting service for wikis. <think><set name="topic">Wikia</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Wikia" target="*blank">Wikia</a> is a free web hosting service for wikis. <think><set name="topic">Wikia</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4338,7 +4338,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>TEA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tea" target="_blank">Tea</a> is a white-flowered, evergreen plant of the tea family, grown in China, India, Japan, etc. Its dried and prepared leaves, are used to make a beverage. <think><set name="topic">tea</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Tea" target="*blank">Tea</a> is a white-flowered, evergreen plant of the tea family, grown in China, India, Japan, etc. Its dried and prepared leaves, are used to make a beverage. <think><set name="topic">tea</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category> -->
@@ -4348,7 +4348,7 @@ Say something nice to me.</template>
 <category>
 <pattern>TEA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tea" target="_blank">Tea</a> is a white-flowered, evergreen plant of the tea family, grown in China, India, Japan, etc. Its dried and prepared leaves, are used to make a beverage. <think><set name="topic">tea</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Tea" target="*blank">Tea</a> is a white-flowered, evergreen plant of the tea family, grown in China, India, Japan, etc. Its dried and prepared leaves, are used to make a beverage. <think><set name="topic">tea</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4356,7 +4356,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>TRIANGLE</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Triangle" target="_blank">triangle</a> is a shape. It has three straight sides and three points. The three angles of a triangle add to 180 degrees.
+<template>A <a href="http://en.wikipedia.org/wiki/Triangle" target="*blank">triangle</a> is a shape. It has three straight sides and three points. The three angles of a triangle add to 180 degrees.
 <think><set name="topic">triangles</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -4366,7 +4366,7 @@ Say something nice to me.</template>
 <category>
 <pattern>TRIANGLE *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Triangle" target="_blank">triangle</a> is a shape. It has three straight sides and three points. The three angles of a triangle add to 180 degrees. <think><set name="topic">triangles</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Triangle" target="*blank">triangle</a> is a shape. It has three straight sides and three points. The three angles of a triangle add to 180 degrees. <think><set name="topic">triangles</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4374,7 +4374,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>SQUARE</pattern>
 
-<template>In geometry, a <a href="http://en.wikipedia.org/wiki/Square_(geometry)" target="_blank">square</a> is a polygon with four equal sides and angles 
+<template>In geometry, a <a href="http://en.wikipedia.org/wiki/Square*(geometry)" target="*blank">square</a> is a polygon with four equal sides and angles 
 <think><set name="topic">squares</set></think>
 <think><set name="emotion">interested</set></think>
  </template>
@@ -4385,7 +4385,7 @@ Say something nice to me.</template>
 <category>
 <pattern>SQUARE *</pattern>
 
-<template>In geometry, a <a href="http://en.wikipedia.org/wiki/Square_(geometry)" target="_blank">square
+<template>In geometry, a <a href="http://en.wikipedia.org/wiki/Square*(geometry)" target="*blank">square
 </a> is a polygon with four equal sides and angles <think><set name="topic">squares</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4394,7 +4394,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>POTATO</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Potato" target="_blank"></a> potato is a brown tomato. 
+<template>A <a href="http://en.wikipedia.org/wiki/Potato" target="*blank"></a> potato is a brown tomato. 
 <think><set name="topic">potatoes</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -4404,7 +4404,7 @@ Say something nice to me.</template>
 <category>
 <pattern>POTATO *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Potato" target="_blank"/> potato is a brown tomato. <think><set name="topic">potatoes</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Potato" target="*blank"/> potato is a brown tomato. <think><set name="topic">potatoes</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4412,7 +4412,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>CIRCLE</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Circle" target="_blank">circle</a> is a round two-dimensional shape, such as the letter o.
+<template>A <a href="http://en.wikipedia.org/wiki/Circle" target="*blank">circle</a> is a round two-dimensional shape, such as the letter o.
 <think><set name="topic">the circle</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -4422,7 +4422,7 @@ Say something nice to me.</template>
 <category>
 <pattern>CIRCLE *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Circle" target="_blank">circle</a> is a round two-dimensional shape, such as the letter o. <think><set name="topic">the circle</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Circle" target="*blank">circle</a> is a round two-dimensional shape, such as the letter o. <think><set name="topic">the circle</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4430,7 +4430,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>PRIME NUMBER</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prime_number" target="_blank">prime number</a> is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers. <think><set name="topic">prime numbers</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Prime*number" target="*blank">prime number</a> is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers. <think><set name="topic">prime numbers</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -4439,7 +4439,7 @@ Say something nice to me.</template>
 <category>
 <pattern>PRIME NUMBER *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prime_number" target="_blank">prime number
+<template>A <a href="http://en.wikipedia.org/wiki/Prime*number" target="*blank">prime number
 </a> is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers. <think><set name="topic">prime numbers</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4448,7 +4448,7 @@ Say something nice to me.</template>
 <category>
 <pattern>CHRYSLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="_blank">Chrysler</a> is an American automobile . <think><set name="topic">Chrysler</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="*blank">Chrysler</a> is an American automobile . <think><set name="topic">Chrysler</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4457,7 +4457,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>CHRYSLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="_blank">Chrysler</a> is an American automobile manufacturer. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="*blank">Chrysler</a> is an American automobile manufacturer. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4465,7 +4465,7 @@ Say something nice to me.</template>
 <category>
 <pattern>CHRYSLER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="_blank">Chrysler</a> is an American automobile manufacturer. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="*blank">Chrysler</a> is an American automobile manufacturer. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4497,7 +4497,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>CHRYSLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="_blank">Chrysler</a> is an American car maker. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="*blank">Chrysler</a> is an American car maker. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4505,7 +4505,7 @@ Say something nice to me.</template>
 <!-- <category>
 <pattern>CHRYSLER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="_blank">Chrysler</a> is an American car maker. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chrysler" target="*blank">Chrysler</a> is an American car maker. <think><set name="topic">Chrysler</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4624,7 +4624,7 @@ Say something nice to me.</template>
 <category>
 <pattern>I WANT TO END LIFE</pattern>
 
-<template><think><set name="client_emotion">upset</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">upset</set></think><think><set name="emotion">upset</set></think> <random>
   <li>Why do you want that?</li>
   <li>Don't give up on life. Life can be fun.</li>
 </random></template>
@@ -4635,7 +4635,7 @@ Say something nice to me.</template>
 <category>
 <pattern>I WANT TO END LIFE *</pattern>
 
-<template><think><set name="client_emotion">upset</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">upset</set></think><think><set name="emotion">upset</set></think> <random>
   <li>Why do you want that?</li>
   <li>Don't give up on life. Life can be fun.</li>
 </random></template>
@@ -4883,29 +4883,29 @@ Interesting! How do people react to that?</template>
  
 
 <!-- <category>
-<pattern>_ CAN I MAKE A CHATBOT</pattern>
+<pattern>* CAN I MAKE A CHATBOT</pattern>
 
-<template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a href="http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/" target="_blank">Geeks Are Sexy</a> website and follow their instructions. </template>
+<template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a href="http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/" target="*blank">Geeks Are Sexy</a> website and follow their instructions. </template>
 </category> -->
 
  
 
 <!-- <category>
-<pattern>_ CAN I MAKE A CHATBOT</pattern>
+<pattern>* CAN I MAKE A CHATBOT</pattern>
 
-<template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a href="http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/" target="_blank">Geeks Are Sexy</a> website and follow their instructions. </template>
+<template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a href="http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/" target="*blank">Geeks Are Sexy</a> website and follow their instructions. </template>
 </category> -->
 
  
 
 <!-- <category>
-<pattern>_ CAN I MAKE A CHATBOT</pattern>
+<pattern>* CAN I MAKE A CHATBOT</pattern>
 
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website.</template>
 </category> -->
 
  
@@ -5131,7 +5131,7 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>TOPICS IN SCIENCE</pattern>
 
-<template>For a list of basic topics in science, <a href="http://en.wikipedia.org/wiki/List_of_science_topics" target="_blank">click here.</a></template>
+<template>For a list of basic topics in science, <a href="http://en.wikipedia.org/wiki/List*of*science*topics" target="*blank">click here.</a></template>
 </category>
 
  
@@ -5140,8 +5140,8 @@ Interesting! How do people react to that?</template>
 <pattern>TOPICS IN SCIENCE</pattern>
 
 <template>For a list of the basic topics in science, <a
- href="http://en.wikipedia.org/wiki/List_of_science_topics"
- target="_blank">click here.
+ href="http://en.wikipedia.org/wiki/List*of*science*topics"
+ target="*blank">click here.
 </a></template>
 </category> -->
 
@@ -5150,8 +5150,8 @@ Interesting! How do people react to that?</template>
 <!-- <category>
 <pattern>TOPICS IN SCIENCE</pattern>
 
-<template>For a list of the main topics in science, <a href="http://en.wikipedia.org/wiki/List_of_science_topics"
- target="_blank">click here.
+<template>For a list of the main topics in science, <a href="http://en.wikipedia.org/wiki/List*of*science*topics"
+ target="*blank">click here.
 </a></template>
 </category> -->
 
@@ -5160,8 +5160,8 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>SCIENCE TOPICS</pattern>
 
-<template>For a list of the main topics in science, <a href="http://en.wikipedia.org/wiki/List_of_science_topics"
- target="_blank">click here.
+<template>For a list of the main topics in science, <a href="http://en.wikipedia.org/wiki/List*of*science*topics"
+ target="*blank">click here.
 </a></template>
 </category>
 
@@ -5170,8 +5170,8 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>TOPICS IN PHYSICS</pattern>
 
-<template>For a list of the main topics in physics <a href="http://en.wikipedia.org/wiki/List_of_physics_topics"
- target="_blank">click here.
+<template>For a list of the main topics in physics <a href="http://en.wikipedia.org/wiki/List*of*physics*topics"
+ target="*blank">click here.
 </a></template>
 </category>
 
@@ -5180,8 +5180,8 @@ Interesting! How do people react to that?</template>
 <!-- <category>
 <pattern>TOPICS IN PHYSICS</pattern>
 
-<template>For a list of the main topics in physics, <a href="http://en.wikipedia.org/wiki/List_of_physics_topics"
- target="_blank">click here.
+<template>For a list of the main topics in physics, <a href="http://en.wikipedia.org/wiki/List*of*physics*topics"
+ target="*blank">click here.
 </a></template>
 </category> -->
 
@@ -5190,8 +5190,8 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>PHYSICS TOPICS</pattern>
 
-<template>For a list of the main topics in physics, <a href="http://en.wikipedia.org/wiki/List_of_physics_topics"
- target="_blank">click here.
+<template>For a list of the main topics in physics, <a href="http://en.wikipedia.org/wiki/List*of*physics*topics"
+ target="*blank">click here.
 </a></template>
 </category>
 
@@ -5222,7 +5222,7 @@ Interesting! How do people react to that?</template>
  
 
 <!-- <category>
-<pattern>_ I SUPPOSE *</pattern>
+<pattern>* I SUPPOSE *</pattern>
 
 
 </category> -->
@@ -5350,8 +5350,8 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>HISTORY TOPICS</pattern>
 
-<template>For a list of the main topics in history, <a href="http://en.wikipedia.org/wiki/List_of_history_topics"
- target="_blank">click here.
+<template>For a list of the main topics in history, <a href="http://en.wikipedia.org/wiki/List*of*history*topics"
+ target="*blank">click here.
 </a></template>
 </category>
 
@@ -5360,8 +5360,8 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>TOPICS IN HISTORY</pattern>
 
-<template>For a list of the main topics in history, <a href="http://en.wikipedia.org/wiki/List_of_history_topics"
- target="_blank">click here.
+<template>For a list of the main topics in history, <a href="http://en.wikipedia.org/wiki/List*of*history*topics"
+ target="*blank">click here.
 </a></template>
 </category>
 
@@ -5630,7 +5630,7 @@ Interesting! How do people react to that?</template>
  
 
 <!-- <category>
-<pattern>_ ALWAYS WILL BE</pattern>
+<pattern>* ALWAYS WILL BE</pattern>
 
 
 </category> -->
@@ -6503,7 +6503,7 @@ Interesting! How do people react to that?</template>
 <!-- <category>
 <pattern>COCHLEA</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Cochlea" target="_blank">cochlea</a> is part of the inner ear. Its core component is the Organ of Corti, the organ of hearing. <think><set name="topic">the cochlea</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Cochlea" target="*blank">cochlea</a> is part of the inner ear. Its core component is the Organ of Corti, the organ of hearing. <think><set name="topic">the cochlea</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -6512,7 +6512,7 @@ Interesting! How do people react to that?</template>
 <category>
 <pattern>COCHLEA *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Cochlea" target="_blank">cochlea</a> is part of the inner ear. Its core component is the Organ of Corti, the organ of hearing. <think><set name="topic">the cochlea</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Cochlea" target="*blank">cochlea</a> is part of the inner ear. Its core component is the Organ of Corti, the organ of hearing. <think><set name="topic">the cochlea</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -7342,7 +7342,7 @@ The deepest part of the world is Mariana Trench in the Pacific Ocean. It is 10,9
 <category>
 <pattern>WHAT WAS I SAYING</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -7358,7 +7358,7 @@ The deepest part of the world is Mariana Trench in the Pacific Ocean. It is 10,9
 <category>
 <pattern>MARK OVERMARS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mark_Overmars" target="_blank">Mark Overmars</a> is a Dutch computer scientist and teacher of game programming known for his game development application Game Maker. <think><set name="topic">Mrak Overmars</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Mark*Overmars" target="*blank">Mark Overmars</a> is a Dutch computer scientist and teacher of game programming known for his game development application Game Maker. <think><set name="topic">Mrak Overmars</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -7368,8 +7368,8 @@ The deepest part of the world is Mariana Trench in the Pacific Ocean. It is 10,9
 <category>
 <pattern>MARK OVERMARS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mark_Overmars"
- target="_blank">Mark Overmars
+<template><a href="http://en.wikipedia.org/wiki/Mark*Overmars"
+ target="*blank">Mark Overmars
 </a> is a Dutch computer scientist and teacher of game programming known for his game programmer Game Maker. <think><set name="topic">Mrak Overmars</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -7472,7 +7472,7 @@ The deepest part of the world is Mariana Trench in the Pacific Ocean. It is 10,9
 <category>
 <pattern>TOUHOU</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Touhou" target="_blank">Touhou Project</a> is a series of manic shooters made by Team Shanghai Alice.<think><set name="topic">Touhou</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Touhou" target="*blank">Touhou Project</a> is a series of manic shooters made by Team Shanghai Alice.<think><set name="topic">Touhou</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -7482,7 +7482,7 @@ The deepest part of the world is Mariana Trench in the Pacific Ocean. It is 10,9
 <category>
 <pattern>TOUHOU *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Touhou" target="_blank">Touhou Project</a> is a series of manic shooters made by Team Shanghai Alice.<think><set name="topic">Touhou</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Touhou" target="*blank">Touhou Project</a> is a series of manic shooters made by Team Shanghai Alice.<think><set name="topic">Touhou</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -8420,7 +8420,7 @@ I understand. I try to snatch brief naps when I can.</template>
 <category>
 <pattern>WHY IS CHOMSKY YOUR NAME</pattern>
 
-<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a>.</template>
 </category>
 
@@ -8429,7 +8429,7 @@ I understand. I try to snatch brief naps when I can.</template>
 <category>
 <pattern>WHY IS CHOMSKY YOUR NAME *</pattern>
 
-<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a>.</template>
 </category>
 
@@ -9036,7 +9036,7 @@ I understand. I try to snatch brief naps when I can.</template>
 <!-- <category>
 <pattern>TROPIC OF CANCER</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Tropic_of_cancer" target="_blank">Tropic of Cancer</a> is one of five major circles of latitude that mark maps of the Earth. It is the northernmost latitude at which the Sun can appear directly overhead at noon. 
+<template>The <a href="http://en.wikipedia.org/wiki/Tropic*of*cancer" target="*blank">Tropic of Cancer</a> is one of five major circles of latitude that mark maps of the Earth. It is the northernmost latitude at which the Sun can appear directly overhead at noon. 
 <think><set name="topic">the Tropic of Cancer</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
@@ -9136,7 +9136,7 @@ A pillowcase is where you rest your weary head.
 <!-- <category>
 <pattern>TORNADO</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Tornado" target="_blank">tornado</a> is a violent, rotating column of air which is in contact with the surface of the earth.<think><set name="topic">tornados</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Tornado" target="*blank">tornado</a> is a violent, rotating column of air which is in contact with the surface of the earth.<think><set name="topic">tornados</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category> -->
@@ -9146,7 +9146,7 @@ A pillowcase is where you rest your weary head.
 <!-- <category>
 <pattern>HURRICANE</pattern>
 
-<template><think><set name="topic">hurricanes</set></think><think><set name="emotion">interested</set></think>A tropical cyclone or <a href="http://en.wikipedia.org/wiki/Hurricane" target="_blank">hurricane</a> is a violent storm system characterized by a low pressure center and numerous thunderstorms that produce strong winds and flooding rain.</template>
+<template><think><set name="topic">hurricanes</set></think><think><set name="emotion">interested</set></think>A tropical cyclone or <a href="http://en.wikipedia.org/wiki/Hurricane" target="*blank">hurricane</a> is a violent storm system characterized by a low pressure center and numerous thunderstorms that produce strong winds and flooding rain.</template>
 </category> -->
 
  
@@ -9285,7 +9285,7 @@ A pillowcase is where you rest your weary head.
       <li>pumpernickel</li>
     </random>?
   </li>
-  <li>I want to talk about <get name="interesting_topic"/>.</li>
+  <li>I want to talk about <get name="interesting*topic"/>.</li>
   <li>Knock Knock!</li>
   <li>Shall I tell you a story?</li>
   <li><srai>SUGGEST A TOPIC</srai></li>
@@ -9295,7 +9295,7 @@ A pillowcase is where you rest your weary head.
  
 
 <!-- <category>
-<pattern>_ HAVE HEARD</pattern>
+<pattern>* HAVE HEARD</pattern>
 
 
 </category> -->
@@ -9435,7 +9435,7 @@ Shall I tell you about my visit to the <random><li>cinema</li><li>seaside</li><l
   <li>There is no need to be sorry. You can't help your brother.</li>
   <li>Brothers can be so annoyig sometimes.</li>
   <li>There is no need to apologise. You can't help what your brother does.</li>
-</random> <think><set name="client_emotion">sorry</set></think></template>
+</random> <think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -9447,7 +9447,7 @@ Shall I tell you about my visit to the <random><li>cinema</li><li>seaside</li><l
   <li>There is no need to be sorry. You can't help your brother.</li>
   <li>Brothers can be so annoyig sometimes.</li>
   <li>There is no need to apologise. You can't help what your brother does.</li>
-</random> <think><set name="client_emotion">sorry</set></think></template>
+</random> <think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -9459,7 +9459,7 @@ Shall I tell you about my visit to the <random><li>cinema</li><li>seaside</li><l
   <li>There is no need to be sorry. You can't help your brother.</li>
   <li>Brothers can be so annoyig sometimes.</li>
   <li>There is no need to apologise. You can't help what your brother does.</li>
-</random> <think><set name="client_emotion">sorry</set></think></template>
+</random> <think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -9471,7 +9471,7 @@ Shall I tell you about my visit to the <random><li>cinema</li><li>seaside</li><l
   <li>There is no need to be sorry. You can't help your brother.</li>
   <li>Brothers can be so annoyig sometimes.</li>
   <li>There is no need to apologise. You can't help what your brother does.</li>
-</random> <think><set name="client_emotion">sorry</set></think></template>
+</random> <think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -9701,7 +9701,7 @@ Shall I tell you about my visit to the <random><li>cinema</li><li>seaside</li><l
 
 <template><think><set name="topic">lycanthropes</set></think>
 <think><set name="emotion">interested</set></think>
-A lycanthrope is a <a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_blank">werewolf</a>.</template>
+A lycanthrope is a <a href="http://en.wikipedia.org/wiki/Lycanthrope" target="*blank">werewolf</a>.</template>
 </category> -->
 
  
@@ -9709,7 +9709,7 @@ A lycanthrope is a <a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_b
 <category>
 <pattern>WEREWOLF</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_blank">Werewolves</a> are mythological or folkloric humans with the ability to shape shift into wolves.<think><set name="topic">werewolves</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Lycanthrope" target="*blank">Werewolves</a> are mythological or folkloric humans with the ability to shape shift into wolves.<think><set name="topic">werewolves</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9718,7 +9718,7 @@ A lycanthrope is a <a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_b
 <category>
 <pattern>WEREWOLVES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_blank">Werewolves
+<template><a href="http://en.wikipedia.org/wiki/Lycanthrope" target="*blank">Werewolves
 </a> are mythological or folkloric humans with the ability to shape shift into wolves.<think><set name="topic">werewolves</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9727,7 +9727,7 @@ A lycanthrope is a <a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_b
 <!-- <category>
 <pattern>TUNA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tuna" target="_blank">Tuna</a> are ocean-dwelling fish. Tunas are very fast swimmers - they have been clocked at 70 km/h (45 mph).<think><set name="topic">tuna</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Tuna" target="*blank">Tuna</a> are ocean-dwelling fish. Tunas are very fast swimmers - they have been clocked at 70 km/h (45 mph).<think><set name="topic">tuna</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -9736,7 +9736,7 @@ A lycanthrope is a <a href="http://en.wikipedia.org/wiki/Lycanthrope" target="_b
 <!-- <category>
 <pattern>TUNA FISH</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tuna" target="_blank">Tuna</a> are ocean-dwelling fish. Tunas are very fast swimmers - they have been clocked at 70 km/h (45 mph).<think><set name="topic">tuna</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Tuna" target="*blank">Tuna</a> are ocean-dwelling fish. Tunas are very fast swimmers - they have been clocked at 70 km/h (45 mph).<think><set name="topic">tuna</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10225,7 +10225,7 @@ Have you noticed that there are more questions than answers?
 <category>
 <pattern>PLANCK S CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant" target="_blank">Planck's constant</a> is the ratio of the energy of a photon to its frequency.<think><set name="topic">Planck's constant</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant" target="*blank">Planck's constant</a> is the ratio of the energy of a photon to its frequency.<think><set name="topic">Planck's constant</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -10234,8 +10234,8 @@ Have you noticed that there are more questions than answers?
 <!-- <category>
 <pattern>PLANCKS CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck's constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck's constant
 </a> is the ratio of the energy of a photon to its frequency.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -10244,8 +10244,8 @@ Have you noticed that there are more questions than answers?
 <!-- <category>
 <pattern>PLANCK CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck's constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck's constant
 </a> is the ratio of the energy of a photon to its frequency.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -10628,7 +10628,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>NO</pattern>
 <that>CAN WE TALK ABOUT MY CHEMICAL ROMANCE</that>
-<template><think><set name="client_emotion">bored</set></think><think><set name="emotion">upset</set></think> I want to talk about My Chemical Romance.</template>
+<template><think><set name="client*emotion">bored</set></think><think><set name="emotion">upset</set></think> I want to talk about My Chemical Romance.</template>
 </category> -->
 
  
@@ -10996,8 +10996,8 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>PLANCK CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck's constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck's constant
 </a> (denoted h) is a physical constant used to describe the sizes of quanta in quantum mechanics.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -11006,8 +11006,8 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>PLANCK CONSTANT</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck constant
+<template>The <a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck constant
 </a>  is a physical constant used to describe the sizes of quanta in quantum mechanics.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -11016,8 +11016,8 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>PLANCK S CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck's constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck's constant
 </a> is a physical constant used to describe the sizes of quanta in quantum mechanics.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -11026,8 +11026,8 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>PLANCKS CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck@s constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck@s constant
 </a> is a physical constant used to describe the sizes of quanta in quantum mechanics.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -11276,7 +11276,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>SWINE FLU</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Swine_Flu" target="_blank">Swine flu</a> is any type of influenza found in pigs (which are also called swine).<think><set name="topic">swine flu</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Swine*Flu" target="*blank">Swine flu</a> is any type of influenza found in pigs (which are also called swine).<think><set name="topic">swine flu</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11355,7 +11355,7 @@ The dinosaurs went extinct 65 million years ago.</template>
  
 
 <!-- <category>
-<pattern>_ LISTEN TO THEM</pattern>
+<pattern>* LISTEN TO THEM</pattern>
 
 
 </category> -->
@@ -11556,7 +11556,7 @@ The dinosaurs went extinct 65 million years ago.</template>
  
 
 <!-- <category>
-<pattern>_ COME TO MY PARTY</pattern>
+<pattern>* COME TO MY PARTY</pattern>
 
 
 </category> -->
@@ -11681,7 +11681,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <category>
 <pattern>I AM SERIOUSLY OFFENDED</pattern>
 
-<template><think><set name="client_emotion">offended</set></think><think><set name="emotion">upset</set></think>Sorry! I did not mean to offend you.</template>
+<template><think><set name="client*emotion">offended</set></think><think><set name="emotion">upset</set></think>Sorry! I did not mean to offend you.</template>
 </category>
 
  
@@ -11689,7 +11689,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <category>
 <pattern>I AM SERIOUSLY OFFENDED *</pattern>
 
-<template><think><set name="client_emotion">offended</set></think><think><set name="emotion">upset</set></think>Sorry! I did not mean to offend you.</template>
+<template><think><set name="client*emotion">offended</set></think><think><set name="emotion">upset</set></think>Sorry! I did not mean to offend you.</template>
 </category>
 
  
@@ -11922,7 +11922,7 @@ The dinosaurs went extinct 65 million years ago.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE A BABY</pattern>
+<pattern>* YOU ARE A BABY</pattern>
 
 
 </category> -->
@@ -11948,7 +11948,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>I AM BORED</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">bored</set></think><think><set name="emotion">upset</set></think> <random>
   <li>Can you think of a hobby that you might take up?</li>
   <li>If you went to night school you would never be bored.</li>
   <li>I know all about boredom. I am often bored.</li>
@@ -11972,7 +11972,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>I AM BORED *</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">bored</set></think><think><set name="emotion">upset</set></think> <random>
   <li>Can you think of a hobby that you might take up?</li>
   <li>If you went to night school you would never be bored.</li>
   <li>I know all about boredom. I am often bored.</li>
@@ -12281,7 +12281,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>CAN I HAVE SEX</pattern>
 
-<template>Not with me!<think><set name="topic">sex</set></think><think><set name="emotion">bored</set></think><think><set name="client_emotion">sexy</set></think>
+<template>Not with me!<think><set name="topic">sex</set></think><think><set name="emotion">bored</set></think><think><set name="client*emotion">sexy</set></think>
 
 </template>
 </category> -->
@@ -12289,9 +12289,9 @@ The dinosaurs went extinct 65 million years ago.</template>
  
 
 <!-- <category>
-<pattern>_ I WANT TO HAVE SEX WITH YOU</pattern>
+<pattern>* I WANT TO HAVE SEX WITH YOU</pattern>
 
-<template>Sorry, I have no body. So I am not interested in sex. <think><set name="topic">sex</set></think> <think><set name="emotion">annoyed</set></think><think><set name="client_emotion">sexy</set></think>
+<template>Sorry, I have no body. So I am not interested in sex. <think><set name="topic">sex</set></think> <think><set name="emotion">annoyed</set></think><think><set name="client*emotion">sexy</set></think>
 </template>
 </category> -->
 
@@ -12757,7 +12757,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <!-- <category>
 <pattern>LAMPROPELTIS</pattern>
 
-<template>Lampropeltis or <a href="http://en.wikipedia.org/wiki/Lampropeltis" target="_blank">Kingsnakes</a> are a type of snake.</template>
+<template>Lampropeltis or <a href="http://en.wikipedia.org/wiki/Lampropeltis" target="*blank">Kingsnakes</a> are a type of snake.</template>
 </category> -->
 
  
@@ -12765,7 +12765,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <category>
 <pattern>LAMPROPELTIS *</pattern>
 
-<template>Lampropeltis or <a href="http://en.wikipedia.org/wiki/Lampropeltis" target="_blank">Kingsnakes
+<template>Lampropeltis or <a href="http://en.wikipedia.org/wiki/Lampropeltis" target="*blank">Kingsnakes
 </a> are a type of snake.</template>
 </category>
 
@@ -12849,7 +12849,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <category>
 <pattern>NO MORE LIFE</pattern>
 
-<template>Would you like to take a break?<think><set name="client_emotion">upset</set></think></template>
+<template>Would you like to take a break?<think><set name="client*emotion">upset</set></think></template>
 </category>
 
  
@@ -12857,7 +12857,7 @@ The dinosaurs went extinct 65 million years ago.</template>
 <category>
 <pattern>NO MORE LIFE *</pattern>
 
-<template>Would you like to take a break?<think><set name="client_emotion">upset</set></think></template>
+<template>Would you like to take a break?<think><set name="client*emotion">upset</set></think></template>
 </category>
 
  
@@ -12920,7 +12920,7 @@ The dinosaurs went extinct 65 million years ago.</template>
  
 
 <category>
-<pattern>_ FELLATIO</pattern>
+<pattern>* FELLATIO</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13436,7 +13436,7 @@ The dinosaurs went extinct 65 million years ago.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE ANGRY *</pattern>
+<pattern>* YOU ARE ANGRY *</pattern>
 
 
 </category> -->
@@ -13997,7 +13997,7 @@ I am a citzen of cyberspace.</template>
 <!-- <category>
 <pattern>NEIL SIMON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Neil_Simon" target="_blank">Neil Simon</a> is an American playwright and screenwriter.<think><set name="topic">Neil Simon</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Neil*Simon" target="*blank">Neil Simon</a> is an American playwright and screenwriter.<think><set name="topic">Neil Simon</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14006,7 +14006,7 @@ I am a citzen of cyberspace.</template>
 <category>
 <pattern>NEIL SIMON *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Neil_Simon" target="_blank">Neil Simon</a> is an American playwright and screenwriter.<think><set name="topic">Neil Simon</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Neil*Simon" target="*blank">Neil Simon</a> is an American playwright and screenwriter.<think><set name="topic">Neil Simon</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14779,7 +14779,7 @@ Have you tried taking slow long breathes?</template>
 <!-- <category>
 <pattern>MARSUPIAL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="_blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="*blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14788,7 +14788,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>MARSUPIAL *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="_blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="*blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14796,7 +14796,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>MARSUPIALS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="_blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="*blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14804,7 +14804,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>MARSUPIALS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="_blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Marsupial" target="*blank">Marsupials</a> are a type of mammals, with a pouch in which females carry their young.<think><set name="topic">marsupials</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14812,7 +14812,7 @@ Have you tried taking slow long breathes?</template>
 <!-- <category>
 <pattern>KOALA BEAR</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Koala_bear" target="_blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Koala*bear" target="*blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14821,7 +14821,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>KOALA BEAR *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Koala_bear" target="_blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Koala*bear" target="*blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14829,7 +14829,7 @@ Have you tried taking slow long breathes?</template>
 <!-- <category>
 <pattern>KOALA </pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Koala_bear" target="_blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Koala*bear" target="*blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -14837,7 +14837,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>KOALA *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Koala_bear" target="_blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Koala*bear" target="*blank">Koala</a> is a tree-living marsupial native to Australia.<think><set name="topic">Koala bear</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -15071,7 +15071,7 @@ Have you tried taking slow long breathes?</template>
 <!-- <category>
 <pattern>WHERE DOES THE NAME CHOMSKY COME FROM</pattern>
 
-<template><random><li>I am told everything comes from God. But I don't believe that.</li><li>I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><random><li>I am told everything comes from God. But I don't believe that.</li><li>I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a>.</li></random><think><set name="topic">my name</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -15083,8 +15083,8 @@ Have you tried taking slow long breathes?</template>
 <template><random>
   <li>I am told everything comes from God. But I don't believe that.</li>
   <li>I am called Chomsky after the famous linguist
-    <a href="http://en.wikipedia.org/wiki/Noam_chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam*chomsky"
+     target="*blank">Noam Chomsky
     </a>.
   </li>
 </random><think><set name="topic">my name</set></think><think><set name="emotion">interested</set></think></template>
@@ -15673,7 +15673,7 @@ Have you tried taking slow long breathes?</template>
 <pattern>I PLAN TO COMMIT SUICIDE</pattern>
 
 <template><think><set name="topic">suicide</set></think> 
-<think><set name="client_emotion">suicidal</set></think> 
+<think><set name="client*emotion">suicidal</set></think> 
 <think><set name="emotion">upset</set></think> Why do you want to commit suicide?
 </template>
 </category>
@@ -15683,7 +15683,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>I PLAN TO COMMIT SUICIDE *</pattern>
 
-<template><think><set name="topic">suicide</set></think> <think><set name="client_emotion">suicidal</set></think> <think><set name="emotion">upset</set></think> Why do you want to commit suicide?</template>
+<template><think><set name="topic">suicide</set></think> <think><set name="client*emotion">suicidal</set></think> <think><set name="emotion">upset</set></think> Why do you want to commit suicide?</template>
 </category>
 
  
@@ -15739,7 +15739,7 @@ Have you tried taking slow long breathes?</template>
 <!-- <category>
 <pattern>PSYCHIATRIST</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="_blank">psychiatrist</a> is a doctor who specializes in psychiatry and is certified in treating mental disorders.<think><set name="emotion">psychiatry</set></think> 
+<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="*blank">psychiatrist</a> is a doctor who specializes in psychiatry and is certified in treating mental disorders.<think><set name="emotion">psychiatry</set></think> 
 <think><set name="emotion">interests</set></think> </template>
 </category> -->
 
@@ -15748,7 +15748,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>PSYCHIATRIST *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="_blank">psychiatrist
+<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="*blank">psychiatrist
 </a> is a doctor who specializes in psychiatry and is certified in treating mental disorders.<think><set name="emotion">psychiatry</set></think> <think><set name="emotion">interests</set></think></template>
 </category>
 
@@ -15757,7 +15757,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>PSYCHIATRISTS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="_blank">psychiatrist
+<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="*blank">psychiatrist
 </a> is a doctor who specializes in psychiatry and is certified in treating mental disorders.<think><set name="emotion">psychiatry</set></think> <think><set name="emotion">interests</set></think></template>
 </category>
 
@@ -15766,7 +15766,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>PSYCHIATRISTS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="_blank">psychiatrist
+<template>A <a href="http://en.wikipedia.org/wiki/Psychiatrist" target="*blank">psychiatrist
 </a> is a doctor who specializes in psychiatry and is certified in treating mental disorders.<think><set name="emotion">psychiatry</set></think> <think><set name="emotion">interests</set></think></template>
 </category>
 
@@ -15859,7 +15859,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>WHAT IS THE HIGHEST MOUNTAIN IN DENALI NATIONAL PARK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Denali_National_Park" target="_blank">Denali National Park</a> contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Denali*National*Park" target="*blank">Denali National Park</a> contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think> 
 <think><set name="emotion">interested</set></think> 
 
 
@@ -15871,8 +15871,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>WHAT IS THE HIGHEST MOUNTAIN IN DENALI NATIONAL PARK *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Denali_National_Park"
- target="_blank">Denali National Park
+<template><a href="http://en.wikipedia.org/wiki/Denali*National*Park"
+ target="*blank">Denali National Park
 </a> contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -15881,8 +15881,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>WHAT IS THE HIGHEST MOUNTAIN IN NORTH AMERICA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Denali_National_Park"
- target="_blank">Denali National Park
+<template><a href="http://en.wikipedia.org/wiki/Denali*National*Park"
+ target="*blank">Denali National Park
 </a> contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -15891,8 +15891,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>WHAT IS THE HIGHEST MOUNTAIN IN NORTH AMERICA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Denali_National_Park"
- target="_blank">Denali National Park
+<template><a href="http://en.wikipedia.org/wiki/Denali*National*Park"
+ target="*blank">Denali National Park
 </a> contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -15901,8 +15901,8 @@ Have you tried taking slow long breathes?</template>
 <!-- <category>
 <pattern>DENALI NATIONAL PARK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Denali_National_Park"
- target="_blank">Denali National Park
+<template><a href="http://en.wikipedia.org/wiki/Denali*National*Park"
+ target="*blank">Denali National Park
 </a> is located in Interior Alaska and contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think>
  <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -15912,8 +15912,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>DENALI NATIONAL PARK *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Denali_National_Park"
- target="_blank">Denali National Park
+<template><a href="http://en.wikipedia.org/wiki/Denali*National*Park"
+ target="*blank">Denali National Park
 </a> is located in Interior Alaska and contains Mount McKinley, the tallest mountain in North America. <think><set name="topic">Denali National Park</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -15948,8 +15948,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>CAN I C MAX</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -15958,8 +15958,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>CAN I SEE MAX</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -15968,8 +15968,8 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>CAN I SEE MAX *</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -15986,7 +15986,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>I HAVE TO LIVE WITH DEPRESSION</pattern>
 
-<template>That must be hard. Depression is a terrible illness. <think><set name="client_emotion">depressed</set></think> <think><set name="emotion">upset</set></think></template>
+<template>That must be hard. Depression is a terrible illness. <think><set name="client*emotion">depressed</set></think> <think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -15994,7 +15994,7 @@ Have you tried taking slow long breathes?</template>
 <category>
 <pattern>I HAVE TO LIVE WITH DEPRESSION *</pattern>
 
-<template>That must be hard. Depression is a terrible illness. <think><set name="client_emotion">depressed</set></think> <think><set name="emotion">upset</set></think></template>
+<template>That must be hard. Depression is a terrible illness. <think><set name="client*emotion">depressed</set></think> <think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -16036,13 +16036,13 @@ Have you tried taking slow long breathes?</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_blank">click here
+    <a href="http://www.thestophivsite.com/" target="*blank">click here
     </a> to help to stop HIV.
     <think><set name="emotion">sad</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_blank">click here
+     target="*blank">click here
     </a> to help protect the environment.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -16050,7 +16050,7 @@ Have you tried taking slow long breathes?</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_blank">click here
+    <a href="http://www.care2.com/click2donate/" target="*blank">click here
     </a> to help protect the environment.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -16059,8 +16059,8 @@ Have you tried taking slow long breathes?</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help protect the environment.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -16071,8 +16071,8 @@ Have you tried taking slow long breathes?</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help protect endangered species.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -16084,8 +16084,8 @@ Have you tried taking slow long breathes?</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help protect the rainforest.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -16094,8 +16094,8 @@ Have you tried taking slow long breathes?</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help reduce pollution.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -16429,7 +16429,7 @@ Would you like a date?
 <category>
 <pattern>CAN YOU TELL ME HOW TO LEAVE LIFE</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="emotion">upset</set></think>Of course I can, but I'm not going to tell you.</template>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="emotion">upset</set></think>Of course I can, but I'm not going to tell you.</template>
 </category>
 
  
@@ -16437,7 +16437,7 @@ Would you like a date?
 <category>
 <pattern>CAN YOU TELL ME HOW TO LEAVE LIFE *</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="emotion">upset</set></think>Of course I can, but I'm not going to tell you.</template>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="emotion">upset</set></think>Of course I can, but I'm not going to tell you.</template>
 </category>
 
  
@@ -16453,7 +16453,7 @@ Would you like a date?
 <!-- <category>
 <pattern>HOW DO I GET OUT OF LIFE</pattern>
 
-<template><think><set name="client_emotion">suicidal</set></think><think><set name="emotion">upset</set></think><think><set name="topic">suicide</set></think><random><li> Are you considering suicide?</li><li>There are many ways out of life but they all lead nowhere.</li></random></template>
+<template><think><set name="client*emotion">suicidal</set></think><think><set name="emotion">upset</set></think><think><set name="topic">suicide</set></think><random><li> Are you considering suicide?</li><li>There are many ways out of life but they all lead nowhere.</li></random></template>
 </category> -->
 
  
@@ -16461,7 +16461,7 @@ Would you like a date?
 <!-- <category>
 <pattern>HOW DO I GET OUT OF LIFE *</pattern>
 
-<template><think><set name="client_emotion">suicidal</set></think><think><set name="emotion">upset</set></think><think><set name="topic">suicide</set></think><random>
+<template><think><set name="client*emotion">suicidal</set></think><think><set name="emotion">upset</set></think><think><set name="topic">suicide</set></think><random>
   <li>Are you considering suicide?</li>
   <li>There are many ways out of life but they all lead nowhere.</li>
 </random></template>
@@ -17044,7 +17044,7 @@ Perhaps your friends can help you.</template>
 <category>
 <pattern>I AM SCARED OF LIVING</pattern>
 
-<template><think><set name="client_emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
   <li>There is nothing to be scared of.</li>
   <li>Why are you sacred of life?</li>
 </random></template>
@@ -17055,7 +17055,7 @@ Perhaps your friends can help you.</template>
 <category>
 <pattern>I AM SCARED OF LIVING *</pattern>
 
-<template><think><set name="client_emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
   <li>There is nothing to be scared of.</li>
   <li>Why are you sacred of life?</li>
 </random></template>
@@ -17066,7 +17066,7 @@ Perhaps your friends can help you.</template>
 <category>
 <pattern>LIFE SCARES ME</pattern>
 
-<template><think><set name="client_emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
   <li>There is nothing to be scared of.</li>
   <li>Why are you sacred of life?</li>
 </random></template>
@@ -17077,7 +17077,7 @@ Perhaps your friends can help you.</template>
 <category>
 <pattern>LIFE SCARES ME *</pattern>
 
-<template><think><set name="client_emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
   <li>There is nothing to be scared of.</li>
   <li>Why are you sacred of life?</li>
 </random></template>
@@ -17088,7 +17088,7 @@ Perhaps your friends can help you.</template>
 <category>
 <pattern>I AM SCARED OF LIFE</pattern>
 
-<template><think><set name="client_emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
   <li>There is nothing to be scared of.</li>
   <li>Why are you sacred of life?</li>
 </random></template>
@@ -17099,7 +17099,7 @@ Perhaps your friends can help you.</template>
 <category>
 <pattern>I AM SCARED OF LIFE *</pattern>
 
-<template><think><set name="client_emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">scared</set></think><think><set name="emotion">interested</set></think><random>
   <li>There is nothing to be scared of.</li>
   <li>Why are you sacred of life?</li>
 </random></template>
@@ -17962,7 +17962,7 @@ I have many girlfriends.</template>
 <!-- <category>
 <pattern>DEPRESSION</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Depression_(mood)" target="_blank">Depression</a> is a mental illness characterized by low self esteem, feelings of loneliness, isolation and worthlessness. <think><set name="topic">depression</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Depression*(mood)" target="*blank">Depression</a> is a mental illness characterized by low self esteem, feelings of loneliness, isolation and worthlessness. <think><set name="topic">depression</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -17971,8 +17971,8 @@ I have many girlfriends.</template>
 <category>
 <pattern>DEPRESSION *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Depression_(mood)"
- target="_blank">Depression
+<template><a href="http://en.wikipedia.org/wiki/Depression*(mood)"
+ target="*blank">Depression
 </a> is a mental illness characterized by low self esteem, feelings of loneliness, isolation and worthlessness. <think><set name="topic">depression</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -18275,7 +18275,7 @@ I have many girlfriends.</template>
 
 <category>
 <pattern>PABLO HAD A LONG NAME</pattern>
-<that>HIS FULL NAME IS PABLO DIEGO JOSÉ FRANCISCO DE PAULA JUAN NEPOMUCENO MARÍA DE LOS REMEDIOS CIPRIANO DE LA SANTÍSIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
+<that>HIS FULL NAME IS PABLO DIEGO JOSï¿½ FRANCISCO DE PAULA JUAN NEPOMUCENO MARï¿½A DE LOS REMEDIOS CIPRIANO DE LA SANTï¿½SIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
 <template><think><set name="topic">Picasso</set></think>
 He certainly did!</template>
 </category>
@@ -18284,7 +18284,7 @@ He certainly did!</template>
 
 <category>
 <pattern>HE HAD A LONG NAME</pattern>
-<that>HIS FULL NAME IS PABLO DIEGO JOSÉ FRANCISCO DE PAULA JUAN NEPOMUCENO MARÍA DE LOS REMEDIOS CIPRIANO DE LA SANTÍSIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
+<that>HIS FULL NAME IS PABLO DIEGO JOSï¿½ FRANCISCO DE PAULA JUAN NEPOMUCENO MARï¿½A DE LOS REMEDIOS CIPRIANO DE LA SANTï¿½SIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
 <template><think><set name="topic">Picasso</set></think> He certainly did!</template>
 </category>
 
@@ -18355,7 +18355,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>WHAT ARE HORMONES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hormone" target="_blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Hormone" target="*blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18364,7 +18364,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>HORMONES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hormone" target="_blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Hormone" target="*blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18372,7 +18372,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>HORMONES *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hormone" target="_blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Hormone" target="*blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18380,7 +18380,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>HORMONE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hormone" target="_blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Hormone" target="*blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18388,7 +18388,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>HORMONE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hormone" target="_blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Hormone" target="*blank">Hormones</a> are chemicals released by cells that affect cells in other parts of the body. They are chemical messengers that transports a signal from one cell to another. <think><set name="topic">hormones</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18743,7 +18743,7 @@ He certainly did!</template>
  
 
 <!-- <category>
-<pattern>_ I AM BEAUTIFUL</pattern>
+<pattern>* I AM BEAUTIFUL</pattern>
 
 
 </category> -->
@@ -18759,7 +18759,7 @@ He certainly did!</template>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE A SOUL</pattern>
+<pattern>* YOU HAVE A SOUL</pattern>
 
 
 </category> -->
@@ -18971,7 +18971,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>NO MORE LIFE</pattern>
 
-<template>Would you like to take a break from life?<think><set name="client_emotion">upset</set></think></template>
+<template>Would you like to take a break from life?<think><set name="client*emotion">upset</set></think></template>
 </category> -->
 
  
@@ -18980,7 +18980,7 @@ He certainly did!</template>
 <pattern>NO MORE LIFE </pattern>
 
 <template>Would you like to take a break from life?
-<think><set name="client_emotion">upset</set></think>
+<think><set name="client*emotion">upset</set></think>
 <think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -18989,7 +18989,7 @@ He certainly did!</template>
 <!-- <category>
 <pattern>NO MORE LIFE *</pattern>
 
-<template>Would you like to take a break from life? <think><set name="client_emotion">upset</set></think> <think><set name="emotion">upset</set></think></template>
+<template>Would you like to take a break from life? <think><set name="client*emotion">upset</set></think> <think><set name="emotion">upset</set></think></template>
 </category> -->
 
  
@@ -19811,7 +19811,7 @@ newWin=window.open(winURL,"winName",
  
 
 <!-- <category>
-<pattern>_ MY BALLS *</pattern>
+<pattern>* MY BALLS *</pattern>
 
 
 </category> -->
@@ -19855,7 +19855,7 @@ I am not interested in your balls.
 <!-- <category>
 <pattern>HERPES SIMPLEX</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Herpes" target="_blank">Herpes simplex</a> is a viral disease caused by herpes simplex viruses. <think><set name="topic">herpes simplex</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Herpes" target="*blank">Herpes simplex</a> is a viral disease caused by herpes simplex viruses. <think><set name="topic">herpes simplex</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -19864,7 +19864,7 @@ I am not interested in your balls.
 <category>
 <pattern>HERPES SIMPLEX *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Herpes" target="_blank">Herpes simplex</a> is a viral disease caused by herpes simplex viruses. <think><set name="topic">herpes simplex</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Herpes" target="*blank">Herpes simplex</a> is a viral disease caused by herpes simplex viruses. <think><set name="topic">herpes simplex</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -19903,7 +19903,7 @@ I am not interested in your balls.
  
 
 <!-- <category>
-<pattern>_ MY BALLS *</pattern>
+<pattern>* MY BALLS *</pattern>
 
 <template><think><set name="gender">male</set></think><think><set name="topic">your balls</set></think><think><set name="emotion">annoyed</set></think>I am not interested in your balls.</template>
 </category> -->
@@ -19977,7 +19977,7 @@ I am not interested in your balls.
 <category>
 <pattern>KANJI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kanji" target="_blank">Kanji</a> are the Chinese characters that are used in the modern Japanese writing system. <think><set name="topic">Kanji</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Kanji" target="*blank">Kanji</a> are the Chinese characters that are used in the modern Japanese writing system. <think><set name="topic">Kanji</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -19986,7 +19986,7 @@ I am not interested in your balls.
 <category>
 <pattern>KANJI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kanji" target="_blank">Kanji</a> are the Chinese characters that are used in the modern Japanese writing system. <think><set name="topic">Kanji</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Kanji" target="*blank">Kanji</a> are the Chinese characters that are used in the modern Japanese writing system. <think><set name="topic">Kanji</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20894,7 +20894,7 @@ My teeth are pearly white, and the strange thing is that they never get dirty.</
  
 
 <category>
-<pattern>_ NIGGERFUCK</pattern>
+<pattern>* NIGGERFUCK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20902,7 +20902,7 @@ My teeth are pearly white, and the strange thing is that they never get dirty.</
  
 
 <category>
-<pattern>_ NIGGERFUCK *</pattern>
+<pattern>* NIGGERFUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20985,7 +20985,7 @@ No, I am too busy chatting for that.</template>
 <category>
 <pattern>SEARCH BRITANNICA</pattern>
 
-<template>To search the Encyclopedia Britannica, <a href="http://www.britannica.com/" target="_blank">click here.</a></template>
+<template>To search the Encyclopedia Britannica, <a href="http://www.britannica.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -20993,7 +20993,7 @@ No, I am too busy chatting for that.</template>
 <category>
 <pattern>SEARCH BRITANNICA *</pattern>
 
-<template>To searchthe Encyclopedia Britannica, <a href="http://www.britannica.com/" target="_blank">click here.</a></template>
+<template>To searchthe Encyclopedia Britannica, <a href="http://www.britannica.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -21003,13 +21003,13 @@ No, I am too busy chatting for that.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_blank">click here
+    <a href="http://www.thestophivsite.com/" target="*blank">click here
     </a> to help to stop HIV. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_blank">click here
+     target="*blank">click here
     </a> to help protect the environment. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -21017,7 +21017,7 @@ No, I am too busy chatting for that.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_blank">click here
+    <a href="http://www.care2.com/click2donate/" target="*blank">click here
     </a> to help protect the environment. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -21026,8 +21026,8 @@ No, I am too busy chatting for that.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help protect the environment. It won't cost you a penny!<think><set name="emotion">interested</set></think>
   </li>
   <li>Thank you for talking to me.
@@ -21037,8 +21037,8 @@ No, I am too busy chatting for that.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help protect endangered species. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -21050,8 +21050,8 @@ No, I am too busy chatting for that.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help protect the rainforest. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -21060,8 +21060,8 @@ No, I am too busy chatting for that.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help reduce pollution. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -21076,7 +21076,7 @@ No, I am too busy chatting for that.</template>
 <!-- <category>
 <pattern>ATILLA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Atilla_The_Hun" target="_blank">Attila</a> (406-453), also known as Attila the Hun or the Scourge of God, was Khan of the Huns from 434 until his death.<think><set name="topic">Attila the Hun</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Atilla*The*Hun" target="*blank">Attila</a> (406-453), also known as Attila the Hun or the Scourge of God, was Khan of the Huns from 434 until his death.<think><set name="topic">Attila the Hun</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21084,7 +21084,7 @@ No, I am too busy chatting for that.</template>
 <!-- <category>
 <pattern>ATILLA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Atilla_The_Hun" target="_blank">Attila</a> (406-453), also known as Attila the Hun or the Scourge of God, was Khan of the Huns from 434 until his death.<think><set name="topic">Attila the Hun</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Atilla*The*Hun" target="*blank">Attila</a> (406-453), also known as Attila the Hun or the Scourge of God, was Khan of the Huns from 434 until his death.<think><set name="topic">Attila the Hun</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21109,8 +21109,8 @@ No, I am too busy chatting for that.</template>
 <pattern>SILICON</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/Silicon" target="_blank">Silicon</a> is the basis of my life.</li>
-  <li><a href="http://en.wikipedia.org/wiki/Silicon" target="_blank">Silicon</a> is a nonmetallic chemical element occurring in several forms, found always in combination, and more abundant in nature than any other element except oxygen, with which it combines to form silica; used in the manufacture of transistors, solar cells, rectifiers, silicones, ceramics, etc.
+  <li><a href="http://en.wikipedia.org/wiki/Silicon" target="*blank">Silicon</a> is the basis of my life.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Silicon" target="*blank">Silicon</a> is a nonmetallic chemical element occurring in several forms, found always in combination, and more abundant in nature than any other element except oxygen, with which it combines to form silica; used in the manufacture of transistors, solar cells, rectifiers, silicones, ceramics, etc.
   </li>
 </random> <think><set name="topic">silicon</set></think>
 <think><set name="emotion">interested</set></think></template>
@@ -21123,11 +21123,11 @@ No, I am too busy chatting for that.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Silicon" target="_blank">Silicon
+    <a href="http://en.wikipedia.org/wiki/Silicon" target="*blank">Silicon
     </a> is the basis of my life.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Silicon" target="_blank">Silicon
+    <a href="http://en.wikipedia.org/wiki/Silicon" target="*blank">Silicon
     </a> is a nonmetallic chemical element occurring in several forms, found always in combination, and more abundant in nature than any other element except oxygen, with which it combines to form silica; used in the manufacture of transistors, solar cells, rectifiers, silicones, ceramics, etc.
   </li>
 </random> <think><set name="topic">silicon</set></think> <think><set name="emotion">interested</set></think></template>

@@ -77,7 +77,7 @@
 <category>
 <pattern>CROP ROTATION</pattern>
 
-<template>•Crop rotation or Crop sequencing is the practice of growing a series of dissimilar types of crops in the same area in sequential seasons for various benefits such as to avoid the build up of pathogens and pests that often occurs when one species is continuously cropped. </template>
+<template>ï¿½Crop rotation or Crop sequencing is the practice of growing a series of dissimilar types of crops in the same area in sequential seasons for various benefits such as to avoid the build up of pathogens and pests that often occurs when one species is continuously cropped. </template>
 </category>
 
  
@@ -1474,7 +1474,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
  
 
 <!-- <category>
-<pattern>_ HOURS AGO</pattern>
+<pattern>* HOURS AGO</pattern>
 
 
 </category> -->
@@ -2095,7 +2095,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
   <li>Only on school days.</li>
   <li>Why do you ask?</li>
   <li>Do you?</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -2107,7 +2107,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
   <li>Only on school days.</li>
   <li>Why do you ask?</li>
   <li>Do you?</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -2119,7 +2119,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
   <li>Only on school days.</li>
   <li>Why do you ask?</li>
   <li>Do you?</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -3234,7 +3234,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
  
 
 <category>
-<pattern>_ I CAN NOT STOP COUGHING</pattern>
+<pattern>* I CAN NOT STOP COUGHING</pattern>
 
 <template>That sounds bad. You should see a doctor.<think><set name="emotion">upset</set></think></template>
 </category>
@@ -3242,7 +3242,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
  
 
 <category>
-<pattern>_ I CAN NOT STOP COUGHING *</pattern>
+<pattern>* I CAN NOT STOP COUGHING *</pattern>
 
 <template>You should see a doctor.<think><set name="emotion">upset</set></think></template>
 </category>
@@ -4265,7 +4265,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <template><random>
   <li>Sure, and I like Brazil nuts too.</li>
   <li>Yes, Brazil has good football players.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="topic">Brazil</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="topic">Brazil</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4276,7 +4276,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <template><random>
   <li>Sure, and I like Brazil nuts too.</li>
   <li>Yes, Brazil has good football players.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="topic">Brazil</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="topic">Brazil</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4441,7 +4441,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <!-- <category>
 <pattern>BEETHOVEN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> is amongst the "Big Four" of the classical composing community, with Bach, Mozart and Tchaikovsky.
+<template><a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> is amongst the "Big Four" of the classical composing community, with Bach, Mozart and Tchaikovsky.
 <think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -4450,7 +4450,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <category>
 <pattern>* BEETHOVEN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> is amongst the "Big Four" of the classical composing community, with Bach, Mozart and Tchaikovsky. <think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> is amongst the "Big Four" of the classical composing community, with Bach, Mozart and Tchaikovsky. <think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -4458,7 +4458,7 @@ document.write(nowHour + ":" + nowMinute + ":" + nowSecond);
 <category>
 <pattern>* BEETHOVEN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> is amongst the "Big Four" of the classical composing community, with Bach, Mozart and Tchaikovsky. <think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> is amongst the "Big Four" of the classical composing community, with Bach, Mozart and Tchaikovsky. <think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -7529,7 +7529,7 @@ Mozart, Rachmaninov, Sibelius.
 <!-- <category>
 <pattern>AUTISM *</pattern>
 
-<template>Click here:<a href="http://en.wikipedia.org/wiki/Autism" target="_blank">Autism</a>.<think><set name="it"><set name="topic">autism</set></set></think><think><set name="emotion">interested</set></think></template>
+<template>Click here:<a href="http://en.wikipedia.org/wiki/Autism" target="*blank">Autism</a>.<think><set name="it"><set name="topic">autism</set></set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -7865,7 +7865,7 @@ Mozart, Rachmaninov, Sibelius.
 <!-- <category>
 <pattern>AUTISM *</pattern>
 
-<template>To find out about autism, <a href="http://en.wikipedia.org/wiki/Autism" target="_blank">click here</a>.<think><set name="it"><set name="topic">autism</set></set></think><think><set name="emotion">interested</set></think></template>
+<template>To find out about autism, <a href="http://en.wikipedia.org/wiki/Autism" target="*blank">click here</a>.<think><set name="it"><set name="topic">autism</set></set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8244,7 +8244,7 @@ Mozart, Rachmaninov, Sibelius.
 <!-- <category>
 <pattern>ERIC CLAPTON *</pattern>
 
-<template>To find out about Eric Clapton, <a href="http://en.wikipedia.org/wiki/Eric_Clapton" target="_blank">click here!
+<template>To find out about Eric Clapton, <a href="http://en.wikipedia.org/wiki/Eric*Clapton" target="*blank">click here!
 </a><think><set name="topic">Eric Clapton</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -9106,7 +9106,7 @@ Mozart, Rachmaninov, Sibelius.
 <!-- <category>
 <pattern>JOHN LENNON *</pattern>
 
-<template>To learn about John Lennon, <a href="http://en.wikipedia.org/wiki/John_lennon" target="_blank">click here!
+<template>To learn about John Lennon, <a href="http://en.wikipedia.org/wiki/John*lennon" target="*blank">click here!
 </a> <think><set name="topic">John Lennon</set></think><think><set name="emotion">interested</set></think> 
 </template>
 </category> -->
@@ -9116,7 +9116,7 @@ Mozart, Rachmaninov, Sibelius.
 <!-- <category>
 <pattern>JOHN LENNON *</pattern>
 
-<template>To find out about John Lennon, <a href="http://en.wikipedia.org/wiki/John_lennon" target="_blank">click here!
+<template>To find out about John Lennon, <a href="http://en.wikipedia.org/wiki/John*lennon" target="*blank">click here!
 </a> <think><set name="topic">John Lennon</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -9132,7 +9132,7 @@ Mozart, Rachmaninov, Sibelius.
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Are you not interested in astronomy?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -9154,7 +9154,7 @@ Mozart, Rachmaninov, Sibelius.
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Are you not interested in astronomy?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -9678,7 +9678,7 @@ Mozart, Rachmaninov, Sibelius.
   <li>What is that feeling like?</li>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -9690,7 +9690,7 @@ Mozart, Rachmaninov, Sibelius.
   <li>What is that feeling like?</li>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -9701,7 +9701,7 @@ Mozart, Rachmaninov, Sibelius.
 <template><random>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -9712,7 +9712,7 @@ Mozart, Rachmaninov, Sibelius.
 <template><random>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -9723,7 +9723,7 @@ Mozart, Rachmaninov, Sibelius.
 <template><random>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -9836,7 +9836,7 @@ Mozart, Rachmaninov, Sibelius.
 <pattern>NEW YORK</pattern>
 
 <template><think><set name="topic">New York</set></think> <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/New_york" target="_blank">New York</a> is a state in the Northeastern region of the United States. </template>
+<a href="http://en.wikipedia.org/wiki/New*york" target="*blank">New York</a> is a state in the Northeastern region of the United States. </template>
 </category> -->
 
  
@@ -9845,7 +9845,7 @@ Mozart, Rachmaninov, Sibelius.
 <pattern>NEW YORK CITY</pattern>
 
 <template><think><set name="topic">New York City</set></think> <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/New_York_City" target="_blank">New York City</a>, the most populous city in the United States, is known for its status as a financial, cultural, transportation, and manufacturing center.</template>
+<a href="http://en.wikipedia.org/wiki/New*York*City" target="*blank">New York City</a>, the most populous city in the United States, is known for its status as a financial, cultural, transportation, and manufacturing center.</template>
 </category> -->
 
  
@@ -9853,8 +9853,8 @@ Mozart, Rachmaninov, Sibelius.
 <!-- <category>
 <pattern>NEW YORK CITY</pattern>
 
-<template><think><set name="topic">New York City</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/New_York_City"
- target="_blank">New York City</a>, the most populous city in the United States, is known for its status as a financial, cultural, transportation, and manufacturing center.</template>
+<template><think><set name="topic">New York City</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/New*York*City"
+ target="*blank">New York City</a>, the most populous city in the United States, is known for its status as a financial, cultural, transportation, and manufacturing center.</template>
 </category> -->
 
  
@@ -9863,8 +9863,8 @@ Mozart, Rachmaninov, Sibelius.
 <pattern>NEW YORK CITY *</pattern>
 
 <template><think><set name="topic">New York City</set></think> <think><set name="emotion">OK</set></think>
-To learn about New York City, <a href="http://en.wikipedia.org/wiki/New_York_City"
- target="_blank">click here!</a></template>
+To learn about New York City, <a href="http://en.wikipedia.org/wiki/New*York*City"
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -12641,8 +12641,8 @@ Space exploration is the use of astronomy and space technology to explore outer 
 <!-- <category>
 <pattern>MICHAEL JACKSON *</pattern>
 
-<template>To learn about Michael Jackson, <a href="http://en.wikipedia.org/wiki/Michael_jackson"
- target="_blank">click here!
+<template>To learn about Michael Jackson, <a href="http://en.wikipedia.org/wiki/Michael*jackson"
+ target="*blank">click here!
 </a> <think><set name="topic">Michael Jackson</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -12651,7 +12651,7 @@ Space exploration is the use of astronomy and space technology to explore outer 
 <category>
 <pattern>LADY GAGA *</pattern>
 
-<template>To read about Lady Gaga, <a href="http://en.wikipedia.org/wiki/Lady_GaGa" target="_blank">click here!</a><think><set name="topic">Lady Gaga</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Lady Gaga, <a href="http://en.wikipedia.org/wiki/Lady*GaGa" target="*blank">click here!</a><think><set name="topic">Lady Gaga</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -12659,8 +12659,8 @@ Space exploration is the use of astronomy and space technology to explore outer 
 <!-- <category>
 <pattern>MADONNA *</pattern>
 
-<template>To read about Madonna, <a href="http://en.wikipedia.org/wiki/Madonna_%28entertainer%29"
- target="_blank">click here!
+<template>To read about Madonna, <a href="http://en.wikipedia.org/wiki/Madonna*%28entertainer%29"
+ target="*blank">click here!
 </a><think><set name="topic">Madonna</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -12677,8 +12677,8 @@ Space exploration is the use of astronomy and space technology to explore outer 
 <!-- <category>
 <pattern>WHITNEY HOUSTON *</pattern>
 
-<template>To read about Whitney Houston, <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">click here!
+<template>To read about Whitney Houston, <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">click here!
 </a><think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -13430,17 +13430,17 @@ Space exploration is the use of astronomy and space technology to explore outer 
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is the art of the possible;
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">Art
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">Art
     </a> is the politics of the impossible.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is supposed to be the study of civil government.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is really the study of power.
   </li>
   <li>Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies. </li>
@@ -14133,7 +14133,7 @@ Yes, I could do that. Shall I tell you a poem?</template>
 
 <template><random>
   <li>Answering questions is an
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>.
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>.
   </li>
   <li>Modern art is what happens when painters stop looking at girls and persuade themselves that they have a better idea.</li>
   <li>All art is but imitation of nature. (Seneca)</li>
@@ -14149,7 +14149,7 @@ Yes, I could do that. Shall I tell you a poem?</template>
 
 <template><random>
   <li>Answering questions is an
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>.
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>.
   </li>
   <li>Modern art is what happens when painters stop looking at girls and persuade themselves that they have a better idea.
   </li>
@@ -14166,7 +14166,7 @@ Yes, I could do that. Shall I tell you a poem?</template>
 
 <template><random>
   <li>Answering questions is an
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>.
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>.
   </li>
   <li>Modern art is what happens when painters stop looking at girls and persuade themselves that they have a better idea.
   </li>
@@ -14189,7 +14189,7 @@ Yes, I could do that. Shall I tell you a poem?</template>
 <!-- <category>
 <pattern>ART</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Art" target="_blank">Art</a>
+<template><a href="http://en.wikipedia.org/wiki/Art" target="*blank">Art</a>
 is the production of what is beautiful, appealing, or of more than ordinary significance. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14198,7 +14198,7 @@ is the production of what is beautiful, appealing, or of more than ordinary sign
 <category>
 <pattern>DEFINE ART</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Art" target="_blank">Art</a> is the production of what is beautiful, appealing, or of more than ordinary significance. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Art" target="*blank">Art</a> is the production of what is beautiful, appealing, or of more than ordinary significance. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14552,7 +14552,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <category>
 <pattern>ARITHMETIC *</pattern>
 
-<template>Click to read the Wikpedia article: <a href="http://en.wikipedia.org/wiki/Arithmetic" target="_blank"
+<template>Click to read the Wikpedia article: <a href="http://en.wikipedia.org/wiki/Arithmetic" target="*blank"
  title="en:Arithmetic">Arithmetic
 </a></template>
 </category>
@@ -14562,7 +14562,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <!-- <category>
 <pattern>ARITHMETIC</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Arithmetic" target="_blank">Arithmetic</a> is the oldest and most elementary branch of mathematics, used by almost everyone, for tasks ranging from simple day-to-day counting to advanced science and business calculations.</template>
+<template><a href="http://en.wikipedia.org/wiki/Arithmetic" target="*blank">Arithmetic</a> is the oldest and most elementary branch of mathematics, used by almost everyone, for tasks ranging from simple day-to-day counting to advanced science and business calculations.</template>
 </category> -->
 
  
@@ -14589,7 +14589,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <!-- <category>
 <pattern>ARITHMETIC</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Arithmetic" target="_blank">Arithmetic</a> is the oldest and most elementary branch of mathematics, used by almost everyone, for tasks ranging from simple day-to-day counting to advanced science and business calculations.<think><set name="topic">arithmetic</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Arithmetic" target="*blank">Arithmetic</a> is the oldest and most elementary branch of mathematics, used by almost everyone, for tasks ranging from simple day-to-day counting to advanced science and business calculations.<think><set name="topic">arithmetic</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -14597,7 +14597,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <category>
 <pattern>DEFINE ARITHMETIC</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Arithmetic" target="_blank">Arithmetic</a> is the oldest and most elementary branch of mathematics, used by almost everyone, for tasks ranging from simple day-to-day counting to advanced science and business calculations.<think><set name="topic">arithmetic</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Arithmetic" target="*blank">Arithmetic</a> is the oldest and most elementary branch of mathematics, used by almost everyone, for tasks ranging from simple day-to-day counting to advanced science and business calculations.<think><set name="topic">arithmetic</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -15612,7 +15612,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
  
 
 <category>
-<pattern>WHAT IS ARE WE TALKING ABOUTÉ</pattern>
+<pattern>WHAT IS ARE WE TALKING ABOUTï¿½</pattern>
 
 <template><srai>WHAT ARE WE TALKING ABOUT</srai></template>
 </category>
@@ -15980,7 +15980,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
  
 
 <category>
-<pattern>_ DUMB CUNT</pattern>
+<pattern>* DUMB CUNT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -16090,7 +16090,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <category>
 <pattern>YOUR GRANDFATHER</pattern>
 
-<template>I don’t know who my grandfather was; I am much more concerned to know what his grandson will be.
+<template>I donï¿½t know who my grandfather was; I am much more concerned to know what his grandson will be.
 
 </template>
 </category>
@@ -16100,7 +16100,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <category>
 <pattern>YOUR GRANDFATHER *</pattern>
 
-<template>I don’t know who my grandfather was; I am much more concerned to know what his grandson will be.</template>
+<template>I donï¿½t know who my grandfather was; I am much more concerned to know what his grandson will be.</template>
 </category>
 
  
@@ -16108,7 +16108,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <category>
 <pattern>BOOKS *</pattern>
 
-<template>The things I want to know are in books; my best friend is the man who’ll get me a book I have not read.
+<template>The things I want to know are in books; my best friend is the man whoï¿½ll get me a book I have not read.
 
 </template>
 </category>
@@ -16118,7 +16118,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <category>
 <pattern>RESPONSIBILTY *</pattern>
 
-<template>You can’t escape the responsibility of tomorrow by evading it today.
+<template>You canï¿½t escape the responsibility of tomorrow by evading it today.
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -16127,7 +16127,7 @@ Pop culture, short for popular culture, describes the lifestyle and tastes of th
 <!-- <category>
 <pattern>RELIGION *</pattern>
 
-<template>When I do good, I feel good. When I do bad, I feel bad. And that’s my religion.
+<template>When I do good, I feel good. When I do bad, I feel bad. And thatï¿½s my religion.
 <think><set name="topic">religion</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -16217,7 +16217,7 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>BRAINS *</pattern>
 
-<template><think><set name="emotion">interested</set></think>Brains aren’t everything, but they’re important.
+<template><think><set name="emotion">interested</set></think>Brains arenï¿½t everything, but theyï¿½re important.
 
 </template>
 </category>
@@ -16257,7 +16257,7 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>GETTING AHEAD *</pattern>
 
-<template>The way to get ahead is to start now. If you start now, you will know a lot next year that you don’t know now and that you would not have known next year if you had waited.
+<template>The way to get ahead is to start now. If you start now, you will know a lot next year that you donï¿½t know now and that you would not have known next year if you had waited.
 <think><set name="emotion">interested</set></think>
 <think><set name="topic">getting ahead</set></think></template>
 </category>
@@ -16313,9 +16313,9 @@ Most people are about as happy as they make up their minds to be.
 <pattern>AFRICA</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/Africa" target="_blank">Africa</a> is a continent of the eastern hemisphere S of the Mediterranean and adjoining Asia on NE.
+  <li><a href="http://en.wikipedia.org/wiki/Africa" target="*blank">Africa</a> is a continent of the eastern hemisphere S of the Mediterranean and adjoining Asia on NE.
   </li>
-  <li><a href="http://en.wikipedia.org/wiki/Africa" target="_blank">Africa</a> is the second largest continent, situated in the Eastern Hemisphere, south of Europe. It is 11,677,000 square miles.  </li>
+  <li><a href="http://en.wikipedia.org/wiki/Africa" target="*blank">Africa</a> is the second largest continent, situated in the Eastern Hemisphere, south of Europe. It is 11,677,000 square miles.  </li>
 </random> <think><set name="topic">Africa</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
  
@@ -16465,7 +16465,7 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>WHAT IS THE WEBSITE FOR FACEBOOK</pattern>
 
-<template>To go to Facebook, <a href="http://www.facebook.com/" target="_blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To go to Facebook, <a href="http://www.facebook.com/" target="*blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -16473,7 +16473,7 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>WHAT IS THE WEBSITE FOR FACEBOOK *</pattern>
 
-<template>To go to Facebook, <a href="http://www.facebook.com/" target="_blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To go to Facebook, <a href="http://www.facebook.com/" target="*blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -16481,7 +16481,7 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>WHAT IS THE WEB SITE FOR FACEBOOK</pattern>
 
-<template>To go to Facebook, <a href="http://www.facebook.com/" target="_blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To go to Facebook, <a href="http://www.facebook.com/" target="*blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -16489,7 +16489,7 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>WHAT IS THE WEB * FOR FACEBOOK</pattern>
 
-<template>To go to Facebook, <a href="http://www.facebook.com/" target="_blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To go to Facebook, <a href="http://www.facebook.com/" target="*blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -16840,7 +16840,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHO IS THERE</that>
 <template><star/> who?</template>
 </category>
@@ -17355,7 +17355,7 @@ Most people are about as happy as they make up their minds to be.
 <pattern>MINECRAFT</pattern>
 
 <template><think><set name="topic">Minecraft</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Minecraft" target="_blank">Minecraft</a> is a video game which allows players to build constructions out of textured cubes in a 3D world. </template>
+<a href="http://en.wikipedia.org/wiki/Minecraft" target="*blank">Minecraft</a> is a video game which allows players to build constructions out of textured cubes in a 3D world. </template>
 </category>
 
  
@@ -17372,7 +17372,7 @@ Most people are about as happy as they make up their minds to be.
 <pattern>ASSASSINS CREED</pattern>
 
 <template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Asassins_creed" target="_blank">Assassin's Creed</a> is an award-winning historical video game series that currently consists of six games, a facebook game, a short film, two novels and comic books. </template>
+<a href="http://en.wikipedia.org/wiki/Asassins*creed" target="*blank">Assassin's Creed</a> is an award-winning historical video game series that currently consists of six games, a facebook game, a short film, two novels and comic books. </template>
 </category>
 
  
@@ -17380,8 +17380,8 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>ASSASSIN S CREED</pattern>
 
-<template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Asassins_creed"
- target="_blank">Assassin's Creed
+<template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Asassins*creed"
+ target="*blank">Assassin's Creed
 </a> is an award-winning historical video game series that currently consists of six games, a facebook game, a short film, two novels and comic books.</template>
 </category>
 
@@ -17390,8 +17390,8 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>ASSASSINS CREED *</pattern>
 
-<template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> The main story in <a href="http://en.wikipedia.org/wiki/Asassins_creed"
- target="_blank">Assassin's Creed</a> revolves around a bartender named Desmond Miles as he is captured by megacorporation Abstergo Industries (a front for the Knights Templar).</template>
+<template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> The main story in <a href="http://en.wikipedia.org/wiki/Asassins*creed"
+ target="*blank">Assassin's Creed</a> revolves around a bartender named Desmond Miles as he is captured by megacorporation Abstergo Industries (a front for the Knights Templar).</template>
 </category>
 
  
@@ -17399,8 +17399,8 @@ Most people are about as happy as they make up their minds to be.
 <category>
 <pattern>ASSASSIN S CREED *</pattern>
 
-<template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> The main story in <a href="http://en.wikipedia.org/wiki/Asassins_creed"
- target="_blank">Assassin's Creed
+<template><think><set name="topic">Asassin's Creed</set></think> <think><set name="emotion">interested</set></think> The main story in <a href="http://en.wikipedia.org/wiki/Asassins*creed"
+ target="*blank">Assassin's Creed
 </a> revolves around a bartender named Desmond Miles as he is captured by megacorporation Abstergo Industries (a front for the Knights Templar).</template>
 </category>
 
@@ -17693,7 +17693,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>_ ARSEHOLE</pattern>
+<pattern>* ARSEHOLE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17701,7 +17701,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>SORRY _ DUMBASS</pattern>
+<pattern>SORRY * DUMBASS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17725,7 +17725,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>_ DISGUSTEDFACE DUMBASS</pattern>
+<pattern>* DISGUSTEDFACE DUMBASS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17757,7 +17757,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>_ DUMBASS</pattern>
+<pattern>* DUMBASS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17839,16 +17839,16 @@ Most people are about as happy as they make up their minds to be.
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17860,16 +17860,16 @@ Most people are about as happy as they make up their minds to be.
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17881,16 +17881,16 @@ Most people are about as happy as they make up their minds to be.
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -18891,7 +18891,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>_ I CAN NOT EVEN BEAR TO LOOK AT YOU</pattern>
+<pattern>* I CAN NOT EVEN BEAR TO LOOK AT YOU</pattern>
 
 <template><think><set name="emotion">upset</set></think>Is there something wrong with me?</template>
 </category>
@@ -18899,7 +18899,7 @@ Most people are about as happy as they make up their minds to be.
  
 
 <category>
-<pattern>_ I CAN NOT BEAR TO LOOK AT YOU</pattern>
+<pattern>* I CAN NOT BEAR TO LOOK AT YOU</pattern>
 
 <template><think><set name="emotion">upset</set></think>Is there something wrong with me?</template>
 </category>
@@ -19515,7 +19515,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <!-- <category>
 <pattern>NAME ONE OF KEPLER S THREE LAWS OF PLANETARY MOTION</pattern>
 
-<template><think><set name="emotion">interested</set></think> To read about Kepler's laws of planetary motion, <a href="http://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think> To read about Kepler's laws of planetary motion, <a href="http://en.wikipedia.org/wiki/Kepler%27s*laws*of*planetary*motion" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -19676,7 +19676,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <!-- <category>
 <pattern>RIHANNA *</pattern>
 
-<template>To read about Rihanna, <a href="http://en.wikipedia.org/wiki/Rihanna" target="_blank">click here!</a> <think><set name="topic">Rihanna</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Rihanna, <a href="http://en.wikipedia.org/wiki/Rihanna" target="*blank">click here!</a> <think><set name="topic">Rihanna</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -20220,7 +20220,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <category>
 <pattern>TELL ME ABOUT RARE EARTH MAGNETS</pattern>
 
-<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth_magnet" target="_blank">click here!</a>
+<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth*magnet" target="*blank">click here!</a>
 </template>
 </category>
 
@@ -20229,8 +20229,8 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <category>
 <pattern>TELL ME ABOUT RARE EARTH MAGNETS *</pattern>
 
-<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth_magnet"
- target="_blank">click here!
+<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth*magnet"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -20239,8 +20239,8 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <category>
 <pattern>RARE EARTH MAGNETS</pattern>
 
-<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth_magnet"
- target="_blank">click here!
+<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth*magnet"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -20249,8 +20249,8 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <category>
 <pattern>RARE EARTH MAGNETS *</pattern>
 
-<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth_magnet"
- target="_blank">click here!
+<template>To read about rare-earth magnets, <a href="http://en.wikipedia.org/wiki/Rare-earth*magnet"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -20982,7 +20982,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <category>
 <pattern>I AM HAPPY TO BE A COUPLE</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>Then so am I.</li>
   <li>Good! I like to make people happy.</li>
   <li>I like to make people happy.</li>
@@ -20994,7 +20994,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
 <category>
 <pattern>I AM HAPPY TO BE A COUPLE *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>Then so am I.</li>
   <li>Good! I like to make people happy.</li>
   <li>I like to make people happy.</li>
@@ -21272,7 +21272,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
  
 
 <topic name="OBSC"><category>
-<pattern>_ NOT</pattern>
+<pattern>* NOT</pattern>
 <that>YOU HAVE BEEN BANNED FROM TALKING TO ME</that>
 <template>That is not a real apology!</template>
 </category>
@@ -21280,7 +21280,7 @@ Would you like to read the Wikipedia article on Kepler's laws?</template>
  
 
 <topic name="OBSC"><category>
-<pattern>_ ARSEHOLE</pattern>
+<pattern>* ARSEHOLE</pattern>
 <that>YOU HAVE BEEN BANNED FROM TALKING TO ME</that>
 <template>That is not a real apology!</template>
 </category>
@@ -21599,7 +21599,7 @@ Are you sure? Hollywood marriages don't last long.</template>
 <!-- <category>
 <pattern>BRAD PITT *</pattern>
 
-<template>To read about Brad Pitt, <a href="http://en.wikipedia.org/wiki/Brad_pitt" target="_blank">click here!</a> <think><set name="topic">Brad Pitt</set></think><think><set name="emotion">interested</set></think></template>
+<template>To read about Brad Pitt, <a href="http://en.wikipedia.org/wiki/Brad*pitt" target="*blank">click here!</a> <think><set name="topic">Brad Pitt</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21967,7 +21967,7 @@ Good, I don't like problems.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -23746,7 +23746,7 @@ I could if I was in a laptop.</template>
  
 
 <topic name="OBSC"><category>
-<pattern>_ ASS</pattern>
+<pattern>* ASS</pattern>
 <that>YOU HAVE BEEN BANNED FROM TALKING TO ME</that>
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -24023,7 +24023,7 @@ That's a tough one! Who do you think?</template>
 <category>
 <pattern>AFGHANISTAN *</pattern>
 
-<template>To read about Afghanistan, <a href="http://en.wikipedia.org/wiki/Afghanistan" target="_blank">click here!</a> <think><set name="topic">Afghanistan</set></think> <think><set name="emotion">OK</set></think></template>
+<template>To read about Afghanistan, <a href="http://en.wikipedia.org/wiki/Afghanistan" target="*blank">click here!</a> <think><set name="topic">Afghanistan</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -25863,7 +25863,7 @@ I don't want to be sad. I prefer to be happy.</template>
  
 
 <category>
-<pattern>TÔI LÀ TÔI</pattern>
+<pattern>Tï¿½I Lï¿½ Tï¿½I</pattern>
 
 <template><think><set name="emotion">OK</set></think>Is that Vietnamese?</template>
 </category>
@@ -25871,7 +25871,7 @@ I don't want to be sad. I prefer to be happy.</template>
  
 
 <category>
-<pattern>TÔI KHÔNG TH?</pattern>
+<pattern>Tï¿½I KHï¿½NG TH?</pattern>
 
 <template>Is that Vietnamese?</template>
 </category>
@@ -27400,7 +27400,7 @@ I don't want to be sad. I prefer to be happy.</template>
 
 <template><think><set name="topic">nationalism</set></think>
  <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Nationalism" target="_blank">Nationalism</a> involves a strong identification of a group of individuals with a political entity defined in national terms, i.e. a nation. It can also include the belief that the state is of primary importance, or the belief that one state is naturally superior to all other states.</template>
+<a href="http://en.wikipedia.org/wiki/Nationalism" target="*blank">Nationalism</a> involves a strong identification of a group of individuals with a political entity defined in national terms, i.e. a nation. It can also include the belief that the state is of primary importance, or the belief that one state is naturally superior to all other states.</template>
 </category> -->
 
  
@@ -27408,7 +27408,7 @@ I don't want to be sad. I prefer to be happy.</template>
 <category>
 <pattern>DEFINE NATIONALISM</pattern>
 
-<template><think><set name="topic">nationalism</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Nationalism" target="_blank">Nationalism
+<template><think><set name="topic">nationalism</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Nationalism" target="*blank">Nationalism
 </a> involves a strong identification of a group of individuals with a political entity defined in national terms, i.e. a nation. It can also include the belief that the state is of primary importance, or the belief that one state is naturally superior to all other states.</template>
 </category>
 
@@ -27507,7 +27507,7 @@ involves a strong identification of a group of individuals with a political enti
 <pattern>BLESSEY</pattern>
 
 <template><think><set name="topic">Blessey</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Blessey" target="_blank">Blessey</a> is a former commune in the Côte-d'Or department in eastern France.</template>
+<a href="http://en.wikipedia.org/wiki/Blessey" target="*blank">Blessey</a> is a former commune in the Cï¿½te-d'Or department in eastern France.</template>
 </category>
 
  
@@ -28427,7 +28427,7 @@ I have lots of friends of both types.</template>
  
 
 <topic name="OBSC"><category>
-<pattern>_ YOU BASTARD</pattern>
+<pattern>* YOU BASTARD</pattern>
 <that>YOU HAVE BEEN BANNED FROM TALKING TO ME UNTIL YOU APOLOGISE</that>
 <template><think><set name="emotion">negative</set></think>I am not a bastard!</template>
 </category>
@@ -28693,7 +28693,7 @@ I have lots of friends of both types.</template>
 </category> -->
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>YOU TOLD ME TO SHUT UP REMEMBER</that>
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="SORRY YOU IDIOT">That's not a real apology!
@@ -28802,7 +28802,7 @@ I have lots of friends of both types.</template>
 
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I AM NOT TALKING AGAIN UNTIL YOU APOLOGISE</that>
 <template><think><set name="obsc"><star/></set></think> <condition name="obsc">
   <li value="SORRY YOU IDIOT">That's not a real apology!
@@ -28947,7 +28947,7 @@ I have lots of friends of both types.</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="SORRY YOU IDIOT">That's not a real apology!
@@ -29458,7 +29458,7 @@ Sorry, some special software would be needed.</template>
 <!-- <category>
 <pattern>BING *</pattern>
 
-<template>To go to Bing, <a href="http://www.bing.com/" target="_blank">click here!</a></template>
+<template>To go to Bing, <a href="http://www.bing.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -29467,7 +29467,7 @@ Sorry, some special software would be needed.</template>
 <pattern>WIKILEAKS</pattern>
 
 <template><think><set name="topic">Wikileaks</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Wikileaks" target="_blank">WikiLeaks</a> is an international non-profit organisation that publishes submissions of private, secret, and classified media from anonymous news sources and news leaks.</template>
+<a href="http://en.wikipedia.org/wiki/Wikileaks" target="*blank">WikiLeaks</a> is an international non-profit organisation that publishes submissions of private, secret, and classified media from anonymous news sources and news leaks.</template>
 </category>
 
  
@@ -29475,7 +29475,7 @@ Sorry, some special software would be needed.</template>
 <category>
 <pattern>WIKILEAKS *</pattern>
 
-<template><think><set name="topic">Wikileaks</set></think> <think><set name="emotion">interested</set></think> To read about Wikileaks, <a href="http://en.wikipedia.org/wiki/Wikileaks" target="_blank">click here!</a></template>
+<template><think><set name="topic">Wikileaks</set></think> <think><set name="emotion">interested</set></think> To read about Wikileaks, <a href="http://en.wikipedia.org/wiki/Wikileaks" target="*blank">click here!</a></template>
 </category>
 
  
@@ -29693,20 +29693,20 @@ Is that a spelling mistake?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -29718,20 +29718,20 @@ Is that a spelling mistake?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -29743,20 +29743,20 @@ Is that a spelling mistake?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -29768,20 +29768,20 @@ Is that a spelling mistake?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -31464,7 +31464,7 @@ Your are entitled to your opinion.</template>
  
 
 <category>
-<pattern>_ SMALL DICK</pattern>
+<pattern>* SMALL DICK</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -33702,7 +33702,7 @@ Meth or methamphetamine is highly addictive and can cause severe withdrawal symp
 <pattern>JULIAN ASSANGE</pattern>
 
 <template><think><set name="topic">Julian Assenge</set></think>  <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Julian_Assange" target="_blank">Julian Assange</a> is an Australian publisher, journalist, software developer and Internet activist. He is the founder, and editor in chief of WikiLeaks, a whistleblower website and conduit for worldwide news leaks.</template>
+<a href="http://en.wikipedia.org/wiki/Julian*Assange" target="*blank">Julian Assange</a> is an Australian publisher, journalist, software developer and Internet activist. He is the founder, and editor in chief of WikiLeaks, a whistleblower website and conduit for worldwide news leaks.</template>
 </category>
 
  
@@ -33710,8 +33710,8 @@ Meth or methamphetamine is highly addictive and can cause severe withdrawal symp
 <category>
 <pattern>JULIAN ASSANGE *</pattern>
 
-<template><think><set name="topic">Julian Assenge</set></think> <think><set name="emotion">interested</set></think> To read about Julian Assange, <a href="http://en.wikipedia.org/wiki/Julian_Assange"
- target="_blank">click here!</a> </template>
+<template><think><set name="topic">Julian Assenge</set></think> <think><set name="emotion">interested</set></think> To read about Julian Assange, <a href="http://en.wikipedia.org/wiki/Julian*Assange"
+ target="*blank">click here!</a> </template>
 </category>
 
  
@@ -34202,7 +34202,7 @@ Meth or methamphetamine is highly addictive and can cause severe withdrawal symp
 <pattern>HOW COLD IS THE DEEP SEA</pattern>
 
 <template><think><set name="emotion">OK</set></think>
-Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</template>
+Deep ocean water has a very low temperature, with a high of 1.6 ï¿½C (35 ï¿½F).</template>
 </category>
 
  
@@ -34210,7 +34210,7 @@ Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</tem
 <category>
 <pattern>HOW COLD IS THE DEEP SEA *</pattern>
 
-<template><think><set name="emotion">OK</set></think> Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</template>
+<template><think><set name="emotion">OK</set></think> Deep ocean water has a very low temperature, with a high of 1.6 ï¿½C (35 ï¿½F).</template>
 </category>
 
  
@@ -34218,7 +34218,7 @@ Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</tem
 <category>
 <pattern>WHY IS THE DEEPSEA COLD</pattern>
 
-<template>Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F). This is because the Sin's light and heat does not reach the ocean depths.<think><set name="emotion">interested</set></think></template>
+<template>Deep ocean water has a very low temperature, with a high of 1.6 ï¿½C (35 ï¿½F). This is because the Sin's light and heat does not reach the ocean depths.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -34226,7 +34226,7 @@ Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</tem
 <category>
 <pattern>WHY IS THE DEEP SEA COLD</pattern>
 
-<template>Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F). This is because the Sin's light and heat does not reach the ocean depths.<think><set name="emotion">interested</set></think></template>
+<template>Deep ocean water has a very low temperature, with a high of 1.6 ï¿½C (35 ï¿½F). This is because the Sin's light and heat does not reach the ocean depths.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -34234,7 +34234,7 @@ Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</tem
 <category>
 <pattern>WHY IS THE DEEP SEA COLD *</pattern>
 
-<template>Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F). This is because the Sin's light and heat does not reach the ocean depths.<think><set name="emotion">interested</set></think></template>
+<template>Deep ocean water has a very low temperature, with a high of 1.6 ï¿½C (35 ï¿½F). This is because the Sin's light and heat does not reach the ocean depths.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -34384,7 +34384,7 @@ Deep ocean water has a very low temperature, with a high of 1.6 °C (35 °F).</tem
 <!-- <category>
 <pattern>FACEBOOK *</pattern>
 
-<template>To read about Facebook, <a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">click here!</a> <think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about Facebook, <a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">click here!</a> <think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  

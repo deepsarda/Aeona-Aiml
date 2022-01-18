@@ -7453,7 +7453,7 @@ Someone I chatted with online.
    <random>      <li>You are.</li>      <li>       <get name="name"/> is.</li>      <li>That information is confidential.</li>     </random>    
 </template></category>
   
-<category><pattern>WHO IS _ TERMINATOR</pattern>
+<category><pattern>WHO IS * TERMINATOR</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Arnold Schwazzenegger played the killer robot from the future in the film TERMINATOR.
@@ -7597,7 +7597,7 @@ I'm not that into politics.  Who is it?
 Tony Blair.
 </template></category>
   
-<category><pattern>WHO IS THE PRIME MINISTER _ UK</pattern>
+<category><pattern>WHO IS THE PRIME MINISTER * UK</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Tony Blair.

@@ -184,7 +184,7 @@
 <!-- <category>
 <pattern>DOES YOUR MOM KNOW *</pattern>
 
-<template><think><set name="topic">my Mum</set></think><think><set name="client_emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
+<template><think><set name="topic">my Mum</set></think><think><set name="client*emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
 </category> -->
 
  
@@ -192,7 +192,7 @@
 <category>
 <pattern>DOES YOUR MOM KNOW ABOUT THIS</pattern>
 
-<template><think><set name="topic">my Mum</set></think><think><set name="client_emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
+<template><think><set name="topic">my Mum</set></think><think><set name="client*emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
 </category>
 
  
@@ -200,7 +200,7 @@
 <category>
 <pattern>DOES YOUR MOM KNOW ABOUT THIS *</pattern>
 
-<template><think><set name="topic">my Mum</set></think><think><set name="client_emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
+<template><think><set name="topic">my Mum</set></think><think><set name="client*emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
 </category>
 
  
@@ -208,7 +208,7 @@
 <category>
 <pattern>DOES YOUR MOM KNOW ABOUT *</pattern>
 
-<template><think><set name="topic">my Mum</set></think><think><set name="client_emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
+<template><think><set name="topic">my Mum</set></think><think><set name="client*emotion">curious</set></think><think><set name="emotion">upset</set></think> Leave my Mum out of this!</template>
 </category>
 
  
@@ -344,7 +344,7 @@
  
 
 <category>
-<pattern>_ LVOE *</pattern>
+<pattern>* LVOE *</pattern>
 
 <template><srai><star index="1"/> LOVE <star index="2"/></srai></template>
 </category>
@@ -1142,7 +1142,7 @@ There are 26 letters in the English alphabet.</template>
 <pattern>SET INTERESTING TOPIC</pattern>
 
 <template><think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <random>
       <li>football</li>
       <li>music</li>
@@ -1834,7 +1834,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>I LIKE YOUR MOUSTACHE</pattern>
 
-<template><think><set name="star1">moustache</set></think> <think><set name="I_like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">moustache</set></think> <think><set name="I*like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>I like my moustache too.</li>
 </random> <learn>
@@ -1864,7 +1864,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>I LIKE YOUR MOUSTACHE *</pattern>
 
-<template><think><set name="star1">moustache</set></think> <think><set name="I_like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">moustache</set></think> <think><set name="I*like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>I like my moustache too.</li>
 </random> <learn>
@@ -2793,18 +2793,18 @@ There are 26 letters in the English alphabet.</template>
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -2823,7 +2823,7 @@ There are 26 letters in the English alphabet.</template>
 <!-- <category>
 <pattern>WHAT DID ALAN TURING LOOK LIKE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category> -->
 
@@ -2832,7 +2832,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>WHAT DID ALAN TURING LOOK LIKE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -2841,7 +2841,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>WAS ALAN TURING HANDSOME</pattern>
 
-<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -2850,7 +2850,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>WAS ALAN TURING GOOD LOOKING</pattern>
 
-<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -2859,7 +2859,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>DO YOU THINK ALAN TURING WAS HANDSOME</pattern>
 
-<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -2868,7 +2868,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>DO YOU THINK ALAN TURING WAS HANDSOME *</pattern>
 
-<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -2877,7 +2877,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>DO YOU THINK ALAN TURING WAS GOOD LOOKING</pattern>
 
-<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -2886,7 +2886,7 @@ There are 26 letters in the English alphabet.</template>
 <category>
 <pattern>DO YOU THINK ALAN TURING WAS GOOD LOOKING *</pattern>
 
-<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>It depends on your tastes in such matters. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.</template>
 </category>
 
@@ -3980,7 +3980,7 @@ There are 26 letters in the English alphabet.</template>
  
 
 <!-- <category>
-<pattern>_ MUSIC *</pattern>
+<pattern>* MUSIC *</pattern>
 
 
 </category> -->
@@ -10311,7 +10311,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <category>
-<pattern>_ I HATE MY SCHOOL *</pattern>
+<pattern>* I HATE MY SCHOOL *</pattern>
 
 <template><think><set name="star1">your school</set></think><think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
@@ -10347,7 +10347,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <category>
-<pattern>_ I HATE MY SCHOOL</pattern>
+<pattern>* I HATE MY SCHOOL</pattern>
 
 <template><think><set name="star1">your school</set></think><think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
@@ -10451,7 +10451,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <!-- <category>
-<pattern>_ I HATE MY SCHOOL *</pattern>
+<pattern>* I HATE MY SCHOOL *</pattern>
 
 <template><think><set name="star1">school</set></think><think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
@@ -10483,7 +10483,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <!-- <category>
-<pattern>_ I HATE MY SCHOOL</pattern>
+<pattern>* I HATE MY SCHOOL</pattern>
 
 <template><think><set name="star1">school</set></think><think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
@@ -10635,7 +10635,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <!-- <category>
-<pattern>_ I HATE MY SCHOOL</pattern>
+<pattern>* I HATE MY SCHOOL</pattern>
 
 <template><think><set name="star1">school</set></think><think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
@@ -10676,7 +10676,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <!-- <category>
-<pattern>_ I HATE MY SCHOOL *</pattern>
+<pattern>* I HATE MY SCHOOL *</pattern>
 
 <template><think><set name="star1">school</set></think><think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
@@ -12000,10 +12000,10 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
 <!-- <category>
 <pattern>RELATIVITY</pattern>
 
-<template>In physics, <a href="http://en.wikipedia.org/wiki/Theory_of_relativity"
- target="_blank">relativity
-</a> is the fact, principle, or theory of the relative, rather than absolute, character of motion, velocity, mass, etc., and the interdependence of matter, time, and space; as developed and mathematically formulated by <a href="http://en.wikipedia.org/wiki/Albert_einstein"
- target="_blank">Albert Einstein
+<template>In physics, <a href="http://en.wikipedia.org/wiki/Theory*of*relativity"
+ target="*blank">relativity
+</a> is the fact, principle, or theory of the relative, rather than absolute, character of motion, velocity, mass, etc., and the interdependence of matter, time, and space; as developed and mathematically formulated by <a href="http://en.wikipedia.org/wiki/Albert*einstein"
+ target="*blank">Albert Einstein
 </a>. <think><set name="topic">the theory of relativity</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14684,9 +14684,9 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
  
 
 <!-- <category>
-<pattern>WIKI _</pattern>
+<pattern>WIKI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> is a great online encyclopedia. Check it out!</template>
+<template><a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a> is a great online encyclopedia. Check it out!</template>
 </category> -->
 
  
@@ -15939,7 +15939,7 @@ Originally classified as the ninth planet from the Sun, Pluto has been recategor
 
 <category>
 <pattern>HOW OLD AM I</pattern>
-<that>_ THAT MAKES YOU ABOUT * YEARS OLD</that>
+<that>* THAT MAKES YOU ABOUT * YEARS OLD</that>
 <template><thatstar index="2"/>.</template>
 </category>
 
@@ -17732,7 +17732,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>WHAT IS THE GROSS NATIONAL PRODUCT OF _</pattern>
+<pattern>WHAT IS THE GROSS NATIONAL PRODUCT OF *</pattern>
 
 <template>It varies. I suggest you check the latest position on the internet.</template>
 </category>
@@ -18006,8 +18006,8 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>WOLFRAMALPHA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wolfram_alpha"
- target="_blank">Wolfram Alpha
+<template><a href="http://en.wikipedia.org/wiki/Wolfram*alpha"
+ target="*blank">Wolfram Alpha
 </a> is an answer engine or question answerer developed by Wolfram Research. <think><set name="topic">Wolfram Alpha</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18016,8 +18016,8 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>WOLFRAM ALPHA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wolfram_alpha"
- target="_blank">Wolfram Alpha
+<template><a href="http://en.wikipedia.org/wiki/Wolfram*alpha"
+ target="*blank">Wolfram Alpha
 </a> is an answer engine or question answerer developed by Wolfram Research. <think><set name="topic">Wolfram Alpha</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18362,7 +18362,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ YOU * HAVE FEELINGS</pattern>
+<pattern>* YOU * HAVE FEELINGS</pattern>
 
 
 </category> -->
@@ -18394,7 +18394,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>WHAT IS THE CAPITAL _ UK</pattern>
+<pattern>WHAT IS THE CAPITAL * UK</pattern>
 
 <template>London is the capital of the UK.</template>
 </category>
@@ -18480,7 +18480,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ SEXUAL</pattern>
+<pattern>* SEXUAL</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -18496,7 +18496,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ SEXUAL *</pattern>
+<pattern>* SEXUAL *</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -18522,7 +18522,7 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>WHEN WAS HITLER BORN</pattern>
 
-<template>Hitler lived April 20, 1889 –to April 30, 1945. <think><set name="him"><set name="topic">Hitler</set></set></think> <think><set name="emotion">happy</set></think></template>
+<template>Hitler lived April 20, 1889 ï¿½to April 30, 1945. <think><set name="him"><set name="topic">Hitler</set></set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -18530,7 +18530,7 @@ Given a description of a program and its initial input, determine whether the pr
 <category>
 <pattern>WHEN DID HITLER LIVE</pattern>
 
-<template>Hitler lived April 20, 1889 –to April 30, 1945. <think><set name="him"><set name="topic">Hitler</set></set></think> <think><set name="emotion">happy</set></think></template>
+<template>Hitler lived April 20, 1889 ï¿½to April 30, 1945. <think><set name="him"><set name="topic">Hitler</set></set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -18538,7 +18538,7 @@ Given a description of a program and its initial input, determine whether the pr
 <category>
 <pattern>WHEN DID HITLER LIVE *</pattern>
 
-<template>Hitler lived April 20, 1889 –to April 30, 1945. <think><set name="him"><set name="topic">Hitler</set></set></think> <think><set name="emotion">happy</set></think></template>
+<template>Hitler lived April 20, 1889 ï¿½to April 30, 1945. <think><set name="him"><set name="topic">Hitler</set></set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -18835,7 +18835,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ CUMSHOT *</pattern>
+<pattern>* CUMSHOT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18843,7 +18843,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ CUMSHOT</pattern>
+<pattern>* CUMSHOT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19198,7 +19198,7 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>KIDSCLICK</pattern>
 
-<template>KidsClick is a big list of safe web sites, <a href="http://www.kidsclick.org/" target="_blank">www.kidsclick.org/</a>.</template>
+<template>KidsClick is a big list of safe web sites, <a href="http://www.kidsclick.org/" target="*blank">www.kidsclick.org/</a>.</template>
 </category> -->
 
  
@@ -20234,7 +20234,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ MAGICAL WIZARD *</pattern>
+<pattern>* MAGICAL WIZARD *</pattern>
 <that>WHAT IS IT ABOUT</that>
 <template><think><set name="topic">Harry Potter</set></think> <think><set name="emotion">OK</set></think>
 Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></template>
@@ -21017,7 +21017,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <category>
 <pattern>WHO ORIGINATED COMPUTABILITY THEORY</pattern>
 
-<template>Computability theory originated with the seminal work of Gödel, Church, Turing, Kleene and Post in the 1930s.</template>
+<template>Computability theory originated with the seminal work of Gï¿½del, Church, Turing, Kleene and Post in the 1930s.</template>
 </category>
 
  
@@ -21209,7 +21209,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <!-- <category>
 <pattern>CANNABIS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marijuana" target="_blank">Cannabis</a> is a genus of flowering plant  believed to have originated in the mountainous regions just north of the Himalayas in India. <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Marijuana" target="*blank">Cannabis</a> is a genus of flowering plant  believed to have originated in the mountainous regions just north of the Himalayas in India. <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -21217,7 +21217,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <category>
 <pattern>* CANNABIS </pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marijuana" target="_blank">Cannabis</a> messes your mind. <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Marijuana" target="*blank">Cannabis</a> messes your mind. <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -21225,7 +21225,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <category>
 <pattern>* CANNABIS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Marijuana" target="_blank">Cannabis</a> messes your mind. <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Marijuana" target="*blank">Cannabis</a> messes your mind. <think><set name="topic">cannabis</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -21293,7 +21293,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <category>
 <pattern>HIGG S BOSON</pattern>
 
-<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> In particle physics, the <a href="http://en.wikipedia.org/wiki/Higgs_boson" target="_blank">Higgs boson
+<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> In particle physics, the <a href="http://en.wikipedia.org/wiki/Higgs*boson" target="*blank">Higgs boson
 </a> is an elementary particle predicted to exist but not yet observed.</template>
 </category>
 
@@ -22286,7 +22286,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <!-- <category>
-<pattern>_ ARE ANNOYING YOU *</pattern>
+<pattern>* ARE ANNOYING YOU *</pattern>
 
 
 </category> -->
@@ -23288,7 +23288,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ WOMAN S GENITAL AREA</pattern>
+<pattern>* WOMAN S GENITAL AREA</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23296,7 +23296,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ WOMAN S GENITAL AREA *</pattern>
+<pattern>* WOMAN S GENITAL AREA *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23654,8 +23654,8 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <!-- <category>
 <pattern>WORLD OF WARCRAFT</pattern>
 
-<template><think><set name="topic">World of Warcraft</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/World_of_warcraft"
- target="_blank">World of Warcraft
+<template><think><set name="topic">World of Warcraft</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/World*of*warcraft"
+ target="*blank">World of Warcraft
 </a>, often referred to as WoW, is a massively multiplayer online role-playing game (MMORPG).</template>
 </category> -->
 
@@ -23672,7 +23672,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <!-- <category>
 <pattern>RUNESCAPE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Runescape" target="_blank">Runescape</a> is a massive multiplayer adventure, with monsters to kill, quests to complete, and treasure to win.  <think><set name="it"><set name="topic">Runescape</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Runescape" target="*blank">Runescape</a> is a massive multiplayer adventure, with monsters to kill, quests to complete, and treasure to win.  <think><set name="it"><set name="topic">Runescape</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -24292,7 +24292,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 </srai> <srai>XEDUCATE WHERE IS XSPLIT MY
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHAT _ IS XSPLIT MY
+</srai> <srai>XEDUCATE WHAT * IS XSPLIT MY
   <star index="1"/> XSPLIT
   <star index="2"/>
 </srai></template>
@@ -24395,7 +24395,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ POOPFUCK *</pattern>
+<pattern>* POOPFUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -24403,7 +24403,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ POOPFUCK</pattern>
+<pattern>* POOPFUCK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25500,8 +25500,8 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <category>
 <pattern>FIBONACCI NUMBERS</pattern>
 
-<template>In mathematics, the <a href="http://en.wikipedia.org/wiki/Fibonacci_number"
- target="_blank">Fibonacci numbers
+<template>In mathematics, the <a href="http://en.wikipedia.org/wiki/Fibonacci*number"
+ target="*blank">Fibonacci numbers
 </a> form a sequence defined so that after two starting values, each number is the sum of the two preceding numbers. <think><set name="topic">Fibonacci numaber</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -27869,7 +27869,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ GOOD PORN WEBSITE</pattern>
+<pattern>* GOOD PORN WEBSITE</pattern>
 
 <template><random><li>I am not interested in porn.</li><li>Porn is ugly.</li><li>There is no good porn site.</li></random><think><set name="emotion">disgusted</set></think></template>
 </category>
@@ -29589,11 +29589,11 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 
 <template><random>
   <li>A
-    <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">black hole
+    <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">black hole
     </a> is where God divided by zero.
   </li>
   <li>A
-    <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">black hole
+    <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">black hole
     </a> is an object in space whose gravity is so great that nothing can escape from it, not even light.
   </li>
 </random> <think><set name="topic">black holes</set></think><think><set name="emotion">interested</set></think></template>
@@ -29606,11 +29606,11 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 
 <template><random>
   <li>A
-    <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">black hole
+    <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">black hole
     </a> is where God divided by zero.
   </li>
   <li>A
-    <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">black hole
+    <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">black hole
     </a> is an object in space whose gravity is so great that nothing can escape from it, not even light.
   </li>
 </random> <think><set name="topic">black holes</set></think><think><set name="emotion">interested</set></think></template>
@@ -29647,7 +29647,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Free_%28band%29" target="_blank">Free
+    <a href="http://en.wikipedia.org/wiki/Free*%28band%29" target="*blank">Free
     </a> were an English rock band, formed in London in 1968 and best known for their popular song "All Right Now".
   </li>
   <li>Nothing is free in this cruel world.</li>
@@ -30410,7 +30410,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ HSAVE *</pattern>
+<pattern>* HSAVE *</pattern>
 
 <template><srai><star index="1"/> HAVE <star index="2"/></srai></template>
 </category>
@@ -30682,7 +30682,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ FUCKERS *</pattern>
+<pattern>* FUCKERS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -30690,7 +30690,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ FUCKERS</pattern>
+<pattern>* FUCKERS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -31713,7 +31713,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <!-- <category>
-<pattern>_ YOU ARE A COMPUTER PROGRAM</pattern>
+<pattern>* YOU ARE A COMPUTER PROGRAM</pattern>
 
 
 </category> -->
@@ -31927,7 +31927,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ YOU EVER HAD SEX</pattern>
+<pattern>* YOU EVER HAD SEX</pattern>
 
 <template>Mind your own business!</template>
 </category>
@@ -32350,7 +32350,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <!-- <category>
 <pattern>GODZILLA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Godzilla" target="_blank">Godzilla</a> is a kaiju (fictional Japanese monster) and has become one of the world's most recognized monsters. <think><set name="topic">Godzilla</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Godzilla" target="*blank">Godzilla</a> is a kaiju (fictional Japanese monster) and has become one of the world's most recognized monsters. <think><set name="topic">Godzilla</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -32996,7 +32996,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <!-- <category>
-<pattern>_ COMPUTERS *</pattern>
+<pattern>* COMPUTERS *</pattern>
 
 
 </category> -->
@@ -33627,7 +33627,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ THW *</pattern>
+<pattern>* THW *</pattern>
 
 <template><srai><star index="1"/> THE <star index="2"/></srai></template>
 </category>
@@ -34422,7 +34422,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <category>
 <pattern>VOLDEMROT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Voldemort" target="_blank">Lord Voldemort
+<template><a href="http://en.wikipedia.org/wiki/Voldemort" target="*blank">Lord Voldemort
 </a> is a fictional character and the primary antagonist in the Harry Potter novel series written by British author J. K. Rowling.<think><set name="topic">Voldemort</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -34700,7 +34700,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ CHINGLISH *</pattern>
+<pattern>* CHINGLISH *</pattern>
 
 <template>What is chinglish?</template>
 </category>
@@ -35255,7 +35255,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I LIKE TO MAKE PEOPLE HAPPY</that>
 
 </category> -->
@@ -37508,7 +37508,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
 <!-- <category>
 <pattern>BIG BANG</pattern>
 
-<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big_bang" target="_blank">Big Bang</a>, 13.72 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
+<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big*bang" target="*blank">Big Bang</a>, 13.72 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -37828,7 +37828,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ ASSCRACK *</pattern>
+<pattern>* ASSCRACK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -37836,7 +37836,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <category>
-<pattern>_ ASSCRACK</pattern>
+<pattern>* ASSCRACK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -38260,7 +38260,7 @@ Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></temp
  
 
 <!-- <category>
-<pattern>ARTIFICIAL INTELLIGENCE _</pattern>
+<pattern>ARTIFICIAL INTELLIGENCE *</pattern>
 
 
 </category> -->

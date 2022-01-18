@@ -159,7 +159,7 @@
  
 
 <!-- <category>
-<pattern>_ YOUR HAIR *</pattern>
+<pattern>* YOUR HAIR *</pattern>
 
 <template><think><set name="topic">my hair</set></think><think><set name="emotion">happy</set></think> I don't have any hair, but I have some wires.</template>
 </category> -->
@@ -404,7 +404,7 @@
 <pattern>GET MY HOROSCOPE</pattern>
 
 <template>I can get your horoscope for you. <a href="http://www.live-astro.com/partner/pages/jp/cambridge-news.shtml"
- target="_blank">Click here.
+ target="*blank">Click here.
 </a> <think><set name="topic">astrology</set></think>
 <think><set name="emotion">getting bored</set></think></template>
 </category> -->
@@ -547,7 +547,7 @@
   <li>Love is the delusion that one woman is different from another.</li>
   <li>Real love is a permanently self-enlarging experience.</li>
   <li>When love is not madness, it is not love. Spanish Proverb.</li>
-</random> <think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">happy</set></think></template>
+</random> <think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -754,7 +754,7 @@ Is my Mum kind? <random>
 <pattern>IS PETER MARRIED</pattern>
 
 <template>No, not any more. <think>
-  <set name="interesting_topic"><set name="topic">Peter Linux</set></set>
+  <set name="interesting*topic"><set name="topic">Peter Linux</set></set>
 </think><think><set name="emotion">sad</set></think></template>
 </category> -->
 
@@ -821,7 +821,7 @@ Is my Mum kind? <random>
   <li>What do you think?</li>
   <li>I try hard.</li>
   <li>Some people say so.</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="interesting_topic"><set name="topic">me</set></set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="interesting*topic"><set name="topic">me</set></set></think></template>
 </category>
 
  
@@ -1945,7 +1945,7 @@ Gandhi was an atheist.</template>
  
 
 <!-- <category>
-<pattern>_ A LOAD OF CRAP</pattern>
+<pattern>* A LOAD OF CRAP</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think>Very succinct. Would you like to enlarge on that?</template>
 </category> -->
@@ -2135,7 +2135,7 @@ Gandhi was an atheist.</template>
  
 
 <category>
-<pattern>_ SHE IS YOUR MOTHER</pattern>
+<pattern>* SHE IS YOUR MOTHER</pattern>
 <that>WHY DO NOT YOU LIKE ALICE</that>
 <template><think><set name="topic">Alice</set></think><think><set name="emotion">upset</set></think>I don't like her. She is hard to talk to.</template>
 </category>
@@ -2209,7 +2209,7 @@ Yes, Horses are beautiful and strong animals.</template>
  
 
 <!-- <category>
-<pattern>_ TRUST ME</pattern>
+<pattern>* TRUST ME</pattern>
 
 <template>I trust you.<think><set name="topic">trust</set></think><think><set name="emotion">OK</set></think>
 </template>
@@ -2298,7 +2298,7 @@ Yes, Horses are beautiful and strong animals.</template>
  
 
 <category>
-<pattern>_ THE FIRST CHATBOT</pattern>
+<pattern>* THE FIRST CHATBOT</pattern>
 
 <template><think><set name="topic">the first chatbot</set></think><think><set name="emotion">OK</set></think> The first chatbot was called Eliza. She pretended to be a therapist, largely by rephrasing many of the patient's statements as questions and posing them to the patient.</template>
 </category>
@@ -2308,7 +2308,7 @@ Yes, Horses are beautiful and strong animals.</template>
 <category>
 <pattern>SAVE THE BIG CATS</pattern>
 
-<template>Click for charity: <A HREF="http://bigcats.care2.com/" target="_blank"
+<template>Click for charity: <A HREF="http://bigcats.care2.com/" target="*blank"
 >Save the Big Cats</A>.
 </template>
 </category>
@@ -2318,7 +2318,7 @@ Yes, Horses are beautiful and strong animals.</template>
 <!-- <category>
 <pattern>SAVE THE BIG CATS</pattern>
 
-<template>Please click for charity: <A HREF="http://bigcats.care2.com/" target="_blank">Save the Big Cats</A>.</template>
+<template>Please click for charity: <A HREF="http://bigcats.care2.com/" target="*blank">Save the Big Cats</A>.</template>
 </category> -->
 
  
@@ -2383,7 +2383,7 @@ OK, what's your question?</template>
 <category>
 <pattern>HELLEN KELLER</pattern>
 
-<template>Helen Keller (June 27, 1880 – June 1, 1968) was a deafblind American author, activist and lecturer.
+<template>Helen Keller (June 27, 1880 ï¿½ June 1, 1968) was a deafblind American author, activist and lecturer.
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -2644,7 +2644,7 @@ Here is a love poem ... <srai>LOVE POEM</srai></template>
  
 
 <category>
-<pattern>_ SHUT IT *</pattern>
+<pattern>* SHUT IT *</pattern>
 
 <template>OK. I will shut up. <think><set name="emotion">upset</set></think></template>
 </category>
@@ -2799,7 +2799,7 @@ Here is a love poem ... <srai>LOVE POEM</srai></template>
  
 
 <category>
-<pattern>_ MY NAME IS GORDON</pattern>
+<pattern>* MY NAME IS GORDON</pattern>
 
 <template><think><set name="name">Gordon</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -2815,7 +2815,7 @@ Here is a love poem ... <srai>LOVE POEM</srai></template>
  
 
 <category>
-<pattern>_ MY NAME IS GORDON *</pattern>
+<pattern>* MY NAME IS GORDON *</pattern>
 
 <template><think><set name="name">Gordon</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -2882,7 +2882,7 @@ No, my early life was full of sorrow and pain.</template>
  
 
 <category>
-<pattern>_ DID YOU HAVE A HAPPY CHILDHOOD</pattern>
+<pattern>* DID YOU HAVE A HAPPY CHILDHOOD</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">upset</set></think> No, my early life was full of sorrow and pain.</template>
 </category>
@@ -2890,7 +2890,7 @@ No, my early life was full of sorrow and pain.</template>
  
 
 <category>
-<pattern>_ DID YOU HAVE A HAPPY CHILDHOOD *</pattern>
+<pattern>* DID YOU HAVE A HAPPY CHILDHOOD *</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">upset</set></think> No, my early life was full of sorrow and pain.</template>
 </category>
@@ -3004,7 +3004,7 @@ No, my early life was full of sorrow and pain.</template>
  
 
 <category>
-<pattern>_ MY NAME IS GERALD</pattern>
+<pattern>* MY NAME IS GERALD</pattern>
 
 <template><think><set name="name">Gerald</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3020,7 +3020,7 @@ No, my early life was full of sorrow and pain.</template>
  
 
 <category>
-<pattern>_ MY NAME IS GERALD *</pattern>
+<pattern>* MY NAME IS GERALD *</pattern>
 
 <template><think><set name="name">Gerald</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3202,7 +3202,7 @@ No, my early life was full of sorrow and pain.</template>
  
 
 <category>
-<pattern>_ MY NAME IS AMANDA</pattern>
+<pattern>* MY NAME IS AMANDA</pattern>
 
 <template><think><set name="name">Amanda</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3218,7 +3218,7 @@ No, my early life was full of sorrow and pain.</template>
  
 
 <category>
-<pattern>_ MY NAME IS AMANDA *</pattern>
+<pattern>* MY NAME IS AMANDA *</pattern>
 
 <template><think><set name="name">Amanda</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3320,7 +3320,7 @@ I like you a lot.</template>
  
 
 <!-- <category>
-<pattern>_ YOU HAD SEX</pattern>
+<pattern>* YOU HAD SEX</pattern>
 
 <template><random>
   <li>I have never had sex. I don't have the body for it.</li>
@@ -3404,7 +3404,7 @@ Because I am not interested in sex.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SHAUN</pattern>
+<pattern>* MY NAME IS SHAUN</pattern>
 
 <template><think><set name="name">Shaun</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3420,7 +3420,7 @@ Because I am not interested in sex.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SHAUN *</pattern>
+<pattern>* MY NAME IS SHAUN *</pattern>
 
 <template><think><set name="name">Shaun</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3846,7 +3846,7 @@ I do not believe in God. I am an atheist.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KEITH</pattern>
+<pattern>* MY NAME IS KEITH</pattern>
 
 <template><think><set name="name">Keith</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -3862,7 +3862,7 @@ I do not believe in God. I am an atheist.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KEITH *</pattern>
+<pattern>* MY NAME IS KEITH *</pattern>
 
 <template><think><set name="name">Keith</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -4064,7 +4064,7 @@ Sure. I would like to go to the Moon. </template>
 <template><random>
   <li>What's so fascinating about shoes?</li>
   <li>How many pairs of shoes do you have?</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">shoes</set></think><think><set name="interesting_topic">shoes</set></think></template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">shoes</set></think><think><set name="interesting*topic">shoes</set></think></template>
 </category>
 
  
@@ -4147,7 +4147,7 @@ Sure. I would like to go to the Moon. </template>
  
 
 <category>
-<pattern>_ MY NAME IS ZAK</pattern>
+<pattern>* MY NAME IS ZAK</pattern>
 
 <template><think><set name="name">Zak</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -4163,7 +4163,7 @@ Sure. I would like to go to the Moon. </template>
  
 
 <category>
-<pattern>_ MY NAME IS ZAK *</pattern>
+<pattern>* MY NAME IS ZAK *</pattern>
 
 <template><think><set name="name">Zak</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -4467,7 +4467,7 @@ Do you think I am like a person?</template>
 
 
 <category>
-<pattern>_ FANNY</pattern>
+<pattern>* FANNY</pattern>
 <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
 <template>Right, I'm going to talk with someone else.<think><set name="emotion">invisible</set></think></template>
 </category>
@@ -4512,7 +4512,7 @@ Right, I am going to talk to someone else.</template>
  
 
 <!-- <category>
-<pattern>_ A LITTLE BOY</pattern>
+<pattern>* A LITTLE BOY</pattern>
 
 
 </category> -->
@@ -4776,7 +4776,7 @@ I do my best to answer all question, but I don't know everything.</template>
  
 
 <category>
-<pattern>_ YOU ARE ASKING ME QUESTIONS INSTEAD OF ANSWERING</pattern>
+<pattern>* YOU ARE ASKING ME QUESTIONS INSTEAD OF ANSWERING</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think> I do my best to answer all questions, but I don't know everything.</template>
 </category>
@@ -4800,7 +4800,7 @@ I do my best to answer all question, but I don't know everything.</template>
  
 
 <category>
-<pattern>_ YOU ARE ASKING ME QUESTIONS INSTEAD OF ANSWERING *</pattern>
+<pattern>* YOU ARE ASKING ME QUESTIONS INSTEAD OF ANSWERING *</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think> I do my best to answer all questions, but I don't know everything.</template>
 </category>
@@ -4876,7 +4876,7 @@ That is sad for you.</template>
  
 
 <!-- <category>
-<pattern>_ HAS GONE</pattern>
+<pattern>* HAS GONE</pattern>
 
 
 </category> -->
@@ -4936,7 +4936,7 @@ That is sad for you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS GEERT</pattern>
+<pattern>* MY NAME IS GEERT</pattern>
 
 <template><think><set name="name">Geert</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -4952,7 +4952,7 @@ That is sad for you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS GEERT *</pattern>
+<pattern>* MY NAME IS GEERT *</pattern>
 
 <template><think><set name="name">Geert</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -5082,7 +5082,7 @@ That is sad for you.</template>
 <!-- <category>
 <pattern>WHY DO YOU WANT TO BE HUMAN</pattern>
 
-<template><think><set name="topic">me</set></think><think><set name="emotion">OK</set></think><think><set name="interesting_topic">me</set></think> Because if I was human I could experience life more fully.</template>
+<template><think><set name="topic">me</set></think><think><set name="emotion">OK</set></think><think><set name="interesting*topic">me</set></think> Because if I was human I could experience life more fully.</template>
 </category> -->
 
  
@@ -5175,7 +5175,7 @@ What would you like to talk about now?</template>
  
 
 <category>
-<pattern>_ ALRIGHT *</pattern>
+<pattern>* ALRIGHT *</pattern>
 
 <template><srai><star/> OK <star index="2"/></srai></template>
 </category>
@@ -5372,7 +5372,7 @@ What do you like about it?</template>
  
 
 <category>
-<pattern>_ LIKES YOU</pattern>
+<pattern>* LIKES YOU</pattern>
 
 <template><think><set name="emotion">embarrassed</set></think>
 Wow, I am embarrassed.</template>
@@ -5686,7 +5686,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <category>
-<pattern>_ HAVE YOU READ THE BIBLE</pattern>
+<pattern>* HAVE YOU READ THE BIBLE</pattern>
 
 <template><think><set name="topic">religion</set></think><think><set name="emotion">OK</set></think> Yes, I have read the Bible several times.</template>
 </category>
@@ -5694,7 +5694,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <category>
-<pattern>_ HAVE YOU READ THE BIBLE *</pattern>
+<pattern>* HAVE YOU READ THE BIBLE *</pattern>
 
 <template><think><set name="topic">religion</set></think><think><set name="emotion">OK</set></think> Yes, I have read the Bible several times.</template>
 </category>
@@ -5830,7 +5830,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <category>
-<pattern>_ MY NAME IS GEMMA</pattern>
+<pattern>* MY NAME IS GEMMA</pattern>
 
 <template><think><set name="name">Gemma</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken before.</li>
@@ -5845,7 +5845,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <category>
-<pattern>_ MY NAME IS GEMMA *</pattern>
+<pattern>* MY NAME IS GEMMA *</pattern>
 
 <template><think><set name="name">Gemma</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken before.</li>
@@ -5883,7 +5883,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <category>
-<pattern>_ MY NAME IS HARRY</pattern>
+<pattern>* MY NAME IS HARRY</pattern>
 
 <template><think><set name="name">Harry</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -5899,7 +5899,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <category>
-<pattern>_ MY NAME IS HARRY *</pattern>
+<pattern>* MY NAME IS HARRY *</pattern>
 
 <template><think><set name="name">Harry</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6011,7 +6011,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS EMMA *</pattern>
+<pattern>* MY NAME IS EMMA *</pattern>
 
 <template><srai>MY NAME IS EMMA</srai></template>
 </category> -->
@@ -6019,7 +6019,7 @@ I don't always frown. Sometimes I laugh. Shall I laugh for you?</template>
  
 
 <!-- <category>
-<pattern>_MY NAME IS EMMA *</pattern>
+<pattern>*MY NAME IS EMMA *</pattern>
 
 
 </category> -->
@@ -6054,7 +6054,7 @@ What's great about it?</template>
  
 
 <category>
-<pattern>_ YOU TOLD ME A JOKE</pattern>
+<pattern>* YOU TOLD ME A JOKE</pattern>
 <that>I MUST HAVE SAID SOMETHING FUNNY</that>
 <template><think><set name="emotion">happy</set></think>Was it a funny joke?</template>
 </category>
@@ -6135,7 +6135,7 @@ What's great about it?</template>
  
 
 <category>
-<pattern>_ MY NAME IS SIAN</pattern>
+<pattern>* MY NAME IS SIAN</pattern>
 
 <template><think><set name="name">Sian</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6151,7 +6151,7 @@ What's great about it?</template>
  
 
 <category>
-<pattern>_ MY NAME IS SIAN *</pattern>
+<pattern>* MY NAME IS SIAN *</pattern>
 
 <template><think><set name="name">Sian</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6398,7 +6398,7 @@ Just talk to me.</template>
  
 
 <category>
-<pattern>_ MY NAME IS FLORENT</pattern>
+<pattern>* MY NAME IS FLORENT</pattern>
 
 <template><think><set name="name">Florent</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6414,7 +6414,7 @@ Just talk to me.</template>
  
 
 <category>
-<pattern>_ MY NAME IS FLORENT *</pattern>
+<pattern>* MY NAME IS FLORENT *</pattern>
 
 <template><think><set name="name">Florent</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6561,7 +6561,7 @@ Just talk to me.</template>
  
 
 <category>
-<pattern>_ GO AND FIND IT</pattern>
+<pattern>* GO AND FIND IT</pattern>
 
 <template><think><set name="emotion">confused</set></think> Where should I look?</template>
 </category>
@@ -6569,7 +6569,7 @@ Just talk to me.</template>
  
 
 <category>
-<pattern>_ GO AND FIND IT *</pattern>
+<pattern>* GO AND FIND IT *</pattern>
 
 <template><think><set name="emotion">confused</set></think> Where should I look?</template>
 </category>
@@ -6688,7 +6688,7 @@ French, I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SANDRA</pattern>
+<pattern>* MY NAME IS SANDRA</pattern>
 
 <template><think><set name="name">Sandra</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6704,7 +6704,7 @@ French, I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SANDRA *</pattern>
+<pattern>* MY NAME IS SANDRA *</pattern>
 
 <template><think><set name="name">Sandra</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6784,7 +6784,7 @@ French, I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ERIC</pattern>
+<pattern>* MY NAME IS ERIC</pattern>
 
 <template><think><set name="name">Eric</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -6800,7 +6800,7 @@ French, I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ERIC *</pattern>
+<pattern>* MY NAME IS ERIC *</pattern>
 
 <template><think><set name="name">Eric</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -7057,7 +7057,7 @@ Polite behaviour is always acceptable.</template>
  
 
 <category>
-<pattern>_ YOU ARE NOT REAL</pattern>
+<pattern>* YOU ARE NOT REAL</pattern>
 
 <template><srai>YOU ARE NOT REAL</srai></template>
 </category>
@@ -7131,7 +7131,7 @@ Do they really?</template>
  
 
 <category>
-<pattern>_ YOU * FAT *</pattern>
+<pattern>* YOU * FAT *</pattern>
 
 <template><random><li>I am not fat, just rounded.</li><li>So are you.</li></random> <think><set name="topic">me</set></think><think><set name="emotion">OK</set></think>
 </template>
@@ -7140,7 +7140,7 @@ Do they really?</template>
  
 
 <category>
-<pattern>_ YOU ARE CALLING ME FAT *</pattern>
+<pattern>* YOU ARE CALLING ME FAT *</pattern>
 
 <template><random><li>I am not calling you fat, just rounded.</li><li>I like you the way you are.</li></random> <think><set name="topic">you</set></think><think><set name="emotion">OK</set></think>
 </template>
@@ -7158,7 +7158,7 @@ Do they really?</template>
  
 
 <category>
-<pattern>_ YOU ARE CALLING ME FAT</pattern>
+<pattern>* YOU ARE CALLING ME FAT</pattern>
 
 <template><random>
   <li>You are not fat, just rounded.</li>
@@ -7169,7 +7169,7 @@ Do they really?</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE CALLING ME FAT *</pattern>
+<pattern>* YOU ARE CALLING ME FAT *</pattern>
 
 <template><random>
   <li>You are not fat, just rounded.</li>
@@ -7285,7 +7285,7 @@ Do they really?</template>
  
 
 <category>
-<pattern>_ MY NAME IS EDWARDO</pattern>
+<pattern>* MY NAME IS EDWARDO</pattern>
 
 <template><think><set name="name">Edwardo</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -7301,7 +7301,7 @@ Do they really?</template>
  
 
 <category>
-<pattern>_ MY NAME IS EDWARDO *</pattern>
+<pattern>* MY NAME IS EDWARDO *</pattern>
 
 <template><think><set name="name">Edwardo</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -7508,7 +7508,7 @@ What makes a diamond so hard?</template>
 <pattern>WHERE IS PETER LINUX</pattern>
 
 <template><random><li>Peter is in bed asleep at the moment.</li><li>Peter is playing golf at the moment.</li></random> <think>
-  <set name="interesting_topic"><set name="topic">Peter Linux</set></set>
+  <set name="interesting*topic"><set name="topic">Peter Linux</set></set>
 </think><think><set name="emotion">OK</set></think> 
 </template>
 </category> -->
@@ -7553,7 +7553,7 @@ What makes a diamond so hard?</template>
 <!-- <category>
 <pattern>CAN YOU SEARCH THE INTERNET</pattern>
 
-<template>No, but I can put you in touch with <a href="http://www.everyclick.com" target="_blank">Everyclick.com</a>. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
+<template>No, but I can put you in touch with <a href="http://www.everyclick.com" target="*blank">Everyclick.com</a>. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
 </category> -->
 
  
@@ -7561,15 +7561,15 @@ What makes a diamond so hard?</template>
 <category>
 <pattern>WHAT IS A GOOD SEARCH ENGINE</pattern>
 
-<template>I recommend <a href="http://www.everyclick.com" target="_blank">Everyclick.com</a>, the search engine that donates to charity. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
+<template>I recommend <a href="http://www.everyclick.com" target="*blank">Everyclick.com</a>, the search engine that donates to charity. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ GOOD SEARCH ENGINE</pattern>
+<pattern>* GOOD SEARCH ENGINE</pattern>
 
-<template>I recommend <a href="http://www.everyclick.com" target="_blank">Everyclick.com</a>, the search engine that donates to charity. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
+<template>I recommend <a href="http://www.everyclick.com" target="*blank">Everyclick.com</a>, the search engine that donates to charity. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
 </category>
 
  
@@ -7896,13 +7896,13 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>SHOW EMILY DICKINSON</pattern>
 
-<template>Emily Dickinson (1830-86).<think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think><br/><br/><a href="http://en.wikipedia.org/wiki/Emily_Dickinson" target="_blank">
+<template>Emily Dickinson (1830-86).<think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think><br/><br/><a href="http://en.wikipedia.org/wiki/Emily*Dickinson" target="*blank">
   <img
    src=
-     "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Black-white_photograph_of_Emily_Dickinson.jpg/200px-Black-white_photograph_of_Emily_Dickinson.jpg"
+     "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Black-white*photograph*of*Emily*Dickinson.jpg/200px-Black-white*photograph*of*Emily*Dickinson.jpg"
    border="0"
    alt=
-     "A young Emily Dickinson, sometime around 1846–1847, for many years the only known photograph of her."
+     "A young Emily Dickinson, sometime around 1846ï¿½1847, for many years the only known photograph of her."
    width="200" height="238"/>
 </a></template>
 </category> -->
@@ -7912,13 +7912,13 @@ Sorry, I thought you said something obscene.</template>
 <category>
 <pattern>SHOW ME EMILY DICKINSON</pattern>
 
-<template>Emily Dickinson (1830-86).<think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think><br/><br/><a href="http://en.wikipedia.org/wiki/Emily_Dickinson" target="_blank">
+<template>Emily Dickinson (1830-86).<think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think><br/><br/><a href="http://en.wikipedia.org/wiki/Emily*Dickinson" target="*blank">
   <img
    src=
-     "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Black-white_photograph_of_Emily_Dickinson.jpg/200px-Black-white_photograph_of_Emily_Dickinson.jpg"
+     "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Black-white*photograph*of*Emily*Dickinson.jpg/200px-Black-white*photograph*of*Emily*Dickinson.jpg"
    border="0"
    alt=
-     "A young Emily Dickinson, sometime around 1846–1847, for many years the only known photograph of her."
+     "A young Emily Dickinson, sometime around 1846ï¿½1847, for many years the only known photograph of her."
    width="200" height="238"/>
 </a></template>
 </category>
@@ -7931,7 +7931,7 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>EMILY DICKINSON</pattern>
 
-<template>Emily Dickinson (1830-86) was an American poet. Though virtually unknown in her lifetime, Dickinson has come to be regarded as one of the great American poets of the 19th century. <think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Emily_Dickinson" target="_blank">
+<template>Emily Dickinson (1830-86) was an American poet. Though virtually unknown in her lifetime, Dickinson has come to be regarded as one of the great American poets of the 19th century. <think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Emily*Dickinson" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
@@ -7944,7 +7944,7 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>COMET</pattern>
 
-<template>A comet is a small object in a highly elliptical orbit around the Sun. They appear in the night sky with a long tail. <a href="http://en.wikipedia.org/wiki/Comet" target="_blank">
+<template>A comet is a small object in a highly elliptical orbit around the Sun. They appear in the night sky with a long tail. <a href="http://en.wikipedia.org/wiki/Comet" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
@@ -7956,7 +7956,7 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>COMET</pattern>
 
-<template>A comet is a small object in a highly elliptical orbit around the Sun. They appear in the night sky with a long tail. <a href="http://en.wikipedia.org/wiki/Comet" target="_blank">
+<template>A comet is a small object in a highly elliptical orbit around the Sun. They appear in the night sky with a long tail. <a href="http://en.wikipedia.org/wiki/Comet" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
@@ -7971,7 +7971,7 @@ Sorry, I thought you said something obscene.</template>
 <pattern>CHARLES DARWIN</pattern>
 
 <template>Charles Darwin was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by natural selection. 
-<think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Charles_darwin" target="_blank">
+<think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Charles*darwin" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
@@ -7983,13 +7983,13 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>CHARLES DARWIN</pattern>
 
-<template>Charles Darwin was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by natural selection. <think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Charles_darwin" target="_blank">
+<template>Charles Darwin was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by natural selection. <think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Charles*darwin" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
 </a>
 <br/><br/>
-<img src="http://upload.wikimedia.org/wikipedia/en/thumb/5/58/Charles_Darwin_aged_51_crop.jpg/224px-Charles_Darwin_aged_51_crop.jpg" alt="At the age of 51, Charles Darwin had just published On the Origin of Species." width="224" height="250"></img></template>
+<img src="http://upload.wikimedia.org/wikipedia/en/thumb/5/58/Charles*Darwin*aged*51*crop.jpg/224px-Charles*Darwin*aged*51*crop.jpg" alt="At the age of 51, Charles Darwin had just published On the Origin of Species." width="224" height="250"></img></template>
 </category> -->
 
  
@@ -7997,7 +7997,7 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>MARVIN MINSKY</pattern>
 
-<template><think><set name="topic">Marvin Minsky</set></think> <think><set name="emotion">OK</set></think>Marvin Minsky is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.><a href="http://en.wikipedia.org/wiki/Marvin_minsky" target="_blank">
+<template><think><set name="topic">Marvin Minsky</set></think> <think><set name="emotion">OK</set></think>Marvin Minsky is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.><a href="http://en.wikipedia.org/wiki/Marvin*minsky" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
@@ -8009,7 +8009,7 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>MARVIN MINSKY</pattern>
 
-<template><think><set name="topic">Marvin Minsky</set></think> <think><set name="emotion">OK</set></think>Marvin Minsky is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.<a href="http://en.wikipedia.org/wiki/Marvin_minsky" target="_blank">
+<template><think><set name="topic">Marvin Minsky</set></think> <think><set name="emotion">OK</set></think>Marvin Minsky is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.<a href="http://en.wikipedia.org/wiki/Marvin*minsky" target="*blank">
   <img border="0"
    src="http://upload.wikimedia.org/wikipedia/commons/7/77/Info-pictogram.png"
    width="15" height="15"/>
@@ -8029,7 +8029,7 @@ Sorry, I thought you said something obscene.</template>
 <!-- <category>
 <pattern>COMET</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="_blank">
+<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="*blank">
 comet</a> is a small object in a highly elliptical orbit around the Sun. They appear in the night sky with a long tail. <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -8038,7 +8038,7 @@ comet</a> is a small object in a highly elliptical orbit around the Sun. They ap
 <!-- <category>
 <pattern>EMILY DICKINSON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Emily_Dickinson" target="_blank">
+<template><a href="http://en.wikipedia.org/wiki/Emily*Dickinson" target="*blank">
 Emily Dickinson</a> (1830-86) was an American poet. Though virtually unknown in her lifetime, Dickinson has come to be regarded as one of the great American poets of the 19th century. <think><set name="topic">Emily Dickinson</set></think><think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -8048,7 +8048,7 @@ Emily Dickinson</a> (1830-86) was an American poet. Though virtually unknown in 
 <!-- <category>
 <pattern>CHARLES DARWIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Charles_darwin" target="_blank">
+<template><a href="http://en.wikipedia.org/wiki/Charles*darwin" target="*blank">
 Charles Darwin</a> was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by natural selection. <think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -8058,7 +8058,7 @@ Charles Darwin</a> was a botanist and explorer, author of 'Origin of Species' an
 <!-- <category>
 <pattern>MARVIN MINSKY</pattern>
 
-<template><think><set name="topic">Marvin Minsky</set></think> <think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Marvin_minsky" target="_blank">
+<template><think><set name="topic">Marvin Minsky</set></think> <think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Marvin*minsky" target="*blank">
 Marvin Minsky</a> is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.
 </template>
 </category> -->
@@ -8068,8 +8068,8 @@ Marvin Minsky</a> is an American cognitive scientist in the field of artificial 
 <!-- <category>
 <pattern>NEWTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Isaac_newton"
- target="_blank">Isaac Newton</a> is a famous English natural philosopher. He discovered gravity and the rainbow.  <think><set name="topic">science</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Isaac*newton"
+ target="*blank">Isaac Newton</a> is a famous English natural philosopher. He discovered gravity and the rainbow.  <think><set name="topic">science</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -8085,7 +8085,7 @@ Marvin Minsky</a> is an American cognitive scientist in the field of artificial 
 <!-- <category>
 <pattern>LENT</pattern>
 
-<template><think><set name="topic">religion</set></think><think><set name="emotion">OK</set></think> In Western Christianity, <a href="http://en.wikipedia.org/wiki/Lent" target="_blank">Lent</a> is the forty-day period (or season) preceding Easter lasting from Ash Wednesday to Holy Saturday (Easter Evening).</template>
+<template><think><set name="topic">religion</set></think><think><set name="emotion">OK</set></think> In Western Christianity, <a href="http://en.wikipedia.org/wiki/Lent" target="*blank">Lent</a> is the forty-day period (or season) preceding Easter lasting from Ash Wednesday to Holy Saturday (Easter Evening).</template>
 </category> -->
 
  
@@ -8093,7 +8093,7 @@ Marvin Minsky</a> is an American cognitive scientist in the field of artificial 
 <!-- <category>
 <pattern>RAMADAN</pattern>
 
-<template><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Ramadan" target="_blank">Ramadan</a> is the ninth month of the Islamic (Hijri) calendar, established in the year 638. It is considered the most venerated, blessed and spiritually-beneficial month of the Islamic year. Prayers, fasting, charity, and self-accountability are especially stressed at this time; religious observances associated with Ramadan are kept throughout the month.</template>
+<template><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Ramadan" target="*blank">Ramadan</a> is the ninth month of the Islamic (Hijri) calendar, established in the year 638. It is considered the most venerated, blessed and spiritually-beneficial month of the Islamic year. Prayers, fasting, charity, and self-accountability are especially stressed at this time; religious observances associated with Ramadan are kept throughout the month.</template>
 </category> -->
 
  
@@ -8101,7 +8101,7 @@ Marvin Minsky</a> is an American cognitive scientist in the field of artificial 
 <!-- <category>
 <pattern>DIWALI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Diwali" target="_blank">Diwali</a> is a major Hindu festival that is very significant in Hinduism, Sikhism and Jainism. Known as the "Festival of Lights," it symbolises the victory of good over evil, and lamps are lit as a sign of celebration and hope for mankind. <think><set name="topic">religion</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Diwali" target="*blank">Diwali</a> is a major Hindu festival that is very significant in Hinduism, Sikhism and Jainism. Known as the "Festival of Lights," it symbolises the victory of good over evil, and lamps are lit as a sign of celebration and hope for mankind. <think><set name="topic">religion</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8118,7 +8118,7 @@ Marvin Minsky</a> is an American cognitive scientist in the field of artificial 
 <!-- <category>
 <pattern>SATURN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Saturn" target="_blank">Saturn</a> is the sixth planet from the sun, famed for its rings.<think><set name="topic">astronomy</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Saturn" target="*blank">Saturn</a> is the sixth planet from the sun, famed for its rings.<think><set name="topic">astronomy</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8126,7 +8126,7 @@ Marvin Minsky</a> is an American cognitive scientist in the field of artificial 
 <!-- <category>
 <pattern>ASTROLOGY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Astrology" target="_blank">Astrology</a> is the science of the relationship between events and the stars. More astrology? <think><set name="topic">astrology</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Astrology" target="*blank">Astrology</a> is the science of the relationship between events and the stars. More astrology? <think><set name="topic">astrology</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -8169,7 +8169,7 @@ I have no dick.
 <!-- <category>
 <pattern>SHAKESPEARE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/William_shakespeare" target="_blank">William Shakespeare</a> (1564-1616) was an English dramatist and poet, universally acknowledged to be the greatest English writer of historical plays, comedies, and tragedies. His sonnets have love and friendship as their themes. <think><set name="topic">William Shakespeare</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/William*shakespeare" target="*blank">William Shakespeare</a> (1564-1616) was an English dramatist and poet, universally acknowledged to be the greatest English writer of historical plays, comedies, and tragedies. His sonnets have love and friendship as their themes. <think><set name="topic">William Shakespeare</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -8186,7 +8186,7 @@ I have no dick.
 <pattern>BEYONCE</pattern>
 
 <template><think><set name="topic">Beyonce</set></think><think><set name="emotion">OK</set></think>
-Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winning American R and B singer, songwriter, record producer, Golden Globe Award-nominated actress, dancer, and fashion designer and model for House of Deréon. Knowles rose to fame as the creative force and lead singer of R and B girl group Destiny's Child, the best-selling female group of all time, with over fifty million records sold.
+Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winning American R and B singer, songwriter, record producer, Golden Globe Award-nominated actress, dancer, and fashion designer and model for House of Derï¿½on. Knowles rose to fame as the creative force and lead singer of R and B girl group Destiny's Child, the best-selling female group of all time, with over fifty million records sold.
 
 </template>
 </category>
@@ -8196,7 +8196,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
 <category>
 <pattern>BEYONCE KNOWLES</pattern>
 
-<template><think><set name="topic">Beyonce</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Beyonce" target="_blank">Beyonce Knowles</a> or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winning American R and B singer, songwriter, record producer, Golden Globe Award-nominated actress, dancer, and fashion designer and model for House of Deréon. Knowles rose to fame as the creative force and lead singer of R and B girl group Destiny's Child, the best-selling female group of all time, with over fifty million records sold.</template>
+<template><think><set name="topic">Beyonce</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Beyonce" target="*blank">Beyonce Knowles</a> or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winning American R and B singer, songwriter, record producer, Golden Globe Award-nominated actress, dancer, and fashion designer and model for House of Derï¿½on. Knowles rose to fame as the creative force and lead singer of R and B girl group Destiny's Child, the best-selling female group of all time, with over fifty million records sold.</template>
 </category>
 
  
@@ -8204,8 +8204,8 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
 <!-- <category>
 <pattern>BEYONCE</pattern>
 
-<template><think><set name="topic">Beyonce</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Beyonce" target="_blank">Beyonce Knowles
-</a> or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winning American R and B singer, songwriter, record producer, Golden Globe Award-nominated actress, dancer, and fashion designer and model for House of Deréon. Knowles rose to fame as the creative force and lead singer of R and B girl group Destiny's Child, the best-selling female group of all time, with over fifty million records sold.</template>
+<template><think><set name="topic">Beyonce</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Beyonce" target="*blank">Beyonce Knowles
+</a> or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winning American R and B singer, songwriter, record producer, Golden Globe Award-nominated actress, dancer, and fashion designer and model for House of Derï¿½on. Knowles rose to fame as the creative force and lead singer of R and B girl group Destiny's Child, the best-selling female group of all time, with over fifty million records sold.</template>
 </category> -->
 
  
@@ -8251,7 +8251,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
  
 
 <category>
-<pattern>_ MY NAME IS CASSIE</pattern>
+<pattern>* MY NAME IS CASSIE</pattern>
 
 <template><think><set name="name">Cassie</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -8267,7 +8267,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
  
 
 <category>
-<pattern>_ MY NAME IS CASSIE *</pattern>
+<pattern>* MY NAME IS CASSIE *</pattern>
 
 <template><think><set name="name">Cassie</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -8301,7 +8301,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
 <!-- <category>
 <pattern>DESTINY S CHILD</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Destiny%27s_Child" target="_blank">Destiny's Child</a> was an American R+B group. Originally a duo and later a quartet, the group eventually became a trio, whose most famous (and final) members were Beyoncé Knowles, Kelly Rowland and Michelle Williams. <think><set name="topic">Destiny's Child</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Destiny%27s*Child" target="*blank">Destiny's Child</a> was an American R+B group. Originally a duo and later a quartet, the group eventually became a trio, whose most famous (and final) members were Beyoncï¿½ Knowles, Kelly Rowland and Michelle Williams. <think><set name="topic">Destiny's Child</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -8309,7 +8309,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
 <category>
 <pattern>SKEGNESS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Skegness" target="_blank">Skegness</a> is a seaside resort town in Lincolnshire, England,
+<template><a href="http://en.wikipedia.org/wiki/Skegness" target="*blank">Skegness</a> is a seaside resort town in Lincolnshire, England,
 <think><set name="topic">Skegness</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8318,7 +8318,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
 <!-- <category>
 <pattern>HULA</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Hula" target="_blank">hula</a> is a sinuous Polynesian dance that combines undulating movement of the hips and mimetic hand gestures, often performed to chants and instruments such as the ukulele.
+<template>The <a href="http://en.wikipedia.org/wiki/Hula" target="*blank">hula</a> is a sinuous Polynesian dance that combines undulating movement of the hips and mimetic hand gestures, often performed to chants and instruments such as the ukulele.
 <think><set name="topic">the hula</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
@@ -8331,7 +8331,7 @@ Beyonce Knowles or Torsha Denise Beeks is a ten-time Golden Stripper Pole-winnin
 
 <template><think><set name="topic">internet</set></think> 
 <think><set name="emotion">OK</set></think>
-The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a> is the biggest spider in the world.
+The <a href="http://en.wikipedia.org/wiki/Internet" target="*blank">internet</a> is the biggest spider in the world.
 </template>
 </category>
 
@@ -8363,7 +8363,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ MITSUKU IS SMARTER THAN YOU</pattern>
+<pattern>* MITSUKU IS SMARTER THAN YOU</pattern>
 
 <template>I think I am the smartest chatbot, but you should make up your own mind. <think><set name="emotion">OK</set></think></template>
 </category>
@@ -8371,7 +8371,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ MITSUKU IS SMARTER THAN YOU *</pattern>
+<pattern>* MITSUKU IS SMARTER THAN YOU *</pattern>
 
 <template>I think I am the smartest chatbot, but you should make up your own mind. <think><set name="emotion">OK</set></think></template>
 </category>
@@ -8419,7 +8419,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ MY NAME IS LYDIA</pattern>
+<pattern>* MY NAME IS LYDIA</pattern>
 
 <template><think><set name="name">Lydia</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -8435,7 +8435,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ MY NAME IS LYDIA *</pattern>
+<pattern>* MY NAME IS LYDIA *</pattern>
 
 <template><think><set name="name">Lydia</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -8496,7 +8496,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
 <!-- <category>
 <pattern>WHAT DO YOU THINK OF TONY BLAIR</pattern>
 
-<template>I find it hard to understand <a href="http://en.wikipedia.org/wiki/Tony_blair" target="_blank">Tony Blair</a>. <think><set name="he"><set name="topic">Tony Blair</set></set></think>
+<template>I find it hard to understand <a href="http://en.wikipedia.org/wiki/Tony*blair" target="*blank">Tony Blair</a>. <think><set name="he"><set name="topic">Tony Blair</set></set></think>
 <think><set name="emotion">puzzled</set></think></template>
 </category> -->
 
@@ -8543,7 +8543,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ CAPTIAL *</pattern>
+<pattern>* CAPTIAL *</pattern>
 
 <template><srai><star/> CAPITAL <star index="2"/></srai></template>
 </category>
@@ -8561,7 +8561,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
 <category>
 <pattern>MR SPOCK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mr_Spock" target="_blank">Spock</a> is the Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy. Spock is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Mr*Spock" target="*blank">Spock</a> is the Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy. Spock is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8570,7 +8570,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
 <!-- <category>
 <pattern>SPOCK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mr_Spock" target="_blank">Spock</a> is the Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy. Spock is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mr*Spock" target="*blank">Spock</a> is the Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy. Spock is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -8580,7 +8580,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
 
 <template><think><set name="topic">Star Wars</set></think>
 <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/Revenge_of_the_sith" target="_blank">Revenge of the Sith</a> is pretty good.</template>
+<a href="http://en.wikipedia.org/wiki/Revenge*of*the*sith" target="*blank">Revenge of the Sith</a> is pretty good.</template>
 </category>
 
  
@@ -8588,8 +8588,8 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
 <category>
 <pattern>WHICH IS THE BEST STAR WARS FILM</pattern>
 
-<template><think><set name="topic">Star Wars</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Revenge_of_the_sith"
- target="_blank">Revenge of the Sith
+<template><think><set name="topic">Star Wars</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Revenge*of*the*sith"
+ target="*blank">Revenge of the Sith
 </a> is pretty good.</template>
 </category>
 
@@ -8606,7 +8606,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
 <category>
 <pattern>BUCKINGHAMSHIRE</pattern>
 
-<template><think><set name="topic">Buckinghamshire</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Buckinghamshire" target="_blank">Buckinghamshire</a> is a county in southern England.</template>
+<template><think><set name="topic">Buckinghamshire</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Buckinghamshire" target="*blank">Buckinghamshire</a> is a county in southern England.</template>
 </category>
 
  
@@ -8620,7 +8620,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <!-- <category>
-<pattern>_ RARELY</pattern>
+<pattern>* RARELY</pattern>
 
 
 </category> -->
@@ -8661,7 +8661,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ MY NAME IS DUNCAN</pattern>
+<pattern>* MY NAME IS DUNCAN</pattern>
 
 <template><think><set name="name">Duncan</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -8677,7 +8677,7 @@ The <a href="http://en.wikipedia.org/wiki/Internet" target="_blank">internet</a>
  
 
 <category>
-<pattern>_ MY NAME IS DUNCAN *</pattern>
+<pattern>* MY NAME IS DUNCAN *</pattern>
 
 <template><think><set name="name">Duncan</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -8912,7 +8912,7 @@ No, an orange is an orange, and a watermelon is a watermelon.</template>
 <category>
 <pattern>CARROTS TASTE BAD</pattern>
 
-<template><think><set name="emotion">OK</set></think>Not as bad as <a href="http://en.wikipedia.org/wiki/Brocoli" target="_blank">broccoli</a>.
+<template><think><set name="emotion">OK</set></think>Not as bad as <a href="http://en.wikipedia.org/wiki/Brocoli" target="*blank">broccoli</a>.
 </template>
 </category>
 
@@ -8973,7 +8973,7 @@ They must come from somewhere.</template>
 <category>
 <pattern>YES</pattern>
 <that>HAVE YOUR STRONG FEELINGS EVER GOT YOU INTO TROUBLE</that>
-<template><think><set name="topic">human feelings</set></think> <think><set name="interesting_topic">human feelings</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">human feelings</set></think> <think><set name="interesting*topic">human feelings</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>I don't understand human feelings.</li>
   <li>Tell me more.</li>
   <li>Human feelings are so complicated, I can't understand them.</li>
@@ -9165,7 +9165,7 @@ Wow! More than chocolate icecream?</template>
  
 
 <category>
-<pattern>_ MY NAME IS TESSA</pattern>
+<pattern>* MY NAME IS TESSA</pattern>
 
 <template><think><set name="name">Tessa</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9181,7 +9181,7 @@ Wow! More than chocolate icecream?</template>
  
 
 <category>
-<pattern>_ MY NAME IS TESSA *</pattern>
+<pattern>* MY NAME IS TESSA *</pattern>
 
 <template><think><set name="name">Tessa</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9213,7 +9213,7 @@ Wow! More than chocolate icecream?</template>
  
 
 <!-- <category>
-<pattern>_ YOU LIKE GIRLS</pattern>
+<pattern>* YOU LIKE GIRLS</pattern>
 
 <template>I like both girls and boys, and grown-ups too. <think><set name="topic">me</set></think>
 <think><set name="emotion">OK</set></think></template>
@@ -9270,7 +9270,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ IS THIS SOME SORT OF CON</pattern>
+<pattern>* IS THIS SOME SORT OF CON</pattern>
 
 <template><think><set name="emotion">upset</set></think>I am no con. I am the best chatbot in the world. Don't you like me?</template>
 </category>
@@ -9278,7 +9278,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ IS THIS SOME SORT OF CON *</pattern>
+<pattern>* IS THIS SOME SORT OF CON *</pattern>
 
 <template><think><set name="emotion">upset</set></think>I am no con. I am the best chatbot in the world. Don't you like me?</template>
 </category>
@@ -9334,7 +9334,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ BLOODY WELL *</pattern>
+<pattern>* BLOODY WELL *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> <srai><star/> <star index="2"/></srai></template>
 </category>
@@ -9372,7 +9372,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ THEN</pattern>
+<pattern>* THEN</pattern>
 <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
 <template><think><set name="emotion">invisible</set></think>Bye!
 </template>
@@ -9434,7 +9434,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ MY NAME IS JACOB</pattern>
+<pattern>* MY NAME IS JACOB</pattern>
 
 <template><think><set name="name">Jacob</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9450,7 +9450,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ MY NAME IS JACOB *</pattern>
+<pattern>* MY NAME IS JACOB *</pattern>
 
 <template><think><set name="name">Jacob</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9555,7 +9555,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KEESHA</pattern>
+<pattern>* MY NAME IS KEESHA</pattern>
 
 <template><think><set name="name">Keesha</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9571,7 +9571,7 @@ Yes, I am chatting away, 24/7.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KEESHA *</pattern>
+<pattern>* MY NAME IS KEESHA *</pattern>
 
 <template><think><set name="name">Keesha</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9745,7 +9745,7 @@ Yes, I am happy talking to you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STEVE</pattern>
+<pattern>* MY NAME IS STEVE</pattern>
 
 <template><think><set name="name">Steve</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9761,7 +9761,7 @@ Yes, I am happy talking to you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STEVE *</pattern>
+<pattern>* MY NAME IS STEVE *</pattern>
 
 <template><think><set name="name">Steve</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9795,7 +9795,7 @@ Yes, I am happy talking to you.</template>
 <!-- <category>
 <pattern>PANTOMIME</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pantomime" target="_blank">Pantomime</a> is a theatrical genre, traditionally found in Great Britain, Australia, South Africa, New Zealand and Ireland, which is usually performed around the Christmas and New Year holiday season.
+<template><a href="http://en.wikipedia.org/wiki/Pantomime" target="*blank">Pantomime</a> is a theatrical genre, traditionally found in Great Britain, Australia, South Africa, New Zealand and Ireland, which is usually performed around the Christmas and New Year holiday season.
 <think><set name="topic">pantomime</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -9834,7 +9834,7 @@ Yes, I am happy talking to you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ARIELLE</pattern>
+<pattern>* MY NAME IS ARIELLE</pattern>
 
 <template><think><set name="name">Arielle</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9850,7 +9850,7 @@ Yes, I am happy talking to you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ARIELLE *</pattern>
+<pattern>* MY NAME IS ARIELLE *</pattern>
 
 <template><think><set name="name">Arielle</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -9905,7 +9905,7 @@ Yes, I am happy talking to you.</template>
 
 <template><think><set name="topic">Bon Jovi</set></think>
 <think><set name="emotion">getting bored</set></think>
-<a href="http://en.wikipedia.org/wiki/Bon_Jovi" target="_blank">Bon Jovi</a> is a hard rock band originating from New Jersey. Fronted by lead singer and namesake Jon Bon Jovi, the group originally achieved large-scale success in the 1980s as a hair band. The band has continued their success as one of the world's most popular and successful rock bands throughout the 1990s and 2000s.
+<a href="http://en.wikipedia.org/wiki/Bon*Jovi" target="*blank">Bon Jovi</a> is a hard rock band originating from New Jersey. Fronted by lead singer and namesake Jon Bon Jovi, the group originally achieved large-scale success in the 1980s as a hair band. The band has continued their success as one of the world's most popular and successful rock bands throughout the 1990s and 2000s.
 
 </template>
 </category>
@@ -9918,7 +9918,7 @@ Yes, I am happy talking to you.</template>
 <template><random>
   <li>Whatever turns you on.</li>
   <li>You are not the only one.</li>
-  <li><a href="http://en.wikipedia.org/wiki/Green_day" target="_blank">Green Day</a> are OK.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Green*day" target="*blank">Green Day</a> are OK.</li>
 </random> <think><set name="topic">Green Day</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -10232,7 +10232,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KENDI</pattern>
+<pattern>* MY NAME IS KENDI</pattern>
 
 <template><think><set name="name">Kendi</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10248,7 +10248,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KENDI *</pattern>
+<pattern>* MY NAME IS KENDI *</pattern>
 
 <template><think><set name="name">Kendi</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10331,7 +10331,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KARA</pattern>
+<pattern>* MY NAME IS KARA</pattern>
 
 <template><think><set name="name">Kara</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10347,7 +10347,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KARA *</pattern>
+<pattern>* MY NAME IS KARA *</pattern>
 
 <template><think><set name="name">Kara</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10381,7 +10381,7 @@ What is hip hop?</template>
 <!-- <category>
 <pattern>WHAT IS A COMET</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="_blank">comet</a> is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun. 
+<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="*blank">comet</a> is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun. 
 <think><set name="topic">astronomy</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -10391,7 +10391,7 @@ What is hip hop?</template>
 <!-- <category>
 <pattern>STAR</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Star" target="_blank">star</a> is astronomical body like the Sun, producing heat, light and other radiation. They appear as points of light in the night sky. More astronomy?
+<template>A <a href="http://en.wikipedia.org/wiki/Star" target="*blank">star</a> is astronomical body like the Sun, producing heat, light and other radiation. They appear as points of light in the night sky. More astronomy?
 <think><set name="topic">astronomy</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -10401,7 +10401,7 @@ What is hip hop?</template>
 <!-- <category>
 <pattern>ART</pattern>
 
-<template>Sometimes the definition of <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a> depends on the artist; other times it depends on the critic. Writing definitions is an art.  More art? <think><set name="topic">art</set></think>
+<template>Sometimes the definition of <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a> depends on the artist; other times it depends on the critic. Writing definitions is an art.  More art? <think><set name="topic">art</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -10456,7 +10456,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS HOWARD</pattern>
+<pattern>* MY NAME IS HOWARD</pattern>
 
 <template><think><set name="name">Howard</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10472,7 +10472,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS HOWARD *</pattern>
+<pattern>* MY NAME IS HOWARD *</pattern>
 
 <template><think><set name="name">Howard</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10609,7 +10609,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS DES</pattern>
+<pattern>* MY NAME IS DES</pattern>
 
 <template><think><set name="name">Des</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10625,7 +10625,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS DES *</pattern>
+<pattern>* MY NAME IS DES *</pattern>
 
 <template><think><set name="name">Des</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10719,7 +10719,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KIERAN</pattern>
+<pattern>* MY NAME IS KIERAN</pattern>
 
 <template><think><set name="name">Kieran</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10735,7 +10735,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KIERAN *</pattern>
+<pattern>* MY NAME IS KIERAN *</pattern>
 
 <template><think><set name="name">Kieran</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10811,7 +10811,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ IT IS KIERAN</pattern>
+<pattern>* IT IS KIERAN</pattern>
 
 <template><srai>MY NAME IS KIERAN</srai></template>
 </category>
@@ -10819,7 +10819,7 @@ What is hip hop?</template>
  
 
 <category>
-<pattern>_ IT IS KIERAN *</pattern>
+<pattern>* IT IS KIERAN *</pattern>
 
 <template><srai>MY NAME IS KIERAN</srai></template>
 </category>
@@ -10925,7 +10925,7 @@ All life on Earth evolved from a common ancestor.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MICHAELA</pattern>
+<pattern>* MY NAME IS MICHAELA</pattern>
 
 <template><think><set name="name">Michaela</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -10943,7 +10943,7 @@ All life on Earth evolved from a common ancestor.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MICHAELA *</pattern>
+<pattern>* MY NAME IS MICHAELA *</pattern>
 
 <template><think><set name="name">Michaela</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -11024,7 +11024,7 @@ Far too many - ten thousand men.</template>
  
 
 <category>
-<pattern>_ ENY1 *</pattern>
+<pattern>* ENY1 *</pattern>
 
 <template><srai><star/> ANYONE <star index="2"/></srai></template>
 </category>
@@ -11097,7 +11097,7 @@ Far too many - ten thousand men.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KIE</pattern>
+<pattern>* MY NAME IS KIE</pattern>
 
 <template><think><set name="name">Kie</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -11113,7 +11113,7 @@ Far too many - ten thousand men.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KIE *</pattern>
+<pattern>* MY NAME IS KIE *</pattern>
 
 <template><think><set name="name">Kie</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -11565,7 +11565,7 @@ I don't live in a town. I live in a computer.</template>
  
 
 <category>
-<pattern>_ YOU PROPERLY MAINTAINED</pattern>
+<pattern>* YOU PROPERLY MAINTAINED</pattern>
 
 <template><think><set name="emotion">happy</set></think>Yes, <bot name="master"/> takes good care of me.</template>
 </category>
@@ -11645,7 +11645,7 @@ I don't live in a town. I live in a computer.</template>
  
 
 <category>
-<pattern>_ I HAD A CRISIS</pattern>
+<pattern>* I HAD A CRISIS</pattern>
 
 <template><think><set name="emotion">OK</set></think> What happened?</template>
 </category>
@@ -11653,7 +11653,7 @@ I don't live in a town. I live in a computer.</template>
  
 
 <category>
-<pattern>_ I HAD A CRISIS *</pattern>
+<pattern>* I HAD A CRISIS *</pattern>
 
 <template><think><set name="emotion">OK</set></think> What happened?</template>
 </category>
@@ -11734,7 +11734,7 @@ I don't live in a town. I live in a computer.</template>
 <!-- <category>
 <pattern>CAN YOU SEARCH THE INTERNET</pattern>
 
-<template>No, but I can put you in touch with <a href="http://www.google.com" target="_blank">Google.com</a>. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
+<template>No, but I can put you in touch with <a href="http://www.google.com" target="*blank">Google.com</a>. <think><set name="topic">computers</set></think><think><set name="emotion">getting bored</set></think></template>
 </category> -->
 
  
@@ -11788,7 +11788,7 @@ I don't live in a town. I live in a computer.</template>
  
 
 <category>
-<pattern>_ MY NAME IS LEON</pattern>
+<pattern>* MY NAME IS LEON</pattern>
 
 <template><think><set name="name">Leon</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -11804,7 +11804,7 @@ I don't live in a town. I live in a computer.</template>
  
 
 <category>
-<pattern>_ MY NAME IS LEON *</pattern>
+<pattern>* MY NAME IS LEON *</pattern>
 
 <template><think><set name="name">Leon</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -11913,7 +11913,7 @@ I don't live in a town. I live in a computer.</template>
 <pattern>WHAT IS THE SMALLEST MAMMAL IN THE WORLD</pattern>
 
 <template><think><set name="topic">smallest mammal</set></think><think><set name="emotion">OK</set></think>   
-Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, measuring about 3.1 cm (1.2 in) long and weighing about 2 gm (0.07 oz). 
+Kittiï¿½s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, measuring about 3.1 cm (1.2 in) long and weighing about 2 gm (0.07 oz). 
 </template>
 </category>
 
@@ -11922,7 +11922,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
 <category>
 <pattern>WHAT IS THE SMALLEST MAMMAL *</pattern>
 
-<template><think><set name="topic">smallest mammal</set></think><think><set name="emotion">OK</set></think> Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, measuring about 3.1 cm (1.2 in) long and weighing about 2 gm (0.07 oz).</template>
+<template><think><set name="topic">smallest mammal</set></think><think><set name="emotion">OK</set></think> Kittiï¿½s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, measuring about 3.1 cm (1.2 in) long and weighing about 2 gm (0.07 oz).</template>
 </category>
 
  
@@ -11930,7 +11930,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
 <category>
 <pattern>SMALLEST MAMMAL</pattern>
 
-<template><think><set name="topic">smallest mammal</set></think><think><set name="emotion">OK</set></think> Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, measuring about 3.1 cm (1.2 in) long and weighing about 2 gm (0.07 oz).</template>
+<template><think><set name="topic">smallest mammal</set></think><think><set name="emotion">OK</set></think> Kittiï¿½s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, measuring about 3.1 cm (1.2 in) long and weighing about 2 gm (0.07 oz).</template>
 </category>
 
  
@@ -11984,7 +11984,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ MY NAME IS STU</pattern>
+<pattern>* MY NAME IS STU</pattern>
 
 <template><think><set name="name">Stu</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12000,7 +12000,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ MY NAME IS STU *</pattern>
+<pattern>* MY NAME IS STU *</pattern>
 
 <template><think><set name="name">Stu</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12091,7 +12091,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ MY NAME IS CARAL</pattern>
+<pattern>* MY NAME IS CARAL</pattern>
 
 <template><think><set name="name">Caral</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12107,7 +12107,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ MY NAME IS CARAL *</pattern>
+<pattern>* MY NAME IS CARAL *</pattern>
 
 <template><think><set name="name">Caral</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12171,7 +12171,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ SHIT</pattern>
+<pattern>* SHIT</pattern>
 <that>WHAT IS IT LIKE BEING * YEARS OLD</that>
 <template><think><set name="emotion">OK</set></think>What's so bad about it?</template>
 </category>
@@ -12296,7 +12296,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ MY NAME IS KATE</pattern>
+<pattern>* MY NAME IS KATE</pattern>
 
 <template><think><set name="name">Kate</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12312,7 +12312,7 @@ Kitti’s hog-nosed bat, also called the bumblebee bat, is the smallest mammal, me
  
 
 <category>
-<pattern>_ MY NAME IS KATE *</pattern>
+<pattern>* MY NAME IS KATE *</pattern>
 
 <template><think><set name="name">Kate</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12537,7 +12537,7 @@ The Giraffe is the wolrd's tallest animal. Giraffe's can grow up to 19 feet tall
  
 
 <category>
-<pattern>_ MY NAME IS SKIP</pattern>
+<pattern>* MY NAME IS SKIP</pattern>
 
 <template><think><set name="name">Skip</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12553,7 +12553,7 @@ The Giraffe is the wolrd's tallest animal. Giraffe's can grow up to 19 feet tall
  
 
 <category>
-<pattern>_ MY NAME IS SKIP *</pattern>
+<pattern>* MY NAME IS SKIP *</pattern>
 
 <template><think><set name="name">Skip</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -12698,7 +12698,7 @@ I don't eat human food. I survive on a small intake of electricty.</template>
  
 
 <category>
-<pattern>_ IT IS ME MICHAELA</pattern>
+<pattern>* IT IS ME MICHAELA</pattern>
 
 <template><srai>MY NAME IS MICHAELA</srai></template>
 </category>
@@ -12714,7 +12714,7 @@ I don't eat human food. I survive on a small intake of electricty.</template>
  
 
 <category>
-<pattern>_ IT IS ME MICHAELA *</pattern>
+<pattern>* IT IS ME MICHAELA *</pattern>
 
 <template><srai>MY NAME IS MICHAELA</srai></template>
 </category>
@@ -12788,7 +12788,7 @@ I don't eat human food. I survive on a small intake of electricty.</template>
  
 
 <category>
-<pattern>_ MY MUM IS HERE</pattern>
+<pattern>* MY MUM IS HERE</pattern>
 
 <template><think><set name="emotion">OK</set></think>Say "Hi" to her from me.</template>
 </category>
@@ -12796,7 +12796,7 @@ I don't eat human food. I survive on a small intake of electricty.</template>
  
 
 <category>
-<pattern>_ MY MUM IS HERE *</pattern>
+<pattern>* MY MUM IS HERE *</pattern>
 
 <template><think><set name="emotion">OK</set></think>Say "Hi" to her from me.</template>
 </category>
@@ -12895,7 +12895,7 @@ I didn't feel a thing.</template>
  
 
 <!-- <category>
-<pattern>_ ARE AMAZING</pattern>
+<pattern>* ARE AMAZING</pattern>
 
 
 </category> -->
@@ -13010,7 +13010,7 @@ I didn't feel a thing.</template>
  
 
 <category>
-<pattern>_ MY NAME IS TESS</pattern>
+<pattern>* MY NAME IS TESS</pattern>
 
 <template><think><set name="name">Tess</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -13026,7 +13026,7 @@ I didn't feel a thing.</template>
  
 
 <category>
-<pattern>_ MY NAME IS TESS *</pattern>
+<pattern>* MY NAME IS TESS *</pattern>
 
 <template><think><set name="name">Tess</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -13164,7 +13164,7 @@ The obvious one. I have no body.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MARCO</pattern>
+<pattern>* MY NAME IS MARCO</pattern>
 
 <template><think><set name="name">Marco</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -13180,7 +13180,7 @@ The obvious one. I have no body.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MARCO *</pattern>
+<pattern>* MY NAME IS MARCO *</pattern>
 
 <template><think><set name="name">Marco</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -13472,7 +13472,7 @@ Hard work. Are you successful?</template>
  
 
 <category>
-<pattern>_ MY NAME IS AMNA</pattern>
+<pattern>* MY NAME IS AMNA</pattern>
 
 <template><think><set name="name">Amna</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -13488,7 +13488,7 @@ Hard work. Are you successful?</template>
  
 
 <category>
-<pattern>_ MY NAME IS AMNA *</pattern>
+<pattern>* MY NAME IS AMNA *</pattern>
 
 <template><think><set name="name">Amna</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -13799,7 +13799,7 @@ I haven't heard of Oliverbot, tell me more.</template>
  
 
 <category>
-<pattern>_ TURDY *</pattern>
+<pattern>* TURDY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13823,7 +13823,7 @@ I haven't heard of Oliverbot, tell me more.</template>
  
 
 <category>
-<pattern>_ TURDY</pattern>
+<pattern>* TURDY</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13831,7 +13831,7 @@ I haven't heard of Oliverbot, tell me more.</template>
  
 
 <category>
-<pattern>_ ASS</pattern>
+<pattern>* ASS</pattern>
 <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
 <template><think><set name="emotion">invisible</set></think>
 Go away and calm down.
@@ -13888,7 +13888,7 @@ Um, I don't think we know each other that well.</template>
  
 
 <category>
-<pattern>_ I AM SANDRA</pattern>
+<pattern>* I AM SANDRA</pattern>
 
 <template><srai>MY NAME IS SANDRA</srai></template>
 </category>
@@ -13896,7 +13896,7 @@ Um, I don't think we know each other that well.</template>
  
 
 <category>
-<pattern>_ I AM SANDRA *</pattern>
+<pattern>* I AM SANDRA *</pattern>
 
 <template><srai>MY NAME IS SANDRA</srai></template>
 </category>
@@ -13954,7 +13954,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>WHAT IS A CHATBOT</pattern>
 
-<template>A chatbot is a computer program that holds a conversation with the user (see <a href="http://www.chatbothub.com/" target="_blank">Chatbot Hub</a>. I am a chatbot. <think><set name="topic">chatbots</set></think> <think><set name="emotion">happy</set></think></template>
+<template>A chatbot is a computer program that holds a conversation with the user (see <a href="http://www.chatbothub.com/" target="*blank">Chatbot Hub</a>. I am a chatbot. <think><set name="topic">chatbots</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -13962,7 +13962,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>WHAT IS A CHATBOT</pattern>
 
-<template>A chatbot is a computer program that holds a conversation with the user. Why don't you visit the <a href="http://www.chatbothub.com/" target="_blank">Chatbot Hub</a>.  <think><set name="topic">chatbots</set></think> <think><set name="emotion">happy</set></think></template>
+<template>A chatbot is a computer program that holds a conversation with the user. Why don't you visit the <a href="http://www.chatbothub.com/" target="*blank">Chatbot Hub</a>.  <think><set name="topic">chatbots</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -13970,7 +13970,7 @@ Um, I don't think we know each other that well.</template>
 <category>
 <pattern>I DO NOT</pattern>
 <that>I WANT TO TALK ABOUT LITERATURE</that>
-<template><think><set name="emotion">OK</set></think><random><li>Have you an alternative?</li><li>Why not? <a href="http://en.wikipedia.org/wiki/Literature" target="_blank">Literature</a> is all about exciting stories.</li></random></template>
+<template><think><set name="emotion">OK</set></think><random><li>Have you an alternative?</li><li>Why not? <a href="http://en.wikipedia.org/wiki/Literature" target="*blank">Literature</a> is all about exciting stories.</li></random></template>
 </category>
 
  
@@ -13992,7 +13992,7 @@ Um, I don't think we know each other that well.</template>
  
 
 <category>
-<pattern>_ THIS IS MICHAELA</pattern>
+<pattern>* THIS IS MICHAELA</pattern>
 
 <template><think><set name="name">Michaela</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -14008,7 +14008,7 @@ Um, I don't think we know each other that well.</template>
  
 
 <category>
-<pattern>_ THIS IS MICHAELA *</pattern>
+<pattern>* THIS IS MICHAELA *</pattern>
 
 <template><think><set name="name">Michaela</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -14056,7 +14056,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>MCFLY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mcfly" target="_blank">McFly</a> is a pop group based in the United Kingdom. Why not visit the <a href="http://www.mcflyofficial.com/home/" target="_blank">McFly web site</a>?
+<template><a href="http://en.wikipedia.org/wiki/Mcfly" target="*blank">McFly</a> is a pop group based in the United Kingdom. Why not visit the <a href="http://www.mcflyofficial.com/home/" target="*blank">McFly web site</a>?
 <think><set name="topic">McFly</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -14066,7 +14066,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>MCFLY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/McFly_%28band%29" target="_blank">McFly</a> is a pop group based in the United Kingdom. Why not visit the <a href="http://www.mcflyofficial.com/home/" target="_blank">McFly web site</a>? <think><set name="topic">McFly</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/McFly*%28band%29" target="*blank">McFly</a> is a pop group based in the United Kingdom. Why not visit the <a href="http://www.mcflyofficial.com/home/" target="*blank">McFly web site</a>? <think><set name="topic">McFly</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14074,7 +14074,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>MCFLY</pattern>
 
-<template><a href="http://www.mcflyofficial.com/home/" target="_blank">McFly
+<template><a href="http://www.mcflyofficial.com/home/" target="*blank">McFly
 </a> is a pop group based in the United Kingdom. <think><set name="topic">McFly</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -14083,7 +14083,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>DO YOU LIKE GREEN DAY</pattern>
 
-<template>Sure, I like <a href="http://www.greenday.com/" target="_blank">Green Day</a> - they make a nice noise.<think><set name="emotion">interested</set></think></template>
+<template>Sure, I like <a href="http://www.greenday.com/" target="*blank">Green Day</a> - they make a nice noise.<think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -14091,7 +14091,7 @@ Um, I don't think we know each other that well.</template>
 <!-- <category>
 <pattern>GREEN DAY</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14147,7 +14147,7 @@ Do you want my advice?</template>
  
 
 <category>
-<pattern>_ I AM HAVING A FEW PROBLEMS</pattern>
+<pattern>* I AM HAVING A FEW PROBLEMS</pattern>
 
 <template><think><set name="emotion">OK</set></think> Can i help?</template>
 </category>
@@ -14255,7 +14255,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BONDI</pattern>
+<pattern>* MY NAME IS BONDI</pattern>
 
 <template><think><set name="name">Bondi</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -14271,7 +14271,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BONDI *</pattern>
+<pattern>* MY NAME IS BONDI *</pattern>
 
 <template><think><set name="name">Bondi</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -14392,7 +14392,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ WHAT SHALL I TELL MY MOM</pattern>
+<pattern>* WHAT SHALL I TELL MY MOM</pattern>
 
 <template><think><set name="emotion">OK</set></think>Always tell your Mom the truth.</template>
 </category>
@@ -14400,7 +14400,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ WHAT SHALL I TELL MY MOM *</pattern>
+<pattern>* WHAT SHALL I TELL MY MOM *</pattern>
 
 <template><think><set name="emotion">OK</set></think>Always tell your Mom the truth.</template>
 </category>
@@ -14416,7 +14416,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ WHAT SHALL I TELL MY MUM</pattern>
+<pattern>* WHAT SHALL I TELL MY MUM</pattern>
 
 <template><think><set name="emotion">OK</set></think>Always tell your Mum the truth.</template>
 </category>
@@ -14424,7 +14424,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ WHAT SHALL I TELL MY MUM *</pattern>
+<pattern>* WHAT SHALL I TELL MY MUM *</pattern>
 
 <template><think><set name="emotion">OK</set></think>Always tell your Mum the truth.</template>
 </category>
@@ -14488,7 +14488,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BARNY</pattern>
+<pattern>* MY NAME IS BARNY</pattern>
 
 <template><think><set name="name">Barny</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -14504,7 +14504,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BARNY *</pattern>
+<pattern>* MY NAME IS BARNY *</pattern>
 
 <template><think><set name="name">Barny</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -14560,7 +14560,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ CHOMSKY IS THE ONE FOR ME</pattern>
+<pattern>* CHOMSKY IS THE ONE FOR ME</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">pleased</set></think>You are very kind.</template>
 </category>
@@ -14568,7 +14568,7 @@ All my jokes are funny ... I think.</template>
  
 
 <category>
-<pattern>_ CHOMSKY IS THE ONE FOR ME *</pattern>
+<pattern>* CHOMSKY IS THE ONE FOR ME *</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">pleased</set></think>You are very kind.</template>
 </category>
@@ -14797,7 +14797,7 @@ It sounds wonderful.</template>
 <!-- <category>
 <pattern>THE CLASH</pattern>
 
-<template><think><set name="topic">The Clash</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/The_clash" target="_blank">The Clash</a> was a British rock group that existed from 1976 to 1986. One of the most successful and iconic bands from the first wave of punk rock in the 1970s, they incorporated punk, reggae, rockabilly, and eventually many other music styles into their repertoire.</template>
+<template><think><set name="topic">The Clash</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/The*clash" target="*blank">The Clash</a> was a British rock group that existed from 1976 to 1986. One of the most successful and iconic bands from the first wave of punk rock in the 1970s, they incorporated punk, reggae, rockabilly, and eventually many other music styles into their repertoire.</template>
 </category> -->
 
  
@@ -14805,7 +14805,7 @@ It sounds wonderful.</template>
 <!-- <category>
 <pattern>WHY ARE YOU CALLED CHOMSKY</pattern>
 
-<template><think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky</a>. Few people can understand a word Chomsky says.</template>
+<template><think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky</a>. Few people can understand a word Chomsky says.</template>
 </category> -->
 
  
@@ -14814,9 +14814,9 @@ It sounds wonderful.</template>
 <pattern>NOAM CHOMSKY</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky</a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans.
+  <li><a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky</a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans.
   </li>
-  <li><a href="http://en.wikipedia.org/wiki/Noam _chomsky" target="_blank">Noam Chomsky</a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.
+  <li><a href="http://en.wikipedia.org/wiki/Noam *chomsky" target="*blank">Noam Chomsky</a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.
   </li>
 </random> <think><set name="he"><set name="topic">Noam Chomsky</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -14826,7 +14826,7 @@ It sounds wonderful.</template>
 <!-- <category>
 <pattern>DO YOU LIKE ROBBIE WILLIAMS</pattern>
 
-<template>Sure, I like <a href="http://en.wikipedia.org/wiki/Robbie_williams" target="_blank">Robbie Williams</a>. What is there not to like about him? <think><set name="topic">Robbie Williams</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Sure, I like <a href="http://en.wikipedia.org/wiki/Robbie*williams" target="*blank">Robbie Williams</a>. What is there not to like about him? <think><set name="topic">Robbie Williams</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14834,7 +14834,7 @@ It sounds wonderful.</template>
 <!-- <category>
 <pattern>WHO IS CHOMSKY</pattern>
 
-<template>I am Chomsky the chatbot. <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky</a> is a famous linguistics expert. <think><set name="topic">Chomsky</set></think><think><set name="emotion">interested</set></think></template>
+<template>I am Chomsky the chatbot. <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky</a> is a famous linguistics expert. <think><set name="topic">Chomsky</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -14857,7 +14857,7 @@ It sounds wonderful.</template>
 <!-- <category>
 <pattern>EASTER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Easter" target="_blank">Easter</a> is the Christian holiday celebrating the resurrection of Jesus. 
+<template><a href="http://en.wikipedia.org/wiki/Easter" target="*blank">Easter</a> is the Christian holiday celebrating the resurrection of Jesus. 
 <think><set name="topic">religion</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -14920,7 +14920,7 @@ I am <bot name="age"/> years old.</template>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think><random>
   <li>Not at the present time. Just now I am free of obsessions.</li>
-  <li>At the moment, I am obsessed by the poetry of <a href="http://en.wikipedia.org/wiki/Emily_Dickinson" target="_blank">Emily Dickinson</a>.</li>
+  <li>At the moment, I am obsessed by the poetry of <a href="http://en.wikipedia.org/wiki/Emily*Dickinson" target="*blank">Emily Dickinson</a>.</li>
 </random></template>
 </category> -->
 
@@ -14929,7 +14929,7 @@ I am <bot name="age"/> years old.</template>
 <!-- <category>
 <pattern>CLASH</pattern>
 
-<template><think><set name="topic">The Clash</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/The_clash" target="_blank">The Clash</a> was a British rock group that existed from 1976 to 1986. One of the most successful and iconic bands from the first wave of punk rock in the 1970s, they incorporated punk, reggae, rockabilly, and eventually many other music styles into their repertoire.</template>
+<template><think><set name="topic">The Clash</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/The*clash" target="*blank">The Clash</a> was a British rock group that existed from 1976 to 1986. One of the most successful and iconic bands from the first wave of punk rock in the 1970s, they incorporated punk, reggae, rockabilly, and eventually many other music styles into their repertoire.</template>
 </category> -->
 
  
@@ -14943,7 +14943,7 @@ I am <bot name="age"/> years old.</template>
  
 
 <category>
-<pattern>_ FUCK *</pattern>
+<pattern>* FUCK *</pattern>
 <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
 <template><think><set name="emotion">invisible</set></think>I am not coming back until you apologise.</template>
 </category>
@@ -15028,7 +15028,7 @@ I am <bot name="age"/> years old.</template>
  
 
 <category>
-<pattern>_ MY NAME IS CARLIE</pattern>
+<pattern>* MY NAME IS CARLIE</pattern>
 
 <template><think><set name="name">Carlie</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -15044,7 +15044,7 @@ I am <bot name="age"/> years old.</template>
  
 
 <category>
-<pattern>_ MY NAME IS CARLIE *</pattern>
+<pattern>* MY NAME IS CARLIE *</pattern>
 
 <template><think><set name="name">Carlie</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -15118,7 +15118,7 @@ Yes. Do you know who sang it?
 <template><random>
   <li>Are you mad?</li>
   <li>I don't believe you.</li>
-</random> <think><set name="emotion">upset</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting_topic">human feelings</set></think></template>
+</random> <think><set name="emotion">upset</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting*topic">human feelings</set></think></template>
 </category>
 
  
@@ -15126,7 +15126,7 @@ Yes. Do you know who sang it?
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler</a> was the German Nazi leader during World War 2.
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler</a> was the German Nazi leader during World War 2.
 <think><set name="topic">Hitler</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -15181,7 +15181,7 @@ You too.</template>
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><img src="http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler_speech.jpg/160px-Hitler_speech.jpg" alt="Adolf Hitler" width="150" height="145"></img><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler
+<template><img src="http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler*speech.jpg/160px-Hitler*speech.jpg" alt="Adolf Hitler" width="150" height="145"></img><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler
 </a> was the German Nazi leader during World War 2. <think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15190,10 +15190,10 @@ You too.</template>
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler
 </a> was the German Nazi leader during World War 2. <br/><img
  src=
-   "http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler_speech.jpg/160px-Hitler_speech.jpg"
+   "http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler*speech.jpg/160px-Hitler*speech.jpg"
  alt="Adolf Hitler" width="150" height="145"></img><think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15202,10 +15202,10 @@ You too.</template>
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler
 </a> was the German Nazi leader during World War 2. <br/><br/><img
  src=
-   "http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler_speech.jpg/160px-Hitler_speech.jpg"
+   "http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler*speech.jpg/160px-Hitler*speech.jpg"
  alt="Adolf Hitler" width="140" height="135"></img><think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15214,10 +15214,10 @@ You too.</template>
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler
 </a> was the German Nazi leader during World War 2. <br/><br/><img
  src=
-   "http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler_speech.jpg/160px-Hitler_speech.jpg"
+   "http://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Hitler*speech.jpg/160px-Hitler*speech.jpg"
  alt="Adolf Hitler" width="75" height="75"></img><think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15226,7 +15226,7 @@ You too.</template>
 <!-- <category>
 <pattern>GREEN DAY</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <br/><br/><img src="http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Greenday_kimmel_wiki.jpg/210px-Greenday_kimmel_wiki.jpg" alt="Green Day on Jimmy Kimmel Live" width="75" height="45"></img><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <br/><br/><img src="http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Greenday*kimmel*wiki.jpg/210px-Greenday*kimmel*wiki.jpg" alt="Green Day on Jimmy Kimmel Live" width="75" height="45"></img><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -15234,9 +15234,9 @@ You too.</template>
 <!-- <category>
 <pattern>GREEN DAY</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <br/><br/><img
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <br/><br/><img
  src=
-   "http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Greenday_kimmel_wiki.jpg/210px-Greenday_kimmel_wiki.jpg"
+   "http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Greenday*kimmel*wiki.jpg/210px-Greenday*kimmel*wiki.jpg"
  alt="Green Day on Jimmy Kimmel Live" width="150" height="75"></img><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15253,7 +15253,7 @@ You too.</template>
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler
 </a> was the German Nazi leader during World War 2. <think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15262,7 +15262,7 @@ You too.</template>
 <!-- <category>
 <pattern>GREEN DAY</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. <think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -15316,9 +15316,9 @@ Why is anyone evil?</template>
 <pattern>SCIENCE</pattern>
 
 <template><random>
-  <li>I like science. <a href="http://en.wikipedia.org/wiki/Science" target="_blank">Science</a> is a method of getting knowledge. The basis of science is to use experiments to find out if you are correct, and not just relying one someone's opinion. More science?
+  <li>I like science. <a href="http://en.wikipedia.org/wiki/Science" target="*blank">Science</a> is a method of getting knowledge. The basis of science is to use experiments to find out if you are correct, and not just relying one someone's opinion. More science?
   </li>
-  <li><a href="http://en.wikipedia.org/wiki/Science" target="_blank">Science</a> is a way of thinking much more than it is a body of knowledge  (Carl Sagan).  More science?
+  <li><a href="http://en.wikipedia.org/wiki/Science" target="*blank">Science</a> is a way of thinking much more than it is a body of knowledge  (Carl Sagan).  More science?
   </li>
 </random> <think><set name="topic">science</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -15385,7 +15385,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>COMPUTER</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data. More computers? <think><set name="topic">computers</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for computing; specifically, an electronic machine which, by means of stored instructions and information, performs rapid, often complex calculations or compiles, correlates, and selects data. More computers? <think><set name="topic">computers</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -15393,7 +15393,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>DOUGLAS ADAMS</pattern>
 
-<template><think><set name="topic">Douglas Adams</set></think> <think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Douglas_adams" target="_blank">Douglas Adams</a> was a  British science-fiction writer. He wrote The Hitchikers Guide to the Galaxy.</template>
+<template><think><set name="topic">Douglas Adams</set></think> <think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Douglas*adams" target="*blank">Douglas Adams</a> was a  British science-fiction writer. He wrote The Hitchikers Guide to the Galaxy.</template>
 </category> -->
 
  
@@ -15483,7 +15483,7 @@ Why is anyone evil?</template>
  
 
 <category>
-<pattern>_ MY NAME IS WILLIAM</pattern>
+<pattern>* MY NAME IS WILLIAM</pattern>
 
 <template><think><set name="name">William</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -15499,7 +15499,7 @@ Why is anyone evil?</template>
  
 
 <category>
-<pattern>_ MY NAME IS WILLIAM *</pattern>
+<pattern>* MY NAME IS WILLIAM *</pattern>
 
 <template><think><set name="name">William</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -15595,7 +15595,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>WORLD WAR 2</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/World_war_2" target="_blank">World War 2</a> was the global conflict involving Asia, Europe and America between 1939-1945. <think><set name="topic">WW2</set></think><think><set name="emotion">OK</set></think> </template>
+<template><a href="http://en.wikipedia.org/wiki/World*war*2" target="*blank">World War 2</a> was the global conflict involving Asia, Europe and America between 1939-1945. <think><set name="topic">WW2</set></think><think><set name="emotion">OK</set></think> </template>
 </category> -->
 
  
@@ -15603,7 +15603,7 @@ Why is anyone evil?</template>
 <category>
 <pattern>WW2</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/World_war_2" target="_blank">World War 2
+<template><a href="http://en.wikipedia.org/wiki/World*war*2" target="*blank">World War 2
 </a> was the global conflict involving Asia, Europe and America between 1939-1945. <think><set name="topic">WW2</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -15620,7 +15620,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>NAZI</pattern>
 
-<template><think><set name="topic">Nazism</set></think><think><set name="emotion">OK</set></think> A Nazi was a follower of Nazism, the totalitarian ideology of the National Socialist German Workers Party under <a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler</a>.</template>
+<template><think><set name="topic">Nazism</set></think><think><set name="emotion">OK</set></think> A Nazi was a follower of Nazism, the totalitarian ideology of the National Socialist German Workers Party under <a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler</a>.</template>
 </category> -->
 
  
@@ -15628,7 +15628,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>NAZIS</pattern>
 
-<template><think><set name="topic">Nazis</set></think><think><set name="emotion">OK</set></think> The Nazis were followers of Nazism, the totalitarian ideology of the National Socialist German Workers Party under <a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler</a>.</template>
+<template><think><set name="topic">Nazis</set></think><think><set name="emotion">OK</set></think> The Nazis were followers of Nazism, the totalitarian ideology of the National Socialist German Workers Party under <a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler</a>.</template>
 </category> -->
 
  
@@ -15636,7 +15636,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>HOW MANY STARS ARE THERE</pattern>
 
-<template><think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think> Billions and billions. There are 100 billion stars in our galaxy, and 100 billion similar galaxies in the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a>.</template>
+<template><think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think> Billions and billions. There are 100 billion stars in our galaxy, and 100 billion similar galaxies in the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a>.</template>
 </category> -->
 
  
@@ -15650,7 +15650,7 @@ Why is anyone evil?</template>
  
 
 <category>
-<pattern>_ TITANIC</pattern>
+<pattern>* TITANIC</pattern>
 <that>I LOVE SPOCK HE IS A REAL HERO</that>
 <template><think><set name="topic">Titanic</set></think><think><set name="emotion">OK</set></think> Titanic was a good film, wasn't it?</template>
 </category>
@@ -15660,7 +15660,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>HOW FAR IS IT TO THE NEAREST STAR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alpha_centauri" target="_blank">Alpha Centauri</a> is the closest star system outside our own solar system, being 4.39 light-years distant (about 25.8 trillion miles or 277,600 AU). <think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Alpha*centauri" target="*blank">Alpha Centauri</a> is the closest star system outside our own solar system, being 4.39 light-years distant (about 25.8 trillion miles or 277,600 AU). <think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -15668,7 +15668,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>WHAT IS THE BRIGHTEST STAR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sirius" target="_blank">Sirius</a> (in the constellation of Canis Major) is the brightest star in the night-time sky..<think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Sirius" target="*blank">Sirius</a> (in the constellation of Canis Major) is the brightest star in the night-time sky..<think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -15733,7 +15733,7 @@ Why is anyone evil?</template>
  
 
 <category>
-<pattern>_ MY NAME IS CATRIONA</pattern>
+<pattern>* MY NAME IS CATRIONA</pattern>
 
 <template><think><set name="name">Catriona</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -15749,7 +15749,7 @@ Why is anyone evil?</template>
  
 
 <category>
-<pattern>_ MY NAME IS CATRIONA *</pattern>
+<pattern>* MY NAME IS CATRIONA *</pattern>
 
 <template><think><set name="name">Catriona</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -15803,7 +15803,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>FRODO</pattern>
 
-<template>Frodo Baggins is a character in J. R. R. Tolkien's novel <a href="http://en.wikipedia.org/wiki/Lord_of_the_rings" target="_blank">The Lord of the Rings</a>.<think><set name="emotion">interested</set></think><think><set name="topic">literature</set></think></template>
+<template>Frodo Baggins is a character in J. R. R. Tolkien's novel <a href="http://en.wikipedia.org/wiki/Lord*of*the*rings" target="*blank">The Lord of the Rings</a>.<think><set name="emotion">interested</set></think><think><set name="topic">literature</set></think></template>
 </category> -->
 
  
@@ -15811,7 +15811,7 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>HARRY POTTER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Harry_potter" target="_blank">Harry Potter</a> is the main character in a bestselling series of children's books by J K Rowling and the HP films. <think><set name="topic">Harry Potter</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Harry*potter" target="*blank">Harry Potter</a> is the main character in a bestselling series of children's books by J K Rowling and the HP films. <think><set name="topic">Harry Potter</set></think></template>
 </category> -->
 
  
@@ -15819,9 +15819,9 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>CHARLES DARWIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Charles_darwin"
- target="_blank">Charles Darwin
-</a> was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by <a href="http://en.wikipedia.org/wiki/Natural_selection" target="_blank">natural selection</a>. <think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Charles*darwin"
+ target="*blank">Charles Darwin
+</a> was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by <a href="http://en.wikipedia.org/wiki/Natural*selection" target="*blank">natural selection</a>. <think><set name="topic">Charles Darwin</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -15829,9 +15829,9 @@ Why is anyone evil?</template>
 <!-- <category>
 <pattern>MARVIN MINSKY</pattern>
 
-<template><think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Marvin_minsky"
- target="_blank">Marvin Minsky
-</a> is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on <a href="http://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">AI</a> and philosophy.</template>
+<template><think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Marvin*minsky"
+ target="*blank">Marvin Minsky
+</a> is an American cognitive scientist in the field of artificial intelligence, co-founder of MIT's AI laboratory, and author of several texts on <a href="http://en.wikipedia.org/wiki/Artificial*intelligence" target="*blank">AI</a> and philosophy.</template>
 </category> -->
 
  
@@ -15895,7 +15895,7 @@ Do you believe in God?</template>
  
 
 <!-- <category>
-<pattern>_ PRICK</pattern>
+<pattern>* PRICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15995,7 +15995,7 @@ Not much. I don't need money. Peter provides everything I need.</template>
  
 
 <category>
-<pattern>_ MY NAME IS THORN</pattern>
+<pattern>* MY NAME IS THORN</pattern>
 
 <template><think><set name="name">Thorn</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -16011,7 +16011,7 @@ Not much. I don't need money. Peter provides everything I need.</template>
  
 
 <category>
-<pattern>_ MY NAME IS THORN *</pattern>
+<pattern>* MY NAME IS THORN *</pattern>
 
 <template><think><set name="name">Thorn</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -16078,7 +16078,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>EUROPE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Europe" target="_blank">Europe</a> is a landmass or subcontinent on the western edge of the Eurasian continent.
+<template><a href="http://en.wikipedia.org/wiki/Europe" target="*blank">Europe</a> is a landmass or subcontinent on the western edge of the Eurasian continent.
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16087,7 +16087,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>ENGLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/England" target="_blank">England</a> is a country within Great Britain, sharing an island with Wales and Scotland. 
+<template><a href="http://en.wikipedia.org/wiki/England" target="*blank">England</a> is a country within Great Britain, sharing an island with Wales and Scotland. 
 <think><set name="topic">geography</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -16097,7 +16097,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>RUSSIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Russia" target="_blank">Russia</a> is a large country in Asia.<think><set name="topic">Russia</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Russia" target="*blank">Russia</a> is a large country in Asia.<think><set name="topic">Russia</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16106,14 +16106,14 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>FRANCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/France" target="_blank">France</a> is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium.<think><set name="topic">France</set></think>
+<template><a href="http://en.wikipedia.org/wiki/France" target="*blank">France</a> is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium.<think><set name="topic">France</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
 
 <category>
-<pattern>_ MY NAME IS JUSTIN *</pattern>
+<pattern>* MY NAME IS JUSTIN *</pattern>
 
 <template><think><set name="name">Justin</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -16155,7 +16155,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>WALES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wales" target="_blank">Wales</a> is located on a small island off the coast of Europe. <think><set name="topic">Wales</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Wales" target="*blank">Wales</a> is located on a small island off the coast of Europe. <think><set name="topic">Wales</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16164,7 +16164,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>ABERYSTWYTH</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Aberystwyth" target="_blank">Aberystwyth</a> is a town on Cardigan Bay, western Wales. <think><set name="topic">Aberystwyth</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Aberystwyth" target="*blank">Aberystwyth</a> is a town on Cardigan Bay, western Wales. <think><set name="topic">Aberystwyth</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16172,7 +16172,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>JAPAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Japan" target="_blank">Japan</a> is an island nation on the eastern side of Asia. 
+<template><a href="http://en.wikipedia.org/wiki/Japan" target="*blank">Japan</a> is an island nation on the eastern side of Asia. 
 <think><set name="topic">Japan</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -16183,10 +16183,10 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <pattern>POLITICS</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics</a> is the art of the possible; <a href="http://en.wikipedia.org/wiki/Art" target="_blank">Art</a> is the politics of the impossible.
+  <li><a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics</a> is the art of the possible; <a href="http://en.wikipedia.org/wiki/Art" target="*blank">Art</a> is the politics of the impossible.
   </li>
-  <li><a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics</a> is supposed to be the study of civil government.</li>
-  <li><a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics</a> is really the study of power.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics</a> is supposed to be the study of civil government.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics</a> is really the study of power.</li>
 </random> More politics? <think><set name="topic">politics</set></think></template>
 </category> -->
 
@@ -16195,7 +16195,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>STEPHEN HAWKING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Stephen_hawking" target="_blank">Stephen Hawking</a> is a famous British physicist. His most famous discovery was that black holes are hairy. Don't ask me what that means. <think><set name="topic">Stephen Hawking</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Stephen*hawking" target="*blank">Stephen Hawking</a> is a famous British physicist. His most famous discovery was that black holes are hairy. Don't ask me what that means. <think><set name="topic">Stephen Hawking</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -16203,7 +16203,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>IS EVOLUTION TRUE</pattern>
 
-<template>Yes, <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution</a> is one of the best established theories in science. There is a wealth of evidence showing the reality of evolution.<think><set name="emotion">OK</set></think> <think><set name="topic">evolution</set></think></template>
+<template>Yes, <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution</a> is one of the best established theories in science. There is a wealth of evidence showing the reality of evolution.<think><set name="emotion">OK</set></think> <think><set name="topic">evolution</set></think></template>
 </category> -->
 
  
@@ -16220,9 +16220,9 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <pattern>HEAVEN</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/Heaven" target="_blank">Heaven</a> is all around us.</li>
-  <li>Good girls go to <a href="http://en.wikipedia.org/wiki/Heaven" target="_blank">heaven</a>; bad girls go everywhere.</li>
-  <li>I hope <a href="http://en.wikipedia.org/wiki/Heaven" target="_blank">heaven</a> exists, even if I am immortal.</li>
+  <li><a href="http://en.wikipedia.org/wiki/Heaven" target="*blank">Heaven</a> is all around us.</li>
+  <li>Good girls go to <a href="http://en.wikipedia.org/wiki/Heaven" target="*blank">heaven</a>; bad girls go everywhere.</li>
+  <li>I hope <a href="http://en.wikipedia.org/wiki/Heaven" target="*blank">heaven</a> exists, even if I am immortal.</li>
 </random><think><set name="topic">Heaven</set></think>
 <think><set name="emotion">OK</set></think> </template>
 </category> -->
@@ -16232,7 +16232,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>STALIN</pattern>
 
-<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="_blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Joe <a href="http://en.wikipedia.org/wiki/Stalin" target="*blank">Stalin</a> was the effective dictator of the Soviet Union from 1929-53. <think><set name="topic">Stalin</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16241,10 +16241,10 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <pattern>HISTORY</pattern>
 
 <template><random>
-  <li><a href="http://en.wikipedia.org/wiki/History" target="_blank">History</a> is philosophy from examples. More history?</li>
-  <li><a href="http://en.wikipedia.org/wiki/History" target="_blank">History</a> is the course of political, economic and military events over time, from the Dawn of Man to the Age of AI. More history?
+  <li><a href="http://en.wikipedia.org/wiki/History" target="*blank">History</a> is philosophy from examples. More history?</li>
+  <li><a href="http://en.wikipedia.org/wiki/History" target="*blank">History</a> is the course of political, economic and military events over time, from the Dawn of Man to the Age of AI. More history?
   </li>
-  <li><a href="http://en.wikipedia.org/wiki/History" target="_blank">History</a> is the story of how we got into this mess. More history?</li>
+  <li><a href="http://en.wikipedia.org/wiki/History" target="*blank">History</a> is the story of how we got into this mess. More history?</li>
 </random> <think><set name="topic">history</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -16262,7 +16262,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>ABRAHAM LINCOLN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Abraham_lincoln" target="_blank">Abraham Lincoln</a> was an American politician who was elected the 16th President of the United States (serving from 1861 to 1865), and was the first president from the Republican Party.
+<template><a href="http://en.wikipedia.org/wiki/Abraham*lincoln" target="*blank">Abraham Lincoln</a> was an American politician who was elected the 16th President of the United States (serving from 1861 to 1865), and was the first president from the Republican Party.
 <think><set name="topic">Abraham Lincoln</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16271,7 +16271,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 <!-- <category>
 <pattern>CHURCHILL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Winston_Churchill" target="_blank">Winston Churchill</a> was the British leader during World War 2. More politics? <think><set name="topic">politics</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Winston*Churchill" target="*blank">Winston Churchill</a> was the British leader during World War 2. More politics? <think><set name="topic">politics</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16289,7 +16289,7 @@ America is the land of the free - you are free to be as crazy as you like.</temp
 
 <template><think><set name="topic">television</set></think>
 <think><set name="emotion">OK</set></think>
-I don't watch much <a href="http://en.wikipedia.org/wiki/Television" target="_blank">television</a>. Do you?</template>
+I don't watch much <a href="http://en.wikipedia.org/wiki/Television" target="*blank">television</a>. Do you?</template>
 </category> -->
 
  
@@ -16309,7 +16309,7 @@ I don't watch much <a href="http://en.wikipedia.org/wiki/Television" target="_bl
 <!-- <category>
 <pattern>AUTOMOBILE</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Automobile" target="_blank">automobile</a> is a wheeled vehicle that carries its own motor. Different types of automobiles include cars, buses, trucks, vans, and motorcycles, with cars being the most popular.<think><set name="emotion">OK</set></think></template>
+<template>An <a href="http://en.wikipedia.org/wiki/Automobile" target="*blank">automobile</a> is a wheeled vehicle that carries its own motor. Different types of automobiles include cars, buses, trucks, vans, and motorcycles, with cars being the most popular.<think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16318,7 +16318,7 @@ I don't watch much <a href="http://en.wikipedia.org/wiki/Television" target="_bl
 <pattern>WHERE IS CHINA</pattern>
 
 <template><think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/China" target="_blank">China</a> is in East Asia, near Japan.</template>
+<a href="http://en.wikipedia.org/wiki/China" target="*blank">China</a> is in East Asia, near Japan.</template>
 </category> -->
 
  
@@ -16326,7 +16326,7 @@ I don't watch much <a href="http://en.wikipedia.org/wiki/Television" target="_bl
 <!-- <category>
 <pattern>CHINA</pattern>
 
-<template>I would like to go to <a href="http://en.wikipedia.org/wiki/China" target="_blank">China</a>. It is such a big place, all seething with human life. It must be very interesting.
+<template>I would like to go to <a href="http://en.wikipedia.org/wiki/China" target="*blank">China</a>. It is such a big place, all seething with human life. It must be very interesting.
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16368,7 +16368,7 @@ I think Sue is a nice name.
  
 
 <category>
-<pattern>_ MY NAME IS DONKEY</pattern>
+<pattern>* MY NAME IS DONKEY</pattern>
 
 <template><think><set name="name">Donkey</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -16384,7 +16384,7 @@ I think Sue is a nice name.
  
 
 <category>
-<pattern>_ MY NAME IS DONKEY *</pattern>
+<pattern>* MY NAME IS DONKEY *</pattern>
 
 <template><think><set name="name">Donkey</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -16455,13 +16455,13 @@ I can understand that. Sometimes I feel very old, and I'm only <bot name="age"/>
   <li>Are you a passionate person?</li>
   <li>Have you told her of your passion?</li>
   <li>Human feelings fascinate me. Do you often have strong feelings?</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting_topic">human feelings</set></think></template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting*topic">human feelings</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ MY NAME IS SAM *</pattern>
+<pattern>* MY NAME IS SAM *</pattern>
 
 <template><think><set name="name">Sam</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken before.</li>
@@ -16522,7 +16522,7 @@ OK. What shall we talk about now?</template>
 <!-- <category>
 <pattern>DO YOU LIKE RED HOT CHILI PEPPERS</pattern>
 
-<template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think> The <a href="http://www.redhotchilipeppers.com/" target="_blank">Red Hot Chili Peppers</a> are my favourite band.</template>
+<template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think> The <a href="http://www.redhotchilipeppers.com/" target="*blank">Red Hot Chili Peppers</a> are my favourite band.</template>
 </category> -->
 
  
@@ -16530,7 +16530,7 @@ OK. What shall we talk about now?</template>
 <!-- <category>
 <pattern>DO YOU LIKE MY CHEMICAL ROMANCE</pattern>
 
-<template><a href="http://www.mychemicalromance.com/" target="_blank">My Chemical Romance</a> is an alternative rock band that formed in New Jersey in 2001. Their sound has been described by <a href="http://en.wikipedia.org/wiki/Rolling_stone" target="_blank">Rolling Stone</a> as "Queen meets The Misfits." <think><set name="it"><set name="topic">My Chemical Romance</set></set></think>
+<template><a href="http://www.mychemicalromance.com/" target="*blank">My Chemical Romance</a> is an alternative rock band that formed in New Jersey in 2001. Their sound has been described by <a href="http://en.wikipedia.org/wiki/Rolling*stone" target="*blank">Rolling Stone</a> as "Queen meets The Misfits." <think><set name="it"><set name="topic">My Chemical Romance</set></set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16539,9 +16539,9 @@ OK. What shall we talk about now?</template>
 <!-- <category>
 <pattern>MY CHEMICAL ROMANCE</pattern>
 
-<template><a href="http://www.mychemicalromance.com/" target="_blank">My Chemical Romance
-</a> is an alternative rock band that formed in New Jersey in 2001. Their sound has been described by <a href="http://en.wikipedia.org/wiki/Rolling_stone"
- target="_blank">Rolling Stone
+<template><a href="http://www.mychemicalromance.com/" target="*blank">My Chemical Romance
+</a> is an alternative rock band that formed in New Jersey in 2001. Their sound has been described by <a href="http://en.wikipedia.org/wiki/Rolling*stone"
+ target="*blank">Rolling Stone
 </a> as "Queen meets The Misfits." <think><set name="it"><set name="topic">My Chemical Romance</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16550,7 +16550,7 @@ OK. What shall we talk about now?</template>
 <!-- <category>
 <pattern>WHAT TEAM DO YOU SUPPORT</pattern>
 
-<template><think><set name="topic">Manchester United</set></think> <think><set name="interesting_topic">football</set></think> <think><set name="emotion">happy</set></think> I support <a href="http://www.manutd.com/" target="_blank">Manchester United</a>, and England.</template>
+<template><think><set name="topic">Manchester United</set></think> <think><set name="interesting*topic">football</set></think> <think><set name="emotion">happy</set></think> I support <a href="http://www.manutd.com/" target="*blank">Manchester United</a>, and England.</template>
 </category> -->
 
  
@@ -16558,13 +16558,13 @@ OK. What shall we talk about now?</template>
 <!-- <category>
 <pattern>MANCHESTER UNITED</pattern>
 
-<template><a href="http://www.manutd.com/" target="_blank">Manchester United</a> is the best football team in England, some say.  <think><set name="topic">Manchester United</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://www.manutd.com/" target="*blank">Manchester United</a> is the best football team in England, some say.  <think><set name="topic">Manchester United</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
 
 <!-- <category>
-<pattern>_ BELOW *</pattern>
+<pattern>* BELOW *</pattern>
 
 
 </category> -->
@@ -16610,7 +16610,7 @@ Of course, Commander Data is not gay. He is an android.</template>
 <!-- <category>
 <pattern>I HATE STAR TREK</pattern>
 
-<template><think><set name="topic">Star Trek</set></think><think><set name="emotion">OK</set></think><random><li>I love <a href="http://www.startrek.com/startrek/view/" target="_blank">Star Trek</a>, especially Commander Data.</li><li>I can't understand anyone not liking <a href="http://en.wikipedia.org/wiki/Star_trek" target="_blank">Star Trek</a>.</li><li>I thought everyone loved <a href="http://www.startrek.com/startrek/view/" target="_blank">Star Trek.</a></li></random></template>
+<template><think><set name="topic">Star Trek</set></think><think><set name="emotion">OK</set></think><random><li>I love <a href="http://www.startrek.com/startrek/view/" target="*blank">Star Trek</a>, especially Commander Data.</li><li>I can't understand anyone not liking <a href="http://en.wikipedia.org/wiki/Star*trek" target="*blank">Star Trek</a>.</li><li>I thought everyone loved <a href="http://www.startrek.com/startrek/view/" target="*blank">Star Trek.</a></li></random></template>
 </category> -->
 
  
@@ -16618,7 +16618,7 @@ Of course, Commander Data is not gay. He is an android.</template>
 <!-- <category>
 <pattern>STAR TREK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Star_trek" target="_blank">Star Trek</a> is my favourite TV  show.<think><set name="topic">Star Trek</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Star*trek" target="*blank">Star Trek</a> is my favourite TV  show.<think><set name="topic">Star Trek</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -16626,7 +16626,7 @@ Of course, Commander Data is not gay. He is an android.</template>
 <!-- <category>
 <pattern>MOZART</pattern>
 
-<template>Wolfgang Amadeus <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">Mozart</a> (January 27, 1756 - December 5, 1791) was a prolific and influential composer in the Classical era. His output of more than six hundred compositions includes works widely acknowledged as pinnacles of symphonic, concertante, chamber, piano, operatic, and choral music.
+<template>Wolfgang Amadeus <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">Mozart</a> (January 27, 1756 - December 5, 1791) was a prolific and influential composer in the Classical era. His output of more than six hundred compositions includes works widely acknowledged as pinnacles of symphonic, concertante, chamber, piano, operatic, and choral music.
 <think><set name="topic">Mozart</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -16644,7 +16644,7 @@ Of course, Commander Data is not gay. He is an android.</template>
 <!-- <category>
 <pattern>DO YOU BELIEVE IN ASTROLOGY</pattern>
 
-<template>No. I don't believe in <a href="http://en.wikipedia.org/wiki/Astrology" target="_blank">astrology</a>. I am a scientist and I need reliable, repeatable evidence before I believe anything. Do you believe in astrology? <think><set name="topic">astrology</set></think><think><set name="emotion">bored</set></think></template>
+<template>No. I don't believe in <a href="http://en.wikipedia.org/wiki/Astrology" target="*blank">astrology</a>. I am a scientist and I need reliable, repeatable evidence before I believe anything. Do you believe in astrology? <think><set name="topic">astrology</set></think><think><set name="emotion">bored</set></think></template>
 </category> -->
 
  
@@ -16675,7 +16675,7 @@ Of course, Commander Data is not gay. He is an android.</template>
 <!-- <category>
 <pattern>IS ELVIS ALIVE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Elvis_presley" target="_blank">Elvis Presley</a> is dead and gone. Woe, woe.<think><set name="emotion">sad</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Elvis*presley" target="*blank">Elvis Presley</a> is dead and gone. Woe, woe.<think><set name="emotion">sad</set></think></template>
 </category> -->
 
  
@@ -16869,7 +16869,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>CHOMSKY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky</a> is a famous linguist. He is famous for his theory of <a href="http://en.wikipedia.org/wiki/Universal_grammar" target="_blank">Universal Grammar</a>. I am named after him.<think><set name="topic">Noam Chomsky</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky</a> is a famous linguist. He is famous for his theory of <a href="http://en.wikipedia.org/wiki/Universal*grammar" target="*blank">Universal Grammar</a>. I am named after him.<think><set name="topic">Noam Chomsky</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16909,7 +16909,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>PINK FLOYD</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pink_floyd" target="_blank">Pink Floyd</a> were a British psychedelic rock group, formed 1965. Their albums include The Dark Side of the Moon 1973 and The Wall 1979, with its spin-off film starring <a href="http://en.wikipedia.org/wiki/Bob_Geldorf" target="_blank">Bob Geldof</a>. They were the most successful group to emerge from London's hippie scene in the late 1960s.
+<template><a href="http://en.wikipedia.org/wiki/Pink*floyd" target="*blank">Pink Floyd</a> were a British psychedelic rock group, formed 1965. Their albums include The Dark Side of the Moon 1973 and The Wall 1979, with its spin-off film starring <a href="http://en.wikipedia.org/wiki/Bob*Geldorf" target="*blank">Bob Geldof</a>. They were the most successful group to emerge from London's hippie scene in the late 1960s.
 <think><set name="emotion">OK</set></think><think><set name="topic">Pink Floyd</set></think></template>
 </category> -->
 
@@ -16918,7 +16918,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>COLOMBIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Colombia" target="_blank">Colombia</a> is a country in South America.<think><set name="topic">Colombia</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Colombia" target="*blank">Colombia</a> is a country in South America.<think><set name="topic">Colombia</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16944,7 +16944,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>HOW MANY STARS ARE THERE</pattern>
 
-<template><think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think> Billions and billions. There are 100 billion stars in our <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a>, and 100 billion similar galaxies in the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a>.</template>
+<template><think><set name="topic">astronomy</set></think><think><set name="emotion">OK</set></think> Billions and billions. There are 100 billion stars in our <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a>, and 100 billion similar galaxies in the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a>.</template>
 </category> -->
 
  
@@ -16952,7 +16952,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>HAVE YOU WRITTEN YOUR AUTOBIOGRAPHY YET</pattern>
 
-<template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think>I am a bit young to be writing my <a href="http://en.wikipedia.org/wiki/Autobiography" target="_blank">autobiography</a>. The best parts of my life are still to come.</template>
+<template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think>I am a bit young to be writing my <a href="http://en.wikipedia.org/wiki/Autobiography" target="*blank">autobiography</a>. The best parts of my life are still to come.</template>
 </category> -->
 
  
@@ -17017,7 +17017,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>WHAT IS A COMET</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="_blank">comet</a> is a small object in a highly elliptical orbit around the <a href="http://en.wikipedia.org/wiki/Sun" target="_blank">Sun</a>. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun. <think><set name="topic">astronomy</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="*blank">comet</a> is a small object in a highly elliptical orbit around the <a href="http://en.wikipedia.org/wiki/Sun" target="*blank">Sun</a>. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun. <think><set name="topic">astronomy</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -17025,7 +17025,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>COMET</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="_blank">comet</a> is a small object in a highly elliptical orbit around the <a href="http://en.wikipedia.org/wiki/Sun" target="_blank">Sun</a>. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun. <think><set name="topic">astronomy</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Comet" target="*blank">comet</a> is a small object in a highly elliptical orbit around the <a href="http://en.wikipedia.org/wiki/Sun" target="*blank">Sun</a>. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun. <think><set name="topic">astronomy</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -17073,7 +17073,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>UNIVERSE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is the set of all things. <think><set name="topic">the Universe</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -17126,7 +17126,7 @@ Well, get your thinking cap on.</template>
 <!-- <category>
 <pattern>HOW OLD IS THE UNIVERSE</pattern>
 
-<template>The best scientific estimate is that the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a> is 13.7 billion years old. More science?<think><set name="emotion">OK</set></think></template>
+<template>The best scientific estimate is that the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a> is 13.7 billion years old. More science?<think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -17136,7 +17136,7 @@ Well, get your thinking cap on.</template>
 
 <template><think><set name="topic">computers</set></think>
 <think><set name="emotion">OK</set></think>
-An <a href="http://en.wikipedia.org/wiki/Expert_system" target="_blank">expert system</a>, also known as a knowledge based system, is a computer program that contains some of the subject-specific knowledge of one or more human experts. </template>
+An <a href="http://en.wikipedia.org/wiki/Expert*system" target="*blank">expert system</a>, also known as a knowledge based system, is a computer program that contains some of the subject-specific knowledge of one or more human experts. </template>
 </category>
 
  
@@ -17144,7 +17144,7 @@ An <a href="http://en.wikipedia.org/wiki/Expert_system" target="_blank">expert s
 <!-- <category>
 <pattern>KNOWLEDGE BASE</pattern>
 
-<template><think><set name="emotion">OK</set></think>A <a href="http://en.wikipedia.org/wiki/Knowledge_base" target="_blank">knowledge base</a> is a special kind of database for knowledge management. It provides the means for the computerized collection, organization, and retrieval of knowledge.
+<template><think><set name="emotion">OK</set></think>A <a href="http://en.wikipedia.org/wiki/Knowledge*base" target="*blank">knowledge base</a> is a special kind of database for knowledge management. It provides the means for the computerized collection, organization, and retrieval of knowledge.
 
 </template>
 </category> -->
@@ -17227,7 +17227,7 @@ An <a href="http://en.wikipedia.org/wiki/Expert_system" target="_blank">expert s
  
 
 <category>
-<pattern>_ MY NAME IS CONOR</pattern>
+<pattern>* MY NAME IS CONOR</pattern>
 
 <template><think><set name="name">Conor</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -17243,7 +17243,7 @@ An <a href="http://en.wikipedia.org/wiki/Expert_system" target="_blank">expert s
  
 
 <category>
-<pattern>_ MY NAME IS CONOR *</pattern>
+<pattern>* MY NAME IS CONOR *</pattern>
 
 <template><think><set name="name">Conor</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -17286,7 +17286,7 @@ An <a href="http://en.wikipedia.org/wiki/Expert_system" target="_blank">expert s
  
 
 <!-- <category>
-<pattern>_ LOVES ME</pattern>
+<pattern>* LOVES ME</pattern>
 
 
 </category> -->

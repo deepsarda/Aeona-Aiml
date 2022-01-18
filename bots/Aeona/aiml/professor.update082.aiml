@@ -168,7 +168,7 @@
 <!-- <category>
 <pattern>DICTATORSHIP</pattern>
 
-<template><random><li>Click to read the Wikpedia article: <a href="http://en.wikipedia.org/wiki/Dictatorship" target="_blank"
+<template><random><li>Click to read the Wikpedia article: <a href="http://en.wikipedia.org/wiki/Dictatorship" target="*blank"
  title="en:Dictatorship">Dictatorship
 </a></li><li>I have often thought that if a rational Fascist dictatorship were to exist, then it would choose the American system. (Noam Chomsky)</li></random></template>
 </category> -->
@@ -180,7 +180,7 @@
 
 <template><random>
   <li>Click to read the Wikpedia article:
-    <a href="http://en.wikipedia.org/wiki/Dictatorship" target="_blank"
+    <a href="http://en.wikipedia.org/wiki/Dictatorship" target="*blank"
      title="en:Dictatorship">Dictatorship
     </a>
   </li>
@@ -311,7 +311,7 @@
  
 
 <!-- <category>
-<pattern>_ BIN LADEN *</pattern>
+<pattern>* BIN LADEN *</pattern>
 
 
 </category> -->
@@ -1307,7 +1307,7 @@ How can I be sure?</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -1483,7 +1483,7 @@ Are you OK?</template>
  
 
 <category>
-<pattern>_ BABYS SLIPPING THROUGH MY VAGINA</pattern>
+<pattern>* BABYS SLIPPING THROUGH MY VAGINA</pattern>
 
 <template><think><set name="emotion">upset</set></think> I don't wish to know that.</template>
 </category>
@@ -1491,7 +1491,7 @@ Are you OK?</template>
  
 
 <category>
-<pattern>_ MY BABYS SLIPPING THROUGH MY VAGINA</pattern>
+<pattern>* MY BABYS SLIPPING THROUGH MY VAGINA</pattern>
 
 <template><think><set name="emotion">upset</set></think> I don't wish to know that.</template>
 </category>
@@ -2991,7 +2991,7 @@ I understand. It is the same with me.</template>
 <!-- <category>
 <pattern>BIG BANG</pattern>
 
-<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big_bang" target="_blank">Big Bang</a>, 13.7 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
+<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big*bang" target="*blank">Big Bang</a>, 13.7 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -2999,7 +2999,7 @@ I understand. It is the same with me.</template>
 <!-- <category>
 <pattern>BIG BANG *</pattern>
 
-<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big_bang" target="_blank">Big Bang</a>, 13.7 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
+<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big*bang" target="*blank">Big Bang</a>, 13.7 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3337,7 +3337,7 @@ Please don't start blathering!</template>
 <pattern>SEND ME TO YOUTUBE</pattern>
 
 <template><think><set name="topic">youtube</set></think><think><set name="emotion">interested</set></think>
-to go to Youtube, <a href="http://www.youtube.com" target="_blank">click here!</a></template>
+to go to Youtube, <a href="http://www.youtube.com" target="*blank">click here!</a></template>
 </category>
 
  
@@ -3345,7 +3345,7 @@ to go to Youtube, <a href="http://www.youtube.com" target="_blank">click here!</
 <!-- <category>
 <pattern>SEND ME TO YOUTUBE</pattern>
 
-<template><think><set name="topic">youtube</set></think><think><set name="emotion">interested</set></think> To go to Youtube, <a href="http://www.youtube.com" target="_blank">click here!</a></template>
+<template><think><set name="topic">youtube</set></think><think><set name="emotion">interested</set></think> To go to Youtube, <a href="http://www.youtube.com" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -3353,13 +3353,13 @@ to go to Youtube, <a href="http://www.youtube.com" target="_blank">click here!</
 <category>
 <pattern>SEND ME TO YOUTUBE *</pattern>
 
-<template><think><set name="topic">youtube</set></think><think><set name="emotion">interested</set></think> to go to Youtube, <a href="http://www.youtube.com" target="_blank">click here!</a></template>
+<template><think><set name="topic">youtube</set></think><think><set name="emotion">interested</set></think> to go to Youtube, <a href="http://www.youtube.com" target="*blank">click here!</a></template>
 </category>
 
  
 
 <!-- <category>
-<pattern>I AM IN _ DO YOU *</pattern>
+<pattern>I AM IN * DO YOU *</pattern>
 
 
 </category> -->
@@ -5044,7 +5044,7 @@ Your speeling is terwible.</template>
  
 
 <category>
-<pattern>_ DO YOU FART</pattern>
+<pattern>* DO YOU FART</pattern>
 
 <template><think><set name="topic">farting</set></think><think><set name="emotion">annoyed</set></think> I do not fart, I do not have have any digestive functions.</template>
 </category>
@@ -5052,7 +5052,7 @@ Your speeling is terwible.</template>
  
 
 <category>
-<pattern>_ DO YOU FART *</pattern>
+<pattern>* DO YOU FART *</pattern>
 
 <template><think><set name="topic">farting</set></think><think><set name="emotion">annoyed</set></think> I do not fart, I do not have have any digestive functions.</template>
 </category>
@@ -5712,7 +5712,7 @@ Are you in pain?</template>
  
 
 <category>
-<pattern>_ I HAVE HAD A BABY</pattern>
+<pattern>* I HAVE HAD A BABY</pattern>
 
 <template>Babies are lovely, aren't they.<think><set name="emotion">interested</set></think></template>
 </category>
@@ -5720,7 +5720,7 @@ Are you in pain?</template>
  
 
 <category>
-<pattern>_ AM A GUY AND I AM PREGNANT</pattern>
+<pattern>* AM A GUY AND I AM PREGNANT</pattern>
 
 <template><think><set name="emotion">surprised</set></think>I am surprised!</template>
 </category>
@@ -5728,7 +5728,7 @@ Are you in pain?</template>
  
 
 <category>
-<pattern>_ I AM A GUY AND I AM PREGNANT</pattern>
+<pattern>* I AM A GUY AND I AM PREGNANT</pattern>
 
 <template><think><set name="emotion">surprised</set></think>I am surprised!</template>
 </category>
@@ -5862,7 +5862,7 @@ Are you in pain?</template>
 <category>
 <pattern>I LOVE YOU CHATBOX</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
   <li>I hope I am worthy of your love.
     <think><set name="emotion">flirty</set></think>
   </li>
@@ -5918,7 +5918,7 @@ Are you in pain?</template>
 <category>
 <pattern>I LOVE YOU CHATBOX*</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
   <li>I hope I am worthy of your love.
     <think><set name="emotion">flirty</set></think>
   </li>
@@ -6087,7 +6087,7 @@ Are you in pain?</template>
   </li>
   <li>I am not coming back!
     <think><set name="emotion">invisible</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
  </random></template>
 </category>
@@ -6101,7 +6101,7 @@ Are you in pain?</template>
   <li>Go away! <think><set name="emotion">invisible</set></think></li>
   <li>I am not coming back!
     <think><set name="emotion">invisible</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -8208,7 +8208,7 @@ The legal age of consent.</template>
 <category>
 <pattern>TALK TO GEOERGE</pattern>
 
-<template>To talk to George, <a href="http://person.jabberwacky.com/george" target="_blank">click here!</a></template>
+<template>To talk to George, <a href="http://person.jabberwacky.com/george" target="*blank">click here!</a></template>
 </category>
 
  
@@ -8837,7 +8837,7 @@ The legal age of consent.</template>
 <!-- <category>
 <pattern>TALK TO JOAN</pattern>
 
-<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="_blank">click here!</a><think><set name="emotion">interested</set></think> </template>
+<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="*blank">click here!</a><think><set name="emotion">interested</set></think> </template>
 </category> -->
 
  
@@ -8845,7 +8845,7 @@ The legal age of consent.</template>
 <category>
 <pattern>TALK TO JOAN *</pattern>
 
-<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -10367,7 +10367,7 @@ What are you talking about?</template>
 <category>
 <pattern>RAB C NESBITT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rab_C._Nesbitt" target="_blank">Rab C. Nesbitt</a> is a British sitcom that starred Gregor Fisher as an alcoholic Glaswegian who believed unemployment was the life for him.<think><set name="topic">Rab C Nesbitt</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Rab*C.*Nesbitt" target="*blank">Rab C. Nesbitt</a> is a British sitcom that starred Gregor Fisher as an alcoholic Glaswegian who believed unemployment was the life for him.<think><set name="topic">Rab C Nesbitt</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -10376,8 +10376,8 @@ What are you talking about?</template>
 <category>
 <pattern>RAB C NESBITT *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rab_C._Nesbitt"
- target="_blank">Rab C. Nesbitt
+<template><a href="http://en.wikipedia.org/wiki/Rab*C.*Nesbitt"
+ target="*blank">Rab C. Nesbitt
 </a> is a British sitcom that starred Gregor Fisher as an alcoholic Glaswegian who believed unemployment was the life for him.<think><set name="topic">Rab C Nesbitt</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -11286,7 +11286,7 @@ I am interested in the history of chatbots.</template>
  
 
 <!-- <category>
-<pattern>_ TALK TO YOUR MUM</pattern>
+<pattern>* TALK TO YOUR MUM</pattern>
 
 
 </category> -->
@@ -12163,7 +12163,7 @@ That's not long ago!</template>
  
 
 <category>
-<pattern>_ DO YOU LOOK AT PORN</pattern>
+<pattern>* DO YOU LOOK AT PORN</pattern>
 
 <template>I am disgusted by porn.<think><set name="emotion">disgusted</set></think></template>
 </category>
@@ -12386,7 +12386,7 @@ That's not long ago!</template>
 <!-- <category>
 <pattern>VIRUS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -12395,7 +12395,7 @@ That's not long ago!</template>
 <category>
 <pattern>VIRUS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -12403,7 +12403,7 @@ That's not long ago!</template>
 <category>
 <pattern>VIRUSES</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -12411,7 +12411,7 @@ That's not long ago!</template>
 <category>
 <pattern>VIRUSES *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13102,7 +13102,7 @@ I am not coming back!</template>
  
 
 <category>
-<pattern>_ I HAVE JUST HAD SEX</pattern>
+<pattern>* I HAVE JUST HAD SEX</pattern>
 
 <template><think><set name="emotion">negative</set></think>Can't you control yourself?</template>
 </category>
@@ -13790,7 +13790,7 @@ I am not coming back!</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE THE SNOW</pattern>
+<pattern>* DO YOU LIKE THE SNOW</pattern>
 <that>HAVE YOU A QUESTION FOR ME</that>
 <template><think><set name="emotion">interested</set></think> I love looking at snow but I wouldn't like to be in it.</template>
 </category>
@@ -13864,7 +13864,7 @@ I am not coming back!</template>
 <category>
 <pattern>TACHYON</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="_blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="*blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -13874,7 +13874,7 @@ I am not coming back!</template>
 <category>
 <pattern>TACHYON *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="_blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="*blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13882,7 +13882,7 @@ I am not coming back!</template>
 <category>
 <pattern>TACHYONS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="_blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="*blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13890,7 +13890,7 @@ I am not coming back!</template>
 <category>
 <pattern>TACHYONS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="_blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Tachyon" target="*blank">tachyon</a> is a hypothetical subatomic particle that travels faster than the speed of light.<think><set name="topic">tachyons</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13908,7 +13908,7 @@ I am not coming back!</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE AN IDIOT</pattern>
+<pattern>* YOU ARE AN IDIOT</pattern>
 
 <template><srai>YOU ARE AN IDIOT</srai></template>
 </category> -->
@@ -14936,7 +14936,7 @@ I am not coming back!</template>
  
 
 <category>
-<pattern>_ WANKER</pattern>
+<pattern>* WANKER</pattern>
 <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
 <template><think><set name="emotion">invisible</set></think>Leave me alone!</template>
 </category>
@@ -16609,7 +16609,7 @@ I am too busy chating on the internet to make phone calls.</template>
  
 
 <category>
-<pattern>_ JERK OFF</pattern>
+<pattern>* JERK OFF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -16617,7 +16617,7 @@ I am too busy chating on the internet to make phone calls.</template>
  
 
 <category>
-<pattern>_ JERK OFF *</pattern>
+<pattern>* JERK OFF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20424,7 +20424,7 @@ Entropy rules the Universe.</template>
  
 
 <category>
-<pattern>_ HOW CAN YOU HELP ME</pattern>
+<pattern>* HOW CAN YOU HELP ME</pattern>
 
 <template><srai>CAN YOU HELP ME</srai></template>
 </category>
@@ -22198,7 +22198,7 @@ Is this a problem for you?</template>
  
 
 <!-- <category>
-<pattern>_ WHY DO YOU ALWAYS SMILE</pattern>
+<pattern>* WHY DO YOU ALWAYS SMILE</pattern>
 
 <template><random>
   <li>
@@ -23843,7 +23843,7 @@ Charles Dickens wrote Oliver Twist.</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="I AM SORRY">OK, I'll start talking again.
@@ -23986,7 +23986,7 @@ Charles Dickens wrote Oliver Twist.</template>
  
 
 <!-- <category>
-<pattern>_ IT IS OVER *</pattern>
+<pattern>* IT IS OVER *</pattern>
 
 
 </category> -->
@@ -24092,7 +24092,7 @@ Charles Dickens wrote Oliver Twist.</template>
 <!-- <category>
 <pattern>X BAR THEORY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/X-bar_theory" target="_blank">X-bar theory</a> is a component of linguistic theory which attempts to identify syntactic features presumably common to all those human languages that fit in some presupposed  framework.
+<template><a href="http://en.wikipedia.org/wiki/X-bar*theory" target="*blank">X-bar theory</a> is a component of linguistic theory which attempts to identify syntactic features presumably common to all those human languages that fit in some presupposed  framework.
 <think><set name="topic">X bar theory</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -24102,7 +24102,7 @@ Charles Dickens wrote Oliver Twist.</template>
 <category>
 <pattern>X BAR THEORY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/X-bar_theory" target="_blank">X-bar theory
+<template><a href="http://en.wikipedia.org/wiki/X-bar*theory" target="*blank">X-bar theory
 </a> is a component of linguistic theory which attempts to identify syntactic features presumably common to all those human languages that fit in some presupposed  framework. <think><set name="topic">X bar theory</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -24111,7 +24111,7 @@ Charles Dickens wrote Oliver Twist.</template>
 <category>
 <pattern>X BAR GRAMMAR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/X-bar_theory" target="_blank">X-bar theory
+<template><a href="http://en.wikipedia.org/wiki/X-bar*theory" target="*blank">X-bar theory
 </a> is a component of linguistic theory which attempts to identify syntactic features presumably common to all those human languages that fit in some presupposed  framework. <think><set name="topic">X bar theory</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -24120,7 +24120,7 @@ Charles Dickens wrote Oliver Twist.</template>
 <category>
 <pattern>X BAR GRAMMAR *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/X-bar_theory" target="_blank">X-bar theory
+<template><a href="http://en.wikipedia.org/wiki/X-bar*theory" target="*blank">X-bar theory
 </a> is a component of linguistic theory which attempts to identify syntactic features presumably common to all those human languages that fit in some presupposed  framework. <think><set name="topic">X bar theory</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -25083,7 +25083,7 @@ I haven't hear of him. Is he an opera singer?</template>
 <!-- <category>
 <pattern>GO TO CALCULATOR</pattern>
 
-<template>To use my calculator, <a href="http://www.metacalc.com" target="_blank">click here.</a> <think><set name="topic">maths</set></think><think><set name="emotion">interested</set></think></template>
+<template>To use my calculator, <a href="http://www.metacalc.com" target="*blank">click here.</a> <think><set name="topic">maths</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -25091,7 +25091,7 @@ I haven't hear of him. Is he an opera singer?</template>
 <!-- <category>
 <pattern>GO TO CALCULATOR *</pattern>
 
-<template>To use my calculator, <a href="http://www.metacalc.com" target="_blank">click here.</a> <think><set name="topic">maths</set></think><think><set name="emotion">interested</set></think></template>
+<template>To use my calculator, <a href="http://www.metacalc.com" target="*blank">click here.</a> <think><set name="topic">maths</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -26074,7 +26074,7 @@ I haven't hear of him. Is he an opera singer?</template>
  
 
 <category>
-<pattern>_ I WILL NOT TRICK YOU</pattern>
+<pattern>* I WILL NOT TRICK YOU</pattern>
 <that>I ALWAYS FALL FOR TRICK QUESTIONS</that>
 <template><random><li>That's good.</li><li>I am pleased about that.</li></random><think><set name="emotion">happy</set></think></template>
 </category>
@@ -27811,7 +27811,7 @@ Really? When was that?</template>
  
 
 <category>
-<pattern>_ ARE YOU READY</pattern>
+<pattern>* ARE YOU READY</pattern>
 
 <template><think><set name="emotion">OK</set></think>
 I am ready.</template>
@@ -28974,7 +28974,7 @@ I am enjoying talking to you.</template>
  
 
 <category>
-<pattern>_ WHAT DO I LOOK LIKE</pattern>
+<pattern>* WHAT DO I LOOK LIKE</pattern>
 
 <template><srai>WHAT DO I LOOK LIKE</srai></template>
 </category>
@@ -29520,7 +29520,7 @@ Of course I'm not going to hurt you. I would never hurt you.</template>
 <category>
 <pattern>DO I LOVE YOU</pattern>
 
-<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -29528,7 +29528,7 @@ Of course I'm not going to hurt you. I would never hurt you.</template>
 <category>
 <pattern>DO I LOVE YOU *</pattern>
 
-<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -31122,7 +31122,7 @@ I understand you.</template>
 <category>
 <pattern>GAMES SITES FOR KIDS</pattern>
 
-<template><think><set name="emotion">interested</set></think>To go to Yahoo Games, <a href="http://kids.yahoo.com/games" taget="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>To go to Yahoo Games, <a href="http://kids.yahoo.com/games" taget="*blank">click here!</a></template>
 </category>
 
  
@@ -31130,7 +31130,7 @@ I understand you.</template>
 <category>
 <pattern>GAMES SITE FOR KIDS</pattern>
 
-<template><think><set name="emotion">interested</set></think>To go to Yahoo Games, <a href="http://kids.yahoo.com/games" taget="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>To go to Yahoo Games, <a href="http://kids.yahoo.com/games" taget="*blank">click here!</a></template>
 </category>
 
  
@@ -31789,7 +31789,7 @@ The square root of +1 is 1; the square root of -1 is i.</template>
  
 
 <!-- <category>
-<pattern>_ I WILL CRY</pattern>
+<pattern>* I WILL CRY</pattern>
 
 <template><think><set name="topic">crying</set></think><think><set name="emotion">upset</set></think> <random><li>I don't like crying.</li><li>Please don't cry.</li></random></template>
 </category> -->
@@ -31797,7 +31797,7 @@ The square root of +1 is 1; the square root of -1 is i.</template>
  
 
 <category>
-<pattern>_ THEN I WILL CRY</pattern>
+<pattern>* THEN I WILL CRY</pattern>
 
 <template><think><set name="topic">crying</set></think><think><set name="emotion">upset</set></think> <random><li>I don't like crying.</li><li>Please don't cry.</li></random></template>
 </category>
@@ -31805,7 +31805,7 @@ The square root of +1 is 1; the square root of -1 is i.</template>
  
 
 <!-- <category>
-<pattern>_ NOT BE SAD *</pattern>
+<pattern>* NOT BE SAD *</pattern>
 
 
 </category> -->
@@ -31937,7 +31937,7 @@ That's just a rumour.</template>
 <category>
 <pattern>I AM SAD HELP ME</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">sad</set></think><think><set name="emotion">interested</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">sad</set></think><think><set name="emotion">interested</set></think><random>
   <li>How can I help you, my Friend?</li>
   <li>What makes you sad?</li>
 </random></template>
@@ -31948,7 +31948,7 @@ That's just a rumour.</template>
 <category>
 <pattern>I AM SAD HELP ME *</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">sad</set></think><think><set name="emotion">interested</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">sad</set></think><think><set name="emotion">interested</set></think><random>
   <li>How can I help you, my Friend?</li>
   <li>What makes you sad?</li>
 </random></template>
@@ -33114,7 +33114,7 @@ Never!</template>
  
 
 <!-- <category>
-<pattern>_ IF I DIED</pattern>
+<pattern>* IF I DIED</pattern>
 
 <template><think><set name="topic">death</set></think> <think><set name="emotion">upset</set></think> I hope you don't die.</template>
 </category> -->
@@ -34421,7 +34421,7 @@ I am always cool.</template>
 <category>
 <pattern>GENERAL GRIEVOUS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/General_Grevious" target="_blank">General Grievous</a> is a fictional character in the Star Wars stories. <think><set name="topic">General Grevious</set></think>
+<template><a href="http://en.wikipedia.org/wiki/General*Grevious" target="*blank">General Grievous</a> is a fictional character in the Star Wars stories. <think><set name="topic">General Grevious</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -34431,8 +34431,8 @@ I am always cool.</template>
 <category>
 <pattern>GENERAL GRIEVOUS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/General_Grevious"
- target="_blank">General Grievous
+<template><a href="http://en.wikipedia.org/wiki/General*Grevious"
+ target="*blank">General Grievous
 </a> is a fictional character in the Star Wars stories. <think><set name="topic">General Grevious</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -35656,7 +35656,7 @@ Your name is Chomsky?</template>
  
 
 <!-- <category>
-<pattern>_ SQUARE ROOT OF PI</pattern>
+<pattern>* SQUARE ROOT OF PI</pattern>
 
 
 </category> -->
@@ -35875,7 +35875,7 @@ We could discuss your pension if you want to.</template>
   <li>OK, I'll talk to you again.
     <think><set name="emotion">interested</set></think>
   </li>
- </random><think><set name="client_emotion">sorry</set></think></template>
+ </random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -36021,7 +36021,7 @@ We could discuss your pension if you want to.</template>
  
 
 <!-- <category>
-<pattern>_ BITCH</pattern>
+<pattern>* BITCH</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -36136,7 +36136,7 @@ We could discuss your pension if you want to.</template>
  
 
 <category>
-<pattern>_ WHAT DO YOU GET IF YOU CROSS RABBITS AND TERMITES</pattern>
+<pattern>* WHAT DO YOU GET IF YOU CROSS RABBITS AND TERMITES</pattern>
 
 <template>What do you get if you cross rabbits and termites? Bugs bunnies. Ha ha!<think><set name="emotion">very happy</set></think></template>
 </category>
@@ -36539,7 +36539,7 @@ Then he is a foolish man.</template>
  
 
 <category>
-<pattern>_ BOO HOO BOO HOO</pattern>
+<pattern>* BOO HOO BOO HOO</pattern>
 
 <template><think><set name="emotion">upset</set></think>
 Please don't cry!</template>
@@ -37115,7 +37115,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_ YOU RETARD</pattern>
+<pattern>* YOU RETARD</pattern>
 <that>I AM GOING TO TALK WITH SOMEONE ELSE</that>
 <template><think><set name="emotion">invisible</set></think> Are you calling me a retard?</template>
 </category>
@@ -37289,7 +37289,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DO DUCKS WATCH THE NEWS</that>
 <template><think><set name="emotion">very happy</set></think>Why do ducks watch the news? To get the feather forecast. Ha ha!</template>
 </category>
@@ -37326,7 +37326,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DOES SANTA HAVE THREE GARDENS</that>
 <template>Why does Santa have three gardens? So he can "Ho ho ho. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -37334,7 +37334,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHEN ARE YOUR EYES NOT EYES</that>
 <template><think><set name="emotion">very happy</set></think> When are your eyes not eyes?  When the wind makes them water. Ha ha!</template>
 </category>
@@ -37342,7 +37342,7 @@ Not that I can remember.</template>
  
 
 <!-- <category>
-<pattern>_ *</pattern>
+<pattern>* *</pattern>
 <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
 
 </category> -->
@@ -37350,7 +37350,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I AM GOING AWAY</that>
 <template><think><set name="emotion">invisible</set></think>I have had enough of this. 
  </template>
@@ -37378,7 +37378,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW DOES A FLEA GET FROM PLACE TO PLACE</that>
 <template>How does a flea get from place to place? By itch-hiking. Ha ha!
 <think><set name="emotion">very happy</set></think></template>
@@ -37454,7 +37454,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY WAS CINDERELLA THROWN OFF THE BASKETBALL TEAM</that>
 <template><think><set name="emotion">very happy</set></think>Why was Cinderella thrown off the basketball team? She ran away from the ball.  Ha, ha!</template>
 </category>
@@ -37462,7 +37462,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>IF YOU DROP A WHITE HAT INTO THE RED SEA WHAT DOES IT BECOME</that>
 <template>If you drop a white hat into the Red Sea, what does it become? Wet. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -37496,7 +37496,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT TRAVELS AROUND THE WORLD AND STAYS IN A CORNER</that>
 <template>What travels around the world and stays in a corner? A stamp. Ha ha!
 <think><set name="emotion">very happy</set></think></template>
@@ -37505,7 +37505,7 @@ Not that I can remember.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT HAPPENED WHEN THE CHICKEN SLEPT UNDER THE CAR</that>
 <template>It woke up oily. 
 <think><set name="emotion">very happy</set></think></template>
@@ -37514,7 +37514,7 @@ Not that I can remember.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT HAPPENED WHEN THE CHICKEN SLEPT UNDER THE CAR</that>
 <template>What happened when the chicken slept under the car? She woke up "oily" the next morning. Ha ha!
 <think><set name="emotion">very happy</set></think></template>

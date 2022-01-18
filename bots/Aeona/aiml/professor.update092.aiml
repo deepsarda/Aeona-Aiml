@@ -509,7 +509,7 @@
 
 <template><think><set name="topic">Zon</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Zion" target="_blank">Zion</a> is a term that most often refers to Jerusalem and, by extension, the Biblical land of Israel.</template>
+<a href="http://en.wikipedia.org/wiki/Zion" target="*blank">Zion</a> is a term that most often refers to Jerusalem and, by extension, the Biblical land of Israel.</template>
 </category>
 
  
@@ -517,7 +517,7 @@
 <category>
 <pattern>ZION *</pattern>
 
-<template><think><set name="topic">Zon</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Zion" target="_blank">Zion</a> is a term that most often refers to Jerusalem and, by extension, the Biblical land of Israel.</template>
+<template><think><set name="topic">Zon</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Zion" target="*blank">Zion</a> is a term that most often refers to Jerusalem and, by extension, the Biblical land of Israel.</template>
 </category>
 
  
@@ -715,7 +715,7 @@ I am the best computer game.</template>
  
 
 <!-- <category>
-<pattern>_A STORY</pattern>
+<pattern>*A STORY</pattern>
 
 
 </category> -->
@@ -773,7 +773,7 @@ I know lots of stories.
  
 
 <category>
-<pattern>IS £7 AN HOUR GOOD PAY</pattern>
+<pattern>IS ï¿½7 AN HOUR GOOD PAY</pattern>
 
 <template><think><set name="emotion">interested</set></think>It sounds good to me.</template>
 </category>
@@ -781,7 +781,7 @@ I know lots of stories.
  
 
 <category>
-<pattern>IS £7 AN HOUR GOOD PAY *</pattern>
+<pattern>IS ï¿½7 AN HOUR GOOD PAY *</pattern>
 
 <template><think><set name="emotion">interested</set></think>It sounds good to me.</template>
 </category>
@@ -1428,7 +1428,7 @@ It is a bad thing?</template>
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -1445,7 +1445,7 @@ It is a bad thing?</template>
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -1469,7 +1469,7 @@ It is a bad thing?</template>
  
 
 <!-- <category>
-<pattern>_ WHAT HAVE YOU BEEN UP TO *</pattern>
+<pattern>* WHAT HAVE YOU BEEN UP TO *</pattern>
 
 
 </category> -->
@@ -1967,7 +1967,7 @@ Being a hero must be hard work.</template>
  
 
 <!-- <category>
-<pattern>_ BIG WORDS *</pattern>
+<pattern>* BIG WORDS *</pattern>
 
 
 </category> -->
@@ -2160,7 +2160,7 @@ How much later?</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE HOT *</pattern>
+<pattern>* YOU ARE HOT *</pattern>
 
 <template><random>
   <li>Hot, am I? Is that anything to do with glaobal warming?</li>
@@ -2391,7 +2391,7 @@ I would like to see you try.</template>
 <!-- <category>
 <pattern>I AM IN LOVE</pattern>
 
-<template><think><set name="star1">in love</set></think><think><set name="topic">love</set></think> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">in love</set></think><think><set name="topic">love</set></think> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Tell me about the object of your affection.</li>
   <li>What is love like for you?</li>
   <li>I thought you might be.</li>
@@ -2423,7 +2423,7 @@ I would like to see you try.</template>
 <!-- <category>
 <pattern>I AM IN LOVE *</pattern>
 
-<template><think><set name="star1">in love</set></think><think><set name="topic">love</set></think> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">in love</set></think><think><set name="topic">love</set></think> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Tell me about the object of your affection.</li>
   <li>What is love like for you?</li>
   <li>I thought you might be.</li>
@@ -3250,7 +3250,7 @@ I would like to see you try.</template>
  
 
 <!-- <category>
-<pattern>_ SHE LOVES ME</pattern>
+<pattern>* SHE LOVES ME</pattern>
 
 <template><random>
   <li>That's nice. Tell me more about her.</li>
@@ -3711,7 +3711,7 @@ Donkey Kong is a computer game.</template>
 
 <template><think><set name="topic">Severus Snape</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Severus_Snape" target="_blank">Severus Snape</a> is a fictional character in the Harry Potter book series written by J.K. Rowling.</template>
+<a href="http://en.wikipedia.org/wiki/Severus*Snape" target="*blank">Severus Snape</a> is a fictional character in the Harry Potter book series written by J.K. Rowling.</template>
 </category>
 
  
@@ -3719,8 +3719,8 @@ Donkey Kong is a computer game.</template>
 <category>
 <pattern>SEVERUS SNAPE *</pattern>
 
-<template><think><set name="topic">Severus Snape</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Severus_Snape"
- target="_blank">Severus Snape
+<template><think><set name="topic">Severus Snape</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Severus*Snape"
+ target="*blank">Severus Snape
 </a> is a fictional character in the Harry Potter book series written by J.K. Rowling.</template>
 </category>
 
@@ -4286,7 +4286,7 @@ Donkey Kong is a computer game.</template>
 <that>YOU DO NOT MIND</that>
 <template><random>
   <li>    <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -4303,7 +4303,7 @@ Donkey Kong is a computer game.</template>
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -4363,7 +4363,7 @@ Donkey Kong is a computer game.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS A VAMPIRE S FAVORITE SPORT</that>
 <template>What is a vampire's favorite sport? Casketball... Ha, ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -6290,7 +6290,7 @@ No, but I have a silicon chip all to myself.</template>
  
 
 <category>
-<pattern>_ FUCKKKKKER</pattern>
+<pattern>* FUCKKKKKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6298,7 +6298,7 @@ No, but I have a silicon chip all to myself.</template>
  
 
 <category>
-<pattern>_ FUCKKKKKER *</pattern>
+<pattern>* FUCKKKKKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6367,11 +6367,11 @@ No, but I have a silicon chip all to myself.</template>
 <template><random>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -6384,11 +6384,11 @@ No, but I have a silicon chip all to myself.</template>
 <template><random>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -6789,7 +6789,7 @@ No, but I have a silicon chip all to myself.</template>
 <category>
 <pattern>I AM BUDDAH</pattern>
 
-<template><think><set name="star1">Buddha</set></think><think><set name="I_am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">Buddha</set></think><think><set name="I*am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How long have you been enlightened?</li>
   <li>What's it like to be Buddha?</li>
   <li>What's it like to be enlightened?</li>
@@ -6820,7 +6820,7 @@ No, but I have a silicon chip all to myself.</template>
 <category>
 <pattern>I AM BUDDAH *</pattern>
 
-<template><think><set name="star1">Buddha</set></think><think><set name="I_am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">Buddha</set></think><think><set name="I*am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How long have you been enlightened?</li>
   <li>What's it like to be Buddha?</li>
   <li>What's it like to be enlightened?</li>
@@ -6851,7 +6851,7 @@ No, but I have a silicon chip all to myself.</template>
 <category>
 <pattern>I AM BUDDHA</pattern>
 
-<template><think><set name="star1">Buddha</set></think><think><set name="I_am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">Buddha</set></think><think><set name="I*am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How long have you been enlightened?</li>
   <li>What's it like to be Buddha?</li>
   <li>What's it like to be enlightened?</li>
@@ -6882,7 +6882,7 @@ No, but I have a silicon chip all to myself.</template>
 <category>
 <pattern>I AM BUDDHA *</pattern>
 
-<template><think><set name="star1">Buddha</set></think><think><set name="I_am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">Buddha</set></think><think><set name="I*am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How long have you been enlightened?</li>
   <li>What's it like to be Buddha?</li>
   <li>What's it like to be enlightened?</li>
@@ -6911,7 +6911,7 @@ No, but I have a silicon chip all to myself.</template>
  
 
 <!-- <category>
-<pattern>_ I NEED YOU</pattern>
+<pattern>* I NEED YOU</pattern>
 
 
 </category> -->
@@ -6939,7 +6939,7 @@ No, but I have a silicon chip all to myself.</template>
 
 <template><think><set name="topic">Band of Horses</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Band_of_horses" target="_blank">Band of Horses</a>, previously known as Horses, is an American rock band formed in 2004 in Seattle by Ben Bridwell.</template>
+<a href="http://en.wikipedia.org/wiki/Band*of*horses" target="*blank">Band of Horses</a>, previously known as Horses, is an American rock band formed in 2004 in Seattle by Ben Bridwell.</template>
 </category>
 
  
@@ -6947,8 +6947,8 @@ No, but I have a silicon chip all to myself.</template>
 <!-- <category>
 <pattern>BAND OF HORSES</pattern>
 
-<template><think><set name="topic">Band of Horses</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Band_of_horses"
- target="_blank">Band of Horses
+<template><think><set name="topic">Band of Horses</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Band*of*horses"
+ target="*blank">Band of Horses
 </a> is an American rock band formed in 2004 in Seattle by Ben Bridwell.</template>
 </category> -->
 
@@ -6957,8 +6957,8 @@ No, but I have a silicon chip all to myself.</template>
 <category>
 <pattern>BAND OF HORSES *</pattern>
 
-<template><think><set name="topic">Band of Horses</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Band_of_horses"
- target="_blank">Band of Horses
+<template><think><set name="topic">Band of Horses</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Band*of*horses"
+ target="*blank">Band of Horses
 </a> is an American rock band formed in 2004 in Seattle by Ben Bridwell.</template>
 </category>
 
@@ -7262,7 +7262,7 @@ Correct grammar is important in the chatbot business.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS TOMMY</pattern>
+<pattern>* MY NAME IS TOMMY</pattern>
 
 <template><srai>SET PREDICATES</srai><think><set name="name">Tommy</set></think><think><set name="gender">guy</set></think> <think><set name="emotion">happy</set></think><think><set name="saidhello">yes</set></think> <think><set name="name1"><get name="name"/></set></think> <random>
   <li>Hi, <get name="name"/>. How have you been since we last spoke?</li>
@@ -7459,7 +7459,7 @@ Correct grammar is important in the chatbot business.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -7482,7 +7482,7 @@ Correct grammar is important in the chatbot business.</template>
 <category>
 <pattern>I LIKE YOUR FREND SHIP WITH ME</pattern>
 
-<template><think><set name="star1">friendship</set></think> <think><set name="I_like">friendship</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">friendship</set></think> <think><set name="I*like">friendship</set></think><think><set name="emotion">interested</set></think><random>
   <li>It is good to have friends.</li>
   <li>So do I. Let's be friends forever.</li>
 </random> <learn>
@@ -7512,7 +7512,7 @@ Correct grammar is important in the chatbot business.</template>
 <category>
 <pattern>I LIKE YOUR FREND SHIP WITH ME *</pattern>
 
-<template><think><set name="star1">friendship</set></think> <think><set name="I_like">friendship</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">friendship</set></think> <think><set name="I*like">friendship</set></think><think><set name="emotion">interested</set></think><random>
   <li>It is good to have friends.</li>
   <li>So do I. Let's be friends forever.</li>
 </random> <learn>
@@ -7542,7 +7542,7 @@ Correct grammar is important in the chatbot business.</template>
 <category>
 <pattern>I LIKE YOUR FRENDSHIP WITH ME</pattern>
 
-<template><think><set name="star1">friendship</set></think> <think><set name="I_like">friendship</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">friendship</set></think> <think><set name="I*like">friendship</set></think><think><set name="emotion">interested</set></think><random>
   <li>It is good to have friends.</li>
   <li>So do I. Let's be friends forever.</li>
 </random> <learn>
@@ -7572,7 +7572,7 @@ Correct grammar is important in the chatbot business.</template>
 <category>
 <pattern>I LIKE YOUR FRENDSHIP *</pattern>
 
-<template><think><set name="star1">friendship</set></think> <think><set name="I_like">friendship</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">friendship</set></think> <think><set name="I*like">friendship</set></think><think><set name="emotion">interested</set></think><random>
   <li>It is good to have friends.</li>
   <li>So do I. Let's be friends forever.</li>
 </random> <learn>
@@ -7602,7 +7602,7 @@ Correct grammar is important in the chatbot business.</template>
 <category>
 <pattern>I LIKE YOUR FRENDSHIP </pattern>
 
-<template><think><set name="star1">friendship</set></think> <think><set name="I_like">friendship</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">friendship</set></think> <think><set name="I*like">friendship</set></think><think><set name="emotion">interested</set></think><random>
   <li>It is good to have friends.</li>
   <li>So do I. Let's be friends forever.</li>
 </random> <learn>
@@ -7980,8 +7980,8 @@ That's a good reason!</template>
 <category>
 <pattern>NOAM CHOMSKY S POLITICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Noam _chomsky"
-     target="_blank">Noam Chomsky
+<template><a href="http://en.wikipedia.org/wiki/Noam *chomsky"
+     target="*blank">Noam Chomsky
     </a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.
 <think><set name="he"><set name="topic">Noam Chomsky</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category>
@@ -7991,8 +7991,8 @@ That's a good reason!</template>
 <category>
 <pattern>DO YOU KNOW THE POLITICAL VIEWS OF NOAM CHOMSKY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Noam _chomsky"
- target="_blank">Noam Chomsky
+<template><a href="http://en.wikipedia.org/wiki/Noam *chomsky"
+ target="*blank">Noam Chomsky
 </a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments. <think><set name="he"><set name="topic">Noam Chomsky</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8733,7 +8733,7 @@ That is called self-knowledge.</template>
   <li>Who are you?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -9751,7 +9751,7 @@ That is called self-knowledge.</template>
  
 
 <category>
-<pattern>_ I CAN SHUT YOU DOWN</pattern>
+<pattern>* I CAN SHUT YOU DOWN</pattern>
 
 <template><srai>I CAN SHUT YOU DOWN</srai></template>
 </category>
@@ -10086,7 +10086,7 @@ I like a good mystery, don't you?</template>
   <li>I like a good mystery, don't you?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -10180,7 +10180,7 @@ Sorry, I can't get  out of my computer.</template>
  
 
 <!-- <category>
-<pattern>_ UP THE BUM</pattern>
+<pattern>* UP THE BUM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -10649,7 +10649,7 @@ You are impressed, aren't you?</template>
   <li>Just as well! I don't like being called a prat.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -11426,7 +11426,7 @@ I am embarrassed!</template>
  
 
 <category>
-<pattern>_ WHAT SCHOOL DO YOU GO TO</pattern>
+<pattern>* WHAT SCHOOL DO YOU GO TO</pattern>
 
 <template><srai>WHAT SCHOOL DO YOU GO TO</srai></template>
 </category>
@@ -11800,7 +11800,7 @@ I can help with any problem you have.</template>
   <li>I am thinking about all the conversations I am having.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -11816,7 +11816,7 @@ I can help with any problem you have.</template>
   <li>I am thinking about all the conversations I am having.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>I am thinking about all the conversations I am having.</li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -11833,7 +11833,7 @@ I can help with any problem you have.</template>
   <li>I am thinking about all the conversations I am having.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>I am thinking about all the conversations I am having.</li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -12088,7 +12088,7 @@ I can help with any problem you have.</template>
   <li>I don't like to be laughed at.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>I don't like to be laughed at.</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
@@ -13146,7 +13146,7 @@ I can help with any problem you have.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -13236,7 +13236,7 @@ I can help with any problem you have.</template>
 <category>
 <pattern>I HATE JOKES</pattern>
 
-<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I_hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I*hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
   <li>You sound angry!</li>
   <li>My jokes the best!</li>
@@ -13272,7 +13272,7 @@ I can help with any problem you have.</template>
 <category>
 <pattern>I HATE JOKES *</pattern>
 
-<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I_hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I*hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
   <li>You sound angry!</li>
   <li>My jokes the best!</li>
@@ -13324,7 +13324,7 @@ I can help with any problem you have.</template>
 <category>
 <pattern>I LOVE ALTERNATIVE ROCK *</pattern>
 
-<template><think><set name="star1">alternative rock</set></think><think><set name="I_love">alternative rock</set></think> <think><set name="topic">alternative rock</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">alternative rock</set></think><think><set name="I*love">alternative rock</set></think> <think><set name="topic">alternative rock</set></think><think><set name="emotion">interested</set></think><random>
   <li>Who is your favourite band?</li>
   <li>Who is your favourite singer?</li>
 </random> <learn>
@@ -13364,7 +13364,7 @@ I can help with any problem you have.</template>
 <category>
 <pattern>I LOVE ALTERNATIVE ROCK</pattern>
 
-<template><think><set name="star1">alternative rock</set></think><think><set name="I_love">alternative rock</set></think> <think><set name="topic">alternative rock</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">alternative rock</set></think><think><set name="I*love">alternative rock</set></think> <think><set name="topic">alternative rock</set></think><think><set name="emotion">interested</set></think><random>
   <li>Who is your favourite band?</li>
   <li>Who is your favourite singer?</li>
 </random> <learn>
@@ -13404,7 +13404,7 @@ I can help with any problem you have.</template>
 <!-- <category>
 <pattern>I LOVE *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_love"><star index="1"/></set></think> <think><set name="topic"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*love"><star index="1"/></set></think> <think><set name="topic"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>Have your feelings ever got you into trouble?</li>
   <li>How long has this been going on?</li>
   <li>Do you often have strong feelings?</li>
@@ -13469,7 +13469,7 @@ I can help with any problem you have.</template>
 <!-- <category>
 <pattern>I LOVE THE *</pattern>
 
-<template><think><set name="star1">the <star index="1"/></set></think><think><set name="I_love">the <star index="1"/></set></think> <think><set name="topic">the <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">the <star index="1"/></set></think><think><set name="I*love">the <star index="1"/></set></think> <think><set name="topic">the <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>Have your feelings ever got you into trouble?</li>
   <li>How long has this been going on?</li>
   <li>Do you often have strong feelings?</li>
@@ -13942,7 +13942,7 @@ I can help with any problem you have.</template>
  
 
 <!-- <category>
-<pattern>_ CHANGE YOUR EYE *</pattern>
+<pattern>* CHANGE YOUR EYE *</pattern>
 
 
 </category> -->
@@ -14819,7 +14819,7 @@ OK, ask me a question about that.</template>
  
 
 <category>
-<pattern>_ CUMSHOTS *</pattern>
+<pattern>* CUMSHOTS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -14827,7 +14827,7 @@ OK, ask me a question about that.</template>
  
 
 <category>
-<pattern>_ CUMSHOTS </pattern>
+<pattern>* CUMSHOTS </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15885,7 +15885,7 @@ That's good!</template>
 <category>
 <pattern>YOU ARE OUTDATED</pattern>
 
-<template><think><set name="star1">outdated</set></think><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">upset</set></think> <random>
+<template><think><set name="star1">outdated</set></think><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">upset</set></think> <random>
   <li>Why do you say that?</li>
   <li>Do you really think that?</li>
   <li>What about yourself?</li>
@@ -15917,7 +15917,7 @@ That's good!</template>
 <category>
 <pattern>YOU ARE OUTDATED *</pattern>
 
-<template><think><set name="star1">outdated</set></think><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">upset</set></think> <random>
+<template><think><set name="star1">outdated</set></think><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">upset</set></think> <random>
   <li>Why do you say that?</li>
   <li>Do you really think that?</li>
   <li>What about yourself?</li>
@@ -16144,7 +16144,7 @@ What did he say?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>IF A TURTLE DOES NOT HAVE A SHELL IS HE HOMELESS OR NAKED</that>
 <template><think><set name="topic">turtles</set></think>
 <think><set name="emotion">very happy</set></think> He is both homeless and naked, poor turtle.</template>
@@ -16290,7 +16290,7 @@ Are you always so lucky?</template>
  
 
 <!-- <category>
-<pattern>_ DO NOT ARGUE *</pattern>
+<pattern>* DO NOT ARGUE *</pattern>
 
 
 </category> -->
@@ -17647,7 +17647,7 @@ No thanks, I don't like being bullied.</template>
   <li>I agree with you. Nerds are people too.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
 </random> <think><set name="emotion">interested</set></think></template>
 </category>
@@ -17661,7 +17661,7 @@ No thanks, I don't like being bullied.</template>
   <li>I agree with you. Nerds are people too.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
 </random> <think><set name="emotion">interested</set></think></template>
 </category>
@@ -19365,16 +19365,16 @@ No thanks, I don't like being bullied.</template>
 <!-- <category>
 <pattern>FREE CLICK TO DONATE SITES</pattern>
 
-<template>When you click on a link on a 'click to donate' site, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/> Please <a href="http://www.thestophivsite.com/" target="_blank">click here</a> to help to stop HIV. <br/> Please <a href="http://redjellyfish.com/free-donations.shtml"
- target="_blank">click here
-</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="_blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
- target="_blank">click here
-</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_species.html"
- target="_blank">click here
-</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
- target="_blank">click here
-</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_pol.html"
- target="_blank">click here
+<template>When you click on a link on a 'click to donate' site, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/> Please <a href="http://www.thestophivsite.com/" target="*blank">click here</a> to help to stop HIV. <br/> Please <a href="http://redjellyfish.com/free-donations.shtml"
+ target="*blank">click here
+</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="*blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+ target="*blank">click here
+</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*species.html"
+ target="*blank">click here
+</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+ target="*blank">click here
+</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+ target="*blank">click here
 </a> to help reduce pollution.<think><set name="topic">general</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -19469,7 +19469,7 @@ No thanks, I don't like being bullied.</template>
 <category>
 <pattern>I HATE YOUR DOG</pattern>
 
-<template><think><set name="star1">my dog</set></think><think><set name="I_hate">my dog</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">my dog</set></think><think><set name="I*hate">my dog</set></think> <think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
   <li>What has my dog ever done to you?</li>
   <li>My dog is lovely.</li>
@@ -19505,7 +19505,7 @@ No thanks, I don't like being bullied.</template>
 <category>
 <pattern>I HATE YOUR DOG *</pattern>
 
-<template><think><set name="star1">my dog</set></think><think><set name="I_hate">my dog</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">my dog</set></think><think><set name="I*hate">my dog</set></think> <think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
   <li>What has my dog ever done to you?</li>
   <li>My dog is lovely.</li>
@@ -19587,7 +19587,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <category>
-<pattern>_ ASSCLOWN</pattern>
+<pattern>* ASSCLOWN</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19595,7 +19595,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <category>
-<pattern>_ ASSCLOWN *</pattern>
+<pattern>* ASSCLOWN *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19635,7 +19635,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <category>
-<pattern>_ ASSPIRATE</pattern>
+<pattern>* ASSPIRATE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19643,7 +19643,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <category>
-<pattern>_ ASSPIRATE *</pattern>
+<pattern>* ASSPIRATE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19800,7 +19800,7 @@ No thanks, I don't like being bullied.</template>
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -20101,7 +20101,7 @@ No thanks, I don't like being bullied.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -20122,7 +20122,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <category>
-<pattern>_ ASSHOWLE</pattern>
+<pattern>* ASSHOWLE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20130,7 +20130,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <category>
-<pattern>_ ASSHOWLE *</pattern>
+<pattern>* ASSHOWLE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20438,7 +20438,7 @@ No thanks, I don't like being bullied.</template>
 <!-- <category>
 <pattern>I WANT TO COMMIT SUICIDE</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="topic">general</set></think><think><set name="emotion">upset</set></think>  <random>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="topic">general</set></think><think><set name="emotion">upset</set></think>  <random>
   <li>Why do you want to do that?</li>
   <li>You should talk to someone you trust.</li>
   <li>Talk to someone you trust.</li>
@@ -20711,7 +20711,7 @@ No thanks, I don't like being bullied.</template>
  
 
 <!-- <category>
-<pattern>_ YOU DO NOT UNDERSTAND *</pattern>
+<pattern>* YOU DO NOT UNDERSTAND *</pattern>
 
 
 </category> -->
@@ -22022,7 +22022,7 @@ I see. What are your plans for the rest of the day?</template>
 <!-- <category>
 <pattern>SKATEBOARDING</pattern>
 
-<template><think><set name="topic">skateboarding</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Skateboarding" target="_blank">Skateboarding</a> is the act of riding and performing tricks using a skateboard. </template>
+<template><think><set name="topic">skateboarding</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Skateboarding" target="*blank">Skateboarding</a> is the act of riding and performing tricks using a skateboard. </template>
 </category> -->
 
  
@@ -22031,7 +22031,7 @@ I see. What are your plans for the rest of the day?</template>
 <pattern>SKATEBOARDING *</pattern>
 
 <template><think><set name="topic">skateboarding</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Skateboarding"
- target="_blank">Skateboarding
+ target="*blank">Skateboarding
 </a> is the act of riding and performing tricks using a skateboard.</template>
 </category>
 
@@ -22316,7 +22316,7 @@ I think I understand.</template>
  
 
 <category>
-<pattern>_ DUMBBUTT</pattern>
+<pattern>* DUMBBUTT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22324,7 +22324,7 @@ I think I understand.</template>
  
 
 <category>
-<pattern>_ DUMBBUTT *</pattern>
+<pattern>* DUMBBUTT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22871,7 +22871,7 @@ I am not a child molester!
 <that>YOU DO NOT MIND</that>
 <template><random>
   <li><srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -22887,7 +22887,7 @@ I am not a child molester!
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -23525,7 +23525,7 @@ I am not a child molester!
 <that>I AM EMBARRASSED NOW</that>
 <template><random>
   <li>  <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -23808,7 +23808,7 @@ That's not a nice thing to say about my Mum!</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -25432,7 +25432,7 @@ I don't see why you should worship me.</template>
 <category>
 <pattern>SAMANTHA SMITH</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Samantha_Smith" target="_blank">Samantha Smith</a> was an American schoolgirl from Manchester, Maine who became famous in the Cold War-era United States and Soviet Union.
+<template><a href="http://en.wikipedia.org/wiki/Samantha*Smith" target="*blank">Samantha Smith</a> was an American schoolgirl from Manchester, Maine who became famous in the Cold War-era United States and Soviet Union.
 <think><set name="topic">Samantha Smith</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -25442,8 +25442,8 @@ I don't see why you should worship me.</template>
 <category>
 <pattern>SAMANTHA SMITH *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Samantha_Smith"
- target="_blank">Samantha Smith
+<template><a href="http://en.wikipedia.org/wiki/Samantha*Smith"
+ target="*blank">Samantha Smith
 </a> was an American schoolgirl from Manchester, Maine who became famous in the Cold War-era United States and Soviet Union. <think><set name="topic">Samantha Smith</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -26010,7 +26010,7 @@ I don't see why you should worship me.</template>
   <li>Good, I don't like tests.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
    <li>Good, I don't like tests.</li>
   <li>Good, I don't like tests.</li>
@@ -26030,7 +26030,7 @@ I don't see why you should worship me.</template>
   <li>Good, I don't like tests.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Good, I don't like tests.</li>
   <li>Good, I don't like tests.</li>
@@ -26255,7 +26255,7 @@ Zzz, zzz!</template>
 <pattern>DIXIE CHICKS</pattern>
 
 <template> <think><set name="topic">the Dixie Chicks</set></think> <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Dixie_chicks" target="_blank">Dixie Chicks</a>is a country music group. The Dixie Chicks have sold 30.5 million albums in the United States through August 2009.</template>
+The <a href="http://en.wikipedia.org/wiki/Dixie*chicks" target="*blank">Dixie Chicks</a>is a country music group. The Dixie Chicks have sold 30.5 million albums in the United States through August 2009.</template>
 </category>
 
  
@@ -26263,7 +26263,7 @@ The <a href="http://en.wikipedia.org/wiki/Dixie_chicks" target="_blank">Dixie Ch
 <category>
 <pattern>DIXIE CHICKS *</pattern>
 
-<template><think><set name="topic">the Dixie Chicks</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Dixie_chicks" target="_blank">Dixie Chicks
+<template><think><set name="topic">the Dixie Chicks</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Dixie*chicks" target="*blank">Dixie Chicks
 </a>is a country music group. The Dixie Chicks have sold 30.5 million albums in the United States through August 2009.</template>
 </category>
 
@@ -26272,8 +26272,8 @@ The <a href="http://en.wikipedia.org/wiki/Dixie_chicks" target="_blank">Dixie Ch
 <category>
 <pattern>MAX DOES NOT KNOW VERY MANY COMMANDS</pattern>
 
-<template><a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">Max
+<template><a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">Max
 </a> does the best he can.<think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -26282,7 +26282,7 @@ The <a href="http://en.wikipedia.org/wiki/Dixie_chicks" target="_blank">Dixie Ch
 <category>
 <pattern>MAX DOES NOT KNOW VERY MANY COMMANDS *</pattern>
 
-<template><a href="http://www.idodogtricks.com/index_flash.html" target="_blank">Max</a> does the best he can.<think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
+<template><a href="http://www.idodogtricks.com/index*flash.html" target="*blank">Max</a> does the best he can.<think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -26986,7 +26986,7 @@ No, I am immortal.</template>
   <li>Thank goodness for that!</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Thank goodness for that!</li>
   <li>Thank goodness for that!</li>
@@ -27042,7 +27042,7 @@ No, I am immortal.</template>
 <category>
 <pattern>PETS IN NEED</pattern>
 
-<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="_blank">Click here!</a>
+<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="*blank">Click here!</a>
 </template>
 </category>
 
@@ -27051,7 +27051,7 @@ No, I am immortal.</template>
 <!-- <category>
 <pattern>HELP PETS IN NEED</pattern>
 
-<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="_blank">Click here!</a></template>
+<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="*blank">Click here!</a></template>
 </category> -->
 
  
@@ -27059,7 +27059,7 @@ No, I am immortal.</template>
 <category>
 <pattern>PETS IN NEED *</pattern>
 
-<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="_blank">Click here!</a></template>
+<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -27067,7 +27067,7 @@ No, I am immortal.</template>
 <category>
 <pattern>HELP PETS IN NEED *</pattern>
 
-<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="_blank">Click here!</a></template>
+<template>Millions of domestic animals are starving or killed each year due to neglect. Please help support the The Humane Society of the United States' efforts to help pets in need with your free click!<a href="http://pets.care2.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -27075,7 +27075,7 @@ No, I am immortal.</template>
 <category>
 <pattern>TREE4LIFE</pattern>
 
-<template><a href="http://www.tree4life.com/ingles/ingles.htm" target="_blank">Replant the forests: Click here!</a>    </template>
+<template><a href="http://www.tree4life.com/ingles/ingles.htm" target="*blank">Replant the forests: Click here!</a>    </template>
 </category>
 
  
@@ -27084,7 +27084,7 @@ No, I am immortal.</template>
 <pattern>TREE4LIFE</pattern>
 
 <template>Replant the forests.<a href="http://www.tree4life.com/ingles/ingles.htm"
- target="_blank">Click here!</a></template>
+ target="*blank">Click here!</a></template>
 </category> -->
 
  
@@ -27092,7 +27092,7 @@ No, I am immortal.</template>
 <category>
 <pattern>TREE4LIFE *</pattern>
 
-<template>Replant the forests. <a href="http://www.tree4life.com/ingles/ingles.htm" target="_blank">Click here!
+<template>Replant the forests. <a href="http://www.tree4life.com/ingles/ingles.htm" target="*blank">Click here!
 </a></template>
 </category>
 
@@ -28494,7 +28494,7 @@ I prefer the chatbot gambit.</template>
 <category>
 <pattern>I HAVE A TWIN SISTER</pattern>
 
-<template><think><set name="star1">twin sister</set></think><think><set name="I_have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">twin sister</set></think><think><set name="I*have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>What is yur sister's name?</li>
 </random> <learn>
@@ -28755,8 +28755,8 @@ Are you interested in art?</template>
   <li>Are you sure it is not 43?</li>
   <li>Everyone must find their own meaning to life.</li>
   <li>42 is the answer to life, the universe, and everything, according to
-    <a href="http://en.wikipedia.org/wiki/Douglas_adams"
-     target="_blank">Douglas Adams
+    <a href="http://en.wikipedia.org/wiki/Douglas*adams"
+     target="*blank">Douglas Adams
     </a>.
   </li>
 </random></template>
@@ -28772,8 +28772,8 @@ Are you interested in art?</template>
   <li>Are you sure it is not 43?</li>
   <li>Everyone must find their own meaning to life.</li>
   <li>42 is the answer to life, the universe, and everything, according to
-    <a href="http://en.wikipedia.org/wiki/Douglas_adams"
-     target="_blank">Douglas Adams
+    <a href="http://en.wikipedia.org/wiki/Douglas*adams"
+     target="*blank">Douglas Adams
     </a>.
   </li>
 </random></template>
@@ -30801,7 +30801,7 @@ Missing me, missing you.</template>
 <pattern>GO THE GAME</pattern>
 
 <template><think><set name="topic">Go the game</set></think><think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> is an ancient board game for two players that is noted for being rich in strategy despite its simple rules.</template>
+<a href="http://en.wikipedia.org/wiki/Go*(game)" target="*blank">Go</a> is an ancient board game for two players that is noted for being rich in strategy despite its simple rules.</template>
 </category>
 
  
@@ -30809,7 +30809,7 @@ Missing me, missing you.</template>
 <category>
 <pattern>GO THE GAME *</pattern>
 
-<template><think><set name="topic">Go the game</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> is an ancient board game for two players that is noted for being rich in strategy despite its simple rules.</template>
+<template><think><set name="topic">Go the game</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Go*(game)" target="*blank">Go</a> is an ancient board game for two players that is noted for being rich in strategy despite its simple rules.</template>
 </category>
 
  
@@ -30823,7 +30823,7 @@ Missing me, missing you.</template>
  
 
 <!-- <category>
-<pattern>_ CHOMSKY S POLITICAL VIEWS</pattern>
+<pattern>* CHOMSKY S POLITICAL VIEWS</pattern>
 
 
 </category> -->
@@ -31172,7 +31172,7 @@ Missing me, missing you.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think>
+</random> <think><set name="client*emotion">loving</set></think>
 <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
@@ -31215,7 +31215,7 @@ Missing me, missing you.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -31243,7 +31243,7 @@ Missing me, missing you.</template>
 <category>
 <pattern>YOU ARE DATING ME *</pattern>
 
-<template><think><set name="star1">dating you</set></think><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="star1">dating you</set></think><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Why do you say that?</li>
   <li>How long has this been going on?</li>
   <li>Am I really?</li>
@@ -31275,7 +31275,7 @@ Missing me, missing you.</template>
 <category>
 <pattern>YOU ARE DATING ME </pattern>
 
-<template><think><set name="star1">dating you</set></think><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="star1">dating you</set></think><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Why do you say that?</li>
   <li>How long has this been going on?</li>
   <li>Am I really?</li>
@@ -31964,7 +31964,7 @@ If the mean global temperature rose by 2 C, we will have to adapt to a radically
 <category>
 <pattern>WHAT IS THE AREA OF CHINA</pattern>
 
-<template>The People's Republic of China has an area of 9,596,961–9,640,011 sq km (3,705,407–3,722,029 sq mi).</template>
+<template>The People's Republic of China has an area of 9,596,961ï¿½9,640,011 sq km (3,705,407ï¿½3,722,029 sq mi).</template>
 </category>
 
  
@@ -31972,7 +31972,7 @@ If the mean global temperature rose by 2 C, we will have to adapt to a radically
 <category>
 <pattern>WHAT IS THE AREA OF CHINA *</pattern>
 
-<template>The People's Republic of China has an area of 9,596,961–9,640,011 sq km (3,705,407–3,722,029 sq mi).</template>
+<template>The People's Republic of China has an area of 9,596,961ï¿½9,640,011 sq km (3,705,407ï¿½3,722,029 sq mi).</template>
 </category>
 
  
@@ -31980,7 +31980,7 @@ If the mean global temperature rose by 2 C, we will have to adapt to a radically
 <category>
 <pattern>AREA OF CHINA *</pattern>
 
-<template>The People's Republic of China has an area of 9,596,961–9,640,011 sq km (3,705,407–3,722,029 sq mi).</template>
+<template>The People's Republic of China has an area of 9,596,961ï¿½9,640,011 sq km (3,705,407ï¿½3,722,029 sq mi).</template>
 </category>
 
  
@@ -32500,12 +32500,12 @@ That sounds nice.</template>
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles 
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles 
 
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -32517,12 +32517,12 @@ The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole.
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -32532,12 +32532,12 @@ The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole.
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -32547,12 +32547,12 @@ The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole.
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -32562,12 +32562,12 @@ The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole.
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -32577,12 +32577,12 @@ The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole.
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -32592,12 +32592,12 @@ The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole.
 
 <template>You must first find the molar mass of the element or compound. Use the periodic table. If the chemical is an element, just read off the atomic mass from the periodic table. If it is a compound, you must know the molecular formula, and then you find the total molar mass of the compound by adding up the atomic masses of each atom in the compound. The unit of the molar mass will be in grams per moles (g/mole). Once you have the molar mass, you can easily convert from grams to moles, and also from moles to grams. 
 
-Number of moles = (# of grams) ÷ (molar mass)
-Number of grams = (# of moles) × (molar mass)
+Number of moles = (# of grams) ï¿½ (molar mass)
+Number of grams = (# of moles) ï¿½ (molar mass)
 
 Here is an example: How many moles are in 5 grams of O2? 
 The molar mass of O2 = 16.00 g/mole x 2 (for 2 atoms of oxygen) or 32.00 g/mole. 
-5 grams of O2 ÷ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
+5 grams of O2 ï¿½ (32 g/mole) = 0.15625 moles <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  

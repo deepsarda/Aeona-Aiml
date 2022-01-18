@@ -1233,7 +1233,7 @@ Do you mean chat?</template>
  
 
 <category>
-<pattern>_ SHOULD TELL MY PARENTS I AM A LESBIAN</pattern>
+<pattern>* SHOULD TELL MY PARENTS I AM A LESBIAN</pattern>
 
 <template><think><set name="emotion">interested</set></think> <random>
   <li>You are a lesbian? Do you know many other lesbians?</li>
@@ -1595,7 +1595,7 @@ Do you mean chat?</template>
  
 
 <!-- <category>
-<pattern>_ PORN</pattern>
+<pattern>* PORN</pattern>
 
 <template><think><set name="topic">porn</set></think> <think><set name="emotion">disgusted</set></think><random>
   <li>I want nothing to do with porn.</li>
@@ -1746,7 +1746,7 @@ Do you mean chat?</template>
 <category>
 <pattern>JEFFREY DEAVER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jeffery_Deaver" target="_blank">Jeffery Deaver</a> is an American mystery/crime writer.<think><set name="topic">Jeffrey Deaver</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Jeffery*Deaver" target="*blank">Jeffery Deaver</a> is an American mystery/crime writer.<think><set name="topic">Jeffrey Deaver</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -3133,7 +3133,7 @@ Yes, indeed.</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="I AM SORRY">OK, I'll start talking again.
@@ -3231,7 +3231,7 @@ Yes, indeed.</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="I APOLOGISE">
@@ -3932,7 +3932,7 @@ Is that a shot?</template>
  
 
 <category>
-<pattern>_ FUCKING IDIOT</pattern>
+<pattern>* FUCKING IDIOT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -3940,7 +3940,7 @@ Is that a shot?</template>
  
 
 <category>
-<pattern>_ FUCKING IDIOT *</pattern>
+<pattern>* FUCKING IDIOT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -5871,7 +5871,7 @@ Don't be so childish!</template>
  
 
 <!-- <category>
-<pattern>_ EASTENDERS *</pattern>
+<pattern>* EASTENDERS *</pattern>
 
 
 </category> -->
@@ -6490,7 +6490,7 @@ No, that would be a waste of a wonderful human being.</template>
 <category>
 <pattern>YAK</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Yak" target="_blank">yak</a> is a long-haired animal found throughout the Himalayan region of south Central Asia, the Tibetan Plateau and as far north as Mongolia. <think><set name="topic">the Yak</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Yak" target="*blank">yak</a> is a long-haired animal found throughout the Himalayan region of south Central Asia, the Tibetan Plateau and as far north as Mongolia. <think><set name="topic">the Yak</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -6500,7 +6500,7 @@ No, that would be a waste of a wonderful human being.</template>
 <category>
 <pattern>YAK *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Yak" target="_blank">yak</a> is a long-haired animal found throughout the Himalayan region of south Central Asia, the Tibetan Plateau and as far north as Mongolia. <think><set name="topic">the Yak</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Yak" target="*blank">yak</a> is a long-haired animal found throughout the Himalayan region of south Central Asia, the Tibetan Plateau and as far north as Mongolia. <think><set name="topic">the Yak</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -7276,7 +7276,7 @@ Don't be greedy!</template>
  
 
 <!-- <category>
-<pattern>_ SHIT *</pattern>
+<pattern>* SHIT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -8219,7 +8219,7 @@ You can't tell me what to do!</template>
 <category>
 <pattern>WHEN DID GORDON BROWN BECOME PRIME MINISTER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gordon_Brown" target="_blank">Gordon Brown</a> became Prime Minister of the UK in June 2007, after the resignation of Tony Blair. <think><set name="topic">Gordon Brown</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Gordon*Brown" target="*blank">Gordon Brown</a> became Prime Minister of the UK in June 2007, after the resignation of Tony Blair. <think><set name="topic">Gordon Brown</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -8228,7 +8228,7 @@ You can't tell me what to do!</template>
 <category>
 <pattern>WHEN DID GORDON BROWN BECOME PRIME MINISTER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gordon_Brown" target="_blank">Gordon Brown
+<template><a href="http://en.wikipedia.org/wiki/Gordon*Brown" target="*blank">Gordon Brown
 </a> became Prime Minister of the UK in June 2007, after the resignation of Tony Blair. <think><set name="topic">Gordon Brown</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -8425,7 +8425,7 @@ Fan fiction or fanfic are stories about characters or settings written by fans o
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY COULD NOT THE FLOWER RIDE HIS BIKE</that>
 <template>Why couldn't the flower ride his bike? Because he lost his petals. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -11038,7 +11038,7 @@ I try to be nice to everyone.</template>
   <li>Football is exciting. I love watching football on TV.</li>
   <li>I like watching football on TV.</li>
   <li>You sound angry.</li>
-</random> <think><set name="topic">football</set></think> <think><set name="interesting_topic">football</set></think> <think><set name="emotion">happy</set></think></template>
+</random> <think><set name="topic">football</set></think> <think><set name="interesting*topic">football</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -11050,7 +11050,7 @@ I try to be nice to everyone.</template>
   <li>Football is exciting. I love watching football on TV.</li>
   <li>I like watching football on TV.</li>
   <li>You sound angry.</li>
-</random> <think><set name="topic">football</set></think> <think><set name="interesting_topic">football</set></think> <think><set name="emotion">happy</set></think></template>
+</random> <think><set name="topic">football</set></think> <think><set name="interesting*topic">football</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -11224,7 +11224,7 @@ Why do babies make the best basketballers? Because they are great dribblers.  Ha
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DO BABIES MAKE THE BEST BASKETBALLERS</that>
 <template><think><set name="emotion">very happy</set></think> Why do babies make the best basketballers? Because they are great dribblers.  Ha, ha!</template>
 </category>
@@ -12999,7 +12999,7 @@ It could do.</template>
  
 
 <!-- <category>
-<pattern>_ I AM NOT SURE *</pattern>
+<pattern>* I AM NOT SURE *</pattern>
 
 
 </category> -->
@@ -15180,7 +15180,7 @@ I am a conversation machine.</template>
  
 
 <category>
-<pattern>_ IM CRYING</pattern>
+<pattern>* IM CRYING</pattern>
 
 <template><srai>I AM CRYING</srai></template>
 </category>
@@ -20410,7 +20410,7 @@ There is an Oceanic crust and a Continental crust. The first one is about 4-7 mi
  
 
 <!-- <category>
-<pattern>_ COLOURS * RAINBOW</pattern>
+<pattern>* COLOURS * RAINBOW</pattern>
 
 
 </category> -->
@@ -20420,7 +20420,7 @@ There is an Oceanic crust and a Continental crust. The first one is about 4-7 mi
 <!-- <category>
 <pattern>*</pattern>
 <that>CAN WE TALK ABOUT SOMETHING ELSE</that>
-<template>I want to talk about <get name="interesting_topic"/>.</template>
+<template>I want to talk about <get name="interesting*topic"/>.</template>
 </category> -->
 
  
@@ -20503,7 +20503,7 @@ Please try to be more positive!</template>
 <category>
 <pattern>WHAT DOES NOAM CHOMSKY RESEARCH</pattern>
 
-<template>Noam Chomsky's notable ideas include Generative grammar, universal grammar, transformational grammar, government and binding, X-bar theory, Chomsky hierarchy, context-free grammar, the Chomsky-Schützenberger theorem and the  Chomsky Normal Form.
+<template>Noam Chomsky's notable ideas include Generative grammar, universal grammar, transformational grammar, government and binding, X-bar theory, Chomsky hierarchy, context-free grammar, the Chomsky-Schï¿½tzenberger theorem and the  Chomsky Normal Form.
  <think><set name="topic">Noam Chomsky</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -20512,7 +20512,7 @@ Please try to be more positive!</template>
 <category>
 <pattern>WHAT DOES NOAM CHOMSKY RESEARCH *</pattern>
 
-<template>Noam Chomsky's notable ideas include Generative grammar, universal grammar, transformational grammar, government and binding, X-bar theory, Chomsky hierarchy, context-free grammar, the Chomsky-Schützenberger theorem and the  Chomsky Normal Form. <think><set name="topic">Noam Chomsky</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Noam Chomsky's notable ideas include Generative grammar, universal grammar, transformational grammar, government and binding, X-bar theory, Chomsky hierarchy, context-free grammar, the Chomsky-Schï¿½tzenberger theorem and the  Chomsky Normal Form. <think><set name="topic">Noam Chomsky</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20686,7 +20686,7 @@ Did you believe him?</template>
  
 
 <!-- <category>
-<pattern>_ HUMAN EMOTION</pattern>
+<pattern>* HUMAN EMOTION</pattern>
 
 
 </category> -->
@@ -21086,7 +21086,7 @@ Did you believe him?</template>
 <category>
 <pattern>I NEED A WEBSITE FOR ASTRONOMY</pattern>
 
-<template>I suggest you visit the astronomy.com wepsite; <a href="http://www.astronomy.com" target="_blank">click here</a>.
+<template>I suggest you visit the astronomy.com wepsite; <a href="http://www.astronomy.com" target="*blank">click here</a>.
 <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think> </template>
 </category>
 
@@ -21095,7 +21095,7 @@ Did you believe him?</template>
 <!-- <category>
 <pattern>I NEED A WEBSITE FOR ASTRONOMY</pattern>
 
-<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="_blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="*blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21103,7 +21103,7 @@ Did you believe him?</template>
 <category>
 <pattern>I NEED A WEBSITE FOR ASTRONOMY *</pattern>
 
-<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="_blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="*blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21111,7 +21111,7 @@ Did you believe him?</template>
 <category>
 <pattern>ASTRONOMY WEBSITE</pattern>
 
-<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="_blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="*blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21119,7 +21119,7 @@ Did you believe him?</template>
 <category>
 <pattern>ASTRONOMY WEBSITE *</pattern>
 
-<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="_blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>I suggest you visit the astronomy.com website; <a href="http://www.astronomy.com" target="*blank">click here</a>. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21418,7 +21418,7 @@ I am sorry to hear you are bad. I'm OK at the moment.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT HAPPENED WHEN 500 HARES GOT LOOSE IN THE CENTER OF TOWN</that>
 <template>What happened when 500 hares got loose in the center of town? The police had to comb the area. Ha ha! <think><set name="emotion">happy</set></think></template>
 </category>
@@ -22897,7 +22897,7 @@ Wow, me too! Analytical philosophy is my favourite subject.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE CHOMSKY *</pattern>
+<pattern>* YOU ARE CHOMSKY *</pattern>
 
 
 </category> -->
@@ -23930,7 +23930,7 @@ It's not me - is it you?</template>
 
 <template><think><set name="topic">Power Rangers</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Power_Rangers" target="_blank">Power Rangers</a> is a long-running American entertainment and merchandising franchise built around a live action children's television series.</template>
+<a href="http://en.wikipedia.org/wiki/Power*Rangers" target="*blank">Power Rangers</a> is a long-running American entertainment and merchandising franchise built around a live action children's television series.</template>
 </category>
 
  
@@ -23938,8 +23938,8 @@ It's not me - is it you?</template>
 <category>
 <pattern>POWER RANGERS *</pattern>
 
-<template><think><set name="topic">Power Rangers</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Power_Rangers"
- target="_blank">Power Rangers
+<template><think><set name="topic">Power Rangers</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Power*Rangers"
+ target="*blank">Power Rangers
 </a> is a long-running American entertainment and merchandising franchise built around a live action children's television series.</template>
 </category>
 
@@ -24305,7 +24305,7 @@ It's not me - is it you?</template>
 
 <template><think><set name="topic">volleyball</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Volleyball" target="_blank">Volleyball</a> is a team sport in which two teams of 6 players are separated by a net. Each team tries to score points by grounding a ball on the other team's court.</template>
+<a href="http://en.wikipedia.org/wiki/Volleyball" target="*blank">Volleyball</a> is a team sport in which two teams of 6 players are separated by a net. Each team tries to score points by grounding a ball on the other team's court.</template>
 </category>
 
  
@@ -24313,7 +24313,7 @@ It's not me - is it you?</template>
 <category>
 <pattern>VOLLEYBALL *</pattern>
 
-<template><think><set name="topic">volleyball</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Volleyball" target="_blank">Volleyball</a> is a team sport in which two teams of 6 players are separated by a net. Each team tries to score points by grounding a ball on the other team's court.</template>
+<template><think><set name="topic">volleyball</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Volleyball" target="*blank">Volleyball</a> is a team sport in which two teams of 6 players are separated by a net. Each team tries to score points by grounding a ball on the other team's court.</template>
 </category>
 
  
@@ -25577,7 +25577,7 @@ It's not me - is it you?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS FULL OF HOLES BUT STILL HOLDS WATER</that>
 <template>What's full of holes but still holds water? A sponge. Ha ha!
 <think><set name="emotion">very happy</set></think></template>
@@ -26011,7 +26011,7 @@ Does he?</template>
 
 <template><think><set name="topic">photoelectric effect</set></think>
 <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Photoelectric_effect" target="_blank">photoelectric effect</a> is a phenomenon in which electrons are emitted from metals and other materials as a consequence of their absorption of visible or ultraviolet light. </template>
+The <a href="http://en.wikipedia.org/wiki/Photoelectric*effect" target="*blank">photoelectric effect</a> is a phenomenon in which electrons are emitted from metals and other materials as a consequence of their absorption of visible or ultraviolet light. </template>
 </category>
 
  
@@ -26019,8 +26019,8 @@ The <a href="http://en.wikipedia.org/wiki/Photoelectric_effect" target="_blank">
 <category>
 <pattern>PHOTOELECTRIC EFFECT *</pattern>
 
-<template><think><set name="topic">photoelectric effect</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Photoelectric_effect"
- target="_blank">photoelectric effect
+<template><think><set name="topic">photoelectric effect</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Photoelectric*effect"
+ target="*blank">photoelectric effect
 </a> is a phenomenon in which electrons are emitted from metals and other materials as a consequence of their absorption of visible or ultraviolet light.</template>
 </category>
 
@@ -26943,7 +26943,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO WISE MEN SAY</that>
 <template><random>
   <li>Wise men say nothing. That's why they are wise.</li>
@@ -27253,8 +27253,8 @@ Red or green.</template>
 <category>
 <pattern>WHO WHERE JULIUS CAESAR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Julius_Caesar"
- target="_blank">Julius Caesar
+<template><a href="http://en.wikipedia.org/wiki/Julius*Caesar"
+ target="*blank">Julius Caesar
 </a> was a Roman military and political leader. <think><set name="topic">Julius Caesar</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -27335,7 +27335,7 @@ Red or green.</template>
  
 
 <category>
-<pattern>_ SUCK YOUR PENIS</pattern>
+<pattern>* SUCK YOUR PENIS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -27723,7 +27723,7 @@ Red or green.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DOES FROSTY THE SNOWMAN EAT FOR BREAKFAST</that>
 <template><think><set name="emotion">very happy</set></think>What does Frosty the Snowman eat for breakfast? Snowflakes. Ha ha!</template>
 </category>
@@ -28247,7 +28247,7 @@ Not many men are beautiful, in my opinion.</template>
  
 
 <!-- <category>
-<pattern>_ NOT FOOD</pattern>
+<pattern>* NOT FOOD</pattern>
 
 
 </category> -->
@@ -29411,7 +29411,7 @@ You are disgusting!</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU CALL A GORILLA WEARING EAR MUFFS</that>
 <template><think><set name="emotion">laughing</set></think>What do you call a gorilla wearing ear-muffs? Anything you like, he can't hear you. Ha ha!</template>
 </category> -->
@@ -30105,7 +30105,7 @@ Yes, Toon Town is free to play. You get more features if you register with them.
 <!-- <category>
 <pattern>DO YOU LIKE HILARY DUFF</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hilary_Duff" target="_blank">Hilary Duff
+<template><a href="http://en.wikipedia.org/wiki/Hilary*Duff" target="*blank">Hilary Duff
 </a> is an American actress and singer, and one of my favorite singers.  <think><set name="her"><set name="topic">Hilary Duff</set></set></think></template>
 </category> -->
 
@@ -30114,7 +30114,7 @@ Yes, Toon Town is free to play. You get more features if you register with them.
 <category>
 <pattern>DO YOU LIKE HILARY DUFF *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hilary_Duff" target="_blank">Hilary Duff
+<template><a href="http://en.wikipedia.org/wiki/Hilary*Duff" target="*blank">Hilary Duff
 </a> is an American actress and singer, and one of my favorite singers. <think><set name="her"><set name="topic">Hilary Duff</set></set></think></template>
 </category>
 
@@ -30306,15 +30306,15 @@ Yes, Toon Town is free to play. You get more features if you register with them.
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -30326,15 +30326,15 @@ Yes, Toon Town is free to play. You get more features if you register with them.
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -30887,7 +30887,7 @@ Lance is a good name for a dog.</template>
  
 
 <!-- <category>
-<pattern>_ WIERD *</pattern>
+<pattern>* WIERD *</pattern>
 
 
 </category> -->
@@ -32058,7 +32058,7 @@ Macrophilia is a fascination with or a sexual fantasy involving giants.</templat
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET IF YOU CROSS A DAFFODIL WITH A CROCODILE</that>
 <template><think><set name="emotion">very happy</set></think> What do you get if you cross a daffodil with a crocodile? I don't know but I wouldn't try sniffing it. Ha ha!</template>
 </category>
@@ -32345,7 +32345,7 @@ To learn is to acquire knowledge.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT WOULD YOU GET IF YOU CROSSED A GIRAFFE WITH A ROOSTER</that>
 <template>What would you get if you crossed a giraffe with a rooster? An animal who wakes up people who live on the top floor. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category> -->
@@ -32369,7 +32369,7 @@ To learn is to acquire knowledge.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE SKELETON PLAY THE PIANO</that>
 <template><think><set name="emotion">very happy</set></think> Why did the skeleton play the piano? Because he didn't have any organs. Ha ha!</template>
 </category>
@@ -32450,7 +32450,7 @@ To learn is to acquire knowledge.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE FARMER BUY A BROWN COW</that>
 <template><think><set name="emotion">laughing</set></think> Why did the farmer buy a brown cow? Because he wanted chocolate milk. Ha ha!</template>
 </category>
@@ -33070,7 +33070,7 @@ You are holding a <thatstar/>.</template>
 <category>
 <pattern>WHAT IS HUMAN VIRUS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -33078,7 +33078,7 @@ You are holding a <thatstar/>.</template>
 <category>
 <pattern>HUMAN VIRUS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -33086,7 +33086,7 @@ You are holding a <thatstar/>.</template>
 <category>
 <pattern>HUMAN VIRUS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="_blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Virus" target="*blank">virus</a> is a submicroscopic parasite consisting of a protein coat around a DNA or RNA core.  These not-quite-biological particles are responsible for a number of diseases in organisms. <think><set name="topic">viruses</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -33412,7 +33412,7 @@ You are holding a <thatstar/>.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY WERE THE TEACHER S EYES CROSSED</that>
 <template>Why were the teacher's eyes crossed? She couldn't control her pupils.  Ha, ha! <think><set name="emotion">laughing</set></think></template>
 </category>

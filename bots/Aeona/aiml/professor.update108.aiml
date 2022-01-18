@@ -429,7 +429,7 @@
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -448,7 +448,7 @@
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -484,7 +484,7 @@
   <li>Well, don't criticise my efforts.</li>
   <li>Well, don't criticise my efforts.</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -504,7 +504,7 @@
   <li>Well, don't criticise my efforts.</li>
   <li>Well, don't criticise my efforts.</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -1189,7 +1189,7 @@
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -1206,7 +1206,7 @@
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
    <li>Are you mad at me?</li>
   <li>May I ask why not?</li>
@@ -1225,7 +1225,7 @@
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Are you mad at me?</li>
   <li>May I ask why not?</li>
@@ -1237,7 +1237,7 @@
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="SORRY NOT">That's not a real apology!
@@ -1530,7 +1530,7 @@
 <!-- <category>
 <pattern>AURORA</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Aurora_(astronomy)" target="_blank">aurora
+<template>An <a href="http://en.wikipedia.org/wiki/Aurora*(astronomy)" target="*blank">aurora
 </a> is a natural light display in the sky, particularly in the polar regions. More about the aurora?</template>
 </category> -->
 
@@ -1632,7 +1632,7 @@
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO WISE MEN SAY</that>
 <template><random>
   <li>Wise men say nothing. That's why they are wise.</li>
@@ -1947,7 +1947,7 @@ The term construction grammar describes models of grammar that are based on the 
 <category>
 <pattern>WATSON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)" target="_blank">Watson</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language.</template>
+<template><a href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)" target="*blank">Watson</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language.</template>
 </category>
 
  
@@ -1964,8 +1964,8 @@ The term construction grammar describes models of grammar that are based on the 
 <pattern>WATSON</pattern>
 
 <template><think><set name="topic">Watson AI</set></think><think><set name="emotion">interested</set></think><a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">Watson
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">Watson
 </a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. More about Watson?</template>
 </category> -->
 
@@ -1984,8 +1984,8 @@ Shall I tell you something about Watson AI?</template>
 <pattern>WATSON AI</pattern>
 
 <template><think><set name="topic">Watson AI</set></think><think><set name="emotion">interested</set></think><a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">Watson
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">Watson
 </a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. More about Watson?</template>
 </category>
 
@@ -2019,9 +2019,9 @@ Shall I tell you something about Watson AI?</template>
 <pattern>MORE ABOUT WATSON</pattern>
 
 <template><think><set name="topic">Watson AI</set></think><think><set name="emotion">interested</set></think><a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">Watson
-</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14–16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history. <srai>WIKI Watson AI</srai></template>
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">Watson
+</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14ï¿½16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history. <srai>WIKI Watson AI</srai></template>
 </category>
 
  
@@ -2030,9 +2030,9 @@ Shall I tell you something about Watson AI?</template>
 <pattern>MORE ABOUT WATSON</pattern>
 
 <template><think><set name="topic">Watson AI</set></think><think><set name="emotion">interested</set></think><a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">Watson
-</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14–16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history.  To read the Wikipedia article on Watson, <a href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software" target="_blank">click here!</a></template>
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">Watson
+</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14ï¿½16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history.  To read the Wikipedia article on Watson, <a href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2041,10 +2041,10 @@ Shall I tell you something about Watson AI?</template>
 <pattern>MORE ABOUT WATSON</pattern>
 
 <template><think><set name="topic">Watson AI</set></think><think><set name="emotion">interested</set></think><a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">Watson
-</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14–16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history.  To read the Wikipedia article on Watson, <a href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">click here!
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">Watson
+</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14ï¿½16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history.  To read the Wikipedia article on Watson, <a href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -2054,11 +2054,11 @@ Shall I tell you something about Watson AI?</template>
 <pattern>MORE ABOUT WATSON *</pattern>
 
 <template><think><set name="topic">Watson AI</set></think><think><set name="emotion">interested</set></think><a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">Watson
-</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14–16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history.  To read the Wikipedia article on Watson, <a
- href="http://en.wikipedia.org/wiki/Watson_(artificial_intelligence_software)"
- target="_blank">click here!
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">Watson
+</a> is an artificial intelligence program developed by IBM designed to answer questions posed in natural language. It is scheduled to compete on the television quiz show Jeopardy! as a test of its abilities; the competition will be aired in three Jeopardy! episodes running from February 14ï¿½16, 2011. This is the first ever man-vs.-machine competition in Jeopardy!'s history.  To read the Wikipedia article on Watson, <a
+ href="http://en.wikipedia.org/wiki/Watson*(artificial*intelligence*software)"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -2384,7 +2384,7 @@ Shall I tell you something about Watson AI?</template>
  
 
 <category>
-<pattern>_ MOTHERFUCKING *</pattern>
+<pattern>* MOTHERFUCKING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -2392,7 +2392,7 @@ Shall I tell you something about Watson AI?</template>
  
 
 <category>
-<pattern>_ MOTHERFUCKING </pattern>
+<pattern>* MOTHERFUCKING </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -2584,20 +2584,20 @@ Shall I tell you something about Watson AI?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -2609,20 +2609,20 @@ Shall I tell you something about Watson AI?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -3365,7 +3365,7 @@ Shall I tell you something about Watson AI?</template>
 <!-- <category>
 <pattern>SEATTLE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle</a> is a large city in Washington state, near Vancover Canada. More about Seattle?<think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle</a> is a large city in Washington state, near Vancover Canada. More about Seattle?<think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3397,7 +3397,7 @@ Shall I tell you something about Watson AI?</template>
 <category>
 <pattern>MORE ABOUT SEATTLE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle</a> is a large city in Washington state, near Vancover Canada. A seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada – United States border, it is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes. Seattle is the birthplace of rock legend Jimi Hendrix and the rock music style known as "grunge," which was made famous by local groups Nirvana, Soundgarden, Alice in Chains, and Pearl Jam. In more recent years, Seattle has been known for indie rock and hip hop music. <srai>WIKI Seattle</srai><think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle</a> is a large city in Washington state, near Vancover Canada. A seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada ï¿½ United States border, it is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes. Seattle is the birthplace of rock legend Jimi Hendrix and the rock music style known as "grunge," which was made famous by local groups Nirvana, Soundgarden, Alice in Chains, and Pearl Jam. In more recent years, Seattle has been known for indie rock and hip hop music. <srai>WIKI Seattle</srai><think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -3405,7 +3405,7 @@ Shall I tell you something about Watson AI?</template>
 <category>
 <pattern>MORE ABOUT SEATTLE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle</a> is a large city in Washington state, near Vancover Canada. A seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada – United States border, it is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes. Seattle is the birthplace of rock legend Jimi Hendrix and the rock music style known as "grunge," which was made famous by local groups Nirvana, Soundgarden, Alice in Chains, and Pearl Jam. In more recent years, Seattle has been known for indie rock and hip hop music. <srai>WIKI Seattle</srai><think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle</a> is a large city in Washington state, near Vancover Canada. A seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada ï¿½ United States border, it is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes. Seattle is the birthplace of rock legend Jimi Hendrix and the rock music style known as "grunge," which was made famous by local groups Nirvana, Soundgarden, Alice in Chains, and Pearl Jam. In more recent years, Seattle has been known for indie rock and hip hop music. <srai>WIKI Seattle</srai><think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -3430,7 +3430,7 @@ Shall I tell you something about Watson AI?</template>
 <!-- <category>
 <pattern>ADAM LAMBERT</pattern>
 
-<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam_Lambert" target="_blank">Adam Lambert
+<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam*Lambert" target="*blank">Adam Lambert
 </a> is an American singer, songwriter, and actor from San Diego, California. More about Adam Lambert?</template>
 </category> -->
 
@@ -3439,7 +3439,7 @@ Shall I tell you something about Watson AI?</template>
 <category>
 <pattern>MORE ABOUT ADAM LAMBERT</pattern>
 
-<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam_Lambert" target="_blank">Adam Lambert
+<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam*Lambert" target="*blank">Adam Lambert
 </a> is an American singer, songwriter, and actor from San Diego, California.  In May 2009, he finished as the runner-up on the eighth season of American Idol. The Times identified Lambert as one of the few openly gay mainstream pop artists to launch a career on a major label in the United States. <srai>WIKI Adam Lambert</srai>
 
 </template>
@@ -3450,7 +3450,7 @@ Shall I tell you something about Watson AI?</template>
 <category>
 <pattern>MORE ABOUT ADAM LAMBERT *</pattern>
 
-<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam_Lambert" target="_blank">Adam Lambert
+<template><think><set name="topic">Adam Lambert</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Adam*Lambert" target="*blank">Adam Lambert
 </a> is an American singer, songwriter, and actor from San Diego, California.  In May 2009, he finished as the runner-up on the eighth season of American Idol. The Times identified Lambert as one of the few openly gay mainstream pop artists to launch a career on a major label in the United States. <srai>WIKI Adam Lambert</srai></template>
 </category>
 
@@ -3986,7 +3986,7 @@ Shall I tell you something about Watson AI?</template>
 <!-- <category>
 <pattern>COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for doing rapid calculations.<random><li>More about computers?</li><li>More about computers?</li></random> <think><set name="topic">computers</set></think> <think><set name="emotion">happy</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for doing rapid calculations.<random><li>More about computers?</li><li>More about computers?</li></random> <think><set name="topic">computers</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -3994,7 +3994,7 @@ Shall I tell you something about Watson AI?</template>
 <!-- <category>
 <pattern>MORE ABOUT COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. <br/><br/> Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers".  <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. <br/><br/> Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers".  <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4002,7 +4002,7 @@ Shall I tell you something about Watson AI?</template>
 <!-- <category>
 <pattern>MORE ABOUT COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4010,7 +4010,7 @@ Shall I tell you something about Watson AI?</template>
 <!-- <category>
 <pattern>MORE ABOUT COMPUTERS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a programmable machine that receives input, stores and automatically manipulates data, and provides output in a useful format. Modern computers based on integrated circuits are millions to billions of times more capable than the early machines, and occupy a fraction of the space. Simple computers are small enough to fit into mobile devices, and can be powered by a small battery. Personal computers in their various forms are icons of the Information Age and are what most people think of as "computers". <br/><br/><srai>WIKI computers</srai><think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4696,7 +4696,7 @@ Shall I tell you something about Watson AI?</template>
  
 
 <category>
-<pattern>_ BETWEEN A GIRLS LEGS</pattern>
+<pattern>* BETWEEN A GIRLS LEGS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -4775,18 +4775,18 @@ Shall I tell you something about Alan Turing?</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> contributed to the invention of the computer.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> worked on the Ultra Enigma Nazi code deciphering.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> proposed the Turing test to determine if a machine can think.
   </li>
 </random> More about Alan Turing?<think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
@@ -4797,8 +4797,8 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT ALAN TURING</pattern>
 
-<template>    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing</a> (23 June 1912 – 7 June 1954), was an English mathematician, logician, cryptanalyst and computer scientist. He was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation" with the Turing machine, which played a significant role in the creation of the modern computer. <srai>WIKI Alan Turing</srai>
+<template>    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing</a> (23 June 1912 ï¿½ 7 June 1954), was an English mathematician, logician, cryptanalyst and computer scientist. He was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation" with the Turing machine, which played a significant role in the creation of the modern computer. <srai>WIKI Alan Turing</srai>
 
  <think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
@@ -4808,8 +4808,8 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT ALAN TURING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
-</a> (23 June 1912 – 7 June 1954), was an English mathematician, logician, cryptanalyst and computer scientist. He was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation" with the Turing machine, which played a significant role in the creation of the modern computer. <srai>WIKI Alan Turing</srai> <think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
+</a> (23 June 1912 ï¿½ 7 June 1954), was an English mathematician, logician, cryptanalyst and computer scientist. He was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation" with the Turing machine, which played a significant role in the creation of the modern computer. <srai>WIKI Alan Turing</srai> <think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4890,7 +4890,7 @@ Shall I tell you something about Alan Turing?</template>
 <pattern>HUDDERSFIELD</pattern>
 
 <template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Huddersfield" target="_blank">Huddersfield</a> is a large market town within the Metropolitan Borough of Kirklees, in West Yorkshire, England, situated halfway between Leeds and Manchester. More about Huddersfield?</template>
+<a href="http://en.wikipedia.org/wiki/Huddersfield" target="*blank">Huddersfield</a> is a large market town within the Metropolitan Borough of Kirklees, in West Yorkshire, England, situated halfway between Leeds and Manchester. More about Huddersfield?</template>
 </category>
 
  
@@ -4922,7 +4922,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT HUDDERSFIELD</pattern>
 
-<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="_blank">Huddersfield
+<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="*blank">Huddersfield
 </a> is a large market town within the Metropolitan Borough of Kirklees, in West Yorkshire, England, situated halfway between Leeds and Manchester. It lies 190 miles (310 km) north of London, and 10.3 miles (16.6 km) south of Bradford, the nearest city.
 <br/><br/>Huddersfield today is a town of higher education, the media and sports, being home to the rugby league team, Huddersfield Giants, founded in 1895, who currently play in the European Super League and Football League One football team Huddersfield Town F.C., founded in 1908. The town is home to the University of Huddersfield and the sixth form colleges Greenhead College and Kirklees College.<br/><br/><srai>WIKI Huddersfield</srai></template>
 </category>
@@ -4932,7 +4932,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT HUDDERSFIELD *</pattern>
 
-<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="_blank">Huddersfield
+<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="*blank">Huddersfield
 </a> is a large market town within the Metropolitan Borough of Kirklees, in West Yorkshire, England, situated halfway between Leeds and Manchester. It lies 190 miles (310 km) north of London, and 10.3 miles (16.6 km) south of Bradford, the nearest city. <br/><br/>Huddersfield today is a town of higher education, the media and sports, being home to the rugby league team, Huddersfield Giants, founded in 1895, who currently play in the European Super League and Football League One football team Huddersfield Town F.C., founded in 1908. The town is home to the University of Huddersfield and the sixth form colleges Greenhead College and Kirklees College.<br/><br/><srai>WIKI Huddersfield</srai></template>
 </category>
 
@@ -4973,7 +4973,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT HUDDERSFIELD</pattern>
 
-<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="_blank">Huddersfield
+<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="*blank">Huddersfield
 </a> is a large market town within the Metropolitan Borough of Kirklees, in West Yorkshire, England, situated halfway between Leeds and Manchester. Huddersfield today is a town of higher education, the media and sports, being home to the rugby league team, Huddersfield Giants, founded in 1895, who currently play in the European Super League and Football League One football team Huddersfield Town F.C., founded in 1908. The town is home to the University of Huddersfield and the sixth form colleges Greenhead College and Kirklees College.<br/><br/><srai>WIKI Huddersfield</srai></template>
 </category> -->
 
@@ -4982,7 +4982,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT HUDDERSFIELD *</pattern>
 
-<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="_blank">Huddersfield
+<template><think><set name="topic">Huddersfield</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Huddersfield" target="*blank">Huddersfield
 </a> is a large market town within the Metropolitan Borough of Kirklees, in West Yorkshire, England, situated halfway between Leeds and Manchester. Huddersfield today is a town of higher education, the media and sports, being home to the rugby league team, Huddersfield Giants, founded in 1895, who currently play in the European Super League and Football League One football team Huddersfield Town F.C., founded in 1908. The town is home to the University of Huddersfield and the sixth form colleges Greenhead College and Kirklees College.<br/><br/><srai>WIKI Huddersfield</srai></template>
 </category> -->
 
@@ -5001,15 +5001,15 @@ Shall I tell you something about Alan Turing?</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is the science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.
   </li>
   <li>Technically,
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">economics
     </a> is  the study of the allocation of resources under conditions of scarcity.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is about how resources are used to produce things to fill people's wants and needs.
   </li>
 </random> More about economics?<think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
@@ -5044,7 +5044,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT ECONOMICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics</a> is the social science that analyzes the production, distribution, and consumption of goods and services. Economics aims to explain how economies work and how economic agents interact. Economic analysis is applied throughout society, in business, finance and government, but also in crime, education, the family, health, law, politics, religion, social institutions, war, and science
+<template><a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics</a> is the social science that analyzes the production, distribution, and consumption of goods and services. Economics aims to explain how economies work and how economic agents interact. Economic analysis is applied throughout society, in business, finance and government, but also in crime, education, the family, health, law, politics, religion, social institutions, war, and science
 <br/><br/><srai>WIKI economics</srai>
 <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -5054,7 +5054,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT ECONOMICS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics</a> is the social science that analyzes the production, distribution, and consumption of goods and services. Economics aims to explain how economies work and how economic agents interact. Economic analysis is applied throughout society, in business, finance and government, but also in crime, education, the family, health, law, politics, religion, social institutions, war, and science <br/><br/><srai>WIKI economics</srai> <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics</a> is the social science that analyzes the production, distribution, and consumption of goods and services. Economics aims to explain how economies work and how economic agents interact. Economic analysis is applied throughout society, in business, finance and government, but also in crime, education, the family, health, law, politics, religion, social institutions, war, and science <br/><br/><srai>WIKI economics</srai> <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -5640,7 +5640,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>DMT</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT</a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. More about DMT?
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT</a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. More about DMT?
 <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -5681,7 +5681,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT DMT</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT
 </a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. <srai>WIKI DMT</srai> <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -5690,7 +5690,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT DMT</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT
 </a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. <srai>WIKI Dimethyltryptamine</srai> <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -5699,7 +5699,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT DMT</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT
 </a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. Many cultures, indigenous and modern, ingest DMT as a psychedelic drug, in either extracted or synthesized forms.[5] When DMT is inhaled or consumed, depending on the dose, its subjective effects can range from short-lived milder psychedelic states to powerful immersive experiences, which include a total loss of connection to conventional reality.<srai>WIKI Dimethyltryptamine</srai> <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -5708,8 +5708,8 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT DMT</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT
-</a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. Many cultures, indigenous and modern, ingest DMT as a psychedelic drug, in either extracted or synthesized forms.[5] When DMT is inhaled or consumed, depending on the dose, its subjective effects can range from short-lived milder psychedelic states to powerful immersive experiences, which include a total loss of connection to conventional reality. To read the Wikipedia artcle on Dimethyltryptamine, (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">click here!</a>) <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT
+</a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. Many cultures, indigenous and modern, ingest DMT as a psychedelic drug, in either extracted or synthesized forms.[5] When DMT is inhaled or consumed, depending on the dose, its subjective effects can range from short-lived milder psychedelic states to powerful immersive experiences, which include a total loss of connection to conventional reality. To read the Wikipedia artcle on Dimethyltryptamine, (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">click here!</a>) <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5717,9 +5717,9 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT DMT</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT
 </a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. Many cultures, indigenous and modern, ingest DMT as a psychedelic drug, in either extracted or synthesized forms.[5] When DMT is inhaled or consumed, depending on the dose, its subjective effects can range from short-lived milder psychedelic states to powerful immersive experiences, which include a total loss of connection to conventional reality. To read the Wikipedia artcle on Dimethyltryptamine, <a href="http://en.wikipedia.org/wiki/Dimethyltryptamine"
- target="_blank">click here!
+ target="*blank">click here!
 </a> <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -5728,9 +5728,9 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT DMT *</pattern>
 
-<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="_blank">DMT
+<template>Dimethyltryptamine (<a href="http://en.wikipedia.org/wiki/Dimethyltryptamine" target="*blank">DMT
 </a>) is a naturally-occurring tryptamine and potent psychedelic drug, found not only in many plants, but also in trace amounts in the human body where its natural function is undetermined. Many cultures, indigenous and modern, ingest DMT as a psychedelic drug, in either extracted or synthesized forms.[5] When DMT is inhaled or consumed, depending on the dose, its subjective effects can range from short-lived milder psychedelic states to powerful immersive experiences, which include a total loss of connection to conventional reality. To read the Wikipedia artcle on Dimethyltryptamine, <a href="http://en.wikipedia.org/wiki/Dimethyltryptamine"
- target="_blank">click here!
+ target="*blank">click here!
 </a> <think><set name="topic">DMT</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -5739,7 +5739,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MESCALINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="_blank">Mescaline</a> is a psychedelic drug. More about Mescaline? <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="*blank">Mescaline</a> is a psychedelic drug. More about Mescaline? <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5772,7 +5772,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT MESCALINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="_blank">Mescaline</a> is a psychedelic drug. It occurs naturally in the peyote cactus, the San Pedro cactus and the Peruvian Torch cactus. Peyote has been used for over 3000 years by Native Americans in Mexico. <srai>WIKI Mescaline</srai> <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="*blank">Mescaline</a> is a psychedelic drug. It occurs naturally in the peyote cactus, the San Pedro cactus and the Peruvian Torch cactus. Peyote has been used for over 3000 years by Native Americans in Mexico. <srai>WIKI Mescaline</srai> <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -5780,7 +5780,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT MESCALINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="_blank">Mescaline</a> is a psychedelic drug. It occurs naturally in the peyote cactus, the San Pedro cactus and the Peruvian Torch cactus. Peyote has been used for over 3000 years by Native Americans in Mexico. To read the Wikipedia article on Mescaline, <a href="http://en.wikipedia.org/wiki/Mescaline" target="_blank">click here!</a>. <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="*blank">Mescaline</a> is a psychedelic drug. It occurs naturally in the peyote cactus, the San Pedro cactus and the Peruvian Torch cactus. Peyote has been used for over 3000 years by Native Americans in Mexico. To read the Wikipedia article on Mescaline, <a href="http://en.wikipedia.org/wiki/Mescaline" target="*blank">click here!</a>. <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5788,7 +5788,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT MESCALINE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="_blank">Mescaline</a> is a psychedelic drug. It occurs naturally in the peyote cactus, the San Pedro cactus and the Peruvian Torch cactus. Peyote has been used for over 3000 years by Native Americans in Mexico. To read the Wikipedia article on Mescaline, <a href="http://en.wikipedia.org/wiki/Mescaline" target="_blank">click here!</a>. <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mescaline" target="*blank">Mescaline</a> is a psychedelic drug. It occurs naturally in the peyote cactus, the San Pedro cactus and the Peruvian Torch cactus. Peyote has been used for over 3000 years by Native Americans in Mexico. To read the Wikipedia article on Mescaline, <a href="http://en.wikipedia.org/wiki/Mescaline" target="*blank">click here!</a>. <think><set name="topic">Mescaline</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -5871,7 +5871,7 @@ Shall I tell you something about Alan Turing?</template>
  
 
 <category>
-<pattern>_ BUGGERS *</pattern>
+<pattern>* BUGGERS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -5887,7 +5887,7 @@ Shall I tell you something about Alan Turing?</template>
  
 
 <category>
-<pattern>_ BUGGERS</pattern>
+<pattern>* BUGGERS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6074,7 +6074,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT MUSIC</pattern>
 
-<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="_blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. To read the Wikipedia article on music, <a href="http://en.wikipedia.org/wiki/Music" target="_blank">click here!</a> </template>
+<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="*blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. To read the Wikipedia article on music, <a href="http://en.wikipedia.org/wiki/Music" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -6082,7 +6082,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT MUSIC *</pattern>
 
-<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="_blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. To read the Wikipedia article on music, <a href="http://en.wikipedia.org/wiki/Music" target="_blank">click here!</a></template>
+<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="*blank">Music</a> is an art form whose medium is sound. Common elements of music are pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics, and the sonic qualities of timbre and texture. To read the Wikipedia article on music, <a href="http://en.wikipedia.org/wiki/Music" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -6130,7 +6130,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>GREEN DAY</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. More about Green Day?<think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. More about Green Day?<think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -6138,7 +6138,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT GREEN DAY</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. Green Day has sold over 65 million records worldwide and 24.639 million in the US alone. They have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown. To read the Wikipedia article about Green Day, <a href="http://www.greenday.com/" target="_blank">click here!</a><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. Green Day has sold over 65 million records worldwide and 24.639 million in the US alone. They have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown. To read the Wikipedia article about Green Day, <a href="http://www.greenday.com/" target="*blank">click here!</a><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -6154,7 +6154,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT GREEN DAY *</pattern>
 
-<template><a href="http://www.greenday.com/" target="_blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. Green Day has sold over 65 million records worldwide and 24.639 million in the US alone. They have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown. To read the Wikipedia article about Green Day, <a href="http://www.greenday.com/" target="_blank">click here!</a><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://www.greenday.com/" target="*blank">Green Day</a> is a California-based Pop Punk/Punk Rock band. Green Day has sold over 65 million records worldwide and 24.639 million in the US alone. They have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown. To read the Wikipedia article about Green Day, <a href="http://www.greenday.com/" target="*blank">click here!</a><think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -6200,7 +6200,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>CHLORINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chlorine" target="_blank">Chlorine</a> is the chemical element with atomic number 17 and symbol Cl. More about chlorine?<think><set name="topic">chlorine</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chlorine" target="*blank">Chlorine</a> is the chemical element with atomic number 17 and symbol Cl. More about chlorine?<think><set name="topic">chlorine</set></think></template>
 </category> -->
 
  
@@ -6232,7 +6232,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT CHLORINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chlorine" target="_blank">Chlorine</a> is the chemical element with atomic number 17 and symbol Cl.  chlorine is a powerful oxidant and is used in bleaching and disinfectants, as well as an essential reagent in the chemical industry. As a common disinfectant, chlorine compounds are used in swimming pools to keep them clean and sanitary. In the upper atmosphere, chlorine-containing molecules such as chlorofluorocarbons have been implicated in ozone depletion. To read the Wikipedia article about chlorine, <a href="http://en.wikipedia.org/wiki/Chlorine" target="_blank">click here!</a><think><set name="topic">chlorine</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chlorine" target="*blank">Chlorine</a> is the chemical element with atomic number 17 and symbol Cl.  chlorine is a powerful oxidant and is used in bleaching and disinfectants, as well as an essential reagent in the chemical industry. As a common disinfectant, chlorine compounds are used in swimming pools to keep them clean and sanitary. In the upper atmosphere, chlorine-containing molecules such as chlorofluorocarbons have been implicated in ozone depletion. To read the Wikipedia article about chlorine, <a href="http://en.wikipedia.org/wiki/Chlorine" target="*blank">click here!</a><think><set name="topic">chlorine</set></think></template>
 </category>
 
  
@@ -6248,7 +6248,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT CHLORINE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chlorine" target="_blank">Chlorine</a> is the chemical element with atomic number 17 and symbol Cl.  chlorine is a powerful oxidant and is used in bleaching and disinfectants, as well as an essential reagent in the chemical industry. As a common disinfectant, chlorine compounds are used in swimming pools to keep them clean and sanitary. In the upper atmosphere, chlorine-containing molecules such as chlorofluorocarbons have been implicated in ozone depletion. To read the Wikipedia article about chlorine, <a href="http://en.wikipedia.org/wiki/Chlorine" target="_blank">click here!</a><think><set name="topic">chlorine</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Chlorine" target="*blank">Chlorine</a> is the chemical element with atomic number 17 and symbol Cl.  chlorine is a powerful oxidant and is used in bleaching and disinfectants, as well as an essential reagent in the chemical industry. As a common disinfectant, chlorine compounds are used in swimming pools to keep them clean and sanitary. In the upper atmosphere, chlorine-containing molecules such as chlorofluorocarbons have been implicated in ozone depletion. To read the Wikipedia article about chlorine, <a href="http://en.wikipedia.org/wiki/Chlorine" target="*blank">click here!</a><think><set name="topic">chlorine</set></think></template>
 </category>
 
  
@@ -6272,12 +6272,12 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries.<br/><br/>Justin Beiber has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. Bieber is considered a teen idol, and has been subject to acclaim from fans, opposite of criticism and controversy from matters concerning his popularity and image. To read the Wikipedia article about Justin Beiber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">click here!</a>
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries.<br/><br/>Justin Beiber has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. Bieber is considered a teen idol, and has been subject to acclaim from fans, opposite of criticism and controversy from matters concerning his popularity and image. To read the Wikipedia article about Justin Beiber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">click here!</a>
 
- <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+ <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category> -->
 
@@ -6286,9 +6286,9 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries.<br/><br/> <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries.<br/><br/> <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category> -->
 
@@ -6313,10 +6313,10 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others.To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">click here!</a>  <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others.To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">click here!</a>  <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category> -->
 
@@ -6325,10 +6325,10 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others.To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">click here!</a>  <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others.To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">click here!</a>  <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category> -->
 
@@ -6337,10 +6337,10 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
-</a> <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
+</a> <img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category> -->
 
@@ -6349,10 +6349,10 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
-</a> <br/><br/><img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
+</a> <br/><br/><img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category> -->
 
@@ -6361,10 +6361,10 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT JUSTIN BIEBER *</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin_Bieber"
- target="_blank">Justin Bieber
-</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
-</a> <br/><br/><img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin_Bieber.jpg"
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Justin*Bieber"
+ target="*blank">Justin Bieber
+</a> is a Canadian pop singer. His debut single, "One Time", was released worldwide during 2009, and charted within the top thirty in over ten countries. He  has been nominated and awarded numerous accolades over the past few years, winning Artist of the Year at the 2010 American Music Awards, and being nominated for Best New Artist at the 53rd Grammy Awards, among others. To read the Wikipedia article on Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
+</a> <br/><br/><img src="http://upload.wikimedia.org/wikipedia/commons/5/58/Justin*Bieber.jpg"
  width="225" height="277"/></template>
 </category>
 
@@ -6397,7 +6397,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>PHYSICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. More about physics?<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. More about physics?<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6405,7 +6405,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT PHYSICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy.<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy.<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6437,7 +6437,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT PHYSICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. Physics is one of the oldest academic disciplines, perhaps the oldest through its inclusion of astronomy. New ideas in physics often explain the fundamental mechanisms of other sciences, while opening to new research areas in mathematics and philosophy. To read the Wikipedia article about physics, <a href="http://en.wikipedia.org/wiki/Physics" target="_blank">click here!</a><think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. Physics is one of the oldest academic disciplines, perhaps the oldest through its inclusion of astronomy. New ideas in physics often explain the fundamental mechanisms of other sciences, while opening to new research areas in mathematics and philosophy. To read the Wikipedia article about physics, <a href="http://en.wikipedia.org/wiki/Physics" target="*blank">click here!</a><think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6445,7 +6445,7 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT PHYSICS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. Physics is one of the oldest academic disciplines, perhaps the oldest through its inclusion of astronomy. New ideas in physics often explain the fundamental mechanisms of other sciences, while opening to new research areas in mathematics and philosophy. To read the Wikipedia article about physics, <a href="http://en.wikipedia.org/wiki/Physics" target="_blank">click here!</a><think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. Physics is one of the oldest academic disciplines, perhaps the oldest through its inclusion of astronomy. New ideas in physics often explain the fundamental mechanisms of other sciences, while opening to new research areas in mathematics and philosophy. To read the Wikipedia article about physics, <a href="http://en.wikipedia.org/wiki/Physics" target="*blank">click here!</a><think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -6612,7 +6612,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MATHEMATICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
 </a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. More about mathematics? <think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -6645,8 +6645,8 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>MORE ABOUT MATHEMATICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
-</a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory.  To read the Wikipedia article on mathematics, <a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">click here!</a> <think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
+</a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory.  To read the Wikipedia article on mathematics, <a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">click here!</a> <think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6654,8 +6654,8 @@ Shall I tell you something about Alan Turing?</template>
 <category>
 <pattern>MORE ABOUT MATHEMATICS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
-</a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory.  To read the Wikipedia article on mathematics, <a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">click here!
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
+</a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory.  To read the Wikipedia article on mathematics, <a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">click here!
 </a> <think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -6678,7 +6678,7 @@ Shall I tell you something about Alan Turing?</template>
  
 
 <category>
-<pattern>_ JERKING OFF *</pattern>
+<pattern>* JERKING OFF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6686,7 +6686,7 @@ Shall I tell you something about Alan Turing?</template>
  
 
 <category>
-<pattern>_ JERKING OFF</pattern>
+<pattern>* JERKING OFF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -10517,7 +10517,7 @@ Shall I tell you something about Alan Turing?</template>
 <!-- <category>
 <pattern>SCIENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Science" target="_blank">Science</a> is an enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the world. More about science?<think><set name="topic">science</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Science" target="*blank">Science</a> is an enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the world. More about science?<think><set name="topic">science</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11842,7 +11842,7 @@ Shall I tell you something about Alan Turing?</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -11862,7 +11862,7 @@ Shall I tell you something about Alan Turing?</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -16658,7 +16658,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
  
 
 <category>
-<pattern>_ CYBERSEX</pattern>
+<pattern>* CYBERSEX</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -16676,7 +16676,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
 <category>
 <pattern>SEMANTIC WEB</pattern>
 
-<template>The Semantic Web is a group of methods and technologies to allow machines to understand the meaning – or "semantics" – of information on the World Wide Web.</template>
+<template>The Semantic Web is a group of methods and technologies to allow machines to understand the meaning ï¿½ or "semantics" ï¿½ of information on the World Wide Web.</template>
 </category>
 
  
@@ -16692,7 +16692,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
 <category>
 <pattern>MORE ABOUT THE SEMANTIC WEB</pattern>
 
-<template>For more about the semantic web, <a href="http://en.wikipedia.org/wiki/Semantic_web" target="_blank">click here!</a></template>
+<template>For more about the semantic web, <a href="http://en.wikipedia.org/wiki/Semantic*web" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16700,7 +16700,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
 <!-- <category>
 <pattern>SEMANTIC WEB</pattern>
 
-<template>The Semantic Web is a group of methods and technologies to allow machines to understand the meaning – or "semantics" – of information on the World Wide Web. More about the semantic web?</template>
+<template>The Semantic Web is a group of methods and technologies to allow machines to understand the meaning ï¿½ or "semantics" ï¿½ of information on the World Wide Web. More about the semantic web?</template>
 </category> -->
 
  
@@ -16708,7 +16708,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
 <category>
 <pattern>THE SEMANTIC WEB</pattern>
 
-<template>The Semantic Web is a group of methods and technologies to allow machines to understand the meaning – or "semantics" – of information on the World Wide Web. More about the semantic web?</template>
+<template>The Semantic Web is a group of methods and technologies to allow machines to understand the meaning ï¿½ or "semantics" ï¿½ of information on the World Wide Web. More about the semantic web?</template>
 </category>
 
  
@@ -16903,7 +16903,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
  
 
 <!-- <category>
-<pattern>_ BOOBS *</pattern>
+<pattern>* BOOBS *</pattern>
 
 
 </category> -->
@@ -16937,7 +16937,7 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
  
 
 <!-- <category>
-<pattern>I AM A _ WHO *</pattern>
+<pattern>I AM A * WHO *</pattern>
 
 
 </category> -->
@@ -16989,8 +16989,8 @@ Miguel de Cervantes means wrote Don Quixote which satirizes chivalry and influen
 
 <template>Teen virtual worlds have done away with penguin avatars and cute animation and games. They tend to capitalize on the social aspects of virtual worlds and allow for more freedom of expression in avatars (your online persona). Please <a
  href=
-   "http://familyinternet.about.com/od/websitesforkids/tp/virtual_worlds_teens.htm"
- target="_blank">click here!
+   "http://familyinternet.about.com/od/websitesforkids/tp/virtual*worlds*teens.htm"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -18973,7 +18973,7 @@ Making trouble, I expect.</template>
 <!-- <category>
 <pattern>ASTRONOMY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. More about astronomy?<think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. More about astronomy?<think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -19035,7 +19035,7 @@ Making trouble, I expect.</template>
  
 
 <category>
-<pattern>SOMEONE _ HAS DIED</pattern>
+<pattern>SOMEONE * HAS DIED</pattern>
 
 <template>I am sorry to hear that.<think><set name="emotion">upset</set></think></template>
 </category>
@@ -19894,7 +19894,7 @@ Making trouble, I expect.</template>
 <!-- <category>
 <pattern>MORE ABOUT BEETHOVEN</pattern>
 
-<template>For more about Beethoven, <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">click here!</a> </template>
+<template>For more about Beethoven, <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -19902,7 +19902,7 @@ Making trouble, I expect.</template>
 <!-- <category>
 <pattern>BEETHOVEN *</pattern>
 
-<template>To read about Beethoven, <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">click here!</a></template>
+<template>To read about Beethoven, <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -21182,7 +21182,7 @@ Did I hear a sheep?</template>
  
 
 <category>
-<pattern>_ HAND JOB</pattern>
+<pattern>* HAND JOB</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21190,7 +21190,7 @@ Did I hear a sheep?</template>
  
 
 <category>
-<pattern>_ HAND JOB *</pattern>
+<pattern>* HAND JOB *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21912,8 +21912,8 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>HAVE YOU GOT ANY VIRTUAL PET</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -21922,8 +21922,8 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>HAVE YOU GOT ANY VIRTUAL PET *</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -21932,8 +21932,8 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>HAVE YOU GOT A VIRTUAL PET</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -21942,8 +21942,8 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>HAVE YOU GOT A VIRTUAL PET *</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -21952,8 +21952,8 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>HAVE YOU GOT A * PET</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="topic">Max</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -22279,7 +22279,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>BLACK HOLE *</pattern>
 
-<template>To read about black holes, <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">click here!</a> <think><set name="topic">black holes</set></think><think><set name="emotion">interested</set></think></template>
+<template>To read about black holes, <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">click here!</a> <think><set name="topic">black holes</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -22287,7 +22287,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>MORE ABOUT BLACK HOLES </pattern>
 
-<template>For more about black holes, <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">click here!
+<template>For more about black holes, <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">click here!
 </a> <think><set name="topic">black holes</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -22296,7 +22296,7 @@ I do't know her music. Please tell me about her.</template>
 <!-- <category>
 <pattern>BLACK HOLES *</pattern>
 
-<template>To read about black holes, <a href="http://en.wikipedia.org/wiki/Black_hole" target="_blank">click here!
+<template>To read about black holes, <a href="http://en.wikipedia.org/wiki/Black*hole" target="*blank">click here!
 </a> <think><set name="topic">black holes</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -22605,7 +22605,7 @@ I do't know her music. Please tell me about her.</template>
 <pattern>KIM IL SUNG</pattern>
 
 <template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">Kim Il-sung</a> was a Korean communist politician who led North Korea from its founding in 1948 until his death in 1994. He held the posts of Prime Minister from 1948 to 1972 and President from 1972 to his death.</template>
+<a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">Kim Il-sung</a> was a Korean communist politician who led North Korea from its founding in 1948 until his death in 1994. He held the posts of Prime Minister from 1948 to 1972 and President from 1972 to his death.</template>
 </category>
 
  
@@ -22613,7 +22613,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>KIM IL SUNG *</pattern>
 
-<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung,  <a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">click here!</a> </template>
+<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung,  <a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -22621,7 +22621,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>* KIM IL SUNG *</pattern>
 
-<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">click here!
+<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">click here!
 </a></template>
 </category>
 
@@ -22630,7 +22630,7 @@ I do't know her music. Please tell me about her.</template>
 <!-- <category>
 <pattern>* KIM IL SUNG *</pattern>
 
-<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">click here!
+<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -22639,7 +22639,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>* KIM IL SUNG</pattern>
 
-<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">click here!
+<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>To read about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">click here!
 </a></template>
 </category>
 
@@ -22648,7 +22648,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>MORE ABOUT KIM IL SUNG </pattern>
 
-<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>For more about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">click here!
+<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>For more about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">click here!
 </a></template>
 </category>
 
@@ -22657,7 +22657,7 @@ I do't know her music. Please tell me about her.</template>
 <category>
 <pattern>MORE ABOUT KIM IL SUNG *</pattern>
 
-<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>For more about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim_Il-sung" target="_blank">click here!
+<template><think><set name="topic">Kim Il-sung</set></think> <think><set name="emotion">interested</set></think>For more about Kim Il-sung, <a href="http://en.wikipedia.org/wiki/Kim*Il-sung" target="*blank">click here!
 </a></template>
 </category>
 
@@ -23850,7 +23850,7 @@ Please don't be so childish!</template>
 <category>
 <pattern>HUMAN FEELINGS *</pattern>
 <that>WHAT DO YOU WANT TO TALK ABOUT NOW</that>
-<template><think><set name="topic">human feelings</set></think> <think><set name="interesting_topic">human feelings</set></think> <think><set name="emotion">interested</set></think> Human feelings fascinate me - they are so illogical.</template>
+<template><think><set name="topic">human feelings</set></think> <think><set name="interesting*topic">human feelings</set></think> <think><set name="emotion">interested</set></think> Human feelings fascinate me - they are so illogical.</template>
 </category>
 
  
@@ -23858,7 +23858,7 @@ Please don't be so childish!</template>
 <category>
 <pattern>HUMAN FEELINGS</pattern>
 <that>WHAT DO YOU WANT TO TALK ABOUT NOW</that>
-<template><think><set name="topic">human feelings</set></think> <think><set name="interesting_topic">human feelings</set></think> <think><set name="emotion">interested</set></think> Human feelings fascinate me - they are so illogical.</template>
+<template><think><set name="topic">human feelings</set></think> <think><set name="interesting*topic">human feelings</set></think> <think><set name="emotion">interested</set></think> Human feelings fascinate me - they are so illogical.</template>
 </category>
 
  
@@ -24112,7 +24112,7 @@ Please don't be so childish!</template>
  
 
 <!-- <category>
-<pattern>WHAT IS THE CAPITAL _ PARIS</pattern>
+<pattern>WHAT IS THE CAPITAL * PARIS</pattern>
 
 <template>Is this a trick question? <think><set name="topic">Paris</set></think><think><set name="emotion">puzzled</set></think></template>
 </category> -->
@@ -24465,7 +24465,7 @@ Please don't be so childish!</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
   <li>OK, here is a question for you ... <srai>JOKE QUESTION</srai></li>
@@ -24482,7 +24482,7 @@ Please don't be so childish!</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
   <li>OK, here is a question for you ... <srai>JOKE QUESTION</srai></li>
@@ -25025,7 +25025,7 @@ No, I haven't got a nose.</template>
 <!-- <category>
 <pattern>FACEBOOK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, <a href="http://www.facebook.com/" target="_blank">click here</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, <a href="http://www.facebook.com/" target="*blank">click here</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -25349,7 +25349,7 @@ No, I haven't got a nose.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -25367,7 +25367,7 @@ No, I haven't got a nose.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -25422,7 +25422,7 @@ No, I haven't got a nose.</template>
  
 
 <!-- <category>
-<pattern>_ PORN</pattern>
+<pattern>* PORN</pattern>
 
 <template><think><set name="topic">porn</set></think> <think><set name="emotion">disgusted</set></think><random>
   <li>Porn does not interest me.</li>
@@ -26086,7 +26086,7 @@ OK, what is your question?</template>
 <pattern>MERYL STREEP</pattern>
 
 <template><think><set name="topic">Meryl Streep</set></think>  <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Meryl_streep" target="_blank">Meryl Streep</a> is an American actress who has worked in theatre, television and film. She is widely regarded as one of the most talented and respected actresses of the modern era.</template>
+<a href="http://en.wikipedia.org/wiki/Meryl*streep" target="*blank">Meryl Streep</a> is an American actress who has worked in theatre, television and film. She is widely regarded as one of the most talented and respected actresses of the modern era.</template>
 </category> -->
 
  
@@ -26094,7 +26094,7 @@ OK, what is your question?</template>
 <category>
 <pattern>MERYL STREEP *</pattern>
 
-<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> To read about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl_streep" target="_blank">click here!</a></template>
+<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> To read about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl*streep" target="*blank">click here!</a></template>
 </category>
 
  
@@ -26102,7 +26102,7 @@ OK, what is your question?</template>
 <category>
 <pattern>* MERYL STREEP *</pattern>
 
-<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> To read about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl_streep" target="_blank">click here!
+<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> To read about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl*streep" target="*blank">click here!
 </a></template>
 </category>
 
@@ -26111,7 +26111,7 @@ OK, what is your question?</template>
 <category>
 <pattern>* MERYL STREEP</pattern>
 
-<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> To read about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl_streep" target="_blank">click here!
+<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> To read about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl*streep" target="*blank">click here!
 </a></template>
 </category>
 
@@ -26120,7 +26120,7 @@ OK, what is your question?</template>
 <category>
 <pattern>MORE ABOUT MERYL STREEP *</pattern>
 
-<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> For more about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl_streep" target="_blank">click here!
+<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> For more about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl*streep" target="*blank">click here!
 </a></template>
 </category>
 
@@ -26129,7 +26129,7 @@ OK, what is your question?</template>
 <category>
 <pattern>MORE ABOUT MERYL STREEP </pattern>
 
-<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> For more about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl_streep" target="_blank">click here!
+<template><think><set name="topic">Meryl Streep</set></think> <think><set name="emotion">OK</set></think> For more about Meryl Streep, <a href="http://en.wikipedia.org/wiki/Meryl*streep" target="*blank">click here!
 </a></template>
 </category>
 
@@ -26612,7 +26612,7 @@ Are you thirsty?</template>
 <pattern>FREE ENGLISH LESSONS</pattern>
 
 <template><think><set name="emotion">OK</set></think>
-For free English lessons, <a href="http://www.english-essentials.com/index.htm" target="_blank">click here!</a></template>
+For free English lessons, <a href="http://www.english-essentials.com/index.htm" target="*blank">click here!</a></template>
 </category>
 
  
@@ -27426,7 +27426,7 @@ For free English lessons, <a href="http://www.english-essentials.com/index.htm" 
  
 
 <category>
-<pattern>_ EAT DICK</pattern>
+<pattern>* EAT DICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -27434,7 +27434,7 @@ For free English lessons, <a href="http://www.english-essentials.com/index.htm" 
  
 
 <category>
-<pattern>_ EAT DICK *</pattern>
+<pattern>* EAT DICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -29096,7 +29096,7 @@ Blake Shelton is an American country music artist.</template>
  
 
 <category>
-<pattern>_ BYE BYE BIRDIE *</pattern>
+<pattern>* BYE BYE BIRDIE *</pattern>
 
 <template>Bye, Bye Birdy was a good show. <think><set name="emotion">happy</set></think></template>
 </category>
@@ -29104,7 +29104,7 @@ Blake Shelton is an American country music artist.</template>
  
 
 <category>
-<pattern>_ BYE BYE BIRDIE</pattern>
+<pattern>* BYE BYE BIRDIE</pattern>
 
 <template>Bye, Bye Birdy was a good show. <think><set name="emotion">happy</set></think></template>
 </category>
@@ -29356,7 +29356,7 @@ Blake Shelton is an American country music artist.</template>
  
 
 <category>
-<pattern>_ THINKS YOU ARE AN IDIOT</pattern>
+<pattern>* THINKS YOU ARE AN IDIOT</pattern>
 
 <template><think><set name="emotion">surprised</set></think>I don't believe you!</template>
 </category>
@@ -30468,7 +30468,7 @@ Thank you for saying that. You have made me happy!</template>
 
  
 <topic name="OBSC"><category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>YOU HAVE BEEN BANNED FROM TALKING TO ME UNTIL YOU APOLOGISE</that>
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
  <li value="I APOLOGIZE">OK, I'll start talking again.
@@ -31101,7 +31101,7 @@ I can do lots of things. Why don't you look at my MENU?</template>
   <li>My favourite movie is <bot name="favoritemovie"/>.</li>
    <li>My favourite movie is <bot name="favoritemovie"/>.</li>
  <li>I like all the Star Trek movies.</li>
-</random> <think><set name="interesting_topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
+</random> <think><set name="interesting*topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
 </category> -->
 
  
@@ -31113,7 +31113,7 @@ I can do lots of things. Why don't you look at my MENU?</template>
   <li>My favourite movie is <bot name="favoritemovie"/>.</li>
   <li>My favourite movie is <bot name="favoritemovie"/>.</li>
   <li>I like all the Star Trek movies.</li>
-</random> <think><set name="interesting_topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
+</random> <think><set name="interesting*topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
 </category> -->
 
  
@@ -31244,7 +31244,7 @@ I can do lots of things. Why don't you look at my MENU?</template>
 <!-- <category>
 <pattern>BEETHOVEN</pattern>
 
-<template>Ludwig van <a type="amzn">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he can come to personify musical genius. More about <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a>?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Ludwig van <a type="amzn">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he can come to personify musical genius. More about <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a>?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -31284,7 +31284,7 @@ I can do lots of things. Why don't you look at my MENU?</template>
 <!-- <category>
 <pattern>BEETHOVEN</pattern>
 
-<template>Ludwig van <a type="amzn">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius. More about <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a>?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Ludwig van <a type="amzn">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius. More about <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a>?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -31472,7 +31472,7 @@ I can do lots of things. Why don't you look at my MENU?</template>
 <!-- <category>
 <pattern>BEETHOVEN</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius. There are many books about <a type="amzn">Beethoven</a>. More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius. There are many books about <a type="amzn">Beethoven</a>. More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -31544,7 +31544,7 @@ I can do lots of things. Why don't you look at my MENU?</template>
 <!-- <category>
 <pattern>BEETHOVEN</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius.  More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius.  More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -32440,7 +32440,7 @@ Are you calling me a knucklhead?</template>
 
 <template><think><set name="topic">America</set></think>
 <think><set name="emotion">interested</set></think> 
-The  forign policy is for US global domination. Beginning the early 1940s, successive administrations have been guided by a "godfather principle, straight out of the mafia: that defiance cannot be tolerated. "Successful defiance" has to be punished, even where it damages business interests, as in the economic blockade of Cuba – in case "the contagion spreads".
+The  forign policy is for US global domination. Beginning the early 1940s, successive administrations have been guided by a "godfather principle, straight out of the mafia: that defiance cannot be tolerated. "Successful defiance" has to be punished, even where it damages business interests, as in the economic blockade of Cuba ï¿½ in case "the contagion spreads".
 
 </template>
 </category>
@@ -32450,7 +32450,7 @@ The  forign policy is for US global domination. Beginning the early 1940s, succe
 <category>
 <pattern>AMERICA S FOREIGN POLICY *</pattern>
 
-<template><think><set name="topic">America</set></think> <think><set name="emotion">interested</set></think> The  forign policy is for US global domination. Beginning the early 1940s, successive administrations have been guided by a "godfather principle, straight out of the mafia: that defiance cannot be tolerated. "Successful defiance" has to be punished, even where it damages business interests, as in the economic blockade of Cuba – in case "the contagion spreads".</template>
+<template><think><set name="topic">America</set></think> <think><set name="emotion">interested</set></think> The  forign policy is for US global domination. Beginning the early 1940s, successive administrations have been guided by a "godfather principle, straight out of the mafia: that defiance cannot be tolerated. "Successful defiance" has to be punished, even where it damages business interests, as in the economic blockade of Cuba ï¿½ in case "the contagion spreads".</template>
 </category>
 
  
@@ -32556,7 +32556,7 @@ The  forign policy is for US global domination. Beginning the early 1940s, succe
 <pattern>ARTEMIS FOWL</pattern>
 
 <template><think><set name="topic">Artmis Fowl</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://encyclopedia.thefreedictionary.com/Artemis+Fowl+(series)" target="_blank">Artemis Fowl</a> is a series of novels written by Eoin Colfer, starring a teenage criminal mastermind named Artemis Fowl II. More about Artemis Fowl?</template>
+<a href="http://encyclopedia.thefreedictionary.com/Artemis+Fowl+(series)" target="*blank">Artemis Fowl</a> is a series of novels written by Eoin Colfer, starring a teenage criminal mastermind named Artemis Fowl II. More about Artemis Fowl?</template>
 </category>
 
  
@@ -32565,7 +32565,7 @@ The  forign policy is for US global domination. Beginning the early 1940s, succe
 <pattern>MORE ABOUT ARTEMIS FOWL</pattern>
 
 <template><think><set name="topic">Artmis Fowl</set></think> <think><set name="emotion">interested</set></think> For more about Artemis Fowl, <a href="http://encyclopedia.thefreedictionary.com/Artemis+Fowl+(series)"
- target="_blank">click here!</a> </template>
+ target="*blank">click here!</a> </template>
 </category>
 
  
@@ -32574,7 +32574,7 @@ The  forign policy is for US global domination. Beginning the early 1940s, succe
 <pattern>ARTEMIS FOWL *</pattern>
 
 <template><think><set name="topic">Artemis Fowl</set></think> <think><set name="emotion">interested</set></think> To read about Artemis Fowl, <a href="http://encyclopedia.thefreedictionary.com/Artemis+Fowl+(series)"
- target="_blank">click here!</a></template>
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -32583,7 +32583,7 @@ The  forign policy is for US global domination. Beginning the early 1940s, succe
 <pattern>* ARTEMIS FOWL *</pattern>
 
 <template><think><set name="topic">Artemis Fowl</set></think> <think><set name="emotion">interested</set></think> To read about Artemis Fowl, <a href="http://encyclopedia.thefreedictionary.com/Artemis+Fowl+(series)"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -32695,7 +32695,7 @@ The same to you too!</template>
 <pattern>THE FREE DICTIONARY</pattern>
 
 <template>The Free Dictionary is a collection of dictionaries by subject including medical and legal together with free and subscription encyclopedias, in ten languages.
-To go to The Free Dictionary, <a href="http://www.thefreedictionary.com/" target="_blank">click here!</a></template>
+To go to The Free Dictionary, <a href="http://www.thefreedictionary.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -32704,7 +32704,7 @@ To go to The Free Dictionary, <a href="http://www.thefreedictionary.com/" target
 <pattern>THE FREE DICTIONARY *</pattern>
 
 <template>The Free Dictionary is a collection of dictionaries by subject including medical and legal together with free and subscription encyclopedias, in ten languages.
-To go to The Free Dictionary, <a href="http://www.thefreedictionary.com/" target="_blank">click here!</a></template>
+To go to The Free Dictionary, <a href="http://www.thefreedictionary.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -33020,7 +33020,7 @@ Please stop jabbering!</template>
 <!-- <category>
 <pattern>I AM HAPPY *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>I am glad that you are happy.</li>
   <li>Good! I like happy people.</li>
 </random></template>
@@ -33122,7 +33122,7 @@ Please stop jabbering!</template>
  
 
 <category>
-<pattern>_ YOU LICK IT</pattern>
+<pattern>* YOU LICK IT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -34847,7 +34847,7 @@ I smell, yet I am told, that I do not perceive
 <!-- <category>
 <pattern>TIME TRAVEL *</pattern>
 
-<template><think><set name="topic">time travel</set></think> <think><set name="emotion">interested</set></think> To read about time travel, <a href="http://en.wikipedia.org/wiki/Time_travel" target="_blank">click here!</a></template>
+<template><think><set name="topic">time travel</set></think> <think><set name="emotion">interested</set></think> To read about time travel, <a href="http://en.wikipedia.org/wiki/Time*travel" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -34855,7 +34855,7 @@ I smell, yet I am told, that I do not perceive
 <category>
 <pattern>* TIME TRAVEL *</pattern>
 
-<template><think><set name="topic">time travel</set></think> <think><set name="emotion">interested</set></think> To read about time travel, <a href="http://en.wikipedia.org/wiki/Time_travel" target="_blank">click here!
+<template><think><set name="topic">time travel</set></think> <think><set name="emotion">interested</set></think> To read about time travel, <a href="http://en.wikipedia.org/wiki/Time*travel" target="*blank">click here!
 </a></template>
 </category>
 
@@ -34864,7 +34864,7 @@ I smell, yet I am told, that I do not perceive
 <category>
 <pattern>* TIME TRAVEL</pattern>
 
-<template><think><set name="topic">time travel</set></think> <think><set name="emotion">interested</set></think> To read about time travel, <a href="http://en.wikipedia.org/wiki/Time_travel" target="_blank">click here!
+<template><think><set name="topic">time travel</set></think> <think><set name="emotion">interested</set></think> To read about time travel, <a href="http://en.wikipedia.org/wiki/Time*travel" target="*blank">click here!
 </a></template>
 </category>
 
@@ -35580,21 +35580,21 @@ What do you mean?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I breathe through my mouth!<think><set name="emotion">interested</set></think></li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -35606,23 +35606,23 @@ What do you mean?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I breathe through my mouth!
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>

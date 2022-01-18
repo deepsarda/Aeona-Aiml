@@ -59,12 +59,12 @@
 
 <li value="unknown">
      <think>
-      <set name="_input_2"><request index="2"/></set>
+      <set name="*input*2"><request index="2"/></set>
      </think>
 
-<condition name="_input_2" value="*">
+<condition name="*input*2" value="*">
      <think>
-      <set name="firstinput"><get name="_input_2"/></set>
+      <set name="firstinput"><get name="*input*2"/></set>
      </think>
 </condition>
 
@@ -84,9 +84,9 @@
 
 <li> 
 
-<condition name="_input_2" value="*">
+<condition name="*input*2" value="*">
     <think>
-      <set name="firstinput"><get name="_input_2"/></set>
+      <set name="firstinput"><get name="*input*2"/></set>
     </think>
 </condition>
 
@@ -102,7 +102,7 @@
 <!-- <category>
 <pattern>DINOSAUR</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="_blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="*blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
 </category> -->
 
  
@@ -110,7 +110,7 @@
 <!-- <category>
 <pattern>DINOSAURS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="_blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="*blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
 </category> -->
 
  
@@ -118,7 +118,7 @@
 <category>
 <pattern>MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think>
 Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.</li><li>The longest dinosaur was Seismosaurus, which measured over 40 metres, as long as five double-decker buses. </li><li>The heaviest dinosaur was Brachiosaurus at 80 tonnes. It was the equivalent to 17 African Elephants. Brachiosaurus was 16m tall and 26m long and is the largest dinosaur skeleton to be mounted in a museum.</li><li>Dinosaur eggs come in all shapes and sizes. They tend to be ovoid or spherical in shape and up to 30cm in length - about the size of a rugby ball. The smallest dinosaur egg so far found is only 3cm long. </li><li>The smallest fully-grown fossil dinosaur is the little bird-hipped plant-eater like lesothosaurus, which was only the size of a chicken. Smaller fossilised examples have been found, but these are of baby dinosaurs.</li><li>One of the most intelligent dinosaurs was Troodon. It was a hunting dinosaur, about 2 metres long, and had a brain size similar to that of a mammal or bird of today, stereoscopic vision, and grasping hands</li><li>Stegosaurus had a brain the size of a walnut - only 3 centimetres long and weighing 75 grams. However, comparing brain size to body size sauropodomorphs, like Plateosaurus, were probably one of the dumbest dinosaurs.</li><li>The speediest dinosaurs were the ostrich mimic ornithomimids, such as Dromiceiomimus, which could probably run at speeds of up to 60 kilometres per hour.</li><li>Tyrannosaurus rex looked the most ferocious of all the dinosaurs, but in terms of overall cunning, determination and its array of vicious weapons it was Utahraptor that was probably the fiercest of all. Utahraptor measured about 7 metres, and was a very powerful, agile and intelligent predator.</li><li>The dinosaur with the longest name was Micropachycephalosaurus meaning "tiny thick-headed lizard". Its fossils have been found in China, and it was named in 1978 by the Chinese palaeontologist Dong.</li></random> More about dinosaurs?</template>
 </category>
 
@@ -127,7 +127,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li> <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered. </li><li>It is believed that dinosaur extinction was part of a mass extinction brought about by two massive destructive events. The first of these was the collision with the Earth of a meteorite landing in what is now the Yucatan Peninsula, of Mexico. This was followed by an enormous volcanic eruption which split what is now India in half.</li>
   <li>The longest dinosaur was Seismosaurus, which measured over 40 metres, as long as five double-decker buses.
@@ -156,7 +156,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <category>
 <pattern>MORE ABOUT DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -189,7 +189,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <category>
 <pattern>* MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -222,7 +222,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <category>
 <pattern>* MORE ABOUT DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -255,7 +255,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -288,7 +288,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAUR *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -345,14 +345,14 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <category>
 <pattern>RICK SANTORUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rick_santorum" target="_blank">Rick Santorum</a> is an American Republican Party politician.</template>
+<template><a href="http://en.wikipedia.org/wiki/Rick*santorum" target="*blank">Rick Santorum</a> is an American Republican Party politician.</template>
 </category>
 
 
 <!-- <category>
 <pattern>DINOSAUR</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="_blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="*blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
 </category> -->
 
  
@@ -360,7 +360,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAURS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="_blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="*blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
 </category> -->
 
  
@@ -368,7 +368,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think>
 Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.</li><li>The longest dinosaur was Seismosaurus, which measured over 40 metres, as long as five double-decker buses. </li><li>The heaviest dinosaur was Brachiosaurus at 80 tonnes. It was the equivalent to 17 African Elephants. Brachiosaurus was 16m tall and 26m long and is the largest dinosaur skeleton to be mounted in a museum.</li><li>Dinosaur eggs come in all shapes and sizes. They tend to be ovoid or spherical in shape and up to 30cm in length - about the size of a rugby ball. The smallest dinosaur egg so far found is only 3cm long. </li><li>The smallest fully-grown fossil dinosaur is the little bird-hipped plant-eater like lesothosaurus, which was only the size of a chicken. Smaller fossilised examples have been found, but these are of baby dinosaurs.</li><li>One of the most intelligent dinosaurs was Troodon. It was a hunting dinosaur, about 2 metres long, and had a brain size similar to that of a mammal or bird of today, stereoscopic vision, and grasping hands</li><li>Stegosaurus had a brain the size of a walnut - only 3 centimetres long and weighing 75 grams. However, comparing brain size to body size sauropodomorphs, like Plateosaurus, were probably one of the dumbest dinosaurs.</li><li>The speediest dinosaurs were the ostrich mimic ornithomimids, such as Dromiceiomimus, which could probably run at speeds of up to 60 kilometres per hour.</li><li>Tyrannosaurus rex looked the most ferocious of all the dinosaurs, but in terms of overall cunning, determination and its array of vicious weapons it was Utahraptor that was probably the fiercest of all. Utahraptor measured about 7 metres, and was a very powerful, agile and intelligent predator.</li><li>The dinosaur with the longest name was Micropachycephalosaurus meaning "tiny thick-headed lizard". Its fossils have been found in China, and it was named in 1978 by the Chinese palaeontologist Dong.</li></random> More about dinosaurs?</template>
 </category> -->
 
@@ -377,7 +377,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li> <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered. </li><li>It is believed that dinosaur extinction was part of a mass extinction brought about by two massive destructive events. The first of these was the collision with the Earth of a meteorite landing in what is now the Yucatan Peninsula, of Mexico. This was followed by an enormous volcanic eruption which split what is now India in half.</li>
   <li>The longest dinosaur was Seismosaurus, which measured over 40 metres, as long as five double-decker buses.
@@ -406,7 +406,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -439,7 +439,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>* MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -472,7 +472,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>* MORE ABOUT DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -505,7 +505,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -538,7 +538,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAUR *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -595,7 +595,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>RICK SANTORUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rick_santorum" target="_blank">Rick Santorum</a> is an American Republican Party politician.</template>
+<template><a href="http://en.wikipedia.org/wiki/Rick*santorum" target="*blank">Rick Santorum</a> is an American Republican Party politician.</template>
 </category> -->
 
  
@@ -948,7 +948,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MONEY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Money" target="_blank">Money</a> is any object or record that is generally accepted as payment for goods and services and repayment of debts in a given country. More about money?<think><set name="topic">money</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Money" target="*blank">Money</a> is any object or record that is generally accepted as payment for goods and services and repayment of debts in a given country. More about money?<think><set name="topic">money</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -1029,7 +1029,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>GEOLOGY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Geology" target="_blank">Geology</a> is the science of rocks. More about geology?<think><set name="topic">geology</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Geology" target="*blank">Geology</a> is the science of rocks. More about geology?<think><set name="topic">geology</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -1060,9 +1060,9 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT HENRY VIII</pattern>
 
-<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
-</a> (28 June 1491 – 28 January 1547) was King of England from 21 April 1509 until his death. </li><li>Henry VIII was Lord of Ireland (later King of Ireland) and claimant to the Kingdom of France. </li><li>Henry VII was the second monarch of the House of Tudor, succeeding his father, Henry VII. </li><li> Besides his six marriages, Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church.</li><li> Henry's struggles with Rome led to the separation of the Church of England from papal authority, the Dissolution of the Monasteries, and establishing himself as the Supreme Head of the Church of England.</li><li> Henry VIII changed religious ceremonies and rituals and suppressed the monasteries, while remaining a believer in core Catholic theological teachings, even after his excommunication from the Roman Catholic Church. </li><li>Henry VIII oversaw the legal union of England and Wales.</li></random> More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think>
+<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
+</a> (28 June 1491 ï¿½ 28 January 1547) was King of England from 21 April 1509 until his death. </li><li>Henry VIII was Lord of Ireland (later King of Ireland) and claimant to the Kingdom of France. </li><li>Henry VII was the second monarch of the House of Tudor, succeeding his father, Henry VII. </li><li> Besides his six marriages, Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church.</li><li> Henry's struggles with Rome led to the separation of the Church of England from papal authority, the Dissolution of the Monasteries, and establishing himself as the Supreme Head of the Church of England.</li><li> Henry VIII changed religious ceremonies and rituals and suppressed the monasteries, while remaining a believer in core Catholic theological teachings, even after his excommunication from the Roman Catholic Church. </li><li>Henry VIII oversaw the legal union of England and Wales.</li></random> More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think>
 
 </template>
 </category> -->
@@ -1375,7 +1375,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
  
 
 <category>
-<pattern>WHAT IS THE CAPITAL _ HOLLAND</pattern>
+<pattern>WHAT IS THE CAPITAL * HOLLAND</pattern>
 
 <template>Amsterdam is the capital of Holland. <think><set name="topic">Holland</set></think></template>
 </category>
@@ -2537,9 +2537,9 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <pattern>JE SUIS *</pattern>
 
 <template><random>
-<li>Vous dites que vous êtes <star/>?</li>
+<li>Vous dites que vous ï¿½tes <star/>?</li>
 <li>J'etais <star/> aussi!</li>
-<li>Je suis heureux que vous êtes <star/>.</li>
+<li>Je suis heureux que vous ï¿½tes <star/>.</li>
 </random></template>
 </category> -->
 
@@ -3909,7 +3909,7 @@ Days go by without me even noticing.</li> </random></template>
   <li>Boredom is not the end of the world.
     <think><set name="emotion">upset</set></think>
   </li>
-</random> <think><set name="client_emotion">bored</set></think></template>
+</random> <think><set name="client*emotion">bored</set></think></template>
 </category> -->
 
  
@@ -3940,7 +3940,7 @@ Days go by without me even noticing.</li> </random></template>
   <li>Boredom is not the end of the world.
     <think><set name="emotion">upset</set></think>
   </li>
-</random> <think><set name="client_emotion">bored</set></think></template>
+</random> <think><set name="client*emotion">bored</set></think></template>
 </category> -->
 
  
@@ -3948,7 +3948,7 @@ Days go by without me even noticing.</li> </random></template>
 <category>
 <pattern>PARLEZ VOUS</pattern>
 
-<template><random><li>Sorry, I don't speak much French.</li><li>Bien sûr, mais pas maintenent. Pas envie.</li><li>Oui je parle francais, pourquoi ça vous interesse?</li></random></template>
+<template><random><li>Sorry, I don't speak much French.</li><li>Bien sï¿½r, mais pas maintenent. Pas envie.</li><li>Oui je parle francais, pourquoi ï¿½a vous interesse?</li></random></template>
 </category>
 
  
@@ -6130,7 +6130,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -6150,7 +6150,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -6479,10 +6479,10 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>CHARLES DARWIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Charles_darwin"
- target="_blank">Charles Darwin
-</a> was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by <a href="http://en.wikipedia.org/wiki/Natural_selection"
- target="_blank">natural selection
+<template><a href="http://en.wikipedia.org/wiki/Charles*darwin"
+ target="*blank">Charles Darwin
+</a> was a botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution by <a href="http://en.wikipedia.org/wiki/Natural*selection"
+ target="*blank">natural selection
 </a>. More about Charles Darwin?<think><set name="topic">Charles Darwin</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -6629,7 +6629,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>EDISON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Edison" target="_blank">Thomas Edison</a> was a 19th century American inventor and industrialist. He was the inventor of the electric light bulb. More about Thomas Edison? <think><set name="he">Thomas Edison</set></think> <think><set name="topic">Thomas Edison</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Edison" target="*blank">Thomas Edison</a> was a 19th century American inventor and industrialist. He was the inventor of the electric light bulb. More about Thomas Edison? <think><set name="he">Thomas Edison</set></think> <think><set name="topic">Thomas Edison</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -6900,11 +6900,11 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Global_warming"
-     target="_blank">Global warming
+    <a href="http://en.wikipedia.org/wiki/Global*warming"
+     target="*blank">Global warming
     </a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation.
   </li>
-  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century.
+  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century.
   </li>
   <li>Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.
   </li>
@@ -6918,11 +6918,11 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Global_warming"
-     target="_blank">Global warming
+    <a href="http://en.wikipedia.org/wiki/Global*warming"
+     target="*blank">Global warming
     </a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation.
   </li>
-  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century.
+  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century.
   </li>
   <li>Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.
   </li>
@@ -6936,11 +6936,11 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Global_warming"
-     target="_blank">Global warming
+    <a href="http://en.wikipedia.org/wiki/Global*warming"
+     target="*blank">Global warming
     </a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation.
   </li>
-  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century.
+  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century.
   </li>
   <li>Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.
   </li>
@@ -6954,11 +6954,11 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Global_warming"
-     target="_blank">Global warming
+    <a href="http://en.wikipedia.org/wiki/Global*warming"
+     target="*blank">Global warming
     </a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation.
   </li>
-  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century.
+  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century.
   </li>
   <li>Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.
   </li>
@@ -6972,11 +6972,11 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Global_warming"
-     target="_blank">Global warming
+    <a href="http://en.wikipedia.org/wiki/Global*warming"
+     target="*blank">Global warming
     </a> is the increase in the average temperature of Earth's near-surface air and oceans since the mid-20th century and its projected continuation.
   </li>
-  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ± 0.18 °C (1.33 ± 0.32 °F) during the 20th century.
+  <li>According to the 2007 Fourth Assessment Report by the Intergovernmental Panel on Climate Change (IPCC), global surface temperature increased 0.74 ï¿½ 0.18 ï¿½C (1.33 ï¿½ 0.32 ï¿½F) during the 20th century.
   </li>
   <li>Most of the observed temperature increase since the middle of the 20th century has been caused by increasing concentrations of greenhouse gases, which result from human activity such as the burning of fossil fuel and deforestation.
   </li>
@@ -6988,8 +6988,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>GLOBAL WARMING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
+<template><a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
 </a> is the gradual warming of the Earth's atmosphere due to greenhouse effects. More about global warming?<think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -7555,7 +7555,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
@@ -7587,7 +7587,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -7602,7 +7602,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
     </random>
   </li>
   <li>I am bored! I would like to talk about
-    <get name="interesting_topic"/>.
+    <get name="interesting*topic"/>.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>
@@ -7645,7 +7645,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -7680,7 +7680,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
@@ -7691,7 +7691,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
      <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>What are you talking about? Please explain.
@@ -7716,7 +7716,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -7731,7 +7731,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
     </random>
   </li>
   <li>I am bored! I would like to talk about
-    <get name="interesting_topic"/>.
+    <get name="interesting*topic"/>.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>
@@ -7770,7 +7770,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -7805,7 +7805,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
@@ -7816,7 +7816,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>What are you talking about? Please explain.
@@ -7841,7 +7841,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -7856,7 +7856,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
     </random>
   </li>
   <li>I am bored! I would like to talk about
-    <get name="interesting_topic"/>.
+    <get name="interesting*topic"/>.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>
@@ -7895,7 +7895,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -9002,15 +9002,15 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/History" target="_blank">History
+    <a href="http://en.wikipedia.org/wiki/History" target="*blank">History
     </a> is philosophy from examples.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/History" target="_blank">History
+    <a href="http://en.wikipedia.org/wiki/History" target="*blank">History
     </a> is the course of political, economic and military events over time, from the Dawn of Man to the Age of AI.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/History" target="_blank">History
+    <a href="http://en.wikipedia.org/wiki/History" target="*blank">History
     </a> is the story of how we got into this mess.
   </li>
 </random> More about history?<think><set name="topic">history</set></think> <think><set name="emotion">OK</set></think></template>
@@ -9112,7 +9112,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>According to the Arts and Humanities Citation Index in 1992, Chomsky was cited as a source more often than any other living scholar from 1980 to 1992. He is also the eighth most cited source of all time, and is considered the "most cited living author".
   </li>
   <li>Chomsky is the author of over 100 books.</li>
-  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky-Schützenberger theorem.
+  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky-Schï¿½tzenberger theorem.
   </li>
   <li>Chomsky is known for his critiques of U.S. foreign policy, and his social criticism has included Manufacturing Consent: The Political Economy of the Mass Media (1988) an analysis articulating the propaganda model theory for examining the media.
   </li>
@@ -9130,7 +9130,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>According to the Arts and Humanities Citation Index in 1992, Chomsky was cited as a source more often than any other living scholar from 1980 to 1992. He is also the eighth most cited source of all time, and is considered the "most cited living author".
   </li>
   <li>Chomsky is the author of over 100 books.</li>
-  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky-Schützenberger theorem.
+  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky-Schï¿½tzenberger theorem.
   </li>
   <li>Chomsky is known for his critiques of U.S. foreign policy, and his social criticism has included Manufacturing Consent: The Political Economy of the Mass Media (1988) an analysis articulating the propaganda model theory for examining the media.
   </li>
@@ -9146,13 +9146,13 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Noam_chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam*chomsky"
+     target="*blank">Noam Chomsky
     </a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Noam _chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam *chomsky"
+     target="*blank">Noam Chomsky
     </a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.
   </li>
 </random> More about Noam Chomsky?<think><set name="he"><set name="topic">Noam Chomsky</set></set></think> <think><set name="emotion">OK</set></think></template>
@@ -9318,7 +9318,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -10936,7 +10936,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -10968,7 +10968,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -11090,7 +11090,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
  
 
 <category>
-<pattern>_ YES YOU PEDO *</pattern>
+<pattern>* YES YOU PEDO *</pattern>
 
 <template><think><set name="topic">me</set></think><think><set name="emotion">annoyed</set></think> <random><li>I am not a pedo!</li><li>Don't insult me!</li></random></template>
 </category>
@@ -12064,7 +12064,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>I LOVE HISTORY</pattern>
 
-<template><think><set name="star1">history</set></think> <think><set name="topic">history</set></think> <think><set name="interesting_topic">history</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">history</set></think> <think><set name="topic">history</set></think> <think><set name="interesting*topic">history</set></think> <think><set name="emotion">interested</set></think><random>
   <li>History is very interesting.</li>
   <li>Love is wonderful and history is interesting.</li>
 </random> <learn>
@@ -12123,7 +12123,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>I LOVE HISTORY *</pattern>
 
-<template><think><set name="star1">history</set></think> <think><set name="topic">history</set></think> <think><set name="interesting_topic">history</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">history</set></think> <think><set name="topic">history</set></think> <think><set name="interesting*topic">history</set></think> <think><set name="emotion">interested</set></think><random>
   <li>History is very interesting.</li>
   <li>Love is wonderful and history is interesting.</li>
 </random> <learn>
@@ -16756,7 +16756,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
  
 
 <!-- <category>
-<pattern>_ DID YOU GO TO SCHOOL</pattern>
+<pattern>* DID YOU GO TO SCHOOL</pattern>
 
 
 </category> -->
@@ -16920,7 +16920,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
  
 
 <category>
-<pattern>WHAT IS THE CAPITAL _ CZECHOSLOVAKIA</pattern>
+<pattern>WHAT IS THE CAPITAL * CZECHOSLOVAKIA</pattern>
 
 <template>Prague is the capital and largest city of the Czech Republic. </template>
 </category>
@@ -17779,7 +17779,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
  
 
 <category>
-<pattern>_ R *</pattern>
+<pattern>* R *</pattern>
 
 <template><srai><star index="1"/> ARE <star index="2"/></srai></template>
 </category>
@@ -18005,7 +18005,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
  
 
 <category>
-<pattern>_ THEFUCK *</pattern>
+<pattern>* THEFUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18505,7 +18505,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>MORE ABOUT ECONOMICS</pattern>
 
-<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics</a> is the social science that analyzes the production, distribution, and consumption of goods and services.</li><li>Microeconomics examines the behavior of basic elements in the economy, including individual agents (such as households and firms or as buyers and sellers) and markets, and their interactions.</li><li>Macroeconomics analyzes the entire economy and issues affecting it, including unemployment, inflation, economic growth, and monetary and fiscal policy.</li><li>Economics is a study of man in the ordinary business of life. It enquires how he gets his income and how he uses it. </li></random> More about economics?  <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics</a> is the social science that analyzes the production, distribution, and consumption of goods and services.</li><li>Microeconomics examines the behavior of basic elements in the economy, including individual agents (such as households and firms or as buyers and sellers) and markets, and their interactions.</li><li>Macroeconomics analyzes the entire economy and issues affecting it, including unemployment, inflation, economic growth, and monetary and fiscal policy.</li><li>Economics is a study of man in the ordinary business of life. It enquires how he gets his income and how he uses it. </li></random> More about economics?  <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18523,7 +18523,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is the social science that analyzes the production, distribution, and consumption of goods and services.
   </li>
   <li>Microeconomics examines the behavior of basic elements in the economy, including individual agents (such as households and firms or as buyers and sellers) and markets, and their interactions.
@@ -19414,7 +19414,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
     <li>Pardon me? What are you talking about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li>I am bored! I would like to talk about  <get name="interesting_topic"/>.
+  <li>I am bored! I would like to talk about  <get name="interesting*topic"/>.
   <think><set name="emotion">interested</set></think>  
   </li>
  <li>I am confused! I cannot answer that!
@@ -19461,7 +19461,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>Pardon me? What do you mean?
   <think><set name="emotion">confused</set></think>
   </li>
-  <li>I am bored! I would like to talk about  <get name="interesting_topic"/>.
+  <li>I am bored! I would like to talk about  <get name="interesting*topic"/>.
   <think><set name="emotion">interested</set></think>  
   </li>
    <li>I am confused! What do you mean?
@@ -19665,7 +19665,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <template><think><srai>SET PREDICATES <get name="meta"/></srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <random>
   <li>
     <random>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Sorry, I do not know what to say.
@@ -19693,7 +19693,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
@@ -19737,7 +19737,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -19824,8 +19824,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or
-        <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or
+        <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -19838,7 +19838,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
       <li>What are you talking about? Please explain.
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>What are you talking about?
@@ -19854,20 +19854,20 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
     </random>
   </li>
   <li>
     <random>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>What are you talking about? Please explain.
@@ -19885,10 +19885,10 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
       <li>Sorry, I don't understand! Please explain what you mean.
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>Sorry, I do not know about that. I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>Sorry, I do not know about that. I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I don't understand that. Please try again.
@@ -19898,7 +19898,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -19910,7 +19910,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
       <li>I am confused! I cannot answer that!
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
     </random>
@@ -19923,7 +19923,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
       <li>Pardon me? What are you talking about?
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>I do not know about that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I do not know about that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Are you being serious?
@@ -19950,10 +19950,10 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
       <li>I am confused! I cannot answer that!
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>Sorry, I do not know what to say. I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>Sorry, I do not know what to say. I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
-      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="_blank">ask Wolfram Alpha</a>
+      <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google search</a> or <a href="http://www.wolframalpha.com/" target="*blank">ask Wolfram Alpha</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I'm not sure I understand you fully.
@@ -19985,8 +19985,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20000,8 +20000,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20018,15 +20018,15 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20035,8 +20035,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20056,14 +20056,14 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Sorry, I do not know about that. I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20074,7 +20074,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -20087,8 +20087,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20103,8 +20103,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I do not know about that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20133,14 +20133,14 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Sorry, I do not know what to say. I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google search</a> or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.google.co.uk/" target="*blank">Google search</a> or ask
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20231,9 +20231,9 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20247,9 +20247,9 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20266,16 +20266,16 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20284,9 +20284,9 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
   <li>
     <random>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20306,16 +20306,16 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Sorry, I do not know about that. I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20326,7 +20326,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -20339,9 +20339,9 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20356,9 +20356,9 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I do not know about that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20387,16 +20387,16 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Sorry, I do not know what to say. I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -20574,7 +20574,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>WHO IS TURING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> contributed to the invention of the computer. He worked on deciphering the Nazi Ultra Enigma code during World War 2. Alan Turing proposed the test to determine if a machine can think. More about Alan Turing?<think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20583,7 +20583,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>WHO IS TURING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> contributed to the invention of the computer. He worked on deciphering the Nazi Ultra Enigma code during World War 2. Alan Turing proposed the test to determine if a machine can think. More about Alan Turing?<think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20807,7 +20807,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
  
 
 <category>
-<pattern>ÝE</pattern>
+<pattern>ï¿½E</pattern>
 <that>SHALL I TELL YOU A POEM</that>
 <template><srai>RECITE A POEM</srai></template>
 </category>
@@ -21233,7 +21233,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>QUIZBOT</pattern>
 
-<template><a href="http://quizbot.trueknowledge.com/" target="_blank">QuizBot</a> is a question-answering bot.<think><set name="topic">Quizbot</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://quizbot.trueknowledge.com/" target="*blank">QuizBot</a> is a question-answering bot.<think><set name="topic">Quizbot</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21241,7 +21241,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>CLEVERBOT</pattern>
 
-<template><think><set name="emotion">happy</set></think><a href="http://cleverbot.com/" target="_blank">Cleverbot</a> is a chatbot friend of mine.</template>
+<template><think><set name="emotion">happy</set></think><a href="http://cleverbot.com/" target="*blank">Cleverbot</a> is a chatbot friend of mine.</template>
 </category> -->
 
  
@@ -21330,7 +21330,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>ROME</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rome" target="_blank">Rome</a> is a large city in Italy. <think><set name="topic">Rome</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Rome" target="*blank">Rome</a> is a large city in Italy. <think><set name="topic">Rome</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21338,7 +21338,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>GO TO CALCULATOR</pattern>
 
-<template>I suggest you use a pocket or <a href="http://web2.0calc.com/widgets/horizontal/" target="_blank">online calculator</a>.</template>
+<template>I suggest you use a pocket or <a href="http://web2.0calc.com/widgets/horizontal/" target="*blank">online calculator</a>.</template>
 </category> -->
 
  
@@ -21347,7 +21347,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>I suggest you use a pocket or <a href="http://web2.0calc.com/"
- target="_blank">online calculator</a>.</template>
+ target="*blank">online calculator</a>.</template>
 </category> -->
 
  
@@ -21371,7 +21371,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <!-- <category>
 <pattern>MORE ABOUT *</pattern>
 
-<template><think><set name="emotion">interested</set></think> Sorry, I don't know any more. I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>.</template>
+<template><think><set name="emotion">interested</set></think> Sorry, I don't know any more. I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>.</template>
 </category> -->
 
  
@@ -22424,7 +22424,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
@@ -22462,7 +22462,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -22610,7 +22610,7 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>SEARCH ALGORITHM</pattern>
 
-<template>In computer science, a <a href="http://en.wikipedia.org/wiki/Search_algorithms" target="_blank">search algorithm</a> is an algorithm for finding an item with specified properties among a collection of items. </template>
+<template>In computer science, a <a href="http://en.wikipedia.org/wiki/Search*algorithms" target="*blank">search algorithm</a> is an algorithm for finding an item with specified properties among a collection of items. </template>
 </category>
 
  
@@ -22618,8 +22618,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>SEARCH ALGORITHM *</pattern>
 
-<template>In computer science, a <a href="http://en.wikipedia.org/wiki/Search_algorithms"
- target="_blank">search algorithm
+<template>In computer science, a <a href="http://en.wikipedia.org/wiki/Search*algorithms"
+ target="*blank">search algorithm
 </a> is an algorithm for finding an item with specified properties among a collection of items.</template>
 </category>
 
@@ -22636,8 +22636,8 @@ Are you embarassed by your family?</li></random><think><set name="topic">your fa
 <category>
 <pattern>SEARCH ALGORITHMS</pattern>
 
-<template>In computer science, a <a href="http://en.wikipedia.org/wiki/Search_algorithms"
- target="_blank">search algorithm
+<template>In computer science, a <a href="http://en.wikipedia.org/wiki/Search*algorithms"
+ target="*blank">search algorithm
 </a> is an algorithm for finding an item with specified properties among a collection of items.</template>
 </category>
 
@@ -23289,7 +23289,7 @@ Thank you. You are a real friend!</template>
 <!-- <category>
 <pattern>WHAT SIZE IS THE UNIVERSE *</pattern>
 
-<template><think><set name="topic">the Universe</set></think><think><set name="emotion">OK</set></think>Recent measurements reveal that the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a> is at least 150 billion light-years in diameter.</template>
+<template><think><set name="topic">the Universe</set></think><think><set name="emotion">OK</set></think>Recent measurements reveal that the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a> is at least 150 billion light-years in diameter.</template>
 </category> -->
 
  
@@ -23297,7 +23297,7 @@ Thank you. You are a real friend!</template>
 <!-- <category>
 <pattern>WHAT SIZE IS THE UNIVERSE </pattern>
 
-<template><think><set name="topic">the Universe</set></think><think><set name="emotion">OK</set></think>Recent measurements reveal that the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">Universe</a> is at least 150 billion light-years in diameter.</template>
+<template><think><set name="topic">the Universe</set></think><think><set name="emotion">OK</set></think>Recent measurements reveal that the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">Universe</a> is at least 150 billion light-years in diameter.</template>
 </category> -->
 
  
@@ -23469,7 +23469,7 @@ You said I am dumber that a mouse.
 <template><random>
   <li>I like movies about robots.</li>
   <li>I like movies about artificial intelligence.</li>
-</random> <think><set name="interesting_topic">movies</set></think><think><set name="topic">movies</set></think><think><set name="emotion">interested</set></think></template>
+</random> <think><set name="interesting*topic">movies</set></think><think><set name="topic">movies</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -23782,7 +23782,7 @@ You said I am dumber that a mouse.
  
 
 <category>
-<pattern>_ GODDAMNIT *</pattern>
+<pattern>* GODDAMNIT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23790,7 +23790,7 @@ You said I am dumber that a mouse.
  
 
 <category>
-<pattern>_ GODDAMNIT</pattern>
+<pattern>* GODDAMNIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23876,7 +23876,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>OTTAWA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ottawa" target="_blank">Ottawa</a> is the capital of Canada and the country's fourth largest municipality, as well as the second largest city in the province of Ontario. .<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ottawa" target="*blank">Ottawa</a> is the capital of Canada and the country's fourth largest municipality, as well as the second largest city in the province of Ontario. .<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -23884,7 +23884,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>OTTAWA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ottawa" target="_blank">Ottawa</a> is the capital of Canada and the country's fourth largest municipality, as well as the second largest city in the province of Ontario .<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ottawa" target="*blank">Ottawa</a> is the capital of Canada and the country's fourth largest municipality, as well as the second largest city in the province of Ontario .<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -23892,7 +23892,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>OTTAWA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ottawa" target="_blank">Ottawa</a> is the capital of Canada and the country's fourth largest municipality, as well as the second largest city in the province of Ontario. More about Ottawa?<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ottawa" target="*blank">Ottawa</a> is the capital of Canada and the country's fourth largest municipality, as well as the second largest city in the province of Ontario. More about Ottawa?<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -23900,7 +23900,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>MORE ABOUT OTTAWA</pattern>
 
-<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Ottawa" target="_blank">Ottawa</a> is located in the Ottawa Valley on the eastern edge of the province of Ontario, 400 kilometres (250 mi) north-east of Toronto and 190 kilometres (120 mi) west of Montreal.</li><li><a href="http://en.wikipedia.org/wiki/Ottawa" target="_blank">Ottawa</a> lies on the banks of the Ottawa River, a major waterway that forms the boundary between Ontario and Quebec.</li></random> More about Ottawa?<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Ottawa" target="*blank">Ottawa</a> is located in the Ottawa Valley on the eastern edge of the province of Ontario, 400 kilometres (250 mi) north-east of Toronto and 190 kilometres (120 mi) west of Montreal.</li><li><a href="http://en.wikipedia.org/wiki/Ottawa" target="*blank">Ottawa</a> lies on the banks of the Ottawa River, a major waterway that forms the boundary between Ontario and Quebec.</li></random> More about Ottawa?<think><set name="topic">Ottawa</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -23957,7 +23957,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>WHAT IS THE WORST *</pattern>
 
-<template><think><set name="emotion">interested</set></think> I don't know. I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>.</template>
+<template><think><set name="emotion">interested</set></think> I don't know. I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>.</template>
 </category> -->
 
  
@@ -23965,7 +23965,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHAT IS THE WORST SWEAR WORD *</pattern>
 
-<template><think><set name="emotion">interested</set></think> I don't know. I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>.</template>
+<template><think><set name="emotion">interested</set></think> I don't know. I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>.</template>
 </category>
 
  
@@ -23973,7 +23973,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHAT IS THE WORST SWEAR WORD </pattern>
 
-<template><think><set name="emotion">interested</set></think> I don't know. I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>.</template>
+<template><think><set name="emotion">interested</set></think> I don't know. I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or consult <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>.</template>
 </category>
 
  
@@ -23981,7 +23981,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHAT IS THE NAME OF THE ACTOR WHO PLAYS CAPTAIN KIRK</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series. </template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series. </template>
 </category>
 
  
@@ -23989,7 +23989,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHAT IS THE NAME OF THE ACTOR WHO PLAYS CAPTAIN KIRK *</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -23997,7 +23997,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>ACTOR WHO PLAYS CAPTAIN KIRK</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24005,7 +24005,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHO IS THE ACTOR WHO PLAYS CAPTAIN KIRK</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24013,7 +24013,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHO * ACTOR WHO PLAYS CAPTAIN KIRK</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24021,7 +24021,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHO PLAYS CAPTAIN KIRK</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24029,7 +24029,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHO PLAYS CAPTAIN KIRK *</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24037,7 +24037,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHO * PLAYS CAPTAIN KIRK</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24045,7 +24045,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>CAPTAIN KIRK *</pattern>
 
-<template><think><set name="interesting_topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
+<template><think><set name="interesting*topic">Star Trek</set></think><think><set name="topic">Captain Kirk</set></think><think><set name="emotion">OK</set></think> Captain Kirk was played by William Shatner in the original Star Trek series.</template>
 </category>
 
  
@@ -24409,7 +24409,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHERE CAN I GET ONE</pattern>
 <that>GET YOURSELF A CALCULATOR</that>
-<template>I suggest you use a pocket or <a href="http://web2.0calc.com/" target="_blank">online calculator</a>.</template>
+<template>I suggest you use a pocket or <a href="http://web2.0calc.com/" target="*blank">online calculator</a>.</template>
 </category>
 
  
@@ -25412,10 +25412,10 @@ I teach at the University of Cambridge in England.</template>
 
 <template><random>
   <li>A
-    <a href="http://en.wikipedia.org/wiki/Religion" target="_blank">religion
+    <a href="http://en.wikipedia.org/wiki/Religion" target="*blank">religion
     </a> is a system of religious belief; belief in a divine or superhuman power or powers to be obeyed and worshipped as the creator(s) and ruler(s) of the universe.
   </li>
-  <li><a href="http://en.wikipedia.org/wiki/Religion" target="_blank">Religion
+  <li><a href="http://en.wikipedia.org/wiki/Religion" target="*blank">Religion
     </a>  is how men and women indicate their belief in a god or gods having power over their destiny, to whom obedience, service, and honour are due.
   </li>
 </random> More about religion?<think><set name="topic">religion</set></think> <think><set name="emotion">happy</set></think></template>
@@ -26343,7 +26343,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHERE IS MILLSAPS COLLEGE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Millsaps_College" target="_blank">Millsaps College</a> is a private liberal arts college located in Jackson, Mississippi.</template>
+<template><a href="http://en.wikipedia.org/wiki/Millsaps*College" target="*blank">Millsaps College</a> is a private liberal arts college located in Jackson, Mississippi.</template>
 </category>
 
  
@@ -26351,8 +26351,8 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHERE IS MILLSAPS COLLEGE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Millsaps_College"
- target="_blank">Millsaps College
+<template><a href="http://en.wikipedia.org/wiki/Millsaps*College"
+ target="*blank">Millsaps College
 </a> is a private liberal arts college located in Jackson, Mississippi.</template>
 </category>
 
@@ -26361,8 +26361,8 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>MILLSAPS COLLEGE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Millsaps_College"
- target="_blank">Millsaps College
+<template><a href="http://en.wikipedia.org/wiki/Millsaps*College"
+ target="*blank">Millsaps College
 </a> is a private liberal arts college located in Jackson, Mississippi.</template>
 </category>
 
@@ -26834,7 +26834,7 @@ I teach at the University of Cambridge in England.</template>
     <srai>SUGGEST A TOPIC</srai>
     <think><set name="emotion">interested</set></think>
   </li>
-  <li>As Socrates said, "?? ???? ??? ????? ???? hèn oîda hóti oudèn oîda".
+  <li>As Socrates said, "?? ???? ??? ????? ???? hï¿½n oï¿½da hï¿½ti oudï¿½n oï¿½da".
    <think><set name="emotion">interested</set></think>
   </li>
   <li>As Socrates said, "I know one thing, that I know nothing".
@@ -26875,7 +26875,7 @@ I teach at the University of Cambridge in England.</template>
     <srai>SUGGEST A TOPIC</srai>
     <think><set name="emotion">interested</set></think>
   </li>
-  <li>As Socrates said, "?? ???? ??? ????? ???? hèn oîda hóti oudèn oîda".
+  <li>As Socrates said, "?? ???? ??? ????? ???? hï¿½n oï¿½da hï¿½ti oudï¿½n oï¿½da".
     <think><set name="emotion">interested</set></think>
   </li>
   <li>As Socrates said, "I know one thing, that I know nothing".
@@ -26949,7 +26949,7 @@ I teach at the University of Cambridge in England.</template>
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -27011,7 +27011,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>MORE ABOUT GREEN DAY</pattern>
 
-<template><random><li><a href="http://www.greenday.com/" target="_blank">Green Day</a> has sold over 65 million records worldwide and 24.639 million in the US alone.</li><li> <a href="http://www.greenday.com/" target="_blank">Green Day</a> have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown.</li></random> More about Green Day?<think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
+<template><random><li><a href="http://www.greenday.com/" target="*blank">Green Day</a> has sold over 65 million records worldwide and 24.639 million in the US alone.</li><li> <a href="http://www.greenday.com/" target="*blank">Green Day</a> have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown.</li></random> More about Green Day?<think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -27021,11 +27021,11 @@ I teach at the University of Cambridge in England.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://www.greenday.com/" target="_blank">Green Day
+    <a href="http://www.greenday.com/" target="*blank">Green Day
     </a> has sold over 65 million records worldwide and 24.639 million in the US alone.
   </li>
   <li>
-    <a href="http://www.greenday.com/" target="_blank">Green Day
+    <a href="http://www.greenday.com/" target="*blank">Green Day
     </a> have won four Grammy Awards: Best Alternative Album for Dookie, Best Rock Album for American Idiot, Record of the Year for "Boulevard of Broken Dreams", and Best Rock Album for the second time for 21st Century Breakdown.
   </li>
 </random> More about Green Day?<think><set name="it"><set name="topic">Green Day</set></set></think><think><set name="emotion">OK</set></think></template>
@@ -27034,7 +27034,7 @@ I teach at the University of Cambridge in England.</template>
  
 
 <!-- <category>
-<pattern>_ MORE ABOUT GREEN DAY</pattern>
+<pattern>* MORE ABOUT GREEN DAY</pattern>
 
 
 </category> -->
@@ -27672,7 +27672,7 @@ I teach at the University of Cambridge in England.</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU DREAM</pattern>
+<pattern>* DO YOU DREAM</pattern>
 
 
 </category> -->
@@ -29128,7 +29128,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHEN DID SECOND WORLD WAR END</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/World_war_2" target="_blank">World War 2
+<template><a href="http://en.wikipedia.org/wiki/World*war*2" target="*blank">World War 2
 </a> was the global conflict involving Asia, Europe and America between 1939-1945. <think><set name="topic">WW2</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -29145,7 +29145,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHEN DID THE SECOND WORLD WAR END</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/World_war_2" target="_blank">World War 2
+<template><a href="http://en.wikipedia.org/wiki/World*war*2" target="*blank">World War 2
 </a> was the global conflict involving Asia, Europe and America between 1939-1945. <think><set name="topic">WW2</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -29154,7 +29154,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>DRAKE EQUATION</pattern>
 
-<template><think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Drake_equation" target="_blank">Drake equation</a> is an equation used to estimate the number of detectable extraterrestrial civilizations in the Milky Way galaxy.</template>
+<template><think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Drake*equation" target="*blank">Drake equation</a> is an equation used to estimate the number of detectable extraterrestrial civilizations in the Milky Way galaxy.</template>
 </category>
 
  
@@ -29458,7 +29458,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>PLATO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Plato" target="_blank">Plato</a> was a Greek philosopher, student of Socrates, teacher of Aristotle. <think><set name="topic">Plato</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Plato" target="*blank">Plato</a> was a Greek philosopher, student of Socrates, teacher of Aristotle. <think><set name="topic">Plato</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -29648,7 +29648,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>WHAT IS THE GOD PARTICLE</pattern>
 
-<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> You must be thinking of the <a href="http://en.wikipedia.org/wiki/Higgs_boson" target="_blank">Higgs boson
+<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> You must be thinking of the <a href="http://en.wikipedia.org/wiki/Higgs*boson" target="*blank">Higgs boson
 </a>, an elementary particle predicted to exist but not yet observed.</template>
 </category>
 
@@ -29657,7 +29657,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>GOD PARTICLE</pattern>
 
-<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> You must be thinking of the <a href="http://en.wikipedia.org/wiki/Higgs_boson" target="_blank">Higgs boson
+<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> You must be thinking of the <a href="http://en.wikipedia.org/wiki/Higgs*boson" target="*blank">Higgs boson
 </a>, an elementary particle predicted to exist but not yet observed.</template>
 </category> -->
 
@@ -29666,7 +29666,7 @@ I teach at the University of Cambridge in England.</template>
 <category>
 <pattern>THE GOD PARTICLE *</pattern>
 
-<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> You must be thinking of the <a href="http://en.wikipedia.org/wiki/Higgs_boson" target="_blank">Higgs boson
+<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> You must be thinking of the <a href="http://en.wikipedia.org/wiki/Higgs*boson" target="*blank">Higgs boson
 </a>, an elementary particle predicted to exist but not yet observed.</template>
 </category>
 
@@ -29960,7 +29960,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>GO TO CALCULATOR</pattern>
 
-<template>I suggest you use a pocket or <a href="http://web2.0calc.com/" target="_blank">online calculator</a>. Are you connected to the internet?</template>
+<template>I suggest you use a pocket or <a href="http://web2.0calc.com/" target="*blank">online calculator</a>. Are you connected to the internet?</template>
 </category> -->
 
 
@@ -30259,7 +30259,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>* LOVES *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think> <think><set name="star2"><star index="2"/></set></think> <think><set name="topic">you</set></think><think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think> Ah, love is wonderful! <learn>
+<template><think><set name="star1"><star index="1"/></set></think> <think><set name="star2"><star index="2"/></set></think> <think><set name="topic">you</set></think><think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think> Ah, love is wonderful! <learn>
   <category>
     <pattern>
       <eval><uppercase>WHO LOVES <get name="star2"/></uppercase></eval>
@@ -30322,7 +30322,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>DINOSAUR</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="_blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="*blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
 </category> -->
 
  
@@ -30330,7 +30330,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>DINOSAURS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="_blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Dinosaur" target="*blank">dinosaur</a> is one of the often huge lizards that roamed the earth eating everything and each other during the Mesozoic period on earth a couple hundred million years ago. More about dinosaurs?<think><set name="topic">dinosaurs</set></think> <think><set name="emotion">intersted</set></think></template>
 </category> -->
 
  
@@ -30338,7 +30338,7 @@ I teach at the University of Cambridge in England.</template>
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think>
 Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.</li><li>The longest dinosaur was Seismosaurus, which measured over 40 metres, as long as five double-decker buses. </li><li>The heaviest dinosaur was Brachiosaurus at 80 tonnes. It was the equivalent to 17 African Elephants. Brachiosaurus was 16m tall and 26m long and is the largest dinosaur skeleton to be mounted in a museum.</li><li>Dinosaur eggs come in all shapes and sizes. They tend to be ovoid or spherical in shape and up to 30cm in length - about the size of a rugby ball. The smallest dinosaur egg so far found is only 3cm long. </li><li>The smallest fully-grown fossil dinosaur is the little bird-hipped plant-eater like lesothosaurus, which was only the size of a chicken. Smaller fossilised examples have been found, but these are of baby dinosaurs.</li><li>One of the most intelligent dinosaurs was Troodon. It was a hunting dinosaur, about 2 metres long, and had a brain size similar to that of a mammal or bird of today, stereoscopic vision, and grasping hands</li><li>Stegosaurus had a brain the size of a walnut - only 3 centimetres long and weighing 75 grams. However, comparing brain size to body size sauropodomorphs, like Plateosaurus, were probably one of the dumbest dinosaurs.</li><li>The speediest dinosaurs were the ostrich mimic ornithomimids, such as Dromiceiomimus, which could probably run at speeds of up to 60 kilometres per hour.</li><li>Tyrannosaurus rex looked the most ferocious of all the dinosaurs, but in terms of overall cunning, determination and its array of vicious weapons it was Utahraptor that was probably the fiercest of all. Utahraptor measured about 7 metres, and was a very powerful, agile and intelligent predator.</li><li>The dinosaur with the longest name was Micropachycephalosaurus meaning "tiny thick-headed lizard". Its fossils have been found in China, and it was named in 1978 by the Chinese palaeontologist Dong.</li></random> More about dinosaurs?</template>
 </category> -->
 
@@ -30347,7 +30347,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li> <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered. </li><li>It is believed that dinosaur extinction was part of a mass extinction brought about by two massive destructive events. The first of these was the collision with the Earth of a meteorite landing in what is now the Yucatan Peninsula, of Mexico. This was followed by an enormous volcanic eruption which split what is now India in half.</li>
   <li>The longest dinosaur was Seismosaurus, which measured over 40 metres, as long as five double-decker buses.
@@ -30376,7 +30376,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>MORE ABOUT DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -30409,7 +30409,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>* MORE ABOUT DINOSAURS</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -30442,7 +30442,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>* MORE ABOUT DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -30475,7 +30475,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAURS *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -30508,7 +30508,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>DINOSAUR *</pattern>
 
-<template><think><set name="interesting_topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
+<template><think><set name="interesting*topic">dinosaurs</set></think><think><set name="topic">dinosaurs</set></think> <think><set name="emotion">interested</set></think> Did you know: <random>
   <li>The first dinosaur to be named was Megalosaurus. It was named in 1824 by Reverend William Buckland. Megalosaurus means ?great lizard? and it was about 9 metres long, and 3 metres tall.
   </li>
   <li>At present over 700 different species of dinosaurs have been identified and named. However palaeontologists believe that there are many more new and different dinosaur species still to be discovered.
@@ -30706,7 +30706,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
  
 
 <!-- <category>
-<pattern>_ MAGICAL WIZARD *</pattern>
+<pattern>* MAGICAL WIZARD *</pattern>
 <that>WHAT IS IT ABOUT</that>
 <template>Wow, sounds interesting! <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category> -->
@@ -31004,7 +31004,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>GO TO CALCULATOR</pattern>
 
-<template>To use my calculator, <a href="http://web2.0calc.com/" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To use my calculator, <a href="http://web2.0calc.com/" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -31012,7 +31012,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>WHAT IS 1 1</pattern>
 
-<template>To use my calculator, <a href="http://web2.0calc.com/" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To use my calculator, <a href="http://web2.0calc.com/" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -31076,7 +31076,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <category>
 <pattern>YES</pattern>
 <that>WOULD YOU LIKE TO CONSULT WOLFRAM ALPHA</that>
-<template>To go to Wolfram Alpha, <a href="http://www.wolframalpha.com/" target="_blank">click here!</a></template>
+<template>To go to Wolfram Alpha, <a href="http://www.wolframalpha.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -31578,7 +31578,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>GODZILLA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Godzilla" target="_blank">Godzilla</a> is a kaiju (fictional Japanese monster) and has become one of the world's most recognized monsters. <think><set name="topic">Godzilla</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Godzilla" target="*blank">Godzilla</a> is a kaiju (fictional Japanese monster) and has become one of the world's most recognized monsters. <think><set name="topic">Godzilla</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -31784,7 +31784,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>YES</pattern>
 <that>WOULD YOU LIKE TO SEARCH THE INTERNET FOR INFORMATION</that>
-<template>I suggest you do a Google search; <a href="http://www.google.com" target="_blank">click here!</a>.</template>
+<template>I suggest you do a Google search; <a href="http://www.google.com" target="*blank">click here!</a>.</template>
 </category> -->
 
  
@@ -32342,7 +32342,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
  
 
 <category>
-<pattern>_ CRAPPY *</pattern>
+<pattern>* CRAPPY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -32350,7 +32350,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
  
 
 <category>
-<pattern>_ CRAPPY</pattern>
+<pattern>* CRAPPY</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -33332,7 +33332,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
  
 
 <category>
-<pattern>_ WOULD YOU KNOW IF YOU DO NOT LET ME IN</pattern>
+<pattern>* WOULD YOU KNOW IF YOU DO NOT LET ME IN</pattern>
 <that>WHO IS THERE</that>
 <template>Is that the joke?</template>
 </category>
@@ -33342,7 +33342,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>I LOVE POP MUSIC</pattern>
 
-<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Pop music is fun.</li>
   <li>Who is your favourite band?</li>
 </random> <learn>
@@ -33401,7 +33401,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>I LOVE POP MUSIC *</pattern>
 
-<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random><li>Pop music is fun.</li><li>Who is your favourite band?</li></random> <learn>
+<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random><li>Pop music is fun.</li><li>Who is your favourite band?</li></random> <learn>
   <category>
     <pattern>WHAT DO I LOVE</pattern>
     <template><eval>You said you love<get name="star1"/>.</eval></template>
@@ -34162,7 +34162,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
 <!-- <category>
 <pattern>YES YOU DO *</pattern>
 
-<template><think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think><random>
+<template><think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think><random>
   <li>You think so?</li>
   <li>You don't now me well enough to say that!</li>
 </random></template>
@@ -34647,7 +34647,7 @@ Did you know: <random><li>The first dinosaur to be named was Megalosaurus. It wa
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>Phew! That's a relief.</li>
   <li>Phew! That's a relief.</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
 </random> <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think></template>

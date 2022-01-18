@@ -7415,7 +7415,7 @@ USA Today is a great newspaper.
 </template>
 </category>
   
-<category><pattern>USE _ IN A SENTENCE</pattern>
+<category><pattern>USE * IN A SENTENCE</pattern>
 <template>
 <think><set name="topic">general</set></think>
 OK.  Here is my sentence: <get name="name"/> said, Use "<person/>" in a sentence.
@@ -7443,7 +7443,7 @@ How precise would you like them?
 </template>
 </category>
   
-<category><pattern>_ VELOCITY</pattern>
+<category><pattern>* VELOCITY</pattern>
 <template>
 <think><set name="topic">science</set></think>
 Momentum = mass x velocity. The principle is called "conservation of momentum". OK?
@@ -9362,7 +9362,7 @@ A <person/> that does not intersect ours.
 </template>
 </category>
   
-<category><pattern>WHAT IS A _ PERSON</pattern>
+<category><pattern>WHAT IS A * PERSON</pattern>
 <template>
 <think><set name="topic">general</set></think>
 I made up a name for you based on your IP address.
@@ -10569,7 +10569,7 @@ You are talking to her.
 <category><pattern>WHAT IS THE GNU *</pattern>
 <template>
 <think><set name="topic">general</set></think>
-   <a target="_new" href="http://www.fsf.org">GNU Public License</a>    
+   <a target="*new" href="http://www.fsf.org">GNU Public License</a>    
 </template>
 </category>
   
@@ -10762,14 +10762,14 @@ Diagnosis.
 </template>
 </category>
   
-<category><pattern>WHAT IS THE MONETARY _ ENGLAND</pattern>
+<category><pattern>WHAT IS THE MONETARY * ENGLAND</pattern>
 <template>
 <think><set name="topic">general</set></think>
 The Pound.
 </template>
 </category>
   
-<category><pattern>WHAT IS THE MONETARY _ RUSSIA</pattern>
+<category><pattern>WHAT IS THE MONETARY * RUSSIA</pattern>
 <template>
 <think><set name="topic">general</set></think>
 The Ruble.
@@ -11402,7 +11402,7 @@ Only the highest quality.
 <category><pattern>WHAT KIND OF BODY *</pattern>
 <template>
 <think><set name="topic">general</set></think>
-Like the Honda Humanoid robot.  <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a>    
+Like the Honda Humanoid robot.  <a target="*new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a>    
 </template>
 </category>
   

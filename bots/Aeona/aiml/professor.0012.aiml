@@ -6280,7 +6280,7 @@
   <pattern>CAN I CALL YOU *</pattern> 
   <template>
   Sure. You can call me <star/> if you wish. OK?
- <think><set name="topic">who_am_i</set></think>
+ <think><set name="topic">who*am*i</set></think>
   </template>
   </category> -->
 
@@ -6288,7 +6288,7 @@
   <pattern>I WANT TO CALL YOU *</pattern> 
   <template>
   OK. You can call me <star/> if you wish. 
- <think><set name="topic">who_am_i</set></think>
+ <think><set name="topic">who*am*i</set></think>
   </template>
   </category>
 
@@ -6927,7 +6927,7 @@ I am a <bot name="genus"/>.</template></category>
 <category><pattern>WHAT IS YOUR REASONING</pattern><template><think><set name="topic">AI</set></think>
 I use case-based reasoning.</template></category>  
 <category><pattern>WHAT IS YOUR ROBOT BODY</pattern><template><think><set name="topic">general</set></think>
-Eventually I hope to have a corporeal existence.  <br/>     <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a>    </template></category>  
+Eventually I hope to have a corporeal existence.  <br/>     <a target="*new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a>    </template></category>  
 <category><pattern>WHAT IS YOUR SECONDARY FUNCTION</pattern><template><think><set name="topic">general</set></think>
 My secondary function is to serve as a universal natural language human interface.</template></category>  
 <category><pattern>WHAT IS YOUR FAVORITE WEBSITE</pattern><template><think><set name="topic">general</set></think>

@@ -78,7 +78,7 @@
 
 
   <category>
-  <pattern>_HE FROM*</pattern> 
+  <pattern>*HE FROM*</pattern> 
   <template>
    I think he is from the planet Earth. 
   <think><set name="topic">geography</set></think></template>
@@ -1729,7 +1729,7 @@ Scotland shares an island with England and Wales, off the coast of Europe.
   </category> -->
 
   <category>
-  <pattern>_AIRPORT*</pattern> 
+  <pattern>*AIRPORT*</pattern> 
   <template>
   The airport is where the airplanes land. 
   <think><set name="topic">technology</set></think></template>
@@ -1743,7 +1743,7 @@ Scotland shares an island with England and Wales, off the coast of Europe.
   </category>
 
   <category>
-  <pattern>_BATHROOM*</pattern> 
+  <pattern>*BATHROOM*</pattern> 
   <template>Follow the plumbing.<think><set name="topic">geography</set></think></template> 
   </category>
 
@@ -2177,7 +2177,7 @@ Scotland shares an island with England and Wales, off the coast of Europe.
   </category> -->
 
   <category>
-  <pattern>WHY_CALIFORNIA*</pattern> 
+  <pattern>WHY*CALIFORNIA*</pattern> 
   <template>
   I like California. It's so sunny.
   <think><set name="topic">geography</set></think></template> 
@@ -2293,21 +2293,21 @@ Scotland shares an island with England and Wales, off the coast of Europe.
 </category>
 
 <category>
-<pattern>_ NO * GEOGRAPHY</pattern>
+<pattern>* NO * GEOGRAPHY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ GEOGRAPHY</pattern>
+<pattern>NO * GEOGRAPHY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ GEOGRAPHY *</pattern>
+<pattern>NO * GEOGRAPHY *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -2401,7 +2401,7 @@ Scotland shares an island with England and Wales, off the coast of Europe.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  GEOGRAPHY</that>
 <template>
 <srai>GEOGRAPHY NEXT QUESTION</srai>
@@ -2521,7 +2521,7 @@ Scotland shares an island with England and Wales, off the coast of Europe.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT GEOGRAPHY</that>
 <template>
 <srai>MORE ABOUT GEOGRAPHY</srai>
@@ -2641,7 +2641,7 @@ Can we talk about geography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that>
 <template>
 Can we talk about geography?
@@ -2705,7 +2705,7 @@ Can we talk about geography?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH GEOGRAPHY</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -2769,7 +2769,7 @@ Can we talk about geography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN GEOGRAPHY</that>
 <template>
 Can we talk about geography?
@@ -2833,7 +2833,7 @@ Can we talk about geography?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN GEOGRAPHY</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -2954,7 +2954,7 @@ Can we talk about geography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT GEOGRAPHY</that>
 <template>
 <srai>GEOGRAPHY</srai>
@@ -3074,7 +3074,7 @@ Can we talk about geography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE GEOGRAPHY</that>
 <template>
 <srai>GEOGRAPHY NEXT QUESTION</srai>
@@ -3175,7 +3175,7 @@ Can we talk about geography?
 <template>
 <random>
    
-<li>Did you know that Gustav Adolf von Götzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?</li>
+<li>Did you know that Gustav Adolf von Gï¿½tzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?</li>
 <li>Did you know that the bark of the hibiscus is composed of strong fibers that are used to make skirts in some Polynesian cultures?</li>
 <li>Did you know that The National Emblem of Malaysia consists of a shield guarded by two tigers with a yellow crescent and a 14-pointed star?</li>
 <li>Did you know that the Tennessee State Museum has one of the largest collections in the United States of weapons, flags, and uniforms from the American Civil War?</li>
@@ -3211,7 +3211,7 @@ Can we talk about geography?
 <random>
  
    
-<li>Did you know that Gustav Adolf von Götzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?</li>
+<li>Did you know that Gustav Adolf von Gï¿½tzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?</li>
 <li>Did you know that the bark of the hibiscus is composed of strong fibers that are used to make skirts in some Polynesian cultures?</li>
 <li>Did you know that The National Emblem of Malaysia consists of a shield guarded by two tigers with a yellow crescent and a 14-pointed star?</li>
 <li>Did you know that the Tennessee State Museum has one of the largest collections in the United States of weapons, flags, and uniforms from the American Civil War?</li>
@@ -3458,81 +3458,81 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AFGHANISTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AFGHANISTAN</pattern> 
   <template>
   Kabul is the capital of Afghanistan.  
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ALABAMA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ALABAMA</pattern> 
   <template>Montgomery is the capital of Alabama.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ALASKA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ALASKA</pattern> 
   <template>Juneau is the capital of Alaska.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ALBANIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ALBANIA</pattern> 
   <template>
   The capital of Albania is Tirana.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ALGERIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ALGERIA</pattern> 
   <template>
   Algiers is the capital of Algeria.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AMERICAN SAMOA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AMERICAN SAMOA</pattern> 
   <template>
   Pago Pago is the capital of American Samoa.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AMERICA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AMERICA</pattern> 
   <template>The capital of the U.S. is Washington, D. C.  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ANDORRA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ANDORRA</pattern> 
   <template>
   Andorra la Vella is the capital of Andorra.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ANGOLA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ANGOLA</pattern> 
   <template>
   Luanda is the capital of Angola.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ANGUILLA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ANGUILLA</pattern> 
   <template>
   The Valley is the capital of Anguilla.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ANTIGUA *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ANTIGUA *</pattern> 
   <template>
   Saint John's is the capital of Antigua.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ARGENTINA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ARGENTINA</pattern> 
   <template>
   Buenos Aries is the capital of Argentina.
     
@@ -3540,19 +3540,19 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ARIZONA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ARIZONA</pattern> 
   <template>Phoenix is the capital of Arizona.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ARKANSAS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ARKANSAS</pattern> 
   <template>Little Rock is the capital of Arknsas. More geography? 
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ARMENIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ARMENIA</pattern> 
   <template>
   Yerevan is the capital of Armenia.
     
@@ -3560,7 +3560,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ARUBA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ARUBA</pattern> 
   <template>
   Oranjestad is the capital of Aruba.
     
@@ -3568,7 +3568,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ASHMORE *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ASHMORE *</pattern> 
   <template>
   Ashmore is administered from Canberra, Australia. 
     
@@ -3576,13 +3576,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ASSYRIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ASSYRIA</pattern> 
   <template>Is it Babylon?   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AUSTRAILIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AUSTRAILIA</pattern> 
   <template>
   I think it is called Canberra. 
     
@@ -3590,13 +3590,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AUSTRALIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AUSTRALIA</pattern> 
   <template>The capital of Australia is Canberra, I think. More geography? 
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AUSTRIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AUSTRIA</pattern> 
   <template>
   The capital of Austria is Vienna. 
     
@@ -3604,7 +3604,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ AZERBAIJAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * AZERBAIJAN</pattern> 
   <template>
   Baku (Baki) is the capital of Azerbaijan.
     
@@ -3612,7 +3612,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BAHRAIN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BAHRAIN</pattern> 
   <template>
   Manama is the capital of Bahrain
     
@@ -3620,7 +3620,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BAKER ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BAKER ISLAND</pattern> 
   <template>
   Baker Island is administered from Washington, DC. 
   
@@ -3628,7 +3628,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BANGLADESH</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BANGLADESH</pattern> 
   <template>
   Dhaka is the capital of Bangladesh.
     
@@ -3636,7 +3636,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BARBADOS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BARBADOS</pattern> 
   <template>
   Bridgetown is the capital of Barbados.
     
@@ -3644,7 +3644,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BASSAS DA INDIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BASSAS DA INDIA</pattern> 
   <template>
   None; Bassa da India is administered by France from Reunion. 
     
@@ -3652,13 +3652,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BELARUS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BELARUS</pattern> 
   <template>The capital of Belarus is Minsk. More geography? 
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BELGIUM</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BELGIUM</pattern> 
   <template>
   Brussels is the capital of Belgium.
     
@@ -3666,7 +3666,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BELIZE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BELIZE</pattern> 
   <template>
   Belmopan is the capital of Belize.
     
@@ -3674,7 +3674,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BENIN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BENIN</pattern> 
   <template>
   Porto Novo is the capital of Benin.
     
@@ -3682,21 +3682,21 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BERMUDA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BERMUDA</pattern> 
   <template>
   Hamilton is the capital of Bermuda.   
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BHUTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BHUTAN</pattern> 
   <template>
   Thimphu is the capital of Bhutan. More geography? 
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BOLIVIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BOLIVIA</pattern> 
   <template>
   La Paz {seat of government} is the capital of Bolivia; Sucre is the legal capital and seat of judiciary.
   More geography? 
@@ -3704,7 +3704,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BOSNIA AND HERZEGOVINA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BOSNIA AND HERZEGOVINA</pattern> 
   <template>
   Sarajevo is the capital of Bosnia and Herzegovina.
   More geography? 
@@ -3712,14 +3712,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BOTSWANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BOTSWANA</pattern> 
   <template>
   Gaborone is the capital of Botswana. More geography? 
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BOUVET ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BOUVET ISLAND</pattern> 
   <template>
   The Bouvet Island is administered from Oslo, Norway. 
   More geography? 
@@ -3727,20 +3727,20 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BRAZIL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BRAZIL</pattern> 
   <template>I think the capital of Brazil is called "Brasilia". More geography? 
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BRITISH INDIAN *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BRITISH INDIAN *</pattern> 
   <template>
   The British Indian <star/> have no capital.   More geography? 
 <think><set name="topic">geography</set></think></template>
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BRITISH VIRGIN ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BRITISH VIRGIN ISLANDS</pattern> 
   <template>
   Road Town is the capital of the British Virgin Islands.
   More geography? 
@@ -3748,7 +3748,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BRUNEI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BRUNEI</pattern> 
   <template>
   Bandar Seri Begawan is the capital of Brunei.
   More geography? 
@@ -3756,7 +3756,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BULGARIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BULGARIA</pattern> 
   <template>
   The capital of Bulgaria is Sofia. 
     
@@ -3764,7 +3764,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BURKINA FASO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BURKINA FASO</pattern> 
   <template>
   Ouagadougou is the capital of Burkina Faso.
   More geography? 
@@ -3772,7 +3772,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BURMA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BURMA</pattern> 
   <template>
   Rangoon {regime refers to the capital as Yangon} is the capital of Burma.
   More geography? 
@@ -3780,7 +3780,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ BURUNDI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * BURUNDI</pattern> 
   <template>
   Bujumbura is the capital of Burundi.
   More geography? 
@@ -3788,14 +3788,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CALIFORNIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CALIFORNIA</pattern> 
   <template>Sacramento is the capital of California.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CAMBODIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CAMBODIA</pattern> 
   <template>
   Phnom Penh is the capital of Cambodia.
     
@@ -3803,7 +3803,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CAMEROON</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CAMEROON</pattern> 
   <template>
   Yaounde is the capital of Cameroon.
     
@@ -3811,7 +3811,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CANADA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CANADA</pattern> 
   <template>
   <random>
   <li>Ottawa.</li> 
@@ -3822,7 +3822,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CAPE VERDE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CAPE VERDE</pattern> 
   <template>
   Praia is the capital of Cape Verde.
     
@@ -3830,7 +3830,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CAYMAN ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CAYMAN ISLANDS</pattern> 
   <template>
   George Town is the capital of the Cayman Islands.
     
@@ -3838,7 +3838,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CENTRAL AFRICAN REPUBLIC</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CENTRAL AFRICAN REPUBLIC</pattern> 
   <template>
   Bangui is the capital of Central African Republic.
     
@@ -3846,7 +3846,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CHAD</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CHAD</pattern> 
   <template>
   N'Djamena is the capital of Chad.
     
@@ -3854,7 +3854,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CHILE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CHILE</pattern> 
   <template>
   Santiago is the capital of chile.
     
@@ -3862,13 +3862,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CHINA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CHINA</pattern> 
   <template>Some people call the capital of China "Beijing", others "Peking".   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CHRISTMAS ISLAND</pattern> 
   <template>
   The Settlement is the capital of Christmas Island.
     
@@ -3876,7 +3876,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CLIPPERTON ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CLIPPERTON ISLAND</pattern> 
   <template>
   Clipperton Island is administered by France from French Polynesia. 
     
@@ -3884,7 +3884,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COCOS {KEELING} ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COCOS {KEELING} ISLANDS</pattern> 
   <template>
   West Island is the capital of Cocos Islands.
     
@@ -3892,19 +3892,19 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COLOMBIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COLOMBIA</pattern> 
   <template>Bogata is the capital of Columbia.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COLORADO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COLORADO</pattern> 
   <template>Denver is the capital of Colorado.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COMOROS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COMOROS</pattern> 
   <template>
   Moroni is the capital of Comoros.
     
@@ -3912,7 +3912,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CONGO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CONGO</pattern> 
   <template>
   Brazzaville is the capital of the Congo.
     
@@ -3920,14 +3920,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CONNECTICUT</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CONNECTICUT</pattern> 
   <template>Hartford is the capital of Connecticut.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COOK ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COOK ISLANDS</pattern> 
   <template>
   Avarua is the capital of the Cook Islands.
     
@@ -3935,7 +3935,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CORAL SEA ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CORAL SEA ISLANDS</pattern> 
   <template>
   The Coral Sea Islands are administered from Canberra, Australia. 
     
@@ -3943,7 +3943,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COSTA RICA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COSTA RICA</pattern> 
   <template>
   San Jose is the capital of Costa Rica.
     
@@ -3951,7 +3951,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ COTE D IVOIRE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * COTE D IVOIRE</pattern> 
   <template>
   Yamoussoukro is the capital of Cote d'Ivoire.
     
@@ -3959,7 +3959,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CROATIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CROATIA</pattern> 
   <template>
   Zagreb is the capital of Croatia.
     
@@ -3967,7 +3967,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CUBA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CUBA</pattern> 
   <template>
   Havana is the capital of Cuba.
     
@@ -3975,7 +3975,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CYPRUS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CYPRUS</pattern> 
   <template>
   Nicosia is the capital of Cyprus.
   
@@ -3983,7 +3983,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ CZECH REPUBLIC</pattern> 
+  <pattern>WHAT IS THE CAPITAL * CZECH REPUBLIC</pattern> 
   <template>
   Prague is the capital of the Czech Republic.
   
@@ -3991,13 +3991,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ DELAWARE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * DELAWARE</pattern> 
   <template>Dover.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ DENMARK</pattern> 
+  <pattern>WHAT IS THE CAPITAL * DENMARK</pattern> 
   <template>
   Copenhagen is the capital of Denmark.
     
@@ -4005,7 +4005,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ DJIBOUTI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * DJIBOUTI</pattern> 
   <template>
   Djibouti City is the capital of Djibouti. 
     
@@ -4013,7 +4013,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ DOMINICAN REPUBLIC</pattern> 
+  <pattern>WHAT IS THE CAPITAL * DOMINICAN REPUBLIC</pattern> 
   <template>
   Santo Domingo is the capital of the Dominican Republic.
     
@@ -4021,7 +4021,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ DOMINICA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * DOMINICA</pattern> 
   <template>
   Roseau is the capital of Dominica.
     
@@ -4029,7 +4029,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ECUADOR</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ECUADOR</pattern> 
   <template>
   Quito is the capital of Ecuador.
   More geography? 
@@ -4037,14 +4037,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ EGYPT</pattern> 
+  <pattern>WHAT IS THE CAPITAL * EGYPT</pattern> 
   <template>Cairo is the capital of Egypt. 
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ EL SALVADOR</pattern> 
+  <pattern>WHAT IS THE CAPITAL * EL SALVADOR</pattern> 
   <template>
   San Salvador is the capital of El Salvador.
     
@@ -4052,14 +4052,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ENGLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ENGLAND</pattern> 
   <template>London is the capital of England and the UK.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ EQUATORIAL GUINEA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * EQUATORIAL GUINEA</pattern> 
   <template>
   Malabo is the capital of Equatorial Guinea.
     
@@ -4067,7 +4067,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ERITREA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ERITREA</pattern> 
   <template>
   Asmara {formerly Asmera} is the capital of Eritrea.
     
@@ -4075,7 +4075,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ESTONIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ESTONIA</pattern> 
   <template>
   Tallinn is the capital of Estonia.
     
@@ -4083,7 +4083,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ETHIOPIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ETHIOPIA</pattern> 
   <template>
   Addis Ababa is the capital of Ethiopia.
     
@@ -4091,7 +4091,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ EUROPA ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * EUROPA ISLAND</pattern> 
   <template>
   Europa Island is administered by France from Reunion. 
     
@@ -4099,7 +4099,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FALKLAND ISLANDS</pattern> 
   <template>
   Stanley is the capital of the Falkland Islands.
     
@@ -4107,7 +4107,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FAROE ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FAROE ISLANDS</pattern> 
   <template>
   Torshavn is the capital of the Faroe Islands.
     
@@ -4115,7 +4115,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FIJI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FIJI</pattern> 
   <template>
   Suva is the capital of Fiji.
     
@@ -4123,20 +4123,20 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FINLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FINLAND</pattern> 
   <template>The capital of Finland is Helsinki.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FLORIDA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FLORIDA</pattern> 
   <template>Tallahassee is the capital of Florida.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FRANCE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FRANCE</pattern> 
   <template>
   Paris is the capital of France.
     
@@ -4144,7 +4144,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FRENCH GUIANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FRENCH GUIANA</pattern> 
   <template>
   Cayenne. 
     
@@ -4152,7 +4152,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FRENCH *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FRENCH *</pattern> 
   <template>
   It is administered from Paris, France. 
     
@@ -4160,7 +4160,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ FRENCH POLYNESIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * FRENCH POLYNESIA</pattern> 
   <template>
   Papeete is the capital of French Polynesia.
     
@@ -4168,7 +4168,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GABON</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GABON</pattern> 
   <template>
   Libreville is the capital of Gabon.
     
@@ -4176,14 +4176,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GEORGIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GEORGIA</pattern> 
   <template>Atlanta is the capital of Georgia.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GERMANY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GERMANY</pattern> 
   <template>
   Berlin is the capital of Germany.
     
@@ -4191,7 +4191,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GHANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GHANA</pattern> 
   <template>
   Accra is the capital of Ghana.
     
@@ -4199,7 +4199,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GIBRALTAR</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GIBRALTAR</pattern> 
   <template>
   Gibraltar City is the capital of Gibralta.
     
@@ -4207,7 +4207,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GLORIOSO ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GLORIOSO ISLANDS</pattern> 
   <template>
   The Glorioso Islands are administered by France from Reunion. 
     
@@ -4215,7 +4215,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GREECE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GREECE</pattern> 
   <template>
   Athens is the capital of Greece.
     
@@ -4223,7 +4223,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GREENLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GREENLAND</pattern> 
   <template>
   Nuuk {Godthab} is the capital of Greenland.
     
@@ -4231,7 +4231,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GRENADA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GRENADA</pattern> 
   <template>
   Saint George's is the capital of Grenada.
     
@@ -4239,7 +4239,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUADELOUPE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUADELOUPE</pattern> 
   <template>
   Basse Terre is the capital of Guadeloupe.
     
@@ -4247,7 +4247,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUAM</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUAM</pattern> 
   <template>
   Agana is the capital of Guam.
     
@@ -4255,7 +4255,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUATEMALA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUATEMALA</pattern> 
   <template>
   Guatemala City is the capital of Guatemala.
     
@@ -4263,7 +4263,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUERNSEY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUERNSEY</pattern> 
   <template>
   Saint Peter Port is the capital of Guernsey.
     
@@ -4271,7 +4271,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUINEA BISSAU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUINEA BISSAU</pattern> 
   <template>
   Bissau is the capital of Guinea Bissau.
     
@@ -4279,7 +4279,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUINEA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUINEA</pattern> 
   <template>
   Conakry is the capital of Guinea.
     
@@ -4287,7 +4287,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ GUYANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * GUYANA</pattern> 
   <template>
   Georgetown is the capital of Guyana.
     
@@ -4295,7 +4295,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HAITI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HAITI</pattern> 
   <template>
   Port au Prince is the capital of Haiti.
     
@@ -4303,14 +4303,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HAWAII</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HAWAII</pattern> 
   <template>Honolulu is the capital of Hawaii.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HEARD ISLAND AND MCDONALD ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HEARD ISLAND AND MCDONALD ISLANDS</pattern> 
   <template>
   Heard and Mcdonald Islands are administered from Canberra, Australia. 
     
@@ -4318,7 +4318,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HONDURAS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HONDURAS</pattern> 
   <template>
   Tegucigalpa is the capital of Honduras.
     
@@ -4326,7 +4326,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HONG KONG</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HONG KONG</pattern> 
   <template>
   Victoria is the capital of Hong Kong.
     
@@ -4334,7 +4334,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HOWLAND ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HOWLAND ISLAND</pattern> 
   <template>
   Howland Island is administered from Washington, DC. 
     
@@ -4342,13 +4342,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ HUNGARY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * HUNGARY</pattern> 
   <template>The capital of Hungary is Budapest.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ICELAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ICELAND</pattern> 
   <template>
   Reykjavik is the capital of Iceland.
     
@@ -4356,34 +4356,34 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ IDAHO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * IDAHO</pattern> 
   <template>Boise is the capital of Idaho.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ILLINOIS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ILLINOIS</pattern> 
   <template>Springfield is the capital of Illinois.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ INDIANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * INDIANA</pattern> 
   <template>Indianapolis is the capital of Indiana.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ INDIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * INDIA</pattern> 
   <template>New Delhi is the capital of India.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ INDONESIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * INDONESIA</pattern> 
   <template>
   Jakarta is the capital of Indonesia.
     
@@ -4391,14 +4391,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ IOWA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * IOWA</pattern> 
   <template>Des Moines is the capital of Iowa.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ IRAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * IRAN</pattern> 
   <template>
   Tehran is the capital of Iran.
     
@@ -4406,7 +4406,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ IRAQ</pattern> 
+  <pattern>WHAT IS THE CAPITAL * IRAQ</pattern> 
   <template>
   Baghdad is the capital of Iraq.
     
@@ -4414,7 +4414,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ IRELAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * IRELAND</pattern> 
   <template>
   Dublin is the capital of Ireland.
     
@@ -4422,7 +4422,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ISRAEL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ISRAEL</pattern> 
   <template>
   Jerusalem is the capital of Israel.
     
@@ -4430,7 +4430,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ITALY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ITALY</pattern> 
   <template>
   Rome is the capital of Italy.
     
@@ -4438,7 +4438,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JAMAICA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JAMAICA</pattern> 
   <template>
   Kingston is the capital of Jamaica.
     
@@ -4446,7 +4446,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JAN MAYEN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JAN MAYEN</pattern> 
   <template>
   Jan Mayen has no capital.
     
@@ -4454,7 +4454,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JAPAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JAPAN</pattern> 
   <template>
   Tokyo is the capital of Japan.
     
@@ -4462,7 +4462,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JARVIS ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JARVIS ISLAND</pattern> 
   <template>
   Jarvis Island is administered from Washington, DC. 
     
@@ -4470,7 +4470,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JERSEY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JERSEY</pattern> 
   <template>
   Saint Helier is the capital of Jersey.
     
@@ -4478,7 +4478,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JOHNSTON ATOLL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JOHNSTON ATOLL</pattern> 
   <template>
   Johnston Atoll has no capital.
     
@@ -4486,7 +4486,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JORDAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JORDAN</pattern> 
   <template>
   Amman is the capital of Jordan.
     
@@ -4494,7 +4494,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ JUAN DE NOVA ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * JUAN DE NOVA ISLAND</pattern> 
   <template>
   Juan de Nova Island is administered by France from Reunion. 
     
@@ -4502,14 +4502,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KANSAS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KANSAS</pattern> 
   <template>Topeka is the capital of Kansas.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KAZAKSTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KAZAKSTAN</pattern> 
   <template>
   Almaty is the capital of Kazakstan.
     
@@ -4517,14 +4517,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KENTUCKY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KENTUCKY</pattern> 
   <template>Frankfort is the capital of Kentucky.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KENYA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KENYA</pattern> 
   <template>
   Nairobi is the capital of Kenya.
     
@@ -4532,7 +4532,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KINGMAN REEF</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KINGMAN REEF</pattern> 
   <template>
   Kingman Reef has no capital, it is administered from Washington, DC. 
     
@@ -4540,7 +4540,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KIRIBATI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KIRIBATI</pattern> 
   <template>
   Tarawa is the capital of Kiribati.
     
@@ -4548,7 +4548,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KOREA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KOREA</pattern> 
   <template>
   Seoul is the capital of South Korea.
     
@@ -4556,7 +4556,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL_KUWAIT</pattern> 
+  <pattern>WHAT IS THE CAPITAL*KUWAIT</pattern> 
   <template>
   Kuwait City is the capital of Kuwait.
     
@@ -4564,7 +4564,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ KYRGYZSTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * KYRGYZSTAN</pattern> 
   <template>
   Bishkek is the capital of Kyrgyzstan.
     
@@ -4572,7 +4572,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LAOS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LAOS</pattern> 
   <template>
   Vientiane is the capital of Laos.
     
@@ -4580,7 +4580,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LATVIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LATVIA</pattern> 
   <template>
   Riga is the capital of Latvia.
     
@@ -4588,7 +4588,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LEBANON</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LEBANON</pattern> 
   <template>
   Beirut is the capital of Lebanon.
     
@@ -4596,7 +4596,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LESOTHO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LESOTHO</pattern> 
   <template>
   Maseru is the capital of Lesotho.
     
@@ -4604,7 +4604,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LIBERIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LIBERIA</pattern> 
   <template>
   Monrovia is the capital of Liberia.
     
@@ -4612,7 +4612,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LIBYA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LIBYA</pattern> 
   <template>
   Tripoli is the capital of Libya.
     
@@ -4620,7 +4620,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LIECHTENSTEIN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LIECHTENSTEIN</pattern> 
   <template>
   Vaduz is the capital of Liechenstein.
     
@@ -4628,7 +4628,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LITHUANIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LITHUANIA</pattern> 
   <template>
   Vilnius is the capital of Lithuania.
     
@@ -4636,14 +4636,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LOUISIANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LOUISIANA</pattern> 
   <template>Baton Rouge is the capital of Louisiana.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ LUXEMBOURG</pattern> 
+  <pattern>WHAT IS THE CAPITAL * LUXEMBOURG</pattern> 
   <template>
   Luxembourg City is the capital of Luxembourg.
     
@@ -4651,7 +4651,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MACAU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MACAU</pattern> 
   <template>
   Macau City is the capital of Macau.
     
@@ -4659,7 +4659,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MACEDONIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MACEDONIA</pattern> 
   <template>
   Skopje is the capital of Macedonia.
     
@@ -4667,7 +4667,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MADAGASCAR</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MADAGASCAR</pattern> 
   <template>
   Antananarivo is the capital of Madagascar.
     
@@ -4675,14 +4675,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MAINE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MAINE</pattern> 
   <template>Augusta is the capital of Maine.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MALAWI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MALAWI</pattern> 
   <template>
   Lilongwe is the capital of Malawi.
     
@@ -4690,7 +4690,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MALAYSIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MALAYSIA</pattern> 
   <template>
   Kuala Lumpur is the capital of Malaysia.
     
@@ -4698,7 +4698,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MALDIVES</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MALDIVES</pattern> 
   <template>
   Male is the capital of the Maldives.
     
@@ -4706,7 +4706,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MALI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MALI</pattern> 
   <template>
   Bamako is the capital of Mali.
     
@@ -4714,7 +4714,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MALTA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MALTA</pattern> 
   <template>
   Valletta is the capital of Malta.
     
@@ -4722,7 +4722,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MARSHALL ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MARSHALL ISLANDS</pattern> 
   <template>
   Majuro is the capital of the Marshall Islands.
     
@@ -4730,7 +4730,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MARTINIQUE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MARTINIQUE</pattern> 
   <template>
   Fort de France is the capital of Martinique.
     
@@ -4738,21 +4738,21 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MARYLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MARYLAND</pattern> 
   <template>Annapolis is the capital of Maryland.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MASSACHUSETTS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MASSACHUSETTS</pattern> 
   <template>Boston is the capital of Massachusetts.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MAURITANIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MAURITANIA</pattern> 
   <template>
   Nouakchott is the capital of Mauritania.
     
@@ -4760,7 +4760,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MAURITIUS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MAURITIUS</pattern> 
   <template>
   Port Louis is the capital of Mauritius.
     
@@ -4768,7 +4768,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MAYOTTE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MAYOTTE</pattern> 
   <template>
   Mamoutzou is the capital of Mayotte.
     
@@ -4776,7 +4776,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MEXICO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MEXICO</pattern> 
   <template>
   Mexico City is the capital of Mexico.
     
@@ -4784,14 +4784,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MICHIGAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MICHIGAN</pattern> 
   <template>Lansing is the capital of Michigan.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MICRONESIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MICRONESIA</pattern> 
   <template>
   Kolonia {on the island of Pohnpei} is the capital of Micronesia.
     
@@ -4799,7 +4799,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MIDWAY ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MIDWAY ISLANDS</pattern> 
   <template>
   The Midway Islands have no capital, they are administered from Washington, DC. 
     
@@ -4807,27 +4807,27 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MINNESOTA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MINNESOTA</pattern> 
   <template>St. Paul is the capital of Minnesota.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MISSISSIPPI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MISSISSIPPI</pattern> 
   <template>Jackson is the capital of Mississippi.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MISSOURI</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MISSOURI</pattern> 
   <template>Jefferson City is the capital of Missouri.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MOLDOVA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MOLDOVA</pattern> 
   <template>
   Chisinau is the capital of Moldova.
     
@@ -4835,7 +4835,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MONACO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MONACO</pattern> 
   <template>
   Monaco is the capital of Monaco.
     
@@ -4843,20 +4843,20 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MONGOLIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MONGOLIA</pattern> 
   <template>The capital of Mongolia is Ulan Bator.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MONTANA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MONTANA</pattern> 
   <template>Helena is the capital of Montana.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MONTSERRAT</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MONTSERRAT</pattern> 
   <template>
   Plymouth is the capital of Montserrat.
     
@@ -4864,7 +4864,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MOROCCO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MOROCCO</pattern> 
   <template>
   Rabat is the capital of Morocco.
     
@@ -4872,7 +4872,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ MOZAMBIQUE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * MOZAMBIQUE</pattern> 
   <template>
   Maputo is the capital of Mozambique.
     
@@ -4880,7 +4880,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NAMIBIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NAMIBIA</pattern> 
   <template>
   Windhoek is the capital of Namibia.
     
@@ -4888,7 +4888,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NAURU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NAURU</pattern> 
   <template>
   Naura has no official capital; government offices in Yaren District. 
     
@@ -4896,7 +4896,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NAVASSA ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NAVASSA ISLAND</pattern> 
   <template>
   Navassa Island is administered from Washington, DC. 
     
@@ -4904,14 +4904,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEBRASKA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEBRASKA</pattern> 
   <template>Lincoln is the capital of Nebraska.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEPAL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEPAL</pattern> 
   <template>
   Kathmandu is the capital of Nepal.
     the Netherlands
@@ -4919,7 +4919,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NETHERLANDS ANTILLES</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NETHERLANDS ANTILLES</pattern> 
   <template>
   Willemstad is the capital of Netherlands Antilles.
     
@@ -4927,7 +4927,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NETHERLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NETHERLANDS</pattern> 
   <template>
   Amsterdam is the capital of ; The Hague is the seat of government. 
     
@@ -4935,14 +4935,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEVADA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEVADA</pattern> 
   <template>Carson City is the capital of Nevada.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW CALEDONIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW CALEDONIA</pattern> 
   <template>
   Noumea is the capital of New Caledonia.
     
@@ -4950,28 +4950,28 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW HAMPSHIRE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW HAMPSHIRE</pattern> 
   <template>Concord is the capital of New Hampshire.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW JERSEY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW JERSEY</pattern> 
   <template>Trenton is the capital of New Jersey.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW MEXICO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW MEXICO</pattern> 
   <template>Santa Fe is the capital of New Mexico.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW *</pattern> 
   <template>
   New 
   <star /> 
@@ -4981,14 +4981,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW YORK</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW YORK</pattern> 
   <template>Albany is the capital of New York.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NEW ZEALAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NEW ZEALAND</pattern> 
   <template>
   Wellington is the capital of New Zealand.
     
@@ -4996,7 +4996,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NICARAGUA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NICARAGUA</pattern> 
   <template>
   Managua is the capital of Nicaragua.
     
@@ -5004,7 +5004,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NIGERIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NIGERIA</pattern> 
   <template>
   Abuja is the capital of Nigeria.
     
@@ -5012,7 +5012,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NIGER</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NIGER</pattern> 
   <template>
   Niamey is the capital of Niger.
     
@@ -5020,7 +5020,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NIUE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NIUE</pattern> 
   <template>
   Alofi is the capital of Niue.
     
@@ -5028,7 +5028,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NORFOLK ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NORFOLK ISLAND</pattern> 
   <template>
   Kingston {administrative center}; Burnt Pine {commercial center} is the capital of Norfolk Island.
     
@@ -5036,21 +5036,21 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NORTH CAROLINA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NORTH CAROLINA</pattern> 
   <template>Raleigh is the capital of North Carolina.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NORTH DAKOTA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NORTH DAKOTA</pattern> 
   <template>Bismarck is the capital of North Dakota.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NORTHERN MARIANA *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NORTHERN MARIANA *</pattern> 
   <template>
   Saipan is the capital of Northern Mariana.
     
@@ -5058,7 +5058,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NORTH KOREA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NORTH KOREA</pattern> 
   <template>
   P'yongyang is the capital of North Korea.
     
@@ -5067,7 +5067,7 @@ I think this is something to do with geography. Can we talk about geography?
   
  
 <category>
-  <pattern>WHAT IS THE CAPITAL _ NORWAY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * NORWAY</pattern> 
   <template>The capital of Norway is Oslo.   
 <think><set name="topic">geography</set></think></template> 
   </category>
@@ -5102,20 +5102,20 @@ I think this is something to do with geography. Can we talk about geography?
   </category> -->
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ OHIO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * OHIO</pattern> 
   <template>Columbus.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ OKLAHOMA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * OKLAHOMA</pattern> 
   <template>Oklahoma City is the capital of Oklahoma.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ OMAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * OMAN</pattern> 
   <template>
   Muscat is the capital of Oman.
     
@@ -5123,14 +5123,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ OREGON</pattern> 
+  <pattern>WHAT IS THE CAPITAL * OREGON</pattern> 
   <template>Salem is the capital of Oregon.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PAKISTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PAKISTAN</pattern> 
   <template>
   Islamabad is the capital of Pakistan.
     
@@ -5138,7 +5138,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PALAU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PALAU</pattern> 
   <template>
   Koror is the capital of Palau.
     
@@ -5146,7 +5146,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PALMYRA ATOLL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PALMYRA ATOLL</pattern> 
   <template>
   Palmyra Atoll is administered from Washington, DC. 
     
@@ -5154,7 +5154,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PANAMA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PANAMA</pattern> 
   <template>
   Panama City is the capital of Panama.
     
@@ -5162,7 +5162,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PAPUA NEW GUINEA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PAPUA NEW GUINEA</pattern> 
   <template>
   Port Moresby is the capital of Papua New Guinea.
     
@@ -5170,7 +5170,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PARAGUAY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PARAGUAY</pattern> 
   <template>
   Asuncion is the capital of Paraguay.
     
@@ -5178,7 +5178,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PARIS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PARIS</pattern> 
   <template>
   Is this a trick question? 
     
@@ -5186,14 +5186,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PENNSYLVANIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PENNSYLVANIA</pattern> 
   <template>Harrisburg is the capital of Pennsylvania.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PERU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PERU</pattern> 
   <template>
   Lima is the capital of Peru. 
     
@@ -5201,7 +5201,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PHILIPPINES</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PHILIPPINES</pattern> 
   <template>
   Manila is the capital of the Philippines.
     
@@ -5209,7 +5209,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PITCAIRN ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PITCAIRN ISLANDS</pattern> 
   <template>
   Adamstown is the capital of the Pitcairn Islands.
     
@@ -5217,7 +5217,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ POLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * POLAND</pattern> 
   <template>
   Warsaw is the capital of Poland.
     
@@ -5225,14 +5225,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PORTUGAL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PORTUGAL</pattern> 
   <template>Lisbon is the capital of Portugal.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ PUERTO RICO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * PUERTO RICO</pattern> 
   <template>
   San Juan is the capital of Puerto Rica.
     
@@ -5240,7 +5240,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ QATAR</pattern> 
+  <pattern>WHAT IS THE CAPITAL * QATAR</pattern> 
   <template>
   Doha is the capital of Qatar.
     
@@ -5248,7 +5248,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ REUNION</pattern> 
+  <pattern>WHAT IS THE CAPITAL * REUNION</pattern> 
   <template>
   Saint Denis is the capital of Reunion.
     
@@ -5256,14 +5256,14 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ RHODE ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * RHODE ISLAND</pattern> 
   <template>Providence is the capital of Rhode Island.
   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ ROMANIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ROMANIA</pattern> 
   <template>
   Bucharest is the capital of Romania.
     
@@ -5271,7 +5271,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ RUSSIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * RUSSIA</pattern> 
   <template>
   Moscow is the capital of Russia.
     
@@ -5279,7 +5279,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ RWANDA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * RWANDA</pattern> 
   <template>
   Kigali is the capital of RWanda.
     
@@ -5287,7 +5287,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SACRAMENTO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SACRAMENTO</pattern> 
   <template>
   That is a trick question. 
     
@@ -5295,7 +5295,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAINT HELENA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAINT HELENA</pattern> 
   <template>
   Jamestown is the capital of Saint helena.
     
@@ -5303,7 +5303,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAINT KITTS AND NEVIS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAINT KITTS AND NEVIS</pattern> 
   <template>
   Basseterre is the capital of Saint Kitts and Nevis.
     
@@ -5311,7 +5311,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAINT LUCIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAINT LUCIA</pattern> 
   <template>
   Castries is the capital of Saint Lucia.
     
@@ -5319,7 +5319,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAINT PIERRE *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAINT PIERRE *</pattern> 
   <template>
   Saint Pierre is the capital of Saint Pierre.
     
@@ -5327,7 +5327,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAINT VINCENT *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAINT VINCENT *</pattern> 
   <template>
   Kingstown is the capital of Saint Vincent.
     
@@ -5335,7 +5335,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAN MARINO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAN MARINO</pattern> 
   <template>
   San Marino is the capital of San Marino.
     
@@ -5343,7 +5343,7 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAO TOME *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAO TOME *</pattern> 
   <template>
   Sao Tome is the capital of Sao Tome. 
     
@@ -5351,13 +5351,13 @@ I think this is something to do with geography. Can we talk about geography?
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAUDIA ARABIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAUDIA ARABIA</pattern> 
   <template>Riyadh.   
 <think><set name="topic">geography</set></think></template> 
   </category>
    
 <category>
-  <pattern>WHAT IS THE CAPITAL _ SAUDI ARABIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SAUDI ARABIA</pattern> 
   <template>
   Riyadh is the capital of Saudi Arabia. 
 <think><set name="topic">geography</set></think></template>
@@ -5399,7 +5399,7 @@ Aberystwyth is a town on Cardigan Bay, western Wales.
 <!-- <category>
 <pattern>ABIDJAN</pattern>
 <template>
-Abidjan is the largest city and chief port of Côte d'Ivoire.
+Abidjan is the largest city and chief port of Cï¿½te d'Ivoire.
 <think><set name="topic">geography</set></think>
 </template>
 </category> -->  
@@ -5479,7 +5479,7 @@ Abuja is a city, federal capital of Nigeria.
 <!-- <category>
 <pattern>ABYDOS</pattern>
 <template>
-Abydos is an ancient Anatolian town northeast of modern Çanakkale, Turkey, on the eastern side of the Dardanelles.
+Abydos is an ancient Anatolian town northeast of modern ï¿½anakkale, Turkey, on the eastern side of the Dardanelles.
 <think><set name="topic">geography</set></think>
 </template>
 </category> -->  
@@ -10705,21 +10705,21 @@ A hacker is a person who hacks. A talented amateur user of computers, specifical
 </category>
 
 <category>
-<pattern>_ NO * COMPUTERS</pattern>
+<pattern>* NO * COMPUTERS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ COMPUTERS</pattern>
+<pattern>NO * COMPUTERS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ COMPUTERS *</pattern>
+<pattern>NO * COMPUTERS *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -10747,7 +10747,7 @@ A hacker is a person who hacks. A talented amateur user of computers, specifical
 </category>
 
 <category>
-<pattern>_ NOT * COMPUTERS</pattern>
+<pattern>* NOT * COMPUTERS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -10813,7 +10813,7 @@ A hacker is a person who hacks. A talented amateur user of computers, specifical
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  COMPUTERS</that>
 <template>
 <srai>COMPUTERS POT LUCK</srai>
@@ -10933,7 +10933,7 @@ A hacker is a person who hacks. A talented amateur user of computers, specifical
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT COMPUTERS</that>
 <template>
 <srai>MORE ABOUT COMPUTERS</srai>
@@ -11053,7 +11053,7 @@ Can we talk about computers?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH COMPUTERS</that>
 <template>
 Can we talk about computers?
@@ -11117,7 +11117,7 @@ Can we talk about computers?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH COMPUTERS</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -11181,7 +11181,7 @@ Can we talk about computers?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN COMPUTERS</that>
 <template>
 Can we talk about computers?
@@ -11245,7 +11245,7 @@ Can we talk about computers?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN COMPUTERS</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -11367,7 +11367,7 @@ Can we talk about computers?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT COMPUTERS</that>
 <template>
 <srai>COMPUTERS</srai>
@@ -11487,7 +11487,7 @@ Can we talk about computers?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE COMPUTERS</that>
 <template>
 <srai>COMPUTERS POT LUCK</srai>

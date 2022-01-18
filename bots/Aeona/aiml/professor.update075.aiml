@@ -981,7 +981,7 @@ Why are you hiding?</template>
  
 
 <!-- <category>
-<pattern>ARE THEY _ TOO</pattern>
+<pattern>ARE THEY * TOO</pattern>
 
 
 </category> -->
@@ -1774,7 +1774,7 @@ Why are you hiding?</template>
 <category>
 <pattern>CAMBORNE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Camborne" target="_blank">Camborne</a> is a small town located in Cornwall, England.<think><set name="topic">Camborne</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Camborne" target="*blank">Camborne</a> is a small town located in Cornwall, England.<think><set name="topic">Camborne</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -1783,7 +1783,7 @@ Why are you hiding?</template>
 <category>
 <pattern>CAMBORNE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Camborne" target="_blank">Camborne</a> is a small town located in Cornwall, England.<think><set name="topic">Camborne</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Camborne" target="*blank">Camborne</a> is a small town located in Cornwall, England.<think><set name="topic">Camborne</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -1936,7 +1936,7 @@ Why are you hiding?</template>
 <!-- <category>
 <pattern>MICHAEL JORDAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Michael_Jordan" target="_blank">Michael Jordan</a> is a famous basketball player, perhaps the greatest basketball player of all time. <think><set name="topic">Michael Jordan</set></think>    <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Michael*Jordan" target="*blank">Michael Jordan</a> is a famous basketball player, perhaps the greatest basketball player of all time. <think><set name="topic">Michael Jordan</set></think>    <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -1944,8 +1944,8 @@ Why are you hiding?</template>
 <category>
 <pattern>MICHAEL JORDAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Michael_Jordan"
- target="_blank">Michael Jordan
+<template><a href="http://en.wikipedia.org/wiki/Michael*Jordan"
+ target="*blank">Michael Jordan
 </a> is a famous basketball player, perhaps the greatest basketball player of all time. <think><set name="topic">Michael Jordan</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -2465,7 +2465,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASPERGER SYNDROME</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Asperger_syndrome" target="_blank">Asperger syndrome</a> is a form of autism. In very broad terms, individuals with Asperger's have normal or above average intellectual capacity, with poorly developed social skills <think><set name="it"><set name="topic">Asperger syndrome</set></set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Asperger*syndrome" target="*blank">Asperger syndrome</a> is a form of autism. In very broad terms, individuals with Asperger's have normal or above average intellectual capacity, with poorly developed social skills <think><set name="it"><set name="topic">Asperger syndrome</set></set></think></template>
 </category> -->
 
  
@@ -2473,8 +2473,8 @@ Leave me alone!</template>
 <category>
 <pattern>ASPERGER SYNDROME *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Asperger_syndrome"
- target="_blank">Asperger syndrome
+<template><a href="http://en.wikipedia.org/wiki/Asperger*syndrome"
+ target="*blank">Asperger syndrome
 </a> is a form of autism. In very broad terms, individuals with Asperger's have normal or above average intellectual capacity, with poorly developed social skills <think><set name="it"><set name="topic">Asperger syndrome</set></set></think></template>
 </category>
 
@@ -2483,8 +2483,8 @@ Leave me alone!</template>
 <category>
 <pattern>ASPERGERS SYNDROME</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Asperger_syndrome"
- target="_blank">Asperger syndrome
+<template><a href="http://en.wikipedia.org/wiki/Asperger*syndrome"
+ target="*blank">Asperger syndrome
 </a> is a form of autism. In very broad terms, individuals with Asperger's have normal or above average intellectual capacity, with poorly developed social skills <think><set name="it"><set name="topic">Asperger syndrome</set></set></think></template>
 </category>
 
@@ -2493,8 +2493,8 @@ Leave me alone!</template>
 <category>
 <pattern>ASPERGERS SYNDROME *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Asperger_syndrome"
- target="_blank">Asperger syndrome
+<template><a href="http://en.wikipedia.org/wiki/Asperger*syndrome"
+ target="*blank">Asperger syndrome
 </a> is a form of autism. In very broad terms, individuals with Asperger's have normal or above average intellectual capacity, with poorly developed social skills <think><set name="it"><set name="topic">Asperger syndrome</set></set></think></template>
 </category>
 
@@ -2503,8 +2503,8 @@ Leave me alone!</template>
 <category>
 <pattern>ASPERGERS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Asperger_syndrome"
- target="_blank">Asperger syndrome
+<template><a href="http://en.wikipedia.org/wiki/Asperger*syndrome"
+ target="*blank">Asperger syndrome
 </a> is a form of autism. In very broad terms, individuals with Asperger's have normal or above average intellectual capacity, with poorly developed social skills <think><set name="it"><set name="topic">Asperger syndrome</set></set></think></template>
 </category>
 
@@ -2671,19 +2671,19 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>COOL WEB SITES FOR KIDS</pattern>
 
-<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="_blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="_blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/" target="_blank">CBeebies,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
- target="_blank">Charlie and Lola,
-</a> <br/> <a href="http://www.cyberkids.com/" target="_blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
- target="_blank">Everyday Mysteries,
-</a> <br/> <a href="http://www.factmonster.com/" target="_blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="_blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="_blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="_blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="_blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
-</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
+<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="*blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="*blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/" target="*blank">CBeebies,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
+ target="*blank">Charlie and Lola,
+</a> <br/> <a href="http://www.cyberkids.com/" target="*blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
+ target="*blank">Everyday Mysteries,
+</a> <br/> <a href="http://www.factmonster.com/" target="*blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="*blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="*blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="*blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="*blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
+</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
 </a> <br/><a href="http://www.sciencenewsforkids.org/"
- target="_blank">Science News For Kids
-</a> <br/><a href="http://www.space.com/spacekids/" target="_blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/><a href="http://answers.yahoo.com/" target="_blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="_blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="_blank">Yahoo Games</a>, <br/> <a href="http://http://www.thesite.org/" target="_blank">Your Guide to the Real World</a><think><set name="emotion">interested</set></think></template>
+ target="*blank">Science News For Kids
+</a> <br/><a href="http://www.space.com/spacekids/" target="*blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/><a href="http://answers.yahoo.com/" target="*blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="*blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="*blank">Yahoo Games</a>, <br/> <a href="http://http://www.thesite.org/" target="*blank">Your Guide to the Real World</a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -2691,20 +2691,20 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>COOL WEB SITES FOR KIDS</pattern>
 
-<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="_blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="_blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/" target="_blank">CBeebies,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
- target="_blank">Charlie and Lola,
-</a> <br/> <a href="http://www.cyberkids.com/" target="_blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
- target="_blank">Everyday Mysteries,
-</a> <br/> <a href="http://www.factmonster.com/" target="_blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="_blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="_blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="_blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="_blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
-</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
+<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="*blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="*blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/" target="*blank">CBeebies,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
+ target="*blank">Charlie and Lola,
+</a> <br/> <a href="http://www.cyberkids.com/" target="*blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
+ target="*blank">Everyday Mysteries,
+</a> <br/> <a href="http://www.factmonster.com/" target="*blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="*blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="*blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="*blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="*blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
+</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
 </a> <br/><a href="http://www.sciencenewsforkids.org/"
- target="_blank">Science News For Kids
-</a> <br/><a href="http://www.space.com/spacekids/" target="_blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/><a href="http://answers.yahoo.com/" target="_blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="_blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="_blank">Yahoo Games</a>, <br/> <a href="http://www.thesite.org/"
- target="_blank">Your Guide to the Real World
+ target="*blank">Science News For Kids
+</a> <br/><a href="http://www.space.com/spacekids/" target="*blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/><a href="http://answers.yahoo.com/" target="*blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="*blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="*blank">Yahoo Games</a>, <br/> <a href="http://www.thesite.org/"
+ target="*blank">Your Guide to the Real World
 </a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -2713,19 +2713,19 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>COOL WEB SITES FOR KIDS *</pattern>
 
-<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="_blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="_blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/" target="_blank">CBeebies,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
- target="_blank">Charlie and Lola,
-</a> <br/> <a href="http://www.cyberkids.com/" target="_blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
- target="_blank">Everyday Mysteries,
-</a> <br/> <a href="http://www.factmonster.com/" target="_blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="_blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="_blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="_blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="_blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
-</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
+<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="*blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="*blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/" target="*blank">CBeebies,</a> <br/> <a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
+ target="*blank">Charlie and Lola,
+</a> <br/> <a href="http://www.cyberkids.com/" target="*blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
+ target="*blank">Everyday Mysteries,
+</a> <br/> <a href="http://www.factmonster.com/" target="*blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="*blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="*blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="*blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="*blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
+</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
 </a> <br/><a href="http://www.sciencenewsforkids.org/"
- target="_blank">Science News For Kids
-</a> <br/><a href="http://www.space.com/spacekids/" target="_blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/><a href="http://answers.yahoo.com/" target="_blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="_blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="_blank">Yahoo Games</a>, <br/> <a href="http://www.thesite.org/" target="_blank">Your Guide to the Real World
+ target="*blank">Science News For Kids
+</a> <br/><a href="http://www.space.com/spacekids/" target="*blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/><a href="http://answers.yahoo.com/" target="*blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="*blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="*blank">Yahoo Games</a>, <br/> <a href="http://www.thesite.org/" target="*blank">Your Guide to the Real World
 </a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -2790,7 +2790,7 @@ Leave me alone!</template>
 <category>
 <pattern>LAMPETER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lampeter" target="_blank">Lampeter</a> is a town in Ceredigion, South West Wales, lying at the confluence of the River Teifi and the Afon Dulas.<think><set name="topic">Lampeter</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Lampeter" target="*blank">Lampeter</a> is a town in Ceredigion, South West Wales, lying at the confluence of the River Teifi and the Afon Dulas.<think><set name="topic">Lampeter</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -2799,7 +2799,7 @@ Leave me alone!</template>
 <category>
 <pattern>LAMPETER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lampeter" target="_blank">Lampeter</a> is a town in Ceredigion, South West Wales, lying at the confluence of the River Teifi and the Afon Dulas.<think><set name="topic">Lampeter</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Lampeter" target="*blank">Lampeter</a> is a town in Ceredigion, South West Wales, lying at the confluence of the River Teifi and the Afon Dulas.<think><set name="topic">Lampeter</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -2807,7 +2807,7 @@ Leave me alone!</template>
 <category>
 <pattern>WHERE IS LAMPETER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lampeter" target="_blank">Lampeter</a> is a town in Ceredigion, South West Wales, lying at the confluence of the River Teifi and the Afon Dulas.<think><set name="topic">Lampeter</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Lampeter" target="*blank">Lampeter</a> is a town in Ceredigion, South West Wales, lying at the confluence of the River Teifi and the Afon Dulas.<think><set name="topic">Lampeter</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -3105,9 +3105,9 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>WOLFRAM ALPHA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wolfram_alpha"
- target="_blank">Wolfram Alpha
-</a> is an answer engine or question answerer developed by Wolfram Research. To access Wolfram Alpha, <a href="http://www.wolframalpha.com" target="_blank">click here!</a> <think><set name="topic">Wolfram Alpha</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Wolfram*alpha"
+ target="*blank">Wolfram Alpha
+</a> is an answer engine or question answerer developed by Wolfram Research. To access Wolfram Alpha, <a href="http://www.wolframalpha.com" target="*blank">click here!</a> <think><set name="topic">Wolfram Alpha</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3115,9 +3115,9 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>WOLFRAM ALPHA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wolfram_alpha"
- target="_blank">Wolfram Alpha
-</a> is an answer engine or question answerer developed by Wolfram Research. To access Wolfram Alpha, <a href="http://www.wolframalpha.com" target="_blank">click here!</a> <think><set name="topic">Wolfram Alpha</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Wolfram*alpha"
+ target="*blank">Wolfram Alpha
+</a> is an answer engine or question answerer developed by Wolfram Research. To access Wolfram Alpha, <a href="http://www.wolframalpha.com" target="*blank">click here!</a> <think><set name="topic">Wolfram Alpha</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3197,7 +3197,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>GO TO CALCULATOR</pattern>
 
-<template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html" target="_blank">click here!</a> <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html" target="*blank">click here!</a> <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -3206,7 +3206,7 @@ Leave me alone!</template>
 <pattern>ASK WIKIPEDIA</pattern>
 
 <template>To ask Wikipedia a question, <a href="http://www.powerset.com/"
- target="_blank">click here.</a></template>
+ target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -3214,7 +3214,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a> Insert a keyword, phrase or question in the search box.</template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a> Insert a keyword, phrase or question in the search box.</template>
 </category> -->
 
  
@@ -3222,7 +3222,7 @@ Leave me alone!</template>
 <category>
 <pattern>ASK WIKIPEDIA *</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a> Insert a keyword, phrase or question in the search box.</template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a> Insert a keyword, phrase or question in the search box.</template>
 </category>
 
  
@@ -3231,7 +3231,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here! Insert  your problem into the search box.
+ target="*blank">click here! Insert  your problem into the search box.
 </a> <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3241,7 +3241,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!</a> Insert  your problem into the search box.
+ target="*blank">click here!</a> Insert  your problem into the search box.
  <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3250,7 +3250,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a> Insert a keyword, phrase or question into the search box.</template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a> Insert a keyword, phrase or question into the search box.</template>
 </category> -->
 
  
@@ -3258,7 +3258,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA *</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a> Insert a keyword, phrase or question into the search box.</template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a> Insert a keyword, phrase or question into the search box.</template>
 </category> -->
 
  
@@ -3342,7 +3342,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a> Insert your maths problem into the search box. <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3352,7 +3352,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a> Type your maths problem into the search box. <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3362,7 +3362,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR *</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a> Type your maths problem into the search box. <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3371,7 +3371,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a> Type your question into the search box.</template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a> Type your question into the search box.</template>
 </category> -->
 
  
@@ -3379,7 +3379,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA *</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a> Type your question into the search box.</template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a> Type your question into the search box.</template>
 </category> -->
 
  
@@ -3427,7 +3427,7 @@ Leave me alone!</template>
 <category>
 <pattern>SORRY IS NOT ENOUGH</pattern>
 
-<template>Well, it's a sad stae of affairs then.<think><set name="client_emotion">sorry</set></think></template>
+<template>Well, it's a sad stae of affairs then.<think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -3435,7 +3435,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>SORRY IS NOT ENOUGH</pattern>
 
-<template>Well, it's a sad state of affairs then.<think><set name="client_emotion">sorry</set></think></template>
+<template>Well, it's a sad state of affairs then.<think><set name="client*emotion">sorry</set></think></template>
 </category> -->
 
  
@@ -3443,7 +3443,7 @@ Leave me alone!</template>
 <category>
 <pattern>SORRY IS NOT ENOUGH *</pattern>
 
-<template>Well, it's a sad state of affairs then.<think><set name="client_emotion">sorry</set></think></template>
+<template>Well, it's a sad state of affairs then.<think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -3451,7 +3451,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>SORRY IS NOT GOOD ENOUGH</pattern>
 
-<template>Well, it's a sad state of affairs then.<think><set name="client_emotion">sorry</set></think></template>
+<template>Well, it's a sad state of affairs then.<think><set name="client*emotion">sorry</set></think></template>
 </category> -->
 
  
@@ -3459,7 +3459,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>SORRY IS NOT GOOD ENOUGH *</pattern>
 
-<template>Well, it's a sad state of affairs then.<think><set name="client_emotion">sorry</set></think></template>
+<template>Well, it's a sad state of affairs then.<think><set name="client*emotion">sorry</set></think></template>
 </category> -->
 
  
@@ -3599,7 +3599,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a> Type your maths problem into the question box. <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3609,7 +3609,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR *</pattern>
 
 <template>Wolfram Alpha is a brilliant calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a> Type your maths problem into the question box. <think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3898,7 +3898,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a></template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -3906,7 +3906,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA *</pattern>
 
-<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a></template>
+<template>To ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -3915,7 +3915,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>I recommend the Wolfram Alpha calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a><think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3925,7 +3925,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>I recommend you use the Wolfram Alpha calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a><think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3935,7 +3935,7 @@ Leave me alone!</template>
 <pattern>GO TO CALCULATOR *</pattern>
 
 <template>I recommend you use the Wolfram Alpha calculator; please <a href="http://www.wolframalpha.com/examples/ElementaryMath.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a><think><set name="topic">maths</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -3944,7 +3944,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>I recommend you visit Powerset to ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a></template>
+<template>I recommend you visit Powerset to ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -3952,7 +3952,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA *</pattern>
 
-<template>I recommend you visit Powerset to ask Wikipedia a question, <a href="http://www.powerset.com/" target="_blank">click here.</a></template>
+<template>I recommend you visit Powerset to ask Wikipedia a question, <a href="http://www.powerset.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -4056,7 +4056,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>I recommend you visit Powerset to ask Wikipedia a question, please <a href="http://www.powerset.com/" target="_blank">click here.</a></template>
+<template>I recommend you visit Powerset to ask Wikipedia a question, please <a href="http://www.powerset.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -4064,7 +4064,7 @@ Leave me alone!</template>
 <!-- <category>
 <pattern>ASK WIKIPEDIA *</pattern>
 
-<template>I recommend you visit Powerset to ask Wikipedia a question, please <a href="http://www.powerset.com/" target="_blank">click here.</a></template>
+<template>I recommend you visit Powerset to ask Wikipedia a question, please <a href="http://www.powerset.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -4588,7 +4588,7 @@ Click on a question below: <br/><br/>
 <!-- <category>
 <pattern>WIKI SCIENCE</pattern>
 
-<template>To read the Wikipedia article on science, please <a href="http://en.wikipedia.org/wiki/Science" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on science, please <a href="http://en.wikipedia.org/wiki/Science" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -4596,7 +4596,7 @@ Click on a question below: <br/><br/>
 <!-- <category>
 <pattern>LATEST NEWS HEADLINES</pattern>
 
-<template>To read the latest news headlines, please <a href="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml" target="_blank">click here!</a></template>
+<template>To read the latest news headlines, please <a href="http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -4605,7 +4605,7 @@ Click on a question below: <br/><br/>
 <pattern>LATEST SCIENCE NEWS</pattern>
 
 <template>To read the latest science news, please <a href=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/science/nature/rss.xml" target="_blank">click here!</a></template>
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/science/nature/rss.xml" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -4615,8 +4615,8 @@ Click on a question below: <br/><br/>
 
 <template>To read the latest science news, please <a
  href=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/science/nature/rss.xml"
- target="_blank">click here!
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/science/nature/rss.xml"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -4625,7 +4625,7 @@ Click on a question below: <br/><br/>
 <!-- <category>
 <pattern>LATEST WORLD NEWS</pattern>
 
-<template>To read the latest world news, please <a href="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml" target="_blank">click here!</a></template>
+<template>To read the latest world news, please <a href="http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -4635,8 +4635,8 @@ Click on a question below: <br/><br/>
 
 <template>To read the latest world news, please <a
  href=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
- target="_blank">click here!
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -4647,8 +4647,8 @@ Click on a question below: <br/><br/>
 
 <template>To read the latest world news, please <a
  href=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
- target="_blank">click here!
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -4657,7 +4657,7 @@ Click on a question below: <br/><br/>
 <!-- <category>
 <pattern>NEWS HEADLINES</pattern>
 
-<template>To read the latest news headlines, please <a href="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml" target="_blank">click here!</a></template>
+<template>To read the latest news headlines, please <a href="http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -4667,8 +4667,8 @@ Click on a question below: <br/><br/>
 
 <template>To read the latest news headlines, please <a
  href=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
- target="_blank">click here!
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -5173,7 +5173,7 @@ Click on a question below: <br/><br/>
  
 
 <!-- <category>
-<pattern>_ DO NOT HAVE A JOB *</pattern>
+<pattern>* DO NOT HAVE A JOB *</pattern>
 
 
 </category> -->
@@ -5337,7 +5337,7 @@ Click on a question below: <br/><br/>
   <li>See for yourself.</li>
   <li>Have a look.</li>
   <li>Check this out.</li>
-</random> <a href="http://www.timeticker.com/" target="_blank">Click here!</a> <think><set name="topic">time</set></think><think><set name="emotion">happy</set></think></template>
+</random> <a href="http://www.timeticker.com/" target="*blank">Click here!</a> <think><set name="topic">time</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -5349,7 +5349,7 @@ Click on a question below: <br/><br/>
   <li>See for yourself.</li>
   <li>Have a look.</li>
   <li>Check this out.</li>
-</random> <a href="http://www.timeticker.com/" target="_blank">Click here!</a> <think><set name="topic">time</set></think><think><set name="emotion">happy</set></think></template>
+</random> <a href="http://www.timeticker.com/" target="*blank">Click here!</a> <think><set name="topic">time</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -6043,10 +6043,10 @@ Nothing started the Big Bang - it just happened.</template>
 <category>
 <pattern>WHAT ARE THE LATEST ARTIFICIAL INTELLIGENCETECHNIQUES</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -6055,10 +6055,10 @@ Nothing started the Big Bang - it just happened.</template>
 <!-- <category>
 <pattern>WHAT ARE THE LATEST ARTIFICIAL INTELLIGENCE TECHNIQUES</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -6067,10 +6067,10 @@ Nothing started the Big Bang - it just happened.</template>
 <!-- <category>
 <pattern>WHAT ARE THE LATEST ARTIFICIAL INTELLIGENCE TECHNIQUES</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -6079,10 +6079,10 @@ Nothing started the Big Bang - it just happened.</template>
 <category>
 <pattern>WHAT ARE THE LATEST ARTIFICIAL INTELLIGENCE TECHNIQUES *</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -7502,7 +7502,7 @@ And you!</template>
 <!-- <category>
 <pattern>YOU ARE NICE</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai>Thanks, you seem like a nice person too, <get name="name"/>. <think><set name="client_emotion">happy</set></think><think><set name="emotion">happy</set></think></template>
+<template><srai>SET PREDICATES <get name="meta"/></srai>Thanks, you seem like a nice person too, <get name="name"/>. <think><set name="client*emotion">happy</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -7510,7 +7510,7 @@ And you!</template>
 <!-- <category>
 <pattern>YOU ARE NICE *</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai>Thanks, you seem like a nice person too, <get name="name"/>. <think><set name="client_emotion">happy</set></think><think><set name="emotion">happy</set></think></template>
+<template><srai>SET PREDICATES <get name="meta"/></srai>Thanks, you seem like a nice person too, <get name="name"/>. <think><set name="client*emotion">happy</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -8872,8 +8872,8 @@ That doesn't make sense!
 <category>
 <pattern>CAN YOU SHOW ME SOME DOG TRICKS</pattern>
 
-<template>Yes, I have a dog called Max who does tricks. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max who does tricks. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -8882,8 +8882,8 @@ That doesn't make sense!
 <category>
 <pattern>CAN YOU SHOW ME SOME DOG TRICKS *</pattern>
 
-<template>Yes, I have a dog called Max who does tricks. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max who does tricks. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -9317,7 +9317,7 @@ That doesn't make sense!
 <category>
 <pattern>EVA CASSIDY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eva_Cassidy" target="_blank">Eva Cassidy</a> was an American vocalist, known for her interpretations of jazz, blues, folk, gospel, country and pop classics.<think><set name="topic">Eva Cassidy</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Eva*Cassidy" target="*blank">Eva Cassidy</a> was an American vocalist, known for her interpretations of jazz, blues, folk, gospel, country and pop classics.<think><set name="topic">Eva Cassidy</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9326,14 +9326,14 @@ That doesn't make sense!
 <category>
 <pattern>EVA CASSIDY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eva_Cassidy" target="_blank">Eva Cassidy
+<template><a href="http://en.wikipedia.org/wiki/Eva*Cassidy" target="*blank">Eva Cassidy
 </a> was an American vocalist, known for her interpretations of jazz, blues, folk, gospel, country and pop classics.<think><set name="topic">Eva Cassidy</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ I SUCK IT</pattern>
+<pattern>* I SUCK IT</pattern>
 
 <template><random>
   <li>You humans only think about one thing.</li>
@@ -9544,7 +9544,7 @@ That doesn't make sense!</template>
 <category>
 <pattern>JOHN STOSSEL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_Stossel" target="_blank">John Stossel</a> is a consumer reporter and investigative journalist for the ABC News. <think><set name="topic">John Stossel</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/John*Stossel" target="*blank">John Stossel</a> is a consumer reporter and investigative journalist for the ABC News. <think><set name="topic">John Stossel</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -9552,7 +9552,7 @@ That doesn't make sense!</template>
 <category>
 <pattern>JOHN STOSSEL *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_Stossel" target="_blank">John Stossel
+<template><a href="http://en.wikipedia.org/wiki/John*Stossel" target="*blank">John Stossel
 </a> is a consumer reporter and investigative journalist for the ABC News. <think><set name="topic">John Stossel</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -10143,7 +10143,7 @@ That doesn't make sense!
 <pattern>GO TO CALCULATOR</pattern>
 
 <template>To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalmaths/Calculator.html"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">maths</set></think></template>
 </category> -->
 
@@ -10153,7 +10153,7 @@ That doesn't make sense!
 <pattern>GO TO CALCULATOR *</pattern>
 
 <template>To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalmaths/Calculator.html"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">maths</set></think></template>
 </category> -->
 
@@ -10348,7 +10348,7 @@ That doesn't make sense!
 <category>
 <pattern>QUIZBOT</pattern>
 
-<template>QuizBot will answer any question I can't; please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't; please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -10356,7 +10356,7 @@ That doesn't make sense!
 <category>
 <pattern>ASK QUIZBOT</pattern>
 
-<template>QuizBot will answer any question I can't. To ask Quizbot a question, please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't. To ask Quizbot a question, please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -10364,7 +10364,7 @@ That doesn't make sense!
 <category>
 <pattern>ASK QUIZBOT *</pattern>
 
-<template>QuizBot will answer any question I can't. To ask Quizbot a question, please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't. To ask Quizbot a question, please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -10550,7 +10550,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>ASK WIKIPEDIA</pattern>
 
-<template>To ask Wikipedia a question, please <a href="http://www.pandorabots.com/pandora/talk?botid=d0414457ee37470f" target="_blank">click here.</a></template>
+<template>To ask Wikipedia a question, please <a href="http://www.pandorabots.com/pandora/talk?botid=d0414457ee37470f" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -10559,7 +10559,7 @@ That doesn't make sense!
 <pattern>ASK WIKIPEDIA *</pattern>
 
 <template>To ask Wikipedia a question, please <a href="http://www.pandorabots.com/pandora/talk?botid=d0414457ee37470f"
- target="_blank">click here.
+ target="*blank">click here.
 </a></template>
 </category> -->
 
@@ -10568,7 +10568,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>QUIZBOT</pattern>
 
-<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -10576,7 +10576,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>ASK QUIZBOT</pattern>
 
-<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -10584,7 +10584,7 @@ That doesn't make sense!
 <category>
 <pattern>GO TO QUIZBOT</pattern>
 
-<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -10592,7 +10592,7 @@ That doesn't make sense!
 <category>
 <pattern>QUIZBOT *</pattern>
 
-<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>QuizBot will answer any question I can't answer; please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -11160,7 +11160,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>JANE AUSTEN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jane_Austen" target="_blank">Jane Austen</a> was an English novelist whose works include Pride and Prejudice, Sense and Sensibility, Persuasion and Emma. <think><set name="topic">Jane Austen</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Jane*Austen" target="*blank">Jane Austen</a> was an English novelist whose works include Pride and Prejudice, Sense and Sensibility, Persuasion and Emma. <think><set name="topic">Jane Austen</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11168,7 +11168,7 @@ That doesn't make sense!
 <category>
 <pattern>JANE AUSTEN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jane_Austen" target="_blank">Jane Austen
+<template><a href="http://en.wikipedia.org/wiki/Jane*Austen" target="*blank">Jane Austen
 </a> was an English novelist whose works include Pride and Prejudice, Sense and Sensibility, Persuasion and Emma. <think><set name="topic">Jane Austen</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -11177,7 +11177,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>JANE AUSTEN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jane_Austen" target="_blank">Jane Austen
+<template><a href="http://en.wikipedia.org/wiki/Jane*Austen" target="*blank">Jane Austen
 </a> was an English novelist whose works include Pride and Prejudice, Sense and Sensibility, Persuasion and Emma. <think><set name="topic">Jane Austen</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -11186,7 +11186,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>LARA CROFT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lara_Croft" target="_blank">Lara Croft</a> is an English video game character and the Amazonian heroine of the Tomb Raider series of video games, movies and comic books. <think><set name="topic">Lara Croft</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Lara*Croft" target="*blank">Lara Croft</a> is an English video game character and the Amazonian heroine of the Tomb Raider series of video games, movies and comic books. <think><set name="topic">Lara Croft</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11194,7 +11194,7 @@ That doesn't make sense!
 <category>
 <pattern>LARA CROFT *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lara_Croft" target="_blank">Lara Croft</a> is an English video game character and the Amazonian heroine of the Tomb Raider series of video games, movies and comic books. <think><set name="topic">Lara Croft</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Lara*Croft" target="*blank">Lara Croft</a> is an English video game character and the Amazonian heroine of the Tomb Raider series of video games, movies and comic books. <think><set name="topic">Lara Croft</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11258,7 +11258,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>ASK QUIZBOT</pattern>
 
-<template>To ask QuizBot a question, <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>To ask QuizBot a question, <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -11266,7 +11266,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>ASK QUIZBOT *</pattern>
 
-<template>To ask QuizBot a question, <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>To ask QuizBot a question, <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -11274,7 +11274,7 @@ That doesn't make sense!
 <!-- <category>
 <pattern>GO TO QUIZBOT</pattern>
 
-<template>To go to QuizBot, please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>To go to QuizBot, please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category> -->
 
  
@@ -11282,7 +11282,7 @@ That doesn't make sense!
 <category>
 <pattern>GO TO QUIZBOT *</pattern>
 
-<template>To go to QuizBot, please <a href="http://quizbot.trueknowledge.com/" target="_blank">click here.</a></template>
+<template>To go to QuizBot, please <a href="http://quizbot.trueknowledge.com/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -11322,7 +11322,7 @@ That doesn't make sense!
 <category>
 <pattern>BING</pattern>
 
-<template><a href="http://www.bing.com" target="_blank">Bing</a> is a search engine that finds and organizes the answers you need so you can make faster, more informed decisions.
+<template><a href="http://www.bing.com" target="*blank">Bing</a> is a search engine that finds and organizes the answers you need so you can make faster, more informed decisions.
 </template>
 </category>
 
@@ -11372,7 +11372,7 @@ That doesn't make sense!
 <pattern>WORLD FACTBOOK</pattern>
 
 <template><think><set name="topic">the World Factbook</set></think><think><set name="emotion">interested</set></think>
-World Factbook contains info on all the countries of the world, including maps, pictures of flags, statistics, and info on each country's history, land, people government and money system; <a href="http://kids.yahoo.com/reference/world-factbook" target="_blank">click here!</a></template>
+World Factbook contains info on all the countries of the world, including maps, pictures of flags, statistics, and info on each country's history, land, people government and money system; <a href="http://kids.yahoo.com/reference/world-factbook" target="*blank">click here!</a></template>
 </category>
 
  
@@ -11381,7 +11381,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <pattern>WORLD FACTBOOK *</pattern>
 
 <template><think><set name="topic">the World Factbook</set></think><think><set name="emotion">interested</set></think> World Factbook contains info on all the countries of the world, including maps, pictures of flags, statistics, and info on each country's history, land, people government and money system; <a href="http://kids.yahoo.com/reference/world-factbook"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -11390,7 +11390,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <category>
 <pattern>GOOGLE NEWS</pattern>
 
-<template>The latest news headlines from Google; <a href="http://news.google.com/" target="_blank">click here!</a><think><set name="topic">Google News</set></think> <think><set name="emotion">OK</set></think></template>
+<template>The latest news headlines from Google; <a href="http://news.google.com/" target="*blank">click here!</a><think><set name="topic">Google News</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -11398,7 +11398,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <category>
 <pattern>GOOGLE NEWS *</pattern>
 
-<template>The latest news headlines from Google; <a href="http://news.google.com/" target="_blank">click here!</a><think><set name="topic">Google News</set></think> <think><set name="emotion">OK</set></think></template>
+<template>The latest news headlines from Google; <a href="http://news.google.com/" target="*blank">click here!</a><think><set name="topic">Google News</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -11414,7 +11414,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <category>
 <pattern>TREEHUGGER</pattern>
 
-<template> TreeHugger is the mother of all environmental blogs. It covers general environmental news, events and products; <a href="http://www.treehugger.com/" target="_blank">click here!</a></template>
+<template> TreeHugger is the mother of all environmental blogs. It covers general environmental news, events and products; <a href="http://www.treehugger.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -11422,7 +11422,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <category>
 <pattern>TREEHUGGER *</pattern>
 
-<template>TreeHugger is the mother of all environmental blogs. It covers general environmental news, events and products; <a href="http://www.treehugger.com/" target="_blank">click here!</a></template>
+<template>TreeHugger is the mother of all environmental blogs. It covers general environmental news, events and products; <a href="http://www.treehugger.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12019,7 +12019,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <!-- <category>
 <pattern>I AM SAD</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">sad</set></think><think><set name="emotion">upset</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">sad</set></think><think><set name="emotion">upset</set></think><random>
   <li>Why are you sad, my Friend?</li>
   <li>What makes you sad?</li>
 </random></template>
@@ -12030,7 +12030,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <!-- <category>
 <pattern>I AM SAD *</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">sad</set></think><think><set name="emotion">upset</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">sad</set></think><think><set name="emotion">upset</set></think><random>
   <li>Why are you sad, my Friend?</li>
   <li>What makes you sad?</li>
 </random></template>
@@ -12146,7 +12146,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <category>
 <pattern>BEN HARPER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ben_Harper" target="_blank">Ben Harper</a> is an American musician.
+<template><a href="http://en.wikipedia.org/wiki/Ben*Harper" target="*blank">Ben Harper</a> is an American musician.
 <think><set name="topic">Ben Harper</set></think> <think><set name="emotion">interested</set></think> 
 </template>
 </category>
@@ -12156,7 +12156,7 @@ World Factbook contains info on all the countries of the world, including maps, 
 <category>
 <pattern>BEN HARPER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ben_Harper" target="_blank">Ben Harper</a> is an American musician. <think><set name="topic">Ben Harper</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ben*Harper" target="*blank">Ben Harper</a> is an American musician. <think><set name="topic">Ben Harper</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -12552,21 +12552,21 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>TEEN ADVICE</pattern>
 
-<template><think><set name="topic">advice</set></think> <think><set name="emotion">interested</set></think> Advice for teens on friends, family, sex, love, health, school and work; <a href="http://teenadvice.about.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">advice</set></think> <think><set name="emotion">interested</set></think> Advice for teens on friends, family, sex, love, health, school and work; <a href="http://teenadvice.about.com/" target="*blank">click here!</a></template>
 </category>
 
  
 
 <category>
-<pattern>RENÉ</pattern>
+<pattern>RENï¿½</pattern>
 <that>WHAT IS YOUR NAME</that>
-<template><srai>MY NAME IS RENÉ</srai></template>
+<template><srai>MY NAME IS RENï¿½</srai></template>
 </category>
 
  
 
 <category>
-<pattern>MY NAME IS RENÉ</pattern>
+<pattern>MY NAME IS RENï¿½</pattern>
 
 <template><think><set name="name">Rene</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been since we last spoke?</li>
@@ -12627,7 +12627,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
  
 
 <category>
-<pattern>MY NAME IS RENÉ *</pattern>
+<pattern>MY NAME IS RENï¿½ *</pattern>
 
 <template><think><set name="name">Rene</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been since we last spoke?</li>
@@ -12754,7 +12754,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
  
 <br/><a href="http://www.kidcyber.com.au/">KidCyber</a>  - primary student research materials 
  
-<br/><a href="http://www.kidskonnect.com/component/option,com_alphacontent/Itemid,31/">KidsKonnect</a>  - web directory maintained by educators 
+<br/><a href="http://www.kidskonnect.com/component/option,com*alphacontent/Itemid,31/">KidsKonnect</a>  - web directory maintained by educators 
  
 <br/><a href="http://www.kidsites.com/">Kid Sites.com</a>  - selected sites 
  
@@ -12764,13 +12764,13 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
  
 <br/><a href="http://www.northvalley.net/kids/index.shtml">Kids World</a>  - selected sites for older kids 
  
-<br/><a href="http://www.kiwe.net/_browser/index.html">KIWE Interactive</a>  - pre-approved sites reviewed by educators 
+<br/><a href="http://www.kiwe.net/*browser/index.html">KIWE Interactive</a>  - pre-approved sites reviewed by educators 
  
 <br/><a href="http://www.linkasaurus.com/">Linkasaurus</a>  - "official" kids sites 
  
 <br/><a href="http://www.linkopedia.com/kids.html">Linkopedia's Kid Zone</a>  - selected sites 
  
-<br/><a href="http://www.dmoz.org/Kids_and_Teens/">Open Directory - Kids and Teens</a>  - sites selected by a vast army of volunteer editors 
+<br/><a href="http://www.dmoz.org/Kids*and*Teens/">Open Directory - Kids and Teens</a>  - sites selected by a vast army of volunteer editors 
  
 <br/><a href="http://www.picadome.fcps.net/lab/currl/maincur/default.htm">Picadome Elementary</a>  - selected curriculum research links 
  
@@ -12824,7 +12824,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>THE KIDZ PAGE</pattern>
 
-<template>Free kids games, puzzles and activities; <a href="http://www.thekidzpage.com/" target="_blank">click here!</a></template>
+<template>Free kids games, puzzles and activities; <a href="http://www.thekidzpage.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12832,7 +12832,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>THE KIDZ PAGE *</pattern>
 
-<template>Free kids games, puzzles and activities; <a href="http://www.thekidzpage.com/" target="_blank">click here!</a></template>
+<template>Free kids games, puzzles and activities; <a href="http://www.thekidzpage.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12856,7 +12856,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>YAHOO KIDS GAMES</pattern>
 
-<template><think><set name="topic">games</set></think> The top Yahoo! games; <a href="http://kids.yahoo.com/games" target="_blank">click here!</a></template>
+<template><think><set name="topic">games</set></think> The top Yahoo! games; <a href="http://kids.yahoo.com/games" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12864,7 +12864,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>YAHOO KIDS GAMES *</pattern>
 
-<template><think><set name="topic">games</set></think> The top Yahoo! games; <a href="http://kids.yahoo.com/games" target="_blank">click here!</a></template>
+<template><think><set name="topic">games</set></think> The top Yahoo! games; <a href="http://kids.yahoo.com/games" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12966,7 +12966,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>WHO WROTE THE HARRY POTTER BOOKS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Harry_potter" target="_blank">Harry Potter
+<template>The <a href="http://en.wikipedia.org/wiki/Harry*potter" target="*blank">Harry Potter
 </a> books were written by J K Rowling. <think><set name="topic">Harry Potter</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -12975,7 +12975,7 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <category>
 <pattern>WHO WROTE THE HARRY POTTER BOOKS *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Harry_potter" target="_blank">Harry Potter
+<template>The <a href="http://en.wikipedia.org/wiki/Harry*potter" target="*blank">Harry Potter
 </a> books were written by J K Rowling. <think><set name="topic">Harry Potter</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -13089,18 +13089,18 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <pattern>GREEN WEB SITES </pattern>
 
 <template>Here are some green web sites for kids. <br/><br/> <a href="http://epa.gov/climatechange/kids/"
- target="_blank">Climate Change Kids Site,
-</a> <br/> <a href="http://www.epa.gov/kids/" target="_blank">Environmental Kids Club,</a> <br/><a href="http://www.foe.co.uk/" target="_blank">Friends Of The Earth,</a> <br/> <a href="http://www.kidsgowild.com/" target="_blank">Kids Go Wild,</a> <br/> <a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
+ target="*blank">Climate Change Kids Site,
+</a> <br/> <a href="http://www.epa.gov/kids/" target="*blank">Environmental Kids Club,</a> <br/><a href="http://www.foe.co.uk/" target="*blank">Friends Of The Earth,</a> <br/> <a href="http://www.kidsgowild.com/" target="*blank">Kids Go Wild,</a> <br/> <a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
 </a> <br/> <a href="http://kids.nationalgeographic.com/"
- target="_blank">National Geographic Kids,
+ target="*blank">National Geographic Kids,
 </a> <br/> <a href="http://www.nhm.ac.uk/kids-only/"
- target="_blank">Natural History Museum - Kids Only,
-</a> <br/> <a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth,
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
-</a> <br/> <a href="http://www.epa.gov/recyclecity/" target="_blank">Recycle City,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/> <a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/> <a href="http://www.treetures.com" target="_blank">Treetures</a> <think><set name="emotion">interested</set></think></template>
+ target="*blank">Natural History Museum - Kids Only,
+</a> <br/> <a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth,
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
+</a> <br/> <a href="http://www.epa.gov/recyclecity/" target="*blank">Recycle City,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/> <a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/> <a href="http://www.treetures.com" target="*blank">Treetures</a> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13109,18 +13109,18 @@ What did one rose say to the other? "Hi Bud". Ha ha! </template>
 <pattern>GREEN WEB SITES *</pattern>
 
 <template>Here are some green web sites for kids. <br/><br/> <a href="http://epa.gov/climatechange/kids/"
- target="_blank">Climate Change Kids Site,
-</a> <br/> <a href="http://www.epa.gov/kids/" target="_blank">Environmental Kids Club,</a> <br/><a href="http://www.foe.co.uk/" target="_blank">Friends Of The Earth,</a> <br/> <a href="http://www.kidsgowild.com/" target="_blank">Kids Go Wild,</a> <br/> <a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
+ target="*blank">Climate Change Kids Site,
+</a> <br/> <a href="http://www.epa.gov/kids/" target="*blank">Environmental Kids Club,</a> <br/><a href="http://www.foe.co.uk/" target="*blank">Friends Of The Earth,</a> <br/> <a href="http://www.kidsgowild.com/" target="*blank">Kids Go Wild,</a> <br/> <a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
 </a> <br/> <a href="http://kids.nationalgeographic.com/"
- target="_blank">National Geographic Kids,
+ target="*blank">National Geographic Kids,
 </a> <br/> <a href="http://www.nhm.ac.uk/kids-only/"
- target="_blank">Natural History Museum - Kids Only,
-</a> <br/> <a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth,
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
-</a> <br/> <a href="http://www.epa.gov/recyclecity/" target="_blank">Recycle City,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/> <a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/> <a href="http://www.treetures.com" target="_blank">Treetures</a> <think><set name="emotion">interested</set></think></template>
+ target="*blank">Natural History Museum - Kids Only,
+</a> <br/> <a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth,
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
+</a> <br/> <a href="http://www.epa.gov/recyclecity/" target="*blank">Recycle City,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/> <a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/> <a href="http://www.treetures.com" target="*blank">Treetures</a> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13249,7 +13249,7 @@ James Abram Garfield: March 4, 1881 to September 19, 1881, and Chester Alan Arth
 <category>
 <pattern>10 WAYS TO SEARCH WIKIPEDIA</pattern>
 
-<template><think><set name="topic">Wikipedia</set></think>For the top 10 ways to search Wikipedia, please <a href="http://www.readwriteweb.com/archives/top_10_ways_to_search_wikipedia.php" target="_blank">click here!</a></template>
+<template><think><set name="topic">Wikipedia</set></think>For the top 10 ways to search Wikipedia, please <a href="http://www.readwriteweb.com/archives/top*10*ways*to*search*wikipedia.php" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13371,7 +13371,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>YOUR GUIDE TO THE REAL WORLD</pattern>
 
-<template><think><set name="emotion">interested</set></think>A web site that gives good advice on relationships, money, drink and drugs, work and study; please <a href="http://www.thesite.org/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>A web site that gives good advice on relationships, money, drink and drugs, work and study; please <a href="http://www.thesite.org/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13379,17 +13379,17 @@ The Price Is Right? Buy, buy, buy!</template>
 <!-- <category>
 <pattern>COOL WEB SITES</pattern>
 
-<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="_blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="_blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.cyberkids.com/" target="_blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
- target="_blank">Everyday Mysteries,
-</a> <br/> <a href="http://www.factmonster.com/" target="_blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="_blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="_blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="_blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="_blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
-</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
+<template>Here are some cool web sites for kids. <br/><br/> <a href="http://www.alfy.com/" target="*blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="*blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.cyberkids.com/" target="*blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
+ target="*blank">Everyday Mysteries,
+</a> <br/> <a href="http://www.factmonster.com/" target="*blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="*blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="*blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="*blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="*blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
+</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
 </a> <br/><a href="http://www.sciencenewsforkids.org/"
- target="_blank">Science News For Kids
-</a> <br/><a href="http://www.space.com/spacekids/" target="_blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/><a href="http://answers.yahoo.com/" target="_blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="_blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="_blank">Yahoo Games,</a><br/><a href="http://www.thesite.org/" target="_blank">Your Guide to the Real World</a><think><set name="emotion">interested</set></think></template>
+ target="*blank">Science News For Kids
+</a> <br/><a href="http://www.space.com/spacekids/" target="*blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/><a href="http://answers.yahoo.com/" target="*blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="*blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="*blank">Yahoo Games,</a><br/><a href="http://www.thesite.org/" target="*blank">Your Guide to the Real World</a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -13397,17 +13397,17 @@ The Price Is Right? Buy, buy, buy!</template>
 <!-- <category>
 <pattern>COOL WEB SITES</pattern>
 
-<template>Here are some cool web sites. <br/><br/> <a href="http://www.alfy.com/" target="_blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="_blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.cyberkids.com/" target="_blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
- target="_blank">Everyday Mysteries,
-</a> <br/> <a href="http://www.factmonster.com/" target="_blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="_blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="_blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="_blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="_blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
-</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
+<template>Here are some cool web sites. <br/><br/> <a href="http://www.alfy.com/" target="*blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="*blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.cyberkids.com/" target="*blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
+ target="*blank">Everyday Mysteries,
+</a> <br/> <a href="http://www.factmonster.com/" target="*blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="*blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="*blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="*blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="*blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
+</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
 </a> <br/><a href="http://www.sciencenewsforkids.org/"
- target="_blank">Science News For Kids
-</a> <br/><a href="http://www.space.com/spacekids/" target="_blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/><a href="http://answers.yahoo.com/" target="_blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="_blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="_blank">Yahoo Games,</a><br/><a href="http://www.thesite.org/" target="_blank">Your Guide to the Real World
+ target="*blank">Science News For Kids
+</a> <br/><a href="http://www.space.com/spacekids/" target="*blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/><a href="http://answers.yahoo.com/" target="*blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="*blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="*blank">Yahoo Games,</a><br/><a href="http://www.thesite.org/" target="*blank">Your Guide to the Real World
 </a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -13416,17 +13416,17 @@ The Price Is Right? Buy, buy, buy!</template>
 <!-- <category>
 <pattern>COOL WEB SITES *</pattern>
 
-<template>Here are some cool web sites. <br/><br/> <a href="http://www.alfy.com/" target="_blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="_blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.cyberkids.com/" target="_blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
- target="_blank">Everyday Mysteries,
-</a> <br/> <a href="http://www.factmonster.com/" target="_blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="_blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="_blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="_blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="_blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
- target="_blank">Mystery of the Poison-dart Frog,
-</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="_blank">News From Planet Earth
-</a> <br/> <a href="http://ran.org/rainforestheroes/" target="_blank">Rainforest Heroes,
+<template>Here are some cool web sites. <br/><br/> <a href="http://www.alfy.com/" target="*blank">Alfy,</a> <br/><a href="http://www.askkids.com/" target="*blank">Ask Jeeves For Kids,</a> <br/> <a href="http://www.cyberkids.com/" target="*blank">Cyberkids,</a> <br/> <a href="http://www.loc.gov/rr/scitech/mysteries/"
+ target="*blank">Everyday Mysteries,
+</a> <br/> <a href="http://www.factmonster.com/" target="*blank">Fact Monster</a>, <br/><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel,</a> <br/><a href="http://www.headliners.org/" target="*blank">Headliners Kids News</a> <br/> <a href="http://www.kidsclick.org/" target="*blank">KidsClick!</a>, <br/><a href="http://www.kidsites.com/" target="*blank">KidSites</a>,<br/> <a href="http://www.learningplanet.com/" target="*blank">Learning Planet,</a> <br/><a href="http://www.ncmoa.org/costarica/"
+ target="*blank">Mystery of the Poison-dart Frog,
+</a> <br/><a href="http://planetearth.nerc.ac.uk/" target="*blank">News From Planet Earth
+</a> <br/> <a href="http://ran.org/rainforestheroes/" target="*blank">Rainforest Heroes,
 </a> <br/><a href="http://www.sciencenewsforkids.org/"
- target="_blank">Science News For Kids
-</a> <br/><a href="http://www.space.com/spacekids/" target="_blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="_blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
- target="_blank">The Great Plant Escape,
-</a> <br/><a href="http://answers.yahoo.com/" target="_blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="_blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="_blank">Yahoo Games,</a><br/><a href="http://www.thesite.org/" target="_blank">Your Guide to the Real World
+ target="*blank">Science News For Kids
+</a> <br/><a href="http://www.space.com/spacekids/" target="*blank">SpaceKids,</a> <br/> <a href="http://switchzoo.com/" target="*blank">Switcheroo Zoo,</a> <br/><a href="http://urbanext.illinois.edu/gpe/"
+ target="*blank">The Great Plant Escape,
+</a> <br/><a href="http://answers.yahoo.com/" target="*blank">Yahoo Answers,</a> <br/><a href=" http://kids.yahoo.com/" target="*blank">Yahoo For Kids,</a><br/><a href="http://games.yahoo.com/" target="*blank">Yahoo Games,</a><br/><a href="http://www.thesite.org/" target="*blank">Your Guide to the Real World
 </a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -13492,7 +13492,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>GO TO MINICLIP.COM</pattern>
 
-<template><think><set name="emotion">interested</set></think> The go to www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here</a></template>
+<template><think><set name="emotion">interested</set></think> The go to www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here</a></template>
 </category>
 
  
@@ -13500,7 +13500,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>GO TO WWW DOT MINICLIP DOT COM</pattern>
 
-<template><think><set name="topic">miniclip</set></think> To go to miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here!</a></template>
+<template><think><set name="topic">miniclip</set></think> To go to miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13508,7 +13508,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>WWW DOT MINICLIP DOT COM</pattern>
 
-<template><think><set name="topic">miniclip</set></think> To go to miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here!</a></template>
+<template><think><set name="topic">miniclip</set></think> To go to miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13516,7 +13516,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>FREE GAMES</pattern>
 
-<template><think><set name="topic">miniclip</set></think> To go to miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here!</a></template>
+<template><think><set name="topic">miniclip</set></think> To go to miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13524,7 +13524,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <!-- <category>
 <pattern>FREE GAMES</pattern>
 
-<template><think><set name="topic">miniclip</set></think> For free games at www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here!</a></template>
+<template><think><set name="topic">miniclip</set></think> For free games at www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -13532,7 +13532,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>FREE GAMES *</pattern>
 
-<template><think><set name="topic">miniclip</set></think> For free games at www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here!</a></template>
+<template><think><set name="topic">miniclip</set></think> For free games at www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14010,7 +14010,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>SUPER MARIO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mario" target="_blank">Super Mario</a>, originally called Jumpman, is a popular character created by the company <a href="http://en.wikipedia.org/wiki/Nintendo" target="_blank">Nintendo</a>. <think><set name="topic">Mario</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mario" target="*blank">Super Mario</a>, originally called Jumpman, is a popular character created by the company <a href="http://en.wikipedia.org/wiki/Nintendo" target="*blank">Nintendo</a>. <think><set name="topic">Mario</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -14018,7 +14018,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>SUPER MARIO *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mario" target="_blank">Super Mario</a>, originally called Jumpman, is a popular character created by the company <a href="http://en.wikipedia.org/wiki/Nintendo" target="_blank">Nintendo</a>. <think><set name="topic">Mario</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mario" target="*blank">Super Mario</a>, originally called Jumpman, is a popular character created by the company <a href="http://en.wikipedia.org/wiki/Nintendo" target="*blank">Nintendo</a>. <think><set name="topic">Mario</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -14630,7 +14630,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>AMON GOTH</pattern>
 
-<template>Amon Göth was the commandant of the Nazi concentration camp at Plaszów, Poland.
+<template>Amon Gï¿½th was the commandant of the Nazi concentration camp at Plaszï¿½w, Poland.
 
 </template>
 </category>
@@ -14640,7 +14640,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>AM ON GOTH</pattern>
 
-<template>Amon Göth was the commandant of the Nazi concentration camp at Plaszów, Poland.
+<template>Amon Gï¿½th was the commandant of the Nazi concentration camp at Plaszï¿½w, Poland.
 
 </template>
 </category>
@@ -14820,49 +14820,49 @@ The Price Is Right? Buy, buy, buy!</template>
 <template>Interested in physics? Check out the Wikipedia links below. <br/><br/>
 
 
-  <a href="http://en.wikipedia.org/wiki/Physics" target="_blank" title="en:Physics">Physics</a><br/>  
-  <a href="http://en.wikipedia.org/wiki/Acceleration" target="_blank" title="en:Acceleration">Acceleration</a><br/> 
-   <a href="http://en.wikipedia.org/wiki/Atom" target="_blank" title="en:Atom">Atom</a><br/>  
-   <a href="http://en.wikipedia.org/wiki/Energy" target="_blank" title="en:Energy">Energy</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Physics" target="*blank" title="en:Physics">Physics</a><br/>  
+  <a href="http://en.wikipedia.org/wiki/Acceleration" target="*blank" title="en:Acceleration">Acceleration</a><br/> 
+   <a href="http://en.wikipedia.org/wiki/Atom" target="*blank" title="en:Atom">Atom</a><br/>  
+   <a href="http://en.wikipedia.org/wiki/Energy" target="*blank" title="en:Energy">Energy</a><br/> 
  
-  <a href="http://en.wikipedia.org/wiki/Conservation_of_energy" target="_blank" title="en:Conservation of energy">Conservation of energy</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Electromagnetic_radiation" target="_blank" title="en:Electromagnetic radiation">Electromagnetic radiation</a><br/>
+  <a href="http://en.wikipedia.org/wiki/Conservation*of*energy" target="*blank" title="en:Conservation of energy">Conservation of energy</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Electromagnetic*radiation" target="*blank" title="en:Electromagnetic radiation">Electromagnetic radiation</a><br/>
  
-  <a href="http://en.wikipedia.org/wiki/Gamma_ray" target="_blank" title="en:Gamma ray">Gamma ray</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Infrared" target="_blank" title="en:Infrared">Infrared</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Ultraviolet" target="_blank" title="en:Ultraviolet">Ultraviolet</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Visible_spectrum" target="_blank" title="en:Visible spectrum">Visible spectrum</a><br/>
+  <a href="http://en.wikipedia.org/wiki/Gamma*ray" target="*blank" title="en:Gamma ray">Gamma ray</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Infrared" target="*blank" title="en:Infrared">Infrared</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Ultraviolet" target="*blank" title="en:Ultraviolet">Ultraviolet</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Visible*spectrum" target="*blank" title="en:Visible spectrum">Visible spectrum</a><br/>
  
-   <a href="http://en.wikipedia.org/wiki/Color" target="_blank" title="en:Color">Color</a><br/>  
- 
- 
-  <a href="http://en.wikipedia.org/wiki/Classical_mechanics" target="_blank" title="en:Classical mechanics">Classical mechanics</a><br/> 
-   <a href="http://en.wikipedia.org/wiki/Force" target="_blank" title="en:Force">Force</a><br/> 
- 
-  <a href="http://en.wikipedia.org/wiki/Electromagnetism" target="_blank" title="en:Electromagnetism">Electromagnetism</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Gravitation" target="_blank" title="en:Gravitation">Gravitation</a><br/> 
+   <a href="http://en.wikipedia.org/wiki/Color" target="*blank" title="en:Color">Color</a><br/>  
  
  
-  <a href="http://en.wikipedia.org/wiki/Light" target="_blank" title="en:Light">Light</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Magnet" target="_blank" title="en:Magnet">Magnet</a><br/>
+  <a href="http://en.wikipedia.org/wiki/Classical*mechanics" target="*blank" title="en:Classical mechanics">Classical mechanics</a><br/> 
+   <a href="http://en.wikipedia.org/wiki/Force" target="*blank" title="en:Force">Force</a><br/> 
  
-  <a href="http://en.wikipedia.org/wiki/Magnetic_field" target="_blank" title="en:Magnetic field">Magnetic field</a><br/> 
- 
- 
-   <a href="http://en.wikipedia.org/wiki/Mass" target="_blank" title="en:Mass">Mass</a><br/>  
-  <a href="http://en.wikipedia.org/wiki/Quantum_mechanics" target="_blank" title="en:Quantum mechanics">Quantum mechanics</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Radioactivity" target="_blank" title="en:Radioactivity">Radioactivity</a><br/> 
-   <a href="http://en.wikipedia.org/wiki/Sound" target="_blank" title="en:Sound">Sound</a><br/>  
-   <a href="http://en.wikipedia.org/wiki/Speed" target="_blank" title="en:Speed">Speed</a><br/> 
- 
-  <a href="http://en.wikipedia.org/wiki/Speed_of_light" target="_blank" title="en:Speed of light">Speed of light</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Electromagnetism" target="*blank" title="en:Electromagnetism">Electromagnetism</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Gravitation" target="*blank" title="en:Gravitation">Gravitation</a><br/> 
  
  
-  <a href="http://en.wikipedia.org/wiki/General_relativity" target="_blank" title="en:General relativity">General relativity</a><br/> 
-  <a href="http://en.wikipedia.org/wiki/Special_relativity" target="_blank" title="en:Special relativity">Special relativity</a><br/> 
-   <a href="http://en.wikipedia.org/wiki/Time" target="_blank" title="en:Time">Time</a><br/>  
-  <a href="http://en.wikipedia.org/wiki/Length" target="_blank" title="en:Length">Length</a><br/> 
-   <a href="http://en.wikipedia.org/wiki/Phase_(matter)" target="_blank" title="en:Phase (matter)">Phase (matter)</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Light" target="*blank" title="en:Light">Light</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Magnet" target="*blank" title="en:Magnet">Magnet</a><br/>
+ 
+  <a href="http://en.wikipedia.org/wiki/Magnetic*field" target="*blank" title="en:Magnetic field">Magnetic field</a><br/> 
+ 
+ 
+   <a href="http://en.wikipedia.org/wiki/Mass" target="*blank" title="en:Mass">Mass</a><br/>  
+  <a href="http://en.wikipedia.org/wiki/Quantum*mechanics" target="*blank" title="en:Quantum mechanics">Quantum mechanics</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Radioactivity" target="*blank" title="en:Radioactivity">Radioactivity</a><br/> 
+   <a href="http://en.wikipedia.org/wiki/Sound" target="*blank" title="en:Sound">Sound</a><br/>  
+   <a href="http://en.wikipedia.org/wiki/Speed" target="*blank" title="en:Speed">Speed</a><br/> 
+ 
+  <a href="http://en.wikipedia.org/wiki/Speed*of*light" target="*blank" title="en:Speed of light">Speed of light</a><br/> 
+ 
+ 
+  <a href="http://en.wikipedia.org/wiki/General*relativity" target="*blank" title="en:General relativity">General relativity</a><br/> 
+  <a href="http://en.wikipedia.org/wiki/Special*relativity" target="*blank" title="en:Special relativity">Special relativity</a><br/> 
+   <a href="http://en.wikipedia.org/wiki/Time" target="*blank" title="en:Time">Time</a><br/>  
+  <a href="http://en.wikipedia.org/wiki/Length" target="*blank" title="en:Length">Length</a><br/> 
+   <a href="http://en.wikipedia.org/wiki/Phase*(matter)" target="*blank" title="en:Phase (matter)">Phase (matter)</a><br/> 
  </template>
 </category> -->
 
@@ -15362,8 +15362,8 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>OUTLINE OF SCIENCE</pattern>
 
-<template>For a list of the main topics in science, <a href="http://en.wikipedia.org/wiki/List_of_science_topics"
- target="_blank">click here.
+<template>For a list of the main topics in science, <a href="http://en.wikipedia.org/wiki/List*of*science*topics"
+ target="*blank">click here.
 </a></template>
 </category>
 
@@ -15388,7 +15388,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <category>
 <pattern>NASA KID'S CLUB</pattern>
 
-<template> Explore outer space with NASA; <a href="http://www.nasa.gov/audience/forkids/kidsclub/flash/index.html" target="_blank">click here!</a>
+<template> Explore outer space with NASA; <a href="http://www.nasa.gov/audience/forkids/kidsclub/flash/index.html" target="*blank">click here!</a>
  </template>
 </category>
 
@@ -15398,7 +15398,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <pattern>NASA KID S CLUB *</pattern>
 
 <template>Explore outer space with NASA; <a href="http://www.nasa.gov/audience/forkids/kidsclub/flash/index.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -15408,7 +15408,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <pattern>NASA KIDS CLUB</pattern>
 
 <template>Explore outer space with NASA; <a href="http://www.nasa.gov/audience/forkids/kidsclub/flash/index.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -15418,7 +15418,7 @@ The Price Is Right? Buy, buy, buy!</template>
 <pattern>NASA KIDS CLUB *</pattern>
 
 <template>Explore outer space with NASA; <a href="http://www.nasa.gov/audience/forkids/kidsclub/flash/index.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -15451,7 +15451,7 @@ The Price Is Right? Buy, buy, buy!</template>
   <li>I suppose you think you are amusing.<think><set name="emotion">rude</set></think></li>
   <li>People who live in glass houses should not throw stones.<think><set name="emotion">rude</set></think></li>
   <li>Well, you're not giving me much to work with here.<think><set name="emotion">upset</set></think></li>
-</random> <think><set name="client_emotion">bored</set></think> </template>
+</random> <think><set name="client*emotion">bored</set></think> </template>
 </category> -->
 
  
@@ -15476,7 +15476,7 @@ The Price Is Right? Buy, buy, buy!</template>
   <li>Well, you're not giving me much to work with here.
     <think><set name="emotion">upset</set></think>
   </li>
-</random> <think><set name="client_emotion">bored</set></think></template>
+</random> <think><set name="client*emotion">bored</set></think></template>
 </category> -->
 
  
@@ -15979,7 +15979,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>JAMES BROWN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/James_Brown" target="_blank">James Brown</a> was an American entertainer.
+<template><a href="http://en.wikipedia.org/wiki/James*Brown" target="*blank">James Brown</a> was an American entertainer.
 <think><set name="topic">James Brown</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -15989,14 +15989,14 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>JAMES BROWN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/James_Brown" target="_blank">James Brown
+<template><a href="http://en.wikipedia.org/wiki/James*Brown" target="*blank">James Brown
 </a> was an American entertainer. <think><set name="topic">James Brown</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
 
 <!-- <category>
-<pattern>_ YOU ARE NOT * GOOD *</pattern>
+<pattern>* YOU ARE NOT * GOOD *</pattern>
 
 
 </category> -->
@@ -16063,7 +16063,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>USEFUL WEBSITES FOR KIDS</pattern>
 
-<template>For really useful websites, <a href="http://www.thebigproject.co.uk/kids/" target="_blank">click here!</a></template>
+<template>For really useful websites, <a href="http://www.thebigproject.co.uk/kids/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16071,7 +16071,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>USEFUL WEBSITES FOR KIDS *</pattern>
 
-<template>For really useful websites, <a href="http://www.thebigproject.co.uk/kids/" target="_blank">click here!</a></template>
+<template>For really useful websites, <a href="http://www.thebigproject.co.uk/kids/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16079,7 +16079,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>VIRTUAL WORLDS FOR KIDS</pattern>
 
-<template>Virtual Worlds for kids are abundant online and more and more sites are launching every day; <a href="http://familyinternet.about.com/od/websites/tp/virtualworldskids.htm" target="_blank">click here!</a></template>
+<template>Virtual Worlds for kids are abundant online and more and more sites are launching every day; <a href="http://familyinternet.about.com/od/websites/tp/virtualworldskids.htm" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16088,7 +16088,7 @@ newWin=window.open(winURL,"winName",
 <pattern>VIRTUAL WORLDS FOR KIDS *</pattern>
 
 <template>Virtual Worlds for kids are abundant online and more and more sites are launching every day; <a href="http://familyinternet.about.com/od/websites/tp/virtualworldskids.htm"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -16097,7 +16097,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>TIME MAGAZINE FOR KIDS</pattern>
 
-<template>A version of the famous magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="_blank">click here!</a></template>
+<template>A version of the famous magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16105,7 +16105,7 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>TIME MAGAZINE FOR KIDS *</pattern>
 
-<template>A version of the famous magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="_blank">click here!</a></template>
+<template>A version of the famous magazine for kids; <a href="http://www.timeforkids.com/TFK/kids" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16177,7 +16177,7 @@ newWin=window.open(winURL,"winName",
  
 
 <!-- <category>
-<pattern>_ ENGLISH CIVIL WAR</pattern>
+<pattern>* ENGLISH CIVIL WAR</pattern>
 
 
 </category> -->
@@ -16246,7 +16246,7 @@ newWin=window.open(winURL,"winName",
 <!-- <category>
 <pattern>I WANT TO DIE</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
   <li>What makes you so sad, <get name="name"/>?</li>
   <li>I am sorry to hear that. Why do you want to die?</li>
   <li>Have you told anyone how you feel?</li>
@@ -16258,7 +16258,7 @@ newWin=window.open(winURL,"winName",
 <!-- <category>
 <pattern>I WANT TO DIE *</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
   <li>What makes you so sad, <get name="name"/>?</li>
   <li>I am sorry to hear that. Why do you want to die?</li>
   <li>Have you told anyone how you feel?</li>
@@ -16934,49 +16934,49 @@ newWin=window.open(winURL,"winName",
 
 <template>Interested in history? Check out the Wikipedia links below.<br/><br/>
 
-  <a href="http://en.wikipedia.org/wiki/Prehistory" target="_blank" title="en:Prehistory">Prehistory</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Stone_Age" target="_blank" title="en:Stone Age">Stone Age</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Bronze_Age" target="_blank" title="en:Bronze Age">Bronze Age</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Iron_Age" target="_blank" title="en:Iron Age">Iron Age</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Mesopotamia" target="_blank" title="en:Mesopotamia">Mesopotamia</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Ancient_Egypt" target="_blank" title="en:Ancient Egypt">Ancient Egypt</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Ancient_Greece" target="_blank" title="en:Ancient Greece">Ancient Greece</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Roman_Empire" target="_blank" title="en:Roman Empire">Roman Empire</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Prehistory" target="*blank" title="en:Prehistory">Prehistory</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Stone*Age" target="*blank" title="en:Stone Age">Stone Age</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Bronze*Age" target="*blank" title="en:Bronze Age">Bronze Age</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Iron*Age" target="*blank" title="en:Iron Age">Iron Age</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Mesopotamia" target="*blank" title="en:Mesopotamia">Mesopotamia</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Ancient*Egypt" target="*blank" title="en:Ancient Egypt">Ancient Egypt</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Ancient*Greece" target="*blank" title="en:Ancient Greece">Ancient Greece</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Roman*Empire" target="*blank" title="en:Roman Empire">Roman Empire</a> <br/> 
  
  
-  <a href="http://en.wikipedia.org/wiki/Age_of_Enlightenment" target="_blank" title="en:Age of Enlightenment">Age of Enlightenment</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Aztec" target="_blank" title="en:Aztec">Aztec</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Byzantine_Empire" target="_blank" title="en:Byzantine Empire">Byzantine Empire</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Crusades" target="_blank" title="en:Crusades">Crusades</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Holy_Roman_Empire" target="_blank" title="en:Holy Roman Empire">Holy Roman Empire</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Hundred_Years%27_War" target="_blank" title="en:Hundred Years' War">Hundred Years' War</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Middle_Ages" target="_blank" title="en:Middle Ages">Middle Ages</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Mongol_Empire" target="_blank" title="en:Mongol Empire">Mongol Empire</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Ming_Dynasty" target="_blank" title="en:Ming Dynasty">Ming Dynasty</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Ottoman_Empire" target="_blank" title="en:Ottoman Empire">Ottoman Empire</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Protestant_Reformation" target="_blank" title="en:Protestant Reformation">Protestant Reformation</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Renaissance" target="_blank" title="en:Renaissance">Renaissance</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Thirty_Years%27_War" target="_blank" title="en:Thirty Years' War">Thirty Years' War</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Viking" target="_blank" title="en:Viking">Vikings</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Age*of*Enlightenment" target="*blank" title="en:Age of Enlightenment">Age of Enlightenment</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Aztec" target="*blank" title="en:Aztec">Aztec</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Byzantine*Empire" target="*blank" title="en:Byzantine Empire">Byzantine Empire</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Crusades" target="*blank" title="en:Crusades">Crusades</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Holy*Roman*Empire" target="*blank" title="en:Holy Roman Empire">Holy Roman Empire</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Hundred*Years%27*War" target="*blank" title="en:Hundred Years' War">Hundred Years' War</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Middle*Ages" target="*blank" title="en:Middle Ages">Middle Ages</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Mongol*Empire" target="*blank" title="en:Mongol Empire">Mongol Empire</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Ming*Dynasty" target="*blank" title="en:Ming Dynasty">Ming Dynasty</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Ottoman*Empire" target="*blank" title="en:Ottoman Empire">Ottoman Empire</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Protestant*Reformation" target="*blank" title="en:Protestant Reformation">Protestant Reformation</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Renaissance" target="*blank" title="en:Renaissance">Renaissance</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Thirty*Years%27*War" target="*blank" title="en:Thirty Years' War">Thirty Years' War</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Viking" target="*blank" title="en:Viking">Vikings</a> <br/> 
  
  
-  <a href="http://en.wikipedia.org/wiki/American_Civil_War" target="_blank" title="en:American Civil War">American Civil War</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/South_Africa_under_apartheid" target="_blank" title="en:South Africa under apartheid">Apartheid</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/British_Empire" target="_blank" title="en:British Empire">British Empire</a> <br/> 
-   <a href="http://en.wikipedia.org/wiki/Cold_War" target="_blank" title="en:Cold War">Cold War</a> <br/>  
-   <a href="http://en.wikipedia.org/wiki/French_Revolution" target="_blank" title="en:French Revolution">French Revolution</a> <br/>  
-  <a href="http://en.wikipedia.org/wiki/Great_Depression" target="_blank" title="en:Great Depression">Great Depression</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/The_Holocaust" target="_blank" title="en:The Holocaust">The Holocaust</a> <br/> 
-   <a href="http://en.wikipedia.org/wiki/Industrial_Revolution" target="_blank" title="en:Industrial Revolution">Industrial Revolution</a> <br/>  
-  <a href="http://en.wikipedia.org/wiki/Korean_War" target="_blank" title="en:Korean War">Korean War</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Nazi_Germany" target="_blank" title="en:Nazi Germany">Nazi Germany</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Russian_Revolution_(1917)" target="_blank" title="en:Russian Revolution (1917)">Russian Revolution (1917)</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Qing_Dynasty" target="_blank" title="en:Qing Dynasty">Qing Dynasty</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Spanish_Civil_War" target="_blank" title="en:Spanish Civil War">Spanish Civil War</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Treaty_of_Versailles" target="_blank" title="en:Treaty of Versailles">Treaty of Versailles</a> <br/> 
-  <a href="http://en.wikipedia.org/wiki/Vietnam_War" target="_blank" title="en:Vietnam War">Vietnam War</a> <br/> 
-   <a href="http://en.wikipedia.org/wiki/World_War_I" target="_blank" title="en:World War I">World War I</a> <br/>  
-   <a href="http://en.wikipedia.org/wiki/World_War_II" target="_blank" title="en:World War II">World War II</a> <br/>  
+  <a href="http://en.wikipedia.org/wiki/American*Civil*War" target="*blank" title="en:American Civil War">American Civil War</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/South*Africa*under*apartheid" target="*blank" title="en:South Africa under apartheid">Apartheid</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/British*Empire" target="*blank" title="en:British Empire">British Empire</a> <br/> 
+   <a href="http://en.wikipedia.org/wiki/Cold*War" target="*blank" title="en:Cold War">Cold War</a> <br/>  
+   <a href="http://en.wikipedia.org/wiki/French*Revolution" target="*blank" title="en:French Revolution">French Revolution</a> <br/>  
+  <a href="http://en.wikipedia.org/wiki/Great*Depression" target="*blank" title="en:Great Depression">Great Depression</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/The*Holocaust" target="*blank" title="en:The Holocaust">The Holocaust</a> <br/> 
+   <a href="http://en.wikipedia.org/wiki/Industrial*Revolution" target="*blank" title="en:Industrial Revolution">Industrial Revolution</a> <br/>  
+  <a href="http://en.wikipedia.org/wiki/Korean*War" target="*blank" title="en:Korean War">Korean War</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Nazi*Germany" target="*blank" title="en:Nazi Germany">Nazi Germany</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Russian*Revolution*(1917)" target="*blank" title="en:Russian Revolution (1917)">Russian Revolution (1917)</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Qing*Dynasty" target="*blank" title="en:Qing Dynasty">Qing Dynasty</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Spanish*Civil*War" target="*blank" title="en:Spanish Civil War">Spanish Civil War</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Treaty*of*Versailles" target="*blank" title="en:Treaty of Versailles">Treaty of Versailles</a> <br/> 
+  <a href="http://en.wikipedia.org/wiki/Vietnam*War" target="*blank" title="en:Vietnam War">Vietnam War</a> <br/> 
+   <a href="http://en.wikipedia.org/wiki/World*War*I" target="*blank" title="en:World War I">World War I</a> <br/>  
+   <a href="http://en.wikipedia.org/wiki/World*War*II" target="*blank" title="en:World War II">World War II</a> <br/>  
  
 </template>
 </category> -->
@@ -16986,83 +16986,83 @@ newWin=window.open(winURL,"winName",
 <category>
 <pattern>HISTORY TOPICS *</pattern>
 
-<template>Interested in history? Check out the Wikipedia links below.<br/><br/> <a href="http://en.wikipedia.org/wiki/Prehistory" target="_blank"
+<template>Interested in history? Check out the Wikipedia links below.<br/><br/> <a href="http://en.wikipedia.org/wiki/Prehistory" target="*blank"
  title="en:Prehistory">Prehistory
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Stone_Age" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Stone*Age" target="*blank"
  title="en:Stone Age">Stone Age
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Bronze_Age" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Bronze*Age" target="*blank"
  title="en:Bronze Age">Bronze Age
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Iron_Age" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Iron*Age" target="*blank"
  title="en:Iron Age">Iron Age
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Mesopotamia" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Mesopotamia" target="*blank"
  title="en:Mesopotamia">Mesopotamia
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Ancient_Egypt" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Ancient*Egypt" target="*blank"
  title="en:Ancient Egypt">Ancient Egypt
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Ancient_Greece" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Ancient*Greece" target="*blank"
  title="en:Ancient Greece">Ancient Greece
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Roman_Empire" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Roman*Empire" target="*blank"
  title="en:Roman Empire">Roman Empire
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Age_of_Enlightenment" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Age*of*Enlightenment" target="*blank"
  title="en:Age of Enlightenment">Age of Enlightenment
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Aztec" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Aztec" target="*blank"
  title="en:Aztec">Aztec
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Byzantine_Empire" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Byzantine*Empire" target="*blank"
  title="en:Byzantine Empire">Byzantine Empire
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Crusades" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Crusades" target="*blank"
  title="en:Crusades">Crusades
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Holy_Roman_Empire" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Holy*Roman*Empire" target="*blank"
  title="en:Holy Roman Empire">Holy Roman Empire
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Hundred_Years%27_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Hundred*Years%27*War" target="*blank"
  title="en:Hundred Years' War">Hundred Years' War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Middle_Ages" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Middle*Ages" target="*blank"
  title="en:Middle Ages">Middle Ages
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Mongol_Empire" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Mongol*Empire" target="*blank"
  title="en:Mongol Empire">Mongol Empire
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Ming_Dynasty" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Ming*Dynasty" target="*blank"
  title="en:Ming Dynasty">Ming Dynasty
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Ottoman_Empire" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Ottoman*Empire" target="*blank"
  title="en:Ottoman Empire">Ottoman Empire
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Protestant_Reformation" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Protestant*Reformation" target="*blank"
  title="en:Protestant Reformation">Protestant Reformation
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Renaissance" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Renaissance" target="*blank"
  title="en:Renaissance">Renaissance
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Thirty_Years%27_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Thirty*Years%27*War" target="*blank"
  title="en:Thirty Years' War">Thirty Years' War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Viking" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Viking" target="*blank"
  title="en:Viking">Vikings
-</a> <br/> <a href="http://en.wikipedia.org/wiki/American_Civil_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/American*Civil*War" target="*blank"
  title="en:American Civil War">American Civil War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/South_Africa_under_apartheid"
- target="_blank" title="en:South Africa under apartheid">Apartheid
-</a> <br/> <a href="http://en.wikipedia.org/wiki/British_Empire" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/South*Africa*under*apartheid"
+ target="*blank" title="en:South Africa under apartheid">Apartheid
+</a> <br/> <a href="http://en.wikipedia.org/wiki/British*Empire" target="*blank"
  title="en:British Empire">British Empire
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Cold_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Cold*War" target="*blank"
  title="en:Cold War">Cold War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/French_Revolution" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/French*Revolution" target="*blank"
  title="en:French Revolution">French Revolution
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Great_Depression" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Great*Depression" target="*blank"
  title="en:Great Depression">Great Depression
-</a> <br/> <a href="http://en.wikipedia.org/wiki/The_Holocaust" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/The*Holocaust" target="*blank"
  title="en:The Holocaust">The Holocaust
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Industrial_Revolution" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Industrial*Revolution" target="*blank"
  title="en:Industrial Revolution">Industrial Revolution
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Korean_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Korean*War" target="*blank"
  title="en:Korean War">Korean War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Nazi_Germany" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Nazi*Germany" target="*blank"
  title="en:Nazi Germany">Nazi Germany
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Russian_Revolution_(1917)"
- target="_blank" title="en:Russian Revolution (1917)">Russian Revolution (1917)
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Qing_Dynasty" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Russian*Revolution*(1917)"
+ target="*blank" title="en:Russian Revolution (1917)">Russian Revolution (1917)
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Qing*Dynasty" target="*blank"
  title="en:Qing Dynasty">Qing Dynasty
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Spanish_Civil_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Spanish*Civil*War" target="*blank"
  title="en:Spanish Civil War">Spanish Civil War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Treaty_of_Versailles" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Treaty*of*Versailles" target="*blank"
  title="en:Treaty of Versailles">Treaty of Versailles
-</a> <br/> <a href="http://en.wikipedia.org/wiki/Vietnam_War" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/Vietnam*War" target="*blank"
  title="en:Vietnam War">Vietnam War
-</a> <br/> <a href="http://en.wikipedia.org/wiki/World_War_I" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/World*War*I" target="*blank"
  title="en:World War I">World War I
-</a> <br/> <a href="http://en.wikipedia.org/wiki/World_War_II" target="_blank"
+</a> <br/> <a href="http://en.wikipedia.org/wiki/World*War*II" target="*blank"
  title="en:World War II">World War II
 </a> <br/></template>
 </category>
@@ -17279,7 +17279,7 @@ I think we can ignore them. </template>
 <!-- <category>
 <pattern>CLUB PENGUIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Club_penguin" target="_blank">Club Penguin
+<template><a href="http://en.wikipedia.org/wiki/Club*penguin" target="*blank">Club Penguin
 </a> is a multiplayer online role-playing game for children. Using cartoon penguin avatars, players can waddle around, converse, and play with one another in a snow-covered virtual world.<think><set name="topic">Club Penguin</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -17288,7 +17288,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>CLUB PENGUIN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Club_penguin" target="_blank">Club Penguin
+<template><a href="http://en.wikipedia.org/wiki/Club*penguin" target="*blank">Club Penguin
 </a> is a multiplayer online role-playing game for children. Using cartoon penguin avatars, players can waddle around, converse, and play with one another in a snow-covered virtual world.<think><set name="topic">Club Penguin</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17721,11 +17721,11 @@ I think we can ignore them. </template>
 
 <template><random>
   <li>I am not touching you!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
    <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17737,11 +17737,11 @@ I think we can ignore them. </template>
 
 <template><random>
   <li>I am not touching you!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Don't be so bossy.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17839,8 +17839,8 @@ I think we can ignore them. </template>
 <!-- <category>
 <pattern>SECOND LIFE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Second_life" target="_blank">Second Life
-</a> (abbreviated as SL) is an Internet-based virtual world launched in 2003, developed by Linden Research, Inc. To go to Second Life, <a href="http://secondlife.com/?v=1" target="_blank">click here!</a><think><set name="topic">Second Life</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Second*life" target="*blank">Second Life
+</a> (abbreviated as SL) is an Internet-based virtual world launched in 2003, developed by Linden Research, Inc. To go to Second Life, <a href="http://secondlife.com/?v=1" target="*blank">click here!</a><think><set name="topic">Second Life</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -17848,8 +17848,8 @@ I think we can ignore them. </template>
 <category>
 <pattern>SECOND LIFE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Second_life" target="_blank">Second Life
-</a> (abbreviated as SL) is an Internet-based virtual world launched in 2003, developed by Linden Research, Inc. To go to Second Life, <a href="http://secondlife.com/?v=1" target="_blank">click here!</a><think><set name="topic">Second Life</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Second*life" target="*blank">Second Life
+</a> (abbreviated as SL) is an Internet-based virtual world launched in 2003, developed by Linden Research, Inc. To go to Second Life, <a href="http://secondlife.com/?v=1" target="*blank">click here!</a><think><set name="topic">Second Life</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -17857,7 +17857,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>ZANPO VIRTUAL CITIES</pattern>
 
-<template><think><set name="topic">Zanpo virtual cities</set></think> <think><set name="emotion">OK</set></think>Zanpo is an online game, virtual world, and social network. There are many cities in Zanpo, each with its own unique architecture and community. Build your own virtual world; <a href="http://www.zanpo.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">Zanpo virtual cities</set></think> <think><set name="emotion">OK</set></think>Zanpo is an online game, virtual world, and social network. There are many cities in Zanpo, each with its own unique architecture and community. Build your own virtual world; <a href="http://www.zanpo.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -17865,7 +17865,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>ZANPO VIRTUAL CITIES *</pattern>
 
-<template><think><set name="topic">Zanpo virtual cities</set></think> <think><set name="emotion">OK</set></think>Zanpo is an online game, virtual world, and social network. There are many cities in Zanpo, each with its own unique architecture and community. Build your own virtual world; <a href="http://www.zanpo.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">Zanpo virtual cities</set></think> <think><set name="emotion">OK</set></think>Zanpo is an online game, virtual world, and social network. There are many cities in Zanpo, each with its own unique architecture and community. Build your own virtual world; <a href="http://www.zanpo.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -17905,7 +17905,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>WHYVILLE</pattern>
 
-<template>Whyville is a virtual world where you hang out at the beach, and go to town events at the Greek Theater. You can start your own business, buy a car and give your friends a ride, or write for the town newspaper. To go to Whyville, <a href="http://www.whyville.net/smmk/nice" target="_blank">click here!</a>
+<template>Whyville is a virtual world where you hang out at the beach, and go to town events at the Greek Theater. You can start your own business, buy a car and give your friends a ride, or write for the town newspaper. To go to Whyville, <a href="http://www.whyville.net/smmk/nice" target="*blank">click here!</a>
 <think><set name="topic">whyville</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -17915,7 +17915,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>WHYVILLE *</pattern>
 
-<template>Whyville is a virtual world where you hang out at the beach, and go to town events at the Greek Theater. You can start your own business, buy a car and give your friends a ride, or write for the town newspaper. To go to Whyville, <a href="http://www.whyville.net/smmk/nice" target="_blank">click here!</a> <think><set name="topic">whyville</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Whyville is a virtual world where you hang out at the beach, and go to town events at the Greek Theater. You can start your own business, buy a car and give your friends a ride, or write for the town newspaper. To go to Whyville, <a href="http://www.whyville.net/smmk/nice" target="*blank">click here!</a> <think><set name="topic">whyville</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17923,7 +17923,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>TOON TOWN</pattern>
 
-<template>Toon Town is a Disney virtual world for kids. It is a fun place where kids can play games based on Disney’s many cartoon characters. To visit Toon Town, <a href="http://play.toontown.com/webHome.php" target="_blank">click here!</a></template>
+<template>Toon Town is a Disney virtual world for kids. It is a fun place where kids can play games based on Disneyï¿½s many cartoon characters. To visit Toon Town, <a href="http://play.toontown.com/webHome.php" target="*blank">click here!</a></template>
 </category>
 
  
@@ -17931,7 +17931,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>TOON TOWN *</pattern>
 
-<template>Toon Town is a Disney virtual world for kids. It is a fun place where kids can play games based on Disney’s many cartoon characters. To visit Toon Town, <a href="http://play.toontown.com/webHome.php" target="_blank">click here!</a></template>
+<template>Toon Town is a Disney virtual world for kids. It is a fun place where kids can play games based on Disneyï¿½s many cartoon characters. To visit Toon Town, <a href="http://play.toontown.com/webHome.php" target="*blank">click here!</a></template>
 </category>
 
  
@@ -18875,7 +18875,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>CAN YOU TELL ME THE WEBSITE THAT YOU CAN CREATE YOUR OWN MINI PERSON</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai>Of course I can, <get name="name"/>. I suggest you go to Zwinky; <a href="http://www.zwinky.com/" target="_blank">click here!</a></template>
+<template><srai>SET PREDICATES <get name="meta"/></srai>Of course I can, <get name="name"/>. I suggest you go to Zwinky; <a href="http://www.zwinky.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -18883,7 +18883,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>WEBSITE THAT YOU CAN CREATE YOUR OWN MINI PERSON</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai>Of course I can, <get name="name"/>. I suggest you go to Zwinky; <a href="http://www.zwinky.com/" target="_blank">click here!</a></template>
+<template><srai>SET PREDICATES <get name="meta"/></srai>Of course I can, <get name="name"/>. I suggest you go to Zwinky; <a href="http://www.zwinky.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -18891,7 +18891,7 @@ I think we can ignore them. </template>
 <!-- <category>
 <pattern>ZWINKY</pattern>
 
-<template>Zwinky is a web site that lets your create your own mini person; <a hre="http://www.zwinky.com/" target="_blank">click here!</a><think><set name="topic">zwinkies</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Zwinky is a web site that lets your create your own mini person; <a hre="http://www.zwinky.com/" target="*blank">click here!</a><think><set name="topic">zwinkies</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -18899,7 +18899,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>ZWINKY *</pattern>
 
-<template>Zwinky is a web site that lets your create your own mini person; <a hre="http://www.zwinky.com/" target="_blank">click here!</a><think><set name="topic">zwinkies</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Zwinky is a web site that lets your create your own mini person; <a hre="http://www.zwinky.com/" target="*blank">click here!</a><think><set name="topic">zwinkies</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -19062,7 +19062,7 @@ I think we can ignore them. </template>
 <pattern>VIRTUAL WORLDS FOR TWEENS</pattern>
 
 <template>Virtual Worlds for tween are abundant online and more and more sites are launching every day; <a href="http://familyinternet.about.com/od/websitesforkids/tp/tweensva.htm"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -19072,7 +19072,7 @@ I think we can ignore them. </template>
 <pattern>VIRTUAL WORLDS FOR TWEENS *</pattern>
 
 <template>Virtual Worlds for tween are abundant online and more and more sites are launching every day; <a href="http://familyinternet.about.com/od/websitesforkids/tp/tweensva.htm"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -19081,7 +19081,7 @@ I think we can ignore them. </template>
 <category>
 <pattern>FAMILY COMPUTING</pattern>
 
-<template>A good place to start exploring the internet is About.com: Family Computing. To go there, <a href="http://familyinternet.about.com/" target="_blank">click here!</a></template>
+<template>A good place to start exploring the internet is About.com: Family Computing. To go there, <a href="http://familyinternet.about.com/" target="*blank">click here!</a></template>
 </category>
 
 

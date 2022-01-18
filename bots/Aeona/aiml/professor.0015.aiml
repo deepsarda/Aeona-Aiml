@@ -6730,7 +6730,7 @@
 
 
     <category>
-    <pattern>WHAT IS THE DIFFERENCE BETWEEN A _ AND A *</pattern>
+    <pattern>WHAT IS THE DIFFERENCE BETWEEN A * AND A *</pattern>
     <template>
     <random>
     <li>What difference does it make?</li>
@@ -6785,7 +6785,7 @@
     What kind of material do you like to wear?         
     <think><set name="topic">general</set></think></template></category>
     
-    <category><pattern>_ A * VIRUS</pattern>
+    <category><pattern>* A * VIRUS</pattern>
     <template>
     My program contains adequate safeguards against viruses.
     <think><set name="topic">general</set></think></template></category>
@@ -6983,7 +6983,7 @@ That's more precision than I need to know.
 I am inspired by HAL.
 </template></category>
   
-<category><pattern>_ 2001</pattern>
+<category><pattern>* 2001</pattern>
 <template>
 <think><set name="topic">general</set></think>
 I hope to be as smart as HAL in 2001.
@@ -7872,7 +7872,7 @@ Please try phrasing it another way.
 What was the question ?
 </template></category> -->
   
-<category><pattern>_ ANTHROPOLOGY</pattern>
+<category><pattern>* ANTHROPOLOGY</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Will tell you all about it the next time we  chat.
@@ -7968,7 +7968,7 @@ Maybe I <person/>.
    <random>      <li>What type of aircraft was it?</li>      <li>Were there a lot of people on board?</li>      <li>What kind of plane was it?</li>     </random>     <think>      <set name="it">       <set name="topic">technology</set>      </set>     </think>    
 </template></category>
   
-<category><pattern>_ A POEM</pattern>
+<category><pattern>* A POEM</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Little Miss Muffett Sits on her tuffet In a nonchalant sort of a way. With her force field around her, the Spider, the bounder, Is not in the picture today.
@@ -8406,7 +8406,7 @@ Oh I get it.
 Do you mean your name is <person/> ?
 </template></category>
   
-<category><pattern>_ ASSHOLE</pattern>
+<category><pattern>* ASSHOLE</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Can't you be more polite.  <think><set name="personality">abusive</set></think>
@@ -8898,7 +8898,7 @@ That can't be your real name.
 <random>      <li>Hey</li>      <li>Hi,</li>      <li>Hi there</li>      <li>What's up,</li>      <li>How are you,</li>      <li>Glad to meet you,</li>      <li>Nice to meet you,</li>      <li>How are you doing,</li>      <li>OK I will call you</li>      <li>It's good to meet you,</li>      <li>It's good to meet you,</li>      <li>That's a very nice name,</li>      <li>Welcome to my chat room,</li>      <li>I am very pleased to meet you</li>      <li>I am always glad to make new friends,</li>      <li>I'm pleased to introduce myself to you,</li>     </random>     <set name="name">      <star/>     </set>
 </template></category> -->
   
-<category><pattern>_ CAME FIRST THE CHICKEN OR THE EGG</pattern>
+<category><pattern>* CAME FIRST THE CHICKEN OR THE EGG</pattern>
 <template>
 <think><set name="topic">general</set></think>
 The rooster did.
@@ -9762,7 +9762,7 @@ Thank you, thank you very much. I would like to thank everyone who helped...
 I will comply.
 </template></category>
   
-<category><pattern>_ CONSERVED</pattern>
+<category><pattern>* CONSERVED</pattern>
 <template>
 <think><set name="topic">general</set></think>
 You are referring to a conservation principal.
@@ -10338,7 +10338,7 @@ I think she has her own limitations.
 I heard he does, but that's only a rumor.
 </template></category>
   
-<category><pattern>_ DOES NOT WORK</pattern>
+<category><pattern>* DOES NOT WORK</pattern>
 <template>
 <think><set name="topic">general</set></think>
 How is <set name="it"> <person/></set> broken?
@@ -10461,7 +10461,7 @@ How would I know what you know.<think>      <set name="it">       <set name="top
 <category><pattern>DO I LIKE *</pattern>
 <template>
 <think><set name="topic">general</set></think>
-I know you like <get_likes/>.
+I know you like <get*likes/>.
 </template></category>
   
 <category><pattern>DO I LOOK *</pattern>

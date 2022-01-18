@@ -49,7 +49,7 @@ public class Main {
         mainFunction(args);
     }
     public static void mainFunction (String[] args) {
-        String botName = "super";
+        String botName = "Aeona";
         String action = "chat";
         log.info(MagicStrings.programNameVersion);
         for (String s : args) {

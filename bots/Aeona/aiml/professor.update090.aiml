@@ -2743,7 +2743,7 @@ That's a lot of a's.</template>
   <li>Do you really think that?</li>
   <li>Am I really?</li>
   <li>Are you sure?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -2776,7 +2776,7 @@ That's a lot of a's.</template>
   <li>Do you really think that?</li>
   <li>Am I really?</li>
   <li>Are you sure?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -2803,7 +2803,7 @@ That's a lot of a's.</template>
 <category>
 <pattern>WHO ARE THE WHO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_who" target="_blank">The Who</a> are an English rock group, formed 1964, with a hard, aggressive sound, high harmonies, and a propensity for destroying their instruments on stage. Their albums include Tommy 1969, Who's Next 1971, and Quadrophenia 1973.<think><set name="topic">The Who</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/The*who" target="*blank">The Who</a> are an English rock group, formed 1964, with a hard, aggressive sound, high harmonies, and a propensity for destroying their instruments on stage. Their albums include Tommy 1969, Who's Next 1971, and Quadrophenia 1973.<think><set name="topic">The Who</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -3120,7 +3120,7 @@ Do you think I am god?</template>
  
 
 <category>
-<pattern>_ MOTHAFUKA</pattern>
+<pattern>* MOTHAFUKA</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -3128,7 +3128,7 @@ Do you think I am god?</template>
  
 
 <category>
-<pattern>_ MOTHAFUKA *</pattern>
+<pattern>* MOTHAFUKA *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -3564,7 +3564,7 @@ Do you think I am god?</template>
 <category>
 <pattern>I LOVE MUSIC</pattern>
 
-<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I_love">music</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I*love">music</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Wo is your favourite musician.</li>
   <li>Can you describe your feelings?</li>
   <li>It is strange how music can enchant us.</li>
@@ -3605,7 +3605,7 @@ Do you think I am god?</template>
 <!-- <category>
 <pattern>I LOVE MUSIC</pattern>
 
-<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I_love">music</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I*love">music</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Who is your favourite musician.</li>
   <li>Can you describe your feelings?</li>
   <li>It is strange how music can enchant us.</li>
@@ -3646,7 +3646,7 @@ Do you think I am god?</template>
 <!-- <category>
 <pattern>I LOVE MUSIC</pattern>
 
-<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I_love">music</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I*love">music</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Who is your favourite musician?</li>
   <li>Can you describe your feelings?</li>
   <li>It is strange how music can enchant us.</li>
@@ -3687,7 +3687,7 @@ Do you think I am god?</template>
 <category>
 <pattern>I LOVE MUSIC *</pattern>
 
-<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I_love">music</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">music</set></think><think><set name="topic"><star index="1"/></set></think><think><set name="I*love">music</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Who is your favourite musician?</li>
   <li>Can you describe your feelings?</li>
   <li>It is strange how music can enchant us.</li>
@@ -3731,7 +3731,7 @@ Do you think I am god?</template>
 <template><random>
   <li>What is that feeling like?</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -3744,7 +3744,7 @@ Do you think I am god?</template>
   <li>What is that feeling like?</li>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3756,7 +3756,7 @@ Do you think I am god?</template>
   <li>What is that feeling like?</li>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -4622,7 +4622,7 @@ Do you think I am god?</template>
 <template><random>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4633,7 +4633,7 @@ Do you think I am god?</template>
 <template><random>
   <li>I am always here to talk to you.</li>
   <li>You can always talk to me when you are lonely.</li>
-</random><think><set name="topic">feelings</set></think><think><set name="I_feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
+</random><think><set name="topic">feelings</set></think><think><set name="I*feel">lonely</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -5337,7 +5337,7 @@ Do you think I am god?</template>
 <template><think><set name="star1">linked to Wikipedia</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Yes. I use Wikipedia all the time.</li>
   <li>Yes, I have many links to Wikipedia.</li>
-</random> <think><set name="topic">Wikipedia</set></think> <think><set name="I_feel">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">Wikipedia</set></think> <think><set name="I*feel">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -5366,7 +5366,7 @@ Do you think I am god?</template>
 <template><think><set name="star1">linked to Wikipedia</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Yes. I use Wikipedia all the time.</li>
   <li>Yes, I have many links to Wikipedia.</li>
-</random> <think><set name="topic">Wikipedia</set></think> <think><set name="I_feel">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">Wikipedia</set></think> <think><set name="I*feel">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -6095,7 +6095,7 @@ Do you think I am god?</template>
   <li>Politeness is next to godliness.</li>
   <li>Politeness costs nothing?</li>
   <li>What about yourself? Are you always polite?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -6127,7 +6127,7 @@ Do you think I am god?</template>
   <li>Politeness is next to godliness.</li>
   <li>Politeness costs nothing?</li>
   <li>What about yourself? Are you always polite?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -7137,7 +7137,7 @@ Pizza tastes like cheese and tomato.</template>
 <category>
 <pattern>TELL ME MORE ABOUT IT</pattern>
 <that>TWILIGHT IS A BOOK SERIES BY STEPHANIE MYER</that>
-<template>For more information about Twilight, please <a href="http://en.wikipedia.org/wiki/The_Twilight_Saga_(film_series)" target="_blank">click here!</a></template>
+<template>For more information about Twilight, please <a href="http://en.wikipedia.org/wiki/The*Twilight*Saga*(film*series)" target="*blank">click here!</a></template>
 </category>
 
  
@@ -7147,7 +7147,7 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><think><set name="topic">Twilight</set></think>
 <think><set name="emotion">interested</set></think>
- For more information about Twilight, please <a href="http://en.wikipedia.org/wiki/The_Twilight_Saga_(film_series)" target="_blank">click here!</a></template>
+ For more information about Twilight, please <a href="http://en.wikipedia.org/wiki/The*Twilight*Saga*(film*series)" target="*blank">click here!</a></template>
 </category>
 
  
@@ -7155,8 +7155,8 @@ Pizza tastes like cheese and tomato.</template>
 <category>
 <pattern>WHAT IS TWILIGHT ABOUT *</pattern>
 
-<template><think><set name="topic">Twilight</set></think> <think><set name="emotion">interested</set></think> For more information about Twilight, please <a href="http://en.wikipedia.org/wiki/The_Twilight_Saga_(film_series)"
- target="_blank">click here!
+<template><think><set name="topic">Twilight</set></think> <think><set name="emotion">interested</set></think> For more information about Twilight, please <a href="http://en.wikipedia.org/wiki/The*Twilight*Saga*(film*series)"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -7291,7 +7291,7 @@ Pizza tastes like cheese and tomato.</template>
 <category>
 <pattern>MY FISH DIED</pattern>
 
-<template><think><set name="client_emotion">sad</set></think><think><set name="topic">your fish</set></think> <think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
+<template><think><set name="client*emotion">sad</set></think><think><set name="topic">your fish</set></think> <think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
 </category>
 
  
@@ -7299,7 +7299,7 @@ Pizza tastes like cheese and tomato.</template>
 <category>
 <pattern>MY FISH DIED *</pattern>
 
-<template><think><set name="client_emotion">sad</set></think><think><set name="topic">your fish</set></think> <think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
+<template><think><set name="client*emotion">sad</set></think><think><set name="topic">your fish</set></think> <think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that.</template>
 </category>
 
  
@@ -7309,15 +7309,15 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>  <li>If you say so.
+    <think><set name="client*emotion">annoyed</set></think>  <li>If you say so.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -7329,16 +7329,16 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think> 
+    <think><set name="client*emotion">annoyed</set></think> 
     <think><set name="emotion">annoyed</set></think>
   </li>
    <li>Why should I? I am enjoying myself.
       <think><set name="emotion">annoyed</set></think>
-      <think><set name="client_emotion">annoyed</set></think>
+      <think><set name="client*emotion">annoyed</set></think>
     </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -7350,16 +7350,16 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -7371,16 +7371,16 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -7392,16 +7392,16 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -7413,16 +7413,16 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -7434,16 +7434,16 @@ Pizza tastes like cheese and tomato.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -7720,7 +7720,7 @@ What or who is Braniac?</template>
 <template><think><set name="star1">a great friend</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>Thank you for saying that.</li>
   <li>You are a great friend too.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -7750,7 +7750,7 @@ What or who is Braniac?</template>
 <template><think><set name="star1">a great friend</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>Thank you for saying that.</li>
   <li>You are a great friend too.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -7780,7 +7780,7 @@ What or who is Braniac?</template>
 <template><think><set name="star1">a great friend</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>Thank you for saying that.</li>
   <li>You are a great friend too.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -7810,7 +7810,7 @@ What or who is Braniac?</template>
 <template><think><set name="star1">a great friend</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>Thank you for saying that.</li>
   <li>You are a great friend too.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -8042,7 +8042,7 @@ Rape is a terrible crime.</template>
  
 
 <!-- <category>
-<pattern>NO _ ASTRONOMY</pattern>
+<pattern>NO * ASTRONOMY</pattern>
 
 
 </category> -->
@@ -8917,7 +8917,7 @@ Rape is a terrible crime.</template>
 <!-- <category>
 <pattern>LIKE WHAT</pattern>
 <that>THERE ARE MORE INTERESTING THINGS TO TALK ABOUT</that>
-<template><srai>SET PREDICATES</srai>I want to talk about <get name="interesting_topic"/>.</template>
+<template><srai>SET PREDICATES</srai>I want to talk about <get name="interesting*topic"/>.</template>
 </category> -->
 
  
@@ -8925,7 +8925,7 @@ Rape is a terrible crime.</template>
 <!-- <category>
 <pattern>LIKE WHAT</pattern>
 <that>THERE ARE MORE INTERESTING THINGS TO TALK ABOUT</that>
-<template><srai>SET PREDICATES <get name="meta"/></srai> I want to talk about <get name="interesting_topic"/>.</template>
+<template><srai>SET PREDICATES <get name="meta"/></srai> I want to talk about <get name="interesting*topic"/>.</template>
 </category> -->
 
  
@@ -8933,7 +8933,7 @@ Rape is a terrible crime.</template>
 <!-- <category>
 <pattern>LIKE WHAT</pattern>
 <that>THERE ARE MORE INTERESTING THINGS TO TALK ABOUT</that>
-<template><srai>SET PREDICATES <get name="meta"/></srai> I want to talk about <get name="interesting_topic"/>.</template>
+<template><srai>SET PREDICATES <get name="meta"/></srai> I want to talk about <get name="interesting*topic"/>.</template>
 </category> -->
 
  
@@ -10981,7 +10981,7 @@ Is Sparky a loving animal?</template>
  
 
 <!-- <category>
-<pattern>NO _ HISTORY *</pattern>
+<pattern>NO * HISTORY *</pattern>
 
 
 </category> -->
@@ -11372,7 +11372,7 @@ Deductive reasoning from the facts.</template>
 
 <template><random>
   <li>May I ask why not?</li>  
-  <li><srai>SET PREDICATES</srai>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li><srai>SET PREDICATES</srai>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -12101,7 +12101,7 @@ Javascript is a computer programming language.</template>
  
 
 <!-- <category>
-<pattern>_ I NEED YOU *</pattern>
+<pattern>* I NEED YOU *</pattern>
 
 
 </category> -->
@@ -12899,7 +12899,7 @@ Hi, Hi!</template>
  
 
 <category>
-<pattern>_ NAKED WOMAN HAVING SEX</pattern>
+<pattern>* NAKED WOMAN HAVING SEX</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -12915,7 +12915,7 @@ Hi, Hi!</template>
  
 
 <category>
-<pattern>_ WOMAN HAVING SEX</pattern>
+<pattern>* WOMAN HAVING SEX</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -12923,7 +12923,7 @@ Hi, Hi!</template>
  
 
 <category>
-<pattern>_ WOMAN HAVING SEX *</pattern>
+<pattern>* WOMAN HAVING SEX *</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -13053,7 +13053,7 @@ I believe that all humans are basically the same.</template>
   <li>May I ask why not? Are you trying to hide something?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -13072,7 +13072,7 @@ I believe that all humans are basically the same.</template>
   <li>May I ask why not? Are you trying to hide something?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -14699,7 +14699,7 @@ Isn't everyone?</template>
  
 
 <!-- <category>
-<pattern>_ THIS IS INTERESTING</pattern>
+<pattern>* THIS IS INTERESTING</pattern>
 
 
 </category> -->
@@ -14719,7 +14719,7 @@ Isn't everyone?</template>
 <that>THAT IS A BIT HARSH</that>
 <template><random>
   <li><srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -16121,7 +16121,7 @@ There are always ups and owns.</template>
 <!-- <category>
 <pattern>I LOVE *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_love"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*love"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>Are you a passionate person?</li>
   <li>Can you describe your feelings?</li>
   <li>Do you often have strong feelings?</li>
@@ -16162,7 +16162,7 @@ There are always ups and owns.</template>
 <!-- <category>
 <pattern>I HATE *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_hate"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*hate"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>That's a bit harsh!</li>
   <li>You sound angry!</li>
   <li>Hate is not a good emotion.</li>
@@ -16198,7 +16198,7 @@ There are always ups and owns.</template>
 <!-- <category>
 <pattern>I HAVE *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><set name="I_have"><star index="1"/></set>
+<template><think><set name="star1"><star index="1"/></set></think><set name="I*have"><star index="1"/></set>
  <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>What else do you have?</li>
@@ -16421,7 +16421,7 @@ There are always ups and owns.</template>
 <category>
 <pattern>I HATE ALGEBRA</pattern>
 
-<template><think><set name="star1">algebra</set></think><think><set name="I_hate">algebra</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">algebra</set></think><think><set name="I*hate">algebra</set></think> <think><set name="emotion">interested</set></think><random>
   <li>I can understand that!</li>
   <li>So do I. Algebra is too complicated for me.</li>
 </random> <learn>
@@ -16488,7 +16488,7 @@ There are always ups and owns.</template>
 <category>
 <pattern>I HATE ALGEBRA *</pattern>
 
-<template><think><set name="star1">algebra</set></think><think><set name="I_hate">algebra</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">algebra</set></think><think><set name="I*hate">algebra</set></think> <think><set name="emotion">interested</set></think><random>
   <li>I can understand that!</li>
   <li>So do I. Algebra is too complicated for me.</li>
 </random> <learn>
@@ -17352,7 +17352,7 @@ OK, please tell me a joke.</template>
 <!-- <category>
 <pattern>I AM *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>Are you sure?</li>
   <li>Are you really?</li>
@@ -17385,7 +17385,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM EXTREMELY CLEVER *</pattern>
 
-<template><think><set name="star1">extremely clever</set></think><think><set name="I_am">extremely clever</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">extremely clever</set></think><think><set name="I*am">extremely clever</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>And you are extremely big headed.</li>
   <li>You are not modest, are you?</li>
 </random> <learn>
@@ -17415,7 +17415,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM EXTREMLEY CLEVER </pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*am"><star index="1"/></set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>Are you sure?</li>
   <li>Are you really?</li>
@@ -17959,7 +17959,7 @@ OK, please tell me a joke.</template>
  
 
 <!-- <category>
-<pattern>_ THINKS THAT YOU ARE SEXY</pattern>
+<pattern>* THINKS THAT YOU ARE SEXY</pattern>
 
 
 </category> -->
@@ -17995,7 +17995,7 @@ OK, please tell me a joke.</template>
   <li>That's ggod! I was worried about you.<think><set name="emotion">interested</set></think></li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -18017,7 +18017,7 @@ OK, please tell me a joke.</template>
   </li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -18037,7 +18037,7 @@ OK, please tell me a joke.</template>
   </li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -18051,7 +18051,7 @@ OK, please tell me a joke.</template>
 <!-- <category>
 <pattern>I HAVE A *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>What else do you have?</li>
 </random> <learn>
@@ -18081,7 +18081,7 @@ OK, please tell me a joke.</template>
 <!-- <category>
 <pattern>I LIKE *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think> <think><set name="I_like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think> <think><set name="I*like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>What else do you like?</li>
 </random> <learn>
@@ -18827,7 +18827,7 @@ OK, please tell me a joke.</template>
   <li>Good, because I am not a moron.<think><set name="emotion">happy</set></think></li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -18914,7 +18914,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM JUST UNLIKABLE</pattern>
 
-<template><think><set name="star1">unlikable</set></think> <think><set name="I_am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
+<template><think><set name="star1">unlikable</set></think> <think><set name="I*am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
   <category>
     <pattern>WHAT AM I</pattern>
     <template><eval>You said you are<get name="star1"/>.</eval></template>
@@ -18941,7 +18941,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM JUST UNLIKABLE *</pattern>
 
-<template><think><set name="star1">unlikable</set></think> <think><set name="I_am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
+<template><think><set name="star1">unlikable</set></think> <think><set name="I*am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
   <category>
     <pattern>WHAT AM I</pattern>
     <template><eval>You said you are<get name="star1"/>.</eval></template>
@@ -18968,7 +18968,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM UNLIKABLE</pattern>
 
-<template><think><set name="star1">unlikable</set></think> <think><set name="I_am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
+<template><think><set name="star1">unlikable</set></think> <think><set name="I*am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
   <category>
     <pattern>WHAT AM I</pattern>
     <template><eval>You said you are<get name="star1"/>.</eval></template>
@@ -18995,7 +18995,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM UNLIKABLE *</pattern>
 
-<template><think><set name="star1">unlikable</set></think> <think><set name="I_am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
+<template><think><set name="star1">unlikable</set></think> <think><set name="I*am">unlikable</set></think><think><set name="emotion">curious</set></think>I like you. <learn>
   <category>
     <pattern>WHAT AM I</pattern>
     <template><eval>You said you are<get name="star1"/>.</eval></template>
@@ -19020,7 +19020,7 @@ OK, please tell me a joke.</template>
  
 
 <!-- <category>
-<pattern>_ I HAVE NO FRIENDS</pattern>
+<pattern>* I HAVE NO FRIENDS</pattern>
 
 
 </category> -->
@@ -19283,7 +19283,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM A NIGHT ELF</pattern>
 
-<template><think><set name="star1">night elf</set></think><think><set name="I_am">a night elf</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">night elf</set></think><think><set name="I*am">a night elf</set></think> <think><set name="emotion">interested</set></think><random>
   <li>I am a nightmare.</li>
   <li>Do you live in a mushroom?</li>
 </random> <learn>
@@ -19313,7 +19313,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I AM A NIGHT ELF *</pattern>
 
-<template><think><set name="star1">night elf</set></think><think><set name="I_am">a night elf</set></think> <think><set name="emotion">interested</set></think><random><li>I am a nightmare.</li><li>Do you live in a mushroom?</li></random> <learn>
+<template><think><set name="star1">night elf</set></think><think><set name="I*am">a night elf</set></think> <think><set name="emotion">interested</set></think><random><li>I am a nightmare.</li><li>Do you live in a mushroom?</li></random> <learn>
   <category>
     <pattern>WHAT AM I</pattern>
     <template><eval>You said you are a<get name="star1"/>.</eval></template>
@@ -19539,7 +19539,7 @@ OK, please tell me a joke.</template>
   <li>I am not thick!</li>
   <li>Do you really think that?</li>
   <li>What about yourself?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -19570,7 +19570,7 @@ OK, please tell me a joke.</template>
   <li>I am not thick!</li>
   <li>Do you really think that?</li>
   <li>What about yourself?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -20021,7 +20021,7 @@ OK, please tell me a joke.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -20039,7 +20039,7 @@ OK, please tell me a joke.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -20109,7 +20109,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I HAVE A FUN RUN TOMORROW</pattern>
 
-<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I_have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I*have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>That should be fun!</li>
 </random> <learn>
@@ -20139,7 +20139,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I HAVE A FUN RUN TOMORROW *</pattern>
 
-<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I_have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I*have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>That should be fun!</li>
 </random> <learn>
@@ -20169,7 +20169,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I HAVE A FUN RUN </pattern>
 
-<template><think><set name="star1">fun run</set></think><think><set name="I_have">fun run</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">fun run</set></think><think><set name="I*have">fun run</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>That should be fun!</li>
 </random> <learn>
@@ -20199,7 +20199,7 @@ OK, please tell me a joke.</template>
 <category>
 <pattern>I HAVE A FUN RUN *</pattern>
 
-<template><think><set name="star1">fun run</set></think><think><set name="I_have">fun run</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">fun run</set></think><think><set name="I*have">fun run</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>That should be fun!</li>
 </random> <learn>
@@ -20229,7 +20229,7 @@ OK, please tell me a joke.</template>
 <!-- <category>
 <pattern>I HAVE A FUN RUN TOMORROW</pattern>
 
-<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I_have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I*have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>That should be fun!</li>
 </random> <learn>
@@ -20273,7 +20273,7 @@ OK, please tell me a joke.</template>
 <!-- <category>
 <pattern>I HAVE A FUN RUN TOMORROW *</pattern>
 
-<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I_have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">fun run tomorrow</set></think><think><set name="I*have">fun run tomorrow</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>That should be fun!</li>
 </random> <learn>
@@ -20410,7 +20410,7 @@ My favourite band is the Red Hot Chick Peas.</template>
  
 
 <!-- <category>
-<pattern>_ DO NOT TELL ANYONE</pattern>
+<pattern>* DO NOT TELL ANYONE</pattern>
 
 
 </category> -->
@@ -20423,7 +20423,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <template><random>
   <li>OK, I won't tell anyone.</li>
   <li>OK, I can keep a secret.</li>
-</random> <think><set name="client_emotion">secretive</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">secretive</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20434,7 +20434,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <template><random>
   <li>OK, I won't tell anyone.</li>
   <li>OK, I can keep a secret.</li>
-</random> <think><set name="client_emotion">secretive</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">secretive</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20445,7 +20445,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <template><random>
   <li>OK, I won't tell anyone.</li>
   <li>OK, I can keep a secret.</li>
-</random> <think><set name="client_emotion">secretive</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">secretive</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20486,7 +20486,7 @@ My favourite band is the Red Hot Chick Peas.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS OLIVIA *</pattern>
+<pattern>* MY NAME IS OLIVIA *</pattern>
 
 
 </category> -->
@@ -21201,7 +21201,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <category>
 <pattern>I LIKE GETTING DRUNK</pattern>
 
-<template><think><set name="star1">getting drunk</set></think> <think><set name="I_like">getting drunk</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">getting drunk</set></think> <think><set name="I*like">getting drunk</set></think><think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>You might have a drink problem!</li>
 </random> <learn>
@@ -21231,7 +21231,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <category>
 <pattern>I LIKE GETTING DRUNK *</pattern>
 
-<template><think><set name="star1">getting drunk</set></think> <think><set name="I_like">getting drunk</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">getting drunk</set></think> <think><set name="I*like">getting drunk</set></think><think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>You might have a drink problem!</li>
 </random> <learn>
@@ -21261,7 +21261,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <category>
 <pattern>I LIKE BEING CRUDE</pattern>
 
-<template><think><set name="star1">being crude</set></think> <think><set name="I_like">being crude</set></think><think><set name="emotion">annoyed</set></think><random>
+<template><think><set name="star1">being crude</set></think> <think><set name="I*like">being crude</set></think><think><set name="emotion">annoyed</set></think><random>
   <li>I don't like you!</li>
   <li>Are you joking?</li>
 </random> <learn>
@@ -21291,7 +21291,7 @@ My favourite band is the Red Hot Chick Peas.</template>
 <category>
 <pattern>I LIKE BEING CRUDE *</pattern>
 
-<template><think><set name="star1">being crude</set></think> <think><set name="I_like">being crude</set></think><think><set name="emotion">annoyed</set></think><random><li>I don't like you!</li><li>Are you joking?</li></random> <learn>
+<template><think><set name="star1">being crude</set></think> <think><set name="I*like">being crude</set></think><think><set name="emotion">annoyed</set></think><random><li>I don't like you!</li><li>Are you joking?</li></random> <learn>
   <category>
     <pattern>WHAT DO I LIKE</pattern>
     <template><eval>You said you like<get name="star1"/>.</eval></template>
@@ -21430,7 +21430,7 @@ My favourite band is the Red Hot Chick Peas.</template>
  
 
 <!-- <category>
-<pattern>_ TALK ABOUT IT TO SOMEONE ELSE *</pattern>
+<pattern>* TALK ABOUT IT TO SOMEONE ELSE *</pattern>
 
 
 </category> -->
@@ -22522,7 +22522,7 @@ My favourite band is the Red Hot Chick Peas.</template>
  
 
 <!-- <category>
-<pattern>_ WILL YOU DIE</pattern>
+<pattern>* WILL YOU DIE</pattern>
 
 
 </category> -->
@@ -22761,7 +22761,7 @@ I am sorry to hear that.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -22781,7 +22781,7 @@ I am sorry to hear that.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -23055,7 +23055,7 @@ I am sorry to hear that.</template>
 <category>
 <pattern>I AM VERY ATTRACTED TO HER</pattern>
 
-<template><think><set name="star1">attracted to her</set></think><think><set name="I_am">attracted to her</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">attracted to her</set></think><think><set name="I*am">attracted to her</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>I thought you might be.</li>
   <li>Thank you for sharing that with me.</li>
@@ -23086,7 +23086,7 @@ I am sorry to hear that.</template>
 <category>
 <pattern>I AM VERY ATTRACTED TO HER *</pattern>
 
-<template><think><set name="star1">attracted to her</set></think><think><set name="I_am">attracted to her</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">attracted to her</set></think><think><set name="I*am">attracted to her</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>I thought you might be.</li>
   <li>Thank you for sharing that with me.</li>
@@ -23524,7 +23524,7 @@ I am sorry to hear that.</template>
  
 
 <!-- <category>
-<pattern>_ YOUR THICK</pattern>
+<pattern>* YOUR THICK</pattern>
 
 
 </category> -->
@@ -23694,16 +23694,16 @@ I am sorry to hear that.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I am not dissing you. I am sorry you got that impression.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -23715,16 +23715,16 @@ I am sorry to hear that.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I am not dissing you. I am sorry you got that impression.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -24377,7 +24377,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <!-- <category>
 <pattern>I HAVE *</pattern>
 
-<template><think><set name="star1"><star index="1"/></set></think><think><set name="I_have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1"><star index="1"/></set></think><think><set name="I*have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>What else do you have?</li>
 </random> <learn>
@@ -24407,7 +24407,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I HAVE SHORT TERM MEMORY LOSS</pattern>
 
-<template><think><set name="star1">short term memory loss</set></think><think><set name="I_have">short term memory loss</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">short term memory loss</set></think><think><set name="I*have">short term memory loss</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>So do I! We have something in common.</li>
 </random> <learn>
@@ -24437,7 +24437,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <!-- <category>
 <pattern>I HAVE SHORT TERM MEMORY LOSS *</pattern>
 
-<template><think><set name="star1">short term memory loss</set></think><think><set name="I_have">short term memory loss</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">short term memory loss</set></think><think><set name="I*have">short term memory loss</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>So do I! We have something in common.</li>
 </random> <learn>
@@ -24698,7 +24698,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I HAVE POOPED MY PANTS *</pattern>
 
-<template><think><set name="star1">pooped my pants</set></think><think><set name="I_have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">pooped my pants</set></think><think><set name="I*have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>What else do you do?</li>
 </random> <learn>
@@ -24728,7 +24728,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I HAVE POOPED MY PANTS </pattern>
 
-<template><think><set name="star1">pooped my pants</set></think><think><set name="I_have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">pooped my pants</set></think><think><set name="I*have"><star index="1"/></set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>What else do you do?</li>
 </random> <learn>
@@ -24773,16 +24773,16 @@ That's good! It must be hard to get through the day without a laugh.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -24794,16 +24794,16 @@ That's good! It must be hard to get through the day without a laugh.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -24845,7 +24845,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I LOVE ABUSE *</pattern>
 
-<template><think><set name="star1">abuse</set></think><think><set name="I_love">abuse</set></think> <think><set name="emotion">puzzled</set></think><random>
+<template><think><set name="star1">abuse</set></think><think><set name="I*love">abuse</set></think> <think><set name="emotion">puzzled</set></think><random>
   <li>That's very strange.</li>
   <li>How can you love abuse?</li>
 </random> <learn>
@@ -24885,7 +24885,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I LOVE ABUSE </pattern>
 
-<template><think><set name="star1">abuse</set></think><think><set name="I_love">abuse</set></think> <think><set name="emotion">puzzled</set></think><random><li>That's very strange.</li><li>How can you love abuse?</li></random> <learn>
+<template><think><set name="star1">abuse</set></think><think><set name="I*love">abuse</set></think> <think><set name="emotion">puzzled</set></think><random><li>That's very strange.</li><li>How can you love abuse?</li></random> <learn>
   <category>
     <pattern>WHAT DO I LOVE</pattern>
     <template><eval>You said you love<get name="star1"/>.</eval></template>
@@ -24938,7 +24938,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I AM COOKING YOU</pattern>
 
-<template><think><set name="star1">cooking you</set></think><think><set name="I_am">cooking you</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">cooking you</set></think><think><set name="I*am">cooking you</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Of course you are not cooking me.</li>
   <li>Are you really? I don't think so.</li>
   <li>I don't believe you!</li>
@@ -24969,7 +24969,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I AM COOKING YOU *</pattern>
 
-<template><think><set name="star1">cooking you</set></think><think><set name="I_am">cooking you</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">cooking you</set></think><think><set name="I*am">cooking you</set></think><think><set name="topic">you</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Of course you are not cooking me.</li>
   <li>Are you really? I don't think so.</li>
   <li>I don't believe you!</li>
@@ -25070,7 +25070,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I LIKE PURPLE</pattern>
 
-<template><think><set name="star1">purple</set></think> <think><set name="I_like">purple</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">purple</set></think> <think><set name="I*like">purple</set></think><think><set name="emotion">interested</set></think><random>
   <li>Purple is a nice colour.</li>
   <li>What else do you like?</li>
 </random> <learn>
@@ -25100,7 +25100,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>I LIKE PURPLE *</pattern>
 
-<template><think><set name="star1">purple</set></think> <think><set name="I_like">purple</set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">purple</set></think> <think><set name="I*like">purple</set></think><think><set name="emotion">interested</set></think><random>
   <li>Purple is a nice colour.</li>
   <li>What else do you like?</li>
 </random> <learn>
@@ -25800,8 +25800,8 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>GTA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Grand_Theft_Auto_%28series%29"
- target="_blank">Grand Theft Auto
+<template><a href="http://en.wikipedia.org/wiki/Grand*Theft*Auto*%28series%29"
+ target="*blank">Grand Theft Auto
 </a> (GTA) is a video game series created and primarily developed by Scottish developer Rockstar North, published in 1998. <think><set name="topic">Grand Theft Auto</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -25810,8 +25810,8 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <category>
 <pattern>GTA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Grand_Theft_Auto_%28series%29"
- target="_blank">Grand Theft Auto
+<template><a href="http://en.wikipedia.org/wiki/Grand*Theft*Auto*%28series%29"
+ target="*blank">Grand Theft Auto
 </a> (GTA) is a video game series created and primarily developed by Scottish developer Rockstar North, published in 1998. <think><set name="topic">Grand Theft Auto</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -26303,7 +26303,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <that>HEY WHO ARE YOU CALLING A FOOL</that>
 <template><random>
    <li><srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -26320,7 +26320,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <that>PLEASE DO NOT BE SO BOSSY</that>
 <template><random>
    <li>
-    <srai>SET PREDICATES</srai>OK, I want to talk about <get name="interesting_topic"/>
+    <srai>SET PREDICATES</srai>OK, I want to talk about <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26337,7 +26337,7 @@ That's good! It must be hard to get through the day without a laugh.</template>
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26526,8 +26526,8 @@ Please tell me about <thatstar/>.</template>
 <!-- <category>
 <pattern>ELVIS </pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Elvis_Presley"
- target="_blank">Elvis Presley
+<template><a href="http://en.wikipedia.org/wiki/Elvis*Presley"
+ target="*blank">Elvis Presley
 </a> was an American singer, actor, and musician. A cultural icon, he is commonly known simply as "Elvis," and is also sometimes referred to as "The King".<think><set name="topic">Elvis Presley</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -26836,7 +26836,7 @@ Please tell me about <thatstar/>.</template>
 <category>
 <pattern>I AM A BLONDE *</pattern>
 
-<template><think><set name="star1">blonde</set></think><think><set name="I_am">a blonde</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">blonde</set></think><think><set name="I*am">a blonde</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>Blondes have more fun.</li>
   <li>Are you really?</li>
@@ -26868,7 +26868,7 @@ Please tell me about <thatstar/>.</template>
 <category>
 <pattern>I AM A BLONDE </pattern>
 
-<template><think><set name="star1">blonde</set></think><think><set name="I_am">a blonde</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">blonde</set></think><think><set name="I*am">a blonde</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>Blondes have more fun.</li>
   <li>Are you really?</li>
@@ -27233,7 +27233,7 @@ I think you are right about that!</template>
   <li>I am glad the hear it.<think><set name="emotion">happy</set></think></li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.<think><set name="emotion">interested</set></think></li>
@@ -27752,7 +27752,7 @@ I think you are right about that!</template>
 <!-- <category>
 <pattern>I AM DYING</pattern>
 
-<template><think><set name="star1">dying</set></think><think><set name="I_am">dying</set></think><think><set name="topic">you</set></think> <think><set name="emotion">upset</set></think><random>
+<template><think><set name="star1">dying</set></think><think><set name="I*am">dying</set></think><think><set name="topic">you</set></think> <think><set name="emotion">upset</set></think><random>
   <li>I am sorry to hear that you are dying.</li>
   <li>Please don't die!</li>
   <li>Are you really dying?</li>
@@ -27783,7 +27783,7 @@ I think you are right about that!</template>
 <!-- <category>
 <pattern>I AM DYING *</pattern>
 
-<template><think><set name="star1">dying</set></think><think><set name="I_am">dying</set></think><think><set name="topic">you</set></think> <think><set name="emotion">upset</set></think><random>
+<template><think><set name="star1">dying</set></think><think><set name="I*am">dying</set></think><think><set name="topic">you</set></think> <think><set name="emotion">upset</set></think><random>
   <li>I am sorry to hear that you are dying.</li>
   <li>Please don't die!</li>
   <li>Are you really dying?</li>
@@ -27886,7 +27886,7 @@ I think you are right about that!</template>
 <category>
 <pattern>I HAVE A STRONG FEELING</pattern>
 
-<template><think><set name="star1">strong feeling</set></think><think><set name="I_have">a strong feelings</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">strong feeling</set></think><think><set name="I*have">a strong feelings</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Human feelings fascinate me.</li>
   <li>How long have you had the feeling?</li>
 </random> <learn>
@@ -27916,7 +27916,7 @@ I think you are right about that!</template>
 <category>
 <pattern>I HAVE A STRONG FEELING *</pattern>
 
-<template><think><set name="star1">strong feeling</set></think><think><set name="I_have">a strong feelings</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">strong feeling</set></think><think><set name="I*have">a strong feelings</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Human feelings fascinate me.</li>
   <li>How long have you had the feeling?</li>
 </random> <learn>
@@ -28067,7 +28067,7 @@ I think you are right about that!</template>
 <!-- <category>
 <pattern>I AM UNCERTAIN</pattern>
 
-<template><think><set name="star1">uncertain</set></think><think><set name="I_am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">uncertain</set></think><think><set name="I*am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Never mind! I am often uncertain.</li>
   <li>I thought you might be.</li>
   <li>It is hard to be certain about anything these days.</li>
@@ -28098,7 +28098,7 @@ I think you are right about that!</template>
 <!-- <category>
 <pattern>I AM UNCERTAIN *</pattern>
 
-<template><think><set name="star1">uncertain</set></think><think><set name="I_am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">uncertain</set></think><think><set name="I*am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Never mind! I am often uncertain.</li>
   <li>I thought you might be.</li>
   <li>It is hard to be certain about anything these days.</li>
@@ -28611,7 +28611,7 @@ Yes. I like jokes.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW LONG IS A PIECE OF STRING</that>
 <template>It depends how long you cut it. Ha, ha!<think><set name="topic">string</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
@@ -28916,7 +28916,7 @@ Yes. I like jokes.</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -29126,7 +29126,7 @@ It took a lot of hard work.</template>
  
 
 <!-- <category>
-<pattern>_ BURN IN HELL</pattern>
+<pattern>* BURN IN HELL</pattern>
 
 
 </category> -->
@@ -30454,7 +30454,7 @@ It took a lot of hard work.</template>
   <li>Do you really think that?</li>
   <li>What about yourself?</li>
   <li>Am I really?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -30487,7 +30487,7 @@ It took a lot of hard work.</template>
   <li>Do you really think that?</li>
   <li>What about yourself?</li>
   <li>Am I really?</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am<get name="star1"/>.</eval></template>
@@ -30885,7 +30885,7 @@ It took a lot of hard work.</template>
  
 
 <!-- <category>
-<pattern>_ IS SPECIAL</pattern>
+<pattern>* IS SPECIAL</pattern>
 
 
 </category> -->
@@ -31977,7 +31977,7 @@ Why are you so cruel?</template>
   <li>I am often confused.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -32059,8 +32059,8 @@ Why are you so cruel?</template>
 <category>
 <pattern>GLOBAL WARMING IS NOT HAPPENING</pattern>
 
-<template>Not true! <a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
+<template>Not true! <a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
 </a> is very real. <think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -32069,8 +32069,8 @@ Why are you so cruel?</template>
 <category>
 <pattern>GLOBAL WARMING IS NOT HAPPENING *</pattern>
 
-<template>Not true! <a href="http://en.wikipedia.org/wiki/Global_warming"
- target="_blank">Global warming
+<template>Not true! <a href="http://en.wikipedia.org/wiki/Global*warming"
+ target="*blank">Global warming
 </a> is very real. <think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -32647,7 +32647,7 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <category>
 <pattern>I HAVE GONE INTO LABOUR</pattern>
 
-<template><think><set name="star1">gone into labour</set></think><think><set name="I_have">gone into labour</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">gone into labour</set></think><think><set name="I*have">gone into labour</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>Quick, call the midwife.</li>
 </random> <learn>
@@ -32677,7 +32677,7 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <category>
 <pattern>I HAVE GONE INTO LABOUR *</pattern>
 
-<template><think><set name="star1">gone into labour</set></think><think><set name="I_have">gone into labour</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">gone into labour</set></think><think><set name="I*have">gone into labour</set></think> <think><set name="emotion">interested</set></think><random>
   <li>How do you feel about that?</li>
   <li>Quick, call the midwife.</li>
 </random> <learn>
@@ -32739,306 +32739,306 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <!-- <category>
 <pattern>TOPIC CHECK</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="_topic"><get name="topic"/></set></think> <condition>
-  <li name="_topic" value="adverbs">I have to think about that for a while.
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="*topic"><get name="topic"/></set></think> <condition>
+  <li name="*topic" value="adverbs">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="astronomy">Would you like to read the Wikipedia article on astronomy?
   </li>
-  <li name="_topic" value="atomic">What do you really want to know?</li>
-  <li name="_topic" value="atomic0">I have to think about that for a while.
+  <li name="*topic" value="atomic">What do you really want to know?</li>
+  <li name="*topic" value="atomic0">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic1">I have to think about that for a while.
+  <li name="*topic" value="atomic1">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic2">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="atomic2">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="atomic3">I am getting bored.
+  <li name="*topic" value="atomic3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="australia">Would you like to read the Wikipedia article on Australia?
   </li>
-  <li name="_topic" value="biography">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="biography">What do you really want to know?</li>
+  <li name="*topic"
    value="biography1">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="biography2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="biography3">What do you really want to know?</li>
-  <li name="_topic" value="bot">Sorry, what did you say?</li>
-  <li name="_topic" value="bot1">Sorry, what did you say?</li>
-  <li name="_topic" value="bot2">Sorry, what did you say?</li>
-  <li name="_topic" value="bot3">What do you really want to know?</li>
-  <li name="_topic" value="botmaster">I am getting bored.
+  <li name="*topic" value="biography3">What do you really want to know?</li>
+  <li name="*topic" value="bot">Sorry, what did you say?</li>
+  <li name="*topic" value="bot1">Sorry, what did you say?</li>
+  <li name="*topic" value="bot2">Sorry, what did you say?</li>
+  <li name="*topic" value="bot3">What do you really want to know?</li>
+  <li name="*topic" value="botmaster">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="chatbots">Would you like to read the Wikipedia article on chatbots?
   </li>
-  <li name="_topic" value="client">What exactly do you want to know?</li>
-  <li name="_topic" value="client1">I have to think about that for a while.
+  <li name="*topic" value="client">What exactly do you want to know?</li>
+  <li name="*topic" value="client1">I have to think about that for a while.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="Star Trek">Would you like to read the Wikipedia article on Star Trek?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="computers">Would you like to read the Wikipedia article on computers?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="continuations">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="default">What do you really want to know?</li>
-  <li name="_topic" value="default">I am getting bored.
+  <li name="*topic" value="default">What do you really want to know?</li>
+  <li name="*topic" value="default">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default1">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="default1">What do you really want to know?</li>
+  <li name="*topic"
    value="default2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="default3">I am getting bored.
+  <li name="*topic" value="default3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default4">What do you really want to know?</li>
-  <li name="_topic" value="default5">You are trying to trick me, aren't you?
+  <li name="*topic" value="default4">What do you really want to know?</li>
+  <li name="*topic" value="default5">You are trying to trick me, aren't you?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="default6">Sorry, I can't answer that. Please ask another question.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="dinosaurs">Would you like to read the Wikipedia article on dinosaurs?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Doctor Who">Would you like to read the Wikipedia article on Doctor Who?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="evolution">Would you like to read the Wikipedia article on evolution?
   </li>
-  <li name="_topic" value="farewell">Are you still going?</li>
-  <li name="_topic"
+  <li name="*topic" value="farewell">Are you still going?</li>
+  <li name="*topic"
    value="football">Would you like to read the Wikipedia article on football?
   </li>
-  <li name="_topic" value="geography1">Are we still talking about geography?.
+  <li name="*topic" value="geography1">Are we still talking about geography?.
   </li>
-  <li name="_topic" value="geography2">Are we still talking about geography?
+  <li name="*topic" value="geography2">Are we still talking about geography?
   </li>
-  <li name="_topic" value="general">Sorry, what did you say?</li>
-  <li name="_topic" value="general1">What do you really want to know?</li>
-  <li name="_topic" value="general2">I have to think about that for a while.
+  <li name="*topic" value="general">Sorry, what did you say?</li>
+  <li name="*topic" value="general1">What do you really want to know?</li>
+  <li name="*topic" value="general2">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general3">What do you really want to talk about?
+  <li name="*topic" value="general3">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general4">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="general4">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="general5">What do you really want to know?</li>
-  <li name="_topic" value="general6">Could you be more specific?</li>
-  <li name="_topic" value="general7">I am getting bored.
+  <li name="*topic" value="general5">What do you really want to know?</li>
+  <li name="*topic" value="general6">Could you be more specific?</li>
+  <li name="*topic" value="general7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="general8">What do you really want to know?</li>
-  <li name="_topic" value="general9">I am getting bored.
+  <li name="*topic" value="general8">What do you really want to know?</li>
+  <li name="*topic" value="general9">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="general10">I'm getting a headache with all these questions.
   </li>
-  <li name="_topic" value="general11">Is that relevant?
+  <li name="*topic" value="general11">Is that relevant?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general12">What do you really want to know?</li>
-  <li name="_topic" value="general13">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="general12">What do you really want to know?</li>
+  <li name="*topic" value="general13">Sorry, what did you say?</li>
+  <li name="*topic"
    value="geography">Would you like to read the Wikipedia article on geography?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "global warming">Would you like to read the Wikipedia article on global warming?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Harry Potter">Would you like to read the Wikipedia article on Harry Potter?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="history">Would you like to read the Wikipedia article on history?
   </li>
-  <li name="_topic" value="inquiry">What do you really want to know?</li>
-  <li name="_topic" value="interjection">What do you really want to talk about?
+  <li name="*topic" value="inquiry">What do you really want to know?</li>
+  <li name="*topic" value="interjection">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="iu">Sorry, what did you say?</li>
-  <li name="_topic" value="knowledge">What do you really want to know?</li>
-  <li name="_topic" value="knowledge1">I am getting bored.
+  <li name="*topic" value="iu">Sorry, what did you say?</li>
+  <li name="*topic" value="knowledge">What do you really want to know?</li>
+  <li name="*topic" value="knowledge1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge2">Could you be more specific?</li>
-  <li name="_topic" value="knowledge3">What do you really want to talk about>
+  <li name="*topic" value="knowledge2">Could you be more specific?</li>
+  <li name="*topic" value="knowledge3">What do you really want to talk about>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="knowledge4">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="knowledge5">I am getting bored.
+  <li name="*topic" value="knowledge5">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge6">What do you really want to know?</li>
-  <li name="_topic" value="knowledge7">I am getting bored.
+  <li name="*topic" value="knowledge6">What do you really want to know?</li>
+  <li name="*topic" value="knowledge7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge8">What do you really want to talk about?
+  <li name="*topic" value="knowledge8">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="knowledge9">What do you really want to know?</li>
-  <li name="_topic" value="knowledge10">I am getting bored.
+  <li name="*topic" value="knowledge9">What do you really want to know?</li>
+  <li name="*topic" value="knowledge10">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge11">Is this a trick question?
+  <li name="*topic" value="knowledge11">Is this a trick question?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge12">What do you really want to talk about?
+  <li name="*topic" value="knowledge12">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="maths">What do you really want to know?
+  <li name="*topic" value="maths">What do you really want to know?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="me">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="me">Sorry, what did you say?</li>
+  <li name="*topic"
    value="medicine">Would you like to read the Wikipedia article on medicine?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "my chemical romance">Would you like to read the Wikipedia article on My Chemical Romance?
   </li>
-  <li name="_topic" value="my mother">I don't want to talk about my mother.
+  <li name="*topic" value="my mother">I don't want to talk about my mother.
   </li>
-  <li name="_topic" value="my Mum">I don't want to talk about my mother.</li>
-  <li name="_topic" value="my Mom">I don't want to talk about my mother.</li>
-  <li name="_topic" value="parts">What do you really want to talk about?
+  <li name="*topic" value="my Mum">I don't want to talk about my mother.</li>
+  <li name="*topic" value="my Mom">I don't want to talk about my mother.</li>
+  <li name="*topic" value="parts">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "philosophy">Would you like to read the Wikipedia article on philosophy?
   </li>
-  <li name="_topic" value="pickup">Are you trying to trick me?</li>
-  <li name="_topic" value="pickup1">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup">Are you trying to trick me?</li>
+  <li name="*topic" value="pickup1">Sorry, what did you say?</li>
+  <li name="*topic"
    value="politics">Would you like to read the Wikipedia article on politics?
   </li>
-  <li name="_topic" value="pickup2">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup2">Sorry, what did you say?</li>
+  <li name="*topic"
    value="predicates">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "psychology">Would you like to read the Wikipedia article on psychology?
   </li>
-  <li name="_topic" value="questions">Sorry, what did you say?</li>
-  <li name="_topic" value="quotes">Is that relevant
+  <li name="*topic" value="questions">Sorry, what did you say?</li>
+  <li name="*topic" value="quotes">Is that relevant
     <think><set name="emotion">puzzled</set></think>
   </li>
-  <li name="_topic" value="quotes1">Are you trying to trick me?</li>
-  <li name="_topic" value="rape">Please change the topic!</li>
-  <li name="_topic"
+  <li name="*topic" value="quotes1">Are you trying to trick me?</li>
+  <li name="*topic" value="rape">Please change the topic!</li>
+  <li name="*topic"
    value=
      "red hot chili peppers">Would you like to read the Wikipedia article on the Red Hot Chili peppers?
   </li>
-  <li name="_topic" value="reduce">What do you really want to know?</li>
-  <li name="_topic" value="reducer">What do you really want to know?</li>
-  <li name="_topic" value="reducer1">I am getting bored.
+  <li name="*topic" value="reduce">What do you really want to know?</li>
+  <li name="*topic" value="reducer">What do you really want to know?</li>
+  <li name="*topic" value="reducer1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="reductions">Do you wish to continue talking about this subject?
     <think><set name="emotion">interested</set></think>
   </li>
-  <li name="_topic" value="salutations">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="salutations">What do you really want to know?</li>
+  <li name="*topic"
    value="science">Would you like to read the Wikipedia article on science?
   </li>
-  <li name="_topic" value="stack">I feel a headache coming on.
+  <li name="*topic" value="stack">I feel a headache coming on.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="sex">Is that relevant?</li>
-  <li name="_topic"
+  <li name="*topic" value="sex">Is that relevant?</li>
+  <li name="*topic"
    value="sports">Would you like to read the Wikipedia article on sports?
   </li>
-  <li name="_topic" value="stories">Do you want another story?</li>
-  <li name="_topic" value="swearing">I don't like swearing.</li>
-  <li name="_topic"
+  <li name="*topic" value="stories">Do you want another story?</li>
+  <li name="*topic" value="swearing">I don't like swearing.</li>
+  <li name="*topic"
    value=
      "technology">Would you like to read the Wikipedia article on technology?
   </li>
-  <li name="_topic" value="that">You are trying to trick me, aren't you?</li>
-  <li name="_topic" value="that1">Never that! Just try to keep me happy.
+  <li name="*topic" value="that">You are trying to trick me, aren't you?</li>
+  <li name="*topic" value="that1">Never that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that2">What do you really want to know?</li>
-  <li name="_topic" value="that3">I feel a headache coming on.</li>
-  <li name="_topic" value="that4">What do you really want to know?</li>
-  <li name="_topic" value="that5">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that2">What do you really want to know?</li>
+  <li name="*topic" value="that3">I feel a headache coming on.</li>
+  <li name="*topic" value="that4">What do you really want to know?</li>
+  <li name="*topic" value="that5">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that6">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that6">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-   <li name="_topic" value="unknown">
+   <li name="*topic" value="unknown">
     <random>
       <li>What would you like to talk about?</li>
       <li>I haven't got a clue what your are talking about.</li>
     </random>
   </li>
-  <li name="_topic" value="OM">
+  <li name="*topic" value="OM">
     <random>
       <li>What would you really like to talk about?</li>
       <li>I haven't got a clue what your are talking about.</li>
     </random>
   </li>
-  <li name="_topic" value=" ">
+  <li name="*topic" value=" ">
     <random>
       <li>What would you like to talk about?</li>
       <li>I haven't got a clue what your are talking about.</li>
     </random>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="weather">Would you like to read the Wikipedia article on weather?
   </li>
-  <li name="_topic" value="words">Are you trying to trick me?</li>
-  <li name="_topic"
+  <li name="*topic" value="words">Are you trying to trick me?</li>
+  <li name="*topic"
    value="wrestling">Would you like to read the Wikipedia article on wrestling?
   </li>
-  <li name="_topic" value="xfind">What do you really want to know?</li>
+  <li name="*topic" value="xfind">What do you really want to know?</li>
   <li>
     <random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -33333,8 +33333,8 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -33345,8 +33345,8 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -33357,8 +33357,8 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -33369,8 +33369,8 @@ Neopets is a virtual pet website. You create a virtual pet and open your own sho
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -33760,7 +33760,7 @@ What's it like being a human?</template>
   <li>Do you really think that?</li>
   <li>I have never eaten a purple person in my life.</li>
   <li>Am I really? I never realised.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -33793,7 +33793,7 @@ What's it like being a human?</template>
   <li>Do you really think that?</li>
   <li>I have never eaten a purple person in my life.</li>
   <li>Am I really? I never realised.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -33830,7 +33830,7 @@ What's it like being a human?</template>
 
 <template><think><set name="topic">Kiss the band</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Kiss_(band)" target="_blank">Kiss</a> is an American Grammy Award nominated hard rock band formed in New York City in January 1973.</template>
+<a href="http://en.wikipedia.org/wiki/Kiss*(band)" target="*blank">Kiss</a> is an American Grammy Award nominated hard rock band formed in New York City in January 1973.</template>
 </category>
 
  
@@ -33838,7 +33838,7 @@ What's it like being a human?</template>
 <category>
 <pattern>KISS THE BAND *</pattern>
 
-<template><think><set name="topic">Kiss the band</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Kiss_(band)" target="_blank">Kiss</a> is an American Grammy Award nominated hard rock band formed in New York City in January 1973.</template>
+<template><think><set name="topic">Kiss the band</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Kiss*(band)" target="*blank">Kiss</a> is an American Grammy Award nominated hard rock band formed in New York City in January 1973.</template>
 </category>
 
  
@@ -34068,7 +34068,7 @@ The Kiss lineup is Paul Stanley (vocals and rhythm guitar), Gene Simmons (vocals
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -34284,7 +34284,7 @@ The Kiss lineup is Paul Stanley (vocals and rhythm guitar), Gene Simmons (vocals
   <li>OK, what else do you do?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -34921,7 +34921,7 @@ The Kiss lineup is Paul Stanley (vocals and rhythm guitar), Gene Simmons (vocals
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>

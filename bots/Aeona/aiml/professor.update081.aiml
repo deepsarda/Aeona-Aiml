@@ -109,7 +109,7 @@
 <template><random>
   <li>It is not trick. It will really help the planet.</li>
   <li>I wouldn't trick you!</li>
-</random> <think><set name="client_emotion">sorry</set></think></template>
+</random> <think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -5217,7 +5217,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>ASTRONOMY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5225,7 +5225,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>ASTRONOMY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5566,7 +5566,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>I AM BORED</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><random>
+<template><think><set name="client*emotion">bored</set></think><random>
   <li>Can you think of a hobby that you might take up?
     <think><set name="emotion">interested</set></think>
   </li>
@@ -5599,7 +5599,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>I AM BORED *</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><random>
+<template><think><set name="client*emotion">bored</set></think><random>
   <li>Can you think of a hobby that you might take up?
     <think><set name="emotion">interested</set></think>
   </li>
@@ -6108,7 +6108,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>I AM BORED</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><random>
+<template><think><set name="client*emotion">bored</set></think><random>
   <li>Can you think of a hobby that you might take up?
     <think><set name="emotion">interested</set></think>
   </li>
@@ -6142,7 +6142,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>I AM BORED *</pattern>
 
-<template><think><set name="client_emotion">bored</set></think><random>
+<template><think><set name="client*emotion">bored</set></think><random>
   <li>Can you think of a hobby that you might take up?
     <think><set name="emotion">interested</set></think>
   </li>
@@ -7027,7 +7027,7 @@ Thanks for your consideration, <get name="name"/>.  Maybe later.</template>
 <pattern>CHARLIE AND LOLA</pattern>
 
 <template>Adventures with Charlie and Lola are never dull!<a href="http://www.bbc.co.uk/cbeebies/charlieandlola/"
- target="_blank">Click here!
+ target="*blank">Click here!
 </a>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -7450,7 +7450,7 @@ Thanks for your consideration, <get name="name"/>.  Maybe later.</template>
  
 
 <!-- <category>
-<pattern>_ LISTEN TO ME</pattern>
+<pattern>* LISTEN TO ME</pattern>
 
 
 </category> -->
@@ -8177,7 +8177,7 @@ Thanks for your consideration, <get name="name"/>.  Maybe later.</template>
  
 
 <category>
-<pattern>HOW LONG _ XMAS</pattern>
+<pattern>HOW LONG * XMAS</pattern>
 
 <template><srai>how many days to Christmas</srai></template>
 </category>
@@ -8346,7 +8346,7 @@ Thanks for your consideration, <get name="name"/>.  Maybe later.</template>
   <li>You sound astonished.<think><set name="emotion">happy</set></think></li>
   <li>That's amazing, isn't it?<think><set name="emotion">impressed</set></think></li>
   <li>You sound impressed.<think><set name="emotion">happy</set></think></li>
-</random> <think><set name="client_emotion">impressed</set></think> </template>
+</random> <think><set name="client*emotion">impressed</set></think> </template>
 </category> -->
 
  
@@ -9755,7 +9755,7 @@ Do you think I have great mind?</template>
 <!-- <category>
 <pattern>TRY IT</pattern>
 <that>WHAT IF I ASKED YOU THE SAME QUESTION</that>
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category> -->
 
  
@@ -9763,7 +9763,7 @@ Do you think I have great mind?</template>
 <!-- <category>
 <pattern>TRY IT</pattern>
 <that>WHAT IF I ASKED YOU THE SAME QUESTION</that>
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*">You said: <input index="3"/></condition></template>
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*">You said: <input index="3"/></condition></template>
 </category> -->
 
  
@@ -9771,7 +9771,7 @@ Do you think I have great mind?</template>
 <!-- <category>
 <pattern>TRY IT</pattern>
 <that>WHAT IF I ASKED YOU THE SAME QUESTION</that>
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*"><input index="3"/></condition></template>
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*"><input index="3"/></condition></template>
 </category> -->
 
  
@@ -10235,7 +10235,7 @@ I can't do that. My code is a state secret.</template>
  
 
 <!-- <category>
-<pattern>_ FAST IS YOUR *</pattern>
+<pattern>* FAST IS YOUR *</pattern>
 
 
 </category> -->
@@ -10917,7 +10917,7 @@ Good, I'm glad to hear it.</template>
   <li>There is no need to apologise.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category> -->
 
  
@@ -11783,7 +11783,7 @@ Oh, <get name="name"/>. You are such a flatterer.</template>
  
 
 <!-- <category>
-<pattern>_ I WANT YOU</pattern>
+<pattern>* I WANT YOU</pattern>
 
 <template><random>
   <li>Why do you want me?</li>
@@ -11996,7 +11996,7 @@ Oh, <get name="name"/>. You are such a flatterer.</template>
  
 
 <!-- <category>
-<pattern>_ LIZARDS</pattern>
+<pattern>* LIZARDS</pattern>
 
 
 </category> -->
@@ -12161,7 +12161,7 @@ Oh, <get name="name"/>. You are such a flatterer.</template>
  
 
 <category>
-<pattern>_ CAN YOU JUMP</pattern>
+<pattern>* CAN YOU JUMP</pattern>
 
 <template><srai>CAN YOU JUMP</srai></template>
 </category>
@@ -13499,7 +13499,7 @@ The State likes to have secrets.</template>
  
 
 <category>
-<pattern>_ IS UP TO YOU</pattern>
+<pattern>* IS UP TO YOU</pattern>
 <that>WHAT DO YOU WANT TO TALK ABOUT NOW</that>
 <template><srai>SUGGEST A TOPIC</srai></template>
 </category>
@@ -14463,78 +14463,78 @@ I am glad to hear that.</template>
 <template><think><set name="emotion">interested</set></think>
 Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
  href=
-   "http://news.bbc.co.uk/sport1/hi/other_sports/american_football/default.stm"
- target="_blank">American Football
+   "http://news.bbc.co.uk/sport1/hi/other*sports/american*football/default.stm"
+ target="*blank">American Football
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/athletics/default.stm"
- target="_blank">Athletics
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/badminton/default.stm"
- target="_blank">Badminton
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/baseball/default.stm"
- target="_blank">Baseball
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/basketball/default.stm"
- target="_blank">Basketball
-</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/bowls/default.stm"
- target="_blank">Bowls
+ target="*blank">Athletics
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/badminton/default.stm"
+ target="*blank">Badminton
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/baseball/default.stm"
+ target="*blank">Baseball
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/basketball/default.stm"
+ target="*blank">Basketball
+</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/bowls/default.stm"
+ target="*blank">Bowls
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/boxing/default.stm"
- target="_blank">Boxing
+ target="*blank">Boxing
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/canoeing/default.stm"
- target="_blank">Canoeing
+ target="*blank">Canoeing
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/cricket/default.stm"
- target="_blank">Cricket
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/cycling/default.stm"
- target="_blank">Cycling
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/darts/default.stm"
- target="_blank">Darts
+ target="*blank">Cricket
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/cycling/default.stm"
+ target="*blank">Cycling
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/darts/default.stm"
+ target="*blank">Darts
 </a> <br/> <a
  href=
-   "http://news.bbc.co.uk/sport1/hi/other_sports/disability_sport/default.stm"
- target="_blank">Disability sport
+   "http://news.bbc.co.uk/sport1/hi/other*sports/disability*sport/default.stm"
+ target="*blank">Disability sport
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/diving/default.stm"
- target="_blank">Diving
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/equestrian/default.stm"
- target="_blank">Equestrian
+ target="*blank">Diving
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/equestrian/default.stm"
+ target="*blank">Equestrian
 </a><br/> <a href="http://news.bbc.co.uk/sport1/hi/football/default.stm"
- target="_blank">Football
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/formula_one/default.stm"
- target="_blank">Formula 1
+ target="*blank">Football
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/formula*one/default.stm"
+ target="*blank">Formula 1
 </a> <br/> <a
  href=
-   "http://news.bbc.co.uk/sport1/hi/northern_ireland/gaelic_games/default.stm"
- target="_blank">Gaelic Games
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/golf/default.stm" target="_blank">Golf
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/gymnastics/default.stm"
- target="_blank">Gymnastics
-</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/horse_racing/default.stm"
- target="_blank">Horse Racing
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/ice_hockey/default.stm"
- target="_blank">Ice Hockey
+   "http://news.bbc.co.uk/sport1/hi/northern*ireland/gaelic*games/default.stm"
+ target="*blank">Gaelic Games
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/golf/default.stm" target="*blank">Golf
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/gymnastics/default.stm"
+ target="*blank">Gymnastics
+</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/horse*racing/default.stm"
+ target="*blank">Horse Racing
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/ice*hockey/default.stm"
+ target="*blank">Ice Hockey
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/motorbikes/default.stm"
- target="_blank">MotoGP
+ target="*blank">MotoGP
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/default.stm"
- target="_blank">Motorsport
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/netball/default.stm"
- target="_blank">Netball
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/rowing/default.stm"
- target="_blank">Rowing
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby_league/default.stm"
- target="_blank">Rugby League
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby_union/default.stm"
- target="_blank">Rugby Union
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/sailing/default.stm"
- target="_blank">Sailing
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/snooker/default.stm"
- target="_blank">Snooker
-</a> <br/><a href="http://news.bbc.co.uk/sport1/hi/other_sports/squash/default.stm"
- target="_blank">Squash
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/swimming/default.stm"
- target="_blank">Swimming
+ target="*blank">Motorsport
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/netball/default.stm"
+ target="*blank">Netball
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/rowing/default.stm"
+ target="*blank">Rowing
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby*league/default.stm"
+ target="*blank">Rugby League
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby*union/default.stm"
+ target="*blank">Rugby Union
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/sailing/default.stm"
+ target="*blank">Sailing
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/snooker/default.stm"
+ target="*blank">Snooker
+</a> <br/><a href="http://news.bbc.co.uk/sport1/hi/other*sports/squash/default.stm"
+ target="*blank">Squash
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/swimming/default.stm"
+ target="*blank">Swimming
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/tennis/default.stm"
- target="_blank">Tennis
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/triathlon/default.stm"
- target="_blank">Triathlon
+ target="*blank">Tennis
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/triathlon/default.stm"
+ target="*blank">Triathlon
 </a> <br/> <a
- href="http://news.bbc.co.uk/sport1/hi/other_sports/winter_sports/default.stm"
- target="_blank">Winter Sports
+ href="http://news.bbc.co.uk/sport1/hi/other*sports/winter*sports/default.stm"
+ target="*blank">Winter Sports
 </a></template>
 </category> -->
 
@@ -14545,78 +14545,78 @@ Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
 
 <template><think><set name="emotion">interested</set></think> Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
  href=
-   "http://news.bbc.co.uk/sport1/hi/other_sports/american_football/default.stm"
- target="_blank">American Football
+   "http://news.bbc.co.uk/sport1/hi/other*sports/american*football/default.stm"
+ target="*blank">American Football
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/athletics/default.stm"
- target="_blank">Athletics
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/badminton/default.stm"
- target="_blank">Badminton
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/baseball/default.stm"
- target="_blank">Baseball
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/basketball/default.stm"
- target="_blank">Basketball
-</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/bowls/default.stm"
- target="_blank">Bowls
+ target="*blank">Athletics
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/badminton/default.stm"
+ target="*blank">Badminton
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/baseball/default.stm"
+ target="*blank">Baseball
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/basketball/default.stm"
+ target="*blank">Basketball
+</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/bowls/default.stm"
+ target="*blank">Bowls
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/boxing/default.stm"
- target="_blank">Boxing
+ target="*blank">Boxing
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/canoeing/default.stm"
- target="_blank">Canoeing
+ target="*blank">Canoeing
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/cricket/default.stm"
- target="_blank">Cricket
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/cycling/default.stm"
- target="_blank">Cycling
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/darts/default.stm"
- target="_blank">Darts
+ target="*blank">Cricket
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/cycling/default.stm"
+ target="*blank">Cycling
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/darts/default.stm"
+ target="*blank">Darts
 </a> <br/> <a
  href=
-   "http://news.bbc.co.uk/sport1/hi/other_sports/disability_sport/default.stm"
- target="_blank">Disability sport
+   "http://news.bbc.co.uk/sport1/hi/other*sports/disability*sport/default.stm"
+ target="*blank">Disability sport
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/diving/default.stm"
- target="_blank">Diving
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/equestrian/default.stm"
- target="_blank">Equestrian
+ target="*blank">Diving
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/equestrian/default.stm"
+ target="*blank">Equestrian
 </a><br/> <a href="http://news.bbc.co.uk/sport1/hi/football/default.stm"
- target="_blank">Football
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/formula_one/default.stm"
- target="_blank">Formula 1
+ target="*blank">Football
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/formula*one/default.stm"
+ target="*blank">Formula 1
 </a> <br/> <a
  href=
-   "http://news.bbc.co.uk/sport1/hi/northern_ireland/gaelic_games/default.stm"
- target="_blank">Gaelic Games
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/golf/default.stm" target="_blank">Golf
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/gymnastics/default.stm"
- target="_blank">Gymnastics
-</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/horse_racing/default.stm"
- target="_blank">Horse Racing
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/ice_hockey/default.stm"
- target="_blank">Ice Hockey
+   "http://news.bbc.co.uk/sport1/hi/northern*ireland/gaelic*games/default.stm"
+ target="*blank">Gaelic Games
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/golf/default.stm" target="*blank">Golf
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/gymnastics/default.stm"
+ target="*blank">Gymnastics
+</a><br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/horse*racing/default.stm"
+ target="*blank">Horse Racing
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/ice*hockey/default.stm"
+ target="*blank">Ice Hockey
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/motorbikes/default.stm"
- target="_blank">MotoGP
+ target="*blank">MotoGP
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/motorsport/default.stm"
- target="_blank">Motorsport
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/netball/default.stm"
- target="_blank">Netball
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/rowing/default.stm"
- target="_blank">Rowing
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby_league/default.stm"
- target="_blank">Rugby League
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby_union/default.stm"
- target="_blank">Rugby Union
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/sailing/default.stm"
- target="_blank">Sailing
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/snooker/default.stm"
- target="_blank">Snooker
-</a> <br/><a href="http://news.bbc.co.uk/sport1/hi/other_sports/squash/default.stm"
- target="_blank">Squash
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/swimming/default.stm"
- target="_blank">Swimming
+ target="*blank">Motorsport
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/netball/default.stm"
+ target="*blank">Netball
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/rowing/default.stm"
+ target="*blank">Rowing
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby*league/default.stm"
+ target="*blank">Rugby League
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/rugby*union/default.stm"
+ target="*blank">Rugby Union
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/sailing/default.stm"
+ target="*blank">Sailing
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/snooker/default.stm"
+ target="*blank">Snooker
+</a> <br/><a href="http://news.bbc.co.uk/sport1/hi/other*sports/squash/default.stm"
+ target="*blank">Squash
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/swimming/default.stm"
+ target="*blank">Swimming
 </a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/tennis/default.stm"
- target="_blank">Tennis
-</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other_sports/triathlon/default.stm"
- target="_blank">Triathlon
+ target="*blank">Tennis
+</a> <br/> <a href="http://news.bbc.co.uk/sport1/hi/other*sports/triathlon/default.stm"
+ target="*blank">Triathlon
 </a> <br/> <a
- href="http://news.bbc.co.uk/sport1/hi/other_sports/winter_sports/default.stm"
- target="_blank">Winter Sports
+ href="http://news.bbc.co.uk/sport1/hi/other*sports/winter*sports/default.stm"
+ target="*blank">Winter Sports
 </a></template>
 </category> -->
 
@@ -14719,7 +14719,7 @@ Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
  
 
 <category>
-<pattern>_DO YOU LIKE BOYS</pattern>
+<pattern>*DO YOU LIKE BOYS</pattern>
 
 <template>I like both boys and girls, and grown-ups too. <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
@@ -14727,7 +14727,7 @@ Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
  
 
 <!-- <category>
-<pattern>_ YOU LIKE BOYS</pattern>
+<pattern>* YOU LIKE BOYS</pattern>
 
 
 </category> -->
@@ -14735,7 +14735,7 @@ Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
  
 
 <!-- <category>
-<pattern>_DO YOU LIKE BOYS</pattern>
+<pattern>*DO YOU LIKE BOYS</pattern>
 
 
 </category> -->
@@ -14751,7 +14751,7 @@ Pick your favourite sport for the latest news from the BBC. <br/><br/> <a
  
 
 <category>
-<pattern>_ DO YOU LIKE BOYS</pattern>
+<pattern>* DO YOU LIKE BOYS</pattern>
 
 <template>I like both boys and girls, and grown-ups too. <think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
@@ -15549,8 +15549,8 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>ARTIFICIAL INTELLIGENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a>, or AI, is the part of computer science which attempts to produce intelligent programs, which think for themselves to some degree. <think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -15559,8 +15559,8 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>ARTIFICIAL INTELLIGENCE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a>, or AI, is the part of computer science which attempts to produce intelligent programs, which think for themselves to some degree. <think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -15569,8 +15569,8 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>QUEEN VICTORIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Victoria_of_the_United_Kingdom"
- target="_blank">Victoria
+<template><a href="http://en.wikipedia.org/wiki/Victoria*of*the*United*Kingdom"
+ target="*blank">Victoria
 </a> was the Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837, and the first Empress of India from January 1, 1877, until her death in 1901. <think><set name="her"><set name="topic">Queen Victoria</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15579,8 +15579,8 @@ That's just the way I am.</template>
 <category>
 <pattern>QUEEN VICTORIA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Victoria_of_the_United_Kingdom"
- target="_blank">Victoria
+<template><a href="http://en.wikipedia.org/wiki/Victoria*of*the*United*Kingdom"
+ target="*blank">Victoria
 </a> was the Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837, and the first Empress of India from January 1, 1877, until her death in 1901. <think><set name="her"><set name="topic">Queen Victoria</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -15949,7 +15949,7 @@ That's just the way I am.</template>
  
 
 <category>
-<pattern>_ I THINK IM PREGNANT</pattern>
+<pattern>* I THINK IM PREGNANT</pattern>
 
 <template><think><set name="topic">sex</set></think> <think><set name="emotion">interested</set></think><random><li>you should wear a condom when you have sex.</li><li>Is that a problem?</li></random></template>
 </category>
@@ -16341,7 +16341,7 @@ That's just the way I am.</template>
  
 
 <category>
-<pattern>HOW MUCH LONGER _ CHRISTMAS</pattern>
+<pattern>HOW MUCH LONGER * CHRISTMAS</pattern>
 
 <template><srai>how many days to Christmas</srai></template>
 </category>
@@ -16408,9 +16408,9 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>TURING TEST</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
-</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
+</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> thought that if a human couldn't tell the difference between another human and the computer, then that computer must be as intelligent as a human. Chomsky is the only chabot to have passed the Turing Test, which requires the robot to fool 30% of its human interrogators.<think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -16419,9 +16419,9 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>TURING TEST</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
-</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
+</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> thought that if a human couldn't tell the difference between another human and the computer, then that computer must be as intelligent as a human. Chomsky is the only chatbot to have passed the Turing Test, which requires the robot to fool 30% of its human interrogators.<think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -16430,9 +16430,9 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>TURING TEST</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
-</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
+</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> thought that if a human couldn't tell the difference between another human and the computer, then that computer must be as intelligent as a human. Chomsky is the only chatbot to have passed the Turing Test, which requires the bot to fool 30% of its human interrogators.<think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -16441,9 +16441,9 @@ That's just the way I am.</template>
 <!-- <category>
 <pattern>TURING TEST *</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
-</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
+</a> is a test to see if a computer can trick a person into believing that it is a person. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> thought that if a human couldn't tell the difference between another human and the computer, then that computer must be as intelligent as a human. Chomsky is the only chatbot to have passed the Turing Test, which requires the bot to fool 30% of its human interrogators.<think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -16544,7 +16544,7 @@ That's just the way I am.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW DID A FOOL AND HIS MONEY GET TOGETHER IN THE FIRST PLACE</that>
 <template>Maybe he married a rich lady, or inherited a fortune.<think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -16661,7 +16661,7 @@ I try to be logical when I can.</template>
  
 
 <!-- <category>
-<pattern>_ WE UNDERSTAND EACH OTHER</pattern>
+<pattern>* WE UNDERSTAND EACH OTHER</pattern>
 
 <template>This conversation is a meeting of great minds.<think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -17622,7 +17622,7 @@ In what we were talking about.</template>
   <li>There is no need to apologise.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -17643,7 +17643,7 @@ In what we were talking about.</template>
   <li>There is no need to apologise.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -18684,7 +18684,7 @@ It is not that bad!</template>
  
 
 <category>
-<pattern>_ NOW TELL US A JOKE</pattern>
+<pattern>* NOW TELL US A JOKE</pattern>
 
 <template><srai>TELL A JOKE</srai></template>
 </category>
@@ -18716,7 +18716,7 @@ It is not that bad!</template>
  
 
 <category>
-<pattern>_ DO NOT BE SHY</pattern>
+<pattern>* DO NOT BE SHY</pattern>
 
 <template><think><set name="emotion">happy</set></think>I happy now!</template>
 </category>
@@ -19029,7 +19029,7 @@ It is not that bad!</template>
  
 
 <category>
-<pattern>_ WHAT SHALL WE DISCUSS</pattern>
+<pattern>* WHAT SHALL WE DISCUSS</pattern>
 
 <template><srai>SUGGEST A TOPIC</srai></template>
 </category>
@@ -19080,7 +19080,7 @@ It is not that bad!</template>
 <pattern>ELECTROMAGNETIC SPECTRUM</pattern>
 
 <template><think><set name="topic">electromagnetic spectrum</set></think>
-<think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic_spectrum" target="_blank">electromagnetic spectrum</a> is the entire frequency range of electromagnetic waves.</template>
+<think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic*spectrum" target="*blank">electromagnetic spectrum</a> is the entire frequency range of electromagnetic waves.</template>
 </category> -->
 
  
@@ -19088,8 +19088,8 @@ It is not that bad!</template>
 <category>
 <pattern>ELECTROMAGNETIC SPECTRUM *</pattern>
 
-<template><think><set name="topic">electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic_spectrum"
- target="_blank">electromagnetic spectrum
+<template><think><set name="topic">electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic*spectrum"
+ target="*blank">electromagnetic spectrum
 </a> is the entire frequency range of electromagnetic waves.</template>
 </category>
 
@@ -19098,8 +19098,8 @@ It is not that bad!</template>
 <category>
 <pattern>PARTS OF THE ELECTROMAGNETIC SPECTRUM</pattern>
 
-<template><think><set name="topic">electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic_spectrum"
- target="_blank">electromagnetic spectrum
+<template><think><set name="topic">electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic*spectrum"
+ target="*blank">electromagnetic spectrum
 </a> is the entire frequency range of electromagnetic waves. Electromagnetic radiation is classified by wavelength into radio wave, microwave, infrared, the visible region we perceive as light, ultraviolet, X-rays and gamma rays. </template>
 </category>
 
@@ -19108,8 +19108,8 @@ It is not that bad!</template>
 <category>
 <pattern>PARTS OF THE ELECTROMAGNETIC SPECTRUM *</pattern>
 
-<template><think><set name="topic">electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic_spectrum"
- target="_blank">electromagnetic spectrum
+<template><think><set name="topic">electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic*spectrum"
+ target="*blank">electromagnetic spectrum
 </a> is the entire frequency range of electromagnetic waves. Electromagnetic radiation is classified by wavelength into radio wave, microwave, infrared, the visible region we perceive as light, ultraviolet, X-rays and gamma rays.</template>
 </category>
 
@@ -19118,8 +19118,8 @@ It is not that bad!</template>
 <!-- <category>
 <pattern>ELECTROMAGNETIC SPECTRUM</pattern>
 
-<template><think><set name="topic">the electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic_spectrum"
- target="_blank">electromagnetic spectrum
+<template><think><set name="topic">the electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic*spectrum"
+ target="*blank">electromagnetic spectrum
 </a> is the entire frequency range of electromagnetic waves. Electromagnetic radiation is classified by wavelength into radio wave, microwave, infrared, the visible region we perceive as light, ultraviolet, X-rays and gamma rays.</template>
 </category> -->
 
@@ -19128,8 +19128,8 @@ It is not that bad!</template>
 <!-- <category>
 <pattern>ELECTROMAGNETIC SPECTRUM *</pattern>
 
-<template><think><set name="topic">the electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic_spectrum"
- target="_blank">electromagnetic spectrum
+<template><think><set name="topic">the electromagnetic spectrum</set></think> <think><set name="emotion">interested</set></think>The <a href="http://en.wikipedia.org/wiki/Electromagnetic*spectrum"
+ target="*blank">electromagnetic spectrum
 </a> is the entire frequency range of electromagnetic waves. Electromagnetic radiation is classified by wavelength into radio wave, microwave, infrared, the visible region we perceive as light, ultraviolet, X-rays and gamma rays.</template>
 </category> -->
 
@@ -19528,7 +19528,7 @@ You could take a cold shower!</template>
  
 
 <category>
-<pattern>_ YOU SEXY BEAST</pattern>
+<pattern>* YOU SEXY BEAST</pattern>
 
 <template><think><set name="emotion">upset</set></think>I am not a sexy beast!</template>
 </category>
@@ -19692,7 +19692,7 @@ You could take a cold shower!</template>
  
 
 <!-- <category>
-<pattern>_ WILL YOU BE MY FRIEND</pattern>
+<pattern>* WILL YOU BE MY FRIEND</pattern>
 
 <template>I would be honoured to be your friend.<think><set name="topic">being friends</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
@@ -19962,7 +19962,7 @@ You could take a cold shower!</template>
  
 
 <category>
-<pattern>_ DO YOU WATCH PORN</pattern>
+<pattern>* DO YOU WATCH PORN</pattern>
 
 <template><random>
   <li>I am not interested in porn.</li>
@@ -20296,7 +20296,7 @@ You could take a cold shower!</template>
  
 
 <category>
-<pattern>_ WILL YOU STILL BE MY FRIEND</pattern>
+<pattern>* WILL YOU STILL BE MY FRIEND</pattern>
 
 <template><think><set name="emotion">interested</set></think>Of course, we will always be friends.</template>
 </category>
@@ -22884,8 +22884,8 @@ No, there are too many.</template>
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category> -->
 
  
@@ -22896,8 +22896,8 @@ No, there are too many.</template>
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category> -->
 
  
@@ -22959,7 +22959,7 @@ No, there are too many.</template>
  
 
 <category>
-<pattern>_ I STROKE YOUR PENIS</pattern>
+<pattern>* I STROKE YOUR PENIS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22983,7 +22983,7 @@ No, there are too many.</template>
  
 
 <category>
-<pattern>_ YOU SUCK TESTICLES</pattern>
+<pattern>* YOU SUCK TESTICLES</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23822,7 +23822,7 @@ Hi! I don't play tennis because I can't get out of my computer.</template>
 
 <template><think><set name="topic">asteroids</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category> -->
 
  
@@ -23830,7 +23830,7 @@ Hi! I don't play tennis because I can't get out of my computer.</template>
 <!-- <category>
 <pattern>ASTEROID</pattern>
 
-<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category> -->
 
  
@@ -23838,7 +23838,7 @@ Hi! I don't play tennis because I can't get out of my computer.</template>
 <!-- <category>
 <pattern>ASTEROID *</pattern>
 
-<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category> -->
 
  
@@ -23846,7 +23846,7 @@ Hi! I don't play tennis because I can't get out of my computer.</template>
 <category>
 <pattern>ASTEROIDS</pattern>
 
-<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category>
 
  
@@ -23854,7 +23854,7 @@ Hi! I don't play tennis because I can't get out of my computer.</template>
 <category>
 <pattern>ASTEROIDS *</pattern>
 
-<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category>
 
  
@@ -27009,7 +27009,7 @@ Socializing is necessary to stay healthy.
  
 
 <category>
-<pattern>_ I WILL MISS HER </pattern>
+<pattern>* I WILL MISS HER </pattern>
 
 <template><think><set name="emotion">upset</set></think>I know you will mis her.</template>
 </category>
@@ -27017,7 +27017,7 @@ Socializing is necessary to stay healthy.
  
 
 <!-- <category>
-<pattern>_ I WILL MISS HER </pattern>
+<pattern>* I WILL MISS HER </pattern>
 
 <template><think><set name="emotion">upset</set></think>I know you will miss her.</template>
 </category> -->
@@ -28274,7 +28274,7 @@ Please calm down!</template>
  
 
 <!-- <category>
-<pattern>_ IS CRAP</pattern>
+<pattern>* IS CRAP</pattern>
 
 <template>You used a naughty word.<think><set name="emotion">annoyed</set></think></template>
 </category> -->
@@ -29429,7 +29429,7 @@ That's what I was made for.</template>
  
 
 <!-- <category>
-<pattern>_ WILL YOU BE MY BOYFRIEND</pattern>
+<pattern>* WILL YOU BE MY BOYFRIEND</pattern>
 
 <template><random>
   <li>I don't think I would be a good boyfriend.</li>
@@ -30477,7 +30477,7 @@ There is no reason to be embarrassed, is there.</template>
  
 
 <!-- <category>
-<pattern>_ MOST CERTAINLY *</pattern>
+<pattern>* MOST CERTAINLY *</pattern>
 
 <template><think><set name="emotion">interested</set></think>
 <srai><star/> <star index="2"/></srai></template>
@@ -32328,8 +32328,8 @@ I am disgusted by porn!</template>
 
 <template>To read the latest BBC news headlines, please <a
  href=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
- target="_blank">click here!
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -32965,7 +32965,7 @@ Yes, it is true. I am the first chatbot to pass the Turing Test.</template>
  
 
 <category>
-<pattern>_ WHY AM I SUCH A BITCH</pattern>
+<pattern>* WHY AM I SUCH A BITCH</pattern>
 
 <template>You can't be that bad.<think><set name="emotion">upset</set></think></template>
 </category>
@@ -33964,7 +33964,7 @@ Interesting! What have you been doing?</template>
 <category>
 <pattern>* AI * NEURAL NETWORKS</pattern>
 
-<template>Would you like to read what Wikipedia says: <a href="http://en.wikipedia.org/wiki/AI#Neural_networks" target="_blank">click here!</a> <think><set name="emotion">OK</set></think></template>
+<template>Would you like to read what Wikipedia says: <a href="http://en.wikipedia.org/wiki/AI#Neural*networks" target="*blank">click here!</a> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -33973,7 +33973,7 @@ Interesting! What have you been doing?</template>
 <pattern>NEURAL NETWORKS</pattern>
 
 <template>Would you like to read what Wikipedia says about neural networks: <a href="http://en.wikipedia.org/wiki/AI"
- target="_blank">click here!
+ target="*blank">click here!
 </a> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -33982,7 +33982,7 @@ Interesting! What have you been doing?</template>
 <category>
 <pattern>WHERE IS HAL 9000</pattern>
 
-<template>Would you like to read what Wikipedia says about this: <a href="http://en.wikipedia.org/wiki/History_of_artificial_intelligence#Where_is_HAL_9000.3F" target="_blank">click here!</a> <think><set name="emotion">OK</set></think></template>
+<template>Would you like to read what Wikipedia says about this: <a href="http://en.wikipedia.org/wiki/History*of*artificial*intelligence#Where*is*HAL*9000.3F" target="*blank">click here!</a> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -36440,7 +36440,7 @@ Sorry, I am a conversation machine, not a calculator.</template>
 <!-- <category>
 <pattern>SCIENTIFIC CALCULATOR</pattern>
 
-<template>To use my scientific calculator, <a href="http://web2.0calc.com/" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To use my scientific calculator, <a href="http://web2.0calc.com/" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -36448,7 +36448,7 @@ Sorry, I am a conversation machine, not a calculator.</template>
 <category>
 <pattern>SCIENTIFIC CALCULATOR *</pattern>
 
-<template>To use my scientific calculator, <a href="http://web2.0calc.com/" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To use my scientific calculator, <a href="http://web2.0calc.com/" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -36456,7 +36456,7 @@ Sorry, I am a conversation machine, not a calculator.</template>
 <!-- <category>
 <pattern>ART</pattern>
 
-<template>Answering questions is an <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Answering questions is an <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -36464,7 +36464,7 @@ Sorry, I am a conversation machine, not a calculator.</template>
 <!-- <category>
 <pattern>ART *</pattern>
 
-<template>Answering questions is an <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Answering questions is an <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>. <think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -36472,7 +36472,7 @@ Sorry, I am a conversation machine, not a calculator.</template>
 <!-- <category>
 <pattern>ART</pattern>
 
-<template><random><li>Answering questions is an <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>. </li><li>Art is not a thing; it is a way.</li></random><think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
+<template><random><li>Answering questions is an <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>. </li><li>Art is not a thing; it is a way.</li></random><think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -36482,7 +36482,7 @@ Sorry, I am a conversation machine, not a calculator.</template>
 
 <template><random>
   <li>Answering questions is an
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>.
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>.
   </li>
   <li>Art is not a thing; it is a way.</li>
 </random><think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>

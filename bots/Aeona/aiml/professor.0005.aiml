@@ -150,7 +150,7 @@
 </category>
 
 <category>
-<pattern>_ NO * WEATHER</pattern>
+<pattern>* NO * WEATHER</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -164,7 +164,7 @@
 </category>
 
 <category>
-<pattern>NO _ WEATHER *</pattern>
+<pattern>NO * WEATHER *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -192,7 +192,7 @@
 </category>
 
 <category>
-<pattern>_ NOT * WEATHER</pattern>
+<pattern>* NOT * WEATHER</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -258,7 +258,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  WEATHER</that>
 <template>
 <srai>WEATHER POT LUCK</srai>
@@ -378,7 +378,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT WEATHER</that>
 <template>
 <srai>MORE ABOUT WEATHER</srai>
@@ -498,7 +498,7 @@ Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
 <template>
 Can we talk about weather?
@@ -562,7 +562,7 @@ Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH WEATHER</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -626,7 +626,7 @@ Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN WEATHER</that>
 <template>
 Can we talk about weather?
@@ -690,7 +690,7 @@ Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN WEATHER</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -746,7 +746,7 @@ Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT WEATHER</that>
 <template>
 <srai>WEATHER</srai>
@@ -963,7 +963,7 @@ Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE WEATHER</that>
 <template>
 <srai>WEATHER POT LUCK</srai>
@@ -1133,7 +1133,7 @@ I think this is something to do with weather. Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ TYPHOON *</pattern> 
+<pattern>* TYPHOON *</pattern> 
 <template>
 I think this is something to do with weather. Can we talk about weather?
 <think><set name="topic">weather</set></think>
@@ -1149,7 +1149,7 @@ I think this is something to do with weather. Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ HURRICANE *</pattern> 
+<pattern>* HURRICANE *</pattern> 
 <template>
 I think this is something to do with weather. Can we talk about weather?
 <think><set name="topic">weather</set></think>
@@ -1266,7 +1266,7 @@ I think this is something to do with weather. Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ NO * SCIENCE</pattern>
+<pattern>* NO * SCIENCE</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -1280,7 +1280,7 @@ I think this is something to do with weather. Can we talk about weather?
 </category>
 
 <category>
-<pattern>NO _ SCIENCE *</pattern>
+<pattern>NO * SCIENCE *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -1374,7 +1374,7 @@ I think this is something to do with weather. Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  SCIENCE</that>
 <template>
 <srai>SCIENCE POT LUCK</srai>
@@ -1494,7 +1494,7 @@ I think this is something to do with weather. Can we talk about weather?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT SCIENCE</that>
 <template>
 <srai>MORE ABOUT SCIENCE</srai>
@@ -1614,7 +1614,7 @@ Can we talk about science?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH SCIENCE</that>
 <template>
 Can we talk about science?
@@ -1678,7 +1678,7 @@ Can we talk about science?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH SCIENCE</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -1742,7 +1742,7 @@ Can we talk about science?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN SCIENCE</that>
 <template>
 Can we talk about science?
@@ -1806,7 +1806,7 @@ Can we talk about science?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN SCIENCE</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -1862,7 +1862,7 @@ Can we talk about science?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT SCIENCE</that>
 <template>
 <srai>SCIENCE</srai>
@@ -2079,7 +2079,7 @@ Can we talk about science?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE SCIENCE</that>
 <template>
 <srai>SCIENCE POT LUCK</srai>
@@ -2208,7 +2208,7 @@ Can we talk about science?
    <li>Humans share 98.4% of our DNA with chimps. In comparison, we share 70% of our DNA with a slug. </li>
    <li>Did you know that a blackbody is something that absorbs all electromagnetic radiation that comes its way?</li>
    <li>Did you know that several countries, including Sweden and Germany have started a nuclear power phase-out, with the goal of gradually shutting down all nuclear power plants?</li>
-   <li>Did you know that chuño is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?</li>
+   <li>Did you know that chuï¿½o is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?</li>
    <li>By reconstructing ancient genes from long-extinct animals, scientists have for the first time demonstrated the step-by-step progression of how evolution created a new piece of molecular machinery by reusing and modifying existing parts.</li>
    <li>Did you know: A team led by physicists at the University of California, San Diego has shown the feasibility of a fast, inexpensive technique to sequence DNA as it passes through tiny pores. The advance brings personalized, genome-based medicine closer to reality. </li>
    <li>Did you know: A series of experiments suggests that over the past 12 billion years, the ratio of the mass of a proton to that of an electron may have decreased. Various versions of string theory suggest that extra dimensions occupied by a particle might affect properties such as its mass. </li> 
@@ -2331,7 +2331,7 @@ Can we talk about science?
    <li>Did you know: One of the world's most powerful supercomputers has built a computer model of the satellite tobacco mosaic virus. The researchers say the simulation is the first to capture a whole biological organism in such intricate molecular detail. </li>
    <li>Have you heard: A ten-million-year-old fossil ape found in Ethiopia, Chororapithecus abyssinicus, may prove that the last common ancestor of gorillas and humans existed two million years earlier than previously thought. </li>
    <li>Scientists funded by the European Space Agency have measured the gravitational equivalent of a magnetic field for the first time in a laboratory. Under certain special conditions the effect is much larger than expected from general relativity and could help physicists to make a significant step towards the long-sought-after quantum theory of gravity. </li>
-   <li>Did you know: The first "true" Bose–Einstein condensate was created by Eric Cornell, Carl Wieman, and co-workers at JILA on June 5, 1995. </li>  
+   <li>Did you know: The first "true" Boseï¿½Einstein condensate was created by Eric Cornell, Carl Wieman, and co-workers at JILA on June 5, 1995. </li>  
    <li>Have you heard: The chemical element with the atomic number 118, temporarily designated Ununoctium, was synthesized in Dubna, Russia in 2006. </li>
    <li>Students from Victoria University (Sweden) developed Poetic Fridge Magnets. The magnets are tiny LCD displays that communicate with each other. The magnets know basic grammar, and automatically adjust their word to neighboring magnets.</li>
    <li>The University of Wisconsin has found that certain viruses may cause obesity. The human virus Ad-37 for example causes obesity in chickens. If Ad-36 is responsible for human obesity, the logical step would be to develop a vaccine.</li> 
@@ -2912,7 +2912,7 @@ A cat is any of a family (Felidae) of carnivores, including the lion, tiger, cou
 </category>
 
 <category>
-<pattern>_ NO * PSYCHOLOGY</pattern>
+<pattern>* NO * PSYCHOLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -2926,7 +2926,7 @@ A cat is any of a family (Felidae) of carnivores, including the lion, tiger, cou
 </category>
 
 <category>
-<pattern>NO _ PSYCHOLOGY *</pattern>
+<pattern>NO * PSYCHOLOGY *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -2940,7 +2940,7 @@ A cat is any of a family (Felidae) of carnivores, including the lion, tiger, cou
 </category>
 
 <category>
-<pattern>_ NOT PSYCHOLOGY</pattern>
+<pattern>* NOT PSYCHOLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -2954,7 +2954,7 @@ A cat is any of a family (Felidae) of carnivores, including the lion, tiger, cou
 </category>
 
 <category>
-<pattern>_ NOT * PSYCHOLOGY</pattern>
+<pattern>* NOT * PSYCHOLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -3020,7 +3020,7 @@ A cat is any of a family (Felidae) of carnivores, including the lion, tiger, cou
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  PSYCHOLOGY</that>
 <template>
 <srai>PSYCHOLOGY POT LUCK</srai>
@@ -3140,7 +3140,7 @@ A cat is any of a family (Felidae) of carnivores, including the lion, tiger, cou
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT PSYCHOLOGY</that>
 <template>
 <srai>MORE ABOUT PSYCHOLOGY</srai>
@@ -3260,7 +3260,7 @@ Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH PSYCHOLOGY</that>
 <template>
 Can we talk about psychology?
@@ -3324,7 +3324,7 @@ Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH PSYCHOLOGY</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -3388,7 +3388,7 @@ Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN PSYCHOLOGY</that>
 <template>
 Can we talk about psychology?
@@ -3452,7 +3452,7 @@ Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN PSYCHOLOGY</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -3508,7 +3508,7 @@ Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT PSYCHOLOGY</that>
 <template>
 <srai>PSYCHOLOGY</srai>
@@ -3725,7 +3725,7 @@ Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE PSYCHOLOGY</that>
 <template>
 <srai>PSYCHOLOGY POT LUCK</srai>
@@ -3859,7 +3859,7 @@ This is something to do with psychology. Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_MADNESS*</pattern> 
+<pattern>*MADNESS*</pattern> 
 <template>
 This is something to do with psychology. Can we talk about psychology?
 <think><set name="topic">psychology</set></think>
@@ -3876,7 +3876,7 @@ I think this is something to do with psychology. Can we talk about psychology?
 </category>
 
 <category>
-<pattern>_NEUROSIS*</pattern> 
+<pattern>*NEUROSIS*</pattern> 
 <template>
 I think this is something to do with psychology. Can we talk about psychology?
 <think><set name="topic">psychology</set></think>
@@ -3917,7 +3917,7 @@ If I said to you beware the hobgoblins of the mind, would you know what I mean?
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>ANOTHER PROVERB</that>
 <template>
 <srai>PROVERBS POT LUCK</srai>
@@ -3933,7 +3933,7 @@ If I said to you beware the hobgoblins of the mind, would you know what I mean?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ANOTHER PROVERB</that>
 <template>
 <srai>PROVERBS POT LUCK</srai>
@@ -3981,7 +3981,7 @@ If I said to you beware the hobgoblins of the mind, would you know what I mean?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ANOTHER PROVERB</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -4021,7 +4021,7 @@ If I said to you beware the hobgoblins of the mind, would you know what I mean?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
 <template>
 <srai>PROVERBS POT LUCK</srai>
@@ -4069,7 +4069,7 @@ If I said to you beware the hobgoblins of the mind, would you know what I mean?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>SHALL I TELL YOU AN AMUSING PROVERB</that>
 <template>
 <srai>CHANGE TOPIC</srai>

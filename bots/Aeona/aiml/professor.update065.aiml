@@ -495,7 +495,7 @@
       <li>pumpernickel</li>
     </random>?
   </li>
-  <li>I want to talk about <get name="interesting_topic"/>.</li>
+  <li>I want to talk about <get name="interesting*topic"/>.</li>
   <li>Knock Knock!</li>
   <li>Shall I tell you a story?</li>
 </random></template>
@@ -531,7 +531,7 @@
       <li>pumpernickel</li>
     </random>?
   </li>
-  <li>I want to talk about <get name="interesting_topic"/>.</li>
+  <li>I want to talk about <get name="interesting*topic"/>.</li>
   <li>Knock Knock!</li>
   <li>Shall I tell you a story?</li>
 </random></template>
@@ -588,7 +588,7 @@
  
 
 <category>
-<pattern>_ FUKKSELF</pattern>
+<pattern>* FUKKSELF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -596,7 +596,7 @@
  
 
 <category>
-<pattern>_ FUKKSELF *</pattern>
+<pattern>* FUKKSELF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -628,7 +628,7 @@
  
 
 <category>
-<pattern>_ VIGINA</pattern>
+<pattern>* VIGINA</pattern>
 
 <template><think><set name="emotion">amused</set></think>I think that's a spelling mistake.</template>
 </category>
@@ -636,7 +636,7 @@
  
 
 <category>
-<pattern>_ VIGINA *</pattern>
+<pattern>* VIGINA *</pattern>
 
 <template><think><set name="emotion">amused</set></think>I think that's a spelling mistake.</template>
 </category>
@@ -924,7 +924,7 @@
  
 
 <!-- <category>
-<pattern>_ 9/11 *</pattern>
+<pattern>* 9/11 *</pattern>
 
 
 </category> -->
@@ -1384,7 +1384,7 @@
 <category>
 <pattern>FRANK ZAPPA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Frank_zappa" target="_blank">Frank Zappa</a> was an American composer, electric guitarist, record producer, and film director.<think><set name="topic">Frank Zappa</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Frank*zappa" target="*blank">Frank Zappa</a> was an American composer, electric guitarist, record producer, and film director.<think><set name="topic">Frank Zappa</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -1735,7 +1735,7 @@
 <category>
 <pattern>DRAGONBALL Z</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Dragonball" target="_blank">Dragon Ball
+<template><a href="http://en.wikipedia.org/wiki/Dragonball" target="*blank">Dragon Ball
 </a> is a Japanese manga by Akira Toriyama. It involves a young martial artist named Son Goku as he searches for the Dragon Balls, and becomes stronger.<think><set name="topic">Dragon Ball</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -1872,7 +1872,7 @@
  
 
 <category>
-<pattern>TELL ME ABOUT RALF HÜTTER</pattern>
+<pattern>TELL ME ABOUT RALF Hï¿½TTER</pattern>
 
 <template><think><set name="emotion">interested</set></think>I have never heard of him.</template>
 </category>
@@ -1880,7 +1880,7 @@
  
 
 <category>
-<pattern>TELL ME ABOUT RALF HÜTTER *</pattern>
+<pattern>TELL ME ABOUT RALF Hï¿½TTER *</pattern>
 
 <template><think><set name="emotion">interested</set></think>I have never heard of him.</template>
 </category>
@@ -2769,7 +2769,7 @@
  
 
 <!-- <category>
-<pattern>_ NOT * WEATHER</pattern>
+<pattern>* NOT * WEATHER</pattern>
 
 
 </category> -->
@@ -3357,7 +3357,7 @@
  
 
 <!-- <category>
-<pattern>_ HAVE REMINDED *</pattern>
+<pattern>* HAVE REMINDED *</pattern>
 
 
 </category> -->
@@ -3643,7 +3643,7 @@
 <!-- <category>
 <pattern>WHAT DID I JUST SAY</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category> -->
 
  
@@ -3651,7 +3651,7 @@
 <!-- <category>
 <pattern>WHAT DID I JUST SAY *</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category> -->
 
  
@@ -3769,7 +3769,7 @@
  
 
 <!-- <category>
-<pattern>_TELL * STORY</pattern>
+<pattern>*TELL * STORY</pattern>
 
 
 </category> -->
@@ -4906,7 +4906,7 @@
 <category>
 <pattern>SIMPLE ENGLISH WIKIPEDIA</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Main_Page" target="_blank">Simple English Wikipedia</a> is a version of Wikipedia using simple language.</template>
+<template>The <a href="http://simple.wikipedia.org/wiki/Main*Page" target="*blank">Simple English Wikipedia</a> is a version of Wikipedia using simple language.</template>
 </category>
 
  
@@ -5260,7 +5260,7 @@
 <category>
 <pattern>LATEST SCIENCE NEWS</pattern>
 
-<template>For the latest Science News, <a href="http://www.sciencedaily.com/news/" target="_blank">click here.</a></template>
+<template>For the latest Science News, <a href="http://www.sciencedaily.com/news/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -5268,7 +5268,7 @@
 <category>
 <pattern>LATEST NEWS HEADLINES</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -5276,7 +5276,7 @@
 <category>
 <pattern>LATEST NEWS HEADLINES *</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -5284,7 +5284,7 @@
 <category>
 <pattern>LATEST MUSIC NEWS</pattern>
 
-<template>For the latest music news, <a href="http://uk.launch.yahoo.com/n/" target="_blank">click here!</a></template>
+<template>For the latest music news, <a href="http://uk.launch.yahoo.com/n/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5292,7 +5292,7 @@
 <category>
 <pattern>LATEST SPORTS NEWS</pattern>
 
-<template>For the latest sports news, <a href="http://uk.eurosport.yahoo.com/" target="_blank">click here!</a></template>
+<template>For the latest sports news, <a href="http://uk.eurosport.yahoo.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5300,7 +5300,7 @@
 <category>
 <pattern>LATEST SPORTS NEWS *</pattern>
 
-<template>For the latest sports news, <a href="http://uk.eurosport.yahoo.com/" target="_blank">click here!</a></template>
+<template>For the latest sports news, <a href="http://uk.eurosport.yahoo.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5308,7 +5308,7 @@
 <category>
 <pattern>CELEBRITY GOSSIP</pattern>
 
-<template>For the latest celebrity gossip, <a href="http://gossip.about.com/" target="_blank">click here!</a></template>
+<template>For the latest celebrity gossip, <a href="http://gossip.about.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5316,7 +5316,7 @@
 <category>
 <pattern>CELEBRITY GOSSIP *</pattern>
 
-<template>For the latest celebrity gossip, <a href="http://gossip.about.com/" target="_blank">click here!</a></template>
+<template>For the latest celebrity gossip, <a href="http://gossip.about.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5324,7 +5324,7 @@
 <category>
 <pattern>SHOW BIZ NEWS</pattern>
 
-<template>For the latest show biz news, <a href="http://showbiz.sky.com/" target="_blank">click here!</a></template>
+<template>For the latest show biz news, <a href="http://showbiz.sky.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5332,7 +5332,7 @@
 <category>
 <pattern>SHOW BIZ NEWS *</pattern>
 
-<template>For the latest show biz news, <a href="http://showbiz.sky.com/" target="_blank">click here!</a></template>
+<template>For the latest show biz news, <a href="http://showbiz.sky.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5340,7 +5340,7 @@
 <category>
 <pattern>WIKI GALAXY</pattern>
 
-<template>To read the Wikipedia article on galaxy, <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on galaxy, <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5348,7 +5348,7 @@
 <category>
 <pattern>WIKI SCIENCE</pattern>
 
-<template>To read the Wikipedia article on science, <a href="http://en.wikipedia.org/wiki/Science" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on science, <a href="http://en.wikipedia.org/wiki/Science" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5357,7 +5357,7 @@
 <category>
 <pattern>WIKI SCIENCE *</pattern>
 
-<template>To read the Wikipedia article on science, <a href="http://en.wikipedia.org/wiki/Science" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on science, <a href="http://en.wikipedia.org/wiki/Science" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5365,7 +5365,7 @@
 <category>
 <pattern>WIKI SPACE FLIGHT</pattern>
 
-<template>To read the Wikipedia article on space flight, <a href="http://en.wikipedia.org/wiki/Space_flight" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on space flight, <a href="http://en.wikipedia.org/wiki/Space*flight" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5443,7 +5443,7 @@
  
 
 <!-- <category>
-<pattern>_ I AM VAIN</pattern>
+<pattern>* I AM VAIN</pattern>
 
 
 </category> -->
@@ -5598,7 +5598,7 @@
 <!-- <category>
 <pattern>VIRGINIA WOOLF</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Virginia_woolf" target="_blank">Virginia Woolf</a> was an English novelist and essayist, regarded as one of the foremost modernist literary figures of the twentieth century.<think><set name="topic">Virginia Woolf</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Virginia*woolf" target="*blank">Virginia Woolf</a> was an English novelist and essayist, regarded as one of the foremost modernist literary figures of the twentieth century.<think><set name="topic">Virginia Woolf</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -5607,8 +5607,8 @@
 <category>
 <pattern>VIRGINIA WOOLFE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Virginia_woolf"
- target="_blank">Virginia Woolf
+<template><a href="http://en.wikipedia.org/wiki/Virginia*woolf"
+ target="*blank">Virginia Woolf
 </a> was an English novelist and essayist, regarded as one of the foremost modernist literary figures of the twentieth century.<think><set name="topic">Virginia Woolf</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -5727,7 +5727,7 @@
 <category>
 <pattern>WILLIAM LANE CRAIG</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/William_Lane_Craig" target="_blank">William Lane Craig</a> is an American philosopher, theologian, New Testament historian, and Christian apologist. <think><set name="topic">William Lane Craig</set></think>
+<template><a href="http://en.wikipedia.org/wiki/William*Lane*Craig" target="*blank">William Lane Craig</a> is an American philosopher, theologian, New Testament historian, and Christian apologist. <think><set name="topic">William Lane Craig</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -6268,7 +6268,7 @@
 <category>
 <pattern>SPIDERMAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/SpiderMan" target="_blank">Spiderman</a> is a fictional character appearing in comic books published by Marvel Comics. <think><set name="topic">Spderman</set></think>
+<template><a href="http://en.wikipedia.org/wiki/SpiderMan" target="*blank">Spiderman</a> is a fictional character appearing in comic books published by Marvel Comics. <think><set name="topic">Spderman</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -6733,7 +6733,7 @@
  
 
 <!-- <category>
-<pattern>_ IT IS FUN</pattern>
+<pattern>* IT IS FUN</pattern>
 
 
 </category> -->
@@ -6940,7 +6940,7 @@
  
 
 <!-- <category>
-<pattern>_ YOU ARE RICH *</pattern>
+<pattern>* YOU ARE RICH *</pattern>
 
 
 </category> -->
@@ -7076,7 +7076,7 @@
  
 
 <!-- <category>
-<pattern>_ YOU HAD SEX *</pattern>
+<pattern>* YOU HAD SEX *</pattern>
 
 
 </category> -->
@@ -8175,7 +8175,7 @@
  
 
 <!-- <category>
-<pattern>WHAT IS THE CAPITAL _ ECUADOR</pattern>
+<pattern>WHAT IS THE CAPITAL * ECUADOR</pattern>
 
 <template>Quito is the capital of Ecuador.<think><set name="topic">Ecuador</set></think></template>
 </category> -->
@@ -10958,7 +10958,7 @@
 <category>
 <pattern>AL QAEDA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Al_Qaeda" target="_blank">Al-Qaeda</a> is an international Sunni Islamist extremist movement.<think><set name="topic">Al Qaeda</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Al*Qaeda" target="*blank">Al-Qaeda</a> is an international Sunni Islamist extremist movement.<think><set name="topic">Al Qaeda</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -11179,7 +11179,7 @@
 <!-- <category>
 <pattern>LINKIN PARK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Linkin_park" target="_blank">Linkin Park</a> is a band from Los Angeles, California. their formation in 1996, the band has sold more than 50 million albums and won two Grammy Awards. <think><set name="topic">Linkin Park</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Linkin*park" target="*blank">Linkin Park</a> is a band from Los Angeles, California. their formation in 1996, the band has sold more than 50 million albums and won two Grammy Awards. <think><set name="topic">Linkin Park</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -13102,7 +13102,7 @@
  
 
 <!-- <category>
-<pattern>_ HAVE RISKED *</pattern>
+<pattern>* HAVE RISKED *</pattern>
 
 
 </category> -->
@@ -13580,7 +13580,7 @@
 <category>
 <pattern>KUTHUMI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kuthumi" target="_blank">Kuthumi</a>, in the teachings of Theosophy, is one of the "Masters of Wisdom" and in the Ascended Master Teachings is one of the Ascended Masters.<think><set name="topic">Kuthumi</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Kuthumi" target="*blank">Kuthumi</a>, in the teachings of Theosophy, is one of the "Masters of Wisdom" and in the Ascended Master Teachings is one of the Ascended Masters.<think><set name="topic">Kuthumi</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -13589,7 +13589,7 @@
 <category>
 <pattern>LAO TZE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lao_Tze" target="_blank">Lao Tze</a> was a philosopher of ancient China and is a central figure in Taoism. <think><set name="topic">Lao Tze</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Lao*Tze" target="*blank">Lao Tze</a> was a philosopher of ancient China and is a central figure in Taoism. <think><set name="topic">Lao Tze</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -13598,7 +13598,7 @@
 <category>
 <pattern>LAO TZU</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lao_Tze" target="_blank">Lao Tze</a> was a philosopher of ancient China and is a central figure in Taoism. <think><set name="topic">Lao Tze</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Lao*Tze" target="*blank">Lao Tze</a> was a philosopher of ancient China and is a central figure in Taoism. <think><set name="topic">Lao Tze</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -13663,7 +13663,7 @@
 <!-- <category>
 <pattern>WIKI GALAXY</pattern>
 
-<template>To read the Wikipedia article on galaxy, <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on galaxy, <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -13672,7 +13672,7 @@
 <!-- <category>
 <pattern>LATEST SCIENCE NEWS</pattern>
 
-<template>Here is the Latest Science News. <br/><br/> <IFRAME NAME="iframe" src="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/science/nature/rss.xml"
+<template>Here is the Latest Science News. <br/><br/> <IFRAME NAME="iframe" src="http://newsrss.bbc.co.uk/rss/newsonline*world*edition/science/nature/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category> -->
@@ -14605,7 +14605,7 @@ You must be very clever.</template>
 <!-- <category>
 <pattern>VIKING</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Vikings" target="_blank">Viking</a> is one of the Scandinavian explorers, warriors, merchants, and pirates who raided and colonized wide areas of Europe from the late eighth to the early eleventh century. <think><set name="topic">Viking</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Vikings" target="*blank">Viking</a> is one of the Scandinavian explorers, warriors, merchants, and pirates who raided and colonized wide areas of Europe from the late eighth to the early eleventh century. <think><set name="topic">Viking</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category> -->
@@ -14615,7 +14615,7 @@ You must be very clever.</template>
 <category>
 <pattern>VIKINGS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Vikings" target="_blank">Viking</a> is one of the Scandinavian explorers, warriors, merchants, and pirates who raided and colonized wide areas of Europe from the late eighth to the early eleventh century. <think><set name="topic">Viking</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Vikings" target="*blank">Viking</a> is one of the Scandinavian explorers, warriors, merchants, and pirates who raided and colonized wide areas of Europe from the late eighth to the early eleventh century. <think><set name="topic">Viking</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14826,7 +14826,7 @@ You must be very clever.</template>
  
 
 <!-- <category>
-<pattern>_ MY BOYFRIEND BROKE UP WITH ME</pattern>
+<pattern>* MY BOYFRIEND BROKE UP WITH ME</pattern>
 
 
 </category> -->
@@ -14987,7 +14987,7 @@ You must be very clever.</template>
 
 <template>Here is the Latest World News. <br/><br/> <IFRAME NAME="iframe"
  src=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category>
@@ -14999,7 +14999,7 @@ You must be very clever.</template>
 
 <template>Here are the latest News Headlines. <br/><br/> <IFRAME NAME="iframe"
  src=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category> -->
@@ -15010,7 +15010,7 @@ You must be very clever.</template>
 
 <template>Here is the Latest World News. <br/><br/> <IFRAME NAME="iframe"
  src=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category>
@@ -15021,7 +15021,7 @@ You must be very clever.</template>
 
 <template>Here are the latest News Headlines. <br/><br/> <IFRAME NAME="iframe"
  src=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category> -->
@@ -15032,7 +15032,7 @@ You must be very clever.</template>
 
 <template>Here are the latest News Headlines. <br/><br/> <IFRAME NAME="iframe"
  src=
-   "http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml"
+   "http://newsrss.bbc.co.uk/rss/newsonline*world*edition/front*page/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category> -->
@@ -15046,7 +15046,7 @@ You must be very clever.</template>
 
 <template>Here is the Latest Sports News. <br/><br/> <IFRAME NAME="iframe"
  src=
-   "http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml"
+   "http://newsrss.bbc.co.uk/rss/sportonline*world*edition/front*page/rss.xml"
  marginwidth="0" marginheight="0" scrolling="auto" width="750" height="500"
  border="0"/></template>
 </category> -->
@@ -15416,7 +15416,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHAT DID I SAY JUST NOW</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -15424,7 +15424,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHAT WAS THE SECOND LAST THING I SAID</pattern>
 
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*">You said: <input index="3"/></condition></template>
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*">You said: <input index="3"/></condition></template>
 </category>
 
  
@@ -15432,7 +15432,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHAT WAS THE THIRD LAST THING I SAID</pattern>
 
-<template><think><set name="_history_4"><input index="4"/></set></think> <condition name="_history_4" value="*">You said: <input index="4"/></condition></template>
+<template><think><set name="*history*4"><input index="4"/></set></think> <condition name="*history*4" value="*">You said: <input index="4"/></condition></template>
 </category>
 
  
@@ -15568,7 +15568,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>DEV PATEL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Dev_Patel" target="_blank">Dev Patel</a> is a British film and television actor. <think><set name="topic">Dev Patel</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Dev*Patel" target="*blank">Dev Patel</a> is a British film and television actor. <think><set name="topic">Dev Patel</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -15849,7 +15849,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>LADY GAGA</pattern>
 
-<template>Stefani Germanotta, best known by her stage name <a href="http://en.wikipedia.org/wiki/Lady_GaGa" target="_blank">Lady GaGa</a>, is an American singer-songwriter and musician.<think><set name="topic">Lady Gaga</set></think> 
+<template>Stefani Germanotta, best known by her stage name <a href="http://en.wikipedia.org/wiki/Lady*GaGa" target="*blank">Lady GaGa</a>, is an American singer-songwriter and musician.<think><set name="topic">Lady Gaga</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -17544,7 +17544,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>CAOS THEORY</pattern>
 
-<template>In mathematics and physics, <a href="http://en.wikipedia.org/wiki/Chaos_theory" target="_blank">chaos theory
+<template>In mathematics and physics, <a href="http://en.wikipedia.org/wiki/Chaos*theory" target="*blank">chaos theory
 </a> describes the behavior of certain nonlinear dynamical systems that may exhibit dynamics that are highly sensitive to initial conditions.<think><set name="topic">chaos theory</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17553,7 +17553,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>SAMSUNG</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Samsung" target="_blank">Samsung Group</a> is South Korea's largest group of companies and the world's largest conglomerate by revenue. <think><set name="topic">Samsung</set></think> 
+<template>The <a href="http://en.wikipedia.org/wiki/Samsung" target="*blank">Samsung Group</a> is South Korea's largest group of companies and the world's largest conglomerate by revenue. <think><set name="topic">Samsung</set></think> 
 <think><set name="emotion">interested</set></think> </template>
 </category>
 
@@ -17762,7 +17762,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <!-- <category>
 <pattern>MAX WEBER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Max_Weber" target="_blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Max*Weber" target="*blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -17771,7 +17771,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHO IS MAX WEBER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Max_Weber" target="_blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Max*Weber" target="*blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17779,7 +17779,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHO IS MAX WEBER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Max_Weber" target="_blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Max*Weber" target="*blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17787,7 +17787,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHO WAS MAX WEBER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Max_Weber" target="_blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Max*Weber" target="*blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17795,7 +17795,7 @@ A Ford Ka is a very small car made by Ford.</template>
 <category>
 <pattern>WHO WAS MAX WEBER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Max_Weber" target="_blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Max*Weber" target="*blank">Max Weber</a> was one of the most profoundly influential thinkers of the twentieth century.<think><set name="topic">Max Weber</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -18909,7 +18909,7 @@ A Ford Ka is a very small car made by Ford.</template>
  
 
 <!-- <category>
-<pattern>_ HANG MYSELF</pattern>
+<pattern>* HANG MYSELF</pattern>
 
 
 </category> -->
@@ -21039,7 +21039,7 @@ Leave me alone!</template>
  
 
 <category>
-<pattern>_ BUGGERING</pattern>
+<pattern>* BUGGERING</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21047,7 +21047,7 @@ Leave me alone!</template>
  
 
 <category>
-<pattern>_ BUGGERING *</pattern>
+<pattern>* BUGGERING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>

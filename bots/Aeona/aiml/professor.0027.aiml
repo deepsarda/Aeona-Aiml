@@ -56,7 +56,7 @@
 <category><pattern>BEARING IN MIND *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>SINCE YOU _ TO DO IT *</pattern>
+<category><pattern>SINCE YOU * TO DO IT *</pattern>
 <template><srai>  <star index="2" /></srai></template>
 </category>
 <category><pattern>WOULD YOU LIKE TO TELL ME *</pattern>
@@ -11927,7 +11927,7 @@
 <category><pattern>* AT A TIME *</pattern>
 <template><srai>  <star />  <star index="2" /></srai></template>
 </category>
-<category><pattern>* MAY HAVE FALLEN _</pattern>
+<category><pattern>* MAY HAVE FALLEN *</pattern>
 <template><srai>  <star /> fell <star index="2" /></srai></template>
 </category>
 <category><pattern>* SAYING *</pattern>
@@ -18700,7 +18700,7 @@ I am fine, thank you. How are you?
   </category> -->
 
 <category>
-  <pattern>_ HOW ARE YOU</pattern> 
+  <pattern>* HOW ARE YOU</pattern> 
   <template>
   <think><set name="topic">salutations</set></think>
   <sr/> <srai>HOW ARE YOU</srai>
@@ -19019,7 +19019,7 @@ Does SHALOM mean Hello or Goodbye?</template>
   </category>
 
   <category>
-  <pattern>_ TALK TO YOU LATER</pattern> 
+  <pattern>* TALK TO YOU LATER</pattern> 
   <template>
 <think><set name="topic">salutations</set></think>
   <srai>BYE</srai> 
@@ -19078,7 +19078,7 @@ It was my pleasure.</template>
   </category> -->
 
   <category>
-  <pattern>_ YOU ARE WELCOME</pattern> 
+  <pattern>* YOU ARE WELCOME</pattern> 
   <template>
   <sr/><srai>YOU ARE WELCOME</srai>
   <think><set name="topic">salutations</set></think>

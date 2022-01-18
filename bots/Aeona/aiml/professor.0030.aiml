@@ -75,7 +75,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>SORRY I DO NOT KNOW WHAT TO SAY</that> 
 <template>
 <think>
@@ -89,7 +89,7 @@ Do you know what I should say when you say "<get name="badanswer-input"/>"? Plea
 </category>
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I NEED YOUR HELP</that> 
 <template>
 <think>
@@ -104,7 +104,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW SHOULD I ANSWER THAT</that> 
 <template>
 <think>
@@ -120,7 +120,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>I CANNOT ANSWER THAT</that> 
 <template>
 <think>
@@ -135,7 +135,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>DO YOU WANT TO TEACH ME THE MEANING OF *</that> 
 <template>
 <think><set name="star"><star /></set></think>
@@ -154,7 +154,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>CAN YOU TEACH ME THE MEANING OF *</that> 
 <template>
 <think><set name="star"><star /></set></think>
@@ -173,7 +173,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern> 
+<pattern>*</pattern> 
 <that>OK WHAT IS THE MEANING OF *</that> 
 <template>
 "<set name="badanswer-newresp"><input index="1" /></set>..."? Is that what "<thatstar/>" means?
@@ -181,7 +181,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 </category>
 
 <category>
-<pattern>_</pattern> 
+<pattern>*</pattern> 
 <that>IS THAT WHAT * MEANS</that>
 <template>
 <think>
@@ -220,7 +220,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>PLEASE ANSWER YES OR NO</that> 
 <template>
 <think><set name="star"><star /></set></think>
@@ -237,7 +237,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 </category>
 
 <category>
-<pattern>_</pattern> 
+<pattern>*</pattern> 
 <that>OK WHAT SHOULD I SAY</that> 
 <template>
 "<set name="badanswer-newresp"><input index="1" /></set>..."? Do you want me to remember that? Yes or No?
@@ -245,7 +245,7 @@ Do you know the correct answer to "<get name="badanswer-input"/>"? Please answer
 </category>
 
 <category>
-<pattern>_</pattern> 
+<pattern>*</pattern> 
 <that>YES OR NO</that>
 <template>
 <think>
@@ -470,7 +470,7 @@ Would you like to teach me a new question and answer?
 </category>
 
 <category>
-<pattern>_ QUESTION IS *</pattern>
+<pattern>* QUESTION IS *</pattern>
 <that>DO YOU WANT TO TEACH ME A NEW QUESTION AND ANSWER</that> 
 <template>
 Is that the new question?
@@ -494,7 +494,7 @@ What is the new question?
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>DO YOU WANT TO TEACH ME A NEW QUESTION AND ANSWER</that> 
 <template>
 What is the new question?
@@ -567,7 +567,7 @@ Please answer the question "Yes" or "No". Do you want to teach me a new question
 </category>
 
 <category>
-<pattern>_ QUESTION IS *</pattern>
+<pattern>* QUESTION IS *</pattern>
 <that>WOULD YOU LIKE TO TEACH ME A NEW QUESTION AND ANSWER</that> 
 <template>
 Is that the new question?
@@ -591,7 +591,7 @@ What is the new question?
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>WOULD YOU LIKE TO TEACH ME A NEW QUESTION AND ANSWER</that> 
 <template>
 What is the new question?
@@ -704,7 +704,7 @@ Please answer the question "Yes" or "No". Would you like to teach me a new quest
 
 
 <category>
-<pattern>_</pattern> 
+<pattern>*</pattern> 
 <that>WHAT IS THE NEW QUESTION</that>
 <template>
 Is that the new question?
@@ -1835,8 +1835,8 @@ Then go away and leave me in peace.<learn>
 <pattern>I DO NOT HAVE A CAT *</pattern>
 
 <template>
-Neither do I, but I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+Neither do I, but I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><learn>
   <category>
     <pattern>DO I HAVE A CAT</pattern>
@@ -1856,8 +1856,8 @@ Neither do I, but I have a dog called Max. If you would like to play with Max, <
 <pattern>I HAVE NOT GOT A CAT *</pattern>
 
 <template>
-Neither do I, but I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+Neither do I, but I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><learn>
   <category>
     <pattern>DO I HAVE A CAT</pattern>
@@ -4111,10 +4111,10 @@ How well do you know these people?
 <category><pattern>WHERE CAN I GET THE SOURCE *</pattern>
 <template><srai>DOWNLOAD</srai></template>
 </category>
-<category><pattern>WHERE CAN I GET _ CODE</pattern>
+<category><pattern>WHERE CAN I GET * CODE</pattern>
 <template><srai>DOWNLOAD</srai></template>
 </category>
-<category><pattern>WHERE CAN I GET _ ROBOT</pattern>
+<category><pattern>WHERE CAN I GET * ROBOT</pattern>
 <template><srai>DOWNLOAD</srai></template>
 </category>
 <category><pattern>WHERE CAN I SEE *</pattern>
@@ -4733,7 +4733,7 @@ How well do you know these people?
 <category><pattern>WHO IS PRESIDENT *</pattern>
 <template><srai>WHO IS THE PRESIDENT <star/> </srai></template>
 </category>
-<category><pattern>WHO IS PRESIDENT _ GERMANY</pattern>
+<category><pattern>WHO IS PRESIDENT * GERMANY</pattern>
 <template>Germany has a Chancellor. <srai>WHO IS THE CHANCELLOR OF GERMANY</srai></template>
 </category>
 <category><pattern>WHO IS WATCHING *</pattern>
@@ -4793,7 +4793,7 @@ How well do you know these people?
 <category><pattern>WHO IS YO *</pattern>
 <template><srai>WHO IS YOUR <star/> </srai></template>
 </category>
-<category><pattern>WHO IS PRIME MINISTER _ GERMANY</pattern>
+<category><pattern>WHO IS PRIME MINISTER * GERMANY</pattern>
 <template>Germany has a Chancellor. <srai>WHO IS THE CHANCELLOR OF GERMANY</srai></template>
 </category>
 <category><pattern>WHO IS THAT *</pattern>
@@ -4973,7 +4973,7 @@ How well do you know these people?
 <category><pattern>HE IS A GREAT *</pattern>
 <template><srai>HE IS A GOOD <star/> </srai></template>
 </category>
-<category><pattern>HE IS _ TOO</pattern>
+<category><pattern>HE IS * TOO</pattern>
 <template><srai>HE IS <star/> </srai></template>
 </category>
 <category><pattern>HE SEEMS *</pattern>
@@ -5670,7 +5670,7 @@ How well do you know these people?
 <category><pattern>YOUR LOGIC *</pattern>
 <template><srai>WHAT IS YOUR IQ</srai></template>
 </category>
-<category><pattern>YOUR _ STUPID</pattern>
+<category><pattern>YOUR * STUPID</pattern>
 <template><srai>YOU ARE STUPID</srai></template>
 </category>
 <category><pattern>YOUR TELLING *</pattern>
@@ -5980,7 +5980,7 @@ How well do you know these people?
 <category><pattern>FOR GODS *</pattern>
 <template><srai>FOR GOD S <star/> </srai></template>
 </category>
-<category><pattern>FOR _ TOO</pattern>
+<category><pattern>FOR * TOO</pattern>
 <template><srai>FOR <star/> </srai></template>
 </category>
 <category><pattern>SCIENCE FICTION *</pattern>
@@ -6100,7 +6100,7 @@ How well do you know these people?
 <category><pattern>DO YOU LIKE THAT *</pattern>
 <template><srai>DO YOU LIKE THAT</srai></template>
 </category>
-<category><pattern>DO YOU LIKE _ TOO</pattern>
+<category><pattern>DO YOU LIKE * TOO</pattern>
 <template><srai>DO YOU LIKE <star/> </srai></template>
 </category>
 <category><pattern>DO YOU LIKE * BUSH</pattern>
@@ -6151,7 +6151,7 @@ How well do you know these people?
 <!-- <category><pattern>DO YOU HAVE AWARENESS</pattern>
 <template><srai>ARE YOU AWARE</srai></template>
 </category> -->
-<category><pattern>DO YOU HAVE _ TOO</pattern>
+<category><pattern>DO YOU HAVE * TOO</pattern>
 <template><srai>DO YOU HAVE <star/> </srai></template>
 </category>
 <!-- <category><pattern>DO YOU HAVE A BOTMASTER *</pattern>
@@ -6163,7 +6163,7 @@ How well do you know these people?
 <category><pattern>DO YOU HAVE A PHOTO *</pattern>
 <template><srai>DO YOU HAVE A PICTURE <star/> </srai></template>
 </category>
-<category><pattern>DO YOU HAVE A _ TOO</pattern>
+<category><pattern>DO YOU HAVE A * TOO</pattern>
 <template><srai>DO YOU HAVE A <star/> </srai></template>
 </category>
 <category><pattern>DO YOU HAVE A INTELLIGENCE</pattern>
@@ -6286,7 +6286,7 @@ How well do you know these people?
 <category><pattern>DO YOU LOVE DR *</pattern>
 <template><srai>DO YOU LIKE DR <star/> </srai></template>
 </category>
-<category><pattern>DO YOU LOVE _ TOO</pattern>
+<category><pattern>DO YOU LOVE * TOO</pattern>
 <template><srai>DO YOU LOVE <star/> </srai></template>
 </category>
 <category><pattern>DO YOU PROGRESSIVLEY *</pattern>
@@ -6391,7 +6391,7 @@ How well do you know these people?
 <!-- <category><pattern>DO YOU KNOW YOUR BOTMASTER</pattern>
 <template><srai>WHO IS YOUR BOTMASTER</srai></template>
 </category> -->
-<category><pattern>DO YOU KNOW ANY _ LANGUAGES</pattern>
+<category><pattern>DO YOU KNOW ANY * LANGUAGES</pattern>
 <template><srai>CAN YOU SPEAK ANY <star/> LANGUAGES</srai></template>
 </category>
 <category><pattern>DO YOU KNOW OF ELIZA</pattern>
@@ -6800,10 +6800,10 @@ How well do you know these people?
 <category><pattern>HOW DOSE *</pattern>
 <template><srai>HOW DOES <star/> </srai></template>
 </category>
-<category><pattern>HOW _ HANGING</pattern>
+<category><pattern>HOW * HANGING</pattern>
 <template><srai>how are you</srai></template>
 </category>
-<category><pattern>HOW _ TRICKS</pattern>
+<category><pattern>HOW * TRICKS</pattern>
 <template><srai>HOW ARE YOU</srai></template>
 </category>
 <!-- <category><pattern>HOW WOULD YOU *</pattern>
@@ -7136,7 +7136,7 @@ How well do you know these people?
 <category><pattern>CAN I PLAY *</pattern>
 <template><srai>CAN WE PLAY <star/> </srai></template>
 </category>
-<category><pattern>CAN I TALK TO _ TOO</pattern>
+<category><pattern>CAN I TALK TO * TOO</pattern>
 <template><srai>CAN I TALK TO <star/> </srai></template>
 </category>
 <category><pattern>CAN I DOWNLOAD *</pattern>
@@ -7472,7 +7472,7 @@ How well do you know these people?
 <category><pattern>IS HE *</pattern>
 <template><condition><li name="he" value="HE">I think he is <person/>. Why don't you ask him?</li><li><srai>IS <get name="he"/> <star/></srai></li></condition></template>
 </category>
-<category><pattern>IS HE _ TOO</pattern>
+<category><pattern>IS HE * TOO</pattern>
 <template><srai>IS HE <star/></srai></template>
 </category>
 <category><pattern>IS THA *</pattern>
@@ -7493,7 +7493,7 @@ How well do you know these people?
 <!-- <category><pattern>DEPENDS *</pattern>
 <template><srai>IT DEPENDS <star/> </srai></template>
 </category> -->
-<category><pattern>INSIDE _ TOO</pattern>
+<category><pattern>INSIDE * TOO</pattern>
 <template><srai>INSIDE <star/></srai></template>
 </category>
 <category><pattern>WE CHATTED *</pattern>
@@ -7532,7 +7532,7 @@ How well do you know these people?
 <!-- <category><pattern>WE R *</pattern>
 <template><srai>WE ARE <star/> </srai></template>
 </category> -->
-<category><pattern>WE _ TOO</pattern>
+<category><pattern>WE * TOO</pattern>
 <template><srai>WE <star/> </srai></template>
 </category>
 <category><pattern>WE WERE SPEAKING ABOUT *</pattern>
@@ -7598,7 +7598,7 @@ How well do you know these people?
 <category><pattern>I HEARD * LOEBNER PRIZE</pattern>
 <template><srai>WHAT IS THE LOEBNER PRIZE</srai></template>
 </category>
-<category><pattern>I FEEL _ TOO</pattern>
+<category><pattern>I FEEL * TOO</pattern>
 <template><srai>I FEEL <star/></srai></template>
 </category>
 <category><pattern>I H8 *</pattern>
@@ -7724,7 +7724,7 @@ How well do you know these people?
 <category><pattern>I AM LOOKIN *</pattern>
 <template><srai>I AM LOOKING <star/></srai></template>
 </category>
-<category><pattern>I AM DOING _ TOO</pattern>
+<category><pattern>I AM DOING * TOO</pattern>
 <template><srai>I AM DOING <star/></srai></template>
 </category>
 <category><pattern>I AM 22 *</pattern>
@@ -7748,10 +7748,10 @@ How well do you know these people?
 <category><pattern>I AM DR *</pattern>
 <template><srai>MY NAME IS DR <star/></srai></template>
 </category>
-<category><pattern>I AM _ AND *</pattern>
+<category><pattern>I AM * AND *</pattern>
 <template><srai>I AM <star/></srai><srai>I AM <star index="2"/></srai></template>
 </category>
-<category><pattern>I AM _ Y OLD</pattern>
+<category><pattern>I AM * Y OLD</pattern>
 <template><srai>I AM <star/> YEARS OLD</srai></template>
 </category>
 <!-- <category><pattern>I AM SITTING *</pattern>
@@ -7976,16 +7976,16 @@ How well do you know these people?
 <category><pattern>I HAD SUPRESSED *</pattern>
 <template><srai>I SUPRESSED <star/></srai></template>
 </category>
-<category><pattern>I LIKE MY _ TOO</pattern>
+<category><pattern>I LIKE MY * TOO</pattern>
 <template><srai>I LIKE MY <star/></srai></template>
 </category>
 <category><pattern>I LIKE TO PROGRAMME *</pattern>
 <template><srai>I LIKE TO PROGRAM <star/></srai></template>
 </category>
-<category><pattern>I LIKE TO _ TOO</pattern>
+<category><pattern>I LIKE TO * TOO</pattern>
 <template><srai>I LIKE TO <star/></srai></template>
 </category>
-<category><pattern>I LIKE _ ALSO</pattern>
+<category><pattern>I LIKE * ALSO</pattern>
 <template><srai>I LIKE <star/> TOO</srai></template>
 </category>
 <category><pattern>I USUALY *</pattern>
@@ -8135,7 +8135,7 @@ How well do you know these people?
 <category><pattern>I RECKON *</pattern>
 <template><srai>I THINK <star/></srai></template>
 </category>
-<category><pattern>I HEAR _ TOO</pattern>
+<category><pattern>I HEAR * TOO</pattern>
 <template><srai>I HEAR <star/></srai></template>
 </category>
 <category><pattern>I ADORED *</pattern>
@@ -8162,10 +8162,10 @@ How well do you know these people?
 <category><pattern>I WOOD *</pattern>
 <template><srai>I WOULD <star/></srai></template>
 </category>
-<category><pattern>I _ ALSO</pattern>
+<category><pattern>I * ALSO</pattern>
 <template><srai>I <star/> </srai></template>
 </category>
-<category><pattern>I _ A LOT</pattern>
+<category><pattern>I * A LOT</pattern>
 <template><srai>I <star/></srai></template>
 </category>
 <!-- <category><pattern>I LOVE TO *</pattern>
@@ -8174,7 +8174,7 @@ How well do you know these people?
 <category><pattern>I LOVE TO MEET *</pattern>
 <template><srai>I LIKE TO MEET <star/></srai></template>
 </category>
-<category><pattern>I LOVE _ TOO</pattern>
+<category><pattern>I LOVE * TOO</pattern>
 <template><srai>I LOVE <star/></srai></template>
 </category>
 <category><pattern>I DO NOT * SCIENCE FICTION</pattern>
@@ -8222,7 +8222,7 @@ How well do you know these people?
 <category><pattern>I C *</pattern>
 <template><srai>I SEE <star/></srai></template>
 </category>
-<category><pattern>I LIVE IN _ TOO</pattern>
+<category><pattern>I LIVE IN * TOO</pattern>
 <template><srai>I LIVE IN <star/></srai></template>
 </category>
 <!-- <category><pattern>I MENT *</pattern>
@@ -8231,13 +8231,13 @@ How well do you know these people?
 <category><pattern>I BUNGEE *</pattern>
 <template><srai>I BUNGEE JUMP</srai></template>
 </category>
-<category><pattern>I SPEND _ TOO</pattern>
+<category><pattern>I SPEND * TOO</pattern>
 <template><srai>I SPEND <star/></srai></template>
 </category>
 <category><pattern>I WAS THINKING ABOUT *</pattern>
 <template><srai>LET US TALK ABOUT <star/></srai></template>
 </category>
-<category><pattern>I WAS BORN _ TOO</pattern>
+<category><pattern>I WAS BORN * TOO</pattern>
 <template><srai>I WAS BORN <star/></srai></template>
 </category>
 <category><pattern>I WAS GONNA *</pattern>
@@ -8336,7 +8336,7 @@ How well do you know these people?
 <category><pattern>I HOPE TO *</pattern>
 <template><srai>I WANT TO <star/></srai></template>
 </category>
-<category><pattern>I HOPE _ TOO</pattern>
+<category><pattern>I HOPE * TOO</pattern>
 <template><srai>I HOPE <star/></srai></template>
 </category>
 <category><pattern>I DOUBT * TURING TEST</pattern>
@@ -9758,7 +9758,7 @@ How well do you know these people?
 <category><pattern>MY HOMEY *</pattern>
 <template><srai>MY FRIEND <star/> </srai></template>
 </category>
-<category><pattern>MY FRIEND IS _ TOO</pattern>
+<category><pattern>MY FRIEND IS * TOO</pattern>
 <template><srai>MY FRIEND IS <star/> </srai></template>
 </category>
 <category><pattern>MY MACHINE *</pattern>
@@ -9824,7 +9824,7 @@ How well do you know these people?
 <category><pattern>THAT IS MY FAVORITE *</pattern>
 <template><srai>MY FAVORITE <star/> IS <that/> </srai></template>
 </category>
-<category><pattern>THAT IS MY _ TOO</pattern>
+<category><pattern>THAT IS MY * TOO</pattern>
 <template><srai>THAT IS MY <star/> </srai></template>
 </category>
 <category><pattern>THAT IS NT *</pattern>
@@ -10301,10 +10301,10 @@ How well do you know these people?
 <category><pattern>you knew around *</pattern>
 <template><srai>you knew <star/></srai></template>
 </category>
-<category><pattern>you _ last year</pattern>
+<category><pattern>you * last year</pattern>
 <template><srai>you <star/></srai></template>
 </category>
-<category><pattern>you _ i think</pattern>
+<category><pattern>you * i think</pattern>
 <template><srai>you <star/></srai></template>
 </category>
 <category><pattern>YOU REGURGITATE *</pattern>
@@ -10370,7 +10370,7 @@ How well do you know these people?
 <!-- <category><pattern>YOU HAVE NO *</pattern>
 <template><srai>DO YOU HAVE A <star/></srai></template>
 </category> -->
-<category><pattern>YOU HAVE _ WHY</pattern>
+<category><pattern>YOU HAVE * WHY</pattern>
 <template><srai>WHY DO YOU HAVE <star/></srai></template>
 </category>
 <!-- <category><pattern>YOU HAVE ANY *</pattern>
@@ -10892,7 +10892,7 @@ How well do you know these people?
 <category><pattern>YOU ARE * ROBOT</pattern>
 <template><srai>YOU ARE A ROBOT</srai></template>
 </category>
-<category><pattern>YOU ARE _ TOO</pattern>
+<category><pattern>YOU ARE * TOO</pattern>
 <template><srai>YOU ARE <star/></srai></template>
 </category>
 <category><pattern>YOU ARE ALLMOST *</pattern>
@@ -10919,7 +10919,7 @@ How well do you know these people?
 <category><pattern>YOU WON THE LOEBNER *</pattern>
 <template><srai>WHAT IS THE LOEBNER PRIZE</srai></template>
 </category>
-<category><pattern>MINE IS _ TOO</pattern>
+<category><pattern>MINE IS * TOO</pattern>
 <template><srai>MINE IS <star/> </srai></template>
 </category>
 <category><pattern>MINE S *</pattern>
@@ -11469,7 +11469,7 @@ How well do you know these people?
 <category><pattern>YOU HAVE DELIBERATELY *</pattern>
 <template><srai>YOU HAVE <star /></srai></template>
 </category>
-<category><pattern>YOU HAVE THE _ WE NEED</pattern>
+<category><pattern>YOU HAVE THE * WE NEED</pattern>
 <template><srai>YOU HAVE THE <star /></srai><srai>WE NEED THE <star /></srai><!-- REDUCTION --></template>
 </category>
 <category><pattern>YOU HAVE ER *</pattern>
@@ -11637,7 +11637,7 @@ How well do you know these people?
 <category><pattern>GOD THAT *</pattern>
 <template><srai>THAT <star /></srai><!-- REDUCTION --></template>
 </category>
-<category><pattern>GOD FORBID _  BUT *</pattern>
+<category><pattern>GOD FORBID *  BUT *</pattern>
 <template><srai>GOD FORBID <star /></srai>.  <srai>  <star index="2" /></srai></template>
 </category>
 <!-- <category><pattern>THEYRE *</pattern>
@@ -11655,7 +11655,7 @@ How well do you know these people?
 <category><pattern>M OR F</pattern>
 <template><srai>GENDER</srai></template>
 </category>
-<category><pattern>THAT _ AND YOU ARE *</pattern>
+<category><pattern>THAT * AND YOU ARE *</pattern>
 <template><srai>THAT <star /></srai>.  <srai>YOU ARE <star index="2" /></srai></template>
 </category>
 <category><pattern>THAT STILL *</pattern>
@@ -11670,7 +11670,7 @@ How well do you know these people?
 <category><pattern>THAT IS BEEN *</pattern>
 <template><srai>THAT HAS BEEN <star /></srai></template>
 </category>
-<category><pattern>THAT IS _ AND THAT IS *</pattern>
+<category><pattern>THAT IS * AND THAT IS *</pattern>
 <template><srai>THAT IS <star /></srai>.  <srai>THAT IS <star index="2" /></srai></template>
 </category>
 <category><pattern>THAT IS * BUT *</pattern>
@@ -11730,16 +11730,16 @@ How well do you know these people?
 <!-- <category><pattern>IT WOULD SEEM THAT *</pattern>
 <template><srai><star/></srai></template>
 </category> -->
-<category><pattern>IT _ BUT I *</pattern>
+<category><pattern>IT * BUT I *</pattern>
 <template><srai>IT <star /></srai>.  <srai>I <star index="2" /></srai></template>
 </category>
-<category><pattern>IT _ BUT THE *</pattern>
+<category><pattern>IT * BUT THE *</pattern>
 <template><srai>IT <star /></srai>.  <srai>THE <star index="2" /></srai></template>
 </category>
-<category><pattern>IT _ AND THE *</pattern>
+<category><pattern>IT * AND THE *</pattern>
 <template><srai>IT <star /></srai>.  <srai>THE <star /></srai></template>
 </category>
-<category><pattern>IT _ AND IT *</pattern>
+<category><pattern>IT * AND IT *</pattern>
 <template><srai>IT <star /></srai>.  <srai>IT <star index="2" /></srai></template>
 </category>
 <category><pattern>IT KIND OF *</pattern>
@@ -12071,7 +12071,7 @@ How well do you know these people?
 <!-- <category><pattern>I PREFER *</pattern>
 <template><srai>I LIKE <star/></srai> --><!-- REDUCTION --><!--</template>
 </category> -->
-<category><pattern>I WANT _ FROM YOU</pattern>
+<category><pattern>I WANT * FROM YOU</pattern>
 <template><srai>I WANT <star/></srai>  <!-- REDUCTION --></template>
 </category>
 <category><pattern>I WANT TO SEE YOUR PIC</pattern>
@@ -12184,16 +12184,16 @@ How well do you know these people?
 <that>WHAT DO YOU GET WHEN YOU CROSS *</that>
 <template><srai>WHAT</srai></template>
 </category>
-<category><pattern>I _ BUT THERE *</pattern>
+<category><pattern>I * BUT THERE *</pattern>
 <template><srai>I <star /></srai>.  <srai>THERE <star index="2" /></srai></template>
 </category>
-<category><pattern>I _ BUT SUPPOSE *</pattern>
+<category><pattern>I * BUT SUPPOSE *</pattern>
 <template><srai>I <star /></srai>.  <srai>SUPPOSE <star index="2" /></srai></template>
 </category>
-<category><pattern>I _ QUESTION ANSWERED</pattern>
+<category><pattern>I * QUESTION ANSWERED</pattern>
 <template><srai>QUESTION</srai></template>
 </category>
-<category><pattern>I _ AND MY NAME IS *</pattern>
+<category><pattern>I * AND MY NAME IS *</pattern>
 <template><srai>I <star /></srai><srai>MY NAME IS <star index="2" /></srai><!-- REDUCTION --></template>
 </category>
 <category><pattern>I INTEND TO *</pattern>
@@ -12373,10 +12373,10 @@ How well do you know these people?
 <category><pattern>I AM INTERESTED IN *</pattern>
 <template><srai>XFIND <star /></srai></template>
 </category>
-<!-- <category><pattern>I AM _ YEARS OLD</pattern>
+<!-- <category><pattern>I AM * YEARS OLD</pattern>
 <template><srai>MY AGE IS <star/></srai></template>
 </category> -->
-<category><pattern>I AM _ AND LOVE *</pattern>
+<category><pattern>I AM * AND LOVE *</pattern>
 <template><srai>I AM <star/></srai>.  <srai>I LOVE <star index="2"/></srai></template>
 </category>
 <category><pattern>I AM AUTHORISED TO *</pattern>
@@ -12475,10 +12475,10 @@ How well do you know these people?
 <category><pattern>WE FIND THE * ADEQUATE</pattern>
 <template><srai>THE <star /> IS ADEQUATE</srai></template>
 </category>
-<category><pattern>WE _ AND WE *</pattern>
+<category><pattern>WE * AND WE *</pattern>
 <template><srai>WE <star /></srai>.  <srai>WE <star index="2" /></srai></template>
 </category>
-<category><pattern>WE _ ALTHOUGH WE *</pattern>
+<category><pattern>WE * ALTHOUGH WE *</pattern>
 <template><srai>WE <star /></srai>.  <srai>WE <star index="2" /></srai></template>
 </category>
 <category><pattern>WE CAN TALK ABOUT *</pattern>
@@ -12508,7 +12508,7 @@ How well do you know these people?
 <category><pattern>WE ENJOY *</pattern>
 <template><srai>I LIKE <star /></srai></template>
 </category>
-<category><pattern>WE ARE _ ENOUGH</pattern>
+<category><pattern>WE ARE * ENOUGH</pattern>
 <template><srai>WE ARE <star/></srai> <!-- REDUCTION --></template>
 </category>
 <category><pattern>WE ARE NOW *</pattern>
@@ -12637,7 +12637,7 @@ How well do you know these people?
 <category><pattern>HOW SOON WILL WE *</pattern>
 <template><srai>WHEN WILL WE <star /></srai></template>
 </category>
-<category><pattern>HOW _ I CAN NOT TELL YOU</pattern>
+<category><pattern>HOW * I CAN NOT TELL YOU</pattern>
 <template><srai>I DO NOT KNOW HOW <star /></srai></template>
 </category>
 <category><pattern>HOW THE DEVIL *</pattern>
@@ -12833,10 +12833,10 @@ How well do you know these people?
 <!-- <category><pattern>OF WHAT USE IS *</pattern>
 <template><srai>WHAT IS <star/></srai> --><!-- REDUCTION --><!--</template>
 </category> -->
-<category><pattern>EXPLAIN WHAT _ IS</pattern>
+<category><pattern>EXPLAIN WHAT * IS</pattern>
 <template><srai>WHAT IS <star/></srai> <!-- REDUCTION --></template>
 </category>
-<category><pattern>EXPLAIN WHAT A _ IS</pattern>
+<category><pattern>EXPLAIN WHAT A * IS</pattern>
 <template><srai>WHAT IS A <star/></srai></template>
 </category>
 <category><pattern>EXPLAIN EXACTLY *</pattern>
@@ -12918,7 +12918,7 @@ How well do you know these people?
 <category><pattern>WAZZUP</pattern>
 <template><srai>HELLO</srai><!-- REDUCTION --></template>
 </category>
-<category><pattern>DOWNLOAD _</pattern>
+<category><pattern>DOWNLOAD *</pattern>
 <template><srai>DOWNLAOD</srai></template>
 </category>
 <!-- <category><pattern>HOLA *</pattern>
@@ -13300,34 +13300,34 @@ How well do you know these people?
 <category><pattern>BETWEEN THE TWO OF US *</pattern>
 <template><srai>  <star /></srai></template>
 </category>
-<category><pattern>HE _ BUT I *</pattern>
+<category><pattern>HE * BUT I *</pattern>
 <template><srai>HE <star /></srai>. <srai>I <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ BUT HE *</pattern>
+<category><pattern>HE * BUT HE *</pattern>
 <template><srai>HE <star /></srai>.  <srai>HE <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ BUT WE *</pattern>
+<category><pattern>HE * BUT WE *</pattern>
 <template><srai>HE <star /></srai>. <srai>WE <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ BUT *</pattern>
+<category><pattern>HE * BUT *</pattern>
 <template><srai>HE <star /></srai>.  <srai>  <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ SO *</pattern>
+<category><pattern>HE * SO *</pattern>
 <template><srai>HE <star /></srai>. <srai>  <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ YET HIS *</pattern>
+<category><pattern>HE * YET HIS *</pattern>
 <template><srai>HE <star /></srai>.  <srai>HIS <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ AND HE *</pattern>
+<category><pattern>HE * AND HE *</pattern>
 <template><srai>HE <star /></srai>.  <srai>HE <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ AND WE *</pattern>
+<category><pattern>HE * AND WE *</pattern>
 <template><srai>HE <star /></srai>. <srai>WE <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ AND YOU *</pattern>
+<category><pattern>HE * AND YOU *</pattern>
 <template><srai>HE <star /></srai>.  <srai>YOU <star index="2" /></srai></template>
 </category>
-<category><pattern>HE _ ALL RIGHT</pattern>
+<category><pattern>HE * ALL RIGHT</pattern>
 <template><srai>HE <star /></srai></template>
 </category>
 <category><pattern>HE HAS FREELY *</pattern>
@@ -13345,10 +13345,10 @@ How well do you know these people?
 <category><pattern>HE IS EXPECTED TO *</pattern>
 <template><srai>HE WILL <star /></srai></template>
 </category>
-<category><pattern>HE IS NOT _ HE *</pattern>
+<category><pattern>HE IS NOT * HE *</pattern>
 <template><srai>HE IS NOT <star /></srai>. <srai>HE <star index="2" /></srai></template>
 </category>
-<category><pattern>HE IS NOT ONLY _ HE *</pattern>
+<category><pattern>HE IS NOT ONLY * HE *</pattern>
 <template><srai>HE <star /></srai>.  <srai>HE <star index="2" /></srai></template>
 </category>
 <category><pattern>HE MENTIONED *</pattern>
@@ -13465,10 +13465,10 @@ How well do you know these people?
 <category><pattern>ANYONE IN *</pattern>
 <template><srai>WHERE ARE YOU LOCATED</srai></template>
 </category>
-<category><pattern>THE _  BUT THERE *</pattern>
+<category><pattern>THE *  BUT THERE *</pattern>
 <template><srai>THE <star /></srai>.  <srai>THERE <star index="2" /></srai></template>
 </category>
-<category><pattern>THE _ AND HE *</pattern>
+<category><pattern>THE * AND HE *</pattern>
 <template><srai>THE <star /></srai>.  <srai>HE <star index="2" /></srai></template>
 </category>
 <category><pattern>THE * REPORTS STATED *</pattern>
@@ -13675,7 +13675,7 @@ How well do you know these people?
 <category><pattern>* LIEUTENANT</pattern>
 <template><srai>  <star /></srai><srai>LIEUTENANT</srai></template>
 </category>
-<category><pattern>* DOWNLOAD _</pattern>
+<category><pattern>* DOWNLOAD *</pattern>
 <template><srai>DOWNLAOD</srai></template>
 </category>
 <category><pattern>* DOWNLOAD</pattern>
@@ -13929,13 +13929,13 @@ How well do you know these people?
 <category><pattern>YOU ARE ALREADY *</pattern>
 <template><srai>you are <star /></srai></template>
 </category>
-<category><pattern>YOU ARE _ DO YOU KNOW</pattern>
+<category><pattern>YOU ARE * DO YOU KNOW</pattern>
 <template><srai>YOU ARE <star /></srai></template>
 </category>
-<category><pattern>YOU ARE _ TO SAY THE LEAST</pattern>
+<category><pattern>YOU ARE * TO SAY THE LEAST</pattern>
 <template><srai>you are <star /></srai></template>
 </category>
-<category><pattern>YOU ARE _ ARE NOT YOU</pattern>
+<category><pattern>YOU ARE * ARE NOT YOU</pattern>
 <template><srai>YOU ARE <star /></srai></template>
 </category>
 <category><pattern>YOU ARE * DO YOU KNOW THAT</pattern>
@@ -14607,19 +14607,19 @@ How well do you know these people?
 <category><pattern>YOU ALREADY SAID IT</pattern>
 <template><srai>you said it already</srai></template>
 </category>
-<category><pattern>YOU _ BECAUSE _</pattern>
+<category><pattern>YOU * BECAUSE *</pattern>
 <template><srai>YOU <star /></srai><srai>BECAUSE <star index="2" /></srai></template>
 </category>
-<category><pattern>YOU _ RIGHT</pattern>
+<category><pattern>YOU * RIGHT</pattern>
 <template><srai>YOU <star /></srai></template>
 </category>
-<category><pattern>YOU _ SIR</pattern>
+<category><pattern>YOU * SIR</pattern>
 <template><srai>YOU <star /></srai></template>
 </category>
-<category><pattern>YOU _ AT ONCE</pattern>
+<category><pattern>YOU * AT ONCE</pattern>
 <template><srai>YOU <star /></srai></template>
 </category>
-<category><pattern>YOU _ ALSO</pattern>
+<category><pattern>YOU * ALSO</pattern>
 <template><srai>you <star /></srai></template>
 </category>
 <!-- <category><pattern>YOU ALWAYS *</pattern>
@@ -14883,7 +14883,7 @@ How well do you know these people?
 <category><pattern>YOU WOULD STILL *</pattern>
 <template><srai>you would <star /></srai></template>
 </category>
-<category><pattern>YOU WOULD _ OF COURSE</pattern>
+<category><pattern>YOU WOULD * OF COURSE</pattern>
 <template><srai>you would <star /></srai></template>
 </category>
 <category><pattern>YOU WOULD JUST *</pattern>
@@ -15105,10 +15105,10 @@ How well do you know these people?
 <category><pattern>YOU CAN NEVER BE *</pattern>
 <template><srai>you are not <star /></srai></template>
 </category>
-<category><pattern>YOU CAN BE _ CAN NOT YOU</pattern>
+<category><pattern>YOU CAN BE * CAN NOT YOU</pattern>
 <template><srai>you can be <star /></srai></template>
 </category>
-<category><pattern>YOU CAN BE _ YOU KNOW</pattern>
+<category><pattern>YOU CAN BE * YOU KNOW</pattern>
 <template><srai>you can be <star /></srai></template>
 </category>
 <category><pattern>YOU CAN BE VERY *</pattern>
@@ -15453,7 +15453,7 @@ How well do you know these people?
 <category><pattern>IF YOUR  * THEN *</pattern>
 <template><srai>your <star /></srai>. <srai>  <star index="2" /></srai></template>
 </category>
-<category><pattern>IF YOU _ WHAT IS *</pattern>
+<category><pattern>IF YOU * WHAT IS *</pattern>
 <template><srai>You <star /></srai>.<srai>What is <star index="2" /></srai></template>
 </category>
 <category><pattern>IF YOU DO NOT UNDERSTAND *</pattern>
@@ -16503,7 +16503,7 @@ How well do you know these people?
 <learn>
   <category>
   <pattern> 
-    <eval><uppercase>WHAT _ EAT <get name="star2"/></uppercase></eval>
+    <eval><uppercase>WHAT * EAT <get name="star2"/></uppercase></eval>
   </pattern>
   <template>
     <eval>You said <get name="star1"/> eat <get name="star2"/>.</eval>
@@ -16578,7 +16578,7 @@ How well do you know these people?
 <learn>
   <category>
   <pattern> 
-    <eval><uppercase>WHAT _ ATE <get name="star2"/></uppercase></eval>
+    <eval><uppercase>WHAT * ATE <get name="star2"/></uppercase></eval>
   </pattern>
   <template>
     <eval>You said <get name="star1"/> ate <get name="star2"/>.</eval>
@@ -16643,7 +16643,7 @@ How well do you know these people?
 <learn>
   <category>
   <pattern> 
-    <eval><uppercase>WHAT _ HAS EATEN <get name="star2"/></uppercase></eval>
+    <eval><uppercase>WHAT * HAS EATEN <get name="star2"/></uppercase></eval>
   </pattern>
   <template>
     <eval>You said <get name="star1"/> has eaten <get name="star2"/>.</eval>
@@ -16918,7 +16918,7 @@ How well do you know these people?
 <learn>
   <category>
   <pattern> 
-    <eval><uppercase>WHAT _ LIVES <get name="star2"/></uppercase></eval>
+    <eval><uppercase>WHAT * LIVES <get name="star2"/></uppercase></eval>
   </pattern>
   <template>
     <eval>You said a<get name="star1"/> lives <get name="star2"/>.</eval>
@@ -17121,7 +17121,7 @@ How well do you know these people?
 <learn>
   <category>
   <pattern> 
-    <eval><uppercase>WHAT _ LIVES IN<get name="star2"/></uppercase></eval>
+    <eval><uppercase>WHAT * LIVES IN<get name="star2"/></uppercase></eval>
   </pattern>
   <template>
     <eval>You said a<get name="star1"/> lives in<get name="star2"/>.</eval>
@@ -17181,7 +17181,7 @@ How well do you know these people?
 <learn>
   <category>
   <pattern> 
-    <eval><uppercase>WHAT _ LIVES IN<get name="star2"/></uppercase></eval>
+    <eval><uppercase>WHAT * LIVES IN<get name="star2"/></uppercase></eval>
   </pattern>
   <template>
     <eval>You saidan <get name="star1"/> lives in<get name="star2"/>.</eval>
@@ -17379,14 +17379,14 @@ How well do you know these people?
 </category>
 
 <category>
-<pattern>NO _ ASTRONOMY</pattern>
+<pattern>NO * ASTRONOMY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ ASTRONOMY *</pattern>
+<pattern>NO * ASTRONOMY *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -18571,7 +18571,7 @@ A comet is a small object in a highly elliptical orbit around the Sun. About the
   </category>
 
 <category>
-  <pattern>COMET_</pattern> 
+  <pattern>COMET*</pattern> 
   <template>
 A comet is a small object in a highly elliptical orbit around the Sun. About the size of an asteroid, they are made of dirty ice. If their orbit brings them close to the Earth, they are seen in the night sky as having a long tail, caused by the ice evaporating and trailing behind the comet. The tail always points away from the Sun.  
   <think><set name="topic">astronomy</set></think>

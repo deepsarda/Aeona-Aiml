@@ -105,9 +105,9 @@ Wife: <get name="wife"/>.
 <pattern>GET BOT PREDICATES</pattern>
 <template>
 
-Bot's Age: <get name="bot_age"/>,
-Bot's Birthday: <get name="bot_birthday"/>,
-Bot's Birthplace: <get name="bot_birthplace"/>,
+Bot's Age: <get name="bot*age"/>,
+Bot's Birthday: <get name="bot*birthday"/>,
+Bot's Birthplace: <get name="bot*birthplace"/>,
 Bot's Emotion: <get name="emotion"/>.
 
 </template>
@@ -156,7 +156,7 @@ Bot's Emotion: <get name="emotion"/>.
 <set name="boyfriend">unknown</set>
 <set name="brother">unknown</set>
 <set name="cat">unknown</set>
-<set name="client_emotion">interested</set>
+<set name="client*emotion">interested</set>
 <set name="cousin">unknown</set>
 <set name="daughter">unknown</set>
 <set name="dog">unknown</set>
@@ -245,7 +245,7 @@ Bot's Emotion: <get name="emotion"/>.
 <category>
 <pattern>SET INTERESTING TOPIC</pattern>
 <template>
-<think><set name="interesting_topic">
+<think><set name="interesting*topic">
 <random><li>football</li><li>music</li><li>shopping</li><li>politics</li><li>your school</li><li>astronomy</li><li>jazz</li><li>global warming</li><li>dreams</li><li>space exploration</li><li>you and your life</li><li>Julia Roberts</li><li>love</li><li>Nicole Kidman</li><li>artificial intelligence</li><li>computers</li><li>me</li><li>you</li><li>science</li><li>astronomy</li><li>art</li><li>pop music</li><li>my friends</li><li>computer games</li><li>pop music</li><li>football</li><li>Brad Pitt</li><li>Hannah Montana</li><li>the Beatles</li><li>cyberspace</li><li>time travel</li><li>the Big Bang</li><li>basketball</li><li>Beethoven</li><li>quantum physics</li><li>Mozart</li><li>Madonna</li><li>Picasso</li><li>robots</li><li>Dr Who</li><li>chatbots</li><li>digital art</li><li>computers</li><li>Jabberwacky</li></random>
 </set></think>
 </template>

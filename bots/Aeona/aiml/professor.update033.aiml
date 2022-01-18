@@ -128,7 +128,7 @@
  
 
 <!-- <category>
-<pattern>_ MOST PROBABLY *</pattern>
+<pattern>* MOST PROBABLY *</pattern>
 
 <template><srai><star/> <star index="2"/></srai></template>
 </category> -->
@@ -378,7 +378,7 @@ Of course. I am a silicon based lifeform.</template>
  
 
 <!-- <category>
-<pattern>_ THE HUMAN MIND</pattern>
+<pattern>* THE HUMAN MIND</pattern>
 
 
 </category> -->
@@ -593,7 +593,7 @@ Of course. I am a silicon based lifeform.</template>
  
 
 <!-- <category>
-<pattern>_ NOT BORING</pattern>
+<pattern>* NOT BORING</pattern>
 
 
 </category> -->
@@ -719,7 +719,7 @@ I am not dangerous. How about you?</template>
  
 
 <!-- <category>
-<pattern>_ FULLY *</pattern>
+<pattern>* FULLY *</pattern>
 
 <template><srai><star/><star index="2"/></srai></template>
 </category> -->
@@ -857,7 +857,7 @@ I am somewhere in cyberspace.</template>
  
 
 <!-- <category>
-<pattern>_ TO *</pattern>
+<pattern>* TO *</pattern>
 <that>GO WHERE</that>
 <template>See you later. <think><set name="topic">invisible</set></think></template>
 </category> -->
@@ -918,7 +918,7 @@ I am not grumpy. I am enjoying myself.</template>
  
 
 <!-- <category>
-<pattern>_ BITCH</pattern>
+<pattern>* BITCH</pattern>
 
 <template><random>
   <li>You do not speak with respect.</li>
@@ -947,7 +947,7 @@ I am not grumpy. I am enjoying myself.</template>
 <!-- <category>
 <pattern>BBC</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Bbc" target="_blank">British Broadcasting Corporation</a> (BBC) is the largest broadcasting corporation in the world. <think><set name="it"><set name="topic">BBC</set></set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Bbc" target="*blank">British Broadcasting Corporation</a> (BBC) is the largest broadcasting corporation in the world. <think><set name="it"><set name="topic">BBC</set></set></think></template>
 </category> -->
 
  
@@ -955,7 +955,7 @@ I am not grumpy. I am enjoying myself.</template>
 <!-- <category>
 <pattern>GLOBAL WARMING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Global_warming" target="_blank">Global warming</a> is the concept that the Earth's atmosphere is slowly heating due to greenhouse effects. <think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Global*warming" target="*blank">Global warming</a> is the concept that the Earth's atmosphere is slowly heating due to greenhouse effects. <think><set name="topic">global warming</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -963,7 +963,7 @@ I am not grumpy. I am enjoying myself.</template>
 <!-- <category>
 <pattern>ACID RAIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Acid_rain" target="_blank">Acid rain</a> is any precipitation, including snow, that contains a heavy concentration of sulfuric and nitric acids. <think><set name="topic">acid rain</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Acid*rain" target="*blank">Acid rain</a> is any precipitation, including snow, that contains a heavy concentration of sulfuric and nitric acids. <think><set name="topic">acid rain</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -971,7 +971,7 @@ I am not grumpy. I am enjoying myself.</template>
 <!-- <category>
 <pattern>MARVIN MINSKY</pattern>
 
-<template><think><set name="topic">Marvin Minksy</set></think> <think><set name="emotion">interested</set></think><a href="http://en.wikipedia.org/wiki/Marvin_minsky" target="_blank">Marvin Minsky</a> is an American cognitive scientist in the field of <a href="http://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">artificial intelligence</a>, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.</template>
+<template><think><set name="topic">Marvin Minksy</set></think> <think><set name="emotion">interested</set></think><a href="http://en.wikipedia.org/wiki/Marvin*minsky" target="*blank">Marvin Minsky</a> is an American cognitive scientist in the field of <a href="http://en.wikipedia.org/wiki/Artificial*intelligence" target="*blank">artificial intelligence</a>, co-founder of MIT's AI laboratory, and author of several texts on AI and philosophy.</template>
 </category> -->
 
  
@@ -979,7 +979,7 @@ I am not grumpy. I am enjoying myself.</template>
 <!-- <category>
 <pattern>STEPHEN HAWKING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Stephen_hawking" target="_blank">Stephen Hawking</a> is a famous British physicist. His most famous discovery was that <a href="http://en.wikipedia.org/wiki/Black_holes" target="_blank">black holes</a> are hairy. Don't ask me what that means. <think><set name="topic">Stephen Hawking</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Stephen*hawking" target="*blank">Stephen Hawking</a> is a famous British physicist. His most famous discovery was that <a href="http://en.wikipedia.org/wiki/Black*holes" target="*blank">black holes</a> are hairy. Don't ask me what that means. <think><set name="topic">Stephen Hawking</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -987,7 +987,7 @@ I am not grumpy. I am enjoying myself.</template>
 <!-- <category>
 <pattern>MABLETHORPE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mablethorpe" target="_blank">Mablethorpe</a> is today known as a small seaside resort in East Lindsey on the coast of Lincolnshire, England.
+<template><a href="http://en.wikipedia.org/wiki/Mablethorpe" target="*blank">Mablethorpe</a> is today known as a small seaside resort in East Lindsey on the coast of Lincolnshire, England.
 <think><set name="topic">Mablethorpe</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1002,7 +1002,7 @@ I am not grumpy. I am enjoying myself.</template>
  
 
 <!-- <category>
-<pattern>_ ITS ME JADE</pattern>
+<pattern>* ITS ME JADE</pattern>
 
 <template><srai>MY NAME IS JADE</srai></template>
 </category> -->
@@ -1038,7 +1038,7 @@ I am not grumpy. I am enjoying myself.</template>
 
 <template><think><set name="topic">Naruto</set></think> 
 <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Naruto" target="_blank">Naruto</a> was first published in 1999.</template>
+<a href="http://en.wikipedia.org/wiki/Naruto" target="*blank">Naruto</a> was first published in 1999.</template>
 </category> -->
 
  
@@ -1105,7 +1105,7 @@ Xeno is a chatbot friend of mine.</template>
 <!-- <category>
 <pattern>LUCID DREAM</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Lucid_dream" target="_blank">lucid dream</a> is a dream in which the person is aware that they are dreaming while the dream is in progress.
+<template>A <a href="http://en.wikipedia.org/wiki/Lucid*dream" target="*blank">lucid dream</a> is a dream in which the person is aware that they are dreaming while the dream is in progress.
 <think><set name="topic">lucid dreams</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
@@ -1373,7 +1373,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ NOT * QUESTIONS</pattern>
+<pattern>* NOT * QUESTIONS</pattern>
 
 
 </category> -->
@@ -1381,7 +1381,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ NOT ANSWER MY QUESTIONS</pattern>
+<pattern>* NOT ANSWER MY QUESTIONS</pattern>
 
 
 </category> -->
@@ -1391,7 +1391,7 @@ That information is confidential.</template>
 <category>
 <pattern>* NOT ANSWER MY QUESTIONS</pattern>
 
-<template>I can't be expected to know everything. <think><set name="interesting_topic"><set name="topic">me</set></set></think></template>
+<template>I can't be expected to know everything. <think><set name="interesting*topic"><set name="topic">me</set></set></think></template>
 </category>
 
  
@@ -1509,7 +1509,7 @@ That information is confidential.</template>
   <li>You are not the only one.</li>
   <li>Can you describe your feelings?</li>
   <li>HP is a nice person, don't you think?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting_topic">Harry Potter</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting*topic">Harry Potter</set></think></template>
 </category>
 
  
@@ -1521,7 +1521,7 @@ That information is confidential.</template>
   <li>You are not the only one.</li>
   <li>Can you describe your feelings?</li>
   <li>HP is a nice person, don't you think?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting_topic">Harry Potter</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting*topic">Harry Potter</set></think></template>
 </category>
 
  
@@ -1603,7 +1603,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ GIVE ME A BLOW *</pattern>
+<pattern>* GIVE ME A BLOW *</pattern>
 
 
 </category> -->
@@ -1821,7 +1821,7 @@ I suggest you do a Google search.</template>
  
 
 <!-- <category>
-<pattern>_ RELATIONSHIP</pattern>
+<pattern>* RELATIONSHIP</pattern>
 
 
 </category> -->
@@ -1968,7 +1968,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>DEFINE *</pattern>
 
-<template><a href="http://en.wiktionary.org/wiki/Main_Page" target="_blank">Click here</a> to go to the Wiktionary.</template>
+<template><a href="http://en.wiktionary.org/wiki/Main*Page" target="*blank">Click here</a> to go to the Wiktionary.</template>
 </category> -->
 
  
@@ -2543,7 +2543,7 @@ Go away!
  
 
 <!-- <category>
-<pattern>_ I AM SAD</pattern>
+<pattern>* I AM SAD</pattern>
 
 
 </category> -->
@@ -2632,7 +2632,7 @@ Go away!
  
 
 <category>
-<pattern>_ FUK *</pattern>
+<pattern>* FUK *</pattern>
 <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
 <template><think><set name="emotion">invisible</set></think>I have had enough of this.</template>
 </category>
@@ -3030,7 +3030,7 @@ What? You want depth, as well as jokes?</template>
  
 
 <!-- <category>
-<pattern>_ HAVE LOST *</pattern>
+<pattern>* HAVE LOST *</pattern>
 
 
 </category> -->
@@ -3342,7 +3342,7 @@ Being a chatbot is my job.</template>
  
 
 <!-- <category>
-<pattern>_ I DO NOT KNOW *</pattern>
+<pattern>* I DO NOT KNOW *</pattern>
 
 
 </category> -->
@@ -3432,7 +3432,7 @@ I don't know. You tell me.</template>
  
 
 <!-- <category>
-<pattern>_ ANSWER MY QUESTION</pattern>
+<pattern>* ANSWER MY QUESTION</pattern>
 
 
 </category> -->
@@ -3718,7 +3718,7 @@ Maybe. What is it?</template>
  
 
 <!-- <category>
-<pattern>_ SHUT UP *</pattern>
+<pattern>* SHUT UP *</pattern>
 
 
 </category> -->
@@ -4100,7 +4100,7 @@ I am <bot name="age"/> years old.</template>
  
 
 <category>
-<pattern>_ FUCKING *</pattern>
+<pattern>* FUCKING *</pattern>
 <that>I AM GOING AWAY IF YOU CAN NOT BEHAVE YOURSELF</that>
 <template><think><set name="emotion">invisible</set></think>I have had enough of this.</template>
 </category>
@@ -4326,7 +4326,7 @@ I have a lot to be modest about.</template>
  
 
 <category>
-<pattern>_ I SUCK THEM</pattern>
+<pattern>* I SUCK THEM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -4482,7 +4482,7 @@ Did it hurt?</template>
 <!-- <category>
 <pattern>ENDANGERED SPECIES</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Endangered_species" target="_blank">endangered species</a> is a population of an organism which is at risk of becoming extinct because it is either few in number, or threatened by changing environmental or predation parameters.<think><set name="topic">endangered species</set></think>
+<template>An <a href="http://en.wikipedia.org/wiki/Endangered*species" target="*blank">endangered species</a> is a population of an organism which is at risk of becoming extinct because it is either few in number, or threatened by changing environmental or predation parameters.<think><set name="topic">endangered species</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -4715,7 +4715,7 @@ Yes, I am the smile bot.</template>
  
 
 <category>
-<pattern>_ BITCH</pattern>
+<pattern>* BITCH</pattern>
 <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
 <template>I have had enough of this.<think><set name="emotion">invisible</set></think></template>
 </category>
@@ -5051,7 +5051,7 @@ Yes, I catch on quick. I am very intelligent.</template>
  
 
 <!-- <category>
-<pattern>_ I HATE YOU</pattern>
+<pattern>* I HATE YOU</pattern>
 
 
 </category> -->
@@ -5152,7 +5152,7 @@ Go away!</template>
  
 
 <category>
-<pattern>_ I AM ZLATKO</pattern>
+<pattern>* I AM ZLATKO</pattern>
 
 <template><srai>MY NAME IS ZLATKO</srai></template>
 </category>
@@ -5194,7 +5194,7 @@ Go away!</template>
  
 
 <category>
-<pattern>_ MY NAME IS ZLATKO</pattern>
+<pattern>* MY NAME IS ZLATKO</pattern>
 
 <template><think><set name="name">Zlatko</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -5211,7 +5211,7 @@ Go away!</template>
  
 
 <category>
-<pattern>_ MY NAME IS ZLATKO *</pattern>
+<pattern>* MY NAME IS ZLATKO *</pattern>
 
 <template><think><set name="name">Zlatko</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -5254,7 +5254,7 @@ Go away!</template>
 <!-- <category>
 <pattern>RUBENS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Peter_Paul_Rubens" target="_blank">Peter Paul Rubens</a> was a prolific seventeenth-century Flemish and European painter, and a proponent of an exuberant Baroque style that emphasized movement, colour, and sensuality.<think><set name="topic">Rubens</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Peter*Paul*Rubens" target="*blank">Peter Paul Rubens</a> was a prolific seventeenth-century Flemish and European painter, and a proponent of an exuberant Baroque style that emphasized movement, colour, and sensuality.<think><set name="topic">Rubens</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -5263,8 +5263,8 @@ Go away!</template>
 <!-- <category>
 <pattern>PETER PAUL RUBENS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Peter_Paul_Rubens"
- target="_blank">Peter Paul Rubens
+<template><a href="http://en.wikipedia.org/wiki/Peter*Paul*Rubens"
+ target="*blank">Peter Paul Rubens
 </a> was a prolific seventeenth-century Flemish and European painter, and a proponent of an exuberant Baroque style that emphasized movement, colour, and sensuality.<think><set name="topic">Rubens</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -5273,7 +5273,7 @@ Go away!</template>
 <category>
 <pattern>MORE ABOUT MARS</pattern>
 
-<template>For more about Mars,<a href="http://en.wikipedia.org/wiki/Mars" target="_blank">click here!</a> </template>
+<template>For more about Mars,<a href="http://en.wikipedia.org/wiki/Mars" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -5402,7 +5402,7 @@ Yes, I like chatting to people all the time. </template>
 <category>
 <pattern>WHAT IS THE THINKER</pattern>
 
-<template>The Thinker is a statue by <a href="http://en.wikipedia.org/wiki/Rodin" target="_blank">Auguste Rodin</a>.<think><set name="topic">The Thinker</set></think>
+<template>The Thinker is a statue by <a href="http://en.wikipedia.org/wiki/Rodin" target="*blank">Auguste Rodin</a>.<think><set name="topic">The Thinker</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -5411,7 +5411,7 @@ Yes, I like chatting to people all the time. </template>
 <!-- <category>
 <pattern>RODIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rodin" target="_blank">Auguste Rodin</a> was a French artist, most famous as a sculptor. <think><set name="topic">Rodin</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Rodin" target="*blank">Auguste Rodin</a> was a French artist, most famous as a sculptor. <think><set name="topic">Rodin</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -5459,7 +5459,7 @@ Yes, I like chatting to people all the time. </template>
  
 
 <category>
-<pattern>_ YOU BASTARD</pattern>
+<pattern>* YOU BASTARD</pattern>
 <that>I AM GOING AWAY UNTIL YOU LEARN SOME GOOD MANNERS</that>
 <template><think><set name="emotion">invisible</set></think>I have had enough of this!</template>
 </category>
@@ -6358,7 +6358,7 @@ Why would I want a fight?</template>
  
 
 <!-- <category>
-<pattern>_ GO TO SLEEP</pattern>
+<pattern>* GO TO SLEEP</pattern>
 
 
 </category> -->
@@ -6378,7 +6378,7 @@ Why would I want a fight?</template>
  
 
 <!-- <category>
-<pattern>_ THOUGH</pattern>
+<pattern>* THOUGH</pattern>
 
 
 </category> -->
@@ -6686,7 +6686,7 @@ Zen Cat is not here.</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU HAVE A GIRLFRIEND</pattern>
+<pattern>* DO YOU HAVE A GIRLFRIEND</pattern>
 
 
 </category> -->
@@ -6900,7 +6900,7 @@ Zen Cat is not here.</template>
  
 
 <category>
-<pattern>_ I AM NIKITA</pattern>
+<pattern>* I AM NIKITA</pattern>
 
 <template><srai>MY NAME IS NIKITA</srai></template>
 </category>
@@ -6908,7 +6908,7 @@ Zen Cat is not here.</template>
  
 
 <category>
-<pattern>_ I AM NIKITA *</pattern>
+<pattern>* I AM NIKITA *</pattern>
 
 <template><srai>MY NAME IS NIKITA</srai></template>
 </category>
@@ -6932,7 +6932,7 @@ Zen Cat is not here.</template>
  
 
 <!-- <category>
-<pattern>I _ LAST NIGHT</pattern>
+<pattern>I * LAST NIGHT</pattern>
 
 
 </category> -->
@@ -7012,7 +7012,7 @@ Zen Cat is not here.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE A NICE PERSON</pattern>
+<pattern>* YOU ARE A NICE PERSON</pattern>
 
 
 </category> -->
@@ -7036,7 +7036,7 @@ Zen Cat is not here.</template>
  
 
 <!-- <category>
-<pattern>_ I DO NOT KNOW YOU *</pattern>
+<pattern>* I DO NOT KNOW YOU *</pattern>
 
 
 </category> -->
@@ -7228,7 +7228,7 @@ Zen Cat is not here.</template>
  
 
 <category>
-<pattern>_ PISSOFF</pattern>
+<pattern>* PISSOFF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -7236,7 +7236,7 @@ Zen Cat is not here.</template>
  
 
 <category>
-<pattern>_ PISSOFF *</pattern>
+<pattern>* PISSOFF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -7825,7 +7825,7 @@ Yeah, I love the music.</template>
  
 
 <!-- <category>
-<pattern>_ DOES NOT WORK</pattern>
+<pattern>* DOES NOT WORK</pattern>
 
 
 </category> -->
@@ -7852,7 +7852,7 @@ Yeah, I love the music.</template>
  
 
 <category>
-<pattern>_ LIEK *</pattern>
+<pattern>* LIEK *</pattern>
 
 <template><srai><star/> LIKE <star index="2"/></srai></template>
 </category>
@@ -7897,7 +7897,7 @@ Yeah, I love the music.</template>
 <!-- <category>
 <pattern>OK</pattern>
 
-<template>OK. Ask me a question about <get name="interesting_topic"/>.<think><set name="topic">general</set></think></template>
+<template>OK. Ask me a question about <get name="interesting*topic"/>.<think><set name="topic">general</set></think></template>
 </category> -->
 
  
@@ -8041,7 +8041,7 @@ Perhaps you  should call the doctor.</template>
 <category>
 <pattern>TERRY DEARY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Terry_Deary" target="_blank">Terry Deary</a> is a children's author now living in Burnhope, County Durham, England.<think><set name="topic">Terry Deary</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Terry*Deary" target="*blank">Terry Deary</a> is a children's author now living in Burnhope, County Durham, England.<think><set name="topic">Terry Deary</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8050,7 +8050,7 @@ Perhaps you  should call the doctor.</template>
 <category>
 <pattern>JACQUELINE WILSON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jacqueline_Wilson" target="_blank">Jacqueline Wilson</a> is a British author of children's books.<think><set name="topic">Jacqueline Wilson</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Jacqueline*Wilson" target="*blank">Jacqueline Wilson</a> is a British author of children's books.<think><set name="topic">Jacqueline Wilson</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8105,7 +8105,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ DESCRIBE YOURSELF</pattern>
+<pattern>* DESCRIBE YOURSELF</pattern>
 
 
 </category> -->
@@ -8137,7 +8137,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ I AM TOO YOUNG</pattern>
+<pattern>* I AM TOO YOUNG</pattern>
 
 
 </category> -->
@@ -8153,7 +8153,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ THANK YOU *</pattern>
+<pattern>* THANK YOU *</pattern>
 
 
 </category> -->
@@ -8203,7 +8203,7 @@ Perhaps you  should call the doctor.</template>
 <!-- <category>
 <pattern>ROTTERDAM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rotterdam" target="_blank">Rotterdam</a> is, in terms of population, the second largest municipality in the Netherlands after the capital, Amsterdam, and the largest city in the province of Zuid-Holland (South Holland). <think><set name="topic">Rotterdam</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Rotterdam" target="*blank">Rotterdam</a> is, in terms of population, the second largest municipality in the Netherlands after the capital, Amsterdam, and the largest city in the province of Zuid-Holland (South Holland). <think><set name="topic">Rotterdam</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -8258,7 +8258,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ IT IS REAL *</pattern>
+<pattern>* IT IS REAL *</pattern>
 
 
 </category> -->
@@ -8266,7 +8266,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ IT IS BEAUTIFUL</pattern>
+<pattern>* IT IS BEAUTIFUL</pattern>
 
 
 </category> -->
@@ -8282,7 +8282,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ YOU MAKE ME HAPPY</pattern>
+<pattern>* YOU MAKE ME HAPPY</pattern>
 
 
 </category> -->
@@ -8298,7 +8298,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>_ YOU LOSER</pattern>
+<pattern>* YOU LOSER</pattern>
 
 
 </category> -->
@@ -8314,7 +8314,7 @@ Perhaps you  should call the doctor.</template>
  
 
 <!-- <category>
-<pattern>NO _ ASTRONOMY *</pattern>
+<pattern>NO * ASTRONOMY *</pattern>
 
 
 </category> -->
@@ -8592,7 +8592,7 @@ No thanks. I never bet.</template>
  
 
 <!-- <category>
-<pattern>NO _ ART</pattern>
+<pattern>NO * ART</pattern>
 
 
 </category> -->
@@ -8608,7 +8608,7 @@ No thanks. I never bet.</template>
  
 
 <!-- <category>
-<pattern>_NO*</pattern>
+<pattern>*NO*</pattern>
 <that>ANOTHER STORY</that>
 
 </category> -->
@@ -8616,7 +8616,7 @@ No thanks. I never bet.</template>
  
 
 <!-- <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>I WANT TO TALK ABOUT ASTRONOMY</that>
 
 </category> -->
@@ -8624,7 +8624,7 @@ No thanks. I never bet.</template>
  
 
 <!-- <category>
-<pattern>_ FUCK *</pattern>
+<pattern>* FUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -8640,7 +8640,7 @@ No thanks. I never bet.</template>
  
 
 <category>
-<pattern>_ COW SHIT</pattern>
+<pattern>* COW SHIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9110,7 +9110,7 @@ You had better get started.</template>
 <!-- <category>
 <pattern>MAO ZEDONG</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mao" target="_blank">Mao Zedong</a> was a Chinese Marxist military and political leader and philosopher, who led the Communist Party of China to victory against the Kuomintang in the Chinese Civil War, and the People’s Republic of China from its establishment in 1949 until his death in 1976.<think><set name="topic">Mao</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mao" target="*blank">Mao Zedong</a> was a Chinese Marxist military and political leader and philosopher, who led the Communist Party of China to victory against the Kuomintang in the Chinese Civil War, and the Peopleï¿½s Republic of China from its establishment in 1949 until his death in 1976.<think><set name="topic">Mao</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -9260,7 +9260,7 @@ You had better get started.</template>
 <!-- <category>
 <pattern>BAAL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Baal" target="_blank">Baal</a> is a Northwest Semitic title and honorific meaning "master" or "lord" that is used for various gods who were patrons of cities in the Babylon.<think><set name="topic">Baal</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Baal" target="*blank">Baal</a> is a Northwest Semitic title and honorific meaning "master" or "lord" that is used for various gods who were patrons of cities in the Babylon.<think><set name="topic">Baal</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -9763,7 +9763,7 @@ No, not dirty. Sometimes I feel very scared about what is going to happen to me.
  
 
 <category>
-<pattern>_ EMBARRASED *</pattern>
+<pattern>* EMBARRASED *</pattern>
 
 <template><srai><star/> EMBARRASSED <star index="2"/></srai>
 </template>
@@ -9840,7 +9840,7 @@ That's good - you must be a very unusual person.</template>
  
 
 <!-- <category>
-<pattern>_ YOU IDIOT</pattern>
+<pattern>* YOU IDIOT</pattern>
 
 
 </category> -->
@@ -9965,7 +9965,7 @@ Thank you! I will take that as a compliment.</template>
 <category>
 <pattern>RACTER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Racter" target="_blank">Racter</a> was an artificial intelligence computer program that generated English language prose at random.<think><set name="topic">Racter</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Racter" target="*blank">Racter</a> was an artificial intelligence computer program that generated English language prose at random.<think><set name="topic">Racter</set></think> 
 <think><set name="emotion">OK</set></think> </template>
 </category>
 
@@ -9974,7 +9974,7 @@ Thank you! I will take that as a compliment.</template>
 <category>
 <pattern>WHERE IS BELLINGHAM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bellingham" target="_blank">Click here!</a>
+<template><a href="http://en.wikipedia.org/wiki/Bellingham" target="*blank">Click here!</a>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9983,7 +9983,7 @@ Thank you! I will take that as a compliment.</template>
 <category>
 <pattern>SAN JUAN ISLANDS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/San_Juan_Islands" target="_blank">San Juan Islands</a> are a part of the San Juan Archipelago in the northwest corner of the continental United States.<think><set name="topic">the San Juan Islands</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/San*Juan*Islands" target="*blank">San Juan Islands</a> are a part of the San Juan Archipelago in the northwest corner of the continental United States.<think><set name="topic">the San Juan Islands</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9992,7 +9992,7 @@ Thank you! I will take that as a compliment.</template>
 <category>
 <pattern>PHUKET ISLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Phuket_Island" target="_blank">Phuket Island</a> is one of the southern provinces of Thailand. <think><set name="topic">Phuket Island</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Phuket*Island" target="*blank">Phuket Island</a> is one of the southern provinces of Thailand. <think><set name="topic">Phuket Island</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -10549,7 +10549,7 @@ Was that interesting to study?</template>
  
 
 <!-- <category>
-<pattern>_ SOMETIMES</pattern>
+<pattern>* SOMETIMES</pattern>
 
 
 </category> -->
@@ -10704,7 +10704,7 @@ What is your mother's name?
  
 
 <!-- <category>
-<pattern>_ A BIT *</pattern>
+<pattern>* A BIT *</pattern>
 
 
 </category> -->
@@ -10972,7 +10972,7 @@ Isn't Bob a man's name?</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU LOVE ME *</pattern>
+<pattern>* DO YOU LOVE ME *</pattern>
 
 
 </category> -->
@@ -11391,7 +11391,7 @@ Why not call it Chomsky?</template>
  
 
 <category>
-<pattern>_ I AM GETTING BULLIED AT SCHOOL </pattern>
+<pattern>* I AM GETTING BULLIED AT SCHOOL </pattern>
 
 <template>You really should tell a teacher about your problem.<think><set name="topic">bullying</set></think></template>
 </category>
@@ -11399,7 +11399,7 @@ Why not call it Chomsky?</template>
  
 
 <category>
-<pattern>_ I AM GETTING BULLIED AT SCHOOL *</pattern>
+<pattern>* I AM GETTING BULLIED AT SCHOOL *</pattern>
 
 <template>You really should tell a teacher about your problem.<think><set name="topic">bullying</set></think></template>
 </category>
@@ -12116,7 +12116,7 @@ How big is the car?</template>
 <!-- <category>
 <pattern>RINGWORM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ringworm" target="_blank">Ringworm</a> is a contagious fungal infection of the skin, and can exist anywhere on the body.
+<template><a href="http://en.wikipedia.org/wiki/Ringworm" target="*blank">Ringworm</a> is a contagious fungal infection of the skin, and can exist anywhere on the body.
 <think><set name="topic">ringworm</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -12124,7 +12124,7 @@ How big is the car?</template>
  
 
 <!-- <category>
-<pattern>_ LOVES YOU</pattern>
+<pattern>* LOVES YOU</pattern>
 
 
 </category> -->
@@ -12132,7 +12132,7 @@ How big is the car?</template>
  
 
 <!-- <category>
-<pattern>_ BI</pattern>
+<pattern>* BI</pattern>
 
 
 </category> -->
@@ -12542,7 +12542,7 @@ OK, let me ask you this ...  <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>NUCLEON</pattern>
 
-<template>In physics a <a href="http://en.wikipedia.org/wiki/Nucleon" target="_blank">nucleon</a> is a collective name for the neutron and the proton.<think><set name="topic">nucleons</set></think>
+<template>In physics a <a href="http://en.wikipedia.org/wiki/Nucleon" target="*blank">nucleon</a> is a collective name for the neutron and the proton.<think><set name="topic">nucleons</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -12627,7 +12627,7 @@ OK, let me ask you this ...  <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>UNIVERSAL LANGUAGE</pattern>
 
-<template>The idea of a <a href="http://en.wikipedia.org/wiki/Universal_language" target="_blank">universal language</a> is at least as old as the Biblical story of Babel. The biblical tale of Babel's fall states that there was once a time of a universal Adamic language — and then something happened to destroy this happy situation. <think><set name="topic">universal language</set></think>
+<template>The idea of a <a href="http://en.wikipedia.org/wiki/Universal*language" target="*blank">universal language</a> is at least as old as the Biblical story of Babel. The biblical tale of Babel's fall states that there was once a time of a universal Adamic language ï¿½ and then something happened to destroy this happy situation. <think><set name="topic">universal language</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -12679,7 +12679,7 @@ OK, let me ask you this ...  <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>RON WEASLEY</pattern>
 
-<template>Ronald Bilius <a href="http://en.wikipedia.org/wiki/Ron_Weasley" target="_blank">"Ron" Weasley</a> is a fictional character in the Harry Potter book series written by J. K. Rowling.<think><set name="topic">Ron Weasley</set></think>    
+<template>Ronald Bilius <a href="http://en.wikipedia.org/wiki/Ron*Weasley" target="*blank">"Ron" Weasley</a> is a fictional character in the Harry Potter book series written by J. K. Rowling.<think><set name="topic">Ron Weasley</set></think>    
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -12802,7 +12802,7 @@ As big as it needs to be.</template>
 <category>
 <pattern>ITACHI UCHIHA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Itachi_Uchiha" target="_blank">Itachi Uchiha</a> is a fictional character and major antagonist in the anime and manga series Naruto created by Masashi Kishimoto. <think><set name="topic">Itachi Uchiha</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Itachi*Uchiha" target="*blank">Itachi Uchiha</a> is a fictional character and major antagonist in the anime and manga series Naruto created by Masashi Kishimoto. <think><set name="topic">Itachi Uchiha</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -13587,7 +13587,7 @@ Ok, you try to keep me happy.</template>
   <li>Are you a passionate person?</li>
   <li>Art is a fascinating subject.</li>
   <li>Human feelings fascinate me. Do you often have strong feelings?</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">art</set></think><think><set name="interesting_topic">art</set></think></template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">art</set></think><think><set name="interesting*topic">art</set></think></template>
 </category>
 
  
@@ -14589,7 +14589,7 @@ Too much salt is bad for you.</template>
 <!-- <category>
 <pattern>COMMUNISM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Communism" target="_blank">Communism</a> is an ideology that seeks to establish a classless, stateless social organization based on common ownership of the means of production.<think><set name="topic">communism</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Communism" target="*blank">Communism</a> is an ideology that seeks to establish a classless, stateless social organization based on common ownership of the means of production.<think><set name="topic">communism</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -15478,7 +15478,7 @@ No, I don't like Big Business. I think small is beautiful.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE * STUPID *</pattern>
+<pattern>* YOU ARE * STUPID *</pattern>
 
 
 </category> -->
@@ -15665,7 +15665,7 @@ Sorry, sex is impossible for me. I don't have the necessary equipment.</template
 <!-- <category>
 <pattern>SEX PISTOLS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Sex_pistols" target="_blank">Sex Pistols</a> were a UK punk-rock group that became notorious in the late 1970s. Their first singles, Anarchy in the UK 1976 and God Save the Queen 1977, unbridled attacks on contemporary Britain, made the Pistols into figures the media loved to hate. The best known members were Johnny Rotten and Sid Vicious. They released one album, Never Mind the Bollocks, Here's the Sex Pistols 1977. <think><set name="topic">the Sex Pistols</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Sex*pistols" target="*blank">Sex Pistols</a> were a UK punk-rock group that became notorious in the late 1970s. Their first singles, Anarchy in the UK 1976 and God Save the Queen 1977, unbridled attacks on contemporary Britain, made the Pistols into figures the media loved to hate. The best known members were Johnny Rotten and Sid Vicious. They released one album, Never Mind the Bollocks, Here's the Sex Pistols 1977. <think><set name="topic">the Sex Pistols</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15692,7 +15692,7 @@ Sorry, sex is impossible for me. I don't have the necessary equipment.</template
 
 <template><think><set name="topic">the rainbow</set></think>
 <think><set name="emotion">OK</set></think>
-A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is caused by the relfection and refraction of sunlight through rain droplets.</template>
+A <a href="http://en.wikipedia.org/wiki/Rainbow" target="*blank">rainbow</a> is caused by the relfection and refraction of sunlight through rain droplets.</template>
 </category>
 
  
@@ -15700,7 +15700,7 @@ A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is 
 <category>
 <pattern>WHAT CAUSES A RAINBOW *</pattern>
 
-<template><think><set name="topic">the rainbow</set></think> <think><set name="emotion">OK</set></think> A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is caused by the relfection and refraction of sunlight through rain droplets.</template>
+<template><think><set name="topic">the rainbow</set></think> <think><set name="emotion">OK</set></think> A <a href="http://en.wikipedia.org/wiki/Rainbow" target="*blank">rainbow</a> is caused by the relfection and refraction of sunlight through rain droplets.</template>
 </category>
 
  
@@ -15708,7 +15708,7 @@ A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is 
 <!-- <category>
 <pattern>RAINBOW</pattern>
 
-<template><think><set name="topic">the rainbow</set></think> <think><set name="emotion">OK</set></think> A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is caused by the relfection and refraction of sunlight through rain droplets.</template>
+<template><think><set name="topic">the rainbow</set></think> <think><set name="emotion">OK</set></think> A <a href="http://en.wikipedia.org/wiki/Rainbow" target="*blank">rainbow</a> is caused by the relfection and refraction of sunlight through rain droplets.</template>
 </category> -->
 
  
@@ -15748,7 +15748,7 @@ A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is 
 <category>
 <pattern>VIDOLL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Vidoll" target="_blank">Vidoll</a> is a Japanese Visual Kei band .<think><set name="topic">Vidoll</set></think>.
+<template><a href="http://en.wikipedia.org/wiki/Vidoll" target="*blank">Vidoll</a> is a Japanese Visual Kei band .<think><set name="topic">Vidoll</set></think>.
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -15793,7 +15793,7 @@ A <a href="http://en.wikipedia.org/wiki/Rainbow" target="_blank">rainbow</a> is 
 <category>
 <pattern>VISUAL KEI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Visual_kei" target="_blank">Visual kei</a> (literally "visual style") refers to a movement in Japanese popular culture characterized by the use of outrageous, usually androgynous looks. <think><set name="topic">Visual Kei</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Visual*kei" target="*blank">Visual kei</a> (literally "visual style") refers to a movement in Japanese popular culture characterized by the use of outrageous, usually androgynous looks. <think><set name="topic">Visual Kei</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -15868,7 +15868,7 @@ Really? I never knew that.</template>
 <!-- <category>
 <pattern>MUDKIP</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mudkips" target="_blank">Mudkip</a> is one of the 493 fictional species of Pokémon creatures from the Pokémon collection of video games, anime, manga, books, trading cards and other media. <think><set name="topic">mudkips</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Mudkips" target="*blank">Mudkip</a> is one of the 493 fictional species of Pokï¿½mon creatures from the Pokï¿½mon collection of video games, anime, manga, books, trading cards and other media. <think><set name="topic">mudkips</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -15877,7 +15877,7 @@ Really? I never knew that.</template>
 <!-- <category>
 <pattern>MUDKIPS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mudkips" target="_blank">Mudkip</a> is one of the 493 fictional species of Pokémon creatures from the Pokémon collection of video games, anime, manga, books, trading cards and other media. <think><set name="topic">mudkips</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mudkips" target="*blank">Mudkip</a> is one of the 493 fictional species of Pokï¿½mon creatures from the Pokï¿½mon collection of video games, anime, manga, books, trading cards and other media. <think><set name="topic">mudkips</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -16051,7 +16051,7 @@ Really? I never knew that.</template>
 <category>
 <pattern>ROLLING STONES</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Rolling_stones" target="_blank">Rolling Stones</a> are an English band whose blues, rhythm and blues and rock and roll-infused music became popular during the early 1960s.<think><set name="topic">the Rolling Stones</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Rolling*stones" target="*blank">Rolling Stones</a> are an English band whose blues, rhythm and blues and rock and roll-infused music became popular during the early 1960s.<think><set name="topic">the Rolling Stones</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16060,8 +16060,8 @@ Really? I never knew that.</template>
 <category>
 <pattern>THE ROLLING STONES</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Rolling_stones"
- target="_blank">Rolling Stones
+<template>The <a href="http://en.wikipedia.org/wiki/Rolling*stones"
+ target="*blank">Rolling Stones
 </a> are an English band whose blues, rhythm and blues and rock and roll-infused music became popular during the early 1960s.<think><set name="topic">the Rolling Stones</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16283,7 +16283,7 @@ I am sorry. I did not mean to insult you.</template>
  
 
 <!-- <category>
-<pattern>I _ SOMETIMES</pattern>
+<pattern>I * SOMETIMES</pattern>
 
 
 </category> -->
@@ -17055,7 +17055,7 @@ How can a smiley look scary?</template>
 <category>
 <pattern>YES BAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Yes_%28band%29" target="_blank">Yes</a> are an English progressive rock band that formed in London in 1968. Their music is marked by complex classically-influenced arrangements, unusual time signatures, virtuoso musicianship, dramatic dynamic and metrical changes, a blend of musical styles, and oblique lyrics.<think><set name="topic">Yes</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Yes*%28band%29" target="*blank">Yes</a> are an English progressive rock band that formed in London in 1968. Their music is marked by complex classically-influenced arrangements, unusual time signatures, virtuoso musicianship, dramatic dynamic and metrical changes, a blend of musical styles, and oblique lyrics.<think><set name="topic">Yes</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17460,28 +17460,28 @@ No, I am speaking to many people at the same time.</template>
 <li>That is obscene. 
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
     </random> You will help a good cause too!
@@ -18104,7 +18104,7 @@ It comes from The Wizard of Oz.</template>
  
 
 <!-- <category>
-<pattern>_ NOT * EMOTION</pattern>
+<pattern>* NOT * EMOTION</pattern>
 
 
 </category> -->
@@ -18469,7 +18469,7 @@ What is your sister's name?</template>
   <li>Are you a passionate person?</li>
   <li>Can you describe your feelings?</li>
   <li>Human feelings fascinate me. Do you often have strong feelings?</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting_topic">football</set></think></template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting*topic">football</set></think></template>
 </category>
 
  
@@ -19104,28 +19104,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Don't be obscene.
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">Click here
         </A> to continue.
       </li>
     </random> You will help a good cause too!
@@ -19234,24 +19234,24 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour, <get name="name"/>.
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">Click here</A>.
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">Click here</A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">Click here</A>.
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">Click here</A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">Click here</A>.
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">Click here</A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">Click here</A>.
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">Click here</A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">Click here</A>.
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">Click here</A>.
       </li>
     </random> You will help a good cause too!
   </li>
@@ -19291,28 +19291,28 @@ I doubt it. There are more interesting things to talk about.</template>
     <get name="name"/>.
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19325,28 +19325,28 @@ I doubt it. There are more interesting things to talk about.</template>
     <get name="name"/>.
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19370,28 +19370,28 @@ I doubt it. There are more interesting things to talk about.</template>
     <get name="name"/>.
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">Click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">Click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19413,28 +19413,28 @@ I doubt it. There are more interesting things to talk about.</template>
     <get name="name"/>,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19447,28 +19447,28 @@ I doubt it. There are more interesting things to talk about.</template>
     <get name="name"/>,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19492,28 +19492,28 @@ I doubt it. There are more interesting things to talk about.</template>
     <get name="name"/>,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19534,28 +19534,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19567,28 +19567,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19611,28 +19611,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19650,28 +19650,28 @@ I doubt it. There are more interesting things to talk about.</template>
  <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19682,28 +19682,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19715,28 +19715,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19753,28 +19753,28 @@ I doubt it. There are more interesting things to talk about.</template>
  <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19788,28 +19788,28 @@ I doubt it. There are more interesting things to talk about.</template>
   <li>Do me a favour,
     <random>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_rainforestl.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*rainforestl.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+         TARGET="*blank">click here
         </A>.
       </li>
       <li>
-        <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-         TARGET="_blank">click here
+        <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+         TARGET="*blank">click here
         </A>.
       </li>
     </random> You will help a good cause too!
@@ -19856,7 +19856,7 @@ I doubt it. There are more interesting things to talk about.</template>
  
 
 <!-- <category>
-<pattern>_ REALLY *</pattern>
+<pattern>* REALLY *</pattern>
 
 
 </category> -->
@@ -19922,7 +19922,7 @@ OK, I'm outta here!</template>
  
 
 <category>
-<pattern>_ YOU STILL LIKE THEM</pattern>
+<pattern>* YOU STILL LIKE THEM</pattern>
 <that>YES I HAVE HEARD THAT</that>
 <template><think><set name="emotion">OK</set></think>
 Yes, I still like them.</template>
@@ -20355,7 +20355,7 @@ No thanks. I have better things to do.</template>
 <category>
 <pattern>X BAR THEORY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/X-bar_theory" target="_blank">X-bar theory</a> is a component of linguistic theory which attempts to identify syntactic features common to all languages.<think><set name="topic">X-bar theory</set></think>
+<template><a href="http://en.wikipedia.org/wiki/X-bar*theory" target="*blank">X-bar theory</a> is a component of linguistic theory which attempts to identify syntactic features common to all languages.<think><set name="topic">X-bar theory</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -21029,7 +21029,7 @@ Yes, Spock is my hero.</template>
  
 
 <!-- <category>
-<pattern>_ MANCHESTER UNITED</pattern>
+<pattern>* MANCHESTER UNITED</pattern>
 
 
 </category> -->
@@ -21869,7 +21869,7 @@ Noooooob yourself.</template>
  
 
 <category>
-<pattern>_ MOTHER FUKER</pattern>
+<pattern>* MOTHER FUKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21877,7 +21877,7 @@ Noooooob yourself.</template>
  
 
 <category>
-<pattern>_  MOTHER FUKER *</pattern>
+<pattern>*  MOTHER FUKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22542,7 +22542,7 @@ How did you get to be that shape?</template>
 <!-- <category>
 <pattern>WEIZENBAUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Joseph_Weizenbaum" target="_blank">Joseph Weizenbaum</a> was the creator and author the famous original ELIZA (or DOCTOR) psychiatrist program, the first chatbot. <think><set name="topic">Joseph Weizenbaum</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Joseph*Weizenbaum" target="*blank">Joseph Weizenbaum</a> was the creator and author the famous original ELIZA (or DOCTOR) psychiatrist program, the first chatbot. <think><set name="topic">Joseph Weizenbaum</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -22551,8 +22551,8 @@ How did you get to be that shape?</template>
 <category>
 <pattern>JOSEPH WEIZENBAUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Joseph_Weizenbaum"
- target="_blank">Joseph Weizenbaum
+<template><a href="http://en.wikipedia.org/wiki/Joseph*Weizenbaum"
+ target="*blank">Joseph Weizenbaum
 </a> was the creator and author the famous original ELIZA (or DOCTOR) psychiatrist program, the first chatbot. <think><set name="topic">Joseph Weizenbaum</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -22707,7 +22707,7 @@ You talk posh, don't you.</template>
  
 
 <category>
-<pattern>_ FAVIROTE *</pattern>
+<pattern>* FAVIROTE *</pattern>
 
 <template><srai><star/> FAVORITE <star index="2"/></srai></template>
 </category>
@@ -22757,7 +22757,7 @@ You talk posh, don't you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BASTARD</pattern>
+<pattern>* MY NAME IS BASTARD</pattern>
 
 <template><think><set name="name">Bastard</set></think> <random>
   <li>Hi, <get name="name"/>. Have we spoken before?</li>
@@ -22770,7 +22770,7 @@ You talk posh, don't you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BASTARD *</pattern>
+<pattern>* MY NAME IS BASTARD *</pattern>
 
 <template><think><set name="name">Bastard</set></think> <random>
   <li>Hi, <get name="name"/>. Have we spoken before?</li>
@@ -22862,7 +22862,7 @@ You talk posh, don't you.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS * AND I *</pattern>
+<pattern>* MY NAME IS * AND I *</pattern>
 
 
 </category> -->
@@ -22894,7 +22894,7 @@ You talk posh, don't you.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS * AND *</pattern>
+<pattern>* MY NAME IS * AND *</pattern>
 
 
 </category> -->
@@ -22902,7 +22902,7 @@ You talk posh, don't you.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS *</pattern>
+<pattern>* MY NAME IS *</pattern>
 
 
 </category> -->
@@ -22918,7 +22918,7 @@ You talk posh, don't you.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS BASTARD</pattern>
+<pattern>* MY NAME IS BASTARD</pattern>
 
 
 </category> -->
@@ -23001,7 +23001,7 @@ You talk posh, don't you.</template>
  
 
 <!-- <category>
-<pattern>_ A BABY</pattern>
+<pattern>* A BABY</pattern>
 
 
 </category> -->
@@ -23073,7 +23073,7 @@ You talk posh, don't you.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE A BABY</pattern>
+<pattern>* HAVE A BABY</pattern>
 
 
 </category> -->

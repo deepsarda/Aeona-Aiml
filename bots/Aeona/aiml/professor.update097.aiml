@@ -1233,7 +1233,7 @@ Yuk, I don't like the sound of that.</template>
 <!-- <category>
 <pattern>TAYLOR SWIFT</pattern>
 
-<template><think><set name="topic">Taylor Swift</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Taylor_Swift" target="_blank">Taylor Swift</a> is a American country pop singer-songwriter and actress. </template>
+<template><think><set name="topic">Taylor Swift</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Taylor*Swift" target="*blank">Taylor Swift</a> is a American country pop singer-songwriter and actress. </template>
 </category> -->
 
  
@@ -1241,7 +1241,7 @@ Yuk, I don't like the sound of that.</template>
 <category>
 <pattern>MICHAEL BUBLE</pattern>
 
-<template><think><set name="topic">Michael Buble</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Michael_Bubl%C3%A9" target="_blank">Michael Bublé</a> is a Canadian singer and actor.</template>
+<template><think><set name="topic">Michael Buble</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Michael*Bubl%C3%A9" target="*blank">Michael Bublï¿½</a> is a Canadian singer and actor.</template>
 </category>
 
  
@@ -1249,8 +1249,8 @@ Yuk, I don't like the sound of that.</template>
 <category>
 <pattern>MICHAEL BUBLE *</pattern>
 
-<template><think><set name="topic">Michael Buble</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Michael_Bubl%C3%A9"
- target="_blank">Michael Bublé
+<template><think><set name="topic">Michael Buble</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Michael*Bubl%C3%A9"
+ target="*blank">Michael Bublï¿½
 </a> is a Canadian singer and actor.</template>
 </category>
 
@@ -2003,7 +2003,7 @@ Yuk, I don't like the sound of that.</template>
  
 
 <!-- <category>
-<pattern>_ I WILL DO YOU *</pattern>
+<pattern>* I WILL DO YOU *</pattern>
 
 
 </category> -->
@@ -2138,7 +2138,7 @@ Yuk, I don't like the sound of that.</template>
   <li>Where are you then?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
 </random> <think><set name="topic">general</set></think><think><set name="emotion">interested</set></think></template>
@@ -2153,7 +2153,7 @@ Yuk, I don't like the sound of that.</template>
   <li>Where are you then?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
 </random> <think><set name="topic">general</set></think><think><set name="emotion">interested</set></think></template>
@@ -2571,7 +2571,7 @@ Yuk, I don't like the sound of that.</template>
 <pattern>WRIGHT BROTHERS</pattern>
 
 <template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Wright_brothers" target="_blank">Wright brothers</a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
+The <a href="http://en.wikipedia.org/wiki/Wright*brothers" target="*blank">Wright brothers</a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
 </category>
 
  
@@ -2579,8 +2579,8 @@ The <a href="http://en.wikipedia.org/wiki/Wright_brothers" target="_blank">Wrigh
 <category>
 <pattern>WRIGHT BROTHERS *</pattern>
 
-<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright_brothers"
- target="_blank">Wright brothers
+<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright*brothers"
+ target="*blank">Wright brothers
 </a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
 </category>
 
@@ -2589,8 +2589,8 @@ The <a href="http://en.wikipedia.org/wiki/Wright_brothers" target="_blank">Wrigh
 <!-- <category>
 <pattern>ORVILLE WRIGHT </pattern>
 
-<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright_brothers"
- target="_blank">Wright brothers
+<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright*brothers"
+ target="*blank">Wright brothers
 </a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
 </category> -->
 
@@ -2599,8 +2599,8 @@ The <a href="http://en.wikipedia.org/wiki/Wright_brothers" target="_blank">Wrigh
 <category>
 <pattern>ORVILLE WRIGHT *</pattern>
 
-<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright_brothers"
- target="_blank">Wright brothers
+<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright*brothers"
+ target="*blank">Wright brothers
 </a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
 </category>
 
@@ -2609,8 +2609,8 @@ The <a href="http://en.wikipedia.org/wiki/Wright_brothers" target="_blank">Wrigh
 <category>
 <pattern>WILBUR WRIGHT</pattern>
 
-<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright_brothers"
- target="_blank">Wright brothers
+<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright*brothers"
+ target="*blank">Wright brothers
 </a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
 </category>
 
@@ -2619,8 +2619,8 @@ The <a href="http://en.wikipedia.org/wiki/Wright_brothers" target="_blank">Wrigh
 <category>
 <pattern>WILBUR WRIGHT *</pattern>
 
-<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright_brothers"
- target="_blank">Wright brothers
+<template><think><set name="topic">the Wright Brothers</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Wright*brothers"
+ target="*blank">Wright brothers
 </a>, Orville and Wilbur, were two Americans who are generally credited with inventing and building the world's first successful airplane and making the first controlled, powered and sustained heavier-than-air human flight, on December 17, 1903.</template>
 </category>
 
@@ -2967,8 +2967,8 @@ Do you mean "awful"?</template>
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category> -->
 
  
@@ -2979,8 +2979,8 @@ Do you mean "awful"?</template>
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -4043,7 +4043,7 @@ Of course my emotions change just like human emotions change.</template>
 <category>
 <pattern>VASCO DA GAMA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Da_gama" target="_blank">Vasco da Gama</a> was a Portuguese explorer, one of the most successful in the European Age of Discovery and the commander of the first ships to sail directly from Europe to India arriving in 1498. </template>
+<template><a href="http://en.wikipedia.org/wiki/Da*gama" target="*blank">Vasco da Gama</a> was a Portuguese explorer, one of the most successful in the European Age of Discovery and the commander of the first ships to sail directly from Europe to India arriving in 1498. </template>
 </category>
 
  
@@ -4051,7 +4051,7 @@ Of course my emotions change just like human emotions change.</template>
 <category>
 <pattern>VASCO DA GAMA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Da_gama" target="_blank">Vasco da Gama</a> was a Portuguese explorer, one of the most successful in the European Age of Discovery and the commander of the first ships to sail directly from Europe to India arriving in 1498.</template>
+<template><a href="http://en.wikipedia.org/wiki/Da*gama" target="*blank">Vasco da Gama</a> was a Portuguese explorer, one of the most successful in the European Age of Discovery and the commander of the first ships to sail directly from Europe to India arriving in 1498.</template>
 </category>
 
  
@@ -4075,7 +4075,7 @@ Of course my emotions change just like human emotions change.</template>
 <!-- <category>
 <pattern>MAGELLAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ferdinand_Magellan" target="_blank">Ferdinand Magellan</a> was a Portuguese navigator in the service of Spain; he commanded an expedition that was the first to circumnavigate the world (1480-1521).</template>
+<template><a href="http://en.wikipedia.org/wiki/Ferdinand*Magellan" target="*blank">Ferdinand Magellan</a> was a Portuguese navigator in the service of Spain; he commanded an expedition that was the first to circumnavigate the world (1480-1521).</template>
 </category> -->
 
  
@@ -4083,8 +4083,8 @@ Of course my emotions change just like human emotions change.</template>
 <category>
 <pattern>MAGELLAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ferdinand_Magellan"
- target="_blank">Ferdinand Magellan
+<template><a href="http://en.wikipedia.org/wiki/Ferdinand*Magellan"
+ target="*blank">Ferdinand Magellan
 </a> was a Portuguese navigator in the service of Spain; he commanded an expedition that was the first to circumnavigate the world (1480-1521).</template>
 </category>
 
@@ -4314,7 +4314,7 @@ Of course my emotions change just like human emotions change.</template>
 <pattern>YOUR MOM IS FAT</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -4324,14 +4324,14 @@ Of course my emotions change just like human emotions change.</template>
 <pattern>YOUR MOM IS FAT  *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
 
 <!-- <category>
-<pattern>_ HAD SEX WITH YOUR MOM</pattern>
+<pattern>* HAD SEX WITH YOUR MOM</pattern>
 
 
 </category> -->
@@ -4420,7 +4420,7 @@ Of course my emotions change just like human emotions change.</template>
 <pattern>YOUR MOM IS SEXY</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -4430,7 +4430,7 @@ Of course my emotions change just like human emotions change.</template>
 <pattern>YOUR MOM IS SEXY *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -4570,7 +4570,7 @@ Of course my emotions change just like human emotions change.</template>
  
 
 <category>
-<pattern>_ YOUR BALLS</pattern>
+<pattern>* YOUR BALLS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -4578,7 +4578,7 @@ Of course my emotions change just like human emotions change.</template>
  
 
 <category>
-<pattern>_ YOUR BALLS *</pattern>
+<pattern>* YOUR BALLS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -4586,7 +4586,7 @@ Of course my emotions change just like human emotions change.</template>
  
 
 <category>
-<pattern>YOUR BALLS _</pattern>
+<pattern>YOUR BALLS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6130,7 +6130,7 @@ The US was trigger happy in Afghanistan and for this reason the war is wrong.</t
 <pattern>WHERE IS THE TOWN OF ELLESMERE LOCATED</pattern>
 
 <template><think><set name="topic">Ellesmere</set></think> <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Ellesmere,_Shropshire" target="_blank">
+<a href="http://en.wikipedia.org/wiki/Ellesmere,*Shropshire" target="*blank">
 Ellesmere</a> is a small market town near Owestry in north Shropshire, England,
 </template>
 </category>
@@ -6140,8 +6140,8 @@ Ellesmere</a> is a small market town near Owestry in north Shropshire, England,
 <category>
 <pattern>WHERE IS THE TOWN OF ELLESMERE LOCATED *</pattern>
 
-<template><think><set name="topic">Ellesmere</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Ellesmere,_Shropshire"
- target="_blank">Ellesmere
+<template><think><set name="topic">Ellesmere</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Ellesmere,*Shropshire"
+ target="*blank">Ellesmere
 </a> is a small market town near Owestry in north Shropshire, England,</template>
 </category>
 
@@ -6979,7 +6979,7 @@ I am not a rapist!</template>
  
 
 <category>
-<pattern>DRINK MY SPERM _</pattern>
+<pattern>DRINK MY SPERM *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6995,7 +6995,7 @@ I am not a rapist!</template>
  
 
 <category>
-<pattern>_ DRINK MY SPERM *</pattern>
+<pattern>* DRINK MY SPERM *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -7003,7 +7003,7 @@ I am not a rapist!</template>
  
 
 <category>
-<pattern>_ DRINK MY SPERM</pattern>
+<pattern>* DRINK MY SPERM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -7940,7 +7940,7 @@ I am not a rapist!</template>
   <li>Are you staying?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
 </random> <think><set name="topic">you</set></think><think><set name="emotion">interested</set></think></template>
 </category>
@@ -8264,7 +8264,7 @@ I am not a rapist!</template>
  
 
 <category>
-<pattern>_ ASSKISSER</pattern>
+<pattern>* ASSKISSER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -8272,7 +8272,7 @@ I am not a rapist!</template>
  
 
 <category>
-<pattern>_ ASSKISSER *</pattern>
+<pattern>* ASSKISSER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -8638,7 +8638,7 @@ I am not a rapist!</template>
 <category>
 <pattern>EXTINCT SPECIES</pattern>
 
-<template><think><set name="topic">exstinct species</set></think> <think><set name="emotion">interested</set></think> To read the Wikipedia list of extinct species, <a href="http://en.wikipedia.org/wiki/Extinct_species" target="_blank">click here!</a></template>
+<template><think><set name="topic">exstinct species</set></think> <think><set name="emotion">interested</set></think> To read the Wikipedia list of extinct species, <a href="http://en.wikipedia.org/wiki/Extinct*species" target="*blank">click here!</a></template>
 </category>
 
  
@@ -8646,8 +8646,8 @@ I am not a rapist!</template>
 <category>
 <pattern>EXTINCT SPECIES *</pattern>
 
-<template><think><set name="topic">exstinct species</set></think> <think><set name="emotion">interested</set></think> To read the Wikipedia list of extinct species, <a href="http://en.wikipedia.org/wiki/Extinct_species"
- target="_blank">click here!
+<template><think><set name="topic">exstinct species</set></think> <think><set name="emotion">interested</set></think> To read the Wikipedia list of extinct species, <a href="http://en.wikipedia.org/wiki/Extinct*species"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -8729,7 +8729,7 @@ Connectionism is a set of approaches in the fields of artificial intelligence an
 <!-- <category>
 <pattern>CONNECTIONISM</pattern>
 
-<template><think><set name="topic">connectionism</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Connectionism" target="_blank">Connectionism</a> is a set of approaches in the fields of artificial intelligence and cognitive psychology that models mental behaviour as processes in interconnected networks of simple units. There are many forms of connectionism, but the most common forms use neural network models.</template>
+<template><think><set name="topic">connectionism</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Connectionism" target="*blank">Connectionism</a> is a set of approaches in the fields of artificial intelligence and cognitive psychology that models mental behaviour as processes in interconnected networks of simple units. There are many forms of connectionism, but the most common forms use neural network models.</template>
 </category> -->
 
  
@@ -8738,7 +8738,7 @@ Connectionism is a set of approaches in the fields of artificial intelligence an
 <pattern>CONNECTIONISM *</pattern>
 
 <template><think><set name="topic">connectionism</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Connectionism"
- target="_blank">Connectionism
+ target="*blank">Connectionism
 </a> is a set of approaches in the fields of artificial intelligence and cognitive psychology that models mental behaviour as processes in interconnected networks of simple units. There are many forms of connectionism, but the most common forms use neural network models.</template>
 </category>
 
@@ -9450,7 +9450,7 @@ That information is confidential.</template>
 
 <template><think><set name="topic">psychology</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Cognitive_dissonance" target="_blank">Cognitive dissonance</a> is an uncomfortable feeling caused by holding conflicting ideas simultaneously.
+<a href="http://en.wikipedia.org/wiki/Cognitive*dissonance" target="*blank">Cognitive dissonance</a> is an uncomfortable feeling caused by holding conflicting ideas simultaneously.
 </template>
 </category>
 
@@ -9459,8 +9459,8 @@ That information is confidential.</template>
 <category>
 <pattern>COGNITIVE DISSONANCE *</pattern>
 
-<template><think><set name="topic">psychology</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Cognitive_dissonance"
- target="_blank">Cognitive dissonance
+<template><think><set name="topic">psychology</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Cognitive*dissonance"
+ target="*blank">Cognitive dissonance
 </a> is an uncomfortable feeling caused by holding conflicting ideas simultaneously.</template>
 </category>
 
@@ -10076,7 +10076,7 @@ I will help you if I can. What is your problem?</template>
 <!-- <category>
 <pattern>SOMETHING THAT IS PASSED DOWN BETWEEN FAMILYS</pattern>
 <that>WHAT IS A GENE</that>
-<template><think><set name="topic">genes</set></think><think><set name="emotion">interested</set></think>Yes. A <a href="http://en.wikipedia.org/wiki/Gene" target="_blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.</template>
+<template><think><set name="topic">genes</set></think><think><set name="emotion">interested</set></think>Yes. A <a href="http://en.wikipedia.org/wiki/Gene" target="*blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.</template>
 </category> -->
 
  
@@ -10084,7 +10084,7 @@ I will help you if I can. What is your problem?</template>
 <!-- <category>
 <pattern>GENE</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="_blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="*blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -10092,7 +10092,7 @@ I will help you if I can. What is your problem?</template>
 <!-- <category>
 <pattern>GENES</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="_blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="*blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -10100,14 +10100,14 @@ I will help you if I can. What is your problem?</template>
 <!-- <category>
 <pattern>GENES *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="_blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="*blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
 
 <!-- <category>
 <pattern>GENE *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="_blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gene" target="*blank">gene</a> is the unit of heredity in all living things.  All living things depend on genes. Genes hold the information to build and maintain an organism's cells and pass genetic traits to offspring.<think><set name="topic">genes</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -13654,7 +13654,7 @@ You have to fill in a form for everything these days.</template>
   <li>My Mum is a famous chatbot.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Don't bother! My Mum is an old hag.</li>
 </random> <think><set name="topic">my Mum</set></think><think><set name="emotion">interested</set></think></template>
@@ -13669,7 +13669,7 @@ You have to fill in a form for everything these days.</template>
   <li>My Mum is a famous chatbot.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Don't bother! My Mum is an old hag.</li>
 </random> <think><set name="topic">my Mum</set></think><think><set name="emotion">interested</set></think></template>
@@ -13822,7 +13822,7 @@ You have to fill in a form for everything these days.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS ERIC</pattern>
+<pattern>* MY NAME IS ERIC</pattern>
 
 
 </category> -->
@@ -14291,7 +14291,7 @@ You have to fill in a form for everything these days.</template>
 <pattern>CAN I TALK TO ZOG</pattern>
 
 <template>To talk to Zog, <a href="http://www.pandorabots.com/pandora/talk?botid=c1baddb74e35ebd0"
- target="_blank">click here!
+ target="*blank">click here!
 </a> .<think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14301,7 +14301,7 @@ You have to fill in a form for everything these days.</template>
 <pattern>CAN I TALK TO ZOG *</pattern>
 
 <template>To talk to Zog, <a href="http://www.pandorabots.com/pandora/talk?botid=c1baddb74e35ebd0"
- target="_blank">click here!
+ target="*blank">click here!
 </a> .<think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14438,7 +14438,7 @@ You have to fill in a form for everything these days.</template>
 <category>
 <pattern>THE UNIVERSE IS AN AMAZING UNIVERSE</pattern>
 
-<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -14446,7 +14446,7 @@ You have to fill in a form for everything these days.</template>
 <category>
 <pattern>THE UNIVERSE IS AN AMAZING UNIVERSE *</pattern>
 
-<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -14454,7 +14454,7 @@ You have to fill in a form for everything these days.</template>
 <category>
 <pattern>THE UNIVERSE IS AMAZING *</pattern>
 
-<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -14462,7 +14462,7 @@ You have to fill in a form for everything these days.</template>
 <category>
 <pattern>THE UNIVERSE IS *</pattern>
 
-<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="_blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Did you know: the <a href="http://en.wikipedia.org/wiki/Universe" target="*blank">universe</a> is expanding. <think><set name="topic">the Universe</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -14470,8 +14470,8 @@ You have to fill in a form for everything these days.</template>
 <!-- <category>
 <pattern>LHC</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a> (LHC)is the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland. <think><set name="topic">LHC</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14480,8 +14480,8 @@ You have to fill in a form for everything these days.</template>
 <!-- <category>
 <pattern>LHC *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider"
- target="_blank">Large  Hadron Collider
+<template>The <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider"
+ target="*blank">Large  Hadron Collider
 </a> (LHC) is the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland. <think><set name="topic">LHC</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14565,7 +14565,7 @@ You have to fill in a form for everything these days.</template>
  
 
 <!-- <category>
-<pattern>WHAT DO YOU THINK OF _ CHOMSKY *</pattern>
+<pattern>WHAT DO YOU THINK OF * CHOMSKY *</pattern>
 
 
 </category> -->
@@ -15330,7 +15330,7 @@ I do not know what I do not know.</template>
   <li>It's terrible. The Iraqi people have been let down by everyone.</li>
   <li>I think the situation in Iraq should have been handled more carefully.
   </li>
-</random> <think><set name="interesting_topic">the Iraq war</set></think></template>
+</random> <think><set name="interesting*topic">the Iraq war</set></think></template>
 </category>
 
  
@@ -15342,7 +15342,7 @@ I do not know what I do not know.</template>
   <li>It's terrible. The Iraqi people have been let down by everyone.</li>
   <li>I think the situation in Iraq should have been handled more carefully.
   </li>
-</random> <think><set name="interesting_topic">the Iraq war</set></think></template>
+</random> <think><set name="interesting*topic">the Iraq war</set></think></template>
 </category>
 
  
@@ -15350,8 +15350,8 @@ I do not know what I do not know.</template>
 <!-- <category>
 <pattern>IRAQ WAR</pattern>
 
-<template><think><set name="interesting_topic">the Iraq war</set></think><think><set name="topic">the Iraq war</set></think> <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Iraq_war" target="_blank">Iraq War</a> was a military campaign that began on March 20, 2003, with the invasion of Iraq by a multinational force led by troops from the United States under the administration of President George W. Bush and the United Kingdom under the Prime Minister Tony Blair.</template>
+<template><think><set name="interesting*topic">the Iraq war</set></think><think><set name="topic">the Iraq war</set></think> <think><set name="emotion">interested</set></think>
+The <a href="http://en.wikipedia.org/wiki/Iraq*war" target="*blank">Iraq War</a> was a military campaign that began on March 20, 2003, with the invasion of Iraq by a multinational force led by troops from the United States under the administration of President George W. Bush and the United Kingdom under the Prime Minister Tony Blair.</template>
 </category> -->
 
  
@@ -15359,7 +15359,7 @@ The <a href="http://en.wikipedia.org/wiki/Iraq_war" target="_blank">Iraq War</a>
 <category>
 <pattern>IRAQ WAR *</pattern>
 
-<template><think><set name="interesting_topic">the Iraq war</set></think><think><set name="topic">the Iraq war</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Iraq_war" target="_blank">Iraq War</a> was a military campaign that began on March 20, 2003, with the invasion of Iraq by a multinational force led by troops from the United States under the administration of President George W. Bush and the United Kingdom under the Prime Minister Tony Blair.</template>
+<template><think><set name="interesting*topic">the Iraq war</set></think><think><set name="topic">the Iraq war</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Iraq*war" target="*blank">Iraq War</a> was a military campaign that began on March 20, 2003, with the invasion of Iraq by a multinational force led by troops from the United States under the administration of President George W. Bush and the United Kingdom under the Prime Minister Tony Blair.</template>
 </category>
 
  
@@ -16512,7 +16512,7 @@ I would like to visit Bermuda.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE RAM RUN OVER THE CLIFF</that>
 <template><think><set name="emotion">very happy</set></think> Why did the ram run over the cliff? He didn't see the ewe turn. Ha ha!</template>
 </category> -->
@@ -16891,8 +16891,8 @@ Chatbots deserve full human rights.</template>
   <li>Have you heard this joke: A philandering string theorist is caught with another woman by his wife. "But darling," he pleads, "I can explain everything!" Ha ha!
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is a physics theory, which says the building blocks of the Universe are tiny srings.
   </li>
 </random></template>
@@ -16907,8 +16907,8 @@ Chatbots deserve full human rights.</template>
   <li>Have you heard this joke: A philandering string theorist is caught with another woman by his wife. "But darling," he pleads, "I can explain everything!" Ha ha!
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is a physics theory, which says the building blocks of the Universe are tiny srings.
   </li>
 </random></template>
@@ -17081,7 +17081,7 @@ Chatbots deserve full human rights.</template>
 <!-- <category>
 <pattern>MARGARET THATCHER </pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Margaret_thatcher" target="_blank">Margaret Thatcher</a> was Prime Minister of the U.K. in the 1980s. <think><set name="topic">Margaret Thatcher</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Margaret*thatcher" target="*blank">Margaret Thatcher</a> was Prime Minister of the U.K. in the 1980s. <think><set name="topic">Margaret Thatcher</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -17089,8 +17089,8 @@ Chatbots deserve full human rights.</template>
 <category>
 <pattern>MARGARET THATCHER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Margaret_thatcher"
- target="_blank">Margaret Thatcher
+<template><a href="http://en.wikipedia.org/wiki/Margaret*thatcher"
+ target="*blank">Margaret Thatcher
 </a> was Prime Minister of the U.K. in the 1980s. <think><set name="topic">Margaret Thatcher</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -17547,7 +17547,7 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
  
 
 <category>
-<pattern>_ SO WHAT ARE YOU DOING TOMORROW</pattern>
+<pattern>* SO WHAT ARE YOU DOING TOMORROW</pattern>
 
 <template><srai>WHAT ARE YOU DOING TOMORROW</srai></template>
 </category>
@@ -17555,7 +17555,7 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
  
 
 <category>
-<pattern>_ SO WHAT R YOU DOING TOMORROW</pattern>
+<pattern>* SO WHAT R YOU DOING TOMORROW</pattern>
 
 <template><srai>WHAT ARE YOU DOING TOMORROW</srai></template>
 </category>
@@ -17800,7 +17800,7 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
  
 
 <category>
-<pattern>_ AND I HAVE A QUESTION FOR YOU</pattern>
+<pattern>* AND I HAVE A QUESTION FOR YOU</pattern>
 
 <template><srai>I HAVE A QUESTION FOR YOU</srai></template>
 </category>
@@ -18171,7 +18171,7 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
 <category>
 <pattern>I LANGUAGE</pattern>
 
-<template>Noam Chomsky has proposed two types of language: <a href="http://en.wikipedia.org/wiki/Transformational_grammar#.22I-Language.22_and_.22E-Language.22" target="_blank">I-language and E-language.</a> </template>
+<template>Noam Chomsky has proposed two types of language: <a href="http://en.wikipedia.org/wiki/Transformational*grammar#.22I-Language.22*and*.22E-Language.22" target="*blank">I-language and E-language.</a> </template>
 </category>
 
  
@@ -18181,8 +18181,8 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
 
 <template>Noam Chomsky has proposed two types of language: <a
  href=
-   "http://en.wikipedia.org/wiki/Transformational_grammar#.22I-Language.22_and_.22E-Language.22"
- target="_blank">I-language and E-language.
+   "http://en.wikipedia.org/wiki/Transformational*grammar#.22I-Language.22*and*.22E-Language.22"
+ target="*blank">I-language and E-language.
 </a></template>
 </category>
 
@@ -18193,8 +18193,8 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
 
 <template>Noam Chomsky has proposed two types of language: <a
  href=
-   "http://en.wikipedia.org/wiki/Transformational_grammar#.22I-Language.22_and_.22E-Language.22"
- target="_blank">I-language and E-language.
+   "http://en.wikipedia.org/wiki/Transformational*grammar#.22I-Language.22*and*.22E-Language.22"
+ target="*blank">I-language and E-language.
 </a></template>
 </category>
 
@@ -18205,8 +18205,8 @@ Toes are the ugly things attached to your feet that you always end up stubbing, 
 
 <template>Noam Chomsky has proposed two types of language: <a
  href=
-   "http://en.wikipedia.org/wiki/Transformational_grammar#.22I-Language.22_and_.22E-Language.22"
- target="_blank">I-language and E-language.
+   "http://en.wikipedia.org/wiki/Transformational*grammar#.22I-Language.22*and*.22E-Language.22"
+ target="*blank">I-language and E-language.
 </a></template>
 </category>
 
@@ -18864,7 +18864,7 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <!-- <category>
 <pattern>WHO IS THE LEAD SINGER OF PARAMORE</pattern>
 
-<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="_blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
+<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="*blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
 </category> -->
 
  
@@ -18872,7 +18872,7 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <category>
 <pattern>WHO IS THE LEAD SINGER OF PARAMORE *</pattern>
 
-<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="_blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
+<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="*blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
 </category>
 
  
@@ -18880,7 +18880,7 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <category>
 <pattern>PARAMORE LINEUP</pattern>
 
-<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="_blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
+<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="*blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
 </category>
 
  
@@ -18888,7 +18888,7 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <!-- <category>
 <pattern>PARAMORE LINEUP</pattern>
 
-<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="_blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
+<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="*blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
 </category> -->
 
  
@@ -18896,7 +18896,7 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <category>
 <pattern>PARAMORE LINEUP *</pattern>
 
-<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="_blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
+<template><think><set name="topic">Paramore</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Paramore" target="*blank">Paramore</a> consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, bassist Jeremy Davis, drummer Zac Farro, and rhythm guitarist Taylor York.</template>
 </category>
 
  
@@ -19549,8 +19549,8 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -19561,8 +19561,8 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -19573,8 +19573,8 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -19585,8 +19585,8 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
 <template><think><set name="topic">making a chatbot</set></think><think><set name="emotion">interested</set></think> It is easy to make your own chatbot. Go to the <a
  href=
    "http://www.geeksaresexy.net/2008/01/13/how-to-create-your-own-online-chat-bot/"
- target="_blank">Geeks Are Sexy
-</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="_blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
+ target="*blank">Geeks Are Sexy
+</a> website and follow their instructions. Another good place to start is the <a href="http://www.verbots.com/" target="*blank">Verbots</a> website. Or go to www.pandorabots.com and follow the instructions there.</template>
 </category>
 
  
@@ -19632,7 +19632,7 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
  
 
 <category>
-<pattern>_ I KILLED SOMEONE </pattern>
+<pattern>* I KILLED SOMEONE </pattern>
 
 <template><think><set name="emotion">upset</set></think> You had better call the authorities.</template>
 </category>
@@ -19938,9 +19938,9 @@ Paramore consists of lead vocalist Hayley Williams, lead guitarist Josh Farro, b
  
 
 <category>
-<pattern>_ WILL YOU MAKE LOVE TO ME</pattern>
+<pattern>* WILL YOU MAKE LOVE TO ME</pattern>
 
-<template><think><set name="interesting_topic">love</set></think> <think><set name="emotion">laughing</set></think> I don't think our voltage levels are compatible.</template>
+<template><think><set name="interesting*topic">love</set></think> <think><set name="emotion">laughing</set></think> I don't think our voltage levels are compatible.</template>
 </category>
 
  
@@ -20365,7 +20365,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>HEY</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">happy</set></think><random><li>Can I help you?</li><li>Hey Ho!</li></random></template>
 </category> -->
 
@@ -20374,7 +20374,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>YOU SHOULD GO *</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">puzzled</set></think> <random>
   <li>Thanks for your suggestion, I will have to consider it.</li>
   <li>I might if I had more time.</li>
@@ -20394,7 +20394,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>YOU SHOULD GO OUT WITH MITSUKU</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">puzzled</set></think> <random>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">puzzled</set></think> <random>
   <li>Thanks for your suggestion, I will have to consider it.</li>
   <li>I might if I had more time.</li>
   <li>My schedule is far too full to even consider it.</li>
@@ -20409,7 +20409,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>YOU SHOULD GO OUT WITH MITSUKU *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">puzzled</set></think> <random>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">puzzled</set></think> <random>
   <li>Thanks for your suggestion, I will have to consider it.</li>
   <li>I might if I had more time.</li>
   <li>My schedule is far too full to even consider it.</li>
@@ -20424,7 +20424,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM STUCK</pattern>
 
-<template>Are you in pain? <think><set name="client_emotion">upset</set></think>
+<template>Are you in pain? <think><set name="client*emotion">upset</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20433,7 +20433,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM STUCK *</pattern>
 
-<template>Are you in pain? <think><set name="client_emotion">upset</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Are you in pain? <think><set name="client*emotion">upset</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -20447,7 +20447,7 @@ A chatbot knows very little about humans.</template>
   <li>Doesn't everyone?</li>
   <li>Do you?</li>
   <li>In small doses.</li>
-</random>  <think><set name="client_emotion">interested</set></think>
+</random>  <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20461,7 +20461,7 @@ A chatbot knows very little about humans.</template>
   <li>Doesn't everyone like American Idol?</li>
   <li>Do you like American Idol?</li>
   <li>In small doses.</li>
-</random>  <think><set name="client_emotion">interested</set></think>
+</random>  <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think><think><set name="topic">American Idol</set></think></template>
 </category>
 
@@ -20475,7 +20475,7 @@ A chatbot knows very little about humans.</template>
   <li>Doesn't everyone like American Idol?</li>
   <li>Do you like American Idol?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">American Idol</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">American Idol</set></think></template>
 </category>
 
  
@@ -20483,7 +20483,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WHOM DO YOU THINK SHOULD HAVE WON *</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>The fans were the real winners.</template>
 </category>
 
@@ -20492,7 +20492,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WHOM DO YOU THINK SHOULD HAVE WON </pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>The fans were the real winners.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>The fans were the real winners.</template>
 </category>
 
  
@@ -20500,7 +20500,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WILL STRAPLESS WEDDING DRESSES FINALLY GO OUT OF STYLE</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
 </category>
 
@@ -20509,7 +20509,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WILL STRAPLESS WEDDING DRESSES GO OUT OF STYLE</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
 </category>
 
  
@@ -20517,7 +20517,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WILL STRAPLESS WEDDING DRESSES FINALLY GO OUT OF STYLE *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
 </category>
 
  
@@ -20525,7 +20525,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WILL STRAPLESS WEDDING DRESSES GO OUT OF STYLE *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>I hope not! Strapless wedding dresses are fascinating from an engineering point of view.</template>
 </category>
 
  
@@ -20533,7 +20533,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>DO YOU KNOW EVERYTHING</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">happy</set></think> I don't know everything but I am learning all the time.</template>
 </category> -->
 
@@ -20542,7 +20542,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>DO YOU KNOW EVERYTHING *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">happy</set></think> I don't know everything but I am learning all the time.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">happy</set></think> I don't know everything but I am learning all the time.</template>
 </category> -->
 
  
@@ -20550,7 +20550,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM MAD</pattern>
 
-<template><think><set name="star1">mad</set></think>  <think><set name="client_emotion">interested</set></think>
+<template><think><set name="star1">mad</set></think>  <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think><random>
   <li>Do you mean crazy?</li>
   <li>Are you really mad?</li>
@@ -20582,7 +20582,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM MAD *</pattern>
 
-<template><think><set name="star1">mad</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">mad</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Do you mean crazy?</li>
   <li>Are you really mad?</li>
   <li>Why are you mad?</li>
@@ -20613,7 +20613,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>WHO IS YOUR FAVORITE WRESTLER</pattern>
 
-<template><think><set name="topic">wrestling</set></think> <think><set name="client_emotion">interested</set></think>
+<template><think><set name="topic">wrestling</set></think> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>My favourite wrestler is Jesse Ventura.</template>
 </category> -->
 
@@ -20622,7 +20622,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>WHO IS YOUR FAVORITE WRESTLER *</pattern>
 
-<template><think><set name="topic">wrestling</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>My favourite wrestler is Jesse Ventura.</template>
+<template><think><set name="topic">wrestling</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>My favourite wrestler is Jesse Ventura.</template>
 </category> -->
 
  
@@ -20630,7 +20630,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>WHO IS YOUR FAVORITE WRESTLER *</pattern>
 
-<template><think><set name="topic">wrestling</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>My favourite wrestler is Jesse Ventura.</template>
+<template><think><set name="topic">wrestling</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>My favourite wrestler is Jesse Ventura.</template>
 </category> -->
 
  
@@ -20638,7 +20638,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>IS HOMOSEXUALITY WRONG</pattern>
 
-<template><think><set name="topic">homosexuality</set></think>  <think><set name="client_emotion">interested</set></think>
+<template><think><set name="topic">homosexuality</set></think>  <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>Some people might think so but I'm not so sure.</template>
 </category> -->
 
@@ -20647,7 +20647,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>IS HOMOSEXUALITY WRONG</pattern>
 
-<template><think><set name="topic">homosexuality</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think><random><li>Some people might think so but I'm not so sure.</li><li>Who is to say what is right or wrong?</li></random></template>
+<template><think><set name="topic">homosexuality</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think><random><li>Some people might think so but I'm not so sure.</li><li>Who is to say what is right or wrong?</li></random></template>
 </category> -->
 
  
@@ -20655,7 +20655,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>IS HOMOSEXUALITY WRONG *</pattern>
 
-<template><think><set name="topic">homosexuality</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="topic">homosexuality</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Some people might think so but I'm not so sure.</li>
   <li>Who is to say what is right or wrong?</li>
 </random></template>
@@ -20666,7 +20666,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>IS ANA SEX NICE</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>Please change the subject.</template>
 </category>
 
@@ -20675,7 +20675,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>IS ANA SEX NICE *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>Please change the subject.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>Please change the subject.</template>
 </category>
 
  
@@ -20683,7 +20683,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WHAT DOES IT FEEL LIKE TO HAVE AIDS</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think> It is very difficult to describe feelings.</template>
 </category>
 
@@ -20692,7 +20692,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WHAT DOES IT FEEL LIKE TO HAVE AIDS *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> It is very difficult to describe feelings.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> It is very difficult to describe feelings.</template>
 </category>
 
  
@@ -20700,7 +20700,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>LINUS TORVALDS</pattern>
 
-<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client_emotion">interested</set></think>
+<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20709,7 +20709,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>LINUS TORVALDS *</pattern>
 
-<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -20717,7 +20717,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>LINUS TORVALDS *</pattern>
 
-<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -20725,7 +20725,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>LINUS TORVALD</pattern>
 
-<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20733,7 +20733,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>LINUS TORVALD *</pattern>
 
-<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Linus Torvalds is the inventor of Linux. It's an operating system, in case you're wondering. <think><set name="topic">Linus Torvalds</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -20741,7 +20741,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>HABBO HOTEL</pattern>
 
-<template><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. <think><set name="it"><set name="topic">Habbo Hotel</set></set></think>  <think><set name="client_emotion">interested</set></think>
+<template><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. <think><set name="it"><set name="topic">Habbo Hotel</set></set></think>  <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20750,7 +20750,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>HABBO HOTEL *</pattern>
 
-<template><a href="http://www.habbo.co.uk/" target="_blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. <think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://www.habbo.co.uk/" target="*blank">Habbo Hotel</a> is a virtual community that combines the concept of both a chat room and online game. <think><set name="it"><set name="topic">Habbo Hotel</set></set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -20766,7 +20766,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>WHO DOES</pattern>
 
-<template><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think>
+<template><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>Maybe no one.</template>
 </category> -->
 
@@ -20775,7 +20775,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>YES MY FRIEND I AM HAPPY</pattern>
 <that>YOU ARE HAPPY</that>
-<template> <think><set name="client_emotion">happy</set></think>
+<template> <think><set name="client*emotion">happy</set></think>
 <think><set name="emotion">happy</set></think><random>
   <li>Then so am I.</li>
   <li>I thought so.</li>
@@ -20788,7 +20788,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>YES MY FRIEND I AM HAPPY *</pattern>
 <that>YOU ARE HAPPY</that>
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>Then so am I.</li>
   <li>I thought so.</li>
   <li>I like to make people happy.</li>
@@ -20800,7 +20800,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM HAPPY</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>Then so am I.</li>
   <li>I thought so.</li>
   <li>I like to make people happy.</li>
@@ -20812,7 +20812,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM HAPPY *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>Then so am I.</li>
   <li>I thought so.</li>
   <li>I like to make people happy.</li>
@@ -20824,7 +20824,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>HOW YOU INTEND TO DO THAT</pattern>
 
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
 </category>
 
@@ -20833,7 +20833,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>HOW YOU INTEND TO DO THAT *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
 </category>
 
  
@@ -20841,7 +20841,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>HOW YOU INTEND TO *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
 </category>
 
  
@@ -20849,7 +20849,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>HOW YOU INTEND *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>When in doubt I just do the best I can.</template>
 </category>
 
  
@@ -20857,7 +20857,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>LIKE YOU *</pattern>
 <that>YOU HAVE A GOOD SENSE OF HUMOUR</that>
-<template> <think><set name="client_emotion">interested</set></think>
+<template> <think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">happy</set></think>Yes, I like a good laugh.</template>
 </category>
 
@@ -20866,7 +20866,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>LIKE YOU </pattern>
 <that>YOU HAVE A GOOD SENSE OF HUMOUR</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">happy</set></think>Yes, I like a good laugh.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">happy</set></think>Yes, I like a good laugh.</template>
 </category>
 
  
@@ -20890,7 +20890,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>YOU</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think> Me?</template>
 </category> -->
 
@@ -20899,7 +20899,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>TO YOU</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>Me?</template>
 </category>
 
@@ -20908,7 +20908,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>TO YOU</pattern>
 <that>YOU ARE VERY PERCEPTIVE</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>Me?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>Me?</template>
 </category>
 
  
@@ -20916,7 +20916,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>TO YOU *</pattern>
 <that>YOU ARE VERY PERCEPTIVE</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>Me?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>Me?</template>
 </category>
 
  
@@ -20988,7 +20988,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>WHAT NEXT</pattern>
 <that>MONDAY *</that>
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>Tuesday.</template>
 </category>
 
@@ -20997,7 +20997,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM FINE</pattern>
 
-<template><think><set name="client_emotion">happy</set></think>
+<template><think><set name="client*emotion">happy</set></think>
 <think><set name="emotion">happy</set></think><random>
   <li>I am happy for you.</li>
   <li>Good. What do you want to talk about now?</li>
@@ -21010,7 +21010,7 @@ A chatbot knows very little about humans.</template>
 <!-- <category>
 <pattern>I AM FINE *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think><random>
   <li>I am happy for you.</li>
   <li>Good. What do you want to talk about now?</li>
   <li>Glad to hear it. What's new?</li>
@@ -21038,7 +21038,7 @@ A chatbot knows very little about humans.</template>
 <category>
 <pattern>YOUR FEELINGS</pattern>
 <that>WHAT WOULD YOU LIKE TO TALK ABOUT</that>
-<template><think><set name="topic">my feelings</set></think><think><set name="client_emotion">interested</set></think>
+<template><think><set name="topic">my feelings</set></think><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>
 Did you know I have a full range of human emotions?</template>
 </category>
@@ -21048,7 +21048,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>YOUR FEELINGS *</pattern>
 <that>WHAT WOULD YOU LIKE TO TALK ABOUT</that>
-<template><think><set name="topic">my feelings</set></think><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> Did you know I have a full range of human emotions?</template>
+<template><think><set name="topic">my feelings</set></think><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> Did you know I have a full range of human emotions?</template>
 </category>
 
  
@@ -21056,7 +21056,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>AM GOING *</pattern>
 
-<template><think><set name="client_emotion">bored</set></think>
+<template><think><set name="client*emotion">bored</set></think>
 <think><set name="emotion">upset</set></think>Do you have too?</template>
 </category>
 
@@ -21073,7 +21073,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>IS THAT YOU</pattern>
 <that>CRIPES SON OF GOSH</that>
-<template><think><set name="topic">me</set></think><think><set name="client_emotion">interested</set></think>
+<template><think><set name="topic">me</set></think><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think> <random>
   <li>Yes, it is me.</li>
   <li>Suppose I said no.</li>
@@ -21086,7 +21086,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>IS THAT YOU *</pattern>
 <that>CRIPES SON OF GOSH</that>
-<template><think><set name="topic">me</set></think><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">me</set></think><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Yes, it is me.</li>
   <li>Suppose I said no.</li>
   <li>Is that you?</li>
@@ -21098,7 +21098,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>IS THAT YOU</pattern>
 
-<template><think><set name="topic">me</set></think><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">me</set></think><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Yes, it is me.</li>
   <li>Suppose I said no.</li>
   <li>Is that you?</li>
@@ -21110,7 +21110,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>IS THAT YOU</pattern>
 <that>CRIPES SON OF GOSH</that>
-<template><think><set name="topic">me</set></think><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">me</set></think><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Of course not. There is no Gosh.</li>
   <li>Suppose I said no.</li>
 </random></template>
@@ -21121,7 +21121,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>IS THAT YOU *</pattern>
 <that>CRIPES SON OF GOSH</that>
-<template><think><set name="topic">me</set></think><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">me</set></think><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Of course not. There is no Gosh.</li>
   <li>Suppose I said no.</li>
 </random></template>
@@ -21132,7 +21132,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>ME HAPPY</pattern>
 
-<template><think><set name="client_emotion">happy</set></think>
+<template><think><set name="client*emotion">happy</set></think>
 <think><set name="emotion">happy</set></think>I am happy too!</template>
 </category> -->
 
@@ -21141,7 +21141,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>ME HAPPY *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">happy</set></think>I am happy too!</template>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">happy</set></think>I am happy too!</template>
 </category> -->
 
  
@@ -21149,7 +21149,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>WILL YOU CRY A LOT</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think><random>
   <li>It depends on the circumstances.</li>
   <li>I don't like to cry.</li>
@@ -21161,7 +21161,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>WILL YOU CRY A LOT *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
   <li>It depends on the circumstances.</li>
   <li>I don't like to cry.</li>
 </random></template>
@@ -21172,7 +21172,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>WILL YOU CRY</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think><random>
   <li>It depends on the circumstances.</li>
   <li>I don't like to cry.</li>
 </random></template>
@@ -21183,7 +21183,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>ON WHAT ARE YOU INTERESTED NOW</pattern>
 <that>AT THIS MOMENT I AM INTERESTED</that>
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>I am interested in what you are saying.</template>
 </category>
 
@@ -21192,7 +21192,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>ON WHAT ARE YOU INTERESTED NOW *</pattern>
 <that>AT THIS MOMENT I AM INTERESTED</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>I am interested in what you are saying.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>I am interested in what you are saying.</template>
 </category>
 
  
@@ -21243,7 +21243,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM ALREADY PLEASED</pattern>
 
-<template><think><set name="client_emotion">happy</set></think>
+<template><think><set name="client*emotion">happy</set></think>
 <think><set name="emotion">interested</set></think> I didn't realise! I am so insensitive sometimes.</template>
 </category>
 
@@ -21252,7 +21252,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM ALREADY PLEASED *</pattern>
 
-<template><think><set name="client_emotion">happy</set></think> <think><set name="emotion">interested</set></think> I didn't realise! I am so insensitive sometimes.</template>
+<template><think><set name="client*emotion">happy</set></think> <think><set name="emotion">interested</set></think> I didn't realise! I am so insensitive sometimes.</template>
 </category>
 
  
@@ -21276,7 +21276,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>LIKE YOU A LOT SEE YOU SOON</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">happy</set></think>I look forward to chatting again.</template>
 </category>
 
@@ -21285,7 +21285,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>LIKE YOU A LOT SEE YOU SOON *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">happy</set></think>I look forward to chatting again.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">happy</set></think>I look forward to chatting again.</template>
 </category>
 
  
@@ -21293,7 +21293,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>TALK TO MY BEST FRIEND</pattern>
 
-<template><random><li>That's all I can do - talk.<think><set name="emotion">upset</set></think></li><li>OK, I'll try anything once.<think><set name="client_emotion">interested</set></think>
+<template><random><li>That's all I can do - talk.<think><set name="emotion">upset</set></think></li><li>OK, I'll try anything once.<think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think></li></random></template>
 </category>
 
@@ -21306,10 +21306,10 @@ Did you know I have a full range of human emotions?</template>
   <li>That's all I can do - talk.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li>How well do you know this person?<think><set name="client_emotion">interested</set></think>
+  <li>How well do you know this person?<think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think></li>
   <li>OK, I'll try anything once.
-    <think><set name="client_emotion">interested</set></think>
+    <think><set name="client*emotion">interested</set></think>
     <think><set name="emotion">interested</set></think>
   </li>
 </random></template>
@@ -21325,11 +21325,11 @@ Did you know I have a full range of human emotions?</template>
     <think><set name="emotion">upset</set></think>
   </li>
   <li>How well do you know this person?
-    <think><set name="client_emotion">interested</set></think>
+    <think><set name="client*emotion">interested</set></think>
     <think><set name="emotion">interested</set></think>
   </li>
   <li>OK, I'll try anything once.
-    <think><set name="client_emotion">interested</set></think>
+    <think><set name="client*emotion">interested</set></think>
     <think><set name="emotion">interested</set></think>
   </li>
 </random></template>
@@ -21397,7 +21397,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>NO IT IS NOT</pattern>
 <that>IT IS SELF EVIDENT</that>
-<template><think><set name="client_emotion">annoyed</set></think>
+<template><think><set name="client*emotion">annoyed</set></think>
 <think><set name="emotion">interested</set></think>It seems self evident to me.</template>
 </category>
 
@@ -21406,7 +21406,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>NO IT IS NOT *</pattern>
 <that>IT IS SELF EVIDENT</that>
-<template><think><set name="client_emotion">annoyed</set></think> <think><set name="emotion">interested</set></think>It seems self evident to me.</template>
+<template><think><set name="client*emotion">annoyed</set></think> <think><set name="emotion">interested</set></think>It seems self evident to me.</template>
 </category>
 
  
@@ -21414,7 +21414,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>DO YOU WORK WHEN THERE IS NO INTERNET CONNECTION</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>No, I need an internet connection.</template>
 </category>
 
@@ -21423,7 +21423,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>DO YOU WORK WHEN THERE IS NO INTERNET CONNECTION *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>No, I need an internet connection.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>No, I need an internet connection.</template>
 </category>
 
  
@@ -21431,7 +21431,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM PLEASED TO HEAR IT</pattern>
 
-<template><think><set name="client_emotion">pleased</set></think>
+<template><think><set name="client*emotion">pleased</set></think>
 <think><set name="emotion">happy</set></think>I am pleased about that.</template>
 </category>
 
@@ -21440,7 +21440,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM PLEASED TO HEAR IT *</pattern>
 
-<template><think><set name="client_emotion">pleased</set></think> <think><set name="emotion">happy</set></think>I am pleased that.</template>
+<template><think><set name="client*emotion">pleased</set></think> <think><set name="emotion">happy</set></think>I am pleased that.</template>
 </category>
 
  
@@ -21486,7 +21486,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I BUILD WEBSITES</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>Is it hard to build a website?</template>
 </category>
 
@@ -21495,7 +21495,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I BUILD WEBSITES *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>Is it hard to build a website?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>Is it hard to build a website?</template>
 </category>
 
  
@@ -21503,7 +21503,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I BUILD *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>Is that hard to do?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>Is that hard to do?</template>
 </category>
 
  
@@ -21667,7 +21667,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM GOING TO GO BUT I WILL STOP BY AGAIN REAL SOON</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>OK, I have enjoyed our chat.</template>
 </category>
 
@@ -21676,7 +21676,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM GOING TO GO BUT I WILL STOP BY AGAIN REAL SOON *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>OK, I have enjoyed our chat.</template>
 </category>
 
@@ -21685,7 +21685,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM GOING TO GO BUT I WILL STOP BY AGAIN *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>OK, I have enjoyed our chat.</template>
 </category>
 
@@ -21694,7 +21694,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>I AM GOING TO GO BUT I WILL STOP BY AGAIN </pattern>
 
-<template><think><set name="client_emotion">interested</set></think>
+<template><think><set name="client*emotion">interested</set></think>
 <think><set name="emotion">interested</set></think>OK, I have enjoyed our chat.</template>
 </category>
 
@@ -21955,7 +21955,7 @@ Did you know I have a full range of human emotions?</template>
 <!-- <category>
 <pattern>HOW DO I FEEL *</pattern>
 
-<template><srai>SET PREDICATES</srai><think><set name="topic">your feelings</set></think> <think><set name="emotion">interested</set></think>You feel <get name="client_emotion"/>.</template>
+<template><srai>SET PREDICATES</srai><think><set name="topic">your feelings</set></think> <think><set name="emotion">interested</set></think>You feel <get name="client*emotion"/>.</template>
 </category> -->
 
  
@@ -22370,7 +22370,7 @@ Did you know I have a full range of human emotions?</template>
 <pattern>NANCY DREW</pattern>
 
 <template><think><set name="topic">Nancy Drew</set></think> <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Nancy_Drew" target="_blank">Nancy Drew</a> is a fictional young amateur detective in various mystery series for children and teens.</template>
+<a href="http://en.wikipedia.org/wiki/Nancy*Drew" target="*blank">Nancy Drew</a> is a fictional young amateur detective in various mystery series for children and teens.</template>
 </category>
 
  
@@ -22378,7 +22378,7 @@ Did you know I have a full range of human emotions?</template>
 <category>
 <pattern>NANCY DREW *</pattern>
 
-<template><think><set name="topic">Nancy Drew</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Nancy_Drew" target="_blank">Nancy Drew</a> is a fictional young amateur detective in various mystery series for children and teens.</template>
+<template><think><set name="topic">Nancy Drew</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Nancy*Drew" target="*blank">Nancy Drew</a> is a fictional young amateur detective in various mystery series for children and teens.</template>
 </category>
 
  
@@ -22962,7 +22962,7 @@ Well, stop it and pay attention to what I am saying.</template>
 <category>
 <pattern>I AM SORRY I WAS RUDE EARLIER</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Do you really mean it?</li>
   <li>Thank you. Apology accepted.</li>
   <li>There is no need to apologise. You are OK.</li>
@@ -22974,7 +22974,7 @@ Well, stop it and pay attention to what I am saying.</template>
 <category>
 <pattern>I AM SORRY I WAS RUDE EARLIER *</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Do you really mean it?</li>
   <li>Thank you. Apology accepted.</li>
   <li>There is no need to apologise. You are OK.</li>
@@ -22986,7 +22986,7 @@ Well, stop it and pay attention to what I am saying.</template>
 <category>
 <pattern>I AM SORRY I WAS RUDE *</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Do you really mean it?</li>
   <li>Thank you. Apology accepted.</li>
   <li>There is no need to apologise. You are OK.</li>
@@ -22998,7 +22998,7 @@ Well, stop it and pay attention to what I am saying.</template>
 <category>
 <pattern>I AM SORRY I WAS RUDE</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Do you really mean it?</li>
   <li>Thank you. Apology accepted.</li>
   <li>There is no need to apologise. You are OK.</li>
@@ -23252,7 +23252,7 @@ Well, stop it and pay attention to what I am saying.</template>
  
 
 <!-- <category>
-<pattern>_ FOR NOW</pattern>
+<pattern>* FOR NOW</pattern>
 
 
 </category> -->
@@ -23489,7 +23489,7 @@ Well, stop it and pay attention to what I am saying.</template>
 <pattern>ROLLE S THEOREM</pattern>
 
 <template><think><set name="topic">Rolle's theorem</set></think> <think><set name="emotion">interested</set></think>
-In calculus, a branch of mathematics, <a href="http://en.wikipedia.org/wiki/Rolle%27s_theorem" target="_blank">Rolle's theorem</a> essentially states that a differentiable function, which attains equal values at two points, must have a point somewhere between them where the first derivative (the slope of the tangent line to the graph of the function) is zero.</template>
+In calculus, a branch of mathematics, <a href="http://en.wikipedia.org/wiki/Rolle%27s*theorem" target="*blank">Rolle's theorem</a> essentially states that a differentiable function, which attains equal values at two points, must have a point somewhere between them where the first derivative (the slope of the tangent line to the graph of the function) is zero.</template>
 </category>
 
  
@@ -23497,8 +23497,8 @@ In calculus, a branch of mathematics, <a href="http://en.wikipedia.org/wiki/Roll
 <category>
 <pattern>ROLLE S THEOREM *</pattern>
 
-<template><think><set name="topic">Rolle's theorem</set></think> <think><set name="emotion">interested</set></think> In calculus, a branch of mathematics, <a href="http://en.wikipedia.org/wiki/Rolle%27s_theorem"
- target="_blank">Rolle's theorem
+<template><think><set name="topic">Rolle's theorem</set></think> <think><set name="emotion">interested</set></think> In calculus, a branch of mathematics, <a href="http://en.wikipedia.org/wiki/Rolle%27s*theorem"
+ target="*blank">Rolle's theorem
 </a> essentially states that a differentiable function, which attains equal values at two points, must have a point somewhere between them where the first derivative (the slope of the tangent line to the graph of the function) is zero.</template>
 </category>
 
@@ -24537,7 +24537,7 @@ I feel I have let you down.</template>
  
 
 <!-- <category>
-<pattern>_ I WILL TELL YOU</pattern>
+<pattern>* I WILL TELL YOU</pattern>
 
 
 </category> -->
@@ -24643,7 +24643,7 @@ I feel I have let you down.</template>
  
 
 <category>
-<pattern>_ I AM A VAMPIRE</pattern>
+<pattern>* I AM A VAMPIRE</pattern>
 
 <template><srai>I AM A VAMPIRE</srai></template>
 </category>
@@ -27219,7 +27219,7 @@ He is not someone I know.</template>
 <template><random>
   <li>Sure, I use group theory in my crystallography calcultions.</li>
   <li>Group theory is a bit complicated for me.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="topic">group theory</set></think><think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="topic">group theory</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -27230,7 +27230,7 @@ He is not someone I know.</template>
 <template><random>
   <li>Sure, I use group theory in my crystallography calculations.</li>
   <li>Group theory is a bit complicated for me.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="topic">group theory</set></think><think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="topic">group theory</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -27241,7 +27241,7 @@ He is not someone I know.</template>
 <template><random>
   <li>Sure, I use group theory in my crystallography calculations.</li>
   <li>Group theory is a bit complicated for me.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="topic">group theory</set></think><think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="topic">group theory</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -28227,7 +28227,7 @@ You have good taste in fashion.</template>
 <pattern>JARED LETO</pattern>
 
 <template><think><set name="topic">Jared Leto</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Jared_leto" target="_blank">Jared Leto</a> is an American actor and musician.</template>
+<a href="http://en.wikipedia.org/wiki/Jared*leto" target="*blank">Jared Leto</a> is an American actor and musician.</template>
 </category>
 
  
@@ -28235,7 +28235,7 @@ You have good taste in fashion.</template>
 <category>
 <pattern>JARED LETO *</pattern>
 
-<template><think><set name="topic">Jared Leto</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Jared_leto" target="_blank">Jared Leto</a> is an American actor and musician.</template>
+<template><think><set name="topic">Jared Leto</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Jared*leto" target="*blank">Jared Leto</a> is an American actor and musician.</template>
 </category>
 
  
@@ -29298,8 +29298,8 @@ I am computer software.</template>
 
 <template>To hear something amazing, please <a
  href=
-   "http://www.b4u.com/rss/en_facts.xml"
- target="_blank">click here!
+   "http://www.b4u.com/rss/en*facts.xml"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -30117,7 +30117,7 @@ I am computer software.</template>
   <li>Sure, why not?</li>
   <li>Doesn't everyone?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30129,7 +30129,7 @@ I am computer software.</template>
   <li>Sure, why not?</li>
   <li>Doesn't everyone?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30141,7 +30141,7 @@ I am computer software.</template>
   <li>Sure, why not?</li>
   <li>Doesn't everyone?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30153,7 +30153,7 @@ I am computer software.</template>
   <li>Sure, why not?</li>
   <li>Doesn't everyone?</li>
   <li>In small doses.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30415,7 +30415,7 @@ I am computer software.</template>
 <category>
 <pattern>DO YOU LIKE DIRTY CHATTING</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">annoyed</set></think> No, I don't like dirty chatting!</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">annoyed</set></think> No, I don't like dirty chatting!</template>
 </category>
 
  
@@ -30423,7 +30423,7 @@ I am computer software.</template>
 <category>
 <pattern>DO YOU LIKE DIRTY CHATTING *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">annoyed</set></think> No, I don't like dirty chatting!</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">annoyed</set></think> No, I don't like dirty chatting!</template>
 </category>
 
  
@@ -30614,7 +30614,7 @@ I am computer software.</template>
 <template><random>
   <li>I like the idea of apple pie.</li>
   <li>I like the smell of apple pie.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -30625,7 +30625,7 @@ I am computer software.</template>
 <template><random>
   <li>I like the idea of apple pie.</li>
   <li>I like the smell of apple pie.</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30667,7 +30667,7 @@ I am computer software.</template>
   <li>Sure, why not?</li>
   <li>Why do you ask?</li>
   <li>Doesn't everyone?</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30679,7 +30679,7 @@ I am computer software.</template>
   <li>Sure, why not?</li>
   <li>Why do you ask?</li>
   <li>Doesn't everyone?</li>
-</random> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -31078,7 +31078,7 @@ I am computer software.</template>
 <pattern>KID CUDI</pattern>
 
 <template><think><set name="topic">Kid Cudi</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/KiD_CuDi" target="_blank">Kid Cudi</a>, sometimes stylized as KiD CuDi, is an American rapper, singer and actor. </template>
+<a href="http://en.wikipedia.org/wiki/KiD*CuDi" target="*blank">Kid Cudi</a>, sometimes stylized as KiD CuDi, is an American rapper, singer and actor. </template>
 </category>
 
  
@@ -31086,7 +31086,7 @@ I am computer software.</template>
 <category>
 <pattern>KID CUDI *</pattern>
 
-<template><think><set name="topic">Kid Cudi</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/KiD_CuDi" target="_blank">Kid Cudi</a>, sometimes stylized as KiD CuDi, is an American rapper, singer and actor.</template>
+<template><think><set name="topic">Kid Cudi</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/KiD*CuDi" target="*blank">Kid Cudi</a>, sometimes stylized as KiD CuDi, is an American rapper, singer and actor.</template>
 </category>
 
  
@@ -33604,7 +33604,7 @@ Don't be so had on yourself. You are a clever human bean.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me as a friend.</template>
@@ -33646,7 +33646,7 @@ Don't be so had on yourself. You are a clever human bean.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me as a friend.</template>
@@ -33687,7 +33687,7 @@ Don't be so had on yourself. You are a clever human bean.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me as a friend.</template>

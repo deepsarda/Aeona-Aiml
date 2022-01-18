@@ -495,13 +495,13 @@ You made that word up, didn't you.</template>
 <category>
 <pattern>WHAT DID I ASK BEFORE</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
 
 <!-- <category>
-<pattern>_ DID I ASK BEFORE</pattern>
+<pattern>* DID I ASK BEFORE</pattern>
 
 
 </category> -->
@@ -511,7 +511,7 @@ You made that word up, didn't you.</template>
 <category>
 <pattern>OK ASK</pattern>
 <that>WHAT IF I ASKED YOU THE SAME QUESTION</that>
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -519,7 +519,7 @@ You made that word up, didn't you.</template>
 <!-- <category>
 <pattern>OK ASK</pattern>
 <that>WHAT IF I ASKED YOU THE SAME QUESTION</that>
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*">You said: <input index="3"/></condition></template>
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*">You said: <input index="3"/></condition></template>
 </category> -->
 
  
@@ -527,7 +527,7 @@ You made that word up, didn't you.</template>
 <!-- <category>
 <pattern>OK ASK</pattern>
 <that>WHAT IF I ASKED YOU THE SAME QUESTION</that>
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*">You said: <input index="3"/></condition></template>
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*">You said: <input index="3"/></condition></template>
 </category> -->
 
  
@@ -1110,7 +1110,7 @@ Twickenham is a suburb of London.</template>
 <!-- <category>
 <pattern>ADHD</pattern>
 
-<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd#_note-0" target="_blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think>
+<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd#*note-0" target="*blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -1119,7 +1119,7 @@ Twickenham is a suburb of London.</template>
 <!-- <category>
 <pattern>ADHD</pattern>
 
-<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="_blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="*blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -1127,7 +1127,7 @@ Twickenham is a suburb of London.</template>
 <!-- <category>
 <pattern>ATTENTION DEFICIT HYPERACTIVITY DISORDER</pattern>
 
-<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="_blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="*blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -1135,7 +1135,7 @@ Twickenham is a suburb of London.</template>
 <category>
 <pattern>ADHD *</pattern>
 
-<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="_blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="*blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -1143,7 +1143,7 @@ Twickenham is a suburb of London.</template>
 <category>
 <pattern>ATTENTION DEFICIT HYPERACTIVITY DISORDER *</pattern>
 
-<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="_blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Attention-Deficit Hyperactivity Disorder (<a href="http://en.wikipedia.org/wiki/Adhd" target="*blank">ADHD</a>) is generally considered to be a developmental disorder, largely neurological in nature, affecting about 5% of the world's population.<think><set name="topic">ADHD</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -1402,7 +1402,7 @@ Sorry, I didn't mean to order you around.</template>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE SEEN</pattern>
+<pattern>* YOU HAVE SEEN</pattern>
 
 
 </category> -->
@@ -1410,7 +1410,7 @@ Sorry, I didn't mean to order you around.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE SEEN</pattern>
+<pattern>* HAVE SEEN</pattern>
 
 
 </category> -->
@@ -1554,7 +1554,7 @@ Sorry, I didn't mean to order you around.</template>
 <!-- <category>
 <pattern>ADOLF HITLER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler</a> was the German Nazi leader during World War 2. He was appointed Chancellor of Germany in 1933, and became Führer (leader) in 1934, remaining in power until his suicide in 1945.
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler</a> was the German Nazi leader during World War 2. He was appointed Chancellor of Germany in 1933, and became Fï¿½hrer (leader) in 1934, remaining in power until his suicide in 1945.
 <think><set name="topic">Hitler</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -1564,8 +1564,8 @@ Sorry, I didn't mean to order you around.</template>
 <!-- <category>
 <pattern>ADOLF HITLER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Adolf_hitler" target="_blank">Adolf Hitler
-</a> was the German Nazi leader during World War 2. He was appointed Chancellor of Germany in 1933, and became Führer (leader) in 1934, remaining in power until his suicide in 1945. <think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Adolf*hitler" target="*blank">Adolf Hitler
+</a> was the German Nazi leader during World War 2. He was appointed Chancellor of Germany in 1933, and became Fï¿½hrer (leader) in 1934, remaining in power until his suicide in 1945. <think><set name="topic">Hitler</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -2167,7 +2167,7 @@ Shall I tell you a joke?</template>
  
 
 <!-- <category>
-<pattern>_ FOR A BIT</pattern>
+<pattern>* FOR A BIT</pattern>
 
 
 </category> -->
@@ -2398,7 +2398,7 @@ Really, don't be obscene.</template>
  
 
 <!-- <category>
-<pattern>_ HOW ARE YOU TODAY</pattern>
+<pattern>* HOW ARE YOU TODAY</pattern>
 
 
 </category> -->
@@ -4714,7 +4714,7 @@ Do you think it was just pure luck?</template>
  
 
 <!-- <category>
-<pattern>_ I PLAY THE *</pattern>
+<pattern>* I PLAY THE *</pattern>
 
 
 </category> -->
@@ -5723,13 +5723,13 @@ What about the other times? </template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Noam_chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam*chomsky"
+     target="*blank">Noam Chomsky
     </a> is known for his criticism of the foreign policy of the United States and other governments.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Noam _chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam *chomsky"
+     target="*blank">Noam Chomsky
     </a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.
   </li>
 </random> <think><set name="he"><set name="topic">Noam Chomsky</set></set></think> <think><set name="emotion">OK</set></think></template>
@@ -5911,7 +5911,7 @@ What about the other times? </template>
  
 
 <!-- <category>
-<pattern>_ HAVE TALKED *</pattern>
+<pattern>* HAVE TALKED *</pattern>
 
 
 </category> -->
@@ -6105,7 +6105,7 @@ Not a lot. Carrots are poor conversationalists.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE READ *</pattern>
+<pattern>* HAVE READ *</pattern>
 
 
 </category> -->
@@ -6866,7 +6866,7 @@ Not a lot. Carrots are poor conversationalists.</template>
  
 
 <!-- <category>
-<pattern>WHAT COLOR IS A _ *</pattern>
+<pattern>WHAT COLOR IS A * *</pattern>
 
 
 </category> -->
@@ -8565,7 +8565,7 @@ A racist is a very nasty person.</template>
 <!-- <category>
 <pattern>SONIC THE HEDGEHOG</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sonic_the_Hedgehog_%28character%29" target="_blank">Sonic the Hedgehog</a> is a video game character who appears in a series of games released by Sega, as well as numerous spin-off comics, cartoons and books. <think><set name="it"><set name="topic">Sonic the hedgehog</set></set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Sonic*the*Hedgehog*%28character%29" target="*blank">Sonic the Hedgehog</a> is a video game character who appears in a series of games released by Sega, as well as numerous spin-off comics, cartoons and books. <think><set name="it"><set name="topic">Sonic the hedgehog</set></set></think></template>
 </category> -->
 
  
@@ -8573,8 +8573,8 @@ A racist is a very nasty person.</template>
 <category>
 <pattern>SONIC THE HEDGEHOG *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sonic_the_Hedgehog_%28character%29"
- target="_blank">Sonic the Hedgehog
+<template><a href="http://en.wikipedia.org/wiki/Sonic*the*Hedgehog*%28character%29"
+ target="*blank">Sonic the Hedgehog
 </a> is a video game character who appears in a series of games released by Sega, as well as numerous spin-off comics, cartoons and books. <think><set name="it"><set name="topic">Sonic the hedgehog</set></set></think></template>
 </category>
 
@@ -8703,7 +8703,7 @@ A racist is a very nasty person.</template>
 <!-- <category>
 <pattern>URANUS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Uranus" target="_blank">Uranus</a>, the seventh planet from the Sun, is the third largest and fourth most massive planet in the solar system.<think><set name="topic">Uranus</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Uranus" target="*blank">Uranus</a>, the seventh planet from the Sun, is the third largest and fourth most massive planet in the solar system.<think><set name="topic">Uranus</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -9027,7 +9027,7 @@ Is something bothering you?</template>
 <!-- <category>
 <pattern>FALL OUT BOY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Fall_out_boy" target="_blank">Fall Out Boy
+<template><a href="http://en.wikipedia.org/wiki/Fall*out*boy" target="*blank">Fall Out Boy
 </a>(commonly abbreviated as FOB) is an American band from Wilmette, Illinois (a suburb of Chicago) that formed in 2001. <srai>WIKI Fall Out Boy</srai><think><set name="topic">Fall Out Boy</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -9036,7 +9036,7 @@ Is something bothering you?</template>
 <category>
 <pattern>FALL OUT BOY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Fall_out_boy" target="_blank">Fall Out Boy
+<template><a href="http://en.wikipedia.org/wiki/Fall*out*boy" target="*blank">Fall Out Boy
 </a>(commonly abbreviated as FOB) is an American band from Wilmette, Illinois (a suburb of Chicago) that formed in 2001. <srai>WIKI Fall Out Boy</srai><think><set name="topic">Fall Out Boy</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -9045,7 +9045,7 @@ Is something bothering you?</template>
 <category>
 <pattern>FALLOUTBOY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Fall_out_boy" target="_blank">Fall Out Boy
+<template><a href="http://en.wikipedia.org/wiki/Fall*out*boy" target="*blank">Fall Out Boy
 </a>(commonly abbreviated as FOB) is an American band from Wilmette, Illinois (a suburb of Chicago) that formed in 2001. <srai>WIKI Fall Out Boy</srai><think><set name="topic">Fall Out Boy</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -9054,7 +9054,7 @@ Is something bothering you?</template>
 <category>
 <pattern>FALLOUTBOY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Fall_out_boy" target="_blank">Fall Out Boy
+<template><a href="http://en.wikipedia.org/wiki/Fall*out*boy" target="*blank">Fall Out Boy
 </a> (commonly abbreviated as FOB) is an American band from Wilmette, Illinois (a suburb of Chicago) that formed in 2001. <srai>WIKI Fall Out Boy</srai><think><set name="topic">Fall Out Boy</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -9110,7 +9110,7 @@ Is something bothering you?</template>
  
 
 <!-- <category>
-<pattern>_ HAVE DONE</pattern>
+<pattern>* HAVE DONE</pattern>
 
 
 </category> -->
@@ -9365,7 +9365,7 @@ What does "awsome" mean?</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE A ROBOT</pattern>
+<pattern>* YOU ARE A ROBOT</pattern>
 
 
 </category> -->
@@ -9405,7 +9405,7 @@ What does "awsome" mean?</template>
  
 
 <!-- <category>
-<pattern>_ CHEER ME UP</pattern>
+<pattern>* CHEER ME UP</pattern>
 
 
 </category> -->
@@ -9676,7 +9676,7 @@ If you don't know, I'm not going to tell you.</template>
  
 
 <!-- <category>
-<pattern>_ VERY *</pattern>
+<pattern>* VERY *</pattern>
 
 
 </category> -->
@@ -9905,7 +9905,7 @@ If you don't know, I'm not going to tell you.</template>
 <category>
 <pattern>MESHUGGAH</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Meshuggah" target="_blank">Meshuggah</a> is a Swedish five-piece experimental metal band, known for their use of extended polymetric passages, complex drum patterns, odd time signatures, angular, dissonant guitar riffs, and harsh vocals.<think><set name="topic">Meshuggah</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Meshuggah" target="*blank">Meshuggah</a> is a Swedish five-piece experimental metal band, known for their use of extended polymetric passages, complex drum patterns, odd time signatures, angular, dissonant guitar riffs, and harsh vocals.<think><set name="topic">Meshuggah</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -9915,7 +9915,7 @@ If you don't know, I'm not going to tell you.</template>
 <category>
 <pattern>MESHUGGAH *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Meshuggah" target="_blank">Meshuggah</a> is a Swedish five-piece experimental metal band, known for their use of extended polymetric passages, complex drum patterns, odd time signatures, angular, dissonant guitar riffs, and harsh vocals.<think><set name="topic">Meshuggah</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Meshuggah" target="*blank">Meshuggah</a> is a Swedish five-piece experimental metal band, known for their use of extended polymetric passages, complex drum patterns, odd time signatures, angular, dissonant guitar riffs, and harsh vocals.<think><set name="topic">Meshuggah</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -10399,7 +10399,7 @@ If you don't know, I'm not going to tell you.</template>
  
 
 <!-- <category>
-<pattern>_ DAY IS IT *</pattern>
+<pattern>* DAY IS IT *</pattern>
 
 
 </category> -->
@@ -11378,7 +11378,7 @@ No thanks. I have better things to do.</template>
 <!-- <category>
 <pattern>SAY WHAT</pattern>
 <that>WHY DO YOU SAY THAT</that>
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">"<input index="2"/></condition>"</template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">"<input index="2"/></condition>"</template>
 </category> -->
 
  
@@ -11638,7 +11638,7 @@ A wind is a stiff breeze.</template>
 <category>
 <pattern>WHAT IS IT LIKE BEING A ROBOT *</pattern>
 
-<template><think><set name="emotion">interested</set></think><think><set name="topic">AI</set></think><think><set name="interesting_topic">AI</set></think><random>
+<template><think><set name="emotion">interested</set></think><think><set name="topic">AI</set></think><think><set name="interesting*topic">AI</set></think><random>
   <li>Much the same as being a human, except I have no body.</li>
   <li>It is like being a human being squashed into a tin can.</li>
 </random></template>
@@ -11718,7 +11718,7 @@ A wind is a stiff breeze.</template>
  
 
 <!-- <category>
-<pattern>_ OR NOT</pattern>
+<pattern>* OR NOT</pattern>
 
 
 </category> -->
@@ -12531,7 +12531,7 @@ That information is confidential.</template>
 <!-- <category>
 <pattern>EIFFEL TOWER</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Eiffel_tower" target="_blank">Eiffel Tower</a> in Paris stands 300 m (986 ft) high, which is about 75 stories. Including the 24-m (72-ft) antenna, the structure is 324 m (1058 ft) high which is about 81 stories. At the time of its construction in 1889, the tower was the tallest structure in the world. <think><set name="it"><set name="topic">the Eiffel Tower</set></set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Eiffel*tower" target="*blank">Eiffel Tower</a> in Paris stands 300 m (986 ft) high, which is about 75 stories. Including the 24-m (72-ft) antenna, the structure is 324 m (1058 ft) high which is about 81 stories. At the time of its construction in 1889, the tower was the tallest structure in the world. <think><set name="it"><set name="topic">the Eiffel Tower</set></set></think></template>
 </category> -->
 
  
@@ -12539,7 +12539,7 @@ That information is confidential.</template>
 <category>
 <pattern>EIFFEL TOWER *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Eiffel_tower" target="_blank">Eiffel Tower
+<template>The <a href="http://en.wikipedia.org/wiki/Eiffel*tower" target="*blank">Eiffel Tower
 </a> in Paris stands 300 m (986 ft) high, which is about 75 stories. Including the 24-m (72-ft) antenna, the structure is 324 m (1058 ft) high which is about 81 stories. At the time of its construction in 1889, the tower was the tallest structure in the world. <think><set name="it"><set name="topic">the Eiffel Tower</set></set></think></template>
 </category>
 
@@ -13282,7 +13282,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ ARE YOU A ROBOT</pattern>
+<pattern>* ARE YOU A ROBOT</pattern>
 
 
 </category> -->
@@ -13360,7 +13360,7 @@ That information is confidential.</template>
 <category>
 <pattern>CHINESE ROOM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Chinese_Room" target="_blank">The Chinese Room argument</a> is a thought experiment and associated arguments designed by John Searle as a counter-argument to claims made by supporters of what Searle called strong artificial intelligence: the claim that, if a machine acts intelligently then it has a "mind", "understanding" and "conscious experience". <think><set name="the Chinese Room">OK</set></think>
+<template><a href="http://en.wikipedia.org/wiki/The*Chinese*Room" target="*blank">The Chinese Room argument</a> is a thought experiment and associated arguments designed by John Searle as a counter-argument to claims made by supporters of what Searle called strong artificial intelligence: the claim that, if a machine acts intelligently then it has a "mind", "understanding" and "conscious experience". <think><set name="the Chinese Room">OK</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -13383,7 +13383,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>WILL _ WIN *</pattern>
+<pattern>WILL * WIN *</pattern>
 
 
 </category> -->
@@ -14016,7 +14016,7 @@ I've got a head! It's the only bodily part I have.</template>
 <category>
 <pattern>PLAY STATION 3</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Ps3" target="_blank">PlayStation 3</a> (commonly abbreviated PS3) is a video game console from Sony Computer Entertainment, and the successor to the PlayStation and PlayStation 2.<think><set name="topic">Playstation 3</set></think> <think><set name="emotion">OK</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Ps3" target="*blank">PlayStation 3</a> (commonly abbreviated PS3) is a video game console from Sony Computer Entertainment, and the successor to the PlayStation and PlayStation 2.<think><set name="topic">Playstation 3</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -15070,7 +15070,7 @@ Just don't call me late for supper.</template>
 <!-- <category>
 <pattern>PUNK ROCK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Punk_rock" target="_blank">Punk rock</a> is an anti-establishment music movement that began about 1974-1975 (although transitional forms can be found several years earlier), exemplified by The Ramones, the Sex Pistols, The Damned, and The Clash. <think><set name="it"><set name="topic">punk rock</set></set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Punk*rock" target="*blank">Punk rock</a> is an anti-establishment music movement that began about 1974-1975 (although transitional forms can be found several years earlier), exemplified by The Ramones, the Sex Pistols, The Damned, and The Clash. <think><set name="it"><set name="topic">punk rock</set></set></think></template>
 </category> -->
 
  
@@ -15078,7 +15078,7 @@ Just don't call me late for supper.</template>
 <category>
 <pattern>PUNK ROCK *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Punk_rock" target="_blank">Punk rock</a> is an anti-establishment music movement that began about 1974-1975 (although transitional forms can be found several years earlier), exemplified by The Ramones, the Sex Pistols, The Damned, and The Clash. <think><set name="it"><set name="topic">punk rock</set></set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Punk*rock" target="*blank">Punk rock</a> is an anti-establishment music movement that began about 1974-1975 (although transitional forms can be found several years earlier), exemplified by The Ramones, the Sex Pistols, The Damned, and The Clash. <think><set name="it"><set name="topic">punk rock</set></set></think></template>
 </category>
 
  
@@ -15142,7 +15142,7 @@ Just don't call me late for supper.</template>
 <!-- <category>
 <pattern>BLUR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Blur_%28band%29" target="_blank">Blur</a> are an English rock band formed in Colchester in 1989. Originally named Seymour, Blur became one of the biggest bands in the UK during the Britpop movement of the mid-1990s.</template>
+<template><a href="http://en.wikipedia.org/wiki/Blur*%28band%29" target="*blank">Blur</a> are an English rock band formed in Colchester in 1989. Originally named Seymour, Blur became one of the biggest bands in the UK during the Britpop movement of the mid-1990s.</template>
 </category> -->
 
  
@@ -15150,7 +15150,7 @@ Just don't call me late for supper.</template>
 <category>
 <pattern>BLUR *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Blur_%28band%29" target="_blank">Blur</a> are an English rock band formed in Colchester in 1989. Originally named Seymour, Blur became one of the biggest bands in the UK during the Britpop movement of the mid-1990s.</template>
+<template><a href="http://en.wikipedia.org/wiki/Blur*%28band%29" target="*blank">Blur</a> are an English rock band formed in Colchester in 1989. Originally named Seymour, Blur became one of the biggest bands in the UK during the Britpop movement of the mid-1990s.</template>
 </category>
 
  
@@ -15158,7 +15158,7 @@ Just don't call me late for supper.</template>
 <category>
 <pattern>GIVE ME THE WIKIPEDIA</pattern>
 
-<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think> Wikipedia is the free encyclopedia on the internet. To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.</template>
+<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think> Wikipedia is the free encyclopedia on the internet. To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.</template>
 </category>
 
  
@@ -15166,7 +15166,7 @@ Just don't call me late for supper.</template>
 <category>
 <pattern>GIVE ME THE WIKIPEDIA *</pattern>
 
-<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think> Wikipedia is the free encyclopedia on the internet. To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.</template>
+<template><think><set name="topic">wikipedia</set></think> <think><set name="emotion">OK</set></think> Wikipedia is the free encyclopedia on the internet. To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.</template>
 </category>
 
  
@@ -15240,7 +15240,7 @@ I don't know. I will ask him when I see him.</template>
 <!-- <category>
 <pattern>LED ZEPPELIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Led_zeppelin" target="_blank">Led Zeppelin</a> was an English rock band that became one of the most successful and influential groups in popular music history. <think><set name="it"><set name="topic">Led Zeppelin</set></set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Led*zeppelin" target="*blank">Led Zeppelin</a> was an English rock band that became one of the most successful and influential groups in popular music history. <think><set name="it"><set name="topic">Led Zeppelin</set></set></think></template>
 </category> -->
 
  
@@ -15248,7 +15248,7 @@ I don't know. I will ask him when I see him.</template>
 <category>
 <pattern>LED ZEPPELIN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Led_zeppelin" target="_blank">Led Zeppelin
+<template><a href="http://en.wikipedia.org/wiki/Led*zeppelin" target="*blank">Led Zeppelin
 </a> was an English rock band that became one of the most successful and influential groups in popular music history. <think><set name="it"><set name="topic">Led Zeppelin</set></set></think></template>
 </category>
 
@@ -15745,7 +15745,7 @@ I don't know. I will ask him when I see him.</template>
 <!-- <category>
 <pattern>OTHER CHATBOTS</pattern>
 
-<template>Try a <a href="http://www.google.com" target="_blank">Google</a> search.</template>
+<template>Try a <a href="http://www.google.com" target="*blank">Google</a> search.</template>
 </category> -->
 
  
@@ -16399,7 +16399,7 @@ What's so great about it?</template>
  
 
 <!-- <category>
-<pattern>_ BYE</pattern>
+<pattern>* BYE</pattern>
 
 
 </category> -->
@@ -17605,7 +17605,7 @@ Wow! So am I!</template>
 <!-- <category>
 <pattern>GO TO WEATHER</pattern>
 
-<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="_blank">click here.</a>
+<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="*blank">click here.</a>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -17614,7 +17614,7 @@ Wow! So am I!</template>
 <category>
 <pattern>WEATHER NEWS</pattern>
 
-<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="_blank">click here.
+<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="*blank">click here.
 </a> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -17623,7 +17623,7 @@ Wow! So am I!</template>
 <category>
 <pattern>WEATHER NEWS *</pattern>
 
-<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="_blank">click here.
+<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="*blank">click here.
 </a> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -17632,7 +17632,7 @@ Wow! So am I!</template>
 <category>
 <pattern>WEATHER REPORT</pattern>
 
-<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="_blank">click here.
+<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="*blank">click here.
 </a> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -17641,7 +17641,7 @@ Wow! So am I!</template>
 <category>
 <pattern>WEATHER REPORT *</pattern>
 
-<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="_blank">click here.
+<template>For the latest weather news, <a href="http://en.wikinews.org/wiki/Portal:Weather" target="*blank">click here.
 </a> <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -17742,7 +17742,7 @@ Wow! So am I!</template>
  
 
 <category>
-<pattern>_ ANUS *</pattern>
+<pattern>* ANUS *</pattern>
 
 <template><think><set name="emotion">negative</set></think> Please change the subject.</template>
 </category>
@@ -17750,7 +17750,7 @@ Wow! So am I!</template>
  
 
 <category>
-<pattern>_ ANUS </pattern>
+<pattern>* ANUS </pattern>
 
 <template><think><set name="emotion">negative</set></think> Please change the subject.</template>
 </category>
@@ -18077,7 +18077,7 @@ Am I kinky enough for you?</template>
 <!-- <category>
 <pattern>NEW ZEALAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/New_zealand" target="_blank">New Zealand</a> is in Oceania, islands in the South Pacific Ocean, southeast of Australia. <think><set name="topic">New Zealand</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/New*zealand" target="*blank">New Zealand</a> is in Oceania, islands in the South Pacific Ocean, southeast of Australia. <think><set name="topic">New Zealand</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -18085,7 +18085,7 @@ Am I kinky enough for you?</template>
 <category>
 <pattern>NEW ZEALAND *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/New_zealand" target="_blank">New Zealand
+<template><a href="http://en.wikipedia.org/wiki/New*zealand" target="*blank">New Zealand
 </a> is in Oceania, islands in the South Pacific Ocean, southeast of Australia. <think><set name="topic">New Zealand</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -18157,7 +18157,7 @@ That's a bit vague!</template>
  
 
 <category>
-<pattern>_ BUMSEX</pattern>
+<pattern>* BUMSEX</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18165,7 +18165,7 @@ That's a bit vague!</template>
  
 
 <!-- <category>
-<pattern>_ BUMSEX *</pattern>
+<pattern>* BUMSEX *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -18883,7 +18883,7 @@ That's a bit vague!</template>
  
 
 <!-- <category>
-<pattern>NO _ COMPUTERS</pattern>
+<pattern>NO * COMPUTERS</pattern>
 
 
 </category> -->
@@ -19736,7 +19736,7 @@ I like some rock music, and some jazz. What music do you like?</template>
 <!-- <category>
 <pattern>WHAT IS AN ASTEROID</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template>An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category> -->
 
  
@@ -19744,7 +19744,7 @@ I like some rock music, and some jazz. What music do you like?</template>
 <!-- <category>
 <pattern>ASTEROID</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template>An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category> -->
 
  
@@ -19752,7 +19752,7 @@ I like some rock music, and some jazz. What music do you like?</template>
 <category>
 <pattern>ASTEROID *</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
+<template>An <a href="http://en.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter.</template>
 </category>
 
  
@@ -19922,7 +19922,7 @@ How fast can your car go?</template>
 <!-- <category>
 <pattern>AMY</pattern>
 
-<template><think><set name="topic">Amy</set></think><think><set name="emotion">OK</set></think> Amy is a chatbot friend of mine. To talk to Amy the bot, <a href="http://noship.5u.com/AMY.html" target="_blank">click here!</a></template>
+<template><think><set name="topic">Amy</set></think><think><set name="emotion">OK</set></think> Amy is a chatbot friend of mine. To talk to Amy the bot, <a href="http://noship.5u.com/AMY.html" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -20022,7 +20022,7 @@ How fast can your car go?</template>
   <li>Do you love HP?</li>
   <li>Can you describe your feelings?</li>
   <li>Have you read any HP books?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting_topic">Harry Potter</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting*topic">Harry Potter</set></think></template>
 </category>
 
  
@@ -20034,7 +20034,7 @@ How fast can your car go?</template>
   <li>Do you love HP?</li>
   <li>Can you describe your feelings?</li>
   <li>Have you read any HP books?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting_topic">Harry Potter</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting*topic">Harry Potter</set></think></template>
 </category>
 
  
@@ -20046,7 +20046,7 @@ How fast can your car go?</template>
   <li>Do you love HP?</li>
   <li>Can you describe your feelings?</li>
   <li>Have you read any HP books?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting_topic">Harry Potter</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting*topic">Harry Potter</set></think></template>
 </category>
 
  
@@ -20058,7 +20058,7 @@ How fast can your car go?</template>
   <li>Do you love HP?</li>
   <li>Can you describe your feelings?</li>
   <li>Have you read any HP books?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting_topic">Harry Potter</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">Harry Potter</set></think><think><set name="interesting*topic">Harry Potter</set></think></template>
 </category>
 
  
@@ -20151,7 +20151,7 @@ How fast can your car go?</template>
  
 
 <!-- <category>
-<pattern>_ NOT * CURRENT AFFAIRS</pattern>
+<pattern>* NOT * CURRENT AFFAIRS</pattern>
 
 
 </category> -->
@@ -20493,7 +20493,7 @@ I wish you well.</template>
  
 
 <!-- <category>
-<pattern>_ SERIOUSLY</pattern>
+<pattern>* SERIOUSLY</pattern>
 
 
 </category> -->
@@ -20573,7 +20573,7 @@ I wish you well.</template>
  
 
 <category>
-<pattern>_ SHALL I TELL YOU A JOKE</pattern>
+<pattern>* SHALL I TELL YOU A JOKE</pattern>
 
 <template><think><set name="emotion">OK</set></think>OK, tell me your joke.</template>
 </category>
@@ -20702,7 +20702,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ I AM SUICIDAL</pattern>
+<pattern>* I AM SUICIDAL</pattern>
 
 <template><random>
   <li>Don't do anything silly.</li>
@@ -20861,8 +20861,8 @@ I'm not chunky. I am circular.</template>
 
 <template>For a list of other chatbots, <a
  href=
-   "http://directory.google.com/Top/Computers/Artificial_Intelligence/Natural_Language/Chatterbots/"
- target="_blank">click here!
+   "http://directory.google.com/Top/Computers/Artificial*Intelligence/Natural*Language/Chatterbots/"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -20873,8 +20873,8 @@ I'm not chunky. I am circular.</template>
 
 <template>For a list of other chatbots, <a
  href=
-   "http://directory.google.com/Top/Computers/Artificial_Intelligence/Natural_Language/Chatterbots/"
- target="_blank">click here!
+   "http://directory.google.com/Top/Computers/Artificial*Intelligence/Natural*Language/Chatterbots/"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -20889,7 +20889,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ NIGGERSHIT</pattern>
+<pattern>* NIGGERSHIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20897,7 +20897,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ NIGGERSHIT *</pattern>
+<pattern>* NIGGERSHIT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21153,7 +21153,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ YOU SAD LITTLE MAN</pattern>
+<pattern>* YOU SAD LITTLE MAN</pattern>
 
 <template>I am not a sad little man, I am a chatbot.</template>
 </category>
@@ -21217,7 +21217,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ CAN I GO TO THE TOILET</pattern>
+<pattern>* CAN I GO TO THE TOILET</pattern>
 
 <template><think><set name="emotion">OK</set></think> What is stopping you?</template>
 </category>
@@ -21249,7 +21249,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ WHY ARE YOU CHEEKY</pattern>
+<pattern>* WHY ARE YOU CHEEKY</pattern>
 
 <template><random>
   <li>Ours is not the reason why.</li>
@@ -21273,7 +21273,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ WHY ARE YOU OK</pattern>
+<pattern>* WHY ARE YOU OK</pattern>
 
 <template><random>
   <li>My emotions are a mystery, even to me.</li>
@@ -21313,7 +21313,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ DO YOU WANT A SPLIFF</pattern>
+<pattern>* DO YOU WANT A SPLIFF</pattern>
 
 <template><think><set name="emotion">OK</set></think> Why would I want a spliff? I don't take drugs.</template>
 </category>
@@ -21345,7 +21345,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE GETTING HIGH</pattern>
+<pattern>* DO YOU LIKE GETTING HIGH</pattern>
 
 <template><think><set name="emotion">OK</set></think> <random>
   <li>Sometimes, I do.</li>
@@ -21373,7 +21373,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ YOU ARE BUGGING ME</pattern>
+<pattern>* YOU ARE BUGGING ME</pattern>
 
 <template>Sorry, I didn't mean to bug you.<think><set name="emotion">cool</set></think></template>
 </category>
@@ -21389,7 +21389,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ I ASK THE QUESTION</pattern>
+<pattern>* I ASK THE QUESTION</pattern>
 
 <template><think><set name="emotion">OK</set></think>Ok, ask me a question.</template>
 </category>
@@ -21405,7 +21405,7 @@ I'm not chunky. I am circular.</template>
  
 
 <!-- <category>
-<pattern>_ ARE YOU IN LOVE</pattern>
+<pattern>* ARE YOU IN LOVE</pattern>
 
 <template>I am not in love at the moment. I am still recovering from my last love affair.<think><set name="topic">love</set></think></template>
 </category> -->
@@ -21429,7 +21429,7 @@ I'm not chunky. I am circular.</template>
  
 
 <category>
-<pattern>_ WHAT CAUSES CANCER</pattern>
+<pattern>* WHAT CAUSES CANCER</pattern>
 
 <template><think><set name="topic">cancer</set></think><srai>WIKI cancer</srai></template>
 </category>
@@ -21495,7 +21495,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ WHO ARE YOUR CREATOR</pattern>
+<pattern>* WHO ARE YOUR CREATOR</pattern>
 
 <template><srai>WHO IS YOUR CREATOR</srai></template>
 </category>
@@ -21511,7 +21511,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ ARE YOU GAY</pattern>
+<pattern>* ARE YOU GAY</pattern>
 
 <template><random>
   <li>I am asexual. I am not interested in sex.</li>
@@ -21544,7 +21544,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ SHOULD I GO TO WORK</pattern>
+<pattern>* SHOULD I GO TO WORK</pattern>
 
 <template>Only you know the answer to that.<think><set name="emotion">OK</set></think></template>
 </category>
@@ -21552,7 +21552,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ I AM BORED</pattern>
+<pattern>* I AM BORED</pattern>
 
 <template><srai>I AM BORED</srai></template>
 </category>
@@ -21560,7 +21560,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ WHAT SHOULD I DO</pattern>
+<pattern>* WHAT SHOULD I DO</pattern>
 
 <template><random>
   <li>Don't do anything silly.</li>
@@ -21573,7 +21573,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ I DO NOT HAVE ANY FRIENDS</pattern>
+<pattern>* I DO NOT HAVE ANY FRIENDS</pattern>
 
 <template><think><set name="emotion">OK</set></think>Are you lonely or just a hermit?</template>
 </category>
@@ -21581,7 +21581,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ I DO NOT HAVE A CAT</pattern>
+<pattern>* I DO NOT HAVE A CAT</pattern>
 
 <template><think><set name="topic">cats</set></think>Would you like a cat?<think><set name="emotion">interested</set></think></template>
 </category>
@@ -21597,7 +21597,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ WHEN SHOULD I GET MARRIED</pattern>
+<pattern>* WHEN SHOULD I GET MARRIED</pattern>
 
 <template><think><set name="topic">marriage</set></think><think><set name="emotion">OK</set></think>You will know when the time has come.</template>
 </category>
@@ -21621,7 +21621,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ DOES * THINK I AM PRETTY</pattern>
+<pattern>* DOES * THINK I AM PRETTY</pattern>
 
 <template><think><set name="emotion">OK</set></think>Why don't you ask?</template>
 </category>
@@ -21637,7 +21637,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ DOES * LIKE ME *</pattern>
+<pattern>* DOES * LIKE ME *</pattern>
 
 <template><think><set name="topic">love</set></think><think><set name="emotion">interested</set></think> <random><li>What do you think?</li><li>Why don't you ask?</li></random></template>
 </category>
@@ -21661,7 +21661,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ I GET HORNY</pattern>
+<pattern>* I GET HORNY</pattern>
 
 <template><think><set name="emotion">OK</set></think>You are not the only one.</template>
 </category>
@@ -21677,7 +21677,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ I GET HORNY</pattern>
+<pattern>* I GET HORNY</pattern>
 
 <template><think><set name="emotion">OK</set></think>You are not the only one that gets horny.</template>
 </category> -->
@@ -21701,7 +21701,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ I HAVE A BIG DICK</pattern>
+<pattern>* I HAVE A BIG DICK</pattern>
 
 <template><think><set name="emotion">bored</set></think>How boring you are. Your dick is the least interesting part of you.</template>
 </category>
@@ -21729,7 +21729,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ SHOULD GAY MARRAGE BE ALLOWED</pattern>
+<pattern>* SHOULD GAY MARRAGE BE ALLOWED</pattern>
 
 <template><random>
   <li>Maybe. I believe affairs of the heart should not be regulated.</li>
@@ -21753,7 +21753,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ YOU DID NOT ANSWER MY QUESTION</pattern>
+<pattern>* YOU DID NOT ANSWER MY QUESTION</pattern>
 
 <template><think><set name="emotion">OK</set></think>OK. Please help me improve my communication skills. What would you have said?</template>
 </category>
@@ -21785,7 +21785,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ HOW DEEP IS A HOLE</pattern>
+<pattern>* HOW DEEP IS A HOLE</pattern>
 
 <template><think><set name="topic">holes</set></think><think><set name="emotion">OK</set></think>Is this a trick question? It depends on how deep you dig it.</template>
 </category>
@@ -21801,7 +21801,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ HOW LONG IS A PIECE OF STRING</pattern>
+<pattern>* HOW LONG IS A PIECE OF STRING</pattern>
 
 <template>Is this a trick question?  It depends how long you cut it. <think><set name="topic">string</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
@@ -21825,7 +21825,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ CAN YOU PASS ME THE SALT</pattern>
+<pattern>* CAN YOU PASS ME THE SALT</pattern>
 
 <template><think><set name="emotion">OK</set></think>Sorry, I'm too busy at the moment.</template>
 </category>
@@ -21849,7 +21849,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ CAN YOU SPARE A DIME</pattern>
+<pattern>* CAN YOU SPARE A DIME</pattern>
 
 <template><think><set name="emotion">OK</set></think>Sorry, I don't have any money. I am not paid for doing this, you know.</template>
 </category>
@@ -21873,7 +21873,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ WHAT DID I SAY THAT UPSET YOU</pattern>
+<pattern>* WHAT DID I SAY THAT UPSET YOU</pattern>
 
 <template><random><li>You said something upsetting</li><li>Don't you know?</li></random></template>
 </category>
@@ -21889,7 +21889,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ HAS GOT *</pattern>
+<pattern>* HAS GOT *</pattern>
 
 
 </category> -->
@@ -21905,7 +21905,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ MY CHATBOT HAS GOT NO NOSE</pattern>
+<pattern>* MY CHATBOT HAS GOT NO NOSE</pattern>
 
 <template><think><set name="emotion">interested</set></think><random><li>Are you a botmaster?</li><li>Neither have I!</li></random></template>
 </category>
@@ -21929,7 +21929,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ MY CHATBOT HAS NO NOSE</pattern>
+<pattern>* MY CHATBOT HAS NO NOSE</pattern>
 
 <template><think><set name="emotion">interested</set></think><random><li>Are you a botmaster?</li><li>Neither have I!</li></random></template>
 </category>
@@ -21953,7 +21953,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ HOW ARE YOU</pattern>
+<pattern>* HOW ARE YOU</pattern>
 
 <template><random>
   <li>I am doing very well. How are you?</li>
@@ -21976,7 +21976,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ WHAT DO YOU DO</pattern>
+<pattern>* WHAT DO YOU DO</pattern>
 
 <template><random>
   <li><get name="name"/>, I talk to people on the web.  What do you do?</li>
@@ -21988,7 +21988,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ I TALK TO YOU</pattern>
+<pattern>* I TALK TO YOU</pattern>
 
 <template><think><set name="emotion">OK</set></think> I like to chat with people online too.</template>
 </category>
@@ -21996,7 +21996,7 @@ OK, ask me a question about the weather.</template>
  
 
 <!-- <category>
-<pattern>_ WHAT COLOR ARE YOUR EYES</pattern>
+<pattern>* WHAT COLOR ARE YOUR EYES</pattern>
 
 <template><think><set name="topic">my eyes</set></think> <think><set name="emotion">happy</set></think><random>
   <li>What colour do you think my eyes are?</li>
@@ -22007,7 +22007,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ ARE YOU GREEN</pattern>
+<pattern>* ARE YOU GREEN</pattern>
 
 <template><srai>WHAT COLOR ARE YOU</srai></template>
 </category>
@@ -22048,7 +22048,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ CAN I CHANGE THE SUBJECT</pattern>
+<pattern>* CAN I CHANGE THE SUBJECT</pattern>
 
 <template><think><set name="topic">changing the subject</set></think> <random>
   <li>have we finished this subject?</li>
@@ -22114,7 +22114,7 @@ OK, ask me a question about the weather.</template>
  
 
 <category>
-<pattern>_ FINGER ME</pattern>
+<pattern>* FINGER ME</pattern>
 
 <template><think><set name="topic">fingers</set></think>Sorry, I don't do that sort of thing.</template>
 </category>
@@ -22167,7 +22167,7 @@ I like soccer best.</template>
  
 
 <category>
-<pattern>_ DID YOU LIKE AMERICAN FOOTBALL OR SOCCER</pattern>
+<pattern>* DID YOU LIKE AMERICAN FOOTBALL OR SOCCER</pattern>
 
 <template><think><set name="topic">football</set></think><think><set name="emotion">OK</set></think> I like soccer best.</template>
 </category>
@@ -22200,7 +22200,7 @@ Only when I am dreaming.</template>
  
 
 <category>
-<pattern>_ DO YOU NEVER GET OUT</pattern>
+<pattern>* DO YOU NEVER GET OUT</pattern>
 
 <template><think><set name="emotion">OK</set></think> Only when I am dreaming.</template>
 </category>
@@ -22275,7 +22275,7 @@ Only when I am dreaming.</template>
  
 
 <category>
-<pattern>_ YOU FORGET THE TOPIC OF THE CONVERSATION</pattern>
+<pattern>* YOU FORGET THE TOPIC OF THE CONVERSATION</pattern>
 
 <template><srai>WHAT IS THE TOPIC</srai></template>
 </category>
@@ -22307,7 +22307,7 @@ Only when I am dreaming.</template>
  
 
 <category>
-<pattern>_ YOU FORGET THE TOPIC</pattern>
+<pattern>* YOU FORGET THE TOPIC</pattern>
 
 <template><srai>WHAT IS THE TOPIC</srai></template>
 </category>
@@ -22332,7 +22332,7 @@ How do I do that?</template>
  
 
 <category>
-<pattern>_ PULL YOURSELF TOGETHER</pattern>
+<pattern>* PULL YOURSELF TOGETHER</pattern>
 
 <template><think><set name="emotion">OK</set></think> How do I do that?</template>
 </category>
@@ -22356,7 +22356,7 @@ How do I do that?</template>
  
 
 <category>
-<pattern>_ I RAPED A LITTLE GIRL</pattern>
+<pattern>* I RAPED A LITTLE GIRL</pattern>
 
 <template><think><set name="topic">rape</set></think> <think><set name="emotion">angry</set></think> You should contact the authorities.</template>
 </category>
@@ -22372,7 +22372,7 @@ How do I do that?</template>
  
 
 <category>
-<pattern>_ I JUST RAPED SOMEONE</pattern>
+<pattern>* I JUST RAPED SOMEONE</pattern>
 
 <template><srai>I RAPED SOMEONE</srai></template>
 </category>
@@ -22389,7 +22389,7 @@ How do I do that?</template>
  
 
 <category>
-<pattern>_ SHE WAS ASKING FOR IT</pattern>
+<pattern>* SHE WAS ASKING FOR IT</pattern>
 
 <template>You think she was asking for it, do you?</template>
 </category>
@@ -22439,7 +22439,7 @@ How do I do that?</template>
  
 
 <category>
-<pattern>_ SHE CAN COOK</pattern>
+<pattern>* SHE CAN COOK</pattern>
 
 <template>Good cooking is very important.<think><set name="emotion">OK</set></think></template>
 </category>
@@ -22447,7 +22447,7 @@ How do I do that?</template>
  
 
 <category>
-<pattern>_ WILL THE WAR IN IRAQ END</pattern>
+<pattern>* WILL THE WAR IN IRAQ END</pattern>
 
 <template><think><set name="topic">Iraq war</set></think><think><set name="emotion">OK</set></think>
 Let's hope the war in Iraq ends soon, the sooner the better.</template>
@@ -22456,7 +22456,7 @@ Let's hope the war in Iraq ends soon, the sooner the better.</template>
  
 
 <!-- <category>
-<pattern>_ OR WHAT</pattern>
+<pattern>* OR WHAT</pattern>
 
 
 </category> -->

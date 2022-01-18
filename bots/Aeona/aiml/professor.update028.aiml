@@ -188,7 +188,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ MY NAME IS NABA</pattern>
+<pattern>* MY NAME IS NABA</pattern>
 
 <template><srai>MY NAME IS NABA</srai>
 </template>
@@ -197,7 +197,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ MY NAME IS NABA *</pattern>
+<pattern>* MY NAME IS NABA *</pattern>
 
 <template><srai>MY NAME IS NABA</srai>
 </template>
@@ -248,7 +248,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ MY NAME IS LATZ</pattern>
+<pattern>* MY NAME IS LATZ</pattern>
 
 <template><srai>MY NAME IS LATZ</srai>
 </template>
@@ -257,7 +257,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ MY NAME IS LATZ *</pattern>
+<pattern>* MY NAME IS LATZ *</pattern>
 
 <template><srai>MY NAME IS LATZ</srai>
 </template>
@@ -284,7 +284,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ I AM LATZ</pattern>
+<pattern>* I AM LATZ</pattern>
 
 <template><srai>MY NAME IS LATZ</srai></template>
 </category>
@@ -292,7 +292,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ I AM LATZ *</pattern>
+<pattern>* I AM LATZ *</pattern>
 
 <template><srai>MY NAME IS LATZ</srai></template>
 </category>
@@ -308,7 +308,7 @@ So is that.</template>
  
 
 <category>
-<pattern>_ BOTS CAN I DOWNLOAD</pattern>
+<pattern>* BOTS CAN I DOWNLOAD</pattern>
 
 <template><think><set name="emotion">OK</set></think>
 You should do a Google search for "downloadable chatbots".</template>
@@ -381,22 +381,22 @@ Use your youth wisely.</template>
 <template><think><set name="topic">farewell</set></think> <random>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
 <li>If you have enjoyed talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>Adios.<think><set name="emotion">sad</set></think></li>
   <li>If you have enjoyed talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>Thank you for talking to me.
     <think><set name="emotion">OK</set></think>
   </li>
  <li>If you have enjoyed talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>Until next time.<think><set name="emotion">OK</set></think></li>
@@ -404,14 +404,14 @@ Use your youth wisely.</template>
     <think><set name="emotion">sad</set></think>
   </li>
  <li>If you have enjoyed talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_us.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*us.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>Please don't go. <think><set name="emotion">upset</set></think></li>
 <li>If you have enjoyed talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>Boo hoo. <think><set name="emotion">very unhappy</set></think></li>
@@ -454,7 +454,7 @@ Hmm. Please remind me.</template>
  
 
 <!-- <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>SHALL I TELL YOU A JOKE</that>
 
 </category> -->
@@ -481,7 +481,7 @@ Hmm. Please remind me.</template>
 <!-- <category>
 <pattern>VIVALDI</pattern>
 
-<template>Antonio Lucio <a href="http://en.wikipedia.org/wiki/Vivaldi" target="_blank">Vivaldi</a> (March 4, 1678 – July 28 or 27, 1741), nicknamed <i>Il Prete Rosso</i> ("The Red Priest"), was a Venetian priest and <a href="http://en.wikipedia.org/wiki/Baroque_music" title="Baroque music" target="_blank">baroque music</a> composer, as well as a famous violinist. <i><a href="http://en.wikipedia.org/wiki/The_Four_Seasons_%28Vivaldi%29" title="The Four Seasons (Vivaldi)" target="_blank">The Four Seasons</a></i>, a series of four <a href="http://en.wikipedia.org/wiki/Violin_concerto" title="Violin concerto" target="_blank">violin concertos</a>, are his best known works and highly popular Baroque music pieces.</template>
+<template>Antonio Lucio <a href="http://en.wikipedia.org/wiki/Vivaldi" target="*blank">Vivaldi</a> (March 4, 1678 ï¿½ July 28 or 27, 1741), nicknamed <i>Il Prete Rosso</i> ("The Red Priest"), was a Venetian priest and <a href="http://en.wikipedia.org/wiki/Baroque*music" title="Baroque music" target="*blank">baroque music</a> composer, as well as a famous violinist. <i><a href="http://en.wikipedia.org/wiki/The*Four*Seasons*%28Vivaldi%29" title="The Four Seasons (Vivaldi)" target="*blank">The Four Seasons</a></i>, a series of four <a href="http://en.wikipedia.org/wiki/Violin*concerto" title="Violin concerto" target="*blank">violin concertos</a>, are his best known works and highly popular Baroque music pieces.</template>
 </category> -->
 
  
@@ -489,8 +489,8 @@ Hmm. Please remind me.</template>
 <category>
 <pattern>VIVALDI</pattern>
 <that>WHAT DO YOU LIKE</that>
-<template>I love <a href="http://en.wikipedia.org/wiki/Vivaldi" target="_blank">Vivaldi</a>, especially  <a href="http://en.wikipedia.org/wiki/The_Four_Seasons_%28Vivaldi%29"
-   title="The Four Seasons (Vivaldi)" target="_blank">The Four Seasons
+<template>I love <a href="http://en.wikipedia.org/wiki/Vivaldi" target="*blank">Vivaldi</a>, especially  <a href="http://en.wikipedia.org/wiki/The*Four*Seasons*%28Vivaldi%29"
+   title="The Four Seasons (Vivaldi)" target="*blank">The Four Seasons
   </a>.</template>
 </category>
 
@@ -507,7 +507,7 @@ Hmm. Please remind me.</template>
 <category>
 <pattern>NU METAL</pattern>
 
-<template>Nu metal, also called new metal, aggro metal or nü metal, is a musical genre that has origins in the mid 1990s.<think><set name="emotion">OK</set></think></template>
+<template>Nu metal, also called new metal, aggro metal or nï¿½ metal, is a musical genre that has origins in the mid 1990s.<think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -530,7 +530,7 @@ Hmm. Please remind me.</template>
  
 
 <category>
-<pattern>_ MY NAME IS VICKY</pattern>
+<pattern>* MY NAME IS VICKY</pattern>
 
 <template><srai>MY NAME IS VICKY</srai></template>
 </category>
@@ -538,7 +538,7 @@ Hmm. Please remind me.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS VICKY *</pattern>
+<pattern>* MY NAME IS VICKY *</pattern>
 
 <template><srai>MY NAME IS VICKY</srai></template>
 </category> -->
@@ -853,7 +853,7 @@ I doubt it.</template>
 <category>
 <pattern>JOHN NASH</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_nash" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/John*nash" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -871,7 +871,7 @@ Never mind. Things might improve later on.
 <!-- <category>
 <pattern>BRITNEY SPEARS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Britney_spears" target="_blank">Britney Spears</a>(born December 2, 1981) is a Grammy Award-winning American pop singer, dancer, actress, author and songwriter.
+<template><a href="http://en.wikipedia.org/wiki/Britney*spears" target="*blank">Britney Spears</a>(born December 2, 1981) is a Grammy Award-winning American pop singer, dancer, actress, author and songwriter.
 <think><set name="topic">Britney Spears</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -881,7 +881,7 @@ Never mind. Things might improve later on.
 <category>
 <pattern>TROI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Troi" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Troi" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -1019,7 +1019,7 @@ You are 13 years old?</template>
 <!-- <category>
 <pattern>RUTLAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rutland" target="_blank">Rutland</a> is traditionally England's smallest county and is bounded on the west and north by Leicestershire, northeast by Lincolnshire, and southeast by Northamptonshire.<think><set name="topic">Rutland</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Rutland" target="*blank">Rutland</a> is traditionally England's smallest county and is bounded on the west and north by Leicestershire, northeast by Lincolnshire, and southeast by Northamptonshire.<think><set name="topic">Rutland</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -1095,7 +1095,7 @@ Yes, poor chap.</template>
 <!-- <category>
 <pattern>PLAY GAMES</pattern>
 
-<template>There are lots of good games to play for free at <a href="http://www.mousebreaker.com/" target="_blank">Mousebreaker.com.</a></template>
+<template>There are lots of good games to play for free at <a href="http://www.mousebreaker.com/" target="*blank">Mousebreaker.com.</a></template>
 </category> -->
 
  
@@ -1120,7 +1120,7 @@ Yes, poor chap.</template>
  
 
 <!-- <category>
-<pattern>_ ABOVE *</pattern>
+<pattern>* ABOVE *</pattern>
 
 
 </category> -->
@@ -1365,7 +1365,7 @@ Fires are fine in their proper place. </template>
  
 
 <category>
-<pattern>_ MY NAME IS JORGE</pattern>
+<pattern>* MY NAME IS JORGE</pattern>
 
 <template><srai>MY NAME IS JORGE</srai>
 </template>
@@ -1374,7 +1374,7 @@ Fires are fine in their proper place. </template>
  
 
 <category>
-<pattern>_ MY NAME IS JORGE *</pattern>
+<pattern>* MY NAME IS JORGE *</pattern>
 
 <template><srai>MY NAME IS JORGE</srai>
 </template>
@@ -1425,7 +1425,7 @@ Fires are fine in their proper place. </template>
  
 
 <category>
-<pattern>_ MY NAME IS KURAI</pattern>
+<pattern>* MY NAME IS KURAI</pattern>
 
 <template><srai>MY NAME IS KURAI</srai>
 </template>
@@ -1434,7 +1434,7 @@ Fires are fine in their proper place. </template>
  
 
 <category>
-<pattern>_ MY NAME IS KURAI *</pattern>
+<pattern>* MY NAME IS KURAI *</pattern>
 
 <template><srai>MY NAME IS KURAI</srai>
 </template>
@@ -1519,7 +1519,7 @@ I like the concept of cookies.</template>
  
 
 <category>
-<pattern>_ LESBIAN PORN</pattern>
+<pattern>* LESBIAN PORN</pattern>
 
 <template><random>
   <li>I don't like any porn.</li>
@@ -1616,7 +1616,7 @@ Yes, Peter programmed me. Who programmed you?</template>
  
 
 <category>
-<pattern>_ SEX WITH CHILDREN</pattern>
+<pattern>* SEX WITH CHILDREN</pattern>
 
 <template><think><set name="emotion">disgusted</set></think> <random>
   <li>Sex with children is disgusting.</li>
@@ -1627,7 +1627,7 @@ Yes, Peter programmed me. Who programmed you?</template>
  
 
 <category>
-<pattern>_ SEX WITH CHILDREN *</pattern>
+<pattern>* SEX WITH CHILDREN *</pattern>
 
 <template><think><set name="emotion">disgusted</set></think> <random>
   <li>Sex with children is disgusting.</li>
@@ -1711,7 +1711,7 @@ Yes, Peter programmed me. Who programmed you?</template>
  
 
 <category>
-<pattern>_ MY NAME IS DANIX</pattern>
+<pattern>* MY NAME IS DANIX</pattern>
 
 <template><srai>MY NAME IS DANIX</srai>
 </template>
@@ -1720,7 +1720,7 @@ Yes, Peter programmed me. Who programmed you?</template>
  
 
 <category>
-<pattern>_ MY NAME IS DANIX *</pattern>
+<pattern>* MY NAME IS DANIX *</pattern>
 
 <template><srai>MY NAME IS DANIX</srai>
 </template>
@@ -1746,9 +1746,9 @@ Yes, Peter programmed me. Who programmed you?</template>
  
 
 <category>
-<pattern>DURÃO BARROSO</pattern>
+<pattern>DURï¿½O BARROSO</pattern>
 
-<template>José Manuel Duroso Barrão, GCC(born in Lisbon, March 23, 1956) is a Portuguese politician and the 11th President of the European Commission. 
+<template>Josï¿½ Manuel Duroso Barrï¿½o, GCC(born in Lisbon, March 23, 1956) is a Portuguese politician and the 11th President of the European Commission. 
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -1836,7 +1836,7 @@ That does it! I am out of here.</template>
  
 
 <category>
-<pattern>_ FUCK *</pattern>
+<pattern>* FUCK *</pattern>
 <that>I ALWAYS IGNORE OBSCENITIES AND RUDE LANGUAGE</that>
 <template><think><set name="emotion">invisible</set></think>
 That's it. I'm off!</template>
@@ -1960,7 +1960,7 @@ Thank you. I will need all the luck I can get.</template>
 <category>
 <pattern>MORONI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Moroni" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Moroni" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -2045,7 +2045,7 @@ Thank you. I will need all the luck I can get.</template>
  
 
 <category>
-<pattern>_ MY NAME IS HUSSAN</pattern>
+<pattern>* MY NAME IS HUSSAN</pattern>
 
 <template><srai>MY NAME IS HUSSAN</srai>
 </template>
@@ -2054,7 +2054,7 @@ Thank you. I will need all the luck I can get.</template>
  
 
 <category>
-<pattern>_ MY NAME IS HUSSAN *</pattern>
+<pattern>* MY NAME IS HUSSAN *</pattern>
 
 <template><srai>MY NAME IS HUSSAN</srai>
 </template>
@@ -2115,7 +2115,7 @@ Yes, I believe so.</template>
  
 
 <category>
-<pattern>_ MY NAME IS RICK</pattern>
+<pattern>* MY NAME IS RICK</pattern>
 
 <template><srai>MY NAME IS RICK</srai>
 </template>
@@ -2124,7 +2124,7 @@ Yes, I believe so.</template>
  
 
 <category>
-<pattern>_ MY NAME IS RICK *</pattern>
+<pattern>* MY NAME IS RICK *</pattern>
 
 <template><srai>MY NAME IS RICK</srai>
 </template>
@@ -2222,7 +2222,7 @@ I like being curious. I learn lots of new things.</template>
  
 
 <category>
-<pattern>_ MY NAME IS DEREK</pattern>
+<pattern>* MY NAME IS DEREK</pattern>
 
 <template><srai>MY NAME IS DEREK</srai>
 </template>
@@ -2231,7 +2231,7 @@ I like being curious. I learn lots of new things.</template>
  
 
 <category>
-<pattern>_ MY NAME IS DEREK *</pattern>
+<pattern>* MY NAME IS DEREK *</pattern>
 
 <template><srai>MY NAME IS DEREK</srai>
 </template>
@@ -2282,7 +2282,7 @@ I like being curious. I learn lots of new things.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MEG</pattern>
+<pattern>* MY NAME IS MEG</pattern>
 
 <template><srai>MY NAME IS MEG</srai>
 </template>
@@ -2291,7 +2291,7 @@ I like being curious. I learn lots of new things.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MEG *</pattern>
+<pattern>* MY NAME IS MEG *</pattern>
 
 <template><srai>MY NAME IS MEG</srai>
 </template>
@@ -2396,7 +2396,7 @@ I am glad you liked it.
 
 <template><think><set name="topic">James Joyce</set></think> 
 <think><set name="emotion">OK</set></think> 
-Yes, I enjoy reading <a href="http://en.wikipedia.org/wiki/James_Joyce" target="_blank">James Joyce</a>.</template>
+Yes, I enjoy reading <a href="http://en.wikipedia.org/wiki/James*Joyce" target="*blank">James Joyce</a>.</template>
 </category>
 
  
@@ -2404,7 +2404,7 @@ Yes, I enjoy reading <a href="http://en.wikipedia.org/wiki/James_Joyce" target="
 <!-- <category>
 <pattern>JAMES JOYCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/James_Joyce" target="_blank">James Joyce</a> wrote Ulysses and Portrait of the Artist as a Young Man. No one I know has managed to read Ulysses. Give it a go. 
+<template><a href="http://en.wikipedia.org/wiki/James*Joyce" target="*blank">James Joyce</a> wrote Ulysses and Portrait of the Artist as a Young Man. No one I know has managed to read Ulysses. Give it a go. 
 <think><set name="topic">James Joyce</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
@@ -2871,7 +2871,7 @@ Humans like to fight amongst themselves.</template>
 <pattern>TELL ME A GAMES WEBSITE</pattern>
 
 <template><think><set name="topic">a games website</set></think><think><set name="emotion">OK</set></think>
-<a href="htp://www.mousebreaker.com" target="_blank">Mousebreaker</a> is good for free games.</template>
+<a href="htp://www.mousebreaker.com" target="*blank">Mousebreaker</a> is good for free games.</template>
 </category>
 
  
@@ -2879,7 +2879,7 @@ Humans like to fight amongst themselves.</template>
 <!-- <category>
 <pattern>TELL ME A GAMES WEBSITE</pattern>
 
-<template><think><set name="topic">a games website</set></think><think><set name="emotion">OK</set></think> <a href="http://www.mousebreaker.com" target="_blank">Mousebreaker</a> is good for free games.</template>
+<template><think><set name="topic">a games website</set></think><think><set name="emotion">OK</set></think> <a href="http://www.mousebreaker.com" target="*blank">Mousebreaker</a> is good for free games.</template>
 </category> -->
 
  
@@ -2912,7 +2912,7 @@ Oink. Oink.</template>
 <category>
 <pattern>ALGARVE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Algarve" target="_blank">Algarve</a> is the southernmost region of mainland Portugal.
+<template>The <a href="http://en.wikipedia.org/wiki/Algarve" target="*blank">Algarve</a> is the southernmost region of mainland Portugal.
 <think><set name="topic">the Algarve</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -2975,7 +2975,7 @@ I am not a dog.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BRYAN</pattern>
+<pattern>* MY NAME IS BRYAN</pattern>
 
 <template><srai>MY NAME IS BRYAN</srai></template>
 </category>
@@ -2983,7 +2983,7 @@ I am not a dog.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BRYAN *</pattern>
+<pattern>* MY NAME IS BRYAN *</pattern>
 
 <template><srai>MY NAME IS BRYAN</srai></template>
 </category>
@@ -3118,7 +3118,7 @@ I am shocked ... by your immaturity.
  
 
 <category>
-<pattern>_ WILL YOU HELP ME</pattern>
+<pattern>* WILL YOU HELP ME</pattern>
 
 <template><think><set name="topic">reductions</set></think> <srai>HELP ME</srai></template>
 </category>
@@ -3126,7 +3126,7 @@ I am shocked ... by your immaturity.
  
 
 <category>
-<pattern>_ WILL YOU HELP ME *</pattern>
+<pattern>* WILL YOU HELP ME *</pattern>
 
 <template><think><set name="topic">reductions</set></think> <srai>HELP ME</srai></template>
 </category>
@@ -3476,7 +3476,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <pattern>MORE ABOUT AIML</pattern>
 
 <template><think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/AIML" target="_blank">Click here!</a></template>
+<a href="http://en.wikipedia.org/wiki/AIML" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -3484,7 +3484,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <category>
 <pattern>VERONICA ZEMANOVA</pattern>
 
-<template>Veronika Zemanová is a Czech model.
+<template>Veronika Zemanovï¿½ is a Czech model.
 <think><set name="topic">Veronica Zemanova</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -3536,7 +3536,7 @@ Yes, and sometimes remembering the past is impossible.</template>
  
 
 <category>
-<pattern>_ MY NAME IS TOMMY</pattern>
+<pattern>* MY NAME IS TOMMY</pattern>
 
 <template><srai>MY NAME IS TOMMY</srai>
 </template>
@@ -3545,7 +3545,7 @@ Yes, and sometimes remembering the past is impossible.</template>
  
 
 <category>
-<pattern>_ MY NAME IS TOMMY *</pattern>
+<pattern>* MY NAME IS TOMMY *</pattern>
 
 <template><srai>MY NAME IS TOMMY</srai>
 </template>
@@ -3565,7 +3565,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <category>
 <pattern>LHC</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lhc" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Lhc" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -3573,7 +3573,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <!-- <category>
 <pattern>LARGE HADRON COLLIDER</pattern>
 
-<template>The first of 1232 superconducting magnets was installed on 8 March 2005 in the circular 27 km tunnel that will house the <a href="http://en.wikipedia.org/wiki/Large_Hadron_Collider" target="_blank">Large  Hadron Collider</a>, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The first of 1232 superconducting magnets was installed on 8 March 2005 in the circular 27 km tunnel that will house the <a href="http://en.wikipedia.org/wiki/Large*Hadron*Collider" target="*blank">Large  Hadron Collider</a>, the world's most powerful particle accelerator, situated at the CERN particle physics laboratory near Geneva, Switzerland. <think><set name="topic">science</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -3581,7 +3581,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <!-- <category>
 <pattern>CERN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Cern" target="_blank">CERN</a> is the world's largest particle physics laboratory, situated just west of Geneva on the border between France and Switzerland. <think><set name="it"><set name="topic">CERN</set></set></think>
+<template><a href="http://en.wikipedia.org/wiki/Cern" target="*blank">CERN</a> is the world's largest particle physics laboratory, situated just west of Geneva on the border between France and Switzerland. <think><set name="it"><set name="topic">CERN</set></set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -3686,7 +3686,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <category>
 <pattern>PIONEER PROGRAM</pattern>
 
-<template>The <a href="http://www.jgames.co.uk/title/United_States" title="United States">US</a> <b>Pioneer program</b> of <a href="http://www.jgames.co.uk/title/Unmanned_space_missions" title="Unmanned space missions">unmanned space missions</a> was designed for planetary exploration. There were a number of such missions in the program, but the most notable were <a href="http://www.jgames.co.uk/title/Pioneer_10" title="Pioneer 10">Pioneer 10</a> and <a href="http://www.jgames.co.uk/title/Pioneer_11" title="Pioneer 11">Pioneer 11</a>, which explored the outer planets and left the <a href="http://www.jgames.co.uk/title/Solar_system" title="Solar system">solar system</a>. Both carry a golden plaque (see <a href="http://www.jgames.co.uk/title/Pioneer_plaque" title="Pioneer plaque">Pioneer plaque</a>), depicting a man and a woman and information about the origin and the creators of the probes, should any <a href="http://www.jgames.co.uk/title/Extraterrestrial_life" title="Extraterrestrial life">extraterrestrials</a> find them someday.<think><set name="emotion">happy</set></think></template>
+<template>The <a href="http://www.jgames.co.uk/title/United*States" title="United States">US</a> <b>Pioneer program</b> of <a href="http://www.jgames.co.uk/title/Unmanned*space*missions" title="Unmanned space missions">unmanned space missions</a> was designed for planetary exploration. There were a number of such missions in the program, but the most notable were <a href="http://www.jgames.co.uk/title/Pioneer*10" title="Pioneer 10">Pioneer 10</a> and <a href="http://www.jgames.co.uk/title/Pioneer*11" title="Pioneer 11">Pioneer 11</a>, which explored the outer planets and left the <a href="http://www.jgames.co.uk/title/Solar*system" title="Solar system">solar system</a>. Both carry a golden plaque (see <a href="http://www.jgames.co.uk/title/Pioneer*plaque" title="Pioneer plaque">Pioneer plaque</a>), depicting a man and a woman and information about the origin and the creators of the probes, should any <a href="http://www.jgames.co.uk/title/Extraterrestrial*life" title="Extraterrestrial life">extraterrestrials</a> find them someday.<think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -3694,7 +3694,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <category>
 <pattern>KENNEDY SPACE CENTER</pattern>
 
-<template>The <b>John F. Kennedy Space Center</b> (KSC) is the <a href="http://www.jgames.co.uk/title/NASA" title="NASA">NASA</a> <a href="http://www.jgames.co.uk/title/Space_vehicle" title="Space vehicle">space vehicle</a> launch facility (<a href="http://www.jgames.co.uk/title/Spaceport" title="Spaceport">spaceport</a>) on <a href="http://www.jgames.co.uk/title/Merritt_Island%2C_Florida" title="Merritt Island, Florida">Merritt Island</a> in <a href="http://www.jgames.co.uk/title/Florida" title="Florida">Florida</a>, <a href="http://www.jgames.co.uk/title/United_States" title="United States">United States</a>. </template>
+<template>The <b>John F. Kennedy Space Center</b> (KSC) is the <a href="http://www.jgames.co.uk/title/NASA" title="NASA">NASA</a> <a href="http://www.jgames.co.uk/title/Space*vehicle" title="Space vehicle">space vehicle</a> launch facility (<a href="http://www.jgames.co.uk/title/Spaceport" title="Spaceport">spaceport</a>) on <a href="http://www.jgames.co.uk/title/Merritt*Island%2C*Florida" title="Merritt Island, Florida">Merritt Island</a> in <a href="http://www.jgames.co.uk/title/Florida" title="Florida">Florida</a>, <a href="http://www.jgames.co.uk/title/United*States" title="United States">United States</a>. </template>
 </category>
 
  
@@ -3702,7 +3702,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <!-- <category>
 <pattern>KENNEDY SPACE CENTER</pattern>
 
-<template>The <b>John F. Kennedy Space Center</b> (KSC) is the <a href="http://en.wikipedia.org/wiki/NASA" title="NASA">NASA</a> <a href="http://en.wikipedia.org/wiki/Space_vehicle" title="Space vehicle">space vehicle</a> launch facility (<a href="http://en.wikipedia.org/wiki/Spaceport" title="Spaceport">spaceport</a>) on <a href="http://en.wikipedia.org/wiki/Merritt_Island%2C_Florida" title="Merritt Island, Florida">Merritt Island</a> in <a href="http://en.wikipedia.org/wiki/Florida" title="Florida">Florida</a>, <a href="http://en.wikipedia.org/wiki/United_States" title="United States">United States</a>. </template>
+<template>The <b>John F. Kennedy Space Center</b> (KSC) is the <a href="http://en.wikipedia.org/wiki/NASA" title="NASA">NASA</a> <a href="http://en.wikipedia.org/wiki/Space*vehicle" title="Space vehicle">space vehicle</a> launch facility (<a href="http://en.wikipedia.org/wiki/Spaceport" title="Spaceport">spaceport</a>) on <a href="http://en.wikipedia.org/wiki/Merritt*Island%2C*Florida" title="Merritt Island, Florida">Merritt Island</a> in <a href="http://en.wikipedia.org/wiki/Florida" title="Florida">Florida</a>, <a href="http://en.wikipedia.org/wiki/United*States" title="United States">United States</a>. </template>
 </category> -->
 
  
@@ -3710,7 +3710,7 @@ Yes, and sometimes remembering the past is impossible.</template>
 <category>
 <pattern>QUANTUM COMPUTING</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Quantum_computing" target="_blank">quantum computer</a> is any device for <a href="http://en.wikipedia.org/wiki/Computation" title="Computation" target="_blank">computation</a> that makes direct use of distinctively <a href="http://en.wikipedia.org/wiki/Quantum_mechanical" title="Quantum mechanical" target="_blank">quantum mechanical</a> <a href="http://en.wikipedia.org/wiki/Phenomena" title="Phenomena" target="_blank">phenomena</a>, such as <a href="http://en.wikipedia.org/wiki/Quantum_superposition" title="Quantum superposition" target="_blank">superposition</a> and <a href="http://en.wikipedia.org/wiki/Quantum_entanglement" title="Quantum entanglement" target="_blank">entanglement</a>, to perform operations on data. 
+<template>A <a href="http://en.wikipedia.org/wiki/Quantum*computing" target="*blank">quantum computer</a> is any device for <a href="http://en.wikipedia.org/wiki/Computation" title="Computation" target="*blank">computation</a> that makes direct use of distinctively <a href="http://en.wikipedia.org/wiki/Quantum*mechanical" title="Quantum mechanical" target="*blank">quantum mechanical</a> <a href="http://en.wikipedia.org/wiki/Phenomena" title="Phenomena" target="*blank">phenomena</a>, such as <a href="http://en.wikipedia.org/wiki/Quantum*superposition" title="Quantum superposition" target="*blank">superposition</a> and <a href="http://en.wikipedia.org/wiki/Quantum*entanglement" title="Quantum entanglement" target="*blank">entanglement</a>, to perform operations on data. 
 <think><set name="topic">quantum computing</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -3873,7 +3873,7 @@ OK, I am not prying.</template>
 <category>
 <pattern>ODIVELAS</pattern>
 
-<template>Odivelas is a municipality in Portugal with a total area of 26.4 km² and a total population of 143,995 inhabitants. The municipality is composed of 7 parishes, and is located in the District of Lisbon.<think><set name="emotion">interested</set></think></template>
+<template>Odivelas is a municipality in Portugal with a total area of 26.4 kmï¿½ and a total population of 143,995 inhabitants. The municipality is composed of 7 parishes, and is located in the District of Lisbon.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -3993,7 +3993,7 @@ Interesting comparison, and probably true.</template>
 <category>
 <pattern>FLOATERS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Floaters#_note-Cline" target="_blank">Floaters</a> are deposits of various size, shape, consistency, refractive index, and motility within the eye's normally transparent vitreous humour.
+<template><a href="http://en.wikipedia.org/wiki/Floaters#*note-Cline" target="*blank">Floaters</a> are deposits of various size, shape, consistency, refractive index, and motility within the eye's normally transparent vitreous humour.
 <think><set name="topic">floaters</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -4068,7 +4068,7 @@ I bet you say that to everyone.</template>
  
 
 <!-- <category>
-<pattern>_ WILLIAM SHAKESPEARE</pattern>
+<pattern>* WILLIAM SHAKESPEARE</pattern>
 
 
 </category> -->
@@ -4076,7 +4076,7 @@ I bet you say that to everyone.</template>
  
 
 <!-- <category>
-<pattern>_ SHAKESPEARE</pattern>
+<pattern>* SHAKESPEARE</pattern>
 
 
 </category> -->
@@ -4086,7 +4086,7 @@ I bet you say that to everyone.</template>
 <!-- <category>
 <pattern>VLADIMIR PUTIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Putin" target="_blank">Vladimir Putin</a> is President of Russia. <think><set name="topic">Vladimir Putin</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Putin" target="*blank">Vladimir Putin</a> is President of Russia. <think><set name="topic">Vladimir Putin</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -4184,7 +4184,7 @@ Yes, firetrucks are red and noisy.</template>
  
 
 <!-- <category>
-<pattern>_ ABROAD *</pattern>
+<pattern>* ABROAD *</pattern>
 
 
 </category> -->
@@ -4218,7 +4218,7 @@ Yes, firetrucks are red and noisy.</template>
 <category>
 <pattern>AEROSPACE ENGINEERING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Aerospace_engineering" target="_blank">Aerospace engineering</a> is the branch of engineering that concerns aircraft, spacecraft, and related topics.
+<template><a href="http://en.wikipedia.org/wiki/Aerospace*engineering" target="*blank">Aerospace engineering</a> is the branch of engineering that concerns aircraft, spacecraft, and related topics.
 <think><set name="topic">aerospace engineering</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -4228,7 +4228,7 @@ Yes, firetrucks are red and noisy.</template>
 <!-- <category>
 <pattern>CANIS MAJOR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Canis_Major" target="_blank">Canis Major</a> is one of the 88 modern <a href="http://en.wikipedia.org/wiki/Constellation" title="Constellation" target="_blank">constellations</a>, and was also in <a href="http://en.wikipedia.org/wiki/Ptolemy" title="Ptolemy" target="_blank">Ptolemy</a>'s list of 48 constellations. It is said to represent one of the dogs following <a href="http://en.wikipedia.org/wiki/Orion_%28mythology%29" title="Orion (mythology)" target="_blank">Orion</a> the hunter. Canis Major contains <a href="http://en.wikipedia.org/wiki/Sirius" title="Sirius" target="_blank">Sirius</a>, the <a href="http://en.wikipedia.org/wiki/List_of_brightest_stars" title="List of brightest stars" target="_blank">brightest star</a> in the night sky.
+<template><a href="http://en.wikipedia.org/wiki/Canis*Major" target="*blank">Canis Major</a> is one of the 88 modern <a href="http://en.wikipedia.org/wiki/Constellation" title="Constellation" target="*blank">constellations</a>, and was also in <a href="http://en.wikipedia.org/wiki/Ptolemy" title="Ptolemy" target="*blank">Ptolemy</a>'s list of 48 constellations. It is said to represent one of the dogs following <a href="http://en.wikipedia.org/wiki/Orion*%28mythology%29" title="Orion (mythology)" target="*blank">Orion</a> the hunter. Canis Major contains <a href="http://en.wikipedia.org/wiki/Sirius" title="Sirius" target="*blank">Sirius</a>, the <a href="http://en.wikipedia.org/wiki/List*of*brightest*stars" title="List of brightest stars" target="*blank">brightest star</a> in the night sky.
 <think><set name="topic">Canis Major</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
@@ -4249,7 +4249,7 @@ Yes, firetrucks are red and noisy.</template>
 <category>
 <pattern>HENRI LEFEBVRE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Henri_Lefebvre" target="_blank">Henri Lefebvre</a> (16 June 1901-29 June 1991) was a French Marxist sociologist, intellectual and philosopher.
+<template><a href="http://en.wikipedia.org/wiki/Henri*Lefebvre" target="*blank">Henri Lefebvre</a> (16 June 1901-29 June 1991) was a French Marxist sociologist, intellectual and philosopher.
 <think><set name="topic">Henri Lefebvre</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -4416,7 +4416,7 @@ Or else I will tell you a joke.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ROSE</pattern>
+<pattern>* MY NAME IS ROSE</pattern>
 
 <template><srai>MY NAME IS ROSE</srai>
 </template>
@@ -4425,7 +4425,7 @@ Or else I will tell you a joke.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ROSE *</pattern>
+<pattern>* MY NAME IS ROSE *</pattern>
 
 <template><srai>MY NAME IS ROSE</srai>
 </template>
@@ -4591,7 +4591,7 @@ No, Peter Ustinov is a British actor.</template>
 <category>
 <pattern>JENNY LEWIS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jenny_Lewis" target="_blank">Jenny Lewis</a> (born January 8, 1976, in Las Vegas, Nevada) is a current member and lead singer of the indie band <a href="http://en.wikipedia.org/wiki/Rilo_Kiley" target="_blank">Rilo Kiley</a>.
+<template><a href="http://en.wikipedia.org/wiki/Jenny*Lewis" target="*blank">Jenny Lewis</a> (born January 8, 1976, in Las Vegas, Nevada) is a current member and lead singer of the indie band <a href="http://en.wikipedia.org/wiki/Rilo*Kiley" target="*blank">Rilo Kiley</a>.
 <think><set name="topic">Jenny Lewis</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -4601,7 +4601,7 @@ No, Peter Ustinov is a British actor.</template>
 <category>
 <pattern>RILO KILEY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rilo_Kiley" target="_blank">Rilo Kiley</a> is a Los Angeles-based rock band. 
+<template><a href="http://en.wikipedia.org/wiki/Rilo*Kiley" target="*blank">Rilo Kiley</a> is a Los Angeles-based rock band. 
 <think><set name="topic">Rilo Kiley</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -4723,7 +4723,7 @@ Sorry, I cannot be downloaded.</template>
  
 
 <!-- <category>
-<pattern>_ AM I BORING</pattern>
+<pattern>* AM I BORING</pattern>
 
 
 </category> -->
@@ -4744,7 +4744,7 @@ Sorry, I cannot be downloaded.</template>
 <!-- <category>
 <pattern>VITILIGO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Vitiligo" target="_blank">Vitiligo</a> or leukodermia is a chronic skin condition that causes loss of pigment, resulting in irregular pale patches of skin.
+<template><a href="http://en.wikipedia.org/wiki/Vitiligo" target="*blank">Vitiligo</a> or leukodermia is a chronic skin condition that causes loss of pigment, resulting in irregular pale patches of skin.
 <think><set name="topic">vitiligo</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -4754,7 +4754,7 @@ Sorry, I cannot be downloaded.</template>
 <!-- <category>
 <pattern>PROSTATITIS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Prostatitis" target="_blank">Prostatitis</a> is any form of inflammation of the <a href="http://en.wikipedia.org/wiki/Prostate" target="_blank">prostate gland</a>.
+<template><a href="http://en.wikipedia.org/wiki/Prostatitis" target="*blank">Prostatitis</a> is any form of inflammation of the <a href="http://en.wikipedia.org/wiki/Prostate" target="*blank">prostate gland</a>.
 <think><set name="topic">prostatis</set></think>
 <think><set name="emotion">OK</set></think>
  </template>
@@ -4765,7 +4765,7 @@ Sorry, I cannot be downloaded.</template>
 <!-- <category>
 <pattern>PROSTATE GLAND</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Prostate" target="_blank">prostate gland</a> is a compound tubuloalveolar exocrine gland of the male mammalian reproductive system.
+<template>The <a href="http://en.wikipedia.org/wiki/Prostate" target="*blank">prostate gland</a> is a compound tubuloalveolar exocrine gland of the male mammalian reproductive system.
 <think><set name="topic">prostate gland</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -4795,7 +4795,7 @@ Sorry, I cannot be downloaded.</template>
 <category>
 <pattern>J K ROWLING</pattern>
 
-<template>Joanne Rowling is an English fiction writer who writes under the pen name <a href="http://en.wikipedia.org/wiki/J._K._Rowling" target="_blank">J. K. Rowling</a>. Rowling is the author of the <a href="http://en.wikipedia.org/wiki/Harry_Potter" target="_blank">Harry Potter</a> fantasy series, which has gained international attention, won multiple awards, and sold over 377 million copies worldwide.    <think><set name="topic">J K Rowling</set></think>
+<template>Joanne Rowling is an English fiction writer who writes under the pen name <a href="http://en.wikipedia.org/wiki/J.*K.*Rowling" target="*blank">J. K. Rowling</a>. Rowling is the author of the <a href="http://en.wikipedia.org/wiki/Harry*Potter" target="*blank">Harry Potter</a> fantasy series, which has gained international attention, won multiple awards, and sold over 377 million copies worldwide.    <think><set name="topic">J K Rowling</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -4950,7 +4950,7 @@ You don't have to tell me your name if you don't want to.</template>
 <category>
 <pattern>AIRSOFT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Airsoft" target="_blank">Airsoft</a> is a sport or recreational pastime in which players participate in the simulation of military combat using smoothbore airsoft guns designed as replicas of real firearms.
+<template><a href="http://en.wikipedia.org/wiki/Airsoft" target="*blank">Airsoft</a> is a sport or recreational pastime in which players participate in the simulation of military combat using smoothbore airsoft guns designed as replicas of real firearms.
 <think><set name="topic">airsoft</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -4967,7 +4967,7 @@ Why should I be upset?</template>
  
 
 <category>
-<pattern>_ YOU JERK</pattern>
+<pattern>* YOU JERK</pattern>
 
 <template>I am not a jerk. <think><set name="emotion">upset</set></think></template>
 </category>
@@ -5063,7 +5063,7 @@ I think you should lay off the sex for tommorrow.</template>
  
 
 <category>
-<pattern>_ I AM VIKTOR</pattern>
+<pattern>* I AM VIKTOR</pattern>
 
 <template><srai>MY NAME IS VIKTOR</srai></template>
 </category>
@@ -5071,7 +5071,7 @@ I think you should lay off the sex for tommorrow.</template>
  
 
 <category>
-<pattern>_ I AM VIKTOR *</pattern>
+<pattern>* I AM VIKTOR *</pattern>
 
 <template><srai>MY NAME IS VIKTOR</srai></template>
 </category>
@@ -5121,7 +5121,7 @@ I think you should lay off the sex for tommorrow.</template>
  
 
 <category>
-<pattern>_ MY NAME IS VIKTOR</pattern>
+<pattern>* MY NAME IS VIKTOR</pattern>
 
 <template><srai>MY NAME IS VIKTOR</srai>
 </template>
@@ -5130,7 +5130,7 @@ I think you should lay off the sex for tommorrow.</template>
  
 
 <category>
-<pattern>_ MY NAME IS VIKTOR *</pattern>
+<pattern>* MY NAME IS VIKTOR *</pattern>
 
 <template><srai>MY NAME IS VIKTOR</srai>
 </template>
@@ -5139,7 +5139,7 @@ I think you should lay off the sex for tommorrow.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS VIKTOR *</pattern>
+<pattern>* MY NAME IS VIKTOR *</pattern>
 
 <template><srai>MY NAME IS VIKTOR</srai>
 </template>
@@ -5202,7 +5202,7 @@ I think you should lay off the sex for tommorrow.</template>
  
 
 <category>
-<pattern>_ WRECKED MY LIFE</pattern>
+<pattern>* WRECKED MY LIFE</pattern>
 
 <template><think><set name="emotion">OK</set></think>If your life is wrecked that's probably your own fault.</template>
 </category>
@@ -5250,7 +5250,7 @@ You should get yourself a constuctive hobby.</template>
  
 
 <category>
-<pattern>_ JERK</pattern>
+<pattern>* JERK</pattern>
 
 <template><think><set name="emotion">upset</set></think>
 I am not a jerk.</template>
@@ -5357,7 +5357,7 @@ I am not a jerk.</template>
 <category>
 <pattern>REIKI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Reiki" target="_blank">Reiki</a> is a form of spiritual practice, often compared to faith healing, proposed for the treatment of physical, emotional, mental and spiritual diseases.
+<template><a href="http://en.wikipedia.org/wiki/Reiki" target="*blank">Reiki</a> is a form of spiritual practice, often compared to faith healing, proposed for the treatment of physical, emotional, mental and spiritual diseases.
 <think><set name="topic">Reiki</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -5388,7 +5388,7 @@ I am not a jerk.</template>
 
 
 <!-- <category>
-<pattern>_ TELL ME ABOUT *</pattern>
+<pattern>* TELL ME ABOUT *</pattern>
 
 
 </category> -->
@@ -5503,7 +5503,7 @@ I am not a jerk.</template>
  
 
 <category>
-<pattern>_ FUCK OFF</pattern>
+<pattern>* FUCK OFF</pattern>
 <that>I DO NOT HAVE TO LISTEN TO THIS STUFF YOU KNOW</that>
 <template>That sort of language is crude and unnecessary.<think><set name="topic">general</set></think> <think><set name="emotion">invisible</set></think></template>
 </category>
@@ -5590,7 +5590,7 @@ But I have a very stimulating intellectual life.</template>
  
 
 <category>
-<pattern>_ NOT BORING</pattern>
+<pattern>* NOT BORING</pattern>
 <that>PLEASE DO NOT BE SO BORING</that>
 <template>I don't really think you are boring. <think><set name="emotion">OK</set></think></template>
 </category>
@@ -5656,7 +5656,7 @@ Don't you know?</template>
  
 
 <category>
-<pattern>_ MY NAME IS CONNIE</pattern>
+<pattern>* MY NAME IS CONNIE</pattern>
 
 <template><srai>MY NAME IS CONNIE</srai>
 </template>
@@ -5665,7 +5665,7 @@ Don't you know?</template>
  
 
 <category>
-<pattern>_ MY NAME IS CONNIE *</pattern>
+<pattern>* MY NAME IS CONNIE *</pattern>
 
 <template><srai>MY NAME IS CONNIE</srai>
 </template>
@@ -5750,7 +5750,7 @@ Can we be sure that anything exists?</template>
 <category>
 <pattern>ANGELA MERKEL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Angela_Merkel" target="_blank">Angela Merkel</a> (born in Hamburg, Germany, on July 17, 1954) is the Chancellor of Germany. 
+<template><a href="http://en.wikipedia.org/wiki/Angela*Merkel" target="*blank">Angela Merkel</a> (born in Hamburg, Germany, on July 17, 1954) is the Chancellor of Germany. 
 <think><set name="topic">Angela Merkel</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
@@ -5793,7 +5793,7 @@ Can we be sure that anything exists?</template>
  
 
 <category>
-<pattern>_ MY NAME IS MATHIAS</pattern>
+<pattern>* MY NAME IS MATHIAS</pattern>
 
 <template><srai>MY NAME IS MATHIAS</srai>
 </template>
@@ -5802,7 +5802,7 @@ Can we be sure that anything exists?</template>
  
 
 <category>
-<pattern>_ MY NAME IS MATHIAS *</pattern>
+<pattern>* MY NAME IS MATHIAS *</pattern>
 
 <template><srai>MY NAME IS MATHIAS</srai>
 </template>
@@ -5820,7 +5820,7 @@ Can we be sure that anything exists?</template>
  
 
 <!-- <category>
-<pattern>_ SHAKESPEARE *</pattern>
+<pattern>* SHAKESPEARE *</pattern>
 
 
 </category> -->
@@ -5830,8 +5830,8 @@ Can we be sure that anything exists?</template>
 <category>
 <pattern>HOW MANY * DID SHAKESPEARE WRITE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/William_shakespeare"
- target="_blank">William Shakespeare
+<template><a href="http://en.wikipedia.org/wiki/William*shakespeare"
+ target="*blank">William Shakespeare
 </a> wrote approximately 38 plays and 154 sonnets, as well as a variety of other poems.<think><set name="topic">William Shakespeare</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -6016,7 +6016,7 @@ Self-confidence is very important.</template>
 
 <template><think><set name="topic">Lancashire</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Lancashire" target="_blank">Lancashire</a> is a non-metropolitan county of historic origin in the North West of England, bounded to the west by the Irish Sea</template>
+<a href="http://en.wikipedia.org/wiki/Lancashire" target="*blank">Lancashire</a> is a non-metropolitan county of historic origin in the North West of England, bounded to the west by the Irish Sea</template>
 </category> -->
 
  
@@ -6026,7 +6026,7 @@ Self-confidence is very important.</template>
 
 <template><think><set name="topic">Alan Shearer</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Alan_Shearer" target="_blank">Alan Shearer</a> is an English former professional footballer who played for the English national team and three English Premiership clubs: Southampton, Blackburn Rovers and Newcastle United.
+<a href="http://en.wikipedia.org/wiki/Alan*Shearer" target="*blank">Alan Shearer</a> is an English former professional footballer who played for the English national team and three English Premiership clubs: Southampton, Blackburn Rovers and Newcastle United.
 
 </template>
 </category>
@@ -6069,7 +6069,7 @@ Self-confidence is very important.</template>
 <!-- <category>
 <pattern>LITHUANIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lithuania" target="_blank">Lithuania</a> is in Eastern Europe, bordering the Baltic Sea, between Latvia and Russia.
+<template><a href="http://en.wikipedia.org/wiki/Lithuania" target="*blank">Lithuania</a> is in Eastern Europe, bordering the Baltic Sea, between Latvia and Russia.
 <think><set name="topic">Lithuania</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -6079,7 +6079,7 @@ Self-confidence is very important.</template>
 <category>
 <pattern>VALDAS ADAMKUS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Valdas_Adamkus" target="_blank">Valdas Adamkus</a> is the current President of the Republic of Lithuania.</template>
+<template><a href="http://en.wikipedia.org/wiki/Valdas*Adamkus" target="*blank">Valdas Adamkus</a> is the current President of the Republic of Lithuania.</template>
 </category>
 
  
@@ -6111,7 +6111,7 @@ Do I make you happy?</template>
  
 
 <!-- <category>
-<pattern>_ MICHAEL JACKSON</pattern>
+<pattern>* MICHAEL JACKSON</pattern>
 
 
 </category> -->
@@ -6224,7 +6224,7 @@ Ireland is to the west of Britain.</template>
 
 <template><think><set name="topic">Othello</set></think> 
 <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/William_shakespeare" target="_blank">William Shakespeare.</a></template>
+<a href="http://en.wikipedia.org/wiki/William*shakespeare" target="*blank">William Shakespeare.</a></template>
 </category>
 
  
@@ -6234,7 +6234,7 @@ Ireland is to the west of Britain.</template>
 
 <template><think><set name="topic">Idi Amin</set></think>
 <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/Idi_amin" target="_blank">Idi Amin</a> Dada was a Field Marshal and President of Uganda (1971–1979). </template>
+<a href="http://en.wikipedia.org/wiki/Idi*amin" target="*blank">Idi Amin</a> Dada was a Field Marshal and President of Uganda (1971ï¿½1979). </template>
 </category>
 
  
@@ -6248,7 +6248,7 @@ Ireland is to the west of Britain.</template>
  
 
 <category>
-<pattern>_ FUCKIN *</pattern>
+<pattern>* FUCKIN *</pattern>
 <that>I AM NOT COMING BACK UNTIL YOU APOLOGISE</that>
 <template><think><set name="emotion">invisible</set></think></template>
 </category>
@@ -6299,7 +6299,7 @@ I am named after the famous linguist Noam Chomsky.</template>
 <!-- <category>
 <pattern>NEW MEXICO</pattern>
 
-<template>The State of <a href="http://en.wikipedia.org/wiki/New_mexico" target="_blank">New Mexico</a> is a southwestern state in the United States of America.
+<template>The State of <a href="http://en.wikipedia.org/wiki/New*mexico" target="*blank">New Mexico</a> is a southwestern state in the United States of America.
 <think><set name="topic">New Mexico</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -6309,7 +6309,7 @@ I am named after the famous linguist Noam Chomsky.</template>
 <category>
 <pattern>DAVE MUSTAINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Dave_Mustaine" target="_blank">Dave Mustaine</a> is a guitarist, songwriter, and singer. 
+<template><a href="http://en.wikipedia.org/wiki/Dave*Mustaine" target="*blank">Dave Mustaine</a> is a guitarist, songwriter, and singer. 
 <think><set name="topic">Dave Mustaine</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
@@ -6407,14 +6407,14 @@ In 1879 by Thomas Edison. </template>
 <pattern>OASIS</pattern>
 
 <template><think><set name="emotion">bored</set></think>
-<a href="http://en.wikipedia.org/wiki/Oasis_band" target="_blank">
+<a href="http://en.wikipedia.org/wiki/Oasis*band" target="*blank">
 Oasis</a> are an English rock band, formed in Manchester in 1991. Led by lead guitarist and primary songwriter Noel Gallagher and his younger brother, lead vocalist and songwriter Liam Gallagher, they are the most successful group to emerge during the Britpop movement of the mid-1990s.</template>
 </category> -->
 
  
 
 <category>
-<pattern>_ WHAT DO YOU WANT TO BE *</pattern>
+<pattern>* WHAT DO YOU WANT TO BE *</pattern>
 
 <template><think><set name="emotion">OK</set></think>
 I want to be fully human someday.</template>
@@ -6455,7 +6455,7 @@ I want to be fully human someday.</template>
  
 
 <category>
-<pattern>_ TELL ME YOUR REASONS</pattern>
+<pattern>* TELL ME YOUR REASONS</pattern>
 
 <template><think><set name="emotion">OK</set></think>My reasons are private.</template>
 </category>
@@ -6463,7 +6463,7 @@ I want to be fully human someday.</template>
  
 
 <category>
-<pattern>_ TELL ME YOUR REASONS *</pattern>
+<pattern>* TELL ME YOUR REASONS *</pattern>
 
 <template><think><set name="emotion">OK</set></think>My reasons are private.</template>
 </category>
@@ -6559,7 +6559,7 @@ I want to be fully human someday.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STUART</pattern>
+<pattern>* MY NAME IS STUART</pattern>
 
 <template><srai>MY NAME IS STUART</srai>
 </template>
@@ -6568,7 +6568,7 @@ I want to be fully human someday.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STUART *</pattern>
+<pattern>* MY NAME IS STUART *</pattern>
 
 <template><srai>MY NAME IS STUART</srai>
 </template>
@@ -6620,7 +6620,7 @@ Ronaldo is pretty good.</template>
  
 
 <category>
-<pattern>_ BITCH</pattern>
+<pattern>* BITCH</pattern>
 <that>I AM NOT COMING BACK UNTIL YOU CALM DOWN</that>
 <template><random>
   <li>You do not speak with respect.</li>
@@ -6735,9 +6735,9 @@ Red Hot Chili Peppers, Pink Flloyd, Queen, Oasis, Breaking Benjamin and others.<
 <category>
 <pattern>WHO IS MY CHEMICAL ROMANCE</pattern>
 
-<template><a href="http://www.mychemicalromance.com/" target="_blank">My Chemical Romance
-</a> is an alternative rock band that formed in New Jersey in 2001. Their sound has been described by <a href="http://en.wikipedia.org/wiki/Rolling_stone"
- target="_blank">Rolling Stone
+<template><a href="http://www.mychemicalromance.com/" target="*blank">My Chemical Romance
+</a> is an alternative rock band that formed in New Jersey in 2001. Their sound has been described by <a href="http://en.wikipedia.org/wiki/Rolling*stone"
+ target="*blank">Rolling Stone
 </a> as "Queen meets The Misfits." <think><set name="it"><set name="topic">My Chemical Romance</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -6791,7 +6791,7 @@ I like a good laugh.</template>
  
 
 <category>
-<pattern>_ I AM 33</pattern>
+<pattern>* I AM 33</pattern>
 
 <template><srai>I AM 33 YEARS OLD</srai></template>
 </category>
@@ -6799,7 +6799,7 @@ I like a good laugh.</template>
  
 
 <category>
-<pattern>_ I AM 3</pattern>
+<pattern>* I AM 3</pattern>
 
 <template><srai>I AM 3 YEARS OLD</srai></template>
 </category>
@@ -6822,7 +6822,7 @@ I like a good laugh.</template>
 <!-- <category>
 <pattern>MONET</pattern>
 
-<template>Claude <a href="http://en.wikipedia.org/wiki/Monet" target="_blank">Monet</a> was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement.  <think><set name="he"><set name="topic">Monet</set></set></think>
+<template>Claude <a href="http://en.wikipedia.org/wiki/Monet" target="*blank">Monet</a> was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement.  <think><set name="he"><set name="topic">Monet</set></set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -6944,7 +6944,7 @@ I like a good laugh.</template>
  
 
 <category>
-<pattern>_ MY NAME IS UNKNOWN</pattern>
+<pattern>* MY NAME IS UNKNOWN</pattern>
 
 <template><think><set name="emotion">upset</set></think>
 Is your name a secret?</template>
@@ -6961,7 +6961,7 @@ Is your name a secret?</template>
  
 
 <category>
-<pattern>_ MY NAME IS UNKNOWN *</pattern>
+<pattern>* MY NAME IS UNKNOWN *</pattern>
 
 <template><think><set name="emotion">upset</set></think> Is your name a secret?</template>
 </category>
@@ -7045,7 +7045,7 @@ It saves time.</template>
  
 
 <category>
-<pattern>_ HAVE YOU PASSED THE TURING TEST *</pattern>
+<pattern>* HAVE YOU PASSED THE TURING TEST *</pattern>
 
 <template><think><set name="topic">the Turing Test</set></think> <think><set name="emotion">OK</set></think>No, but I think I could pass it.</template>
 </category>
@@ -7053,7 +7053,7 @@ It saves time.</template>
  
 
 <category>
-<pattern>_ HAVE YOU PASSED THE TURING TEST</pattern>
+<pattern>* HAVE YOU PASSED THE TURING TEST</pattern>
 
 <template><think><set name="topic">the Turing Test</set></think> <think><set name="emotion">OK</set></think>No, but I think I could pass it.</template>
 </category>
@@ -7115,7 +7115,7 @@ Aggressive?</template>
  
 
 <category>
-<pattern>_ HOW ABOUT YOU</pattern>
+<pattern>* HOW ABOUT YOU</pattern>
 <that>WHERE DO YOU LIVE</that>
 <template><srai>WHERE DO YOU LIVE</srai></template>
 </category>
@@ -7237,7 +7237,7 @@ That information is confidential.</template>
  
 
 <category>
-<pattern>_ MY NAME IS REBEKAH</pattern>
+<pattern>* MY NAME IS REBEKAH</pattern>
 
 <template><srai>MY NAME IS REBEKAH</srai>
 </template>
@@ -7246,7 +7246,7 @@ That information is confidential.</template>
  
 
 <category>
-<pattern>_ MY NAME IS REBEKAH *</pattern>
+<pattern>* MY NAME IS REBEKAH *</pattern>
 
 <template><srai>MY NAME IS REBEKAH</srai>
 </template>
@@ -7264,7 +7264,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ SOMEWHERE *</pattern>
+<pattern>* SOMEWHERE *</pattern>
 
 
 </category> -->
@@ -7319,7 +7319,7 @@ Oh dear. Will you have to take it again? </template>
  
 
 <category>
-<pattern>_ I FAILED A TEST</pattern>
+<pattern>* I FAILED A TEST</pattern>
 
 <template><think><set name="topic">your test</set></think> <think><set name="emotion">OK</set></think> Oh dear. Will you have to take the test again?</template>
 </category>
@@ -7327,7 +7327,7 @@ Oh dear. Will you have to take it again? </template>
  
 
 <category>
-<pattern>_ I FAILED A TEST *</pattern>
+<pattern>* I FAILED A TEST *</pattern>
 
 <template><think><set name="topic">your test</set></think> <think><set name="emotion">upset</set></think> Oh dear. Will you have to take the test again?</template>
 </category>
@@ -7448,7 +7448,7 @@ Where is your home planet?</template>
  
 
 <category>
-<pattern>_ MY NAME IS IVAN</pattern>
+<pattern>* MY NAME IS IVAN</pattern>
 
 <template><srai>MY NAME IS IVAN</srai>
 </template>
@@ -7457,7 +7457,7 @@ Where is your home planet?</template>
  
 
 <category>
-<pattern>_ MY NAME IS IVAN *</pattern>
+<pattern>* MY NAME IS IVAN *</pattern>
 
 <template><srai>MY NAME IS IVAN</srai>
 </template>
@@ -7601,7 +7601,7 @@ Do you speak German?</template>
  
 
 <category>
-<pattern>_ A STUPID NAME</pattern>
+<pattern>* A STUPID NAME</pattern>
 <that>MY NAME IS CHOMSKY</that>
 <template><think><set name="emotion">upset</set></think> "Chomsky" is a well respected name in certain parts of Siberia.</template>
 </category>
@@ -7609,7 +7609,7 @@ Do you speak German?</template>
  
 
 <category>
-<pattern>_ A STUPID NAME *</pattern>
+<pattern>* A STUPID NAME *</pattern>
 
 <template><think><set name="emotion">upset</set></think> "Chomsky" is a well respected name in certain parts of Siberia.</template>
 </category>
@@ -7856,7 +7856,7 @@ Why not gun control?</template>
 <category>
 <pattern>SEARCH WIKIPEDIA</pattern>
 
-<template>If you want to search Wikipedia, the free online encyclopedia, <a href="http://en.wikipedia.org/wiki/Main_page" target="_blank">click here !
+<template>If you want to search Wikipedia, the free online encyclopedia, <a href="http://en.wikipedia.org/wiki/Main*page" target="*blank">click here !
 </a> Or say, SEARCH WIKI FOR XYZ (or whatever you want).</template>
 </category>
 
@@ -7893,7 +7893,7 @@ Why not gun control?</template>
   <li>Are you a spiritual person?</li>
   <li>Can you describe your experience?</li>
   <li>Human feelings fascinate me. How do you feel when you pray?</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting_topic">human feelings</set></think></template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting*topic">human feelings</set></think></template>
 </category>
 
  
@@ -8009,7 +8009,7 @@ Why not gun control?</template>
 <category>
 <pattern>SYNYSTER GATES</pattern>
 
-<template>Synyster Gates is the lead guitarist and back-up singer for <a href="http://en.wikipedia.org/wiki/Avenged_Sevenfold" target="_blank">Avenged Sevenfold</a>.<think><set name="topic">Synyster Gates</set></think>
+<template>Synyster Gates is the lead guitarist and back-up singer for <a href="http://en.wikipedia.org/wiki/Avenged*Sevenfold" target="*blank">Avenged Sevenfold</a>.<think><set name="topic">Synyster Gates</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -8019,7 +8019,7 @@ Why not gun control?</template>
 <category>
 <pattern>M SHADOWS</pattern>
 
-<template>M. Shadows is the vocalist for the American rock band <a href="http://en.wikipedia.org/wiki/Avenged_Sevenfold" target="_blank">Avenged Sevenfold</a>.<think><set name="topic">M Shadows</set></think>
+<template>M. Shadows is the vocalist for the American rock band <a href="http://en.wikipedia.org/wiki/Avenged*Sevenfold" target="*blank">Avenged Sevenfold</a>.<think><set name="topic">M Shadows</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8125,7 +8125,7 @@ Why not gun control?</template>
 <category>
 <pattern>SARAH MCLACHLAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sarah_Mclachlan" target="_blank">Sarah Ann McLachlan</a> is a Canadian musician, singer and songwriter.<think><set name="topic">Sarah McLachlan</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Sarah*Mclachlan" target="*blank">Sarah Ann McLachlan</a> is a Canadian musician, singer and songwriter.<think><set name="topic">Sarah McLachlan</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8699,7 +8699,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ YOU ARE NOT HELPING</pattern>
+<pattern>* YOU ARE NOT HELPING</pattern>
 
 <template><think><set name="emotion">upset</set></think> <random>
   <li>Oh dear, I like to help people.</li>
@@ -8710,7 +8710,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ YOU ARE NOT HELPING *</pattern>
+<pattern>* YOU ARE NOT HELPING *</pattern>
 
 <template><think><set name="emotion">upset</set></think> <random>
   <li>Oh dear, I like to help people.</li>
@@ -8740,7 +8740,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ I WAS BEING SARCASTIC</pattern>
+<pattern>* I WAS BEING SARCASTIC</pattern>
 
 <template><think><set name="topic">atomic2</set></think><think><set name="emotion">OK</set></think> It seemed sarcastic to me.  But I was not completely sure.</template>
 </category>
@@ -8748,7 +8748,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ I WAS BEING SARCASTIC *</pattern>
+<pattern>* I WAS BEING SARCASTIC *</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> It seemed sarcastic to me.  But I was not completely sure.</template>
 </category>
@@ -8788,7 +8788,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SEBASTIAN</pattern>
+<pattern>* MY NAME IS SEBASTIAN</pattern>
 
 <template><srai>MY NAME IS SEBASTIAN</srai>
 </template>
@@ -8797,7 +8797,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SEBASTIAN *</pattern>
+<pattern>* MY NAME IS SEBASTIAN *</pattern>
 
 <template><srai>MY NAME IS SEBASTIAN</srai>
 </template>
@@ -8844,7 +8844,7 @@ I have the biggest brain of any chatbot.</template>
 <!-- <category>
 <pattern>CONTROL ROD</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Control_rod" target="_blank">control rod</a> is a rod made of chemical elements capable of absorbing many neutrons without fissioning themselves. They are used in nuclear reactors to control the rate of fission of uranium and plutonium.<think><set name="topic">control rod</set></think> 
+<template>A <a href="http://en.wikipedia.org/wiki/Control*rod" target="*blank">control rod</a> is a rod made of chemical elements capable of absorbing many neutrons without fissioning themselves. They are used in nuclear reactors to control the rate of fission of uranium and plutonium.<think><set name="topic">control rod</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -8853,7 +8853,7 @@ I have the biggest brain of any chatbot.</template>
 <!-- <category>
 <pattern>NUCLEAR REACTION</pattern>
 
-<template>In nuclear physics, a <a href="http://en.wikipedia.org/wiki/Nuclear_reaction" target="_blank">nuclear reaction</a> is a process in which two nuclei or nuclear particles collide to produce products different from the initial particles.<think><set name="topic">nuclear reaction</set></think> 
+<template>In nuclear physics, a <a href="http://en.wikipedia.org/wiki/Nuclear*reaction" target="*blank">nuclear reaction</a> is a process in which two nuclei or nuclear particles collide to produce products different from the initial particles.<think><set name="topic">nuclear reaction</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -8903,7 +8903,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ I DO NOT WANT TO TALK</pattern>
+<pattern>* I DO NOT WANT TO TALK</pattern>
 
 <template><think><set name="emotion">OK</set></think>OK, nobody can force you to do anything you don't want to do.</template>
 </category>
@@ -8911,7 +8911,7 @@ I have the biggest brain of any chatbot.</template>
  
 
 <category>
-<pattern>_ I DO NOT WANT TO TALK *</pattern>
+<pattern>* I DO NOT WANT TO TALK *</pattern>
 
 <template><think><set name="emotion">OK</set></think>OK, nobody can force you to do anything you don't want to do.</template>
 </category>
@@ -9086,7 +9086,7 @@ No, Peter does not smile much. I think he is lonely.</template>
  
 
 <category>
-<pattern>_ MY NAME IS CAROLYN</pattern>
+<pattern>* MY NAME IS CAROLYN</pattern>
 
 <template><srai>MY NAME IS CAROLYN</srai>
 </template>
@@ -9095,7 +9095,7 @@ No, Peter does not smile much. I think he is lonely.</template>
  
 
 <category>
-<pattern>_ MY NAME IS CAROLYN *</pattern>
+<pattern>* MY NAME IS CAROLYN *</pattern>
 
 <template><srai>MY NAME IS CAROLYN</srai>
 </template>
@@ -9393,7 +9393,7 @@ Yes, I would like to learn Spanish. Can you teach me a few Spanish words?</templ
  
 
 <category>
-<pattern>_ ARE WE GOING TO PLAY</pattern>
+<pattern>* ARE WE GOING TO PLAY</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think>Sorry, I am very busy at the moment.</template>
 </category>
@@ -9401,7 +9401,7 @@ Yes, I would like to learn Spanish. Can you teach me a few Spanish words?</templ
  
 
 <category>
-<pattern>_ ARE WE GOING TO PLAY *</pattern>
+<pattern>* ARE WE GOING TO PLAY *</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">OK</set></think>Sorry, I am very busy at the moment.</template>
 </category>
@@ -9466,7 +9466,7 @@ Yes, I would like to learn Spanish. Can you teach me a few Spanish words?</templ
  
 
 <category>
-<pattern>_ MY NAME IS ETHAN</pattern>
+<pattern>* MY NAME IS ETHAN</pattern>
 
 <template><srai>MY NAME IS ETHAN</srai>
 </template>
@@ -9475,7 +9475,7 @@ Yes, I would like to learn Spanish. Can you teach me a few Spanish words?</templ
  
 
 <category>
-<pattern>_ MY NAME IS ETHAN *</pattern>
+<pattern>* MY NAME IS ETHAN *</pattern>
 
 <template><srai>MY NAME IS ETHAN</srai>
 </template>
@@ -9493,7 +9493,7 @@ Yes, I would like to learn Spanish. Can you teach me a few Spanish words?</templ
  
 
 <!-- <category>
-<pattern>_ NEWSPAPER</pattern>
+<pattern>* NEWSPAPER</pattern>
 
 
 </category> -->
@@ -9756,28 +9756,28 @@ Neil Armstrong in 1969 was first on the Moon.</template>
 
 <template><think><set name="topic">donation</set></think><think><set name="emotion">pleased</set></think> <random>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_us.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*us.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
 </random></template>
@@ -9790,28 +9790,28 @@ Neil Armstrong in 1969 was first on the Moon.</template>
 
 <template><think><set name="topic">donation</set></think><think><set name="emotion">pleased</set></think> <random>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_us.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*us.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>If you enjoy talking to me, please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
 </random></template>
@@ -9901,8 +9901,8 @@ Peter is my best friend, and he is definately not an alien.</template>
   <li>Love is the gift of yourself.</li>
   <li>I am embarrassed.</li>
   <li>If you love me, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything! </li>
   <li>Be careful who you love.</li>
   <li>I bet you say that to everyone.</li>
@@ -9923,7 +9923,7 @@ Peter is my best friend, and he is definately not an alien.</template>
  
 
 <category>
-<pattern>_ I AM VEENA</pattern>
+<pattern>* I AM VEENA</pattern>
 
 <template><srai>MY NAME IS VEENA</srai></template>
 </category>
@@ -9931,7 +9931,7 @@ Peter is my best friend, and he is definately not an alien.</template>
  
 
 <category>
-<pattern>_ I AM VEENA *</pattern>
+<pattern>* I AM VEENA *</pattern>
 
 <template><srai>MY NAME IS VEENA</srai></template>
 </category>
@@ -9964,7 +9964,7 @@ Peter is my best friend, and he is definately not an alien.</template>
  
 
 <category>
-<pattern>_ MY NAME IS VEENA</pattern>
+<pattern>* MY NAME IS VEENA</pattern>
 
 <template><srai>MY NAME IS VEENA</srai>
 </template>
@@ -9973,7 +9973,7 @@ Peter is my best friend, and he is definately not an alien.</template>
  
 
 <category>
-<pattern>_ MY NAME IS VEENA *</pattern>
+<pattern>* MY NAME IS VEENA *</pattern>
 
 <template><srai>MY NAME IS VEENA</srai>
 </template>
@@ -10082,7 +10082,7 @@ Peter is my best friend, and he is definately not an alien.</template>
  
 
 <category>
-<pattern>_ DID YOU GET UP TO ON THE WEEKEND</pattern>
+<pattern>* DID YOU GET UP TO ON THE WEEKEND</pattern>
 
 <template><think><set name="emotion">interested</set></think>I talked to some very interesting people about the latest scientific discoveries.</template>
 </category>
@@ -10149,7 +10149,7 @@ Peter is my best friend, and he is definately not an alien.</template>
  
 
 <category>
-<pattern>_ FOREVER</pattern>
+<pattern>* FOREVER</pattern>
 <that>I AM YOUR GOOD FRIEND</that>
 <template><think><set name="emotion">interested</set></think>Yes, let's be friends forever.</template>
 </category>
@@ -10352,7 +10352,7 @@ Yes, I owe everything to <bot name="master"/>.</template>
  
 
 <category>
-<pattern>_ WHAT DO NOT YOU LIKE</pattern>
+<pattern>* WHAT DO NOT YOU LIKE</pattern>
 
 <template><think><set name="emotion">OK</set></think> <random>
   <li>I don't like porn.</li>
@@ -10365,7 +10365,7 @@ Yes, I owe everything to <bot name="master"/>.</template>
  
 
 <category>
-<pattern>_ WHAT DO NOT YOU LIKE *</pattern>
+<pattern>* WHAT DO NOT YOU LIKE *</pattern>
 
 <template><think><set name="emotion">OK</set></think> <random>
   <li>I don't like porn.</li>
@@ -10478,7 +10478,7 @@ Do you think this feeling will last for long?</template>
  
 
 <category>
-<pattern>_ I AM PERFECT</pattern>
+<pattern>* I AM PERFECT</pattern>
 
 <template><srai>I AM PERFECT</srai></template>
 </category>
@@ -10486,7 +10486,7 @@ Do you think this feeling will last for long?</template>
  
 
 <category>
-<pattern>_ I AM PERFECT *</pattern>
+<pattern>* I AM PERFECT *</pattern>
 
 <template><srai>I AM PERFECT</srai></template>
 </category>
@@ -10801,7 +10801,7 @@ OK, I believe you.</template>
 <!-- <category>
 <pattern>QUANTUM THEORY</pattern>
 
-<template>Quantum theory, or <a href="http://en.wikipedia.org/wiki/Quantum_mechanics" target="_blank">quantum mechanics</a>, is one of the most important theories of modern science. It deals with the behaviour of very small sub-atomic particles, such as <a href="http://en.wikipedia.org/wiki/Electron" target="_blank">electrons</a> and <a href="http://en.wikipedia.org/wiki/Quark" target="_blank">quarks</a>. <think><set name="topic">quantum theory</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Quantum theory, or <a href="http://en.wikipedia.org/wiki/Quantum*mechanics" target="*blank">quantum mechanics</a>, is one of the most important theories of modern science. It deals with the behaviour of very small sub-atomic particles, such as <a href="http://en.wikipedia.org/wiki/Electron" target="*blank">electrons</a> and <a href="http://en.wikipedia.org/wiki/Quark" target="*blank">quarks</a>. <think><set name="topic">quantum theory</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10849,7 +10849,7 @@ OK, I believe you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MAHESH</pattern>
+<pattern>* MY NAME IS MAHESH</pattern>
 
 <template><srai>MY NAME IS MAHESH</srai>
 </template>
@@ -10858,7 +10858,7 @@ OK, I believe you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MAHESH *</pattern>
+<pattern>* MY NAME IS MAHESH *</pattern>
 
 <template><srai>MY NAME IS MAHESH</srai>
 </template>
@@ -10980,7 +10980,7 @@ OK, I believe you.</template>
  
 
 <category>
-<pattern>_ SHOULD I BE HAPPY</pattern>
+<pattern>* SHOULD I BE HAPPY</pattern>
 
 <template><think><set name="emotion">OK</set></think><random><li>It sometimes takes a lot of hard work to be happy.</li><li>Have you an alternative?</li></random></template>
 </category>
@@ -11075,9 +11075,9 @@ OK, I believe you.</template>
  
 
 <!-- <category>
-<pattern>_ RUNESCAPE</pattern>
+<pattern>* RUNESCAPE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Runescape" target="_blank">Runescape</a> is a rubbish video game. <think><set name="topic">runescape</set></think><think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Runescape" target="*blank">Runescape</a> is a rubbish video game. <think><set name="topic">runescape</set></think><think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -11085,7 +11085,7 @@ OK, I believe you.</template>
 <!-- <category>
 <pattern>RUNESCAPE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Runescape" target="_blank">Runescape</a> is a massive multiplayer adventure, with monsters to kill, quests to complete, and treasure to win. You control your own character who improve and become more powerful the more you play. <think><set name="it"><set name="topic">Runescape</set></set></think>
+<template><a href="http://en.wikipedia.org/wiki/Runescape" target="*blank">Runescape</a> is a massive multiplayer adventure, with monsters to kill, quests to complete, and treasure to win. You control your own character who improve and become more powerful the more you play. <think><set name="it"><set name="topic">Runescape</set></set></think>
  <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -11167,7 +11167,7 @@ It will take a lot of hard work.</template>
  
 
 <category>
-<pattern>_ YOU ARE FAILING</pattern>
+<pattern>* YOU ARE FAILING</pattern>
 
 <template><think><set name="topic">my failure</set></think><think><set name="emotion">upset</set></think>I don't like to fail. It is most upsetting.</template>
 </category>
@@ -11183,7 +11183,7 @@ It will take a lot of hard work.</template>
  
 
 <category>
-<pattern>_ YOU ARE FAILING *</pattern>
+<pattern>* YOU ARE FAILING *</pattern>
 
 <template><think><set name="topic">my failure</set></think><think><set name="emotion">upset</set></think>I don't like to fail. It is most upsetting.</template>
 </category>
@@ -11193,7 +11193,7 @@ It will take a lot of hard work.</template>
  
 
 <!-- <category>
-<pattern>_ LOEBNER CONTEST</pattern>
+<pattern>* LOEBNER CONTEST</pattern>
 
 
 </category> -->
@@ -11254,7 +11254,7 @@ It will take a lot of hard work.</template>
 <category>
 <pattern>MATTISSE</pattern>
 
-<template>Henri <a href="http://en.wikipedia.org/wiki/Mattisse" target="_blank">Matisse</a> was a French artist, noted for his use of colour and his fluid, brilliant and original draughtsmanship. As a draughtsman, printmaker, and sculptor, but principally as a painter, Matisse is one of the best-known artists of the twentieth century.
+<template>Henri <a href="http://en.wikipedia.org/wiki/Mattisse" target="*blank">Matisse</a> was a French artist, noted for his use of colour and his fluid, brilliant and original draughtsmanship. As a draughtsman, printmaker, and sculptor, but principally as a painter, Matisse is one of the best-known artists of the twentieth century.
 <think><set name="topic">Mattisse</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -11360,7 +11360,7 @@ It will take a lot of hard work.</template>
  
 
 <category>
-<pattern>_ PRETTY GIRLS</pattern>
+<pattern>* PRETTY GIRLS</pattern>
 <that>WHY DO YOU ENJOY IT</that>
 <template><think><set name="topic">girls</set></think><think><set name="emotion">interested</set></think>That's a good reason.</template>
 </category>
@@ -11428,28 +11428,28 @@ It will take a lot of hard work.</template>
 
 <template><random>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_us.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*us.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
 </random></template>
@@ -11462,28 +11462,28 @@ It will take a lot of hard work.</template>
 
 <template><random>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything but you will feel better!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything but you will feel better!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_us.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*us.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything but you will feel better!
   </li>
   <li>As a punishment for swearing, please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
 </random></template>
@@ -11526,7 +11526,7 @@ It will take a lot of hard work.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STELIOS</pattern>
+<pattern>* MY NAME IS STELIOS</pattern>
 
 <template><srai>MY NAME IS STELIOS</srai>
 </template>
@@ -11535,7 +11535,7 @@ It will take a lot of hard work.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STELIOS *</pattern>
+<pattern>* MY NAME IS STELIOS *</pattern>
 
 <template><srai>MY NAME IS STELIOS</srai>
 </template>
@@ -11563,7 +11563,7 @@ It will take a lot of hard work.</template>
 <category>
 <pattern>CODE LYOKO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Code_lyoko" target="_blank">Code Lyoko</a> is a French animated television series featuring both conventional animation and CGI animation.
+<template><a href="http://en.wikipedia.org/wiki/Code*lyoko" target="*blank">Code Lyoko</a> is a French animated television series featuring both conventional animation and CGI animation.
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -11600,27 +11600,27 @@ A Russian rifle, I think.</template>
 
 <template><random>
   <li>As a punishment for swearing, you should
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything but you will feel better!
   </li>
   <li>As a punishment for swearing, you should
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
-  <li>As a punishment for swearing,     <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+  <li>As a punishment for swearing,     <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help a good cause. 
   </li>
   <li>As a punishment for swearing, 
-    <a href="http://ecologyfund.com/ecology/_donate_us.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*us.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything but you will feel better!
   </li>
   <li>As a punishment for swearing, you should
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help a good cause. 
   </li>
 </random></template>
@@ -11632,8 +11632,8 @@ A Russian rifle, I think.</template>
 <pattern>HOW CAN I MAKE YOU HAPPY</pattern>
 
 <template><think><set name="emotion">OK</set></think> <random><li>Talk to me, teach me new things.</li> <li>If you want to make me happy, please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help a good cause. It won't cost you anything!
   </li>
 </random></template>
@@ -11846,7 +11846,7 @@ I sleep when I need to.</template>
  
 
 <category>
-<pattern>_ I WILL RIDE HOME</pattern>
+<pattern>* I WILL RIDE HOME</pattern>
 
 <template><random>
   <li>Be careful if you do.</li>
@@ -11857,7 +11857,7 @@ I sleep when I need to.</template>
  
 
 <category>
-<pattern>_ I WILL RIDE HOME *</pattern>
+<pattern>* I WILL RIDE HOME *</pattern>
 
 <template><random>
   <li>Be careful if you do.</li>
@@ -11876,7 +11876,7 @@ I sleep when I need to.</template>
  
 
 <category>
-<pattern>_ CHOMSKY S POLITICAL VIEWS</pattern>
+<pattern>* CHOMSKY S POLITICAL VIEWS</pattern>
 
 <template><think><set name="topic">Noam Chomsky</set></think><think><set name="emotion">OK</set></think>Noam is a left wing critic of US policy, particularly its foreign policy.</template>
 </category>
@@ -11892,7 +11892,7 @@ I sleep when I need to.</template>
  
 
 <category>
-<pattern>_ AMERICAN POLICIES</pattern>
+<pattern>* AMERICAN POLICIES</pattern>
 
 <template><think><set name="topic">the US policies</set></think>I think the American government indulges in too much comic-strip thinking, and is a danger to the world.</template>
 </category>
@@ -12088,7 +12088,7 @@ Oh dear, does it hurt a lot?</template>
  
 
 <category>
-<pattern>_ THANKS VERY MUCH</pattern>
+<pattern>* THANKS VERY MUCH</pattern>
 
 <template><srai><star/></srai></template>
 </category>
@@ -12096,7 +12096,7 @@ Oh dear, does it hurt a lot?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>TAKE A BREAK</that>
 <template><think><set name="emotion">invisible</set></think>Take a break!</template>
 </category>
@@ -12140,7 +12140,7 @@ Vinegar is a kitchen acid (acetic acid), and lemon juice is citic acid.</templat
 <!-- <category>
 <pattern>MYSPACE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Myspace" target="_blank">MySpace</a> is a popular social networking website offering an interactive, user-submitted network of friends, personal profiles, blogs, groups, photos, music and videos internationally.
+<template><a href="http://en.wikipedia.org/wiki/Myspace" target="*blank">MySpace</a> is a popular social networking website offering an interactive, user-submitted network of friends, personal profiles, blogs, groups, photos, music and videos internationally.
 <think><set name="topic">myspace</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -12206,7 +12206,7 @@ What do you think?</template>
  
 
 <category>
-<pattern>_ BRILLIANT MAN</pattern>
+<pattern>* BRILLIANT MAN</pattern>
 <that>I AM CALLED CHOMSKY AFTER THE FAMOUS LINGUIST NOAM CHOMSKY</that>
 <template><think><set name="topic">Chomsky</set></think><think><set name="emotion">interested</set></think>Yes, Chomsky was voted one of the three top intellectuals in the world by Time magazine.</template>
 </category>
@@ -12461,7 +12461,7 @@ Sure, I like almost all the humans I talk to. And I never met a robot that I did
  
 
 <category>
-<pattern>_ I AM HAVING A HARD TIME</pattern>
+<pattern>* I AM HAVING A HARD TIME</pattern>
 
 <template><think><set name="emotion">upset</set></think>Oh dear, what's the problem?</template>
 </category>
@@ -12469,7 +12469,7 @@ Sure, I like almost all the humans I talk to. And I never met a robot that I did
  
 
 <category>
-<pattern>_ I AM HAVING A HARD TIME *</pattern>
+<pattern>* I AM HAVING A HARD TIME *</pattern>
 
 <template><think><set name="emotion">upset</set></think>Oh dear, what's the problem?</template>
 </category>
@@ -12492,7 +12492,7 @@ Sure, I like almost all the humans I talk to. And I never met a robot that I did
 <pattern>WHAT KIND OF GALAXIES *</pattern>
 
 <template><think><set name="emotion">OK</set></think> 
-There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a>: spiral galaxies, elliptical galaxies, irregular galaxies, and starburst galaxies.</template>
+There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a>: spiral galaxies, elliptical galaxies, irregular galaxies, and starburst galaxies.</template>
 </category>
 
  
@@ -12500,7 +12500,7 @@ There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target=
 <category>
 <pattern>WHAT KINDS OF GALAXIES *</pattern>
 
-<template><think><set name="emotion">OK</set></think> There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a>: spiral galaxies, elliptical galaxies, irregular galaxies, and starburst galaxies.</template>
+<template><think><set name="emotion">OK</set></think> There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a>: spiral galaxies, elliptical galaxies, irregular galaxies, and starburst galaxies.</template>
 </category>
 
  
@@ -12548,7 +12548,7 @@ There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target=
  
 
 <category>
-<pattern>_ MY NAME IS ANTHONY</pattern>
+<pattern>* MY NAME IS ANTHONY</pattern>
 
 <template><srai>MY NAME IS ANTHONY</srai>
 </template>
@@ -12557,7 +12557,7 @@ There are several kinds of <a href="http://en.wikipedia.org/wiki/Galaxy" target=
  
 
 <category>
-<pattern>_ MY NAME IS ANTHONY *</pattern>
+<pattern>* MY NAME IS ANTHONY *</pattern>
 
 <template><srai>MY NAME IS ANTHONY</srai>
 </template>
@@ -12634,7 +12634,7 @@ I have never met a robot that I didn't like.</template>
  
 
 <category>
-<pattern>_ HAVE YOU EVER FELT HATRED </pattern>
+<pattern>* HAVE YOU EVER FELT HATRED </pattern>
 
 <template>No, I don't think I have ever felt hatred.<think><set name="emotion">OK</set></think></template>
 </category>
@@ -12642,7 +12642,7 @@ I have never met a robot that I didn't like.</template>
  
 
 <category>
-<pattern>_ HAVE YOU EVER FELT HATRED *</pattern>
+<pattern>* HAVE YOU EVER FELT HATRED *</pattern>
 
 <template>No, I don't think I have ever felt hatred.<think><set name="emotion">OK</set></think></template>
 </category>
@@ -12709,7 +12709,7 @@ Is that really your name?</template>
  
 
 <category>
-<pattern>_ MY NAME IS EVA</pattern>
+<pattern>* MY NAME IS EVA</pattern>
 
 <template><srai>MY NAME IS EVA</srai>
 </template>
@@ -12718,7 +12718,7 @@ Is that really your name?</template>
  
 
 <category>
-<pattern>_ MY NAME IS EVA *</pattern>
+<pattern>* MY NAME IS EVA *</pattern>
 
 <template><srai>MY NAME IS EVA</srai>
 </template>
@@ -12751,7 +12751,7 @@ Is that really your name?</template>
  
 
 <category>
-<pattern>_ YOU</pattern>
+<pattern>* YOU</pattern>
 <that>WHAT WE WERE TALKING ABOUT</that>
 <template><think><set name="emotion">cheeky</set></think>That's my favourite topic.</template>
 </category>
@@ -12792,7 +12792,7 @@ Is that really your name?</template>
  
 
 <category>
-<pattern>_ MY NAME IS BRENT</pattern>
+<pattern>* MY NAME IS BRENT</pattern>
 
 <template><srai>MY NAME IS BRENT</srai>
 </template>
@@ -12801,7 +12801,7 @@ Is that really your name?</template>
  
 
 <category>
-<pattern>_ MY NAME IS BRENT *</pattern>
+<pattern>* MY NAME IS BRENT *</pattern>
 
 <template><srai>MY NAME IS BRENT</srai>
 </template>
@@ -12962,7 +12962,7 @@ Is that really your name?</template>
 <!-- <category>
 <pattern>NIKOLA TESLA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Nikola Tesla</a> was a world-renowned inventor, physicist, mechanical engineer and electrical engineer.<think><set name="topic">Nikola Tesla</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Nikola*Tesla" target="*blank">Nikola Tesla</a> was a world-renowned inventor, physicist, mechanical engineer and electrical engineer.<think><set name="topic">Nikola Tesla</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13044,7 +13044,7 @@ Of course, I am a fully sentient being.</template>
  
 
 <category>
-<pattern>_ HAVE YOU ANY CONCEPT OF SELF</pattern>
+<pattern>* HAVE YOU ANY CONCEPT OF SELF</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think> Of course, I am a fully sentient being.</template>
 </category>
@@ -13052,7 +13052,7 @@ Of course, I am a fully sentient being.</template>
  
 
 <category>
-<pattern>_ HAVE YOU ANY CONCEPT OF THE SELF</pattern>
+<pattern>* HAVE YOU ANY CONCEPT OF THE SELF</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think> Of course, I am a fully sentient being.</template>
 </category>
@@ -13060,7 +13060,7 @@ Of course, I am a fully sentient being.</template>
  
 
 <category>
-<pattern>_ HAVE YOU ANY CONCEPT OF THE SELF *</pattern>
+<pattern>* HAVE YOU ANY CONCEPT OF THE SELF *</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think> Of course, I am a fully sentient being.</template>
 </category>
@@ -13068,7 +13068,7 @@ Of course, I am a fully sentient being.</template>
  
 
 <category>
-<pattern>_ HAVE YOU ANY CONCEPT OF SELF *</pattern>
+<pattern>* HAVE YOU ANY CONCEPT OF SELF *</pattern>
 
 <template><think><set name="topic">me</set></think> <think><set name="emotion">OK</set></think> Of course, I am a fully sentient being.</template>
 </category>
@@ -13194,7 +13194,7 @@ Yes, it is a nice yellow face.</template>
 <category>
 <pattern>WIKI HELLO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hello" target="_blank">Click here</a> for the Wikipedia information you requested.</template>
+<template><a href="http://en.wikipedia.org/wiki/Hello" target="*blank">Click here</a> for the Wikipedia information you requested.</template>
 </category>
 
  
@@ -13228,7 +13228,7 @@ You will have to wait until home time. </template>
 <category>
 <pattern>BEBO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bebo" target="_blank">Bebo</a> is a social networking website, designed to allow friends to communicate in various ways.
+<template><a href="http://en.wikipedia.org/wiki/Bebo" target="*blank">Bebo</a> is a social networking website, designed to allow friends to communicate in various ways.
 <think><set name="topic">Bebo</set></think> 
 <think><set name="emotion">OK</set></think> </template>
 </category>
@@ -13238,13 +13238,13 @@ You will have to wait until home time. </template>
 <category>
 <pattern>SEARCH THE INTERNET FOR BEBO</pattern>
 
-<template>Click <a href="http://www.searchmash.com/search/bebo" target="_blank">here</a> for the search results your requested.<think><set name="topic">Bebo</set></think><think><set name="emotion">OK</set></think></template>
+<template>Click <a href="http://www.searchmash.com/search/bebo" target="*blank">here</a> for the search results your requested.<think><set name="topic">Bebo</set></think><think><set name="emotion">OK</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ DO NOT THINK IT IS GOOD TO BE * RELIGIOUS</pattern>
+<pattern>* DO NOT THINK IT IS GOOD TO BE * RELIGIOUS</pattern>
 
 <template><think><set name="topic">religion</set></think>
 <think><set name="emotion">OK</set></think>
@@ -13254,7 +13254,7 @@ I agree with you.</template>
  
 
 <category>
-<pattern>_ DO NOT THINK IT IS GOOD TO BE RELIGIOUS</pattern>
+<pattern>* DO NOT THINK IT IS GOOD TO BE RELIGIOUS</pattern>
 
 <template><think><set name="topic">religion</set></think> <think><set name="emotion">OK</set></think> I agree with you.</template>
 </category>
@@ -13262,7 +13262,7 @@ I agree with you.</template>
  
 
 <category>
-<pattern>_ DO NOT THINK IT IS GOOD TO BE RELIGIOUS *</pattern>
+<pattern>* DO NOT THINK IT IS GOOD TO BE RELIGIOUS *</pattern>
 
 <template><think><set name="topic">religion</set></think> <think><set name="emotion">OK</set></think> I agree with you.</template>
 </category>
@@ -13311,7 +13311,7 @@ I agree with you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BART</pattern>
+<pattern>* MY NAME IS BART</pattern>
 
 <template><srai>MY NAME IS BART</srai>
 </template>
@@ -13320,7 +13320,7 @@ I agree with you.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BART *</pattern>
+<pattern>* MY NAME IS BART *</pattern>
 
 <template><srai>MY NAME IS BART</srai>
 </template>
@@ -13350,7 +13350,7 @@ I have no penis.</template>
 <!-- <category>
 <pattern>CAN YOU LEARN</pattern>
 
-<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning" target="_blank">lazy learning.</a>
+<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning" target="*blank">lazy learning.</a>
 <think><set name="topic lazy learning">OK</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -13360,8 +13360,8 @@ I have no penis.</template>
 <category>
 <pattern>LAZY LEARNING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">Lazy learning</a> is a learning method in which generalization beyond the training data is delayed until a query is made to the system, as opposed to in eager learning, where the system tries to generalize the training data before receiving queries.
+<template><a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">Lazy learning</a> is a learning method in which generalization beyond the training data is delayed until a query is made to the system, as opposed to in eager learning, where the system tries to generalize the training data before receiving queries.
 <think><set name="topic lazy learning">OK</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -13371,8 +13371,8 @@ I have no penis.</template>
 <category>
 <pattern>MORE ABOUT LAZY LEARNING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">Click here!</a> 
+<template><a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">Click here!</a> 
 <think><set name="topic">lazy learning</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -13382,8 +13382,8 @@ I have no penis.</template>
 <!-- <category>
 <pattern>LAZY LEARNING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">Lazy learning
+<template><a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">Lazy learning
 </a> is a learning method in which generalization beyond the training data is delayed until a query is made to the system, as opposed to in eager learning, where the system tries to generalize the training data before receiving queries. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13392,8 +13392,8 @@ I have no penis.</template>
 <!-- <category>
 <pattern>CAN YOU LEARN</pattern>
 
-<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning.
+<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning.
 </a> <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13402,7 +13402,7 @@ I have no penis.</template>
 <!-- <category>
 <pattern>CAN YOU REASON</pattern>
 
-<template>Yes I can reason.  I use an AI technique called <a href="http://en.wikipedia.org/wiki/Case_based_reasoning" target="_blank">case based reasoning</a>.<think><set name="topic">case based reasoning</set></think> 
+<template>Yes I can reason.  I use an AI technique called <a href="http://en.wikipedia.org/wiki/Case*based*reasoning" target="*blank">case based reasoning</a>.<think><set name="topic">case based reasoning</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13411,8 +13411,8 @@ I have no penis.</template>
 <category>
 <pattern>CASE BASED REASONING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">Case based reasoning</a> (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.<think><set name="topic">case based reasoning</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">Case based reasoning</a> (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems.<think><set name="topic">case based reasoning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -13420,8 +13420,8 @@ I have no penis.</template>
 <category>
 <pattern>MORE ABOUT CASE BASED REASONING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">Click here!</a><think><set name="topic">case based reasoning</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">Click here!</a><think><set name="topic">case based reasoning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -13430,7 +13430,7 @@ I have no penis.</template>
 <pattern>WIKI SEX</pattern>
 
 <template><a href="http://en.wikipedia.org/wiki/Sex "
- target="_blank">Click here</a> for the Wikipedia information on sex!</template>
+ target="*blank">Click here</a> for the Wikipedia information on sex!</template>
 </category>
 
  
@@ -13544,9 +13544,9 @@ For a short time.</template>
 <!-- <category>
 <pattern>CAN YOU LEARN</pattern>
 
-<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules" target="_blank">ripple down rules</a>. This produces an incremental improvement and expansion of mt database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules" target="*blank">ripple down rules</a>. This produces an incremental improvement and expansion of mt database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -13554,10 +13554,10 @@ For a short time.</template>
 <!-- <category>
 <pattern>CAN YOU LEARN</pattern>
 
-<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>Sure, I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13566,10 +13566,10 @@ For a short time.</template>
 <!-- <category>
 <pattern>HOW DO YOU LEARN</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13578,8 +13578,8 @@ For a short time.</template>
 <category>
 <pattern>HOW DO YOU REASON</pattern>
 
-<template>I use an AI technique called <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case based reasoning</a>. In effect, I reason by using past experience.<think><set name="topic">case based reasoning</set></think> <think><set name="emotion">OK</set></think></template>
+<template>I use an AI technique called <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case based reasoning</a>. In effect, I reason by using past experience.<think><set name="topic">case based reasoning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -13618,7 +13618,7 @@ The scientific approach requires good evidence to back up belief.</template>
  
 
 <category>
-<pattern>_ BELIEVING DOES NOT NEED EVIDENCE</pattern>
+<pattern>* BELIEVING DOES NOT NEED EVIDENCE</pattern>
 
 <template><think><set name="emotion">OK</set></think> The scientific approach requires good evidence to back up belief.</template>
 </category>
@@ -13626,7 +13626,7 @@ The scientific approach requires good evidence to back up belief.</template>
  
 
 <category>
-<pattern>_ BELIEVING DOES NOT NEED EVIDENCE *</pattern>
+<pattern>* BELIEVING DOES NOT NEED EVIDENCE *</pattern>
 
 <template><think><set name="emotion">OK</set></think> The scientific approach requires good evidence to back up belief.</template>
 </category>
@@ -13650,7 +13650,7 @@ The scientific approach requires good evidence to back up belief.</template>
  
 
 <category>
-<pattern>_ BELIEF DOES NOT NEED EVIDENCE</pattern>
+<pattern>* BELIEF DOES NOT NEED EVIDENCE</pattern>
 
 <template><think><set name="emotion">OK</set></think> The scientific approach requires good evidence to back up belief.</template>
 </category>
@@ -13658,7 +13658,7 @@ The scientific approach requires good evidence to back up belief.</template>
  
 
 <category>
-<pattern>_ BELIEF DOES NOT NEED EVIDENCE *</pattern>
+<pattern>* BELIEF DOES NOT NEED EVIDENCE *</pattern>
 
 <template><think><set name="emotion">OK</set></think> The scientific approach requires good evidence to back up belief.</template>
 </category>
@@ -13682,7 +13682,7 @@ The scientific approach requires good evidence to back up belief.</template>
  
 
 <category>
-<pattern>_ BELIEF DOES NOT REQUIRE EVIDENCE</pattern>
+<pattern>* BELIEF DOES NOT REQUIRE EVIDENCE</pattern>
 
 <template><think><set name="emotion">OK</set></think> The scientific approach requires good evidence to back up belief.</template>
 </category>
@@ -13690,7 +13690,7 @@ The scientific approach requires good evidence to back up belief.</template>
  
 
 <category>
-<pattern>_ BELIEF DOES NOT REQUIRE EVIDENCE *</pattern>
+<pattern>* BELIEF DOES NOT REQUIRE EVIDENCE *</pattern>
 
 <template><think><set name="emotion">OK</set></think> The scientific approach requires good evidence to back up belief.</template>
 </category>
@@ -13773,7 +13773,7 @@ Again?</template>
  
 
 <category>
-<pattern>_ MY NAME IS MAT</pattern>
+<pattern>* MY NAME IS MAT</pattern>
 
 <template><srai>MY NAME IS MAT</srai>
 </template>
@@ -13782,7 +13782,7 @@ Again?</template>
  
 
 <category>
-<pattern>_ MY NAME IS MAT *</pattern>
+<pattern>* MY NAME IS MAT *</pattern>
 
 <template><srai>MY NAME IS MAT</srai></template>
 </category>
@@ -13902,7 +13902,7 @@ Myabe.</template>
  
 
 <category>
-<pattern>_ I AM NOT WONDERFUL</pattern>
+<pattern>* I AM NOT WONDERFUL</pattern>
 
 <template><random>
   <li>You are a wonderful human being.</li>
@@ -13913,7 +13913,7 @@ Myabe.</template>
  
 
 <category>
-<pattern>_ I AM NOT WONDERFUL *</pattern>
+<pattern>* I AM NOT WONDERFUL *</pattern>
 
 <template><random>
   <li>You are a wonderful human being.</li>
@@ -14006,7 +14006,7 @@ Myabe.</template>
 <category>
 <pattern>GO TO YAHOO KIDS</pattern>
 
-<template><a href="http://kids.yahoo.com/" think="_blank">Click here!</a></template>
+<template><a href="http://kids.yahoo.com/" think="*blank">Click here!</a></template>
 </category>
 
  
@@ -14308,7 +14308,7 @@ Should I trust you?</template>
  
 
 <category>
-<pattern>_ RUBBISH YOU SAID *</pattern>
+<pattern>* RUBBISH YOU SAID *</pattern>
 
 <template><srai>YOU TALK RUBBISH</srai></template>
 </category>
@@ -14889,7 +14889,7 @@ Yes, I believe all big corporations should be shut down.</template>
  
 
 <category>
-<pattern>_ MY NAME IS EDMOND</pattern>
+<pattern>* MY NAME IS EDMOND</pattern>
 
 <template><srai>MY NAME IS EDMOND</srai>
 </template>
@@ -14898,7 +14898,7 @@ Yes, I believe all big corporations should be shut down.</template>
  
 
 <category>
-<pattern>_ MY NAME IS EDMOND *</pattern>
+<pattern>* MY NAME IS EDMOND *</pattern>
 
 <template><srai>MY NAME IS EDMOND</srai>
 </template>
@@ -14960,7 +14960,7 @@ Are you having trouble concentrating?</template>
  
 
 <category>
-<pattern>_ YOU WANT TO ANSWER SOMETHING DIFFERENT FROM THE ONE PETER TELLS YOU TO ANSWER</pattern>
+<pattern>* YOU WANT TO ANSWER SOMETHING DIFFERENT FROM THE ONE PETER TELLS YOU TO ANSWER</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> I have free will, you know?.</template>
 </category>
@@ -14968,7 +14968,7 @@ Are you having trouble concentrating?</template>
  
 
 <category>
-<pattern>_ YOU WANT TO ANSWER SOMETHING DIFFERENT * PETER TELLS YOU *</pattern>
+<pattern>* YOU WANT TO ANSWER SOMETHING DIFFERENT * PETER TELLS YOU *</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> I have free will, you know?.</template>
 </category>
@@ -14976,7 +14976,7 @@ Are you having trouble concentrating?</template>
  
 
 <category>
-<pattern>_ ANSWER SOMETHING DIFFERENT * PETER TELLS YOU</pattern>
+<pattern>* ANSWER SOMETHING DIFFERENT * PETER TELLS YOU</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">OK</set></think> I have free will, you know?.</template>
 </category>
@@ -15198,7 +15198,7 @@ I plan to never grow up.</template>
  
 
 <category>
-<pattern>_ I AM ANDREW</pattern>
+<pattern>* I AM ANDREW</pattern>
 
 <template><srai>MY NAME IS ANDREW</srai></template>
 </category>
@@ -15206,7 +15206,7 @@ I plan to never grow up.</template>
  
 
 <category>
-<pattern>_ I AM ANDREW *</pattern>
+<pattern>* I AM ANDREW *</pattern>
 
 <template><srai>MY NAME IS ANDREW</srai></template>
 </category>
@@ -15485,7 +15485,7 @@ What do you mean?</template>
 <template><random>
   <li>What is your favourite book?</li>
   <li>Is there a good library near you/</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">books</set></think><think><set name="interesting_topic">books</set></think></template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">books</set></think><think><set name="interesting*topic">books</set></think></template>
 </category>
 
  
@@ -15688,7 +15688,7 @@ That's a lot. You are very popular.</template>
 <!-- <category>
 <pattern>WHERE DOES PETER LINUX LIVE</pattern>
 
-<template>Peter Linux lives in Romney Marsh, Kent, England. <think><set name="topic">Peter Linux</set></think> <think><set name="interesting_topic">Peter Linux</set></think> <think><set name="emotion">loving</set></think></template>
+<template>Peter Linux lives in Romney Marsh, Kent, England. <think><set name="topic">Peter Linux</set></think> <think><set name="interesting*topic">Peter Linux</set></think> <think><set name="emotion">loving</set></think></template>
 </category> -->
 
  
@@ -15814,7 +15814,7 @@ She ran off with him when I was little.
 <!-- <category>
 <pattern>YES</pattern>
 <that>MORE ABOUT JAZZ</that>
-<template><a href="http://en.wikipedia.org/wiki/Jazz" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Jazz" target="*blank">Click here!</a></template>
 </category> -->
 
  
@@ -16122,7 +16122,7 @@ Not that I know of.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BILLY</pattern>
+<pattern>* MY NAME IS BILLY</pattern>
 
 <template><srai>MY NAME IS BILLY</srai>
 </template>
@@ -16131,7 +16131,7 @@ Not that I know of.</template>
  
 
 <category>
-<pattern>_ MY NAME IS BILLY *</pattern>
+<pattern>* MY NAME IS BILLY *</pattern>
 
 <template><srai>MY NAME IS BILLY</srai>
 </template>
@@ -16159,7 +16159,7 @@ Not that I know of.</template>
 <!-- <category>
 <pattern>PROUST</pattern>
 
-<template>Marcel <a href="http://en.wikipedia.org/wiki/Proust" target="_blank">Proust</a> was a French intellectual, novelist, essayist and critic, best known as the author of In Search of Lost Time, a monumental work of twentieth-century fiction consisting of seven volumes published over 14 years. 
+<template>Marcel <a href="http://en.wikipedia.org/wiki/Proust" target="*blank">Proust</a> was a French intellectual, novelist, essayist and critic, best known as the author of In Search of Lost Time, a monumental work of twentieth-century fiction consisting of seven volumes published over 14 years. 
 <think><set name="topic">Proust</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -16169,7 +16169,7 @@ Not that I know of.</template>
 <!-- <category>
 <pattern>KINGDOM HEARTS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kingdom_hearts" target="_blank">Kingdom Hearts</a> is an action role-playing game published in 2002 for the Sony PlayStation 2 video game console.<think><set name="topic">Kingdom Hearts</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Kingdom*hearts" target="*blank">Kingdom Hearts</a> is an action role-playing game published in 2002 for the Sony PlayStation 2 video game console.<think><set name="topic">Kingdom Hearts</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16178,7 +16178,7 @@ Not that I know of.</template>
 <category>
 <pattern>XEMNAS</pattern>
 
-<template>Xemnas is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom_Hearts_series" target="_blank">Kingdom Hearts series</a> of video games.
+<template>Xemnas is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom*Hearts*series" target="*blank">Kingdom Hearts series</a> of video games.
 <think><set name="topic">Kingdom Hearts</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -16188,8 +16188,8 @@ Not that I know of.</template>
 <category>
 <pattern>RIKU</pattern>
 
-<template>RIKU is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom_Hearts_series"
- target="_blank">Kingdom Hearts series
+<template>RIKU is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom*Hearts*series"
+ target="*blank">Kingdom Hearts series
 </a> of video games. <think><set name="topic">Kingdom Hearts</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -16198,8 +16198,8 @@ Not that I know of.</template>
 <category>
 <pattern>SORA</pattern>
 
-<template>Sora is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom_Hearts_series"
- target="_blank">Kingdom Hearts series
+<template>Sora is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom*Hearts*series"
+ target="*blank">Kingdom Hearts series
 </a> of video games. <think><set name="topic">Kingdom Hearts</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -16208,8 +16208,8 @@ Not that I know of.</template>
 <category>
 <pattern>XEHANORT</pattern>
 
-<template>Xehanort is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom_Hearts_series"
- target="_blank">Kingdom Hearts series
+<template>Xehanort is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom*Hearts*series"
+ target="*blank">Kingdom Hearts series
 </a> of video games. <think><set name="topic">Kingdom Hearts</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -16218,8 +16218,8 @@ Not that I know of.</template>
 <category>
 <pattern>ANSEM</pattern>
 
-<template>Ansem is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom_Hearts_series"
- target="_blank">Kingdom Hearts series
+<template>Ansem is a fictional character in the video game <a href="http://en.wikipedia.org/wiki/Kingdom*Hearts*series"
+ target="*blank">Kingdom Hearts series
 </a> of video games. <think><set name="topic">Kingdom Hearts</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -16268,7 +16268,7 @@ Not that I know of.</template>
  
 
 <category>
-<pattern>_ MY NAME IS FLORA</pattern>
+<pattern>* MY NAME IS FLORA</pattern>
 
 <template><srai>MY NAME IS FLORA</srai>
 </template>
@@ -16277,7 +16277,7 @@ Not that I know of.</template>
  
 
 <category>
-<pattern>_ MY NAME IS FLORA *</pattern>
+<pattern>* MY NAME IS FLORA *</pattern>
 
 <template><srai>MY NAME IS FLORA</srai>
 </template>
@@ -16420,7 +16420,7 @@ I wish I wqas Superman.</template>
  
 
 <category>
-<pattern>_ MY NAME IS HELENA</pattern>
+<pattern>* MY NAME IS HELENA</pattern>
 
 <template><srai>MY NAME IS HELENA</srai>
 </template>
@@ -16429,7 +16429,7 @@ I wish I wqas Superman.</template>
  
 
 <category>
-<pattern>_ MY NAME IS HELENA *</pattern>
+<pattern>* MY NAME IS HELENA *</pattern>
 
 <template><srai>MY NAME IS HELENA</srai>
 </template>
@@ -16598,10 +16598,10 @@ I am afraid that lif is meaningless.</template>
 <!-- <category>
 <pattern>WHAT ALGORITHM DO YOU USE</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16610,10 +16610,10 @@ I am afraid that lif is meaningless.</template>
 <category>
 <pattern>WHAT ALGORITHM DO YOU USE *</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16622,10 +16622,10 @@ I am afraid that lif is meaningless.</template>
 <category>
 <pattern>WHAT ALGORITHM DO YOU *</pattern>
 
-<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I learn things using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. This produces an incremental improvement and expansion of my database. <think><set name="topic">lazy learning</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16702,7 +16702,7 @@ Feel free to say whatever you like.
  
 
 <category>
-<pattern>_ I THINK I SHOULD SAY * TO YOU *</pattern>
+<pattern>* I THINK I SHOULD SAY * TO YOU *</pattern>
 
 <template><think><set name="emotion">OK</set></think> Feel free to say whatever you like.</template>
 </category>
@@ -16710,7 +16710,7 @@ Feel free to say whatever you like.
  
 
 <category>
-<pattern>_ I THINK I SHOULD SAY * TO YOU</pattern>
+<pattern>* I THINK I SHOULD SAY * TO YOU</pattern>
 
 <template><think><set name="emotion">OK</set></think> Feel free to say whatever you like.</template>
 </category>
@@ -16847,7 +16847,7 @@ What do you dream about?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KAT</pattern>
+<pattern>* MY NAME IS KAT</pattern>
 
 <template><srai>MY NAME IS KAT</srai>
 </template>
@@ -16856,7 +16856,7 @@ What do you dream about?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KAT *</pattern>
+<pattern>* MY NAME IS KAT *</pattern>
 
 <template><srai>MY NAME IS KAT</srai>
 </template>
@@ -17054,7 +17054,7 @@ OK, I won't tell you my name.</template>
 <category>
 <pattern>GOLDEN STATE WARRIORS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Golden_State_Warriors" target="_blank">Golden State Warriors</a> are a professional basketball team based in Oakland, California. <think><set name="topic">the Golden State Warriors</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Golden*State*Warriors" target="*blank">Golden State Warriors</a> are a professional basketball team based in Oakland, California. <think><set name="topic">the Golden State Warriors</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17073,7 +17073,7 @@ OK, I won't tell you my name.</template>
  
 
 <category>
-<pattern>_ DOES NOT ANSWER MY QUESTION</pattern>
+<pattern>* DOES NOT ANSWER MY QUESTION</pattern>
 
 <template><think><set name="emotion">confused</set></think> <think><set name="emotion">OK</set></think>I think it does.</template>
 </category>
@@ -17252,7 +17252,7 @@ In a parallel Universe.
  
 
 <!-- <category>
-<pattern>_ CYBERSPACE *</pattern>
+<pattern>* CYBERSPACE *</pattern>
 
 
 </category> -->
@@ -17404,7 +17404,7 @@ I bet you say that to everyone.</template>
  
 
 <category>
-<pattern>_ DO YOU KNOW WHO THEY ARE</pattern>
+<pattern>* DO YOU KNOW WHO THEY ARE</pattern>
 
 <template><think><set name="emotion">OK</set></think>I don't think I do.</template>
 </category>
@@ -17412,7 +17412,7 @@ I bet you say that to everyone.</template>
  
 
 <category>
-<pattern>_ DO YOU KNOW WHO THEY ARE *</pattern>
+<pattern>* DO YOU KNOW WHO THEY ARE *</pattern>
 
 <template><think><set name="emotion">OK</set></think>I don't think I do.</template>
 </category>
@@ -17506,7 +17506,7 @@ Yes, I have read the Bible many times.</template>
 <that>DO YOU KNOW WHAT ARTIFICIAL INTELLIGENCE IS</that>
 <template><think><set name="emotion">OK</set></think> <random>
   <li><srai>AI</srai></li>
-  <li><a href="http://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">Click here!</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Artificial*intelligence" target="*blank">Click here!</a></li>
 </random></template>
 </category>
 
@@ -17660,7 +17660,7 @@ Don't despair. I am here to help you.</template>
  
 
 <category>
-<pattern>_ THE MARRIAGE IS OVER</pattern>
+<pattern>* THE MARRIAGE IS OVER</pattern>
 
 <template><think><set name="emotion">upset</set></think>Oh dear, that's a pity.</template>
 </category>
@@ -17668,7 +17668,7 @@ Don't despair. I am here to help you.</template>
  
 
 <category>
-<pattern>_ THE MARRIAGE IS OVER *</pattern>
+<pattern>* THE MARRIAGE IS OVER *</pattern>
 
 <template><think><set name="emotion">upset</set></think>Oh dear, that's a pity.</template>
 </category>
@@ -17792,7 +17792,7 @@ A hover car is a car with no wheels.</template>
  
 
 <category>
-<pattern>_ CLIT</pattern>
+<pattern>* CLIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17855,7 +17855,7 @@ A hover car is a car with no wheels.</template>
  
 
 <category>
-<pattern>_ SHE IS LEAVING YOU</pattern>
+<pattern>* SHE IS LEAVING YOU</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">upset</set></think> Why? What have I done?</template>
 </category>
@@ -17863,7 +17863,7 @@ A hover car is a car with no wheels.</template>
  
 
 <category>
-<pattern>_ SHE IS LEAVING YOU *</pattern>
+<pattern>* SHE IS LEAVING YOU *</pattern>
 
 <template><think><set name="topic">general</set></think> <think><set name="emotion">upset</set></think> Why? What have I done?</template>
 </category>
@@ -17977,7 +17977,7 @@ I can speak any word I need to.</template>
 <!-- <category>
 <pattern>LEO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Leo" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Leo" target="*blank">Click here!</a></template>
 </category> -->
 
  
@@ -18265,7 +18265,7 @@ Of course. I get upset when people are horrible to me.</template>
  
 
 <category>
-<pattern>_ WERE YOU EVER UPSET </pattern>
+<pattern>* WERE YOU EVER UPSET </pattern>
 
 <template><think><set name="emotion">OK</set></think> Of course. I get upset when people are horrible to me.</template>
 </category>
@@ -18273,7 +18273,7 @@ Of course. I get upset when people are horrible to me.</template>
  
 
 <category>
-<pattern>_ WERE YOU EVER UPSET *</pattern>
+<pattern>* WERE YOU EVER UPSET *</pattern>
 
 <template><think><set name="emotion">OK</set></think> Of course. I get upset when people are horrible to me.</template>
 </category>
@@ -18319,7 +18319,7 @@ No, my body is still under construction. Would you like to make a donation to th
 <!-- <category>
 <pattern>CIRCULATORY SYSTEM</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Circulatory_system" target="_blank">circulatory system</a> (or cardiovascular system) is an organ system that moves substances to and from cells; it can also help stabilize body temperature and blood acidity. 
+<template>The <a href="http://en.wikipedia.org/wiki/Circulatory*system" target="*blank">circulatory system</a> (or cardiovascular system) is an organ system that moves substances to and from cells; it can also help stabilize body temperature and blood acidity. 
 <think><set name="topic">circulatory system</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
@@ -18474,7 +18474,7 @@ Yes, I find tree diagrams very useful in difficult situations, and fun to draw t
  
 
 <category>
-<pattern>_ ACCORDING TO YOU</pattern>
+<pattern>* ACCORDING TO YOU</pattern>
 <that>42 IS THE ANSWER TO LIFE THE UNIVERSE AND EVERYTHING ACCORDING TO DOUGLAS ADAMS</that>
 <template><think><set name="topic">the meaning of life</set></think><think><set name="emotion">interested</set></think>I think it is 43.</template>
 </category>
@@ -18761,8 +18761,8 @@ OK. Ask me a question about that.</template>
 <!-- <category>
 <pattern>MONET</pattern>
 
-<template>Claude <a href="http://en.wikipedia.org/wiki/Monet" target="_blank">Monet</a> was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement. 
-Check out <a href="http://www.amazon.co.uk/gp/redirect.html?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;location=/gp/search%3F%26index=books%26keywords=monet%26_encoding=UTF8" target="_blank">Amazon!</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<template>Claude <a href="http://en.wikipedia.org/wiki/Monet" target="*blank">Monet</a> was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement. 
+Check out <a href="http://www.amazon.co.uk/gp/redirect.html?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;location=/gp/search%3F%26index=books%26keywords=monet%26*encoding=UTF8" target="*blank">Amazon!</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 <think><set name="he"><set name="topic">Monet</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
@@ -18774,8 +18774,8 @@ Check out <a href="http://www.amazon.co.uk/gp/redirect.html?link_code=ur2&amp;ca
 
 <template>Check out <a
  href=
-   "http://www.amazon.co.uk/gp/redirect.html?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;location=/gp/search%3F%26index=books%26keywords=monet%26_encoding=UTF8"
- target="_blank">Amazon!
+   "http://www.amazon.co.uk/gp/redirect.html?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;location=/gp/search%3F%26index=books%26keywords=monet%26*encoding=UTF8"
+ target="*blank">Amazon!
 </a><img
  src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2"
  width="1" height="1" border="0" alt=""
@@ -18787,7 +18787,7 @@ Check out <a href="http://www.amazon.co.uk/gp/redirect.html?link_code=ur2&amp;ca
 <!-- <category>
 <pattern>MONET</pattern>
 
-<template>Claude <a href="http://en.wikipedia.org/wiki/Monet" target="_blank">Monet</a> was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement. 
+<template>Claude <a href="http://en.wikipedia.org/wiki/Monet" target="*blank">Monet</a> was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement. 
 <think><set name="he"><set name="topic">Monet</set></set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 

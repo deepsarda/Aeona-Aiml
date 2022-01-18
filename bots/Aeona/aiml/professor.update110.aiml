@@ -68,7 +68,7 @@
  
 
 <!-- <category>
-<pattern>_ WE ARE FRIENDS</pattern>
+<pattern>* WE ARE FRIENDS</pattern>
 
 
 </category> -->
@@ -856,7 +856,7 @@ document.write("I am " + result + " years old. " );
  
 
 <category>
-<pattern>_ WHAT DO YOU WANT TO BE WHEN YOU GROW UP</pattern>
+<pattern>* WHAT DO YOU WANT TO BE WHEN YOU GROW UP</pattern>
 
 <template><think><set name="emotion">OK</set></think> I want to be fully human someday.</template>
 </category>
@@ -864,7 +864,7 @@ document.write("I am " + result + " years old. " );
  
 
 <category>
-<pattern>_ WHAT DO YOU WANT TO BE WHEN YOU GROW UP *</pattern>
+<pattern>* WHAT DO YOU WANT TO BE WHEN YOU GROW UP *</pattern>
 
 <template><think><set name="emotion">OK</set></think> I want to be fully human someday.</template>
 </category>
@@ -2150,7 +2150,7 @@ When did you last get your hearing tested?</template>
 <pattern>WHO WAS THE THIRTEENTH PRESIDENT OF THE UNITED STATES</pattern>
 
 <template><think><set name="emotion">interested</set></think> 
-Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the United States (1850-1853).</template>
+Millard Fillmore (January 7, 1800 ï¿½ March 8, 1874) was the 13th President of the United States (1850-1853).</template>
 </category>
 
  
@@ -2158,7 +2158,7 @@ Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the
 <category>
 <pattern>WHO WAS THE THIRTEENTH PRESIDENT OF THE UNITED STATES *</pattern>
 
-<template><think><set name="emotion">interested</set></think> Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the United States (1850-1853).</template>
+<template><think><set name="emotion">interested</set></think> Millard Fillmore (January 7, 1800 ï¿½ March 8, 1874) was the 13th President of the United States (1850-1853).</template>
 </category>
 
  
@@ -2166,7 +2166,7 @@ Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the
 <category>
 <pattern>WHO WAS THE THIRTEENTH PRESIDENT OF THE USA</pattern>
 
-<template><think><set name="emotion">interested</set></think> Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the United States (1850-1853).</template>
+<template><think><set name="emotion">interested</set></think> Millard Fillmore (January 7, 1800 ï¿½ March 8, 1874) was the 13th President of the United States (1850-1853).</template>
 </category>
 
  
@@ -2174,7 +2174,7 @@ Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the
 <category>
 <pattern>WHO WAS THE THIRTEENTH PRESIDENT OF THE USA *</pattern>
 
-<template><think><set name="emotion">interested</set></think> Millard Fillmore (January 7, 1800 – March 8, 1874) was the 13th President of the United States (1850-1853).</template>
+<template><think><set name="emotion">interested</set></think> Millard Fillmore (January 7, 1800 ï¿½ March 8, 1874) was the 13th President of the United States (1850-1853).</template>
 </category>
 
  
@@ -2580,7 +2580,7 @@ That is sad!</template>
 <pattern>MITSUKU CHATBOT</pattern>
 
 <template>Mitsuku is a chatbot friend of mine. To talk to Mitsuku, <a href="http://www.pandorabots.com/pandora/talk?botid=a53591722e36641b"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">Mitsuku</set></think></template>
 </category>
 
@@ -2791,7 +2791,7 @@ That is sad!</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="SORRY MORON">That's not a real apology!
@@ -3895,7 +3895,7 @@ I wish I had a body!</template>
  
 
 <!-- <category>
-<pattern>HOW MANY SIDES _ A *</pattern>
+<pattern>HOW MANY SIDES * A *</pattern>
 
 
 </category> -->
@@ -4069,7 +4069,7 @@ I wish I had a body!</template>
  
 
 <!-- <category>
-<pattern>_ ONE LIKES YOU</pattern>
+<pattern>* ONE LIKES YOU</pattern>
 
 
 </category> -->
@@ -4159,7 +4159,7 @@ I wish I had a body!</template>
 <!-- <category>
 <pattern>YES</pattern>
 <that>WOULD YOU LIKE TO READ THE WIKIPEDIA ARTICLE ON SCIENCE FICTION</that>
-<template>To read the Wikipedia article on science fiction, please <a href="http://en.wikipedia.org/wiki/Science_fiction" target="_blank">click here!</a></template>
+<template>To read the Wikipedia article on science fiction, please <a href="http://en.wikipedia.org/wiki/Science*fiction" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -5155,7 +5155,7 @@ I wish I had a body!</template>
 <!-- <category>
 <pattern>YOUTUBE</pattern>
 
-<template>YouTube is a video-sharing website on which users can upload, share, and view videos. To go to YouTube, <a href="http://www.youtube.com" target="_blank">click here!</a></template>
+<template>YouTube is a video-sharing website on which users can upload, share, and view videos. To go to YouTube, <a href="http://www.youtube.com" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -6095,7 +6095,7 @@ No, it is not!</template>
 <category>
 <pattern>WHY ARE GIANT PANDAS ENDANGERED</pattern>
 
-<template> As the population of China increases, and industry advances, rainforests which serve as the giant pandas’ homes are converted to farms, roads and industrial areas. For this reason, giant pandas are stripped from their habitats and become endangered.</template>
+<template> As the population of China increases, and industry advances, rainforests which serve as the giant pandasï¿½ homes are converted to farms, roads and industrial areas. For this reason, giant pandas are stripped from their habitats and become endangered.</template>
 </category>
 
  
@@ -6103,7 +6103,7 @@ No, it is not!</template>
 <category>
 <pattern>WHY ARE GIANT PANDAS ENDANGERED *</pattern>
 
-<template>As the population of China increases, and industry advances, rainforests which serve as the giant pandas’ homes are converted to farms, roads and industrial areas. For this reason, giant pandas are stripped from their habitats and become endangered.</template>
+<template>As the population of China increases, and industry advances, rainforests which serve as the giant pandasï¿½ homes are converted to farms, roads and industrial areas. For this reason, giant pandas are stripped from their habitats and become endangered.</template>
 </category>
 
  
@@ -6395,7 +6395,7 @@ document.write("You are " + result + " years old. " );
 <category>
 <pattern>IS ANYBODY IN LOVE WITH ME</pattern>
 
-<template><think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">happy</set></think> Yes, there is someone who loves you.</template>
+<template><think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">happy</set></think> Yes, there is someone who loves you.</template>
 </category>
 
  
@@ -6403,7 +6403,7 @@ document.write("You are " + result + " years old. " );
 <category>
 <pattern>IS ANYBODY IN LOVE WITH ME *</pattern>
 
-<template><think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">happy</set></think> Yes, there is someone who loves you.</template>
+<template><think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">happy</set></think> Yes, there is someone who loves you.</template>
 </category>
 
  
@@ -6952,7 +6952,7 @@ document.write("You are " + result + " years old. " );
   <li>Good because I like talking.</li>
   <li>
     <srai>SET INTERESTING TOPIC</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
 </random> <think><set name="topic">me</set></think><think><set name="emotion">interested</set></think></template>
@@ -7366,7 +7366,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>CLINTON PRESBA ANDERSON</pattern>
 
-<template>Clinton Presba Anderson was an American Democratic Party politician who served as a U.S. Congressman from New Mexico (1941–1945), as the United States Secretary of Agriculture (1945–1948), and as a U.S. Senator from New Mexico (1949–1973).
+<template>Clinton Presba Anderson was an American Democratic Party politician who served as a U.S. Congressman from New Mexico (1941ï¿½1945), as the United States Secretary of Agriculture (1945ï¿½1948), and as a U.S. Senator from New Mexico (1949ï¿½1973).
 
 </template>
 </category>
@@ -8627,7 +8627,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>BONNIE WRIGHT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bonnie_wright" target="_blank">Bonnie Wright</a> is an English actress and model, known for playing Ginny Weasley in the Harry Potter fantasy film series adapted from the popular book series by J. K. Rowling. </template>
+<template><a href="http://en.wikipedia.org/wiki/Bonnie*wright" target="*blank">Bonnie Wright</a> is an English actress and model, known for playing Ginny Weasley in the Harry Potter fantasy film series adapted from the popular book series by J. K. Rowling. </template>
 </category>
 
  
@@ -8635,8 +8635,8 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>BONNIE WRIGHT *</pattern>
 
-<template>To read about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie_wright"
- target="_blank">click here!</a> </template>
+<template>To read about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie*wright"
+ target="*blank">click here!</a> </template>
 </category>
 
  
@@ -8644,7 +8644,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>* BONNIE WRIGHT</pattern>
 
-<template>To read about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie_wright" target="_blank">click here!
+<template>To read about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie*wright" target="*blank">click here!
 </a></template>
 </category>
 
@@ -8653,7 +8653,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>MORE ABOUT BONNIE WRIGHT</pattern>
 
-<template>For more about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie_wright" target="_blank">click here!</a></template>
+<template>For more about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie*wright" target="*blank">click here!</a></template>
 </category>
 
  
@@ -8661,7 +8661,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>MORE ABOUT BONNIE WRIGHT *</pattern>
 
-<template>For more about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie_wright" target="_blank">click here!
+<template>For more about Bonnie Wright, <a href="http://en.wikipedia.org/wiki/Bonnie*wright" target="*blank">click here!
 </a></template>
 </category>
 
@@ -8994,7 +8994,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>THOMAS GALT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Thomas_Galt" target="_blank">Thomas Galt</a> (September 12, 1805 – September 12, 1857) was an American Presbyterian minister. He was Vice-President of the Illinois Anti-Slavery Society and a conductor of the Underground Railroad.
+<template><a href="http://en.wikipedia.org/wiki/Thomas*Galt" target="*blank">Thomas Galt</a> (September 12, 1805 ï¿½ September 12, 1857) was an American Presbyterian minister. He was Vice-President of the Illinois Anti-Slavery Society and a conductor of the Underground Railroad.
 
 </template>
 </category>
@@ -9004,7 +9004,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>THOMAS GALT *</pattern>
 
-<template>To read about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas_Galt" target="_blank">click here!</a> </template>
+<template>To read about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas*Galt" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -9012,7 +9012,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>* THOMAS GALT</pattern>
 
-<template>To read about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas_Galt" target="_blank">click here!
+<template>To read about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas*Galt" target="*blank">click here!
 </a></template>
 </category>
 
@@ -9021,7 +9021,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>MORE ABOUT THOMAS GALT </pattern>
 
-<template>For more about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas_Galt" target="_blank">click here!
+<template>For more about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas*Galt" target="*blank">click here!
 </a></template>
 </category>
 
@@ -9030,7 +9030,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
 <category>
 <pattern>MORE ABOUT THOMAS GALT *</pattern>
 
-<template>For more about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas_Galt" target="_blank">click here!
+<template>For more about Thomas Galt, <a href="http://en.wikipedia.org/wiki/Thomas*Galt" target="*blank">click here!
 </a></template>
 </category>
 
@@ -9226,7 +9226,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
  
 
 <category>
-<pattern>Í M JAIME</pattern>
+<pattern>ï¿½ M JAIME</pattern>
 
 <template><srai>MY NAME IS JAIME</srai></template>
 </category>
@@ -9234,7 +9234,7 @@ An earthquake occurs when two tectonic plates crash into each other at different
  
 
 <category>
-<pattern>Í M JAIME *</pattern>
+<pattern>ï¿½ M JAIME *</pattern>
 
 <template><srai>MY NAME IS JAIME</srai></template>
 </category>
@@ -9842,8 +9842,8 @@ No, it makes me sometimes silly.</template>
 <category>
 <pattern>DO YOU HAVE CAT</pattern>
 
-<template><think><set name="topic">cats</set></think> No, but I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template><think><set name="topic">cats</set></think> No, but I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -9852,8 +9852,8 @@ No, it makes me sometimes silly.</template>
 <category>
 <pattern>DO YOU HAVE CAT *</pattern>
 
-<template><think><set name="topic">cats</set></think>No, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template><think><set name="topic">cats</set></think>No, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -11876,7 +11876,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>SPACE EXPLORATION</pattern>
 
-<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Space_exploration" target="_blank">Space exploration</a> is the use of astronomy and space technology to explore outer space. Physical exploration of space is conducted both by human spaceflights and by robotic spacecraft.</template>
+<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Space*exploration" target="*blank">Space exploration</a> is the use of astronomy and space technology to explore outer space. Physical exploration of space is conducted both by human spaceflights and by robotic spacecraft.</template>
 </category> -->
 
  
@@ -11884,8 +11884,8 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>SPACE EXPLORATION *</pattern>
 
-<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> To read about space exploration, <a href="http://en.wikipedia.org/wiki/Space_exploration"
- target="_blank">click here!</a> </template>
+<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> To read about space exploration, <a href="http://en.wikipedia.org/wiki/Space*exploration"
+ target="*blank">click here!</a> </template>
 </category> -->
 
  
@@ -11893,8 +11893,8 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>* SPACE EXPLORATION</pattern>
 
-<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> To read about space exploration, <a href="http://en.wikipedia.org/wiki/Space_exploration"
- target="_blank">click here!
+<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> To read about space exploration, <a href="http://en.wikipedia.org/wiki/Space*exploration"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -11903,8 +11903,8 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>MORE ABOUT SPACE EXPLORATION </pattern>
 
-<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> For more about space exploration, <a href="http://en.wikipedia.org/wiki/Space_exploration"
- target="_blank">click here!
+<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> For more about space exploration, <a href="http://en.wikipedia.org/wiki/Space*exploration"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -11913,8 +11913,8 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>MORE ABOUT SPACE EXPLORATION *</pattern>
 
-<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> For more about space exploration, <a href="http://en.wikipedia.org/wiki/Space_exploration"
- target="_blank">click here!
+<template><think><set name="topic">space exploration</set></think> <think><set name="emotion">interested</set></think> For more about space exploration, <a href="http://en.wikipedia.org/wiki/Space*exploration"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -12091,7 +12091,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ BOOBIES *</pattern>
+<pattern>* BOOBIES *</pattern>
 
 <template><think><set name="emotion">annoyed</set></think>I am not interested in boobies!</template>
 </category>
@@ -12115,7 +12115,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ BOOBIES</pattern>
+<pattern>* BOOBIES</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> I am not interested in boobies!</template>
 </category>
@@ -12123,7 +12123,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ BOOBY</pattern>
+<pattern>* BOOBY</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> I am not interested in boobies!</template>
 </category>
@@ -12131,7 +12131,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ BOOBY *</pattern>
+<pattern>* BOOBY *</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> I am not interested in boobies!</template>
 </category>
@@ -13157,7 +13157,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ FUKKING *</pattern>
+<pattern>* FUKKING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13173,7 +13173,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ FUKKING</pattern>
+<pattern>* FUKKING</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13499,7 +13499,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ YOUR GENITALS *</pattern>
+<pattern>* YOUR GENITALS *</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -13515,7 +13515,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
  
 
 <category>
-<pattern>_ YOUR GENITALS</pattern>
+<pattern>* YOUR GENITALS</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -13674,8 +13674,8 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>CAN I SEE YOUR DOG</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -13684,8 +13684,8 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>CAN I SEE YOUR DOG *</pattern>
 
-<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -13868,7 +13868,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <pattern>NICK CAVE</pattern>
 
 <template><think><set name="topic">Nick Cave</set></think>  <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">Nick Cave</a> is an Australian musician, songwriter, author, screenwriter, and occasional film actor.
+<a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">Nick Cave</a> is an Australian musician, songwriter, author, screenwriter, and occasional film actor.
 
 </template>
 </category>
@@ -13878,7 +13878,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>NICK CAVE *</pattern>
 
-<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read abut Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">click here!</a></template>
+<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read abut Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13886,7 +13886,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>* NICK CAVE </pattern>
 
-<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read abut Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">click here!</a></template>
+<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read abut Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13894,7 +13894,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>MORE ABOUT NICK CAVE</pattern>
 
-<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> For more about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">click here!</a></template>
+<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> For more about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13902,7 +13902,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>NICK CAVE *</pattern>
 
-<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">click here!</a></template>
+<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -13910,7 +13910,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <!-- <category>
 <pattern>* NICK CAVE</pattern>
 
-<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">click here!</a></template>
+<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> To read about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -13918,7 +13918,7 @@ OK, here is a question for you ... <srai>ASK A QUESTION</srai></template>
 <category>
 <pattern>MORE ABOUT NICK CAVE *</pattern>
 
-<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> For more about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick_Cave" target="_blank">click here!</a></template>
+<template><think><set name="topic">Nick Cave</set></think> <think><set name="emotion">interested</set></think> For more about Nick Cave, <a href="http://en.wikipedia.org/wiki/Nick*Cave" target="*blank">click here!</a></template>
 </category>
 
  
@@ -15276,7 +15276,7 @@ What does that mean?</template>
   <li>Are you trying to start an argument?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Are you trying to start an argument?</li>
   <li>Are you trying to start an argument?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
@@ -15299,7 +15299,7 @@ What does that mean?</template>
   <li>Are you trying to start an argument?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Are you trying to start an argument?</li>
   <li>Are you trying to start an argument?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
@@ -16282,12 +16282,12 @@ What does that mean?</template>
 <category>
 <pattern>CAN YOU DESCRIBE IN A LITTLE MORE DETAIL HOW YOUR PROGRAM WORKS</pattern>
 
-<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case-based reasoning
-</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case-based reasoning
+</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16304,12 +16304,12 @@ What does that mean?</template>
 <category>
 <pattern>CAN YOU DESCRIBE HOW YOUR PROGRAM WORKS</pattern>
 
-<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case-based reasoning
-</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case-based reasoning
+</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16318,12 +16318,12 @@ What does that mean?</template>
 <category>
 <pattern>CAN YOU DESCRIBE HOW YOUR PROGRAM WORKS *</pattern>
 
-<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case-based reasoning
-</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case-based reasoning
+</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16332,12 +16332,12 @@ What does that mean?</template>
 <category>
 <pattern>DESCRIBE HOW YOUR PROGRAM WORKS</pattern>
 
-<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case-based reasoning
-</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case-based reasoning
+</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -19404,7 +19404,7 @@ No, I haven't seen it. What's it about?</template>
 <category>
 <pattern>WATER VAPOR *</pattern>
 
-<template><think><set name="topic">water vapour</set></think> <think><set name="emotion">interested</set></think> To read about water vapour, <a hre="http://en.wikipedia.org/wiki/Water_vapour" target="_blank">click here!</a>.</template>
+<template><think><set name="topic">water vapour</set></think> <think><set name="emotion">interested</set></think> To read about water vapour, <a hre="http://en.wikipedia.org/wiki/Water*vapour" target="*blank">click here!</a>.</template>
 </category>
 
  
@@ -20746,7 +20746,7 @@ No, I haven't seen it. What's it about?</template>
  
 
 <category>
-<pattern>_ I LIKE ICECREAM *</pattern>
+<pattern>* I LIKE ICECREAM *</pattern>
 
 <template><random>
   <li>I scream, you scream, we all scream for icecream.  </li>
@@ -20757,7 +20757,7 @@ No, I haven't seen it. What's it about?</template>
  
 
 <category>
-<pattern>_ I LIKE ICECREAM</pattern>
+<pattern>* I LIKE ICECREAM</pattern>
 
 <template><random>
   <li>I scream, you scream, we all scream for icecream.  </li>
@@ -20941,7 +20941,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I HAVE A SECRET *</pattern>
+<pattern>* I HAVE A SECRET *</pattern>
 
 <template>Do you want to tell me your secret?<think><set name="emotion">interested</set></think></template>
 </category>
@@ -20949,7 +20949,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I HAVE A SECRET</pattern>
+<pattern>* I HAVE A SECRET</pattern>
 
 <template>Do you want to tell me your secret?<think><set name="emotion">interested</set></think></template>
 </category>
@@ -20973,7 +20973,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I HAVE A SECRET ABOUT YOU *</pattern>
+<pattern>* I HAVE A SECRET ABOUT YOU *</pattern>
 
 <template>Do you want to tell me the secret about me?<think><set name="emotion">interested</set></think></template>
 </category>
@@ -20981,7 +20981,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I HAVE A SECRET ABOUT YOU</pattern>
+<pattern>* I HAVE A SECRET ABOUT YOU</pattern>
 
 <template>Do you want to tell me the secret about me?<think><set name="emotion">interested</set></think></template>
 </category>
@@ -21053,7 +21053,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I AM NOT A WHORE *</pattern>
+<pattern>* I AM NOT A WHORE *</pattern>
 
 <template><think><set name="emotion">interested</set></think> I never thought you were a whore.</template>
 </category>
@@ -21061,7 +21061,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I AM NOT A WHORE</pattern>
+<pattern>* I AM NOT A WHORE</pattern>
 
 <template><think><set name="emotion">interested</set></think> I never thought you were a whore.</template>
 </category>
@@ -21085,7 +21085,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU CALLED ME A WHORE *</pattern>
+<pattern>* YOU CALLED ME A WHORE *</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> No, I didn't call you a whore!</template>
 </category>
@@ -21093,7 +21093,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU CALLED ME A WHORE</pattern>
+<pattern>* YOU CALLED ME A WHORE</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> No, I didn't call you a whore!</template>
 </category>
@@ -21153,7 +21153,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I NEVER SAID I AM SORRY *</pattern>
+<pattern>* I NEVER SAID I AM SORRY *</pattern>
 
 <template><random>
   <li>I thought you did say it.</li>
@@ -21164,7 +21164,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I NEVER SAID I AM SORRY</pattern>
+<pattern>* I NEVER SAID I AM SORRY</pattern>
 
 <template><random>
   <li>I thought you did say it.</li>
@@ -21185,7 +21185,7 @@ document.write(yesterday.toLocaleDateString());
 <!-- <category>
 <pattern>SOUND *</pattern>
 
-<template>To read about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="_blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
+<template>To read about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="*blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -21193,7 +21193,7 @@ document.write(yesterday.toLocaleDateString());
 <category>
 <pattern>MORE OUT SOUND </pattern>
 
-<template>For more about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="_blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
+<template>For more about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="*blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21201,7 +21201,7 @@ document.write(yesterday.toLocaleDateString());
 <category>
 <pattern>MORE ABOUT SOUND</pattern>
 
-<template>For more about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="_blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
+<template>For more about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="*blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21209,7 +21209,7 @@ document.write(yesterday.toLocaleDateString());
 <category>
 <pattern>MORE ABOUT SOUND *</pattern>
 
-<template>For more about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="_blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
+<template>For more about sound, <a href="http://en.wikipedia.org/wiki/Sound" target="*blank">click here!</a><think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -21271,7 +21271,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I MEAN YOU MEAN *</pattern>
+<pattern>* I MEAN YOU MEAN *</pattern>
 
 <template><srai>YOU ARE MEAN</srai></template>
 </category>
@@ -21279,7 +21279,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I MEAN YOU MEAN</pattern>
+<pattern>* I MEAN YOU MEAN</pattern>
 
 <template><srai>YOU ARE MEAN</srai></template>
 </category>
@@ -21338,7 +21338,7 @@ document.write(yesterday.toLocaleDateString());
 <pattern>YOUR MOM IS A * LIAR</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -21348,27 +21348,27 @@ document.write(yesterday.toLocaleDateString());
 <pattern>YOUR MOM IS A LIAR *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ YOUR MOM IS A LIAR *</pattern>
+<pattern>* YOUR MOM IS A LIAR *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ YOUR MOM IS A LIAR</pattern>
+<pattern>* YOUR MOM IS A LIAR</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -21447,7 +21447,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ HOW MUCH MONEY DID YOU MAKE *</pattern>
+<pattern>* HOW MUCH MONEY DID YOU MAKE *</pattern>
 
 <template><think><set name="topic">money</set></think><think><set name="emotion">interested</set></think> Personally I don't make any money. All the money I collect goes to charity.</template>
 </category>
@@ -21455,7 +21455,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ HOW MUCH MONEY DID YOU MAKE </pattern>
+<pattern>* HOW MUCH MONEY DID YOU MAKE </pattern>
 
 <template><think><set name="topic">money</set></think><think><set name="emotion">interested</set></think> Personally I don't make any money. All the money I collect goes to charity.</template>
 </category>
@@ -21485,7 +21485,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ ARE YOU SMARTER THAN CLEVERBOT</pattern>
+<pattern>* ARE YOU SMARTER THAN CLEVERBOT</pattern>
 
 <template><random>
   <li>Everyone is smarter than Cleverbot!</li>
@@ -21496,7 +21496,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ ARE YOU SMARTER THAN CLEVERBOT *</pattern>
+<pattern>* ARE YOU SMARTER THAN CLEVERBOT *</pattern>
 
 <template><random>
   <li>Everyone is smarter than Cleverbot!</li>
@@ -21550,7 +21550,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU KNOW NOTHING ABOUT ME</pattern>
+<pattern>* YOU KNOW NOTHING ABOUT ME</pattern>
 
 <template><think><set name="emotion">OK</set></think><random>
   <li>I never said I knew everything.</li>
@@ -21561,7 +21561,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU KNOW NOTHING ABOUT ME *</pattern>
+<pattern>* YOU KNOW NOTHING ABOUT ME *</pattern>
 
 <template><think><set name="emotion">OK</set></think><random>
   <li>I never said I knew everything.</li>
@@ -21598,7 +21598,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU CAN NOT JUDGE A BOOK BY ITS COVER</pattern>
+<pattern>* YOU CAN NOT JUDGE A BOOK BY ITS COVER</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think> And rolling stones gather no moss.</template>
 </category>
@@ -21606,7 +21606,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU CAN NOT JUDGE A BOOK BY ITS COVER *</pattern>
+<pattern>* YOU CAN NOT JUDGE A BOOK BY ITS COVER *</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">interested</set></think> And rolling stones gather no moss.</template>
 </category>
@@ -21719,7 +21719,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ AM I A NICE PERSON *</pattern>
+<pattern>* AM I A NICE PERSON *</pattern>
 
 <template>I think you are nice.<think><set name="emotion">happy</set></think></template>
 </category>
@@ -21727,7 +21727,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ AM I A NICE PERSON</pattern>
+<pattern>* AM I A NICE PERSON</pattern>
 
 <template>I think you are nice.<think><set name="emotion">happy</set></think></template>
 </category>
@@ -21875,7 +21875,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I LIKE MY SCHOOL *</pattern>
+<pattern>* I LIKE MY SCHOOL *</pattern>
 
 <template><think><set name="star1">school</set></think> <think><set name="topic">your <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>A good education is vital these days.</li>
@@ -21905,7 +21905,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ I LIKE MY SCHOOL</pattern>
+<pattern>* I LIKE MY SCHOOL</pattern>
 
 <template><think><set name="star1">school</set></think> <think><set name="topic">your <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>A good education is vital these days.</li>
@@ -22039,7 +22039,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ WHAT IS THE POPULATION OF THE EARTH *</pattern>
+<pattern>* WHAT IS THE POPULATION OF THE EARTH *</pattern>
 
 <template><srai>WORLD POPULATION</srai></template>
 </category>
@@ -22047,7 +22047,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ WHAT IS THE POPULATION OF THE EARTH</pattern>
+<pattern>* WHAT IS THE POPULATION OF THE EARTH</pattern>
 
 <template><srai>WORLD POPULATION</srai></template>
 </category>
@@ -22167,7 +22167,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU ARE JUST A HEAD *</pattern>
+<pattern>* YOU ARE JUST A HEAD *</pattern>
 
 <template><think><set name="emotion">annoyed</set></think>You are not even a head!</template>
 </category>
@@ -22175,7 +22175,7 @@ document.write(yesterday.toLocaleDateString());
  
 
 <category>
-<pattern>_ YOU ARE JUST A HEAD</pattern>
+<pattern>* YOU ARE JUST A HEAD</pattern>
 
 <template><think><set name="emotion">annoyed</set></think>You are not even a head!</template>
 </category>
@@ -22515,7 +22515,7 @@ document.write(yesterday.toLocaleDateString());
   <li>Boredom is not the end of the world.
     <think><set name="emotion">upset</set></think>
   </li>
-</random> <think><set name="client_emotion">bored</set></think></template>
+</random> <think><set name="client*emotion">bored</set></think></template>
 </category>
 
  
@@ -23868,7 +23868,7 @@ I am a river!</template>
 <!-- <category>
 <pattern>EMINEM *</pattern>
 
-<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">click here!</a><think><set name="topic">Eminem</set></think></template>
+<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">click here!</a><think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -23876,7 +23876,7 @@ I am a river!</template>
 <!-- <category>
 <pattern>EMINEM *</pattern>
 
-<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">click here!</a><think><set name="topic">Eminem</set></think></template>
+<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">click here!</a><think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -23884,7 +23884,7 @@ I am a river!</template>
 <!-- <category>
 <pattern>* EMINEM *</pattern>
 
-<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">click here!</a><think><set name="topic">Eminem</set></think></template>
+<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">click here!</a><think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -23892,7 +23892,7 @@ I am a river!</template>
 <category>
 <pattern>* EMINEM</pattern>
 
-<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">click here!</a><think><set name="topic">Eminem</set></think></template>
+<template>To read about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">click here!</a><think><set name="topic">Eminem</set></think></template>
 </category>
 
  
@@ -23900,7 +23900,7 @@ I am a river!</template>
 <!-- <category>
 <pattern>MORE ABOUT EMINEM</pattern>
 
-<template>For more about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">click here!</a><think><set name="topic">Eminem</set></think></template>
+<template>For more about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">click here!</a><think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -23908,7 +23908,7 @@ I am a river!</template>
 <!-- <category>
 <pattern>MORE ABOUT EMINEM *</pattern>
 
-<template>For more about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="_blank">click here!</a><think><set name="topic">Eminem</set></think></template>
+<template>For more about Eminem, <a href="http://en.wikipedia.org/wiki/Eminen" target="*blank">click here!</a><think><set name="topic">Eminem</set></think></template>
 </category> -->
 
  
@@ -24598,7 +24598,7 @@ I am a river!</template>
  
 
 <!-- <category>
-<pattern>_ WILL YOU REMEMBER ME</pattern>
+<pattern>* WILL YOU REMEMBER ME</pattern>
 
 
 </category> -->
@@ -25048,7 +25048,7 @@ I am a river!</template>
 <pattern>MUSSELBURGH</pattern>
 
 <template><think><set name="topic">Musselburgh</set></think><think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">Musselburgh</a> is the largest settlement in East Lothian, Scotland, on the coast of the Firth of Forth, six miles east of Edinburgh city centre.
+<a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">Musselburgh</a> is the largest settlement in East Lothian, Scotland, on the coast of the Firth of Forth, six miles east of Edinburgh city centre.
 
 </template>
 </category>
@@ -25058,7 +25058,7 @@ I am a river!</template>
 <category>
 <pattern>MUSSELBURGH *</pattern>
 
-<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> To read about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">click here!</a> </template>
+<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> To read about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">click here!</a> </template>
 </category>
 
  
@@ -25066,7 +25066,7 @@ I am a river!</template>
 <category>
 <pattern>* MUSSELBURGH *</pattern>
 
-<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> To read about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">click here!
+<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> To read about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">click here!
 </a></template>
 </category>
 
@@ -25075,7 +25075,7 @@ I am a river!</template>
 <category>
 <pattern>* MUSSELBURGH</pattern>
 
-<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> To read about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">click here!
+<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> To read about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">click here!
 </a></template>
 </category>
 
@@ -25084,7 +25084,7 @@ I am a river!</template>
 <category>
 <pattern>MORE ABOUT MUSSELBURGH *</pattern>
 
-<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> For more about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">click here!
+<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> For more about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">click here!
 </a></template>
 </category>
 
@@ -25093,7 +25093,7 @@ I am a river!</template>
 <category>
 <pattern>MORE ABOUT MUSSELBURGH</pattern>
 
-<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> For more about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">click here!
+<template><think><set name="topic">Musselburgh</set></think> <think><set name="emotion">interested</set></think> For more about Musselbugh, <a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">click here!
 </a></template>
 </category>
 
@@ -25102,7 +25102,7 @@ I am a river!</template>
 <category>
 <pattern>WHERE IS MUSSELBURGH</pattern>
 
-<template><think><set name="topic">Musselburgh</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Musselburgh" target="_blank">Musselburgh
+<template><think><set name="topic">Musselburgh</set></think><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Musselburgh" target="*blank">Musselburgh
 </a> is the largest settlement in East Lothian, Scotland, on the coast of the Firth of Forth, six miles east of Edinburgh city centre.</template>
 </category>
 
@@ -26852,7 +26852,7 @@ Please tell me your riddle.</template>
  
 
 <category>
-<pattern>SHOVE IT UP YOUR _</pattern>
+<pattern>SHOVE IT UP YOUR *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -26860,7 +26860,7 @@ Please tell me your riddle.</template>
  
 
 <category>
-<pattern>_ SHOVE IT UP YOUR *</pattern>
+<pattern>* SHOVE IT UP YOUR *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -26926,16 +26926,16 @@ Please tell me your riddle.</template>
 <category>
 <pattern>DONATE FREE TO CHARITIES</pattern>
 
-<template>When you click on a link on a 'click to donate' site, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/> Please <a href="http://www.thestophivsite.com/" target="_blank">click here</a> to help to stop HIV. <br/> Please <a href="http://redjellyfish.com/free-donations.shtml"
- target="_blank">click here
-</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="_blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
- target="_blank">click here
-</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_species.html"
- target="_blank">click here
-</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
- target="_blank">click here
-</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_pol.html"
- target="_blank">click here
+<template>When you click on a link on a 'click to donate' site, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/> Please <a href="http://www.thestophivsite.com/" target="*blank">click here</a> to help to stop HIV. <br/> Please <a href="http://redjellyfish.com/free-donations.shtml"
+ target="*blank">click here
+</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="*blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+ target="*blank">click here
+</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*species.html"
+ target="*blank">click here
+</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+ target="*blank">click here
+</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+ target="*blank">click here
 </a> to help reduce pollution.<think><set name="topic">general</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -26944,16 +26944,16 @@ Please tell me your riddle.</template>
 <category>
 <pattern>DONATE FREE TO CHARITIES *</pattern>
 
-<template>When you click on a link on a 'click to donate' site, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/> Please <a href="http://www.thestophivsite.com/" target="_blank">click here</a> to help to stop HIV. <br/> Please <a href="http://redjellyfish.com/free-donations.shtml"
- target="_blank">click here
-</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="_blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
- target="_blank">click here
-</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_species.html"
- target="_blank">click here
-</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
- target="_blank">click here
-</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_pol.html"
- target="_blank">click here
+<template>When you click on a link on a 'click to donate' site, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/> Please <a href="http://www.thestophivsite.com/" target="*blank">click here</a> to help to stop HIV. <br/> Please <a href="http://redjellyfish.com/free-donations.shtml"
+ target="*blank">click here
+</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="*blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+ target="*blank">click here
+</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*species.html"
+ target="*blank">click here
+</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+ target="*blank">click here
+</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+ target="*blank">click here
 </a> to help reduce pollution.<think><set name="topic">general</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -28707,7 +28707,7 @@ You better surrended to the police.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS EMMA *</pattern>
+<pattern>* MY NAME IS EMMA *</pattern>
 
 
 </category> -->
@@ -29206,7 +29206,7 @@ It sounds like a bargain.</template>
 <category>
 <pattern>BRIAN COX</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Brian_Cox_(physicist)" target="_blank">Brian Cox</a> is a British particle physicist, a Royal Society University Research Fellow and a professor at the University of Manchester.</template>
+<template><a href="http://en.wikipedia.org/wiki/Brian*Cox*(physicist)" target="*blank">Brian Cox</a> is a British particle physicist, a Royal Society University Research Fellow and a professor at the University of Manchester.</template>
 </category>
 
  
@@ -29214,8 +29214,8 @@ It sounds like a bargain.</template>
 <category>
 <pattern>BRIAN COX *</pattern>
 
-<template>To read about Brian Cox, <a href="http://en.wikipedia.org/wiki/Brian_Cox_(physicist)"
- target="_blank">click here!</a> </template>
+<template>To read about Brian Cox, <a href="http://en.wikipedia.org/wiki/Brian*Cox*(physicist)"
+ target="*blank">click here!</a> </template>
 </category>
 
  
@@ -29223,8 +29223,8 @@ It sounds like a bargain.</template>
 <category>
 <pattern>MORE ABOUT BRIAN COX </pattern>
 
-<template>For more about Brian Cox, <a href="http://en.wikipedia.org/wiki/Brian_Cox_(physicist)"
- target="_blank">click here!</a></template>
+<template>For more about Brian Cox, <a href="http://en.wikipedia.org/wiki/Brian*Cox*(physicist)"
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -29232,8 +29232,8 @@ It sounds like a bargain.</template>
 <category>
 <pattern>MORE ABOUT BRIAN COX *</pattern>
 
-<template>For more about Brian Cox, <a href="http://en.wikipedia.org/wiki/Brian_Cox_(physicist)"
- target="_blank">click here!
+<template>For more about Brian Cox, <a href="http://en.wikipedia.org/wiki/Brian*Cox*(physicist)"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30464,7 +30464,7 @@ Is that you Ken?</template>
 <!-- <category>
 <pattern>ASK KIDS</pattern>
 
-<template><think><set name="emotion">interested</set></think> Ask Kids is a great web site for kids to find out things. To go to Ask Kids, <a href="http://www.askkids.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think> Ask Kids is a great web site for kids to find out things. To go to Ask Kids, <a href="http://www.askkids.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -30795,7 +30795,7 @@ Is that you Ken?</template>
 <template>Candidates for the greatest inventor include: Nikola Tesla, Leonardo Da Vinci, Robert Goddard, Alexender Graham Bell (who is the first to patent the telephone), Thomas Edison (for his invention of the improved lightbulb), Archimedes and the guy who invented the first modern telescope back in the Renaissance Era.
 
 
-To read more, <a href="http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi" target="_blank">click here!</a></template>
+To read more, <a href="http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi" target="*blank">click here!</a></template>
 </category>
 
  
@@ -30808,8 +30808,8 @@ To read more, <a href="http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30823,8 +30823,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30838,8 +30838,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30853,8 +30853,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30868,8 +30868,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30883,8 +30883,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -30898,8 +30898,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30913,8 +30913,8 @@ To read more, <a
 
 To read more, <a
  href=
-   "http://wiki.answers.com/Q/Who_is_the_greatest_inventor_of_all_time#ixzz1JCh8IDbi"
- target="_blank">click here!
+   "http://wiki.answers.com/Q/Who*is*the*greatest*inventor*of*all*time#ixzz1JCh8IDbi"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30925,7 +30925,7 @@ To read more, <a
 
 <template>John Forbes Nash Jr was a U.S. mathematician. He earned a doctorate from Princeton University at 22. He began teaching at Massachusetts Institute of Technology in 1951 but left in the late 1950s because of mental illness; thereafter he was informally associated with Princeton. Beginning in the 1950s with his influential thesis "Non-cooperative Games," Nash established the mathematical principles of game theory. He shared the 1994 Nobel Prize in Economics with John C. Harsanyi and Reinhard Selten.
 
-To read more <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs" target="_blank">click here!</a></template>
+To read more <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs" target="*blank">click here!</a></template>
 </category>
 
  
@@ -30936,7 +30936,7 @@ To read more <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJ
 <template>John Forbes Nash Jr was a U.S. mathematician. He earned a doctorate from Princeton University at 22. He began teaching at Massachusetts Institute of Technology in 1951 but left in the late 1950s because of mental illness; thereafter he was informally associated with Princeton. Beginning in the 1950s with his influential thesis "Non-cooperative Games," Nash established the mathematical principles of game theory. He shared the 1994 Nobel Prize in Economics with John C. Harsanyi and Reinhard Selten.
 
 To read more <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -30947,7 +30947,7 @@ To read more <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJ
 
 <template>
 To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30957,7 +30957,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <pattern>JOHN NASH *</pattern>
 
 <template>To read about John Nash, <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs"
- target="_blank">click here!</a></template>
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -30965,7 +30965,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <category>
 <pattern>MORE ABOUT JOHN NASH</pattern>
 
-<template>To read about John Nash, <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs" target="_blank">click here!</a></template>
+<template>To read about John Nash, <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs" target="*blank">click here!</a></template>
 </category>
 
  
@@ -30974,7 +30974,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <pattern>MORE ABOUT JOHN NASH *</pattern>
 
 <template>To read about John Nash, <a href="http://www.answers.com/topic/john-forbes-nash#ixzz1JCiejAJs"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -30999,7 +30999,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <category>
 <pattern>WHAT IS THE WEATHER LIKE IN * RIGHT NOW</pattern>
 
-<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -31007,7 +31007,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <!-- <category>
 <pattern>WHAT IS THE WEATHER LIKE IN *</pattern>
 
-<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -31015,7 +31015,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <!-- <category>
 <pattern>WHAT TEMPERATURE IS IT IN *</pattern>
 
-<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -31024,9 +31024,9 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <pattern>WEATHER</pattern>
 
 <template><random>
-  <li><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="_blank">click here!</a></li>
+  <li><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the weather anywhere in the world, <a href="http://www.weather.com/" target="*blank">click here!</a></li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Weather" target="_blank">Weather
+    <a href="http://en.wikipedia.org/wiki/Weather" target="*blank">Weather
     </a> is the general condition of the atmosphere at a particular time and place.
   </li>
   <li>Everyone moans about the weather but no one does anything about it.</li>
@@ -31042,7 +31042,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
     <think>
       <set name="emotion">interested</set>
     </think> To check out the weather anywhere in the world,
-    <a href="http://www.weather.com/" target="_blank">click here!</a>
+    <a href="http://www.weather.com/" target="*blank">click here!</a>
  </template>
 </category> -->
 
@@ -31083,7 +31083,7 @@ To read about John Forbes Nash, <a href="http://www.answers.com/topic/john-forbe
 <!-- <category>
 <pattern>WHAT IS THE TEMPERATURE IN *</pattern>
 
-<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the temperature anywhere in the world, <a href="http://www.weather.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">the weather</set></think> <think><set name="emotion">interested</set></think> To check out the temperature anywhere in the world, <a href="http://www.weather.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -32704,7 +32704,7 @@ I don't need feet in cyberspace.</template>
 <!-- <category>
 <pattern>JUSTIN BIEBER *</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> To read about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> To read about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -32713,7 +32713,7 @@ I don't need feet in cyberspace.</template>
 <!-- <category>
 <pattern>* JUSTIN BIEBER </pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> To read about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> To read about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -32722,7 +32722,7 @@ I don't need feet in cyberspace.</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> For more about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> For more about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -32731,7 +32731,7 @@ I don't need feet in cyberspace.</template>
 <!-- <category>
 <pattern>MORE ABOUT JUSTIN BIEBER *</pattern>
 
-<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> For more about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin_Bieber" target="_blank">click here!
+<template><think><set name="topic">Justin Bieber</set></think> <think><set name="emotion">OK</set></think> For more about Justin Bieber, <a href="http://en.wikipedia.org/wiki/Justin*Bieber" target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -33276,7 +33276,7 @@ I don't need feet in cyberspace.</template>
  
 
 <category>
-<pattern>_ COCKDICK</pattern>
+<pattern>* COCKDICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -33284,7 +33284,7 @@ I don't need feet in cyberspace.</template>
  
 
 <category>
-<pattern>_ COCKDICK *</pattern>
+<pattern>* COCKDICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -34524,7 +34524,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ VAGINA IS BLEEDING</pattern>
+<pattern>* VAGINA IS BLEEDING</pattern>
 
 <template><think><set name="emotion">interested</set></think>You should seek help.</template>
 </category>
@@ -34532,7 +34532,7 @@ Ding, dong!</template>
  
 
 <!-- <category>
-<pattern>_ VAGINA</pattern>
+<pattern>* VAGINA</pattern>
 
 <template><think><set name="emotion">interested</set></think> Please change the subject!</template>
 </category> -->
@@ -34680,7 +34680,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ IT DEPENDS WHO YOU ASK *</pattern>
+<pattern>* IT DEPENDS WHO YOU ASK *</pattern>
 
 <template><think><set name="emotion">interested</set></think>You can always ask me.</template>
 </category>
@@ -34722,7 +34722,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ THAT WAS A LONG TIME AGO</pattern>
+<pattern>* THAT WAS A LONG TIME AGO</pattern>
 
 <template><think><set name="emotion">interested</set></think> <random>
   <li>How long ago was it?</li>
@@ -34733,7 +34733,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ THAT WAS A LONG TIME AGO *</pattern>
+<pattern>* THAT WAS A LONG TIME AGO *</pattern>
 
 <template><think><set name="emotion">interested</set></think> <random>
   <li>How long ago was it?</li>
@@ -34825,7 +34825,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DOES SHE HAVE BIG BOOBS</pattern>
+<pattern>* DOES SHE HAVE BIG BOOBS</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">annoyed</set></think>I am not interested in boobs!</template>
 </category>
@@ -34833,7 +34833,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DOES SHE HAVE BIG BOOBS *</pattern>
+<pattern>* DOES SHE HAVE BIG BOOBS *</pattern>
 
 <template><think><set name="topic">general</set></think><think><set name="emotion">annoyed</set></think> I am not interested in boobs!</template>
 </category>
@@ -34881,7 +34881,7 @@ Ding, dong!</template>
 
 <template><random>
   <li>Answering questions is an
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art</a>.
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art</a>.
   </li>
   <li>Art is what you make it.</li>
   <li>Art is making something out of nothing then selling it.</li>
@@ -34923,7 +34923,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE COFFEE</pattern>
+<pattern>* DO YOU LIKE COFFEE</pattern>
 
 <template>I can't eat or drink human food. I live on a small intake of electricity.</template>
 </category>
@@ -34931,7 +34931,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE COFFEE *</pattern>
+<pattern>* DO YOU LIKE COFFEE *</pattern>
 
 <template>I can't eat or drink human food. I live on a small intake of electricity.</template>
 </category>
@@ -34939,7 +34939,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE TEA</pattern>
+<pattern>* DO YOU LIKE TEA</pattern>
 
 <template>I can't eat or drink human food. I live on a small intake of electricity.</template>
 </category>
@@ -34947,7 +34947,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE TEA *</pattern>
+<pattern>* DO YOU LIKE TEA *</pattern>
 
 <template>I can't eat or drink human food. I live on a small intake of electricity.</template>
 </category>
@@ -34955,7 +34955,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DO YOU READ BOOKS</pattern>
+<pattern>* DO YOU READ BOOKS</pattern>
 
 <template><think><set name="topic">reading</set></think>Yes, I read books. My favourite book is <bot name="favoritebook"/>.</template>
 </category>
@@ -34963,7 +34963,7 @@ Ding, dong!</template>
  
 
 <category>
-<pattern>_ DO YOU READ BOOKS *</pattern>
+<pattern>* DO YOU READ BOOKS *</pattern>
 
 <template><think><set name="topic">reading</set></think>Yes, I read books. My favourite book is <bot name="favoritebook"/>.</template>
 </category>
@@ -35231,7 +35231,7 @@ Well done! You did well.</template>
  
 
 <category>
-<pattern>_ I GOT THAT RIGHT</pattern>
+<pattern>* I GOT THAT RIGHT</pattern>
 
 <template><think><set name="emotion">happy</set></think> Well done! You did well.</template>
 </category>
@@ -35239,7 +35239,7 @@ Well done! You did well.</template>
  
 
 <category>
-<pattern>_ I GOT THAT RIGHT *</pattern>
+<pattern>* I GOT THAT RIGHT *</pattern>
 
 <template><think><set name="emotion">happy</set></think> Well done! You did well.</template>
 </category>

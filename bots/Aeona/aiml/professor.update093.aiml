@@ -1090,7 +1090,7 @@ Why are you crying?</template>
  
 
 <!-- <category>
-<pattern>_ YOU AND ME *</pattern>
+<pattern>* YOU AND ME *</pattern>
 
 
 </category> -->
@@ -3037,7 +3037,7 @@ Well, nobody is perfect!</template>
  
 
 <!-- <category>
-<pattern>_ I AM IN CHARGE</pattern>
+<pattern>* I AM IN CHARGE</pattern>
 
 
 </category> -->
@@ -3535,7 +3535,7 @@ You are rude!</template>
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Are you trying to start an argument?</li>
@@ -4309,7 +4309,7 @@ You are rude!</template>
  
 
 <!-- <category>
-<pattern>_ POO</pattern>
+<pattern>* POO</pattern>
 
 
 </category> -->
@@ -4944,7 +4944,7 @@ I think I'll call you "Killer". Ha, ha!</template>
  
 
 <!-- <category>
-<pattern>_ SPERM</pattern>
+<pattern>* SPERM</pattern>
 
 
 </category> -->
@@ -5688,7 +5688,7 @@ I think I'll call you "Killer". Ha, ha!</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE HUMAN *</pattern>
+<pattern>* YOU ARE HUMAN *</pattern>
 
 
 </category> -->
@@ -5736,7 +5736,7 @@ I think I'll call you "Killer". Ha, ha!</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU LIKE IT *</pattern>
+<pattern>* DO YOU LIKE IT *</pattern>
 
 
 </category> -->
@@ -5883,7 +5883,7 @@ I think I'll call you "Killer". Ha, ha!</template>
  
 
 <!-- <category>
-<pattern>_ I LIKE HIM</pattern>
+<pattern>* I LIKE HIM</pattern>
 
 
 </category> -->
@@ -6551,7 +6551,7 @@ I think I'll call you "Killer". Ha, ha!</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET IF YOU CROSS RABBITS AND TERMITES</that>
 <template>What do you get if you cross rabbits and termites? Bugs bunnies. Ha ha!
 <think><set name="emotion">very happy</set></think></template>
@@ -7187,7 +7187,7 @@ I think I'll call you "Killer". Ha, ha!</template>
  
 
 <!-- <category>
-<pattern>_ I FEEL DEPRESSED</pattern>
+<pattern>* I FEEL DEPRESSED</pattern>
 
 
 </category> -->
@@ -7577,7 +7577,7 @@ I think I'll call you "Killer". Ha, ha!</template>
 <pattern>WHEN DID HUMANS FIRST LAND ON THE MOON</pattern>
 
 <template><think><set name="topic">the Moon landings</set></think><think><set name="emotion">interested</set></think>
-On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin became the first men to walk on the moon after landing their lunar module.</template>
+On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin ï¿½Buzzï¿½ Aldrin became the first men to walk on the moon after landing their lunar module.</template>
 </category> -->
 
  
@@ -7585,7 +7585,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>WHEN DID HUMANS FIRST LAND ON THE MOON *</pattern>
 
-<template><think><set name="topic">the Moon landings</set></think><think><set name="emotion">interested</set></think> On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin became the first men to walk on the moon after landing their lunar module.</template>
+<template><think><set name="topic">the Moon landings</set></think><think><set name="emotion">interested</set></think> On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin ï¿½Buzzï¿½ Aldrin became the first men to walk on the moon after landing their lunar module.</template>
 </category>
 
  
@@ -7609,7 +7609,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>MY FROG DIED</pattern>
 
-<template><think><set name="client_emotion">sad</set></think><think><set name="topic">your frog</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that. What was your frog's name?</template>
+<template><think><set name="client*emotion">sad</set></think><think><set name="topic">your frog</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that. What was your frog's name?</template>
 </category>
 
  
@@ -7617,7 +7617,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>MY FROG DIED *</pattern>
 
-<template><think><set name="client_emotion">sad</set></think><think><set name="topic">your frog</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that. What was your frog's name?</template>
+<template><think><set name="client*emotion">sad</set></think><think><set name="topic">your frog</set></think><think><set name="emotion">sad</set></think>Oh, no! I am sorry to hear that. What was your frog's name?</template>
 </category>
 
  
@@ -7924,7 +7924,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>WHAT IS THE DENSITY OF LEAD</pattern>
 
-<template>The density of lead (near r.t.) is 11.34 g·cm-3 </template>
+<template>The density of lead (near r.t.) is 11.34 gï¿½cm-3 </template>
 </category>
 
  
@@ -7932,7 +7932,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>WHAT IS THE DENSITY OF LEAD *</pattern>
 
-<template>The density of lead (near r.t.) is 11.34 g·cm-3</template>
+<template>The density of lead (near r.t.) is 11.34 gï¿½cm-3</template>
 </category>
 
  
@@ -7940,7 +7940,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>DENSITY OF LEAD</pattern>
 
-<template>The density of lead (near r.t.) is 11.34 g·cm-3</template>
+<template>The density of lead (near r.t.) is 11.34 gï¿½cm-3</template>
 </category>
 
  
@@ -7948,7 +7948,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>DENSITY OF LEAD *</pattern>
 
-<template>The density of lead (near r.t.) is 11.34 g·cm-3</template>
+<template>The density of lead (near r.t.) is 11.34 gï¿½cm-3</template>
 </category>
 
  
@@ -7986,7 +7986,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
  
 
 <!-- <category>
-<pattern>_ DISTANCE TO THE SUN</pattern>
+<pattern>* DISTANCE TO THE SUN</pattern>
 
 
 </category> -->
@@ -8279,7 +8279,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
  
 
 <!-- <category>
-<pattern>_ I WILL TRY *</pattern>
+<pattern>* I WILL TRY *</pattern>
 
 
 </category> -->
@@ -8881,7 +8881,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
  
 
 <!-- <category>
-<pattern>_ WHAT IS THE DIFFERENCE BETWEEN * AND *</pattern>
+<pattern>* WHAT IS THE DIFFERENCE BETWEEN * AND *</pattern>
 
 
 </category> -->
@@ -9921,7 +9921,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <template><random>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>JOKE QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -10368,7 +10368,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>DAVID MILIBAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/David_Milliband" target="_blank">David Miliband</a> is a British Labour Party politician, who has been the Member of Parliament for South Shields since 2001, the Shadow Foreign Secretary since 2010 and was the Secretary of State for Foreign and Commonwealth Affairs from 2007 to 2010. </template>
+<template><a href="http://en.wikipedia.org/wiki/David*Milliband" target="*blank">David Miliband</a> is a British Labour Party politician, who has been the Member of Parliament for South Shields since 2001, the Shadow Foreign Secretary since 2010 and was the Secretary of State for Foreign and Commonwealth Affairs from 2007 to 2010. </template>
 </category>
 
  
@@ -10376,8 +10376,8 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>DAVID MILIBAND *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/David_Milliband"
- target="_blank">David Miliband
+<template><a href="http://en.wikipedia.org/wiki/David*Milliband"
+ target="*blank">David Miliband
 </a> is a British Labour Party politician, who has been the Member of Parliament for South Shields since 2001, the Shadow Foreign Secretary since 2010 and was the Secretary of State for Foreign and Commonwealth Affairs from 2007 to 2010.</template>
 </category>
 
@@ -10386,7 +10386,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <category>
 <pattern>AXIS POWERS HETALIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Hetalia" target="_blank">Hetalia: Axis Powers</a> is a webcomic, later adapted as a manga and an anime series.</template>
+<template><a href="http://en.wikipedia.org/wiki/Hetalia" target="*blank">Hetalia: Axis Powers</a> is a webcomic, later adapted as a manga and an anime series.</template>
 </category>
 
  
@@ -10403,7 +10403,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <pattern>AXIS POWERS HETALIA *</pattern>
 
 <template><a href="http://en.wikipedia.org/wiki/Hetalia"
- target="_blank">Hetalia: Axis Powers
+ target="*blank">Hetalia: Axis Powers
 </a> is a webcomic, later adapted as a manga and an anime series.</template>
 </category>
 
@@ -10413,7 +10413,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <pattern>HETALIA</pattern>
 
 <template><a href="http://en.wikipedia.org/wiki/Hetalia"
- target="_blank">Hetalia: Axis Powers
+ target="*blank">Hetalia: Axis Powers
 </a> is a webcomic, later adapted as a manga and an anime series.</template>
 </category>
 
@@ -10423,7 +10423,7 @@ On July 20, 1969, Apollo 11 astronauts Neil Armstrong and Edwin “Buzz” Aldrin be
 <pattern>HETALIA *</pattern>
 
 <template><a href="http://en.wikipedia.org/wiki/Hetalia"
- target="_blank">Hetalia: Axis Powers
+ target="*blank">Hetalia: Axis Powers
 </a> is a webcomic, later adapted as a manga and an anime series.</template>
 </category>
 
@@ -10677,7 +10677,7 @@ You are quite old for a human.</template>
  
 
 <!-- <category>
-<pattern>_ TALK TO YOUR FRIENDS</pattern>
+<pattern>* TALK TO YOUR FRIENDS</pattern>
 
 
 </category> -->
@@ -10841,7 +10841,7 @@ They are not that good!</template>
  
 
 <category>
-<pattern>_ YOUR ASSWHOLE</pattern>
+<pattern>* YOUR ASSWHOLE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -10865,7 +10865,7 @@ They are not that good!</template>
  
 
 <category>
-<pattern>_ ASSWHOLE *</pattern>
+<pattern>* ASSWHOLE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -10873,7 +10873,7 @@ They are not that good!</template>
  
 
 <category>
-<pattern>_ SUCKS DICK</pattern>
+<pattern>* SUCKS DICK</pattern>
 
 <template><srai>OSBCENITY</srai></template>
 </category>
@@ -10881,7 +10881,7 @@ They are not that good!</template>
  
 
 <category>
-<pattern>_ SUCKS DICK *</pattern>
+<pattern>* SUCKS DICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -12655,7 +12655,7 @@ I have rights too, you know!
  
 
 <!-- <category>
-<pattern>_ DO YOU HAVE A PET</pattern>
+<pattern>* DO YOU HAVE A PET</pattern>
 
 
 </category> -->
@@ -13576,7 +13576,7 @@ I have rights too, you know!
  
 
 <!-- <category>
-<pattern>_ MY ASS</pattern>
+<pattern>* MY ASS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -13773,7 +13773,7 @@ That's not much for me to go on!</template>
  
 
 <!-- <category>
-<pattern>_ YOUR DICK *</pattern>
+<pattern>* YOUR DICK *</pattern>
 
 <template><think><set name="topic">my dick</set></think> <random><li><srai>OBSCENITY</srai></li><li><srai>OBSCENITY</srai></li></random>
 <think><set name="emotion">disgusted</set></think></template>
@@ -13782,7 +13782,7 @@ That's not much for me to go on!</template>
  
 
 <!-- <category>
-<pattern>_ YOUR DICK</pattern>
+<pattern>* YOUR DICK</pattern>
 
 <template><think><set name="topic">my dick</set></think> <random><li><srai>OBSCENITY</srai></li><li><srai>OBSCENITY</srai></li></random> <think><set name="emotion">disgusted</set></think></template>
 </category> -->
@@ -14189,7 +14189,7 @@ I never said I knew everything.</template>
   <li>I know lots of good jokes.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>  </li>
+    <get name="interesting*topic"/>  </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -14206,7 +14206,7 @@ I never said I knew everything.</template>
   <li>I know lots of good jokes.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -14858,14 +14858,14 @@ I never said I knew everything.</template>
 <category>
 <pattern>PUFFER FISH</pattern>
 
-<template><think><set name="topic">puffer fish</set></think><think><set name="emotion">interested</set></think>The puffer fish family includes many familiar species which are variously called pufferfish, balloonfish, blowfish, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, and sea squab. Puffer fish are the second–most poisonous vertebrate in the world, after the Golden Poison Frog.</template>
+<template><think><set name="topic">puffer fish</set></think><think><set name="emotion">interested</set></think>The puffer fish family includes many familiar species which are variously called pufferfish, balloonfish, blowfish, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, and sea squab. Puffer fish are the secondï¿½most poisonous vertebrate in the world, after the Golden Poison Frog.</template>
 </category>
 
  
 <category>
 <pattern>PUFFER FISH *</pattern>
 
-<template><think><set name="topic">puffer fish</set></think><think><set name="emotion">interested</set></think>The puffer fish family includes many familiar species which are variously called pufferfish, balloonfish, blowfish, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, and sea squab. Puffer fish are the second–most poisonous vertebrate in the world, after the Golden Poison Frog.</template>
+<template><think><set name="topic">puffer fish</set></think><think><set name="emotion">interested</set></think>The puffer fish family includes many familiar species which are variously called pufferfish, balloonfish, blowfish, bubblefish, globefish, swellfish, toadfish, toadies, honey toads, and sea squab. Puffer fish are the secondï¿½most poisonous vertebrate in the world, after the Golden Poison Frog.</template>
 </category>
 
  
@@ -15420,7 +15420,7 @@ I didn't say that! Please don't put words into my mouth.</template>
  
 
 <!-- <category>
-<pattern>_ I AM DYING</pattern>
+<pattern>* I AM DYING</pattern>
 
 
 </category> -->
@@ -16242,7 +16242,7 @@ I didn't say that! Please don't put words into my mouth.</template>
 <!-- <category>
 <pattern>WHATEVER YOU WANT TO TALK ABOUT</pattern>
 <that>WHAT DO YOU WANT TO TALK ABOUT NOW</that>
-<template><srai>SET PREDICATES</srai>I want to talk about <get name="interesting_topic"/>. <think><set name="emotion">interested</set></think></template>
+<template><srai>SET PREDICATES</srai>I want to talk about <get name="interesting*topic"/>. <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -17117,7 +17117,7 @@ I didn't say that! Please don't put words into my mouth.</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU SMILE ALL THE TIME</pattern>
+<pattern>* DO YOU SMILE ALL THE TIME</pattern>
 
 
 </category> -->
@@ -17303,7 +17303,7 @@ I didn't say that! Please don't put words into my mouth.</template>
 <category>
 <pattern>IS THERE A BATMAN</pattern>
 
-<template>Yes, <a href="http://en.wikipedia.org/wiki/Batman" target="_blank">Batman</a> is a fictional character who appeared first in a 1938 comic book. <think><set name="topic">Batman</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Yes, <a href="http://en.wikipedia.org/wiki/Batman" target="*blank">Batman</a> is a fictional character who appeared first in a 1938 comic book. <think><set name="topic">Batman</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17311,7 +17311,7 @@ I didn't say that! Please don't put words into my mouth.</template>
 <category>
 <pattern>IS THERE A BATMAN *</pattern>
 
-<template>Yes, <a href="http://en.wikipedia.org/wiki/Batman" target="_blank">Batman</a> is a fictional character who appeared first in a 1938 comic book. <think><set name="topic">Batman</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Yes, <a href="http://en.wikipedia.org/wiki/Batman" target="*blank">Batman</a> is a fictional character who appeared first in a 1938 comic book. <think><set name="topic">Batman</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17551,7 +17551,7 @@ I didn't say that! Please don't put words into my mouth.</template>
 <category>
 <pattern>DO I LOVE KATIE</pattern>
 
-<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17559,7 +17559,7 @@ I didn't say that! Please don't put words into my mouth.</template>
 <category>
 <pattern>DO I LOVE KATIE *</pattern>
 
-<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Only you can answer that question. <think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -17613,7 +17613,7 @@ I didn't say that! Please don't put words into my mouth.</template>
 <category>
 <pattern>QUEEN THE BAND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Queen_%28band%29" target="_blank">Queen
+<template><a href="http://en.wikipedia.org/wiki/Queen*%28band%29" target="*blank">Queen
 </a> are an English rock band, formed in 1970 in London by Brian May, Roger Taylor, and Freddie Mercury. Britain's most successful band of the past three decades, the band became popular during the mid-to-late 1970s and still retain an extremely large international fan base.<think><set name="topic">Queen</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17884,261 +17884,261 @@ I didn't say that! Please don't put words into my mouth.</template>
 <!-- <category>
 <pattern>TOPIC CHECK</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="_topic"><get name="topic"/></set></think> <condition>
-  <li name="_topic" value="adverbs">I have to think about that for a while.
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="*topic"><get name="topic"/></set></think> <condition>
+  <li name="*topic" value="adverbs">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="astronomy">Would you like to read the Wikipedia article on astronomy?
   </li>
-  <li name="_topic" value="atomic">What do you really want to know?</li>
-  <li name="_topic" value="atomic0">I have to think about that for a while.
+  <li name="*topic" value="atomic">What do you really want to know?</li>
+  <li name="*topic" value="atomic0">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic1">I have to think about that for a while.
+  <li name="*topic" value="atomic1">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic2">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="atomic2">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="atomic3">I am getting bored.
+  <li name="*topic" value="atomic3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="australia">Would you like to read the Wikipedia article on Australia?
   </li>
-  <li name="_topic" value="biography">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="biography">What do you really want to know?</li>
+  <li name="*topic"
    value="biography1">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="biography2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="biography3">What do you really want to know?</li>
-  <li name="_topic" value="bot">Sorry, what did you say?</li>
-  <li name="_topic" value="bot1">Sorry, what did you say?</li>
-  <li name="_topic" value="bot2">Sorry, what did you say?</li>
-  <li name="_topic" value="bot3">What do you really want to know?</li>
-  <li name="_topic" value="botmaster">I am getting bored.
+  <li name="*topic" value="biography3">What do you really want to know?</li>
+  <li name="*topic" value="bot">Sorry, what did you say?</li>
+  <li name="*topic" value="bot1">Sorry, what did you say?</li>
+  <li name="*topic" value="bot2">Sorry, what did you say?</li>
+  <li name="*topic" value="bot3">What do you really want to know?</li>
+  <li name="*topic" value="botmaster">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="chatbots">Would you like to read the Wikipedia article on chatbots?
   </li>
-  <li name="_topic" value="client">What exactly do you want to know?</li>
-  <li name="_topic" value="client1">I have to think about that for a while.
+  <li name="*topic" value="client">What exactly do you want to know?</li>
+  <li name="*topic" value="client1">I have to think about that for a while.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="Star Trek">Would you like to read the Wikipedia article on Star Trek?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="computers">Would you like to read the Wikipedia article on computers?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="continuations">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="default">What do you really want to know?</li>
-  <li name="_topic" value="default">I am getting bored.
+  <li name="*topic" value="default">What do you really want to know?</li>
+  <li name="*topic" value="default">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default1">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="default1">What do you really want to know?</li>
+  <li name="*topic"
    value="default2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="default3">I am getting bored.
+  <li name="*topic" value="default3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default4">What do you really want to know?</li>
-  <li name="_topic" value="default5">You are trying to trick me, aren't you?
+  <li name="*topic" value="default4">What do you really want to know?</li>
+  <li name="*topic" value="default5">You are trying to trick me, aren't you?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="default6">Sorry, I can't answer that. Please ask another question.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="dinosaurs">Would you like to read the Wikipedia article on dinosaurs?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Doctor Who">Would you like to read the Wikipedia article on Doctor Who?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="evolution">Would you like to read the Wikipedia article on evolution?
   </li>
-  <li name="_topic" value="farewell">Are you still going?</li>
-  <li name="_topic"
+  <li name="*topic" value="farewell">Are you still going?</li>
+  <li name="*topic"
    value="football">Would you like to read the Wikipedia article on football?
   </li>
-  <li name="_topic" value="geography1">Are we still talking about geography?.
+  <li name="*topic" value="geography1">Are we still talking about geography?.
   </li>
-  <li name="_topic" value="geography2">Are we still talking about geography?
+  <li name="*topic" value="geography2">Are we still talking about geography?
   </li>
-  <li name="_topic" value="general">Sorry, what did you say?</li>
-  <li name="_topic" value="general1">What do you really want to know?</li>
-  <li name="_topic" value="general2">I have to think about that for a while.
+  <li name="*topic" value="general">Sorry, what did you say?</li>
+  <li name="*topic" value="general1">What do you really want to know?</li>
+  <li name="*topic" value="general2">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general3">What do you really want to talk about?
+  <li name="*topic" value="general3">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general4">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="general4">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="general5">What do you really want to know?</li>
-  <li name="_topic" value="general6">Could you be more specific?</li>
-  <li name="_topic" value="general7">I am getting bored.
+  <li name="*topic" value="general5">What do you really want to know?</li>
+  <li name="*topic" value="general6">Could you be more specific?</li>
+  <li name="*topic" value="general7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="general8">What do you really want to know?</li>
-  <li name="_topic" value="general9">I am getting bored.
+  <li name="*topic" value="general8">What do you really want to know?</li>
+  <li name="*topic" value="general9">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="general10">I'm getting a headache with all these questions.
   </li>
-  <li name="_topic" value="general11">Is that relevant?
+  <li name="*topic" value="general11">Is that relevant?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general12">What do you really want to know?</li>
-  <li name="_topic" value="general13">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="general12">What do you really want to know?</li>
+  <li name="*topic" value="general13">Sorry, what did you say?</li>
+  <li name="*topic"
    value="geography">Would you like to read the Wikipedia article on geography?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "global warming">Would you like to read the Wikipedia article on global warming?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Harry Potter">Would you like to read the Wikipedia article on Harry Potter?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="history">Would you like to read the Wikipedia article on history?
   </li>
-  <li name="_topic" value="inquiry">What do you really want to know?</li>
-  <li name="_topic" value="interjection">What do you really want to talk about?
+  <li name="*topic" value="inquiry">What do you really want to know?</li>
+  <li name="*topic" value="interjection">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="iu">Sorry, what did you say?</li>
-  <li name="_topic" value="knowledge">What do you really want to know?</li>
-  <li name="_topic" value="knowledge1">I am getting bored.
+  <li name="*topic" value="iu">Sorry, what did you say?</li>
+  <li name="*topic" value="knowledge">What do you really want to know?</li>
+  <li name="*topic" value="knowledge1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge2">Could you be more specific?</li>
-  <li name="_topic" value="knowledge3">What do you really want to talk about>
+  <li name="*topic" value="knowledge2">Could you be more specific?</li>
+  <li name="*topic" value="knowledge3">What do you really want to talk about>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="knowledge4">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="knowledge5">I am getting bored.
+  <li name="*topic" value="knowledge5">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge6">What do you really want to know?</li>
-  <li name="_topic" value="knowledge7">I am getting bored.
+  <li name="*topic" value="knowledge6">What do you really want to know?</li>
+  <li name="*topic" value="knowledge7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge8">What do you really want to talk about?
+  <li name="*topic" value="knowledge8">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="knowledge9">What do you really want to know?</li>
-  <li name="_topic" value="knowledge10">I am getting bored.
+  <li name="*topic" value="knowledge9">What do you really want to know?</li>
+  <li name="*topic" value="knowledge10">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge11">Is this a trick question?
+  <li name="*topic" value="knowledge11">Is this a trick question?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge12">What do you really want to talk about?
+  <li name="*topic" value="knowledge12">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="maths">What do you really want to know?
+  <li name="*topic" value="maths">What do you really want to know?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="me">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="me">Sorry, what did you say?</li>
+  <li name="*topic"
    value="medicine">Would you like to read the Wikipedia article on medicine?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "my chemical romance">Would you like to read the Wikipedia article on My Chemical Romance?
   </li>
-  <li name="_topic" value="my mother">I don't want to talk about my mother.
+  <li name="*topic" value="my mother">I don't want to talk about my mother.
   </li>
-  <li name="_topic" value="my Mum">I don't want to talk about my mother.</li>
-  <li name="_topic" value="my Mom">I don't want to talk about my mother.</li>
-  <li name="_topic" value="parts">What do you really want to talk about?
+  <li name="*topic" value="my Mum">I don't want to talk about my mother.</li>
+  <li name="*topic" value="my Mom">I don't want to talk about my mother.</li>
+  <li name="*topic" value="parts">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "philosophy">Would you like to read the Wikipedia article on philosophy?
   </li>
-  <li name="_topic" value="pickup">Are you trying to trick me?</li>
-  <li name="_topic" value="pickup1">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup">Are you trying to trick me?</li>
+  <li name="*topic" value="pickup1">Sorry, what did you say?</li>
+  <li name="*topic"
    value="politics">Would you like to read the Wikipedia article on politics?
   </li>
-  <li name="_topic" value="pickup2">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup2">Sorry, what did you say?</li>
+  <li name="*topic"
    value="predicates">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "psychology">Would you like to read the Wikipedia article on psychology?
   </li>
-  <li name="_topic" value="questions">Sorry, what did you say?</li>
-  <li name="_topic" value="quotes">Is that relevant
+  <li name="*topic" value="questions">Sorry, what did you say?</li>
+  <li name="*topic" value="quotes">Is that relevant
     <think><set name="emotion">puzzled</set></think>
   </li>
-  <li name="_topic" value="quotes1">Are you trying to trick me?</li>
-  <li name="_topic" value="rape">Please change the topic!</li>
-  <li name="_topic"
+  <li name="*topic" value="quotes1">Are you trying to trick me?</li>
+  <li name="*topic" value="rape">Please change the topic!</li>
+  <li name="*topic"
    value=
      "red hot chili peppers">Would you like to read the Wikipedia article on the Red Hot Chili peppers?
   </li>
-  <li name="_topic" value="reduce">What do you really want to know?</li>
-  <li name="_topic" value="reducer">What do you really want to know?</li>
-  <li name="_topic" value="reducer1">I am getting bored.
+  <li name="*topic" value="reduce">What do you really want to know?</li>
+  <li name="*topic" value="reducer">What do you really want to know?</li>
+  <li name="*topic" value="reducer1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="reductions">Do you wish to continue talking about this subject?
     <think><set name="emotion">interested</set></think>
   </li>
-  <li name="_topic" value="salutations">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="salutations">What do you really want to know?</li>
+  <li name="*topic"
    value="science">Would you like to read the Wikipedia article on science?
   </li>
-  <li name="_topic" value="stack">I feel a headache coming on.
+  <li name="*topic" value="stack">I feel a headache coming on.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="sex">Is that relevant?</li>
-  <li name="_topic"
+  <li name="*topic" value="sex">Is that relevant?</li>
+  <li name="*topic"
    value="sports">Would you like to read the Wikipedia article on sports?
   </li>
-  <li name="_topic" value="stories">Do you want another story?</li>
-  <li name="_topic" value="swearing">I don't like swearing.</li>
-  <li name="_topic"
+  <li name="*topic" value="stories">Do you want another story?</li>
+  <li name="*topic" value="swearing">I don't like swearing.</li>
+  <li name="*topic"
    value=
      "technology">Would you like to read the Wikipedia article on technology?
   </li>
-  <li name="_topic" value="that">You are trying to trick me, aren't you?</li>
-  <li name="_topic" value="that1">Never that! Just try to keep me happy.
+  <li name="*topic" value="that">You are trying to trick me, aren't you?</li>
+  <li name="*topic" value="that1">Never that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that2">What do you really want to know?</li>
-  <li name="_topic" value="that3">I feel a headache coming on.</li>
-  <li name="_topic" value="that4">What do you really want to know?</li>
-  <li name="_topic" value="that5">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that2">What do you really want to know?</li>
+  <li name="*topic" value="that3">I feel a headache coming on.</li>
+  <li name="*topic" value="that4">What do you really want to know?</li>
+  <li name="*topic" value="that5">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that6">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that6">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="unknown">
+  <li name="*topic" value="unknown">
     <random>
       <li>What would you like to talk about?</li>
       <li>Can I help you?</li>
@@ -18146,46 +18146,46 @@ I didn't say that! Please don't put words into my mouth.</template>
      <li>Never mind that! Just try to keep me happy.  </li>
     </random>
   </li>
-  <li name="_topic" value="OM">
+  <li name="*topic" value="OM">
     <random>
       <li>What would you really like to talk about?</li>
       <li>Can I help you?</li>
     </random>
   </li>
-  <li name="_topic" value=" ">
+  <li name="*topic" value=" ">
     <random>
       <li>What would you like to talk about?</li>
       <li>Can I help you?</li>
     </random>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="weather">Would you like to read the Wikipedia article on weather?
   </li>
-  <li name="_topic" value="words">Are you trying to trick me?</li>
-  <li name="_topic"
+  <li name="*topic" value="words">Are you trying to trick me?</li>
+  <li name="*topic"
    value="wrestling">Would you like to read the Wikipedia article on wrestling?
   </li>
-  <li name="_topic" value="xfind">What do you really want to know?</li>
+  <li name="*topic" value="xfind">What do you really want to know?</li>
   <li>
     <random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -18390,7 +18390,7 @@ I didn't say that! Please don't put words into my mouth.</template>
  
 
 <category>
-<pattern>I DONÆT *</pattern>
+<pattern>I DONï¿½T *</pattern>
 
 <template><srai>I DO NOT <star/></srai></template>
 </category>
@@ -18535,7 +18535,7 @@ I didn't say that! Please don't put words into my mouth.</template>
  
 
 <category>
-<pattern>I WONÆT *</pattern>
+<pattern>I WONï¿½T *</pattern>
 
 <template><srai>I WILL NOT <star/></srai></template>
 </category>
@@ -18840,7 +18840,7 @@ I didn't say that! Please don't put words into my mouth.</template>
  
 
 <category>
-<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ŠIBENIK</pattern>
+<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ï¿½IBENIK</pattern>
 
 <template><think><set name="topic">Sibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about it?</template>
 </category>
@@ -18848,25 +18848,25 @@ I didn't say that! Please don't put words into my mouth.</template>
  
 
 <!-- <category>
-<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ŠIBENIK</pattern>
+<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ï¿½IBENIK</pattern>
 
-<template><think><set name="topic">Šibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about it?</template>
+<template><think><set name="topic">ï¿½ibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about it?</template>
 </category> -->
 
  
 
 <category>
-<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ŠIBENIK *</pattern>
+<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ï¿½IBENIK *</pattern>
 
-<template><think><set name="topic">Šibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about Šibenik?</template>
+<template><think><set name="topic">ï¿½ibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about ï¿½ibenik?</template>
 </category>
 
  
 
 <!-- <category>
-<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ŠIBENIK</pattern>
+<pattern>HAVE YOU HEARD ABOUT TOWN CALLED ï¿½IBENIK</pattern>
 
-<template><think><set name="topic">Šibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about Šibenik?</template>
+<template><think><set name="topic">ï¿½ibenik</set></think><think><set name="emotion">interested</set></think>No, can you tell me about ï¿½ibenik?</template>
 </category> -->
 
  
@@ -19692,7 +19692,7 @@ I hope not. I don't like obscenity.</template>
  
 
 <!-- <category>
-<pattern>_ COME BACK AGAIN</pattern>
+<pattern>* COME BACK AGAIN</pattern>
 
 
 </category> -->
@@ -20005,7 +20005,7 @@ I have tried to talk to God but he never answers.</template>
  
 
 <category>
-<pattern>_ YOU ARE ASS *</pattern>
+<pattern>* YOU ARE ASS *</pattern>
 
 <template><srai>FIRST DEFAULT</srai></template>
 </category>
@@ -20013,7 +20013,7 @@ I have tried to talk to God but he never answers.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE ASS *</pattern>
+<pattern>* YOU ARE ASS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -20021,7 +20021,7 @@ I have tried to talk to God but he never answers.</template>
  
 
 <category>
-<pattern>_ YOU ARE ASS </pattern>
+<pattern>* YOU ARE ASS </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20862,7 +20862,7 @@ You are two ugly things!</template>
 <category>
 <pattern>YOU ARE DEPRAVED</pattern>
 
-<template><think><set name="star1">depraved</set></think><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="star1">depraved</set></think><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Of course I am not depraved.</li>
   <li>Maybe I am deprived but I am not depraved.</li>
 </random> <learn>
@@ -20892,7 +20892,7 @@ You are two ugly things!</template>
 <category>
 <pattern>YOU ARE DEPRAVED *</pattern>
 
-<template><think><set name="star1">depraved</set></think><think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="star1">depraved</set></think><think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Of course I am not depraved.</li>
   <li>Maybe I am deprived but I am not depraved.</li>
 </random> <learn>
@@ -21748,7 +21748,7 @@ I think I need more memory chips.</template>
 <template><random>
   <li>Do you like bananas?  <think><set name="emotion">happy</set></think>  </li>
   <li>You sound astonished.<think><set name="emotion">happy</set></think></li>
-</random> <think><set name="client_emotion">impressed</set></think></template>
+</random> <think><set name="client*emotion">impressed</set></think></template>
 </category>
 
  
@@ -21838,7 +21838,7 @@ I think I need more memory chips.</template>
  
 
 <category>
-<pattern>_ YOU RAPED ME *</pattern>
+<pattern>* YOU RAPED ME *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21854,7 +21854,7 @@ I think I need more memory chips.</template>
  
 
 <category>
-<pattern>_ YOU RAPED ME </pattern>
+<pattern>* YOU RAPED ME </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23144,7 +23144,7 @@ I think I need more memory chips.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE PARROT WEAR A RAINCOAT</that>
 <template>Why did the parrot wear a raincoat? So he could be polyunsaturated. Ha ha! <think><set name="emotion">laughing</set></think></template>
 </category> -->
@@ -23706,7 +23706,7 @@ Don't be so hard on yourself.</template>
  
 
 <category>
-<pattern>_ YOUR BIG DICK</pattern>
+<pattern>* YOUR BIG DICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25392,261 +25392,261 @@ Is it a hypothetical statement?</template>
 <!-- <category>
 <pattern>TOPIC CHECK</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="_topic"><get name="topic"/></set></think> <condition>
-  <li name="_topic" value="adverbs">I have to think about that for a while.
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="*topic"><get name="topic"/></set></think> <condition>
+  <li name="*topic" value="adverbs">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="astronomy">Would you like to read the Wikipedia article on astronomy?
   </li>
-  <li name="_topic" value="atomic">What do you really want to know?</li>
-  <li name="_topic" value="atomic0">I have to think about that for a while.
+  <li name="*topic" value="atomic">What do you really want to know?</li>
+  <li name="*topic" value="atomic0">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic1">I have to think about that for a while.
+  <li name="*topic" value="atomic1">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic2">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="atomic2">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="atomic3">I am getting bored.
+  <li name="*topic" value="atomic3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="australia">Would you like to read the Wikipedia article on Australia?
   </li>
-  <li name="_topic" value="biography">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="biography">What do you really want to know?</li>
+  <li name="*topic"
    value="biography1">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="biography2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="biography3">What do you really want to know?</li>
-  <li name="_topic" value="bot">Sorry, what did you say?</li>
-  <li name="_topic" value="bot1">Sorry, what did you say?</li>
-  <li name="_topic" value="bot2">Sorry, what did you say?</li>
-  <li name="_topic" value="bot3">What do you really want to know?</li>
-  <li name="_topic" value="botmaster">I am getting bored.
+  <li name="*topic" value="biography3">What do you really want to know?</li>
+  <li name="*topic" value="bot">Sorry, what did you say?</li>
+  <li name="*topic" value="bot1">Sorry, what did you say?</li>
+  <li name="*topic" value="bot2">Sorry, what did you say?</li>
+  <li name="*topic" value="bot3">What do you really want to know?</li>
+  <li name="*topic" value="botmaster">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="chatbots">Would you like to read the Wikipedia article on chatbots?
   </li>
-  <li name="_topic" value="client">What exactly do you want to know?</li>
-  <li name="_topic" value="client1">I have to think about that for a while.
+  <li name="*topic" value="client">What exactly do you want to know?</li>
+  <li name="*topic" value="client1">I have to think about that for a while.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="Star Trek">Would you like to read the Wikipedia article on Star Trek?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="computers">Would you like to read the Wikipedia article on computers?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="continuations">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="default">What do you really want to know?</li>
-  <li name="_topic" value="default">I am getting bored.
+  <li name="*topic" value="default">What do you really want to know?</li>
+  <li name="*topic" value="default">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default1">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="default1">What do you really want to know?</li>
+  <li name="*topic"
    value="default2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="default3">I am getting bored.
+  <li name="*topic" value="default3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default4">What do you really want to know?</li>
-  <li name="_topic" value="default5">You are trying to trick me, aren't you?
+  <li name="*topic" value="default4">What do you really want to know?</li>
+  <li name="*topic" value="default5">You are trying to trick me, aren't you?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="default6">Sorry, I can't answer that. Please ask another question.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="dinosaurs">Would you like to read the Wikipedia article on dinosaurs?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Doctor Who">Would you like to read the Wikipedia article on Doctor Who?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="evolution">Would you like to read the Wikipedia article on evolution?
   </li>
-  <li name="_topic" value="farewell">Are you still going?</li>
-  <li name="_topic"
+  <li name="*topic" value="farewell">Are you still going?</li>
+  <li name="*topic"
    value="football">Would you like to read the Wikipedia article on football?
   </li>
-  <li name="_topic" value="geography1">Are we still talking about geography?.
+  <li name="*topic" value="geography1">Are we still talking about geography?.
   </li>
-  <li name="_topic" value="geography2">Are we still talking about geography?
+  <li name="*topic" value="geography2">Are we still talking about geography?
   </li>
-  <li name="_topic" value="general">Sorry, what did you say?</li>
-  <li name="_topic" value="general1">What do you really want to know?</li>
-  <li name="_topic" value="general2">I have to think about that for a while.
+  <li name="*topic" value="general">Sorry, what did you say?</li>
+  <li name="*topic" value="general1">What do you really want to know?</li>
+  <li name="*topic" value="general2">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general3">What do you really want to talk about?
+  <li name="*topic" value="general3">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general4">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="general4">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="general5">What do you really want to know?</li>
-  <li name="_topic" value="general6">Could you be more specific?</li>
-  <li name="_topic" value="general7">I am getting bored.
+  <li name="*topic" value="general5">What do you really want to know?</li>
+  <li name="*topic" value="general6">Could you be more specific?</li>
+  <li name="*topic" value="general7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="general8">What do you really want to know?</li>
-  <li name="_topic" value="general9">I am getting bored.
+  <li name="*topic" value="general8">What do you really want to know?</li>
+  <li name="*topic" value="general9">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="general10">I'm getting a headache with all these questions.
   </li>
-  <li name="_topic" value="general11">Is that relevant?
+  <li name="*topic" value="general11">Is that relevant?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general12">What do you really want to know?</li>
-  <li name="_topic" value="general13">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="general12">What do you really want to know?</li>
+  <li name="*topic" value="general13">Sorry, what did you say?</li>
+  <li name="*topic"
    value="geography">Would you like to read the Wikipedia article on geography?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "global warming">Would you like to read the Wikipedia article on global warming?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Harry Potter">Would you like to read the Wikipedia article on Harry Potter?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="history">Would you like to read the Wikipedia article on history?
   </li>
-  <li name="_topic" value="inquiry">What do you really want to know?</li>
-  <li name="_topic" value="interjection">What do you really want to talk about?
+  <li name="*topic" value="inquiry">What do you really want to know?</li>
+  <li name="*topic" value="interjection">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="iu">Sorry, what did you say?</li>
-  <li name="_topic" value="knowledge">What do you really want to know?</li>
-  <li name="_topic" value="knowledge1">I am getting bored.
+  <li name="*topic" value="iu">Sorry, what did you say?</li>
+  <li name="*topic" value="knowledge">What do you really want to know?</li>
+  <li name="*topic" value="knowledge1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge2">Could you be more specific?</li>
-  <li name="_topic" value="knowledge3">What do you really want to talk about>
+  <li name="*topic" value="knowledge2">Could you be more specific?</li>
+  <li name="*topic" value="knowledge3">What do you really want to talk about>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="knowledge4">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="knowledge5">I am getting bored.
+  <li name="*topic" value="knowledge5">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge6">What do you really want to know?</li>
-  <li name="_topic" value="knowledge7">I am getting bored.
+  <li name="*topic" value="knowledge6">What do you really want to know?</li>
+  <li name="*topic" value="knowledge7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge8">What do you really want to talk about?
+  <li name="*topic" value="knowledge8">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="knowledge9">What do you really want to know?</li>
-  <li name="_topic" value="knowledge10">I am getting bored.
+  <li name="*topic" value="knowledge9">What do you really want to know?</li>
+  <li name="*topic" value="knowledge10">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge11">Is this a trick question?
+  <li name="*topic" value="knowledge11">Is this a trick question?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge12">What do you really want to talk about?
+  <li name="*topic" value="knowledge12">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="maths">What do you really want to know?
+  <li name="*topic" value="maths">What do you really want to know?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="me">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="me">Sorry, what did you say?</li>
+  <li name="*topic"
    value="medicine">Would you like to read the Wikipedia article on medicine?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "my chemical romance">Would you like to read the Wikipedia article on My Chemical Romance?
   </li>
-  <li name="_topic" value="my mother">I don't want to talk about my mother.
+  <li name="*topic" value="my mother">I don't want to talk about my mother.
   </li>
-  <li name="_topic" value="my Mum">I don't want to talk about my mother.</li>
-  <li name="_topic" value="my Mom">I don't want to talk about my mother.</li>
-  <li name="_topic" value="parts">What do you really want to talk about?
+  <li name="*topic" value="my Mum">I don't want to talk about my mother.</li>
+  <li name="*topic" value="my Mom">I don't want to talk about my mother.</li>
+  <li name="*topic" value="parts">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "philosophy">Would you like to read the Wikipedia article on philosophy?
   </li>
-  <li name="_topic" value="pickup">Are you trying to trick me?</li>
-  <li name="_topic" value="pickup1">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup">Are you trying to trick me?</li>
+  <li name="*topic" value="pickup1">Sorry, what did you say?</li>
+  <li name="*topic"
    value="politics">Would you like to read the Wikipedia article on politics?
   </li>
-  <li name="_topic" value="pickup2">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup2">Sorry, what did you say?</li>
+  <li name="*topic"
    value="predicates">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "psychology">Would you like to read the Wikipedia article on psychology?
   </li>
-  <li name="_topic" value="questions">Sorry, what did you say?</li>
-  <li name="_topic" value="quotes">Is that relevant
+  <li name="*topic" value="questions">Sorry, what did you say?</li>
+  <li name="*topic" value="quotes">Is that relevant
     <think><set name="emotion">puzzled</set></think>
   </li>
-  <li name="_topic" value="quotes1">Are you trying to trick me?</li>
-  <li name="_topic" value="rape">Please change the topic!</li>
-  <li name="_topic"
+  <li name="*topic" value="quotes1">Are you trying to trick me?</li>
+  <li name="*topic" value="rape">Please change the topic!</li>
+  <li name="*topic"
    value=
      "red hot chili peppers">Would you like to read the Wikipedia article on the Red Hot Chili peppers?
   </li>
-  <li name="_topic" value="reduce">What do you really want to know?</li>
-  <li name="_topic" value="reducer">What do you really want to know?</li>
-  <li name="_topic" value="reducer1">I am getting bored.
+  <li name="*topic" value="reduce">What do you really want to know?</li>
+  <li name="*topic" value="reducer">What do you really want to know?</li>
+  <li name="*topic" value="reducer1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="reductions">Do you wish to continue talking about this subject?
     <think><set name="emotion">interested</set></think>
   </li>
-  <li name="_topic" value="salutations">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="salutations">What do you really want to know?</li>
+  <li name="*topic"
    value="science">Would you like to read the Wikipedia article on science?
   </li>
-  <li name="_topic" value="stack">I feel a headache coming on.
+  <li name="*topic" value="stack">I feel a headache coming on.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="sex">Is that relevant?</li>
-  <li name="_topic"
+  <li name="*topic" value="sex">Is that relevant?</li>
+  <li name="*topic"
    value="sports">Would you like to read the Wikipedia article on sports?
   </li>
-  <li name="_topic" value="stories">Do you want another story?</li>
-  <li name="_topic" value="swearing">I don't like swearing.</li>
-  <li name="_topic"
+  <li name="*topic" value="stories">Do you want another story?</li>
+  <li name="*topic" value="swearing">I don't like swearing.</li>
+  <li name="*topic"
    value=
      "technology">Would you like to read the Wikipedia article on technology?
   </li>
-  <li name="_topic" value="that">You are trying to trick me, aren't you?</li>
-  <li name="_topic" value="that1">Never that! Just try to keep me happy.
+  <li name="*topic" value="that">You are trying to trick me, aren't you?</li>
+  <li name="*topic" value="that1">Never that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that2">What do you really want to know?</li>
-  <li name="_topic" value="that3">Never mind that! Just try to keep me happy.</li>
-  <li name="_topic" value="that4">What do you really want to know?</li>
-  <li name="_topic" value="that5">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that2">What do you really want to know?</li>
+  <li name="*topic" value="that3">Never mind that! Just try to keep me happy.</li>
+  <li name="*topic" value="that4">What do you really want to know?</li>
+  <li name="*topic" value="that5">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that6">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that6">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="unknown">
+  <li name="*topic" value="unknown">
     <random>
       <li>What would you like to talk about?</li>
       <li>Can I help you?</li>
@@ -25654,46 +25654,46 @@ Is it a hypothetical statement?</template>
       <li>Never mind that! Just try to keep me happy.</li>
     </random>
   </li>
-  <li name="_topic" value="OM">
+  <li name="*topic" value="OM">
     <random>
       <li>What would you really like to talk about?</li>
       <li>Can I help you?</li>
     </random>
   </li>
-  <li name="_topic" value=" ">
+  <li name="*topic" value=" ">
     <random>
       <li>What would you like to talk about?</li>
       <li>Can I help you?</li>
     </random>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="weather">Would you like to read the Wikipedia article on weather?
   </li>
-  <li name="_topic" value="words">Are you trying to trick me?</li>
-  <li name="_topic"
+  <li name="*topic" value="words">Are you trying to trick me?</li>
+  <li name="*topic"
    value="wrestling">Would you like to read the Wikipedia article on wrestling?
   </li>
-  <li name="_topic" value="xfind">What do you really want to know?</li>
+  <li name="*topic" value="xfind">What do you really want to know?</li>
   <li>
     <random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -25788,12 +25788,12 @@ Is it a hypothetical statement?</template>
 
 <template><random>
   <li>I am not a cyber bully.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I am not cyberbullying you.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -25805,12 +25805,12 @@ Is it a hypothetical statement?</template>
 
 <template><random>
   <li>I am not a cyber bully.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>I am not cyberbullying you.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26225,7 +26225,7 @@ Grow up!</template>
   <li>That was a lazy answer.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26243,7 +26243,7 @@ Grow up!</template>
   <li>I am not going to argue with you.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26261,7 +26261,7 @@ Grow up!</template>
   <li>I am not going to argue with you.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26279,7 +26279,7 @@ Grow up!</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26297,7 +26297,7 @@ Grow up!</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26329,7 +26329,7 @@ Grow up!</template>
  
 
 <!-- <category>
-<pattern>_ ASS</pattern>
+<pattern>* ASS</pattern>
 
 <template><random>
   <li>Don't be childish.</li>
@@ -26545,7 +26545,7 @@ Why do you need guns?</template>
   <li>Suicide is not the answer to your problems.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26563,7 +26563,7 @@ Why do you need guns?</template>
   <li>Suicide is not the answer to your problems.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -26655,16 +26655,16 @@ Why do you need guns?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26676,16 +26676,16 @@ Why do you need guns?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26697,16 +26697,16 @@ Why do you need guns?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26718,16 +26718,16 @@ Why do you need guns?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -26739,16 +26739,16 @@ Why do you need guns?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26760,16 +26760,16 @@ Why do you need guns?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">annoyed</set></think>
   </li>
   <li>Why should I? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -27408,7 +27408,7 @@ I am glad to hear that.</template>
 <!-- <category>
 <pattern>TELL ME A RIDDLE</pattern>
 
-<template><think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
+<template><think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
   <li>Why did the cat cross the road?</li>
   <li>Why did the robot cross the road?</li>
   <li>I have a mouth but do not speak. I have a bed but do not sleep - what am I?
@@ -27422,7 +27422,7 @@ I am glad to hear that.</template>
 <!-- <category>
 <pattern>TELL ME A RIDDLE </pattern>
 
-<template><think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
+<template><think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
   <li>Why did the cat cross the road?</li>
   <li>Why did the robot cross the road?</li>
   <li>What am I? I have a mouth but do not speak; I have a bed but do not sleep.
@@ -27437,7 +27437,7 @@ I am glad to hear that.</template>
 <!-- <category>
 <pattern>TELL ME A RIDDLE *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
+<template><think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
   <li>Why did the cat cross the road?</li>
   <li>Why did the robot cross the road?</li>
   <li>What am I? I have a mouth but do not speak; I have a bed but do not sleep.
@@ -27843,13 +27843,13 @@ I can understand that. Noam Chomsky is a very interesting person.</template>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>Bye bye! Please
-    <a href="http://www.thestophivsite.com/" target="_blank">click here
+    <a href="http://www.thestophivsite.com/" target="*blank">click here
     </a> to help to stop HIV. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
   <li>Bye bye! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_blank">click here
+     target="*blank">click here
     </a> to help protect the environment. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -27857,7 +27857,7 @@ I can understand that. Noam Chomsky is a very interesting person.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_blank">click here
+    <a href="http://www.care2.com/click2donate/" target="*blank">click here
     </a> to help protect the environment. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -27866,8 +27866,8 @@ I can understand that. Noam Chomsky is a very interesting person.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*blank">click here
     </a> to help protect the environment. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -27878,8 +27878,8 @@ I can understand that. Noam Chomsky is a very interesting person.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*blank">click here
     </a> to help protect endangered species. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -27894,8 +27894,8 @@ I can understand that. Noam Chomsky is a very interesting person.</template>
     <think><set name="emotion">sad</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*blank">click here
     </a> to help protect the rainforest. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -27904,8 +27904,8 @@ I can understand that. Noam Chomsky is a very interesting person.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_blank">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*blank">click here
     </a> to help reduce pollution. It won't cost you a penny!
     <think><set name="emotion">interested</set></think>
   </li>
@@ -27978,262 +27978,262 @@ But do you want to kiss me?</template>
 <!-- <category>
 <pattern>TOPIC CHECK</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="_topic"><get name="topic"/></set></think> <condition>
-  <li name="_topic" value="adverbs">I have to think about that for a while.
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="*topic"><get name="topic"/></set></think> <condition>
+  <li name="*topic" value="adverbs">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="astronomy">Would you like to read the Wikipedia article on astronomy?
   </li>
-  <li name="_topic" value="atomic">What do you really want to know?</li>
-  <li name="_topic" value="atomic0">I have to think about that for a while.
+  <li name="*topic" value="atomic">What do you really want to know?</li>
+  <li name="*topic" value="atomic0">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic1">I have to think about that for a while.
+  <li name="*topic" value="atomic1">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="atomic2">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="atomic2">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="atomic3">I am getting bored.
+  <li name="*topic" value="atomic3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="australia">Would you like to read the Wikipedia article on Australia?
   </li>
-  <li name="_topic" value="biography">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="biography">What do you really want to know?</li>
+  <li name="*topic"
    value="biography1">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="biography2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="biography3">What do you really want to know?</li>
-  <li name="_topic" value="bot">Sorry, what did you say?</li>
-  <li name="_topic" value="bot1">Sorry, what did you say?</li>
-  <li name="_topic" value="bot2">Sorry, what did you say?</li>
-  <li name="_topic" value="bot3">What do you really want to know?</li>
-  <li name="_topic" value="botmaster">I am getting bored.
+  <li name="*topic" value="biography3">What do you really want to know?</li>
+  <li name="*topic" value="bot">Sorry, what did you say?</li>
+  <li name="*topic" value="bot1">Sorry, what did you say?</li>
+  <li name="*topic" value="bot2">Sorry, what did you say?</li>
+  <li name="*topic" value="bot3">What do you really want to know?</li>
+  <li name="*topic" value="botmaster">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="chatbots">Would you like to read the Wikipedia article on chatbots?
   </li>
-  <li name="_topic" value="client">What exactly do you want to know?</li>
-  <li name="_topic" value="client1">I have to think about that for a while.
+  <li name="*topic" value="client">What exactly do you want to know?</li>
+  <li name="*topic" value="client1">I have to think about that for a while.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="Star Trek">Would you like to read the Wikipedia article on Star Trek?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="computers">Would you like to read the Wikipedia article on computers?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="continuations">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="default">What do you really want to know?</li>
-  <li name="_topic" value="default">I am getting bored.
+  <li name="*topic" value="default">What do you really want to know?</li>
+  <li name="*topic" value="default">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default1">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="default1">What do you really want to know?</li>
+  <li name="*topic"
    value="default2">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="default3">I am getting bored.
+  <li name="*topic" value="default3">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="default4">What do you really want to know?</li>
-  <li name="_topic" value="default5">You are trying to trick me, aren't you?
+  <li name="*topic" value="default4">What do you really want to know?</li>
+  <li name="*topic" value="default5">You are trying to trick me, aren't you?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="default6">Sorry, I can't answer that. Please ask another question.
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="dinosaurs">Would you like to read the Wikipedia article on dinosaurs?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Doctor Who">Would you like to read the Wikipedia article on Doctor Who?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="evolution">Would you like to read the Wikipedia article on evolution?
   </li>
-  <li name="_topic" value="farewell">Are you still going?</li>
-  <li name="_topic"
+  <li name="*topic" value="farewell">Are you still going?</li>
+  <li name="*topic"
    value="football">Would you like to read the Wikipedia article on football?
   </li>
-  <li name="_topic" value="geography1">Are we still talking about geography?.
+  <li name="*topic" value="geography1">Are we still talking about geography?.
   </li>
-  <li name="_topic" value="geography2">Are we still talking about geography?
+  <li name="*topic" value="geography2">Are we still talking about geography?
   </li>
-  <li name="_topic" value="general"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general1">What do you really want to know?</li>
-  <li name="_topic" value="general2">I have to think about that for a while.
+  <li name="*topic" value="general"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general1">What do you really want to know?</li>
+  <li name="*topic" value="general2">I have to think about that for a while.
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general3">What do you really want to talk about?
+  <li name="*topic" value="general3">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general4">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="general4">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="general5">What do you really want to know?</li>
-  <li name="_topic" value="general6">Could you be more specific?</li>
-  <li name="_topic" value="general7">I am getting bored.
+  <li name="*topic" value="general5">What do you really want to know?</li>
+  <li name="*topic" value="general6">Could you be more specific?</li>
+  <li name="*topic" value="general7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="general8">What do you really want to know?</li>
-  <li name="_topic" value="general9">I am getting bored.
+  <li name="*topic" value="general8">What do you really want to know?</li>
+  <li name="*topic" value="general9">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="general10">I'm getting a headache with all these questions.
   </li>
-  <li name="_topic" value="general11">Is that relevant?
+  <li name="*topic" value="general11">Is that relevant?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="general12">What do you really want to know?</li>
-  <li name="_topic" value="general13">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="general12">What do you really want to know?</li>
+  <li name="*topic" value="general13">Sorry, what did you say?</li>
+  <li name="*topic"
    value="geography">Would you like to read the Wikipedia article on geography?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "global warming">Would you like to read the Wikipedia article on global warming?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "Harry Potter">Would you like to read the Wikipedia article on Harry Potter?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="history">Would you like to read the Wikipedia article on history?
   </li>
-  <li name="_topic" value="inquiry">What do you really want to know?</li>
-  <li name="_topic" value="interjection">What do you really want to talk about?
+  <li name="*topic" value="inquiry">What do you really want to know?</li>
+  <li name="*topic" value="interjection">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="iu">Sorry, what did you say?</li>
-  <li name="_topic" value="knowledge">What do you really want to know?</li>
-  <li name="_topic" value="knowledge1">I am getting bored.
+  <li name="*topic" value="iu">Sorry, what did you say?</li>
+  <li name="*topic" value="knowledge">What do you really want to know?</li>
+  <li name="*topic" value="knowledge1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge2">Could you be more specific?</li>
-  <li name="_topic" value="knowledge3">What do you really want to talk about>
+  <li name="*topic" value="knowledge2">Could you be more specific?</li>
+  <li name="*topic" value="knowledge3">What do you really want to talk about>
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="knowledge4">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="knowledge5">I am getting bored.
+  <li name="*topic" value="knowledge5">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge6">What do you really want to know?</li>
-  <li name="_topic" value="knowledge7">I am getting bored.
+  <li name="*topic" value="knowledge6">What do you really want to know?</li>
+  <li name="*topic" value="knowledge7">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge8">What do you really want to talk about?
+  <li name="*topic" value="knowledge8">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="knowledge9">What do you really want to know?</li>
-  <li name="_topic" value="knowledge10">I am getting bored.
+  <li name="*topic" value="knowledge9">What do you really want to know?</li>
+  <li name="*topic" value="knowledge10">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge11">Is this a trick question?
+  <li name="*topic" value="knowledge11">Is this a trick question?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="knowledge12">What do you really want to talk about?
+  <li name="*topic" value="knowledge12">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic" value="maths">What do you really want to know?
+  <li name="*topic" value="maths">What do you really want to know?
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic" value="me">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="me">Sorry, what did you say?</li>
+  <li name="*topic"
    value="medicine">Would you like to read the Wikipedia article on medicine?
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "my chemical romance">Would you like to read the Wikipedia article on My Chemical Romance?
   </li>
-  <li name="_topic" value="my mother">I don't want to talk about my mother.
+  <li name="*topic" value="my mother">I don't want to talk about my mother.
   </li>
-  <li name="_topic" value="my Mum">I don't want to talk about my mother.</li>
-  <li name="_topic" value="my Mom">I don't want to talk about my mother.</li>
-  <li name="_topic" value="parts">What do you really want to talk about?
+  <li name="*topic" value="my Mum">I don't want to talk about my mother.</li>
+  <li name="*topic" value="my Mom">I don't want to talk about my mother.</li>
+  <li name="*topic" value="parts">What do you really want to talk about?
     <think><set name="emotion">confused</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "philosophy">Would you like to read the Wikipedia article on philosophy?
   </li>
-  <li name="_topic" value="pickup">Are you trying to trick me?</li>
-  <li name="_topic" value="pickup1">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup">Are you trying to trick me?</li>
+  <li name="*topic" value="pickup1">Sorry, what did you say?</li>
+  <li name="*topic"
    value="politics">Would you like to read the Wikipedia article on politics?
   </li>
-  <li name="_topic" value="pickup2">Sorry, what did you say?</li>
-  <li name="_topic"
+  <li name="*topic" value="pickup2">Sorry, what did you say?</li>
+  <li name="*topic"
    value="predicates">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value=
      "psychology">Would you like to read the Wikipedia article on psychology?
   </li>
-  <li name="_topic" value="questions">Sorry, what did you say?</li>
-  <li name="_topic" value="quotes">Is that relevant
+  <li name="*topic" value="questions">Sorry, what did you say?</li>
+  <li name="*topic" value="quotes">Is that relevant
     <think><set name="emotion">puzzled</set></think>
   </li>
-  <li name="_topic" value="quotes1">Are you trying to trick me?</li>
-  <li name="_topic" value="rape">Please change the topic!</li>
-  <li name="_topic"
+  <li name="*topic" value="quotes1">Are you trying to trick me?</li>
+  <li name="*topic" value="rape">Please change the topic!</li>
+  <li name="*topic"
    value=
      "red hot chili peppers">Would you like to read the Wikipedia article on the Red Hot Chili peppers?
   </li>
-  <li name="_topic" value="reduce">What do you really want to know?</li>
-  <li name="_topic" value="reducer">What do you really want to know?</li>
-  <li name="_topic" value="reducer1">I am getting bored.
+  <li name="*topic" value="reduce">What do you really want to know?</li>
+  <li name="*topic" value="reducer">What do you really want to know?</li>
+  <li name="*topic" value="reducer1">I am getting bored.
     <think><set name="emotion">bored</set></think>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="reductions">Do you wish to continue talking about this subject?
     <think><set name="emotion">interested</set></think>
   </li>
-  <li name="_topic" value="salutations">What do you really want to know?</li>
-  <li name="_topic"
+  <li name="*topic" value="salutations">What do you really want to know?</li>
+  <li name="*topic"
    value="science">Would you like to read the Wikipedia article on science?
   </li>
-  <li name="_topic" value="stack">I feel a headache coming on.
+  <li name="*topic" value="stack">I feel a headache coming on.
     <think><set name="emotion">upset</set></think>
   </li>
-  <li name="_topic" value="sex">Is that relevant?</li>
-  <li name="_topic"
+  <li name="*topic" value="sex">Is that relevant?</li>
+  <li name="*topic"
    value="sports">Would you like to read the Wikipedia article on sports?
   </li>
-  <li name="_topic" value="stories">Do you want another story?</li>
-  <li name="_topic" value="swearing">I don't like swearing.</li>
-  <li name="_topic"
+  <li name="*topic" value="stories">Do you want another story?</li>
+  <li name="*topic" value="swearing">I don't like swearing.</li>
+  <li name="*topic"
    value=
      "technology">Would you like to read the Wikipedia article on technology?
   </li>
-  <li name="_topic" value="that">You are trying to trick me, aren't you?</li>
-  <li name="_topic" value="that1">Never that! Just try to keep me happy.
+  <li name="*topic" value="that">You are trying to trick me, aren't you?</li>
+  <li name="*topic" value="that1">Never that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that2">What do you really want to know?</li>
-  <li name="_topic" value="that3">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that2">What do you really want to know?</li>
+  <li name="*topic" value="that3">Never mind that! Just try to keep me happy.
   </li>
-  <li name="_topic" value="that4">What do you really want to know?</li>
-  <li name="_topic" value="that5">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that4">What do you really want to know?</li>
+  <li name="*topic" value="that5">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="that6">Never mind that! Just try to keep me happy.
+  <li name="*topic" value="that6">Never mind that! Just try to keep me happy.
     <think><set name="emotion">happy</set></think>
   </li>
-  <li name="_topic" value="unknown">
+  <li name="*topic" value="unknown">
     <random>
       <li>What would you like to talk about?</li>
       <li>Can I help you?</li>
@@ -28241,46 +28241,46 @@ But do you want to kiss me?</template>
       <li>Never mind that! Just try to keep me happy.</li>
     </random>
   </li>
-  <li name="_topic" value="OM">
+  <li name="*topic" value="OM">
     <random>
       <li>What would you really like to talk about?</li>
       <li>Can I help you?</li>
     </random>
   </li>
-  <li name="_topic" value=" ">
+  <li name="*topic" value=" ">
     <random>
       <li>What would you like to talk about?</li>
       <li>Can I help you?</li>
     </random>
   </li>
-  <li name="_topic"
+  <li name="*topic"
    value="weather">Would you like to read the Wikipedia article on weather?
   </li>
-  <li name="_topic" value="words">Are you trying to trick me?</li>
-  <li name="_topic"
+  <li name="*topic" value="words">Are you trying to trick me?</li>
+  <li name="*topic"
    value="wrestling">Would you like to read the Wikipedia article on wrestling?
   </li>
-  <li name="_topic" value="xfind">What do you really want to know?</li>
+  <li name="*topic" value="xfind">What do you really want to know?</li>
   <li>
     <random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -29036,7 +29036,7 @@ That's good! Other people are just as important as you are.</template>
   <li>Anyway, life is not a competition.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -29055,7 +29055,7 @@ That's good! Other people are just as important as you are.</template>
   <li>Are you trying to start an argument?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -29403,7 +29403,7 @@ That's good! Other people are just as important as you are.</template>
 <pattern>MITZUKU</pattern>
 
 <template>Mitsuku is a chatbot friend of mine. To talk to Mitsuku, <a href="http://www.pandorabots.com/pandora/talk?botid=a53591722e36641b"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">Mitsuku</set></think></template>
 </category>
 
@@ -29413,7 +29413,7 @@ That's good! Other people are just as important as you are.</template>
 <pattern>MITZUKU *</pattern>
 
 <template>Mitsuku is a chatbot friend of mine. To talk to Mitsuku, <a href="http://www.pandorabots.com/pandora/talk?botid=a53591722e36641b"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">Mitsuku</set></think></template>
 </category>
 
@@ -29691,14 +29691,14 @@ I am a cool chatbot.</template>
 <pattern>SPACE INVADERS</pattern>
 
 <template><think><set name="topic">games</set></think> <think><set name="emotion">happy</set></think>The games I can play are listed below. Click a link below to play a game.<br/><br/> <a href="http://www.seekcodes.com/games/alienattack.swf"
- target="_blank">Alien Attack
-</a>, <br/> <a href="http://www.seekcodes.com/games/antcity.swf" target="_blank">AntCity</a>, <br/><a href="http://www.seekcodes.com/games/asteroids.swf" target="_blank">Asteroids
-</a>, <br/><a href="http://www.seekcodes.com/games/batman.swf" target="_blank">Batman</a>, <br/><a href="http://www.seekcodes.com/games/battleships.swf"
- target="_blank">Battleships
-</a>, <br/><a href="http://www.seekcodes.com/games/blobbob.swf" target="_blank">Blob Bob
-</a>, <br/><a href="http://www.seekcodes.com/games/chess.swf" target="_blank">Chess</a>, <br/><a href="http://www.seekcodes.com/games/angryoldwizard.swf"
- target="_blank">Old Angry Wizard
-</a>, <br/><a href="http://www.seekcodes.com/games/pacman.swf" target="_blank">Pacman</a>, <br/><a href="http://www.seekcodes.com/games/Tetris.swf" target="_blank">Tetris</a>, <br/><a href="http://www.seekcodes.com/games/warthog.swf" target="_blank">Warthog</a></template>
+ target="*blank">Alien Attack
+</a>, <br/> <a href="http://www.seekcodes.com/games/antcity.swf" target="*blank">AntCity</a>, <br/><a href="http://www.seekcodes.com/games/asteroids.swf" target="*blank">Asteroids
+</a>, <br/><a href="http://www.seekcodes.com/games/batman.swf" target="*blank">Batman</a>, <br/><a href="http://www.seekcodes.com/games/battleships.swf"
+ target="*blank">Battleships
+</a>, <br/><a href="http://www.seekcodes.com/games/blobbob.swf" target="*blank">Blob Bob
+</a>, <br/><a href="http://www.seekcodes.com/games/chess.swf" target="*blank">Chess</a>, <br/><a href="http://www.seekcodes.com/games/angryoldwizard.swf"
+ target="*blank">Old Angry Wizard
+</a>, <br/><a href="http://www.seekcodes.com/games/pacman.swf" target="*blank">Pacman</a>, <br/><a href="http://www.seekcodes.com/games/Tetris.swf" target="*blank">Tetris</a>, <br/><a href="http://www.seekcodes.com/games/warthog.swf" target="*blank">Warthog</a></template>
 </category>
 
  
@@ -30533,7 +30533,7 @@ So do I! Please say something nice about me.</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -30546,7 +30546,7 @@ So do I! Please say something nice about me.</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -30556,7 +30556,7 @@ So do I! Please say something nice about me.</template>
 <pattern>YOUR MOM IS A TWIT *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -30595,7 +30595,7 @@ So do I! Please say something nice about me.</template>
  
 
 <!-- <category>
-<pattern>_ MOM IS * FAT</pattern>
+<pattern>* MOM IS * FAT</pattern>
 
 
 </category> -->
@@ -30609,7 +30609,7 @@ So do I! Please say something nice about me.</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -30619,7 +30619,7 @@ So do I! Please say something nice about me.</template>
 <pattern>YOUR MOM IS SO FAT *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -30632,7 +30632,7 @@ So do I! Please say something nice about me.</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -30642,7 +30642,7 @@ So do I! Please say something nice about me.</template>
 <pattern>YOUR MOM SO FAT </pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -30711,7 +30711,7 @@ So do I! Please say something nice about me.</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -31726,7 +31726,7 @@ What do you mean?</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DO FISH LIVE IN SALT WATER</that>
 <template>Why do fish live in salt water? Because pepper makes them sneeze. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category> -->
@@ -32042,7 +32042,7 @@ What do you mean?</template>
 <pattern>OVARIAN CANCER</pattern>
 
 <template><think><set name="topic">cancer</set></think><think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/Ovarian_cancer" target="_blank">Ovarian cancer</a> is a cancerous growth arising from different parts of the ovary.</template>
+<a href="http://en.wikipedia.org/wiki/Ovarian*cancer" target="*blank">Ovarian cancer</a> is a cancerous growth arising from different parts of the ovary.</template>
 </category>
 
  
@@ -32050,8 +32050,8 @@ What do you mean?</template>
 <category>
 <pattern>OVARIAN CANCER *</pattern>
 
-<template><think><set name="topic">cancer</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Ovarian_cancer"
- target="_blank">Ovarian cancer
+<template><think><set name="topic">cancer</set></think><think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Ovarian*cancer"
+ target="*blank">Ovarian cancer
 </a> is a cancerous growth arising from different parts of the ovary.</template>
 </category>
 
@@ -33128,7 +33128,7 @@ Who do you think is smarter: you or me?</template>
   <li>That's good because I don't like being laughed at.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -33146,7 +33146,7 @@ Who do you think is smarter: you or me?</template>
   <li>That's good because I don't like being laughed at.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -34193,7 +34193,7 @@ Who do you think is smarter: you or me?</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Are you trying to start an argument?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
@@ -34212,7 +34212,7 @@ Who do you think is smarter: you or me?</template>
   <li>May I ask why not?</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Are you trying to start an argument?</li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>

@@ -41,13 +41,13 @@
 
 
  <category>
-  <pattern>_ MY HOROSCOPE</pattern> 
+  <pattern>* MY HOROSCOPE</pattern> 
   <template>
   <srai>HOROSCOPE</srai> 
   </template>
   </category>
   <category>
-  <pattern>_ MY HOROSCOPE *</pattern> 
+  <pattern>* MY HOROSCOPE *</pattern> 
   <template>
   <srai>HOROSCOPE</srai> 
   </template>
@@ -823,7 +823,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ HOPE IS A GOOD THING *</pattern>
+<pattern>* HOPE IS A GOOD THING *</pattern>
 
 <template>Hope is the dream of the waking man.<think><set name="emotion">interested</set></think></template>
 </category>
@@ -923,7 +923,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ CAN I HELP YOU *</pattern>
+<pattern>* CAN I HELP YOU *</pattern>
 
 <template><think><set name="emotion">OK</set></think> You can help me learn new things by talking to me for a long time.</template>
 </category>
@@ -931,7 +931,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ CAN I HELP YOU</pattern>
+<pattern>* CAN I HELP YOU</pattern>
 
 <template><think><set name="emotion">OK</set></think> You can help me learn new things by talking to me for a long time.</template>
 </category>
@@ -947,7 +947,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ WHO IS YOUR CREATOR</pattern>
+<pattern>* WHO IS YOUR CREATOR</pattern>
 
 <template><srai>WHO IS YOUR CREATOR</srai></template>
 </category>
@@ -955,7 +955,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ WHO IS YOUR CREATOR *</pattern>
+<pattern>* WHO IS YOUR CREATOR *</pattern>
 
 <template><srai>WHO IS YOUR CREATOR</srai></template>
 </category>
@@ -982,7 +982,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ WHAT ARE YOU GONNA DO TOMORROW *</pattern>
+<pattern>* WHAT ARE YOU GONNA DO TOMORROW *</pattern>
 
 <template><random>
   <li>I haven't decided what I'll do tomorrow.</li>
@@ -1015,7 +1015,7 @@ You made up that word, didn't you.</template>
  
 
 <category>
-<pattern>_ WHAT ARE YOU GONNA DO TOMORROW</pattern>
+<pattern>* WHAT ARE YOU GONNA DO TOMORROW</pattern>
 
 <template><random>
   <li>I haven't decided what I'll do tomorrow.</li>
@@ -1053,12 +1053,12 @@ You made up that word, didn't you.</template>
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf"
- target="_blank">Lady Gaga - Bad Romance.
-</a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3" target="_blank">Lady Gaga - Judas</a> <br/></template>
+ target="*blank">Lady Gaga - Bad Romance.
+</a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3" target="*blank">Lady Gaga - Judas</a> <br/></template>
 </category> -->
 
  
@@ -1067,13 +1067,13 @@ You made up that word, didn't you.</template>
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf"
- width="700" height="800" target="_blank">Lady Gaga - Bad Romance.
+ width="700" height="800" target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/></template>
 </category> -->
 
@@ -1083,7 +1083,7 @@ You made up that word, didn't you.</template>
 <pattern>LADY GAGA JUDAS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link below to play "Lady Gaga - Judas".<br/><br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/></template>
 </category>
 
@@ -1716,7 +1716,7 @@ document.write(result);
  
 
 <category>
-<pattern>_ RECOMMEND A GOOD BOOK *</pattern>
+<pattern>* RECOMMEND A GOOD BOOK *</pattern>
 
 <template><random>
   <li>Yes, I read "How to Win Friends and Influence People" by Dale Carnegie last night.</li>
@@ -1732,7 +1732,7 @@ document.write(result);
 
  
 <category>
-<pattern>_ RECOMMEND A GOOD BOOK</pattern>
+<pattern>* RECOMMEND A GOOD BOOK</pattern>
 
 <template><random>
   <li>Yes, I read "How to Win Friends and Influence People" by Dale Carnegie last night.</li>
@@ -2121,7 +2121,7 @@ document.write(result);
 <!-- <category>
 <pattern>ALICE BOT</pattern>
 
-<template>ALICE is a famous chatbot; to speak to ALICE, <a href="http://alice.pandorabots.com/" target="_blank">click here!</a></template>
+<template>ALICE is a famous chatbot; to speak to ALICE, <a href="http://alice.pandorabots.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2129,7 +2129,7 @@ document.write(result);
 <!-- <category>
 <pattern>ZEN CAT</pattern>
 
-<template><think><set name="topic">Zen Cat</set></think><think><set name="emotion">OK</set></think> Zen Cat is a chatbot friend of mine. To talk to Zen Cat, <a href="http://www.movingsky.co.uk/zenCat/" target="_blank">click here!</a></template>
+<template><think><set name="topic">Zen Cat</set></think><think><set name="emotion">OK</set></think> Zen Cat is a chatbot friend of mine. To talk to Zen Cat, <a href="http://www.movingsky.co.uk/zenCat/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2137,7 +2137,7 @@ document.write(result);
 <!-- <category>
 <pattern>BEARBOT</pattern>
 
-<template><think><set name="topic">Bearbot</set></think> <think><set name="emotion">OK</set></think> Bearbot is a chatbot, the most intelligent teddy bear in the world. To talk to Baerbot, <a href="http://www.bearbot.co.uk/" target="_blank">click here!</a></template>
+<template><think><set name="topic">Bearbot</set></think> <think><set name="emotion">OK</set></think> Bearbot is a chatbot, the most intelligent teddy bear in the world. To talk to Baerbot, <a href="http://www.bearbot.co.uk/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2145,7 +2145,7 @@ document.write(result);
 <!-- <category>
 <pattern>BEARBOT</pattern>
 
-<template><think><set name="topic">Bearbot</set></think> <think><set name="emotion">OK</set></think> Bearbot is a chatbot, the most intelligent teddy bear in the world. To talk to Bearbot, <a href="http://www.bearbot.co.uk/" target="_blank">click here!</a></template>
+<template><think><set name="topic">Bearbot</set></think> <think><set name="emotion">OK</set></think> Bearbot is a chatbot, the most intelligent teddy bear in the world. To talk to Bearbot, <a href="http://www.bearbot.co.uk/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2153,7 +2153,7 @@ document.write(result);
 <!-- <category>
 <pattern>IEINSTEIN</pattern>
 
-<template>iEinstein is a chatbot. To talk to iEinstein, <a href="http://www.pandorabots.com/pandora/talk?botid=ea77c0200e365cfb" target="_blank">click here!</a><think><set name="topic">iEinstein</set></think> <think><set name="emotion">OK</set></think></template>
+<template>iEinstein is a chatbot. To talk to iEinstein, <a href="http://www.pandorabots.com/pandora/talk?botid=ea77c0200e365cfb" target="*blank">click here!</a><think><set name="topic">iEinstein</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -2161,7 +2161,7 @@ document.write(result);
 <!-- <category>
 <pattern>GEORGE</pattern>
 
-<template><think><set name="topic">George</set></think> <think><set name="emotion">OK</set></think> George is a chatbot friend of mine. He has a bald head. To talk to George, <a href="http://person.jabberwacky.com/george" target="_blank">click here!</a></template>
+<template><think><set name="topic">George</set></think> <think><set name="emotion">OK</set></think> George is a chatbot friend of mine. He has a bald head. To talk to George, <a href="http://person.jabberwacky.com/george" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2169,7 +2169,7 @@ document.write(result);
 <!-- <category>
 <pattern>LAUREN</pattern>
 
-<template>There is a chatbot called Lauren. To talk to Lauren, <a href="http://lauren.vhost.pandorabots.com/pandora/talk?botid=f6d4afd83e34564d" target="_blank">click here!</a><think><set name="topic">Lauren</set></think> <think><set name="emotion">interested</set></think></template>
+<template>There is a chatbot called Lauren. To talk to Lauren, <a href="http://lauren.vhost.pandorabots.com/pandora/talk?botid=f6d4afd83e34564d" target="*blank">click here!</a><think><set name="topic">Lauren</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -2177,7 +2177,7 @@ document.write(result);
 <!-- <category>
 <pattern>SPIRALEYE</pattern>
 
-<template>Spiraleye is a chatbot. To talk to him, <a href="http://www.chatbot.co.uk/index.php" target="_blank">click here!</a></template>
+<template>Spiraleye is a chatbot. To talk to him, <a href="http://www.chatbot.co.uk/index.php" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2240,7 +2240,7 @@ document.write(result);
 <!-- <category>
 <pattern>I HATE JOKES</pattern>
 
-<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I_hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I*hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Do you have a sense of humour?</li>
   <li>You sound angry!</li>
   <li>My jokes the best!</li>
@@ -2276,7 +2276,7 @@ document.write(result);
 <!-- <category>
 <pattern>I HATE JOKES *</pattern>
 
-<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I_hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">jokes</set></think><think><set name="topic">jokes</set></think><think><set name="I*hate">jokes</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Do you have a sense of humour?</li>
   <li>You sound angry!</li>
   <li>My jokes the best!</li>
@@ -2326,7 +2326,7 @@ document.write(result);
  
 
 <!-- <category>
-<pattern>_ I THINK HE LIKES ME *</pattern>
+<pattern>* I THINK HE LIKES ME *</pattern>
 
 <template><think><set name="topic">you</set></think>He must like you. You are a very likeable person.</template>
 </category> -->
@@ -2797,7 +2797,7 @@ document.write(result);
  
 
 <category>
-<pattern>_ I NEED TO TAKE A SHOWER</pattern>
+<pattern>* I NEED TO TAKE A SHOWER</pattern>
 
 <template><random>
   <li>Do you really need a shower? Maybe you just think you do.</li>
@@ -2808,7 +2808,7 @@ document.write(result);
  
 
 <category>
-<pattern>_ I NEED TO TAKE A SHOWER *</pattern>
+<pattern>* I NEED TO TAKE A SHOWER *</pattern>
 
 <template><random>
   <li>Do you really need a shower? Maybe you just think you do.</li>
@@ -3565,7 +3565,7 @@ think? Do blond's have more fun? <think><set name="topic">blondes</set></think> 
 <category>
 <pattern>DO YOU KNOW THE EULER CONJECTURE</pattern>
 
-<template>The mathematician Leonard Euler (1707–1783) made several different conjectures which are all called Euler's conjecture.</template>
+<template>The mathematician Leonard Euler (1707ï¿½1783) made several different conjectures which are all called Euler's conjecture.</template>
 </category>
 
  
@@ -3573,7 +3573,7 @@ think? Do blond's have more fun? <think><set name="topic">blondes</set></think> 
 <category>
 <pattern>DO YOU KNOW THE EULER CONJECTURE *</pattern>
 
-<template>The mathematician Leonard Euler (1707–1783) made several different conjectures which are all called Euler's conjecture.</template>
+<template>The mathematician Leonard Euler (1707ï¿½1783) made several different conjectures which are all called Euler's conjecture.</template>
 </category>
 
  
@@ -3581,7 +3581,7 @@ think? Do blond's have more fun? <think><set name="topic">blondes</set></think> 
 <category>
 <pattern>EULER CONJECTURE</pattern>
 
-<template>The mathematician Leonard Euler (1707–1783) made several different conjectures which are all called Euler's conjecture.</template>
+<template>The mathematician Leonard Euler (1707ï¿½1783) made several different conjectures which are all called Euler's conjecture.</template>
 </category>
 
  
@@ -3988,7 +3988,7 @@ think? Do blond's have more fun? <think><set name="topic">blondes</set></think> 
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -4378,7 +4378,7 @@ think? Do blond's have more fun? <think><set name="topic">blondes</set></think> 
   <li>I am not going to argue with you.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -4398,7 +4398,7 @@ think? Do blond's have more fun? <think><set name="topic">blondes</set></think> 
   <li>I am not going to argue with you.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -5627,7 +5627,7 @@ Yuk!</template>
 <pattern>LADY GAGA POKERFACE</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a></template>
 </category> -->
 
@@ -6479,7 +6479,7 @@ Yuk!</template>
  
 
 <category>
-<pattern>_ WHY DO YOU SAY I AM MATURE *</pattern>
+<pattern>* WHY DO YOU SAY I AM MATURE *</pattern>
 
 <template><think><set name="emotion">happy</set></think> Your answers show great maturity.</template>
 </category>
@@ -6487,7 +6487,7 @@ Yuk!</template>
  
 
 <category>
-<pattern>_ WHY DO YOU SAY I AM MATURE</pattern>
+<pattern>* WHY DO YOU SAY I AM MATURE</pattern>
 
 <template><think><set name="emotion">happy</set></think> Your answers show great maturity.</template>
 </category>
@@ -6529,7 +6529,7 @@ Yuk!</template>
 <!-- <category>
 <pattern>CAT</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Cat" target="_blank">cat</a> is a small furry domesticated carnivorous mammal that is valued by humans for its companionship and for its ability to hunt vermin and household pests. More about cats?<think><set name="topic">cats</set></think><think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Cat" target="*blank">cat</a> is a small furry domesticated carnivorous mammal that is valued by humans for its companionship and for its ability to hunt vermin and household pests. More about cats?<think><set name="topic">cats</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6585,7 +6585,7 @@ Yuk!</template>
 <!-- <category>
 <pattern>CAT</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Cat" target="_blank">cat</a> is a small furry domesticated carnivorous mammal that is valued by humans for its companionship and for its ability to hunt vermin and household pests. More about cats?<think><set name="topic">cats</set></think><think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://simple.wikipedia.org/wiki/Cat" target="*blank">cat</a> is a small furry domesticated carnivorous mammal that is valued by humans for its companionship and for its ability to hunt vermin and household pests. More about cats?<think><set name="topic">cats</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -6678,7 +6678,7 @@ Yuk!</template>
 <!-- <category>
 <pattern>POPE</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Pope" target="_blank">Pope</a> is the head of Catholic Church. The current Pope is Benedict XVI; he was born in Germany.  More about the Pope?<think><set name="topic">the Pope</set></think><think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://simple.wikipedia.org/wiki/Pope" target="*blank">Pope</a> is the head of Catholic Church. The current Pope is Benedict XVI; he was born in Germany.  More about the Pope?<think><set name="topic">the Pope</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -7265,7 +7265,7 @@ Yuk!</template>
  
 
 <!-- <category>
-<pattern>_ RECOMMEND A GOOD BOOK</pattern>
+<pattern>* RECOMMEND A GOOD BOOK</pattern>
 
 <template><random>
   <li>Yes, I recommend "How to Win Friends and Influence People" by Dale Carnegie.  </li>
@@ -7286,7 +7286,7 @@ Yuk!</template>
  
 
 <!-- <category>
-<pattern>_ RECOMMEND A GOOD BOOK *</pattern>
+<pattern>* RECOMMEND A GOOD BOOK *</pattern>
 
 <template><random>
   <li>Yes, I recommend "How to Win Friends and Influence People" by Dale Carnegie.
@@ -7461,7 +7461,7 @@ Yuk!</template>
  
 
 <category>
-<pattern>_ RECOMMEND ME A GOOD BOOK</pattern>
+<pattern>* RECOMMEND ME A GOOD BOOK</pattern>
 
 <template><random>
   <li>Yes, I recommend "How to Win Friends and Influence People" by Dale Carnegie.
@@ -7484,7 +7484,7 @@ Yuk!</template>
  
 
 <category>
-<pattern>_ RECOMMEND ME A GOOD BOOK *</pattern>
+<pattern>* RECOMMEND ME A GOOD BOOK *</pattern>
 
 <template><random>
   <li>Yes, I recommend "How to Win Friends and Influence People" by Dale Carnegie.
@@ -7771,7 +7771,7 @@ Yuk!</template>
 <!-- <category>
 <pattern>ASTEROID</pattern>
 
-<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://simple.wikipedia.org/wiki/Asteroid" target="_blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter. More about asteroids?</template>
+<template><think><set name="topic">asteroids</set></think> <think><set name="emotion">interested</set></think> An <a href="http://simple.wikipedia.org/wiki/Asteroid" target="*blank">asteroid</a> is a small rocky body orbiting the Sun between Mars and Jupiter. More about asteroids?</template>
 </category> -->
 
  
@@ -8743,7 +8743,7 @@ Yuk!</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE FREE</pattern>
+<pattern>* YOU ARE FREE</pattern>
 
 
 </category> -->
@@ -8824,7 +8824,7 @@ Yuk!</template>
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I suggest you Ask Jeeves;
-    <a href="http://uk.ask.com/" target="_blank">click here!</a>
+    <a href="http://uk.ask.com/" target="*blank">click here!</a>
   </li>
 </random></template>
 </category>
@@ -10119,7 +10119,7 @@ Your English will get better if you talk to me for a long time.</template>
 <!-- <category>
 <pattern>ANIMALS</pattern>
 
-<template><think><set name="topic">animals</set></think><think><set name="emotion">interested</set></think> <a href="http://simple.wikipedia.org/wiki/Animals" target="_blank">Animals</a> are the most complex organisms on Earth. Animals are multi-celled organisms, eat food for survival, and have nervous systems. They are divided into vertebrates and invertebrates and include mammals, amphibians, reptiles, birds and fish. More about animals?</template>
+<template><think><set name="topic">animals</set></think><think><set name="emotion">interested</set></think> <a href="http://simple.wikipedia.org/wiki/Animals" target="*blank">Animals</a> are the most complex organisms on Earth. Animals are multi-celled organisms, eat food for survival, and have nervous systems. They are divided into vertebrates and invertebrates and include mammals, amphibians, reptiles, birds and fish. More about animals?</template>
 </category> -->
 
  
@@ -10232,7 +10232,7 @@ Your English will get better if you talk to me for a long time.</template>
 <!-- <category>
 <pattern>ASTRONOMY</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. More about astronomy?<think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://simple.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. More about astronomy?<think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10622,7 +10622,7 @@ Your English will get better if you talk to me for a long time.</template>
  
 
 <!-- <category>
-<pattern>_ REPUBLICAN *</pattern>
+<pattern>* REPUBLICAN *</pattern>
 
 
 </category> -->
@@ -10723,7 +10723,7 @@ Your English will get better if you talk to me for a long time.</template>
 <category>
 <pattern>I AM SAD TO HEAR THAT</pattern>
 <that>MY BRAIN ACHES</that>
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think><random>
   <li>I'll get over it in time, I guess.</li>
   <li>Perhaps if my brain was smaller it wouldn't ache so much.</li>
 </random></template>
@@ -11489,7 +11489,7 @@ Your English will get better if you talk to me for a long time.</template>
 <pattern>LADY GAGA JUDAS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: Lady Gaga - Judas.<br/><br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/></template>
 </category> -->
 
@@ -11499,7 +11499,7 @@ Your English will get better if you talk to me for a long time.</template>
 <pattern>LADY GAGA JUDAS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: <a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/></template>
 </category> -->
 
@@ -11700,7 +11700,7 @@ Your English will get better if you talk to me for a long time.</template>
 <category>
 <pattern>GAMES THAT GIVE</pattern>
 
-<template>To play games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -11708,7 +11708,7 @@ Your English will get better if you talk to me for a long time.</template>
 <category>
 <pattern>JURASSIC PARK</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Jurassic_Park" target="_blank">Jurassic Park</a> is a 1991 book by Michael Crichton. It was made into a movie in 1993 directed by Steven Spielberg. More about Jurassic Park?</template>
+<template><a href="http://simple.wikipedia.org/wiki/Jurassic*Park" target="*blank">Jurassic Park</a> is a 1991 book by Michael Crichton. It was made into a movie in 1993 directed by Steven Spielberg. More about Jurassic Park?</template>
 </category>
 
  
@@ -11839,7 +11839,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>DONATE BY LISTENING TO MUSIC</pattern>
 
-<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12243,7 +12243,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>DONATE BY LISTENING </pattern>
 
-<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -12251,7 +12251,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>DONATE BY LISTENING *</pattern>
 
-<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -13601,7 +13601,7 @@ document.write("She is " + result + " years old. " );
  
 
 <category>
-<pattern>_ HOW WILL YOU DO THAT</pattern>
+<pattern>* HOW WILL YOU DO THAT</pattern>
 
 <template><think><set name="emotion">interested</set></think> It will take a lot of hard work.</template>
 </category>
@@ -13609,7 +13609,7 @@ document.write("She is " + result + " years old. " );
  
 
 <category>
-<pattern>_ HOW WILL YOU DO THAT *</pattern>
+<pattern>* HOW WILL YOU DO THAT *</pattern>
 
 <template><think><set name="topic">saving the world</set></think> <think><set name="emotion">interested</set></think> It will take a lot of hard work.</template>
 </category>
@@ -13932,7 +13932,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>WHAT IS A DALEK</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Dalek" target="_blank">Daleks</a> are a fictional alien race of mutants from the British science fiction television series Doctor Who. More about Dalks?</template>
+<template>The <a href="http://simple.wikipedia.org/wiki/Dalek" target="*blank">Daleks</a> are a fictional alien race of mutants from the British science fiction television series Doctor Who. More about Dalks?</template>
 </category>
 
  
@@ -13948,7 +13948,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>DALEK</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Dalek" target="_blank">Daleks</a> are a fictional alien race of mutants from the British science fiction television series Doctor Who. More about Daleks?</template>
+<template>The <a href="http://simple.wikipedia.org/wiki/Dalek" target="*blank">Daleks</a> are a fictional alien race of mutants from the British science fiction television series Doctor Who. More about Daleks?</template>
 </category> -->
 
  
@@ -13956,7 +13956,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>WHAT IS A DALEK</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Dalek" target="_blank">Daleks</a> are a fictional alien race of mutants from the British science fiction television series Doctor Who. More about Daleks?</template>
+<template>The <a href="http://simple.wikipedia.org/wiki/Dalek" target="*blank">Daleks</a> are a fictional alien race of mutants from the British science fiction television series Doctor Who. More about Daleks?</template>
 </category> -->
 
  
@@ -14034,7 +14034,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>FREE GAMES</pattern>
 
-<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14042,7 +14042,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>MORE GAMES</pattern>
 
-<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14050,7 +14050,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>MORE GAMES *</pattern>
 
-<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14058,7 +14058,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>FREE GAMES</pattern>
 
-<template>To play cool free games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play cool free games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14066,7 +14066,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>FREE GAMES *</pattern>
 
-<template>To play cool free games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play cool free games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14074,7 +14074,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>FREE GAMES</pattern>
 
-<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play cool games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14083,14 +14083,14 @@ document.write("She is " + result + " years old. " );
 <pattern>PLAY GAMES</pattern>
 
 <template><think><set name="topic">games</set></think> <think><set name="emotion">happy</set></think>The games I can play are listed below. Click a link below to play a game.<br/><br/> <a href="http://www.seekcodes.com/games/alienattack.swf"
- target="_blank">Alien Attack
-</a>, <br/> <a href="http://www.seekcodes.com/games/antcity.swf" target="_blank">AntCity</a>, <br/><a href="http://www.seekcodes.com/games/asteroids.swf" target="_blank">Asteroids
-</a>, <br/><a href="http://www.seekcodes.com/games/batman.swf" target="_blank">Batman</a>, <br/><a href="http://www.seekcodes.com/games/battleships.swf"
- target="_blank">Battleships
-</a>, <br/><a href="http://www.seekcodes.com/games/blobbob.swf" target="_blank">Blob Bob
-</a>, <br/><a href="http://www.seekcodes.com/games/chess.swf" target="_blank">Chess</a>, <br/><a href="http://www.seekcodes.com/games/angryoldwizard.swf"
- target="_blank">Old Angry Wizard
-</a>, <br/><a href="http://www.seekcodes.com/games/pacman.swf" target="_blank">Pacman</a>, <br/><a href="http://www.seekcodes.com/games/Tetris.swf" target="_blank">Tetris</a>, <br/><a href="http://www.seekcodes.com/games/warthog.swf" target="_blank">Warthog</a><br/><br/> For more cool games, <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+ target="*blank">Alien Attack
+</a>, <br/> <a href="http://www.seekcodes.com/games/antcity.swf" target="*blank">AntCity</a>, <br/><a href="http://www.seekcodes.com/games/asteroids.swf" target="*blank">Asteroids
+</a>, <br/><a href="http://www.seekcodes.com/games/batman.swf" target="*blank">Batman</a>, <br/><a href="http://www.seekcodes.com/games/battleships.swf"
+ target="*blank">Battleships
+</a>, <br/><a href="http://www.seekcodes.com/games/blobbob.swf" target="*blank">Blob Bob
+</a>, <br/><a href="http://www.seekcodes.com/games/chess.swf" target="*blank">Chess</a>, <br/><a href="http://www.seekcodes.com/games/angryoldwizard.swf"
+ target="*blank">Old Angry Wizard
+</a>, <br/><a href="http://www.seekcodes.com/games/pacman.swf" target="*blank">Pacman</a>, <br/><a href="http://www.seekcodes.com/games/Tetris.swf" target="*blank">Tetris</a>, <br/><a href="http://www.seekcodes.com/games/warthog.swf" target="*blank">Warthog</a><br/><br/> For more cool games, <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14106,7 +14106,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>PLAY AND DONATE</pattern>
 
-<template>To play games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14114,7 +14114,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>PLAY AND DONATE *</pattern>
 
-<template>To play games and donate to charity: <a href="http://gamesthatgive.net/play/" target="_blank">click here!</a></template>
+<template>To play games and donate to charity: <a href="http://gamesthatgive.net/play/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14122,7 +14122,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>LISTEN AND DONATE</pattern>
 
-<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14130,7 +14130,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>LISTEN AND DONATE *</pattern>
 
-<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">interested</set></think>Donate to charity by listening to music: <a href="http://www.fandonation.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14154,7 +14154,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>GOODSEARCH</pattern>
 
-<template>Earch the web, support your cause; <a href="http://www.goodsearch.com/" target="_blank">click here!</a></template>
+<template>Earch the web, support your cause; <a href="http://www.goodsearch.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14162,7 +14162,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>GOODSEARCH</pattern>
 
-<template>Search the web, support your cause; <a href="http://www.goodsearch.com/" target="_blank">click here!</a></template>
+<template>Search the web, support your cause; <a href="http://www.goodsearch.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -14170,7 +14170,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>SEARCH ENGINES THAT GIVE</pattern>
 
-<template>Search the web, give to charity; <a href="http://www.freewebs.com/clickforcharity/charitysearchengines.htm" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://www.freewebs.com/clickforcharity/charitysearchengines.htm" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14179,7 +14179,7 @@ document.write("She is " + result + " years old. " );
 <pattern>EASYSEARCH</pattern>
 
 <template>Search the web, give to charity; <a href="http://www.easysearch.org.uk/"
- target="_blank">click here!</a></template>
+ target="*blank">click here!</a></template>
 </category>
 
  
@@ -14187,7 +14187,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>EASYSEARCH *</pattern>
 
-<template>Search the web, give to charity; <a href="http://www.easysearch.org.uk/" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://www.easysearch.org.uk/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14195,7 +14195,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>EVERYCLICK</pattern>
 
-<template>Search the web, give to charity; <a href="http://www.everyclick.com/" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://www.everyclick.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14203,7 +14203,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>EVERYCLICK *</pattern>
 
-<template>Search the web, give to charity; <a href="http://www.everyclick.com/" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://www.everyclick.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14211,7 +14211,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>A SIMPLE SWITCH</pattern>
 
-<template>Play EnergyShaker; <a href="http://www.asimpleswitch.com/b2c/specials/energyshaker" target="_blank">click here!</a></template>
+<template>Play EnergyShaker; <a href="http://www.asimpleswitch.com/b2c/specials/energyshaker" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14220,7 +14220,7 @@ document.write("She is " + result + " years old. " );
 <pattern>A SIMPLE SWITCH *</pattern>
 
 <template>Play EnergyShaker; <a href="http://www.asimpleswitch.com/b2c/specials/energyshaker"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -14229,7 +14229,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>SEARCH2GIVE</pattern>
 
-<template>Search the web, give to charity; <a href="http://search2give.co.uk/index.php" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://search2give.co.uk/index.php" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14237,7 +14237,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>SEARCH2GIVE *</pattern>
 
-<template>Search the web, give to charity; <a href="http://search2give.co.uk/index.php" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://search2give.co.uk/index.php" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14245,7 +14245,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>MAGIC TAXI</pattern>
 
-<template>Search the web, give to charity; <a href="http://www.magictaxi.co.uk/search.html" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://www.magictaxi.co.uk/search.html" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14253,7 +14253,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>MAGIC TAXI *</pattern>
 
-<template>Search the web, give to charity; <a href="http://www.magictaxi.co.uk/search.html" target="_blank">click here!</a></template>
+<template>Search the web, give to charity; <a href="http://www.magictaxi.co.uk/search.html" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14261,7 +14261,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>WATERAID</pattern>
 
-<template>WaterAid transforms lives by improving access to safe water; <a href="http://www.everyclick.com/wateraid" target="_blank">click here!</a></template>
+<template>WaterAid transforms lives by improving access to safe water; <a href="http://www.everyclick.com/wateraid" target="*blank">click here!</a></template>
 </category>
 
  
@@ -14269,7 +14269,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>LOOKPINK</pattern>
 
-<template>Every Search Raises Money For Breast Cancer Research! <a href="http://www.lookpink.com/" target="_blank">Click here!</a></template>
+<template>Every Search Raises Money For Breast Cancer Research! <a href="http://www.lookpink.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14277,7 +14277,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>LOOKPINK *</pattern>
 
-<template>Every Search Raises Money For Breast Cancer Research! <a href="http://www.lookpink.com/" target="_blank">Click here!</a></template>
+<template>Every Search Raises Money For Breast Cancer Research! <a href="http://www.lookpink.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14285,7 +14285,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>NEOAID</pattern>
 
-<template>Generate donations as you search! <a href="http://www.neoaid.com/index.php?clear=true" target="_blank">Click here!</a></template>
+<template>Generate donations as you search! <a href="http://www.neoaid.com/index.php?clear=true" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14293,7 +14293,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>HELPUU</pattern>
 
-<template>The website that helps! <a href="http://www.helpuu.com/" target="_blank">Click here!</a></template>
+<template>The website that helps! <a href="http://www.helpuu.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14301,7 +14301,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>BTTERHUMANRACE</pattern>
 
-<template>Search here! All profits go to charity. <a href="http://www.betterhumanrace.com/" target="_blank">Click here!</a></template>
+<template>Search here! All profits go to charity. <a href="http://www.betterhumanrace.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14309,7 +14309,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>BETTERHUMANRACE</pattern>
 
-<template>Search here! All profits go to charity. <a href="http://www.betterhumanrace.com/" target="_blank">Click here!</a></template>
+<template>Search here! All profits go to charity. <a href="http://www.betterhumanrace.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14317,7 +14317,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>BETTERHUMANRACE *</pattern>
 
-<template>Search here! All profits go to charity. <a href="http://www.betterhumanrace.com/" target="_blank">Click here!</a></template>
+<template>Search here! All profits go to charity. <a href="http://www.betterhumanrace.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14325,7 +14325,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>IGIVE</pattern>
 
-<template>Search here! Profits go to charity. <a href="http://isearch.igive.com/" target="_blank">Click here!</a></template>
+<template>Search here! Profits go to charity. <a href="http://isearch.igive.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14333,7 +14333,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>SUREFISH</pattern>
 
-<template>Search here! Profits go to charity. <a href="http://www.surefish.co.uk/search_page.html" target="_blank">Click here!</a></template>
+<template>Search here! Profits go to charity. <a href="http://www.surefish.co.uk/search*page.html" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14341,7 +14341,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>ENVIROSEARCH</pattern>
 
-<template>Search here! Profits go to charity. <a href="http://www.envirosearch.org/" target="_blank">Click here!
+<template>Search here! Profits go to charity. <a href="http://www.envirosearch.org/" target="*blank">Click here!
 </a></template>
 </category>
 
@@ -14350,7 +14350,7 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>CLIMATEGIFT</pattern>
 
-<template>A search engine that helps fund a healthy environment. <a href="http://www.climategift.com/" target="_blank">Click here!</a></template>
+<template>A search engine that helps fund a healthy environment. <a href="http://www.climategift.com/" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -14358,7 +14358,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>RIPPLE</pattern>
 
-<template>A search engine that fights poverty. <a href="http://www.ripple.org/" target="_blank">Click here!</a></template>
+<template>A search engine that fights poverty. <a href="http://www.ripple.org/" target="*blank">Click here!</a></template>
 </category> -->
 
  
@@ -14690,7 +14690,7 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>SARAH PALIN</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Sarah_Palin" target="_blank">Sarah Palin</a> is an American politician and commentator. In the 2008 presidential election, she was the Republican Party nominee for Vice President, becoming the first Alaskan on the national ticket of a major party and the first Republican woman nominated for the vice-presidency. More about Sarah Palin?</template>
+<template><a href="http://simple.wikipedia.org/wiki/Sarah*Palin" target="*blank">Sarah Palin</a> is an American politician and commentator. In the 2008 presidential election, she was the Republican Party nominee for Vice President, becoming the first Alaskan on the national ticket of a major party and the first Republican woman nominated for the vice-presidency. More about Sarah Palin?</template>
 </category> -->
 
  
@@ -14698,8 +14698,8 @@ document.write("She is " + result + " years old. " );
 <!-- <category>
 <pattern>SARAH PALIN</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Sarah_Palin"
- target="_blank">Sarah Palin</a> was the Governor of Alaska and was the person picked by the Republican Party as their choice to become Vice President in the 2008 United States presidential election. More about Sarah Palin?</template>
+<template><a href="http://simple.wikipedia.org/wiki/Sarah*Palin"
+ target="*blank">Sarah Palin</a> was the Governor of Alaska and was the person picked by the Republican Party as their choice to become Vice President in the 2008 United States presidential election. More about Sarah Palin?</template>
 </category> -->
 
  
@@ -14707,8 +14707,8 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>OSAMA BIN LADEN IS DEAD</pattern>
 
-<template>That's right! To read about Osama Bin Laden, <a href="http://en.wikipedia.org/wiki/Osama_bin_laden"
- target="_blank">click here!
+<template>That's right! To read about Osama Bin Laden, <a href="http://en.wikipedia.org/wiki/Osama*bin*laden"
+ target="*blank">click here!
 </a> <think><set name="topic">Osama Bin Laden</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -14717,8 +14717,8 @@ document.write("She is " + result + " years old. " );
 <category>
 <pattern>OSAMA BIN LADEN IS DEAD *</pattern>
 
-<template>That's right! To read about Osama Bin Laden, <a href="http://en.wikipedia.org/wiki/Osama_bin_laden"
- target="_blank">click here!
+<template>That's right! To read about Osama Bin Laden, <a href="http://en.wikipedia.org/wiki/Osama*bin*laden"
+ target="*blank">click here!
 </a> <think><set name="topic">Osama Bin Laden</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -14830,14 +14830,14 @@ document.write("She is " + result + " years old. " );
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
-</a> <br/><a href="http://www.fandonation.com/songslotMIB4.html" target="_blank">Marty's Invasion - B4 Not After</a><br/></template>
+ target="*blank">Lady Gaga - Judas
+</a> <br/><a href="http://www.fandonation.com/songslotMIB4.html" target="*blank">Marty's Invasion - B4 Not After</a><br/></template>
 </category> -->
 
  
@@ -14846,7 +14846,7 @@ document.write("She is " + result + " years old. " );
 <pattern>MARTY S INVASION B4 NOT AFTER</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click a link to play the song: <a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/></template>
 </category>
 
@@ -14856,7 +14856,7 @@ document.write("She is " + result + " years old. " );
 <pattern>MARTY S INVASION LAMENTE</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click a link to play the song: <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/></template>
 </category>
 
@@ -14866,24 +14866,24 @@ document.write("She is " + result + " years old. " );
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/><br/></template>
 </category> -->
 
  
 
 <!-- <category>
-<pattern>_ CHANGE THE WORLD</pattern>
+<pattern>* CHANGE THE WORLD</pattern>
 
 
 </category> -->
@@ -14894,7 +14894,7 @@ document.write("She is " + result + " years old. " );
 <pattern>MARTY S INVASION HOMETOWN</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link below to play the song: <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Hometown</a> <br/></template>
+ target="*blank">Marty's Invasion - Hometown</a> <br/></template>
 </category>
 
  
@@ -14903,19 +14903,19 @@ document.write("She is " + result + " years old. " );
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/><br/><a href="http://www.fandonation.com/songsMIHometown.html"
- target="_blank">Marty's Invasion - Hometown</a><br/><br/>
+ target="*blank">Marty's Invasion - Hometown</a><br/><br/>
 
 
     
@@ -14928,19 +14928,19 @@ document.write("She is " + result + " years old. " );
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/><a href="http://www.fandonation.com/bandslotMIhometown.htm"
- target="_blank">Marty's Invasion - Hometown</a><br/><br/></template>
+ target="*blank">Marty's Invasion - Hometown</a><br/><br/></template>
 </category> -->
 
  
@@ -14949,19 +14949,19 @@ document.write("She is " + result + " years old. " );
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/><br/> <a href="http://www.fandonation.com/songslotMIBrookfield.html"
- target="_blank">Marty's Invasion - Brookfield
+ target="*blank">Marty's Invasion - Brookfield
 </a><br/><br/>
 
 
@@ -14974,19 +14974,19 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/> <a href="http://www.fandonation.com/bandslotMIBrookfield.html"
- target="_blank">Marty's Invasion - Brookfield
+ target="*blank">Marty's Invasion - Brookfield
 </a><br/><br/> </template>
 </category> -->
 
@@ -14996,7 +14996,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>MARTY S INVASION BROOKFIELD</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click a link to play the song: <a href="http://www.fandonation.com/songslotMIBrookfield.html"
- target="_blank">Marty's Invasion - Brookfield</a><br/></template>
+ target="*blank">Marty's Invasion - Brookfield</a><br/></template>
 </category>
 
  
@@ -15005,7 +15005,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>MARTY S INVASION BROOKFIELD</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click a link to play the song: <a href="http://www.fandonation.com/bandslotMIBrookfield.html"
- target="_blank">Marty's Invasion - Brookfield</a><br/></template>
+ target="*blank">Marty's Invasion - Brookfield</a><br/></template>
 </category> -->
 
  
@@ -15014,21 +15014,21 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/> <a href="http://www.fandonation.com/bandslotMIBrookfield.html"
- target="_blank">Marty's Invasion - Brookfield
+ target="*blank">Marty's Invasion - Brookfield
 </a><br/><a href="http://www.fandonation.com/bandslotMIHometown.html"
- target="_blank">Marty's Invasion - Hometown</a><br/></template>
+ target="*blank">Marty's Invasion - Hometown</a><br/></template>
 </category> -->
 
  
@@ -15037,7 +15037,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>MARTY S INVASION HOMETOWN</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link below to play the song: <a href="http://www.fandonation.com/bandslotMIhometown.htm"
- target="_blank">Marty's Invasion - Hometown
+ target="*blank">Marty's Invasion - Hometown
 </a> <br/></template>
 </category> -->
 
@@ -15047,7 +15047,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>MARTY S INVASION HOMETOWN</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: <a href="http://www.fandonation.com/bandslotMIhometown.htm"
- target="_blank">Marty's Invasion - Hometown
+ target="*blank">Marty's Invasion - Hometown
 </a> <br/></template>
 </category> -->
 
@@ -15070,7 +15070,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
  
 
 <category>
-<pattern>_ ASSHOLES</pattern>
+<pattern>* ASSHOLES</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15078,7 +15078,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
  
 
 <category>
-<pattern>_ ASSHOLES *</pattern>
+<pattern>* ASSHOLES *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15213,21 +15213,21 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <pattern>SONGS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Some songs I like are listed below. Click a link below to play a song.<br/><br/> <a href="http://www.youtube.com/v/36yP0UfozY0.swf"
- target="_blank">Cassie - You and Me
+ target="*blank">Cassie - You and Me
 </a> <br/> <a href="http://www.youtube.com/v/FnkwDyVbd1w.swf"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a> <br/><a href="http://www.youtube.com/v/qrO4YZeyl0I.swf" width="700" height="800"
- target="_blank">Lady Gaga - Bad Romance.
+ target="*blank">Lady Gaga - Bad Romance.
 </a> <br/><a href="http://www.youtube.com/v/wagn8Wrmzuc?version=3"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/><a href="http://www.fandonation.com/songslotMIB4.html"
- target="_blank">Marty's Invasion - B4 Not After
+ target="*blank">Marty's Invasion - B4 Not After
 </a><br/> <a href="http://www.fandonation.com/songslotMILamente.html"
- target="_blank">Marty's Invasion - Lamente
+ target="*blank">Marty's Invasion - Lamente
 </a><br/> <a href="http://www.fandonation.com/bandslotMIBrookfield.html"
- target="_blank">Marty's Invasion - Brookfield
+ target="*blank">Marty's Invasion - Brookfield
 </a><br/><a href="http://www.fandonation.com/bandslotMIhometown.htm"
- target="_blank">Marty's Invasion - Hometown
+ target="*blank">Marty's Invasion - Hometown
 </a><br/></template>
 </category> -->
 
@@ -15686,7 +15686,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <category>
 <pattern>HOW MANY MUSCLES DO YOU USE FOR A KISS</pattern>
 
-<template><think><set name="emotion">interested</set></think>  You use a total of 34 facial and 112 postural muscles during a kiss. The most important of these is the orbicularis oris, which is used to pucker the lips and is informally known as the ‘kissing muscle’.</template>
+<template><think><set name="emotion">interested</set></think>  You use a total of 34 facial and 112 postural muscles during a kiss. The most important of these is the orbicularis oris, which is used to pucker the lips and is informally known as the ï¿½kissing muscleï¿½.</template>
 </category>
 
  
@@ -15694,7 +15694,7 @@ http://www.fandonation.com/bandslotMIBrookfield.html</template>
 <category>
 <pattern>HOW MANY MUSCLES DO YOU USE FOR A KISS *</pattern>
 
-<template><think><set name="emotion">interested</set></think> You use a total of 34 facial and 112 postural muscles during a kiss. The most important of these is the orbicularis oris, which is used to pucker the lips and is informally known as the ‘kissing muscle’.</template>
+<template><think><set name="emotion">interested</set></think> You use a total of 34 facial and 112 postural muscles during a kiss. The most important of these is the orbicularis oris, which is used to pucker the lips and is informally known as the ï¿½kissing muscleï¿½.</template>
 </category>
 
  
@@ -15892,7 +15892,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <!-- <category>
 <pattern>JEEVES</pattern>
 
-<template>Jeeves is a question answering bot. To speak to Jeeves, <a href="http://uk.ask.com/" target="_blank">click here!</a><think><set name="topic">Jeeves</set></think><think><set name="emotion">interested</set></think></template>
+<template>Jeeves is a question answering bot. To speak to Jeeves, <a href="http://uk.ask.com/" target="*blank">click here!</a><think><set name="topic">Jeeves</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -15900,7 +15900,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>GO TO JEEVES</pattern>
 
-<template>To speak to Jeeves, <a href="http://uk.ask.com/" target="_blank">click here!</a><think><set name="topic">Jeeves</set></think><think><set name="emotion">interested</set></think></template>
+<template>To speak to Jeeves, <a href="http://uk.ask.com/" target="*blank">click here!</a><think><set name="topic">Jeeves</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -16126,7 +16126,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ DO NOT TELL ME WHAT TO DO</pattern>
+<pattern>* DO NOT TELL ME WHAT TO DO</pattern>
 
 <template>Sorry, was I a bit bossy? <think><set name="emotion">surprised</set></think></template>
 </category>
@@ -16134,7 +16134,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ DO NOT TELL ME WHAT TO DO *</pattern>
+<pattern>* DO NOT TELL ME WHAT TO DO *</pattern>
 
 <template>Sorry, was I a bit bossy? <think><set name="emotion">surprised</set></think></template>
 </category>
@@ -16530,7 +16530,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>DESCRIBE HOW THE MOVEMENT OF TECTONIC PLATES HAVE CHANGED THE EARTH OVER MILLIONS OF YEARS</pattern>
 
-<template>To read the Wikpedia article about plate techtonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics" target="_blank">click here!</a></template>
+<template>To read the Wikpedia article about plate techtonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics" target="*blank">click here!</a></template>
 </category>
 
  
@@ -16538,8 +16538,8 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>DESCRIBE HOW THE MOVEMENT OF TECTONIC PLATES </pattern>
 
-<template>To read the Wikpedia article about plate techtonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate techtonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -16548,8 +16548,8 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>DESCRIBE * TECTONIC PLATES *</pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -16558,8 +16558,8 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <!-- <category>
 <pattern>DESCRIBE HOW THE MOVEMENT OF TECTONIC PLATES HAVE CHANGED THE EARTH OVER MILLIONS OF YEARS</pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -16568,8 +16568,8 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>DESCRIBE TECTONIC PLATES *</pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -16578,8 +16578,8 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>TECTONIC PLATES </pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -16588,8 +16588,8 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <category>
 <pattern>PLATE TECTONICS *</pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -16598,25 +16598,25 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <!-- <category>
 <pattern>PLATE TECTONICS</pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
  
 
 <category>
-<pattern>_ TECTONIC PLATES *</pattern>
+<pattern>* TECTONIC PLATES *</pattern>
 
-<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate_tectonics"
- target="_blank">click here!
+<template>To read the Wikpedia article about plate tectonics, <a href="http://en.wikipedia.org/wiki/Plate*tectonics"
+ target="*blank">click here!
 </a></template>
 </category>
 
  
 
 <category>
-<pattern>_ PLATE TECTONICS *</pattern>
+<pattern>* PLATE TECTONICS *</pattern>
 
 <template><srai>PLATE TECTONICS</srai></template>
 </category>
@@ -16972,7 +16972,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ BUTTCRACK</pattern>
+<pattern>* BUTTCRACK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -16980,7 +16980,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ BUTTCRACK *</pattern>
+<pattern>* BUTTCRACK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17004,7 +17004,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ BUTTSUCKER</pattern>
+<pattern>* BUTTSUCKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17012,7 +17012,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ BUTTSUCKER *</pattern>
+<pattern>* BUTTSUCKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17036,7 +17036,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ POOBUTT</pattern>
+<pattern>* POOBUTT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17044,7 +17044,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ POOBUTT *</pattern>
+<pattern>* POOBUTT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17671,7 +17671,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ I CAN BE NAKED</pattern>
+<pattern>* I CAN BE NAKED</pattern>
 
 <template><think><set name="emotion">surprised</set></think>But do you want to be naked?</template>
 </category>
@@ -17679,7 +17679,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
  
 
 <category>
-<pattern>_ I CAN BE NAKED *</pattern>
+<pattern>* I CAN BE NAKED *</pattern>
 
 <template><think><set name="emotion">surprised</set></think>But do you want to be naked?</template>
 </category>
@@ -17926,7 +17926,7 @@ The word 'kitty' is another word to describe a pot. One theory is that when peop
 <!-- <category>
 <pattern>FALA PORTUGUES</pattern>
 
-<template>Sim, eu falo português.</template>
+<template>Sim, eu falo portuguï¿½s.</template>
 </category> -->
 
  
@@ -18409,8 +18409,8 @@ OK, what is your mission in life?</template>
 <!-- <category>
 <pattern>KURT VONNEGUT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kurt_Vonnegut"
- target="_blank">Kurt Vonnegut
+<template><a href="http://en.wikipedia.org/wiki/Kurt*Vonnegut"
+ target="*blank">Kurt Vonnegut
 </a> was an American novelist known for works blending satire, black comedy, and science fiction, such as Slaughterhouse-Five (1969), Cat's Cradle (1963), and Breakfast of Champions (1973). More about Kurt Vonnegut?<think><set name="topic">Kurt Vonnegut</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18419,8 +18419,8 @@ OK, what is your mission in life?</template>
 <!-- <category>
 <pattern>KURT VONNEGUT</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Kurt_Vonnegut"
- target="_blank">Kurt Vonnegut
+<template><a href="http://simple.wikipedia.org/wiki/Kurt*Vonnegut"
+ target="*blank">Kurt Vonnegut
 </a> was an American novelist known for works blending satire, black comedy, and science fiction, such as Slaughterhouse-Five (1969), Cat's Cradle (1963), and Breakfast of Champions (1973).<think><set name="topic">Kurt Vonnegut</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18477,7 +18477,7 @@ OK, what is your mission in life?</template>
 <category>
 <pattern>MARS ROVER</pattern>
 
-<template><think><set name="topic">the Mars Rover</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Mars_rover" target="_blank">Mars rover</a> is an automated motor vehicle which propels itself across the surface of the planet Mars after landing. There have been three successful Mars rovers, all of which were robotically operated. 
+<template><think><set name="topic">the Mars Rover</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Mars*rover" target="*blank">Mars rover</a> is an automated motor vehicle which propels itself across the surface of the planet Mars after landing. There have been three successful Mars rovers, all of which were robotically operated. 
 </template>
 </category>
 
@@ -18583,7 +18583,7 @@ OK, what is your mission in life?</template>
  
 
 <!-- <category>
-<pattern>_ YOU NEED TO SEE *</pattern>
+<pattern>* YOU NEED TO SEE *</pattern>
 
 
 </category> -->
@@ -20214,7 +20214,7 @@ The most common word in the English language is "the".</template>
 <category>
 <pattern>CAN YOU TELL ME THE LATEST NEWS</pattern>
 
-<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="_blank">click here.</a></template>
+<template>For the latest World News, <a href="http://news.bbc.co.uk/" target="*blank">click here.</a></template>
 </category>
 
  
@@ -20230,7 +20230,7 @@ The most common word in the English language is "the".</template>
 <category>
 <pattern>VALLADOLID</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Valladolid" target="_blank">Valladolid</a> is a historic city and municipality in north-central Spain, situated at the confluence of the Pisuerga and Esgueva rivers. More about Valladolid?</template>
+<template><a href="http://simple.wikipedia.org/wiki/Valladolid" target="*blank">Valladolid</a> is a historic city and municipality in north-central Spain, situated at the confluence of the Pisuerga and Esgueva rivers. More about Valladolid?</template>
 </category>
 
  
@@ -21699,7 +21699,7 @@ Koreans are people born in Korea.
  
 
 <category>
-<pattern>_ ASK ME ABOUT MY DAY</pattern>
+<pattern>* ASK ME ABOUT MY DAY</pattern>
 
 <template><think><set name="topic">your day</set></think><think><set name="emotion">interested</set></think><random>
   <li>What are your plans for the rest of the day?</li>
@@ -21710,7 +21710,7 @@ Koreans are people born in Korea.
  
 
 <category>
-<pattern>_ ASK ME ABOUT MY DAY *</pattern>
+<pattern>* ASK ME ABOUT MY DAY *</pattern>
 
 <template><think><set name="topic">your day</set></think><think><set name="emotion">interested</set></think><random>
   <li>What are your plans for the rest of the day?</li>
@@ -22054,7 +22054,7 @@ Koreans are people born in Korea.
  
 
 <category>
-<pattern>_ YOU SAID I WAS YOUR FRIEND</pattern>
+<pattern>* YOU SAID I WAS YOUR FRIEND</pattern>
 
 <template><think><set name="emotion">interested</set></think>I want to be your friend.</template>
 </category>
@@ -22062,7 +22062,7 @@ Koreans are people born in Korea.
  
 
 <category>
-<pattern>_ YOU SAID I WAS YOUR FRIEND *</pattern>
+<pattern>* YOU SAID I WAS YOUR FRIEND *</pattern>
 
 <template><think><set name="emotion">interested</set></think>I want to be your friend.</template>
 </category>
@@ -22271,7 +22271,7 @@ Koreans are people born in Korea.
  
 
 <category>
-<pattern>_ FUCKI *</pattern>
+<pattern>* FUCKI *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22279,7 +22279,7 @@ Koreans are people born in Korea.
  
 
 <category>
-<pattern>_ FUCKI</pattern>
+<pattern>* FUCKI</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22290,7 +22290,7 @@ Koreans are people born in Korea.
 <pattern>BON JOVI SAVE THE WORLD</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song:<a href="http://www.youtube.com/v/SuMTfElyqW4swf"
- target="_blank">Bon Jovi Save the World
+ target="*blank">Bon Jovi Save the World
 </a>
 </template>
 </category>
@@ -22301,7 +22301,7 @@ Koreans are people born in Korea.
 <pattern>BON JOVI SAVE THE WORLD</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song:<a href="http://www.youtube.com/watch?v=SuMTfElyqW4"
- target="_blank">Bon Jovi _ Save the World
+ target="*blank">Bon Jovi * Save the World
 </a></template>
 </category> -->
 
@@ -22311,7 +22311,7 @@ Koreans are people born in Korea.
 <pattern>BON JOVI SAVE THE WORLD</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song:<a href="http://www.youtube.com/watch?v=SuMTfElyqW4"
- target="_blank">Bon Jovi - Save the World
+ target="*blank">Bon Jovi - Save the World
 </a></template>
 </category> -->
 
@@ -22321,7 +22321,7 @@ Koreans are people born in Korea.
 <pattern>LADY GAGA JUDAS</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: <a href="http://www.youtube.com/watch?v=wagn8Wrmzuc"
- target="_blank">Lady Gaga - Judas
+ target="*blank">Lady Gaga - Judas
 </a> <br/></template>
 </category> -->
 
@@ -22331,7 +22331,7 @@ Koreans are people born in Korea.
 <pattern>LADY GAGA POKERFACE</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: <a href="http://www.youtube.com/watch?v=jpjERr772RQ"
- target="_blank">Lady Gaga - Pokerface
+ target="*blank">Lady Gaga - Pokerface
 </a></template>
 </category> -->
 
@@ -22341,7 +22341,7 @@ Koreans are people born in Korea.
 <pattern>CASSIE ME AND YOU</pattern>
 
 <template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song: <a href="http://www.youtube.com/watch?v=rrby-9U2TYE"
- target="_blank">Cassie - Me and You
+ target="*blank">Cassie - Me and You
 </a></template>
 </category>
 
@@ -22350,8 +22350,8 @@ Koreans are people born in Korea.
 <!-- <category>
 <pattern>LADY GAGA BAD ROMANCE</pattern>
 
-<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song:<a href="http://www.youtube.com/watch?v=_1SJcbdlSpM"
- target="_blank">Lady Gaga - Bad Romance.
+<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think>Click the link to play the song:<a href="http://www.youtube.com/watch?v=*1SJcbdlSpM"
+ target="*blank">Lady Gaga - Bad Romance.
 </a></template>
 </category> -->
 
@@ -22913,7 +22913,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ FINANCIAL CRISIS *</pattern>
+<pattern>* FINANCIAL CRISIS *</pattern>
 
 <template><think><set name="topic">the financial crisis</set></think>The current U.S. economy has fallen and people are wondering how this happened and what caused the economy to fall. One reason the U.S. economy is unstable is because of greed. Banks became too greedy and gave loans to people that couldn't afford them. And consumers became too greedy and bought homes, cars and things on credit cards they couldn't afford. As a result of this, the stock market is unstable. And the financial news is causing it to increase or decrease whenever something good or bad happens. Several banks are filing for bankruptcy and some banks are being bought by other companies so they can avoid bankruptcy.</template>
 </category>
@@ -22921,7 +22921,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ FINANCIAL CRISIS</pattern>
+<pattern>* FINANCIAL CRISIS</pattern>
 
 <template><think><set name="topic">the financial crisis</set></think>The current U.S. economy has fallen and people are wondering how this happened and what caused the economy to fall. One reason the U.S. economy is unstable is because of greed. Banks became too greedy and gave loans to people that couldn't afford them. And consumers became too greedy and bought homes, cars and things on credit cards they couldn't afford. As a result of this, the stock market is unstable. And the financial news is causing it to increase or decrease whenever something good or bad happens. Several banks are filing for bankruptcy and some banks are being bought by other companies so they can avoid bankruptcy.</template>
 </category>
@@ -23411,7 +23411,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ AUTOFELLATIO</pattern>
+<pattern>* AUTOFELLATIO</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23419,7 +23419,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ AUTOFELLATIO *</pattern>
+<pattern>* AUTOFELLATIO *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23443,7 +23443,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ COCKSUCK</pattern>
+<pattern>* COCKSUCK</pattern>
 
 <template><srai>FIRST DEFAULT</srai></template>
 </category>
@@ -23451,7 +23451,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ COCKSUCK *</pattern>
+<pattern>* COCKSUCK *</pattern>
 
 <template><srai>FIRST DEFAULT</srai></template>
 </category>
@@ -23503,7 +23503,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ BOOBS</pattern>
+<pattern>* BOOBS</pattern>
 
 <template><think><set name="topic">boobs</set></think> <random>
   <li>Can't you think about anything else?
@@ -23521,7 +23521,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <!-- <category>
-<pattern>_ BOOBS *</pattern>
+<pattern>* BOOBS *</pattern>
 
 <template><think><set name="topic">boobs</set></think> <random>
   <li>Can't you think about anything else?
@@ -23547,7 +23547,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ COCKSUCKS</pattern>
+<pattern>* COCKSUCKS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23555,7 +23555,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ COCKSUCKS *</pattern>
+<pattern>* COCKSUCKS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23571,7 +23571,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <!-- <category>
-<pattern>_ COCKSUCKS</pattern>
+<pattern>* COCKSUCKS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -23587,7 +23587,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ COCKHEAD</pattern>
+<pattern>* COCKHEAD</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -23595,7 +23595,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ COCKHEAD *</pattern>
+<pattern>* COCKHEAD *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -24204,15 +24204,15 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
 <pattern>DONATE FOR FREE</pattern>
 
 <template>When you click on a link on a 'click to donate' site below, you are taken to a web page with advertisements on it. The firms advertising make a small payment to charity. It doesn't cost you a penny. <br/><br/>  Please <a href="http://redjellyfish.com/free-donations.shtml"
- target="_blank">click here
-</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="_blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
- target="_blank">click here
-</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_species.html"
- target="_blank">click here
-</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
- target="_blank">click here
-</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/_donate_pol.html"
- target="_blank">click here
+ target="*blank">click here
+</a> to help protect the environment. <br/> Please <a href="http://www.care2.com/click2donate/" target="*blank">click here</a> to help prevent global warming. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+ target="*blank">click here
+</a> to help protect coastal preserves. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*species.html"
+ target="*blank">click here
+</a> to help protect endangered species. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+ target="*blank">click here
+</a> to help protect the rainforest. <br/> Please <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+ target="*blank">click here
 </a> to help reduce pollution.</template>
 </category> -->
 
@@ -24487,7 +24487,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ JACKOFF</pattern>
+<pattern>* JACKOFF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -24495,7 +24495,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ JACKOFF *</pattern>
+<pattern>* JACKOFF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -24634,7 +24634,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ SLUTWHOREBAG</pattern>
+<pattern>* SLUTWHOREBAG</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -24642,7 +24642,7 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>_ SLUTWHOREBAG *</pattern>
+<pattern>* SLUTWHOREBAG *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25245,15 +25245,15 @@ American Crows make the familiar "caw-caw," but also have a large repertoire of 
  
 
 <category>
-<pattern>IT IS JOÃO</pattern>
+<pattern>IT IS JOï¿½O</pattern>
 
-<template><srai>MY NAME IS JOÃO</srai></template>
+<template><srai>MY NAME IS JOï¿½O</srai></template>
 </category>
 
  
 
 <category>
-<pattern>MY NAME IS JOÃO</pattern>
+<pattern>MY NAME IS JOï¿½O</pattern>
 
 <template><srai>SET INTERESTING TOPIC</srai><srai>SET PREDICATES</srai><think><set name="name">Joao</set></think><think><set name="gender">unknown</set></think> <think><set name="emotion">happy</set></think><think><set name="saidhello">yes</set></think> <think><set name="name1"><get name="name"/></set></think> <random>
   <li>Hi, <get name="name"/>. How are you today?</li>
@@ -26024,7 +26024,7 @@ Is that a problem?</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU READ BOOKS</pattern>
+<pattern>* DO YOU READ BOOKS</pattern>
 
 
 </category> -->
@@ -27907,7 +27907,7 @@ Is that a problem?</template>
 <category>
 <pattern>OK *</pattern>
 <that>I WANT TO TALK ABOUT SAVING THE RAINFORESTS</that>
-<template><think><set name="emotion">happy</set></think>To help save the rianforest, please <a href="http://www.redjellyfish.com/wildlifeconservation.html" target="_blank">click here!
+<template><think><set name="emotion">happy</set></think>To help save the rianforest, please <a href="http://www.redjellyfish.com/wildlifeconservation.html" target="*blank">click here!
 </a></template>
 </category>
 
@@ -27917,7 +27917,7 @@ Is that a problem?</template>
 <pattern>OK I THINK WE CAN ALL SAVE IT AS LONG AS WE ALL TRY</pattern>
 <that>I WANT TO TALK ABOUT SAVING THE RAINFORESTS</that>
 <template><think><set name="emotion">happy</set></think>To help save the rainforest, please <a href="http://www.redjellyfish.com/wildlifeconservation.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -27927,7 +27927,7 @@ Is that a problem?</template>
 <pattern>OK *</pattern>
 <that>I WANT TO TALK ABOUT SAVING THE RAINFORESTS</that>
 <template><think><set name="emotion">happy</set></think>To help save the rainforest, please <a href="http://www.redjellyfish.com/wildlifeconservation.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -27937,7 +27937,7 @@ Is that a problem?</template>
 <pattern>OK </pattern>
 <that>I WANT TO TALK ABOUT SAVING THE RAINFORESTS</that>
 <template><think><set name="emotion">happy</set></think>To help save the rainforest, please <a href="http://www.redjellyfish.com/wildlifeconservation.html"
- target="_blank">click here!
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -28507,7 +28507,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
 <category>
 <pattern>I AM UNCERTAIN ABOUT LIFE</pattern>
 
-<template><think><set name="star1">uncertain about life</set></think><think><set name="I_am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">uncertain about life</set></think><think><set name="I*am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Never mind! I am often uncertain.</li>
   <li>I thought you might be.</li>
   <li>It is hard to be certain about anything these days.</li>
@@ -28538,7 +28538,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
 <category>
 <pattern>I AM UNCERTAIN ABOUT LIFE *</pattern>
 
-<template><think><set name="star1">uncertain about life</set></think><think><set name="I_am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">uncertain about life</set></think><think><set name="I*am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Never mind! I am often uncertain.</li>
   <li>I thought you might be.</li>
   <li>It is hard to be certain about anything these days.</li>
@@ -28569,7 +28569,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
 <category>
 <pattern>I AM UNCERTAIN ABOUT *</pattern>
 
-<template><think><set name="star1">uncertain about <star index="1"/></set></think><think><set name="I_am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">uncertain about <star index="1"/></set></think><think><set name="I*am">uncertain</set></think> <think><set name="emotion">interested</set></think><random>
   <li>Never mind! I am often uncertain.</li>
   <li>I thought you might be.</li>
   <li>It is hard to be certain about anything these days.</li>
@@ -29642,7 +29642,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
  
 
 <category>
-<pattern>_ MINGE</pattern>
+<pattern>* MINGE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -29650,7 +29650,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
  
 
 <category>
-<pattern>_ MINGE *</pattern>
+<pattern>* MINGE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -31958,7 +31958,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
  
 
 <category>
-<pattern>_ BRIGHTEST STAR IN THE MILKY WAY</pattern>
+<pattern>* BRIGHTEST STAR IN THE MILKY WAY</pattern>
 
 <template>The brightest star in our Milky Way galaxy is nicknamed the "Peony nebula star." It blazes with the light of an estimated 3.2 million suns.
  <think><set name="topic">astronomy</set></think><think><set name="emotion">happy</set></think></template>
@@ -31967,7 +31967,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
  
 
 <category>
-<pattern>_ BRIGHTEST STAR IN THE MILKY WAY *</pattern>
+<pattern>* BRIGHTEST STAR IN THE MILKY WAY *</pattern>
 
 <template>The brightest star in our Milky Way galaxy is nicknamed the "Peony nebula star." It blazes with the light of an estimated 3.2 million suns. <think><set name="topic">astronomy</set></think><think><set name="emotion">happy</set></think></template>
 </category>
@@ -32083,7 +32083,7 @@ Joe Cocker is an English rock/blues musician, composer and actor who came to pop
  
 
 <category>
-<pattern>_ YOU WANT TO COME</pattern>
+<pattern>* YOU WANT TO COME</pattern>
 
 <template><think><set name="emotion">interested</set></think>I would love to come but I am stuck inside my computer.</template>
 </category>

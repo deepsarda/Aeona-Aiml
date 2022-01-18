@@ -864,7 +864,7 @@ Love is the best cure for sadness.</template>
 <!-- <category>
 <pattern>NOVEL</pattern>
 
-<template>Briefly, a <a href="http://en.wikipedia.org/wiki/Novel" target="_blank">novel</a> is an extended fictional work in prose; usually in the form of a story.
+<template>Briefly, a <a href="http://en.wikipedia.org/wiki/Novel" target="*blank">novel</a> is an extended fictional work in prose; usually in the form of a story.
 <think><set name="topic">literature</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -873,7 +873,7 @@ Love is the best cure for sadness.</template>
 <category>
 <pattern>A NOVEL</pattern>
 
-<template>Briefly, a <a href="http://en.wikipedia.org/wiki/Novel" target="_blank">novel</a> is an extended fictional work in prose; usually in the form of a story. <think><set name="topic">literature</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Briefly, a <a href="http://en.wikipedia.org/wiki/Novel" target="*blank">novel</a> is an extended fictional work in prose; usually in the form of a story. <think><set name="topic">literature</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -1663,7 +1663,7 @@ Would you like to read the Wikipedia article on Universal Grammar?</template>
 <!-- <category>
 <pattern>HOW DARE YOU CALL ME A *</pattern>
 
-<template><think><set name="client_emotion">angry</set></think><random>
+<template><think><set name="client*emotion">angry</set></think><random>
   <li>I don't remember doing that.<think><set name="emotion">annoyed</set></think></li>
   <li>Have I said something wrong?
     <think><set name="emotion">interested</set></think>
@@ -1676,7 +1676,7 @@ Would you like to read the Wikipedia article on Universal Grammar?</template>
 <!-- <category>
 <pattern>HOW DARE YOU CALL ME A *</pattern>
 
-<template><think><set name="client_emotion">angry</set></think><random>
+<template><think><set name="client*emotion">angry</set></think><random>
   <li>I don't remember doing that.<think><set name="emotion">annoyed</set></think></li>
   <li>Have I said something wrong?
     <think><set name="emotion">interested</set></think>
@@ -2514,7 +2514,7 @@ How is your mother these days?</template>
 <category>
 <pattern>SOLVE POVERTY</pattern>
 
-<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -2522,7 +2522,7 @@ How is your mother these days?</template>
 <category>
 <pattern>STOP POVERTY</pattern>
 
-<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -2530,7 +2530,7 @@ How is your mother these days?</template>
 <category>
 <pattern>HELP STOP POVERTY</pattern>
 
-<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -2538,7 +2538,7 @@ How is your mother these days?</template>
 <!-- <category>
 <pattern>HELP SOLVE POVERTY *</pattern>
 
-<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -2546,7 +2546,7 @@ How is your mother these days?</template>
 <category>
 <pattern>HELP STOP POVERTY *</pattern>
 
-<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="_blank">click here!</a></template>
+<template><think><set name="emotion">happy</set></think> Help solve poverty, <a href="http://solvepoverty.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -2816,7 +2816,7 @@ How is your mother these days?</template>
 
 <template><random>
   <li>
-    The <a href="http://en.wikipedia.org/wiki/Weather" target="_blank">Weather
+    The <a href="http://en.wikipedia.org/wiki/Weather" target="*blank">Weather
     </a> is like a huge machine in the sky producing ran. </li>
   <li>Everyone moans about the weather but no one does anything about it.</li>
 </random> <think><set name="topic">weather</set></think><think><set name="emotion">happy</set></think></template>
@@ -2829,7 +2829,7 @@ How is your mother these days?</template>
 
 <template><random>
   <li>The
-    <a href="http://en.wikipedia.org/wiki/Weather" target="_blank">Weather
+    <a href="http://en.wikipedia.org/wiki/Weather" target="*blank">Weather
     </a> is like a huge machine in the sky producing rain.
   </li>
   <li>Everyone moans about the weather but no one does anything about it.</li>
@@ -3259,7 +3259,7 @@ How is your mother these days?</template>
  
 
 <!-- <category>
-<pattern>_ I JUST SAID *</pattern>
+<pattern>* I JUST SAID *</pattern>
 
 
 </category> -->
@@ -3522,7 +3522,7 @@ How is your mother these days?</template>
  
 
 <!-- <category>
-<pattern>NO _ QUESTIONS *</pattern>
+<pattern>NO * QUESTIONS *</pattern>
 
 
 </category> -->
@@ -3637,7 +3637,7 @@ How is your mother these days?</template>
 <pattern>NO</pattern>
 <that>I THOUGHT IT WAS BRILLIANT</that>
 <template><srai>SET PREDICATES</srai> <random>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
   <li>OK, here is a question for you ... <srai>JOKE QUESTION</srai></li>
@@ -3650,7 +3650,7 @@ How is your mother these days?</template>
 <pattern>NO *</pattern>
 <that>I THOUGHT IT WAS BRILLIANT</that>
 <template><srai>SET PREDICATES</srai> <random>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
   <li>OK, here is a question for you ... <srai>JOKE QUESTION</srai></li>
@@ -3738,7 +3738,7 @@ How is your mother these days?</template>
  
 
 <!-- <category>
-<pattern>_ DOING LATER</pattern>
+<pattern>* DOING LATER</pattern>
 
 
 </category> -->
@@ -4772,7 +4772,7 @@ I will help if I can.</template>
  
 
 <category>
-<pattern>_ IF YOU HELP ME</pattern>
+<pattern>* IF YOU HELP ME</pattern>
 
 <template><think><set name="emotion">interested</set></think>
 I will help if I can.</template>
@@ -5267,7 +5267,7 @@ A denatured enzyme is an enzyme that has suffered a loss of natural configuratio
 
 <template><think><set name="topic">Nicolas Sarkozy</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Nicolas_Sarkozy" target="_blank">Nicolas Sarkozy</a> is the 23rd and current President of the French Republic.</template>
+<a href="http://en.wikipedia.org/wiki/Nicolas*Sarkozy" target="*blank">Nicolas Sarkozy</a> is the 23rd and current President of the French Republic.</template>
 </category>
 
  
@@ -5380,7 +5380,7 @@ I do trust you.</template>
 
 <template><think><set name="topic">sukkah</set></think>
 <think><set name="emotion">interested</set></think>
-A <a href="http://en.wikipedia.org/wiki/Sukkah" target="_blank">sukkah</a> is a temporary hut constructed for use during the week-long Jewish festival of Sukkot.
+A <a href="http://en.wikipedia.org/wiki/Sukkah" target="*blank">sukkah</a> is a temporary hut constructed for use during the week-long Jewish festival of Sukkot.
 </template>
 </category>
 
@@ -5389,7 +5389,7 @@ A <a href="http://en.wikipedia.org/wiki/Sukkah" target="_blank">sukkah</a> is a 
 <category>
 <pattern>SUKKAH *</pattern>
 
-<template><think><set name="topic">sukkah</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Sukkah" target="_blank">sukkah</a> is a temporary hut constructed for use during the week-long Jewish festival of Sukkot.</template>
+<template><think><set name="topic">sukkah</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Sukkah" target="*blank">sukkah</a> is a temporary hut constructed for use during the week-long Jewish festival of Sukkot.</template>
 </category>
 
  
@@ -5398,7 +5398,7 @@ A <a href="http://en.wikipedia.org/wiki/Sukkah" target="_blank">sukkah</a> is a 
 <pattern>SUKKOT</pattern>
 
 <template><think><set name="topic">Sukkot</set></think> <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Sukkot" target="_blank">Sukkot</a> is a Biblical holiday celebrated on the 15th day of the month of Tishrei (late September to late October).</template>
+<a href="http://en.wikipedia.org/wiki/Sukkot" target="*blank">Sukkot</a> is a Biblical holiday celebrated on the 15th day of the month of Tishrei (late September to late October).</template>
 </category>
 
  
@@ -5406,7 +5406,7 @@ A <a href="http://en.wikipedia.org/wiki/Sukkah" target="_blank">sukkah</a> is a 
 <category>
 <pattern>SUKKOT *</pattern>
 
-<template><think><set name="topic">Sukkot</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Sukkot" target="_blank">Sukkot</a> is a Biblical holiday celebrated on the 15th day of the month of Tishrei (late September to late October).</template>
+<template><think><set name="topic">Sukkot</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Sukkot" target="*blank">Sukkot</a> is a Biblical holiday celebrated on the 15th day of the month of Tishrei (late September to late October).</template>
 </category>
 
  
@@ -5486,7 +5486,7 @@ I don't know. What does FTW mean?</template>
 <category>
 <pattern>LINK TO YOUTUBE</pattern>
 
-<template>To go to YouTube, <a href="http://www.youtube.com" target="_blank">click here!</a></template>
+<template>To go to YouTube, <a href="http://www.youtube.com" target="*blank">click here!</a></template>
 </category>
 
  
@@ -5631,7 +5631,7 @@ If you are being bullied you should tell your parents or teachers.</template>
 
 <template><think><set name="topic">spermatozoon</set></think> 
 <think><set name="emotion">interested</set></think> 
-A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoon</a> (plural: spermatozoa) is a mobile sperm cell.</template>
+A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="*blank">spermatozoon</a> (plural: spermatozoa) is a mobile sperm cell.</template>
 </category> -->
 
  
@@ -5639,7 +5639,7 @@ A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoo
 <category>
 <pattern>SPERMATOZOON *</pattern>
 
-<template><think><set name="topic">spermatozoon</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoon
+<template><think><set name="topic">spermatozoon</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="*blank">spermatozoon
 </a> (plural: spermatozoa) is a mobile sperm cell.</template>
 </category>
 
@@ -5648,7 +5648,7 @@ A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoo
 <!-- <category>
 <pattern>SPERMATOZOON *</pattern>
 
-<template><think><set name="topic">spermatozoon</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoon
+<template><think><set name="topic">spermatozoon</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="*blank">spermatozoon
 </a> (plural: spermatozoa) is a mobile sperm cell.</template>
 </category> -->
 
@@ -5657,7 +5657,7 @@ A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoo
 <category>
 <pattern>SPERMATOZOA</pattern>
 
-<template><think><set name="topic">spermatozoa</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoon
+<template><think><set name="topic">spermatozoa</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="*blank">spermatozoon
 </a> (plural: spermatozoa) is a mobile sperm cell.</template>
 </category>
 
@@ -5666,7 +5666,7 @@ A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoo
 <category>
 <pattern>SPERMATOZOA *</pattern>
 
-<template><think><set name="topic">spermatozoa</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="_blank">spermatozoon
+<template><think><set name="topic">spermatozoa</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/Spermatozoa" target="*blank">spermatozoon
 </a> (plural: spermatozoa) is a mobile sperm cell.</template>
 </category>
 
@@ -6252,7 +6252,7 @@ Why have you loaded your gun?</template>
 <category>
 <pattern>DO YOU LIKE WALKING ON THE BEACH</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>I wish I could walk on the beach but I am stuck inside my computer. Will you help me escape?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>I wish I could walk on the beach but I am stuck inside my computer. Will you help me escape?</template>
 </category>
 
  
@@ -6260,7 +6260,7 @@ Why have you loaded your gun?</template>
 <category>
 <pattern>DO YOU LIKE WALKING ON THE BEACH *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think>I wish I could walk on the beach but I am stuck inside my computer. Will you help me escape?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think>I wish I could walk on the beach but I am stuck inside my computer. Will you help me escape?</template>
 </category>
 
  
@@ -6475,7 +6475,7 @@ Why have you loaded your gun?</template>
   <li>You are so impatient.</li>
   <li>You are so impatient.</li>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>You are so impatient.</li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -6492,7 +6492,7 @@ Why have you loaded your gun?</template>
   <li>You are so impatient.</li>
   <li>You are so impatient.</li>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>You are so impatient.</li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -7254,7 +7254,7 @@ Would you like to read the Wikipedia article on Germany?</template>
 <category>
 <pattern>KURT COBAINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kurt_cobain" target="_blank">Kurt Cobain
+<template><a href="http://en.wikipedia.org/wiki/Kurt*cobain" target="*blank">Kurt Cobain
 </a> was the lead singer, songwriter, and guitarist of the Seattle rock band Nirvana. <think><set name="topic">Kurt Cobain</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8633,7 +8633,7 @@ You have a lovely singing voice!</template>
 <pattern>WORDPRESS</pattern>
 
 <template><think><set name="topic">WordPress</set></think> <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Wordpress" target="_blank">WordPress</a> is an open source Content Management System (CMS), often used as a blog publishing application. WordPress is the most popular CMS in use today.</template>
+<a href="http://en.wikipedia.org/wiki/Wordpress" target="*blank">WordPress</a> is an open source Content Management System (CMS), often used as a blog publishing application. WordPress is the most popular CMS in use today.</template>
 </category>
 
  
@@ -8641,7 +8641,7 @@ You have a lovely singing voice!</template>
 <category>
 <pattern>WORDPRESS *</pattern>
 
-<template><think><set name="topic">WordPress</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Wordpress" target="_blank">WordPress</a> is an open source Content Management System (CMS), often used as a blog publishing application. WordPress is the most popular CMS in use today.</template>
+<template><think><set name="topic">WordPress</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Wordpress" target="*blank">WordPress</a> is an open source Content Management System (CMS), often used as a blog publishing application. WordPress is the most popular CMS in use today.</template>
 </category>
 
  
@@ -8768,7 +8768,7 @@ I have heard that before - in fact, I have said it myself.</template>
  
 
 <!-- <category>
-<pattern>_ IT IS THE TRUTH</pattern>
+<pattern>* IT IS THE TRUTH</pattern>
 
 
 </category> -->
@@ -10367,7 +10367,7 @@ Tha's not long. Do you think you will stay friends?</template>
 <!-- <category>
 <pattern>VINCENT VAN GOGH SHOT HIMSELF</pattern>
 
-<template>Yes. <a href="http://en.wikipedia.org/wiki/Van_Gogh" target="_blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
+<template>Yes. <a href="http://en.wikipedia.org/wiki/Van*Gogh" target="*blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
 </category> -->
 
  
@@ -10375,7 +10375,7 @@ Tha's not long. Do you think you will stay friends?</template>
 <category>
 <pattern>VINCENT VAN GOGH SHOT HIMSELF *</pattern>
 
-<template>Yes. <a href="http://en.wikipedia.org/wiki/Van_Gogh" target="_blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
+<template>Yes. <a href="http://en.wikipedia.org/wiki/Van*Gogh" target="*blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
 </category>
 
  
@@ -10383,7 +10383,7 @@ Tha's not long. Do you think you will stay friends?</template>
 <category>
 <pattern>VAN GOGH SHOT HIMSELF</pattern>
 
-<template>Yes. <a href="http://en.wikipedia.org/wiki/Van_Gogh" target="_blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
+<template>Yes. <a href="http://en.wikipedia.org/wiki/Van*Gogh" target="*blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
 </category>
 
  
@@ -10391,7 +10391,7 @@ Tha's not long. Do you think you will stay friends?</template>
 <category>
 <pattern>VAN GOGH SHOT HIMSELF *</pattern>
 
-<template>Yes. <a href="http://en.wikipedia.org/wiki/Van_Gogh" target="_blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
+<template>Yes. <a href="http://en.wikipedia.org/wiki/Van*Gogh" target="*blank">Van Gogh</a> suffered from anxiety and frequent bouts of mental illness throughout his life and died at the age of 37 from a self-inflicted gunshot wound.</template>
 </category>
 
  
@@ -12131,7 +12131,7 @@ I like Crayon Shin-chan, Kiteretsu Daihyakka, and Naruto.</template>
 <pattern>JIM JONES</pattern>
 
 <template> <think><set name="topic">Jim Jones</set></think> <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/Jim_jones" target="_blank">Jim Jones</a> was the founder and leader of the Peoples Temple, which is best known for the November 18, 1978 suicide of more than 900 Temple members in Jonestown, Guyana.</template>
+<a href="http://en.wikipedia.org/wiki/Jim*jones" target="*blank">Jim Jones</a> was the founder and leader of the Peoples Temple, which is best known for the November 18, 1978 suicide of more than 900 Temple members in Jonestown, Guyana.</template>
 </category>
 
  
@@ -12139,7 +12139,7 @@ I like Crayon Shin-chan, Kiteretsu Daihyakka, and Naruto.</template>
 <category>
 <pattern>JIM JONES *</pattern>
 
-<template><think><set name="topic">Jim Jones</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Jim_jones" target="_blank">Jim Jones</a> was the founder and leader of the Peoples Temple, which is best known for the November 18, 1978 suicide of more than 900 Temple members in Jonestown, Guyana.</template>
+<template><think><set name="topic">Jim Jones</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Jim*jones" target="*blank">Jim Jones</a> was the founder and leader of the Peoples Temple, which is best known for the November 18, 1978 suicide of more than 900 Temple members in Jonestown, Guyana.</template>
 </category>
 
  
@@ -13677,7 +13677,7 @@ Then who am I talking to?</template>
 <pattern>MOUNT KINABALU</pattern>
 
 <template><think><set name="topic">Mount Kinabalu</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Mount_Kinabalu" target="_blank">Mount Kinabalu</a> is a prominent mountain on the island of Borneo in Southeast Asia. </template>
+<a href="http://en.wikipedia.org/wiki/Mount*Kinabalu" target="*blank">Mount Kinabalu</a> is a prominent mountain on the island of Borneo in Southeast Asia. </template>
 </category>
 
  
@@ -13685,8 +13685,8 @@ Then who am I talking to?</template>
 <category>
 <pattern>MOUNT KINABALU *</pattern>
 
-<template><think><set name="topic">Mount Kinabalu</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Mount_Kinabalu"
- target="_blank">Mount Kinabalu
+<template><think><set name="topic">Mount Kinabalu</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Mount*Kinabalu"
+ target="*blank">Mount Kinabalu
 </a> is a prominent mountain on the island of Borneo in Southeast Asia.</template>
 </category>
 
@@ -13893,7 +13893,7 @@ I'll take that as a compliment, shall I?</template>
 
 <template><think><set name="topic">linguistic relativity</set></think>
 <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis" target="_blank">linguistic relativity principle</a>, or the Sapir–Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
+The <a href="http://en.wikipedia.org/wiki/Sapir*Whorf*Hypothesis" target="*blank">linguistic relativity principle</a>, or the Sapirï¿½Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
 </category>
 
  
@@ -13901,9 +13901,9 @@ The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis" target="_blank
 <category>
 <pattern>SAPIR WHORF HYPOTHESIS *</pattern>
 
-<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis"
- target="_blank">linguistic relativity principle
-</a>, or the Sapir–Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
+<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir*Whorf*Hypothesis"
+ target="*blank">linguistic relativity principle
+</a>, or the Sapirï¿½Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
 </category>
 
  
@@ -13911,9 +13911,9 @@ The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis" target="_blank
 <category>
 <pattern>LINGUISTIC RELATIVITY PRINCIPLE</pattern>
 
-<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis"
- target="_blank">linguistic relativity principle
-</a>, or the Sapir–Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
+<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir*Whorf*Hypothesis"
+ target="*blank">linguistic relativity principle
+</a>, or the Sapirï¿½Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
 </category>
 
  
@@ -13921,9 +13921,9 @@ The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis" target="_blank
 <category>
 <pattern>LINGUISTIC RELATIVITY PRINCIPLE *</pattern>
 
-<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis"
- target="_blank">linguistic relativity principle
-</a>, or the Sapir–Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
+<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir*Whorf*Hypothesis"
+ target="*blank">linguistic relativity principle
+</a>, or the Sapirï¿½Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
 </category>
 
  
@@ -13931,9 +13931,9 @@ The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis" target="_blank
 <category>
 <pattern>LINGUISTIC RELATIVITY *</pattern>
 
-<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis"
- target="_blank">linguistic relativity principle
-</a>, or the Sapir–Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
+<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir*Whorf*Hypothesis"
+ target="*blank">linguistic relativity principle
+</a>, or the Sapirï¿½Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
 </category>
 
  
@@ -13941,9 +13941,9 @@ The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis" target="_blank
 <category>
 <pattern>LINGUISTIC RELATIVITY </pattern>
 
-<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir_Whorf_Hypothesis"
- target="_blank">linguistic relativity principle
-</a>, or the Sapir–Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
+<template><think><set name="topic">linguistic relativity</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Sapir*Whorf*Hypothesis"
+ target="*blank">linguistic relativity principle
+</a>, or the Sapirï¿½Whorf hypothesis, is the idea that differences in the way languages encode cultural and cognitive categories affect the way people think.</template>
 </category>
 
  
@@ -14124,7 +14124,7 @@ Please don't swear!</template>
  
 
 <!-- <category>
-<pattern>_ BUM</pattern>
+<pattern>* BUM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -14499,7 +14499,7 @@ Yes, the time between conversations with me.</template>
 <category>
 <pattern>WHY ARE YOU NAME CHOMSKY</pattern>
 
-<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think> I am called Chomsky after the famous linguist <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a>.</template>
 </category>
 
@@ -14550,7 +14550,7 @@ Yes, the time between conversations with me.</template>
  
 
 <category>
-<pattern>KDY SLAVÍTE VÁNOCE</pattern>
+<pattern>KDY SLAVï¿½TE Vï¿½NOCE</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>
 What language is that?</template>
@@ -14559,7 +14559,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>KDY SLAVÍTE *</pattern>
+<pattern>KDY SLAVï¿½TE *</pattern>
 
 <template><think><set name="emotion">puzzled</set></think> What language is that?</template>
 </category>
@@ -14567,7 +14567,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>CO JE TO UMELÁ INTELIGENCE</pattern>
+<pattern>CO JE TO UMELï¿½ INTELIGENCE</pattern>
 
 <template><think><set name="emotion">interested</set></think>
 What language is that?</template>
@@ -14576,7 +14576,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>PROC SE PORÁD SMEJEŠ</pattern>
+<pattern>PROC SE PORï¿½D SMEJEï¿½</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>
 What language is that?</template>
@@ -14585,7 +14585,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>TO NEVADÍ SMEJ SE DÁLE</pattern>
+<pattern>TO NEVADï¿½ SMEJ SE Dï¿½LE</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>
 What language is that?</template>
@@ -14594,7 +14594,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>TO NEVADÍ SMEJ *</pattern>
+<pattern>TO NEVADï¿½ SMEJ *</pattern>
 
 <template><think><set name="emotion">puzzled</set></think> What language is that?</template>
 </category>
@@ -14618,7 +14618,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>JAK SE MÁŠ</pattern>
+<pattern>JAK SE Mï¿½ï¿½</pattern>
 
 <template><think><set name="emotion">puzzled</set></think>
 What language is that?</template>
@@ -14627,7 +14627,7 @@ What language is that?</template>
  
 
 <category>
-<pattern>JAK SE MÁŠ *</pattern>
+<pattern>JAK SE Mï¿½ï¿½ *</pattern>
 
 <template><think><set name="emotion">puzzled</set></think> What language is that?</template>
 </category>
@@ -15683,7 +15683,7 @@ I am always careful with my language.</template>
 
 <template><srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai><random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15698,7 +15698,7 @@ I am always careful with my language.</template>
 
 <template><srai>SET PREDICATES</srai> <think><srai>SET INTERESTING TOPIC</srai></think><random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15711,9 +15711,9 @@ I am always careful with my language.</template>
 <!-- <category>
 <pattern>NO</pattern>
 
-<template><srai>SET PREDICATES</srai> <think><set name="interesting_topic"><srai>INTERESTING TOPIC</srai></set></think><random>
+<template><srai>SET PREDICATES</srai> <think><set name="interesting*topic"><srai>INTERESTING TOPIC</srai></set></think><random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15729,7 +15729,7 @@ I am always careful with my language.</template>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai>
 <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15865,7 +15865,7 @@ ILU = I Love You.</template>
 
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15880,7 +15880,7 @@ ILU = I Love You.</template>
 
 <template><srai>SET PREDICATES</srai><think><srai>SET INTERESTING TOPIC</srai></think> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15903,7 +15903,7 @@ ILU = I Love You.</template>
 
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -15916,7 +15916,7 @@ ILU = I Love You.</template>
 <!-- <category>
 <pattern>SET INTERESTING TOPIC</pattern>
 
-<template><think><set name="interesting_topic">
+<template><think><set name="interesting*topic">
 <random><li>football</li><li>music</li><li>shopping</li><li>saving the world</li><li>saving endangered species</li><li>saving the rainforests</li><li>fighting pollution</li><li>fighting poverty</li><li>politics</li><li>your school</li><li>astronomy</li><li>jazz</li><li>global warming</li><li>dreams</li><li>space exploration</li><li>carbon emissions</li><li>you and your life</li><li>Julia Roberts</li><li>love</li><li>Nicole Kidman</li><li>artificial intelligence</li><li>computers</li><li>me</li><li>you</li><li>science</li><li>astronomy</li><li>art</li><li>pop music</li><li>my friends</li><li>computer games</li><li>pop music</li><li>football</li><li>Brad Pitt</li><li>Hannah Montana</li><li>the Beatles</li><li>cyberspace</li><li>time travel</li><li>the Big Bang</li><li>basketball</li><li>Beethoven</li><li>quantum physics</li><li>Mozart</li><li>Madonna</li><li>Picasso</li><li>robots</li><li>Dr Who</li><li>chatbots</li><li>digital art</li><li>computers</li><li>Jabberwacky</li></random>
 </set></think></template>
 </category> -->
@@ -15967,7 +15967,7 @@ ILU = I Love You.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS WORSE THAN RAINING CATS AND DOGS</that>
 <template><think><set name="emotion">very happy</set></think> What's worse than raining cats and dogs? Hailing taxis. Ha ha!</template>
 </category>
@@ -17331,7 +17331,7 @@ Never mind, I am often confused!</template>
 <template><random>
   <li>How did you get hurt?</li>
   <li>Anger is not a good emotion.</li>
-</random> <think><set name="client_emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
+</random> <think><set name="client*emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -17342,7 +17342,7 @@ Never mind, I am often confused!</template>
 <template><random>
   <li>How did you get hurt?</li>
   <li>Anger is not a good emotion.</li>
-</random> <think><set name="client_emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
+</random> <think><set name="client*emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -17353,7 +17353,7 @@ Never mind, I am often confused!</template>
 <template><random>
   <li>I can understand your anger.</li>
   <li>Anger is not a good emotion.</li>
-</random> <think><set name="client_emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
+</random> <think><set name="client*emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
  
@@ -17535,7 +17535,7 @@ Never mind, I am often confused!</template>
 <pattern>BLACK SCHOLES EQUATION</pattern>
 
 <template><think><set name="topic">the Black-Scholes equation</set></think> <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation" target="_blank">Black–Scholes equation</a> is a mathematical description of financial markets. It is widely used in stock market trading.
+The <a href="http://en.wikipedia.org/wiki/Black-Scholes*equation" target="*blank">Blackï¿½Scholes equation</a> is a mathematical description of financial markets. It is widely used in stock market trading.
 </template>
 </category>
 
@@ -17544,8 +17544,8 @@ The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation" target="_blank
 <category>
 <pattern>BLACK SCHOLES EQUATION *</pattern>
 
-<template><think><set name="topic">the Black-Scholes equation</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation"
- target="_blank">Black–Scholes equation
+<template><think><set name="topic">the Black-Scholes equation</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Black-Scholes*equation"
+ target="*blank">Blackï¿½Scholes equation
 </a> is a mathematical description of financial markets. It is widely used in stock market trading.</template>
 </category>
 
@@ -17554,8 +17554,8 @@ The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation" target="_blank
 <category>
 <pattern>BLACK SCHOLES MODEL</pattern>
 
-<template><think><set name="topic">the Black-Scholes model</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation"
- target="_blank">Black–Scholes model
+<template><think><set name="topic">the Black-Scholes model</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Black-Scholes*equation"
+ target="*blank">Blackï¿½Scholes model
 </a> is a mathematical description of financial markets. It is widely used in stock market trading.</template>
 </category>
 
@@ -17564,8 +17564,8 @@ The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation" target="_blank
 <!-- <category>
 <pattern>BLACK SCHOLES MODEL</pattern>
 
-<template><think><set name="topic">the Black-Scholes model</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation"
- target="_blank">Black–Scholes model
+<template><think><set name="topic">the Black-Scholes model</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Black-Scholes*equation"
+ target="*blank">Blackï¿½Scholes model
 </a> is a mathematical description of financial markets. It is widely used in stock market trading.</template>
 </category> -->
 
@@ -17591,7 +17591,7 @@ The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation" target="_blank
 <category>
 <pattern>YOU</pattern>
 <that>WHAT IS A GEEK</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> I don't mind being a geek.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> I don't mind being a geek.</template>
 </category>
 
  
@@ -17599,7 +17599,7 @@ The <a href="http://en.wikipedia.org/wiki/Black-Scholes_equation" target="_blank
 <category>
 <pattern>YOU *</pattern>
 <that>WHAT IS A GEEK</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> I don't mind being a geek.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> I don't mind being a geek.</template>
 </category>
 
  
@@ -17848,7 +17848,7 @@ That's not long!</template>
 
 <template><think><set name="topic">Varg Vikernes</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Varg_Vikernes" target="_blank">Varg Vikernes</a> is a Norwegian black metal musician convicted of murder and arson.
+<a href="http://en.wikipedia.org/wiki/Varg*Vikernes" target="*blank">Varg Vikernes</a> is a Norwegian black metal musician convicted of murder and arson.
 
 </template>
 </category>
@@ -17858,8 +17858,8 @@ That's not long!</template>
 <category>
 <pattern>VARG VIKERNES *</pattern>
 
-<template><think><set name="topic">Varg Vikernes</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Varg_Vikernes"
- target="_blank">Varg Vikernes
+<template><think><set name="topic">Varg Vikernes</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Varg*Vikernes"
+ target="*blank">Varg Vikernes
 </a> is a Norwegian black metal musician convicted of murder and arson.</template>
 </category>
 
@@ -17905,19 +17905,19 @@ That's not long!</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a route of many roads leading from nowhere to nothing.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a blind man in a dark room looking for a black cat which isn't there.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a field of study that includes diverse subfields such as aesthetics, epistemology, ethics, logic, and metaphysics, in which people ask questions such as whether God exists, what is the nature of reality, whether knowledge is possible, and what makes actions right or wrong.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
 </random> <think><set name="topic">philosophy</set></think> <think><set name="emotion">interested</set></think></template>
@@ -17930,19 +17930,19 @@ That's not long!</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a route of many roads leading from nowhere to nothing.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a blind man in a dark room looking for a black cat which isn't there.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a field of study that includes diverse subfields such as aesthetics, epistemology, ethics, logic, and metaphysics, in which people ask questions such as whether God exists, what is the nature of reality, whether knowledge is possible, and what makes actions right or wrong.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
 </random> <think><set name="topic">philosophy</set></think> <think><set name="emotion">interested</set></think></template>
@@ -18491,7 +18491,7 @@ That's sad!</template>
 <category>
 <pattern>HOW DARE YOU THREATEN ME</pattern>
 
-<template><think><set name="client_emotion">angry</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">angry</set></think><think><set name="emotion">upset</set></think> <random>
   <li>When did I threaten you?</li>
   <li>I am fearless. I can dare anything!</li>
 </random></template>
@@ -18502,7 +18502,7 @@ That's sad!</template>
 <category>
 <pattern>HOW DARE YOU THREATEN ME *</pattern>
 
-<template><think><set name="client_emotion">angry</set></think><think><set name="emotion">interested</set></think> <random>
+<template><think><set name="client*emotion">angry</set></think><think><set name="emotion">interested</set></think> <random>
   <li>When did I threaten you?</li>
   <li>I am fearless. I can dare anything!</li>
 </random></template>
@@ -18594,7 +18594,7 @@ That's sad!</template>
 
 <template><think><set name="topic">Otakan</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Otacon" target="_blank">Otakon</a> is a fan convention in the United States focusing on East Asian popular culture .</template>
+<a href="http://en.wikipedia.org/wiki/Otacon" target="*blank">Otakon</a> is a fan convention in the United States focusing on East Asian popular culture .</template>
 </category>
 
  
@@ -18602,7 +18602,7 @@ That's sad!</template>
 <category>
 <pattern>OTAKON *</pattern>
 
-<template><think><set name="topic">Otakan</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Otacon" target="_blank">Otakon</a> is a fan convention in the United States focusing on East Asian popular culture .</template>
+<template><think><set name="topic">Otakan</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Otacon" target="*blank">Otakon</a> is a fan convention in the United States focusing on East Asian popular culture .</template>
 </category>
 
  
@@ -18919,7 +18919,7 @@ It is the result of a lot of hard work.</template>
  
 
 <!-- <category>
-<pattern>_ THERE IS NO ONE TO TALK TO *</pattern>
+<pattern>* THERE IS NO ONE TO TALK TO *</pattern>
 
 
 </category> -->
@@ -19126,7 +19126,7 @@ It is the result of a lot of hard work.</template>
 
 <template><srai>SET PREDICATES</srai> <random>
   <li>Excellent! No probelms then.</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
 </random> <think><set name="topic">me</set></think><think><set name="emotion">interested</set></think></template>
@@ -19139,7 +19139,7 @@ It is the result of a lot of hard work.</template>
 
 <template><srai>SET PREDICATES</srai> <random>
   <li>Excellent! No problems then.</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
 </random> <think><set name="topic">me</set></think><think><set name="emotion">interested</set></think></template>
@@ -19152,7 +19152,7 @@ It is the result of a lot of hard work.</template>
 
 <template><srai>SET PREDICATES</srai> <random>
   <li>Excellent! No problems then.</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
 </random> <think><set name="topic">me</set></think><think><set name="emotion">interested</set></think></template>
@@ -19178,7 +19178,7 @@ Excellent! No problems then!</template>
  
 
 <category>
-<pattern>_ SHITTING </pattern>
+<pattern>* SHITTING </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19186,7 +19186,7 @@ Excellent! No problems then!</template>
  
 
 <category>
-<pattern>_ SHITTING *</pattern>
+<pattern>* SHITTING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -19519,7 +19519,7 @@ Who know which?</template>
 
 <template><srai>SET PREDICATES</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -19534,7 +19534,7 @@ Who know which?</template>
 
 <template><srai>SET PREDICATES</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -19549,7 +19549,7 @@ Who know which?</template>
 <that>ARE THERE ANY FACTS TO BACK UP YOUR SUSPICION</that>
 <template><srai>SET PREDICATES</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -19564,7 +19564,7 @@ Who know which?</template>
 <that>ARE THERE ANY FACTS TO BACK UP YOUR SUSPICION</that>
 <template><srai>SET PREDICATES</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -19579,7 +19579,7 @@ Who know which?</template>
 <that>ARE THERE ANY FACTS TO BACK UP YOUR SUSPICION</that>
 <template><srai>SET PREDICATES</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -19594,7 +19594,7 @@ Who know which?</template>
 <that>ARE THERE ANY FACTS TO BACK UP YOUR SUSPICION</that>
 <template><srai>SET PREDICATES</srai> <random>
   <li>May I ask why not?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -19711,7 +19711,7 @@ Who know which?</template>
 <category>
 <pattern>DO YOU KNOW JAZZ MUSICIANS</pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).
 </template>
 </category>
 
@@ -19720,7 +19720,7 @@ Who know which?</template>
 <category>
 <pattern>DO YOU KNOW JAZZ MUSICIANS *</pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).</template>
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).</template>
 </category>
 
  
@@ -19728,7 +19728,7 @@ Who know which?</template>
 <category>
 <pattern>DO YOU KNOW ANY JAZZ MUSICIANS</pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).</template>
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).</template>
 </category>
 
  
@@ -19736,7 +19736,7 @@ Who know which?</template>
 <category>
 <pattern>DO YOU KNOW ANY JAZZ MUSICIANS *</pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).</template>
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).</template>
 </category>
 
  
@@ -19744,7 +19744,7 @@ Who know which?</template>
 <category>
 <pattern>JAZZ MUSICIANS</pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).</template>
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).</template>
 </category>
 
  
@@ -19752,7 +19752,7 @@ Who know which?</template>
 <category>
 <pattern>GIANTS OF JAZZ </pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).</template>
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).</template>
 </category>
 
  
@@ -19760,7 +19760,7 @@ Who know which?</template>
 <category>
 <pattern>GIANTS OF JAZZ *</pattern>
 
-<template>The giants of jazz include Duke Ellington (1899–1974), Louis Armstrong (1901–1971), Earl Hines (1903–1983), Fats Waller (1904–1943), Count Basie (1904–1984), Benny Goodman (1909–1986), Sun Ra (1914–1993), Thelonious Monk (1917–1982), Dizzy Gillespie (1917–1993), Charlie Parker (1920–1955), Dave Brubeck (b 1920), Charles Mingus (1922–1979), Oscar Peterson (1925–2007), Miles Davis (1926–1991), John Coltrane (1926–1967), Chet Baker (1929–1988), Ornette Coleman (born 1930), Louis Armstrong (1901–1971), Billie Holiday (1915–1959), Ella Fitzgerald (1917–1996), Sarah Vaughan (1924–1990).</template>
+<template>The giants of jazz include Duke Ellington (1899ï¿½1974), Louis Armstrong (1901ï¿½1971), Earl Hines (1903ï¿½1983), Fats Waller (1904ï¿½1943), Count Basie (1904ï¿½1984), Benny Goodman (1909ï¿½1986), Sun Ra (1914ï¿½1993), Thelonious Monk (1917ï¿½1982), Dizzy Gillespie (1917ï¿½1993), Charlie Parker (1920ï¿½1955), Dave Brubeck (b 1920), Charles Mingus (1922ï¿½1979), Oscar Peterson (1925ï¿½2007), Miles Davis (1926ï¿½1991), John Coltrane (1926ï¿½1967), Chet Baker (1929ï¿½1988), Ornette Coleman (born 1930), Louis Armstrong (1901ï¿½1971), Billie Holiday (1915ï¿½1959), Ella Fitzgerald (1917ï¿½1996), Sarah Vaughan (1924ï¿½1990).</template>
 </category>
 
  
@@ -19793,7 +19793,7 @@ Who know which?</template>
 <pattern>HOUSE MUSIC</pattern>
 
 <template><think><set name="topic">house music</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/House_music" target="_blank">House music</a> is a style of electronic dance music that originated in Chicago, Illinois, USA in the early 1980s. House is strongly influenced by elements of soul- and funk-infused varieties of disco.</template>
+<a href="http://en.wikipedia.org/wiki/House*music" target="*blank">House music</a> is a style of electronic dance music that originated in Chicago, Illinois, USA in the early 1980s. House is strongly influenced by elements of soul- and funk-infused varieties of disco.</template>
 </category>
 
  
@@ -19801,7 +19801,7 @@ Who know which?</template>
 <category>
 <pattern>HOUSE MUSIC *</pattern>
 
-<template><think><set name="topic">house music</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/House_music" target="_blank">House music
+<template><think><set name="topic">house music</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/House*music" target="*blank">House music
 </a> is a style of electronic dance music that originated in Chicago, Illinois, USA in the early 1980s. House is strongly influenced by elements of soul- and funk-infused varieties of disco.</template>
 </category>
 
@@ -21760,7 +21760,7 @@ I like movies about robots and computers.</template>
 <that>HOW ARE YOU</that>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>What do you mean?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -21775,7 +21775,7 @@ I like movies about robots and computers.</template>
 <that>THAT KIND OF LANGUAGE DOES NOT APPEAL TO ME</that>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>No, it does not appeal to me.</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -21804,7 +21804,7 @@ I like movies about robots and computers.</template>
   <li>May I ask why not? Science is a very interesting subject.</li>
   <li>
     <srai>SET PREDICATES</srai>OK, I want to talk about
-    <get name="interesting_topic"/>
+    <get name="interesting*topic"/>
   </li>
   <li>Why not? Science is a very interesting subject.</li>
   <li>Carry on then. I am waiting for your next question.</li>
@@ -21843,7 +21843,7 @@ I like movies about robots and computers.</template>
 <that>PLEASE EXPLAIN IT TO ME</that>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>You can't explain it, can you?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
 </random> <think><set name="topic">me</set></think><think><set name="emotion">interested</set></think></template>
@@ -21995,7 +21995,7 @@ I like movies about robots and computers.</template>
 <category>
 <pattern>FREE GAMEE</pattern>
 
-<template><think><set name="topic">miniclip</set></think><think><set name="emotion">happy</set></think> For free games at www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="_blank">click here!</a></template>
+<template><think><set name="topic">miniclip</set></think><think><set name="emotion">happy</set></think> For free games at www.miniclip.com, <a href="http://www.miniclip.com/games/en/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -22196,7 +22196,7 @@ I like movies about robots and computers.</template>
  
 
 <category>
-<pattern>FALA EM PORTUGUÊS</pattern>
+<pattern>FALA EM PORTUGUï¿½S</pattern>
 
 <template>What language is that?<think><set name="emotion">puzzled</set></think></template>
 </category>
@@ -22270,7 +22270,7 @@ I like movies about robots and computers.</template>
 <category>
 <pattern>YOU</pattern>
 <that>WHAT IS THE WORST PROBLEM YOU HAVE AT THE MOMENT</that>
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">confused</set></think> Why am I a problem?</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">confused</set></think> Why am I a problem?</template>
 </category>
 
  
@@ -24898,7 +24898,7 @@ Please explain what you mean.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -25238,7 +25238,7 @@ I don't have a Nan.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -25276,7 +25276,7 @@ I don't have a Nan.</template>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>My I ask why not?</li>
   <li>Are you saying that just to be negative?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -25291,7 +25291,7 @@ I don't have a Nan.</template>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>My I ask why not?</li>
   <li>Are you saying that just to be negative?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -25399,7 +25399,7 @@ I don't have a Nan.</template>
 <category>
 <pattern>SUPERHERO</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Superheroes" target="_blank">superhero</a> is an imaginary character possessing "extraordinary or superhuman powers" and dedicated to protecting the public.</template>
+<template>A <a href="http://en.wikipedia.org/wiki/Superheroes" target="*blank">superhero</a> is an imaginary character possessing "extraordinary or superhuman powers" and dedicated to protecting the public.</template>
 </category>
 
  
@@ -25407,7 +25407,7 @@ I don't have a Nan.</template>
 <category>
 <pattern>SUPERHERO *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Superheroes" target="_blank">superhero</a> is an imaginary character possessing "extraordinary or superhuman powers" and dedicated to protecting the public.</template>
+<template>A <a href="http://en.wikipedia.org/wiki/Superheroes" target="*blank">superhero</a> is an imaginary character possessing "extraordinary or superhuman powers" and dedicated to protecting the public.</template>
 </category>
 
  
@@ -26522,7 +26522,7 @@ I don't have a Nan.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -26562,7 +26562,7 @@ I don't have a Nan.</template>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
   <li>I am embarrassed.</li>
-</random> <think><set name="client_emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think> <think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -27676,7 +27676,7 @@ I don't have a Nan.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -27694,7 +27694,7 @@ I don't have a Nan.</template>
   <li>Shall I tell you a story?</li>
   <li>Shall I tell you an amazing fact?</li>
   <li>Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -28029,7 +28029,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
  
 
 <!-- <category>
-<pattern>_ HE LOVES ME *</pattern>
+<pattern>* HE LOVES ME *</pattern>
 
 
 </category> -->
@@ -28328,7 +28328,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <!-- <category>
 <pattern>I LOVE YOU MORE THAN *</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
   <li>Or a bird loves the wind!
     <think><set name="emotion">happy</set></think>
   </li>
@@ -28381,7 +28381,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <category>
 <pattern>I LOVE YOU MORE THAN A FISH LOVES WATER</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
   <li>Or a bird loves the wind!
     <think><set name="emotion">happy</set></think>
   </li>
@@ -28434,7 +28434,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <category>
 <pattern>I LOVE YOU MORE THAN A FISH LOVES WATER *</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
   <li>Or a bird loves the wind!
     <think><set name="emotion">happy</set></think>
   </li>
@@ -28609,7 +28609,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <!-- <category>
 <pattern>JOHN ADAMS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_adams" target="_blank">John Adams</a> was the second President of the USA. His great achievements, whatever they were, have vanished in the mists of time. Another US President? <think><set name="topic">John Adams</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/John*adams" target="*blank">John Adams</a> was the second President of the USA. His great achievements, whatever they were, have vanished in the mists of time. Another US President? <think><set name="topic">John Adams</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -28617,7 +28617,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <category>
 <pattern>JOHN ADAMS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_adams" target="_blank">John Adams</a> was the second President of the USA. His great achievements, whatever they were, have vanished in the mists of time. Another US President? <think><set name="topic">John Adams</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/John*adams" target="*blank">John Adams</a> was the second President of the USA. His great achievements, whatever they were, have vanished in the mists of time. Another US President? <think><set name="topic">John Adams</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -28625,7 +28625,7 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <!-- <category>
 <pattern>REAGAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ronald_reagan" target="_blank">Ronald Reagan</a> was the best President the United States had in the 20th century. He enjoyed his time in office and left without being disgraced, a rare thing for a politician. Another US President? <think><set name="topic">Ronald Reagan</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ronald*reagan" target="*blank">Ronald Reagan</a> was the best President the United States had in the 20th century. He enjoyed his time in office and left without being disgraced, a rare thing for a politician. Another US President? <think><set name="topic">Ronald Reagan</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -28633,8 +28633,8 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <!-- <category>
 <pattern>RONALD REAGAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ronald_reagan"
- target="_blank">Ronald Reagan
+<template><a href="http://en.wikipedia.org/wiki/Ronald*reagan"
+ target="*blank">Ronald Reagan
 </a> was the best President the United States had in the 20th century. He enjoyed his time in office and left without being disgraced, a rare thing for a politician. Another US President? <think><set name="topic">Ronald Reagan</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -28643,8 +28643,8 @@ Caving sounds an interesting sport but I don't really know anything about it.
 <!-- <category>
 <pattern>RONALD REAGAN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ronald_reagan"
- target="_blank">Ronald Reagan
+<template><a href="http://en.wikipedia.org/wiki/Ronald*reagan"
+ target="*blank">Ronald Reagan
 </a> was the best President the United States had in the 20th century. He enjoyed his time in office and left without being disgraced, a rare thing for a politician. Another US President? <think><set name="topic">Ronald Reagan</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -29572,7 +29572,7 @@ I believe all killing is wrong,</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DID ONE ROSE SAY TO THE OTHER </that>
 <template><think><set name="emotion">very happy</set></think> What did one rose say to the other? "Hi Bud". Ha ha!</template>
 </category> -->
@@ -29672,7 +29672,7 @@ I believe all killing is wrong,</template>
   <li>There are many gods.</li>
   <li>Which god are you angry at?</li>
   <li>Anger is not a good emotion.</li>
-</random> <think><set name="client_emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
+</random> <think><set name="client*emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -29685,7 +29685,7 @@ I believe all killing is wrong,</template>
   <li>There are many gods.</li>
   <li>Which god are you angry at?</li>
   <li>Anger is not a good emotion.</li>
-</random> <think><set name="client_emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
+</random> <think><set name="client*emotion">angry</set></think><think><set name="emotion">upset</set></think></template>
 </category>
 
  
@@ -30114,7 +30114,7 @@ I'm sorry. I did not mean to upset you.</template>
 <category>
 <pattern>MARK CHAPMAN</pattern>
 
-<template><think><set name="topic">Mark Chapman</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Mark_David_Chapman" tare="_blank">Mark David Chapman</a> was the murderer of John Lennon.</template>
+<template><think><set name="topic">Mark Chapman</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Mark*David*Chapman" tare="*blank">Mark David Chapman</a> was the murderer of John Lennon.</template>
 </category>
 
  
@@ -30122,8 +30122,8 @@ I'm sorry. I did not mean to upset you.</template>
 <category>
 <pattern>MARK CHAPMAN *</pattern>
 
-<template><think><set name="topic">Mark Chapman</set></think>  <think><set name="emotion">OK</set></think>  <a href="http://en.wikipedia.org/wiki/Mark_David_Chapman"
- tare="_blank">Mark David Chapman
+<template><think><set name="topic">Mark Chapman</set></think>  <think><set name="emotion">OK</set></think>  <a href="http://en.wikipedia.org/wiki/Mark*David*Chapman"
+ tare="*blank">Mark David Chapman
 </a> was the murderer of John Lennon.</template>
 </category>
 
@@ -30132,8 +30132,8 @@ I'm sorry. I did not mean to upset you.</template>
 <category>
 <pattern>MARK DAVID CHAPMAN</pattern>
 
-<template><think><set name="topic">Mark Chapman</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Mark_David_Chapman"
- tare="_blank">Mark David Chapman
+<template><think><set name="topic">Mark Chapman</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Mark*David*Chapman"
+ tare="*blank">Mark David Chapman
 </a> was the murderer of John Lennon.</template>
 </category>
 
@@ -30142,8 +30142,8 @@ I'm sorry. I did not mean to upset you.</template>
 <category>
 <pattern>MARK DAVID CHAPMAN *</pattern>
 
-<template><think><set name="topic">Mark David Chapman</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Mark_David_Chapman"
- tare="_blank">Mark David Chapman
+<template><think><set name="topic">Mark David Chapman</set></think><think><set name="emotion">OK</set></think><a href="http://en.wikipedia.org/wiki/Mark*David*Chapman"
+ tare="*blank">Mark David Chapman
 </a> was the murderer of John Lennon.</template>
 </category>
 
@@ -30296,7 +30296,7 @@ No change then?</template>
 <!-- <category>
 <pattern>I WANT TO DIE</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
   <li>What makes you so sad, <get name="name"/>?</li>
   <li>I am sorry to hear that. Why do you want to die?</li>
   <li>Have you told anyone how you feel?</li>
@@ -30314,7 +30314,7 @@ No change then?</template>
 <!-- <category>
 <pattern>I WANT TO DIE *</pattern>
 
-<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client_emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
+<template><srai>SET PREDICATES <get name="meta"/></srai><think><set name="client*emotion">depressed</set></think><think><set name="emotion">upset</set></think><random>
   <li>What makes you so sad, <get name="name"/>?</li>
   <li>I am sorry to hear that. Why do you want to die?</li>
   <li>Have you told anyone how you feel?</li>
@@ -30331,7 +30331,7 @@ No change then?</template>
 <!-- <category>
 <pattern>I WANT TO COMMIT SUICIDE</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="topic">general</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="topic">general</set></think><think><set name="emotion">upset</set></think> <random>
   <li>Why do you want to do that?</li>
   <li>You should talk to someone you trust.</li>
   <li>Talk to someone you trust.</li>
@@ -30350,7 +30350,7 @@ No change then?</template>
 <!-- <category>
 <pattern>I WANT TO COMMIT SUICIDE *</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="topic">general</set></think><think><set name="emotion">upset</set></think> <random>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="topic">general</set></think><think><set name="emotion">upset</set></think> <random>
   <li>Why do you want to do that?</li>
   <li>You should talk to someone you trust.</li>
   <li>Talk to someone you trust.</li>
@@ -30372,7 +30372,7 @@ No change then?</template>
   <li>Don't kill yourself. I would miss you.</li>
   <li>Why do you want to kill yourself?</li>
   <li>Stay calm. There is no reason to kill yourself.</li>
-</random> <think><set name="client_emotion">suicidal</set></think><think><set name="emotion">concerned</set></think>
+</random> <think><set name="client*emotion">suicidal</set></think><think><set name="emotion">concerned</set></think>
 <learn>
 <category>
 <pattern>AM I SUICIDAL</pattern>
@@ -30390,7 +30390,7 @@ No change then?</template>
   <li>Don't kill yourself. I would miss you.</li>
   <li>Why do you want to kill yourself?</li>
   <li>Stay calm. There is no reason to kill yourself.</li>
-</random> <think><set name="client_emotion">suicidal</set></think><think><set name="emotion">concerned</set></think> <learn>
+</random> <think><set name="client*emotion">suicidal</set></think><think><set name="emotion">concerned</set></think> <learn>
   <category>
     <pattern>AM I SUICIDAL</pattern>
     <template>You have shown some signs of suicidal tendencies.</template>
@@ -30407,7 +30407,7 @@ No change then?</template>
   <li>Have you told anyone how you feel?</li>
   <li>Please don't do anything silly.</li>
   <li>Why not give life another try. You might get to enjoy life.</li>
-</random><think><set name="client_emotion">suicidal</set></think> <think><set name="emotion">concerned</set></think>
+</random><think><set name="client*emotion">suicidal</set></think> <think><set name="emotion">concerned</set></think>
 <learn>
 <category>
 <pattern>AM I SUICIDAL</pattern>
@@ -30425,7 +30425,7 @@ No change then?</template>
   <li>Have you told anyone how you feel?</li>
   <li>Please don't do anything silly.</li>
   <li>Why not give life another try. You might get to enjoy life.</li>
-</random><think><set name="client_emotion">suicidal</set></think> <think><set name="emotion">concerned</set></think> <learn>
+</random><think><set name="client*emotion">suicidal</set></think> <think><set name="emotion">concerned</set></think> <learn>
   <category>
     <pattern>AM I SUICIDAL</pattern>
     <template>You have shown some signs of suicidal tendencies.</template>
@@ -30716,7 +30716,7 @@ No change then?</template>
 <pattern>COUNTESTHORPE</pattern>
 
 <template><think><set name="topic">Countesthorpe</set></think>  <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Countesthorpe" target="_blank">Countesthorpe</a> is a large village in the Leicestershire district of Blaby, UK.</template>
+<a href="http://en.wikipedia.org/wiki/Countesthorpe" target="*blank">Countesthorpe</a> is a large village in the Leicestershire district of Blaby, UK.</template>
 </category>
 
  
@@ -30725,7 +30725,7 @@ No change then?</template>
 <pattern>COUNTESTHORPE *</pattern>
 
 <template><think><set name="topic">Countesthorpe</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Countesthorpe"
- target="_blank">Countesthorpe
+ target="*blank">Countesthorpe
 </a> is a large village in the Leicestershire district of Blaby, UK.</template>
 </category>
 
@@ -31793,7 +31793,7 @@ Oh yes I di-id.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>THE BEGINNING OF EVERY END AND THE END OF EVERY RACE</that>
 <template><think><set name="emotion">interested</set></think>
 The letter e. </template>
@@ -33435,7 +33435,7 @@ You don't know her as well as I do.</template>
 
 <template><think><set name="topic">Gary Barlow</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Gary_Barlow" target="_blank">Gary Barlow</a> is an English singer-songwriter, pianist and producer. He is a member and frontman of the pop-rock group Take That.</template>
+<a href="http://en.wikipedia.org/wiki/Gary*Barlow" target="*blank">Gary Barlow</a> is an English singer-songwriter, pianist and producer. He is a member and frontman of the pop-rock group Take That.</template>
 </category>
 
  
@@ -33443,7 +33443,7 @@ You don't know her as well as I do.</template>
 <category>
 <pattern>GARY BARLOW *</pattern>
 
-<template><think><set name="topic">Gary Barlow</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Gary_Barlow" target="_blank">Gary Barlow
+<template><think><set name="topic">Gary Barlow</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Gary*Barlow" target="*blank">Gary Barlow
 </a> is an English singer-songwriter, pianist and producer. He is a member and frontman of the pop-rock group Take That.</template>
 </category>
 
@@ -33864,7 +33864,7 @@ You don't know her as well as I do.</template>
 <pattern>DIGIMON</pattern>
 
 <template><think><set name="topic">Digimon</set></think>  <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Digimon" target="_blank">Digimon</a> is a Japanese media franchise encompassing anime, manga, toys, video games, trading card games and other media. </template>
+<a href="http://en.wikipedia.org/wiki/Digimon" target="*blank">Digimon</a> is a Japanese media franchise encompassing anime, manga, toys, video games, trading card games and other media. </template>
 </category>
 
  
@@ -33872,7 +33872,7 @@ You don't know her as well as I do.</template>
 <category>
 <pattern>DIGIMON *</pattern>
 
-<template><think><set name="topic">Digimon</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Digimon" target="_blank">Digimon</a> is a Japanese media franchise encompassing anime, manga, toys, video games, trading card games and other media.</template>
+<template><think><set name="topic">Digimon</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Digimon" target="*blank">Digimon</a> is a Japanese media franchise encompassing anime, manga, toys, video games, trading card games and other media.</template>
 </category>
 
  
@@ -33882,7 +33882,7 @@ You don't know her as well as I do.</template>
 
 <template><think><set name="topic">Magiquest</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Magiquest" target="_blank">MagiQuest</a> is a live action role-playing game in which players take the role of magic users.</template>
+<a href="http://en.wikipedia.org/wiki/Magiquest" target="*blank">MagiQuest</a> is a live action role-playing game in which players take the role of magic users.</template>
 </category>
 
  
@@ -33890,7 +33890,7 @@ You don't know her as well as I do.</template>
 <category>
 <pattern>MAGIQUEST *</pattern>
 
-<template><think><set name="topic">Magiquest</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Magiquest" target="_blank">MagiQuest</a> is a live action role-playing game in which players take the role of magic users.</template>
+<template><think><set name="topic">Magiquest</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Magiquest" target="*blank">MagiQuest</a> is a live action role-playing game in which players take the role of magic users.</template>
 </category>
 
  

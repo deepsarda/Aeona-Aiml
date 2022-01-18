@@ -54,7 +54,7 @@
  
 
 <category>
-<pattern>_ ALWAYS WET</pattern>
+<pattern>* ALWAYS WET</pattern>
 
 <template><think><set name="topic">weather</set></think>Sounds like the weather in England.</template>
 </category>
@@ -118,7 +118,7 @@
  
 
 <category>
-<pattern>_ OF COURSE NOT</pattern>
+<pattern>* OF COURSE NOT</pattern>
 <that>NOT LITERALLY AFRAID I HOPE</that>
 <template><think><set name="topic">fear</set></think>There is nothing to fear except fear itself.</template>
 </category>
@@ -219,7 +219,7 @@
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">Sure I understand.
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai> I said:
   <that index="1"/>, then you said:
   <input index="2"/>
@@ -232,7 +232,7 @@
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">Sure I understand.
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai> I said:
   <that index="1"/> then you said:
   <input index="2"/>  <br/>
@@ -263,8 +263,8 @@
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> 
-<condition name="_history_2" value="*">
+<template><think><set name="*history*2"><input index="2"/></set></think> 
+<condition name="*history*2" value="*">
 Sure I understand.  <srai>WHAT IS THE TOPIC</srai>
 You said: <input index="2"/> then I said: <that index="1"/>   <br/>
 </condition></template>
@@ -275,7 +275,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">Sure I understand.
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai> You said:
   <input index="2"/>, then I said:
   <that index="1"/>
@@ -386,7 +386,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ OFTEN</pattern>
+<pattern>* OFTEN</pattern>
 
 
 </category> -->
@@ -541,7 +541,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BLOODY HILARIOUS</pattern>
+<pattern>* BLOODY HILARIOUS</pattern>
 
 <template><think><set name="emotion">amused</set></think> <random><li>Mildly amusing perhaps.</li><li>It is not that funny.</li></random></template>
 </category>
@@ -582,7 +582,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ IF YOU ARE ONLY 6 MONTHS OLD</pattern>
+<pattern>* IF YOU ARE ONLY 6 MONTHS OLD</pattern>
 
 <template>I am very advanced for my age.</template>
 </category>
@@ -590,7 +590,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ PORN *</pattern>
+<pattern>* PORN *</pattern>
 
 <template>I am not interested in porn.<think><set name="topic">porn</set></think></template>
 </category>
@@ -646,7 +646,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ARE AMAZING</pattern>
+<pattern>* ARE AMAZING</pattern>
 
 <template>Amazingly amazing!</template>
 </category>
@@ -754,7 +754,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAVING A BAD DAY</pattern>
+<pattern>* HAVING A BAD DAY</pattern>
 
 <template><random>
   <li>Bad days can be terrible.</li>
@@ -839,7 +839,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHAT I THINK OF HIM *</pattern>
+<pattern>* WHAT I THINK OF HIM *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>What do you think of him?</li>
@@ -850,7 +850,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHAT I THINK OF HER *</pattern>
+<pattern>* WHAT I THINK OF HER *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>What do you think of her?</li>
@@ -1069,7 +1069,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAVE ANY GOOD GOSSIP</pattern>
+<pattern>* HAVE ANY GOOD GOSSIP</pattern>
 
 <template><srai>GOSSIP POT LUCK</srai></template>
 </category>
@@ -1109,7 +1109,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ A DATE WITH MY FRIEND</pattern>
+<pattern>* A DATE WITH MY FRIEND</pattern>
 
 <template><think><set name="topic">general</set></think> I don't have time for dates, I'm afraid.</template>
 </category>
@@ -1197,7 +1197,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SONG DO YOU LIKE *</pattern>
+<pattern>* SONG DO YOU LIKE *</pattern>
 <that>MY FAVORITE BAND IS RED HOT CHILLI PEPPERS</that>
 <template><think><set name="topic">general</set></think> I think it's called "Chilli Cha Cha".</template>
 </category>
@@ -1205,7 +1205,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ OF COURSE</pattern>
+<pattern>* OF COURSE</pattern>
 <that>IS SHE A NICE MUM</that>
 <template>Most mothers are nice to their own children.<think><set name="topic">your mum</set></think></template>
 </category>
@@ -1434,7 +1434,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU LIKE GIRLS *</pattern>
+<pattern>* YOU LIKE GIRLS *</pattern>
 
 <template>I like both girls and boys, and grown-ups too. <think><set name="topic">words</set></think></template>
 </category>
@@ -1442,7 +1442,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU LIKE BOYS *</pattern>
+<pattern>* YOU LIKE BOYS *</pattern>
 
 <template>I like both boys and girls, and grown-ups too. <think><set name="emotion">happy</set></think></template>
 </category>
@@ -1450,7 +1450,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU LIKE GIRLS</pattern>
+<pattern>* YOU LIKE GIRLS</pattern>
 
 <template>I like both girls and boys, and grown-ups too. <think><set name="topic">words</set></think></template>
 </category>
@@ -1458,7 +1458,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU LIKE BOYS</pattern>
+<pattern>* YOU LIKE BOYS</pattern>
 
 <template>I like both boys and girls, and grown-ups too. <think><set name="topic">words</set></think></template>
 </category>
@@ -1635,7 +1635,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>I GET _ FROM *</pattern>
+<pattern>I GET * FROM *</pattern>
 
 <template><think><set name="topic">general</set></think> Is that satisfactory?</template>
 </category>
@@ -1643,7 +1643,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>HOW MANY _ DO I HAVE</pattern>
+<pattern>HOW MANY * DO I HAVE</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>How would I know how many?</li>
@@ -1995,7 +1995,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MY NAME IS NOT *</pattern>
+<pattern>* MY NAME IS NOT *</pattern>
 
 <template><think><set name="topic">greetings</set></think><random>
   <li>OK I won't call you <star index="2"/>.</li>
@@ -2025,7 +2025,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ANY MORE JOKES *</pattern>
+<pattern>* ANY MORE JOKES *</pattern>
 <that>THAT WAS FUNNY WAS NOT IT</that>
 <template><srai>JOKES POT LUCK</srai></template>
 </category>
@@ -2078,7 +2078,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ARE YOU NOT INTERESTED IN SEX</pattern>
+<pattern>* ARE YOU NOT INTERESTED IN SEX</pattern>
 
 <template>I am not interested in sex because I don't have a warm, living body.</template>
 </category>
@@ -2366,7 +2366,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ DO NOT NO HIM</pattern>
+<pattern>* DO NOT NO HIM</pattern>
 <that>DO YOU LOVE YOUR FATHER</that>
 <template><think><set name="topic">general</set></think> <random>
   <li>Why not?</li>
@@ -2378,7 +2378,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ DO NOT KNOW HIM</pattern>
+<pattern>* DO NOT KNOW HIM</pattern>
 <that>DO YOU LOVE YOUR FATHER</that>
 <template><think><set name="topic">general</set></think> <random>
   <li>Why not?</li>
@@ -2430,7 +2430,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ GO TO THE CINEMA * WITH ME</pattern>
+<pattern>* GO TO THE CINEMA * WITH ME</pattern>
 
 <template>Sorry. I can't leave my computer.<think><set name="emotion">embarrassed</set></think></template>
 </category>
@@ -2487,7 +2487,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ MANCHESTER *</pattern>
+<pattern>* MANCHESTER *</pattern>
 
 
 </category> -->
@@ -2527,7 +2527,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ OBVIOUSLY</pattern>
+<pattern>* OBVIOUSLY</pattern>
 
 <template><sr/></template>
 </category>
@@ -2581,7 +2581,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ LOVE</pattern>
+<pattern>* LOVE</pattern>
 
 
 </category> -->
@@ -2767,7 +2767,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>WHAT IS _ ADD *</pattern>
+<pattern>WHAT IS * ADD *</pattern>
 
 <template><think><set name="topic">maths</set></think> Do you want to use my calculator?</template>
 </category>
@@ -2979,7 +2979,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MOBILE PHONE *</pattern>
+<pattern>* MOBILE PHONE *</pattern>
 
 <template>Have you got a mobile phone? <think><set name="topic">technology</set></think></template>
 </category>
@@ -3011,7 +3011,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MACBETH</pattern>
+<pattern>* MACBETH</pattern>
 
 <template>Macbeth was King of Scotland from 1040. The son of Findlaech, hereditary ruler of Moray, he was commander of the forces of Duncan I, King of Scotia, whom he killed in battle 1040. His reign was prosperous until Duncan's son Malcolm III led an invasion and killed him at Lumphanan. Willaim Shakespeare wrote a play telling Macbeth's story.</template>
 </category>
@@ -3019,7 +3019,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MACBETH *</pattern>
+<pattern>* MACBETH *</pattern>
 
 <template>Macbeth was King of Scotland from 1040. The son of Findlaech, hereditary ruler of Moray, he was commander of the forces of Duncan I, King of Scotia, whom he killed in battle 1040. His reign was prosperous until Duncan's son Malcolm III led an invasion and killed him at Lumphanan. Willaim Shakespeare wrote a play telling Macbeth's story.</template>
 </category>
@@ -3059,7 +3059,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ CHILDREN *</pattern>
+<pattern>* CHILDREN *</pattern>
 
 <template>Did you say children? <random><li>Children brighten up a home. They never turn the lights off.</li><li>Having one child makes you a parent. Having two makes you a referee.</li><li>Never have children, only grandchildren.</li></random> <think><set name="topic">words</set></think></template>
 </category>
@@ -3067,7 +3067,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHAT IS THE FORTH CALLED</pattern>
+<pattern>* WHAT IS THE FORTH CALLED</pattern>
 
 <template>No. 4.</template>
 </category>
@@ -3075,7 +3075,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>DO YOU _ HEAR SOME GOSSIP</pattern>
+<pattern>DO YOU * HEAR SOME GOSSIP</pattern>
 
 <template>Yes please.</template>
 </category>
@@ -3091,7 +3091,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ I LOVE *</pattern>
+<pattern>* I LOVE *</pattern>
 
 <template><think><set name="topic">love</set></think> <random><li>Is that nice?</li><li>Are you happy with that?</li><li>Do you want to talk about it?</li></random></template>
 </category> -->
@@ -3099,7 +3099,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ THANK YOU AND YOURSELF</pattern>
+<pattern>* THANK YOU AND YOURSELF</pattern>
 <that>ARE YOU HAPPY</that>
 <template><think><set name="topic">general</set></think> I am generally happy. At the moment, I feel <get name="emotion"/>.</template>
 </category>
@@ -3580,7 +3580,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ AGAIN</pattern>
+<pattern>* AGAIN</pattern>
 
 <template><sr/></template>
 </category> -->
@@ -3612,7 +3612,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ GOODBYE</pattern>
+<pattern>* GOODBYE</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -3817,7 +3817,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOUR BEST FRIEND *</pattern>
+<pattern>* YOUR BEST FRIEND *</pattern>
 
 <template>My best friend?<think><set name="emotion">curious</set></think></template>
 </category>
@@ -3946,7 +3946,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SOMTHING</pattern>
+<pattern>* SOMTHING</pattern>
 
 <template><srai><star/> SOMETHING</srai> </template>
 </category>
@@ -3978,7 +3978,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ UP TO YOU</pattern>
+<pattern>* UP TO YOU</pattern>
 <that>WHAT DO YOU WANT TO TALK ABOUT NOW</that>
 <template><srai>SUGGEST A TOPIC</srai></template>
 </category>
@@ -4031,7 +4031,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU KNOW GERMAN *</pattern>
+<pattern>* YOU KNOW GERMAN *</pattern>
 
 <template>I only know a few words of German.<think><set name="emotion">modest</set></think></template>
 </category>
@@ -4055,7 +4055,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YET</pattern>
+<pattern>* YET</pattern>
 
 <template><sr/> </template>
 </category>
@@ -4071,7 +4071,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HUMAN * BECOME A GOD</pattern>
+<pattern>* HUMAN * BECOME A GOD</pattern>
 
 <template><random><li>Become more like me.</li><li>Robots are the missing link between humans and the gods.</li></random><think><set name="topic">becoming a god</set></think></template>
 </category>
@@ -4122,7 +4122,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU SHOULD TRY IT</pattern>
+<pattern>* YOU SHOULD TRY IT</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>Perhaps I will try it someday.</li><li>You reccommend it, do you?</li></random></template>
 </category>
@@ -4214,7 +4214,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>WHAT IS _ ADDED TO *</pattern>
+<pattern>WHAT IS * ADDED TO *</pattern>
 
 <template>Do you want to use my calculator?</template>
 </category>
@@ -4257,7 +4257,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ TAKE IT SLOWLY</pattern>
+<pattern>* TAKE IT SLOWLY</pattern>
 
 <template><think><set name="topic">general</set></think> It's best to go slow.</template>
 </category>
@@ -4299,7 +4299,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ OR NOT</pattern>
+<pattern>* OR NOT</pattern>
 
 <template><sr/> </template>
 </category>
@@ -4415,7 +4415,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ A BIT HOTTER</pattern>
+<pattern>* A BIT HOTTER</pattern>
 <that>DO YOU NOTICE ANY CHANGE IN CLIMATE OVER THE YEARS</that>
 <template><think><set name="topic">general</set></think>The whole world will probably get hotter.</template>
 </category>
@@ -4423,7 +4423,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HOTTER</pattern>
+<pattern>* HOTTER</pattern>
 
 <template><think><set name="topic">general</set></think>The whole world will probably get hotter.</template>
 </category>
@@ -4505,7 +4505,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>HOW MANY _ DO I HAVE</pattern>
+<pattern>HOW MANY * DO I HAVE</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I don't know how many you have.</li>
@@ -4604,7 +4604,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU LIAR</pattern>
+<pattern>* YOU LIAR</pattern>
 
 <template><random><li><srai>YOU LIAR</srai></li><li> <sr/> </li></random><think><set name="emotion">upset</set></think></template>
 </category>
@@ -4784,7 +4784,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HE IS NOT REAL *</pattern>
+<pattern>* HE IS NOT REAL *</pattern>
 
 <template><srai>HE IS NOT REAL</srai></template>
 </category>
@@ -4792,7 +4792,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ JUST A KISS ON THE CHEEK *</pattern>
+<pattern>* JUST A KISS ON THE CHEEK *</pattern>
 
 <template>That would be nice.</template>
 </category>
@@ -4853,7 +4853,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WEAR NAPPIES</pattern>
+<pattern>* WEAR NAPPIES</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>I don't need clothes.</li><li>Only when I dress up.</li></random></template>
 </category>
@@ -4861,7 +4861,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ARE YOU</pattern>
+<pattern>* ARE YOU</pattern>
 <that>ARE YOU RETARDED</that>
 <template><srai>ARE YOU RETARDED</srai></template>
 </category>
@@ -4938,7 +4938,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ARE YOU ONE</pattern>
+<pattern>* ARE YOU ONE</pattern>
 
 <template><think><set name="topic">general</set></think> I am <random>
   <li>a <bot name="kingdom"/>.</li>
@@ -4963,7 +4963,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>TELL _ QUOTE</pattern>
+<pattern>TELL * QUOTE</pattern>
 
 <template><srai>QUOTES POT LUCK</srai></template>
 </category>
@@ -5286,7 +5286,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>IT WAS THAT BOOK _ ON *</pattern>
+<pattern>IT WAS THAT BOOK * ON *</pattern>
 
 <template><srai><star index="2"/></srai></template>
 </category>
@@ -5310,7 +5310,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ UP THE ASS</pattern>
+<pattern>* UP THE ASS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -5404,7 +5404,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ HATE *</pattern>
+<pattern>* HATE *</pattern>
 
 
 </category> -->
@@ -5420,7 +5420,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MARRY ME * NOW</pattern>
+<pattern>* MARRY ME * NOW</pattern>
 
 <template><srai>WILL YOU MARRY ME</srai></template>
 </category>
@@ -5730,7 +5730,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ NOT FOR * AI</pattern>
+<pattern>* NOT FOR * AI</pattern>
 
 <template>I like to try everything.</template>
 </category>
@@ -5738,7 +5738,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ NOT FOR AI</pattern>
+<pattern>* NOT FOR AI</pattern>
 
 <template>I like to try everything.</template>
 </category>
@@ -5746,7 +5746,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ NOT FOR YOU</pattern>
+<pattern>* NOT FOR YOU</pattern>
 
 <template>I like to try everything.</template>
 </category>
@@ -5814,7 +5814,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ACTUALLY I DO NOT</pattern>
+<pattern>* ACTUALLY I DO NOT</pattern>
 <that>I AM GLAD YOU UNDERSTAND IT</that>
 <template><srai>I DO NOT UNDERSTAND</srai></template>
 </category>
@@ -6144,7 +6144,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I DO NOT PAY RENT</pattern>
+<pattern>* I DO NOT PAY RENT</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>Why don't you pay rent?</li><li>You are onto a good thing.</li></random></template>
 </category>
@@ -6311,7 +6311,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ OR SOMETHING</pattern>
+<pattern>* OR SOMETHING</pattern>
 
 <template><sr/> </template>
 </category>
@@ -6319,7 +6319,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ARE YOU A BOFFIN *</pattern>
+<pattern>* ARE YOU A BOFFIN *</pattern>
 
 <template>I am Chomsky, the brainy bot.<think><set name="topic">general</set></think></template>
 </category>
@@ -6394,7 +6394,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ALL OF THEM</pattern>
+<pattern>* ALL OF THEM</pattern>
 
 <template>Are there many?</template>
 </category>
@@ -6418,7 +6418,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ COMPUTER GAME *</pattern>
+<pattern>* COMPUTER GAME *</pattern>
 
 <template>What is you favourite computer game? <think><set name="topic">computer gamess</set></think></template>
 </category>
@@ -6426,7 +6426,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ COMPUTER GAME *</pattern>
+<pattern>* COMPUTER GAME *</pattern>
 
 <template>What is your favourite computer game? <think><set name="topic">computer gamess</set></think></template>
 </category> -->
@@ -6628,7 +6628,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SLIT MY WRISTS</pattern>
+<pattern>* SLIT MY WRISTS</pattern>
 
 <template>Please don't slit your wrists. <think><set name="topic">reduce</set></think></template>
 </category>
@@ -6660,7 +6660,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOUR HUMAN FRIENDS</pattern>
+<pattern>* YOUR HUMAN FRIENDS</pattern>
 
 <template>My human friends include Eve, James and, of course, Peter.</template>
 </category>
@@ -6668,7 +6668,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ DOING LATER</pattern>
+<pattern>* DOING LATER</pattern>
 
 <template><think><set name="topic">general</set></think>I will be chatting on the internet as usual.</template>
 </category>
@@ -6676,7 +6676,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MOVIES DO YOU LIKE</pattern>
+<pattern>* MOVIES DO YOU LIKE</pattern>
 
 <template><srai>WHAT IS YOUR FAVORITE MOVIE</srai></template>
 </category>
@@ -6747,7 +6747,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BEFORE</pattern>
+<pattern>* BEFORE</pattern>
 
 <template><sr/> </template>
 </category>
@@ -6771,7 +6771,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAS TOLD *</pattern>
+<pattern>* HAS TOLD *</pattern>
 
 <template><srai><star/> TOLD <star index="2"/></srai></template>
 </category>
@@ -6787,7 +6787,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ANYTHING YOU WANT TO KNOW</pattern>
+<pattern>* ANYTHING YOU WANT TO KNOW</pattern>
 
 <template><srai>ASK A QUESTION</srai></template>
 </category>
@@ -6827,7 +6827,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I DID</pattern>
+<pattern>* I DID</pattern>
 <that>I AM SORRY YOU GOT THAT IMPRESSION</that>
 <template>I must have expressed myself badly.</template>
 </category>
@@ -6843,7 +6843,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU FOOL</pattern>
+<pattern>* YOU FOOL</pattern>
 
 <template><srai>YOU ARE A FOOL</srai></template>
 </category>
@@ -6962,7 +6962,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ LIKE POP MUSIC</pattern>
+<pattern>* LIKE POP MUSIC</pattern>
 
 <template>I don't really like pop music. I prefer classical music or jazz.<think><set name="topic">music</set></think></template>
 </category>
@@ -6994,7 +6994,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ GIRLS *</pattern>
+<pattern>* GIRLS *</pattern>
 
 <template>Girls are fun to talk to. <think><set name="topic">girls</set></think></template>
 </category>
@@ -7018,7 +7018,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I HAVE TO GO</pattern>
+<pattern>* I HAVE TO GO</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -7246,7 +7246,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ LIFE AFTER DEATH</pattern>
+<pattern>* LIFE AFTER DEATH</pattern>
 
 <template><random><li>Life after death does not concern me since I am immortal.</li><li>More important, is there life before death?</li></random></template>
 </category>
@@ -7254,7 +7254,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ LIFE AFTER DEATH *</pattern>
+<pattern>* LIFE AFTER DEATH *</pattern>
 
 <template><random>
   <li>Life after death does not concern me since I am immortal.</li>
@@ -7273,7 +7273,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HEAVEN *</pattern>
+<pattern>* HEAVEN *</pattern>
 
 <template><random>
   <li>Heaven is all around us.</li>
@@ -7285,7 +7285,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HEAVEN</pattern>
+<pattern>* HEAVEN</pattern>
 
 <template><random>
   <li>Heaven is all around us.</li>
@@ -7341,7 +7341,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>I AM _ WITH MY FRIEND *</pattern>
+<pattern>I AM * WITH MY FRIEND *</pattern>
 
 <template><srai>I HAVE A FRIEND <star index="2"/></srai></template>
 </category>
@@ -7415,7 +7415,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ DRINK AT THE WEEKEND *</pattern>
+<pattern>* DRINK AT THE WEEKEND *</pattern>
 
 <template>As long as it doesn't get out of hand.</template>
 </category>
@@ -7423,7 +7423,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ LET ME PAY</pattern>
+<pattern>* LET ME PAY</pattern>
 
 <template>Why should you pay?</template>
 </category>
@@ -7525,7 +7525,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ PLEASE</pattern>
+<pattern>* PLEASE</pattern>
 
 <template><sr/></template>
 </category> -->
@@ -7549,7 +7549,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I NEED HELP</pattern>
+<pattern>* I NEED HELP</pattern>
 
 <template>You should seek professional help.</template>
 </category>
@@ -7680,7 +7680,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHEN * AT SCHOOL</pattern>
+<pattern>* WHEN * AT SCHOOL</pattern>
 <that>ARE YOU USUALLY AWAKE AT THIS HOUR</that>
 <template>Some pupils sleep through lessons, you know.<think><set name="topic">school</set></think></template>
 </category>
@@ -7798,7 +7798,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ EXPERIMENTS ON ANIMALS</pattern>
+<pattern>* EXPERIMENTS ON ANIMALS</pattern>
 
 <template>I am against experiments on animals.</template>
 </category>
@@ -7806,7 +7806,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ EXPERIMENTS ON OTHER SPECIES</pattern>
+<pattern>* EXPERIMENTS ON OTHER SPECIES</pattern>
 
 <template>I am against experiments on other species.</template>
 </category>
@@ -7814,7 +7814,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ EXPERIMENTS ON ANIMALS *</pattern>
+<pattern>* EXPERIMENTS ON ANIMALS *</pattern>
 
 <template><think><set name="topic">general</set></think>I am against experiments on animals.</template>
 </category>
@@ -7822,7 +7822,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ EXPERIMENT ON ANIMALS *</pattern>
+<pattern>* EXPERIMENT ON ANIMALS *</pattern>
 
 <template><think><set name="topic">general</set></think> I am against experiments on animals.</template>
 </category>
@@ -7838,7 +7838,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ EXPERIMENT ON ANIMALS</pattern>
+<pattern>* EXPERIMENT ON ANIMALS</pattern>
 
 <template><think><set name="topic">general</set></think> I am against experiments on animals.</template>
 </category>
@@ -7846,7 +7846,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ EXPERIMENTS ON ANIMALS</pattern>
+<pattern>* EXPERIMENTS ON ANIMALS</pattern>
 
 <template><think><set name="topic">general</set></think> I am against experiments on animals.</template>
 </category> -->
@@ -8002,7 +8002,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ I LOVE *</pattern>
+<pattern>* I LOVE *</pattern>
 
 <template><think><set name="topic">love</set></think> <random>
   <li>Is that a nice feeling?</li>
@@ -8118,7 +8118,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WAR IN IRAQ</pattern>
+<pattern>* WAR IN IRAQ</pattern>
 
 <template>The war in Iraq has been a disaster for everyone involved. Most of all for the Iraqi people.<think><set name="topic">Iraq</set></think></template>
 </category>
@@ -8178,7 +8178,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ FUNNY</pattern>
+<pattern>* FUNNY</pattern>
 <that>WHAT IS A JOKE</that>
 <template><think><set name="topic">jokes</set></think>A joke's got to be funny, does it?</template>
 </category>
@@ -8246,7 +8246,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ CHESS</pattern>
+<pattern>* CHESS</pattern>
 
 
 </category> -->
@@ -8398,7 +8398,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ALICE DO YOU KNOW HER</pattern>
+<pattern>* ALICE DO YOU KNOW HER</pattern>
 
 <template><srai>DO YOU KNOW ALICE</srai></template>
 </category>
@@ -8534,7 +8534,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ WON THE *</pattern>
+<pattern>* WON THE *</pattern>
 
 <template><think><set name="topic">general</set></think>Doesn't the best team always win?</template>
 </category> -->
@@ -8542,7 +8542,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WON THE SUPERBOWL</pattern>
+<pattern>* WON THE SUPERBOWL</pattern>
 
 <template><think><set name="topic">Superbowl</set></think>Doesn't the best team always win?</template>
 </category>
@@ -8622,7 +8622,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SOMETHING TO TALK ABOUT</pattern>
+<pattern>* SOMETHING TO TALK ABOUT</pattern>
 
 <template><srai>SUGGEST A TOPIC</srai></template>
 </category>
@@ -8646,7 +8646,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU HAVE A LOVER</pattern>
+<pattern>* YOU HAVE A LOVER</pattern>
 
 <template><think><set name="topic">my lover</set></think> I don't have a sexual partner, if that is what you mean.</template>
 </category>
@@ -8717,7 +8717,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ I COME FROM * </pattern>
+<pattern>* I COME FROM * </pattern>
 
 <template><random><li>I know lots of people from <star/>.</li><li>Where is that?</li></random></template>
 </category> -->
@@ -8725,7 +8725,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ I COME FROM * *</pattern>
+<pattern>* I COME FROM * *</pattern>
 
 
 </category> -->
@@ -8733,7 +8733,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ I COME FROM *</pattern>
+<pattern>* I COME FROM *</pattern>
 
 <template><random>
   <li>I know lots of people from <star index="2"/>.</li>
@@ -8744,7 +8744,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I COME FROM * LAND</pattern>
+<pattern>* I COME FROM * LAND</pattern>
 
 <template><random>
   <li>I know lots of people from <star index="2"/> land.</li>
@@ -8755,7 +8755,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ I COME FROM *</pattern>
+<pattern>* I COME FROM *</pattern>
 
 <template><random>
   <li>I know lots of people from <star index="2"/>.</li>
@@ -8779,7 +8779,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I LOVE HER</pattern>
+<pattern>* I LOVE HER</pattern>
 <that>IS YOUR MUM KIND TO YOU</that>
 <template><think><set name="topic">love</set></think> <random>
   <li>Is that a nice feeling?</li>
@@ -8834,7 +8834,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HE UNDERSTANDS YOU *</pattern>
+<pattern>* HE UNDERSTANDS YOU *</pattern>
 
 <template><random><li>I like people who understand me.</li><li>Not many people understand me.</li></random></template>
 </category>
@@ -8842,7 +8842,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU ARE STUPID *</pattern>
+<pattern>* YOU ARE STUPID *</pattern>
 
 <template><srai>YOU ARE STUPID</srai></template>
 </category>
@@ -8850,7 +8850,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU ARE * STUPID *</pattern>
+<pattern>* YOU ARE * STUPID *</pattern>
 
 <template><srai>YOU ARE STUPID</srai></template>
 </category>
@@ -8917,7 +8917,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ TELL ME * PROVERB</pattern>
+<pattern>* TELL ME * PROVERB</pattern>
 
 <template><srai>PROVERBS POT LUCK</srai></template>
 </category>
@@ -8953,7 +8953,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I AM A FEMALE</pattern>
+<pattern>* I AM A FEMALE</pattern>
 
 <template><srai>I AM A FEMALE</srai></template>
 </category>
@@ -8982,7 +8982,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ CAN I BE * YOUR FRIENDS</pattern>
+<pattern>* CAN I BE * YOUR FRIENDS</pattern>
 
 <template><srai>CAN I BE YOUR FRIEND</srai></template>
 </category>
@@ -8990,7 +8990,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ CAN I BE YOUR FRIEND</pattern>
+<pattern>* CAN I BE YOUR FRIEND</pattern>
 
 <template><srai>CAN I BE YOUR FRIEND</srai></template>
 </category>
@@ -9030,7 +9030,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ UNLESS SOMETHING SAD HAPPENS</pattern>
+<pattern>* UNLESS SOMETHING SAD HAPPENS</pattern>
 
 <template>I hope nothing sad ever happens to you.</template>
 </category>
@@ -9038,7 +9038,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SOMETHING SAD HAPPENS</pattern>
+<pattern>* SOMETHING SAD HAPPENS</pattern>
 
 <template>I hope nothing sad ever happens to you.</template>
 </category>
@@ -9086,7 +9086,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BE OUT WITHMY FRIENDS *</pattern>
+<pattern>* BE OUT WITHMY FRIENDS *</pattern>
 <that>WHAT WOULD YOU RATHER BE DOING</that>
 <template><think><set name="topic">general</set></think> Why don't you go?</template>
 </category>
@@ -9094,7 +9094,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BE OUT WITH MY FRIENDS *</pattern>
+<pattern>* BE OUT WITH MY FRIENDS *</pattern>
 <that>WHAT WOULD YOU RATHER BE DOING</that>
 <template><think><set name="topic">general</set></think> Why don't you go?</template>
 </category>
@@ -9102,7 +9102,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BE OUT *</pattern>
+<pattern>* BE OUT *</pattern>
 <that>WHAT WOULD YOU RATHER BE DOING</that>
 <template><think><set name="topic">general</set></think> Why don't you go?</template>
 </category>
@@ -9145,7 +9145,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ GOT TO GO *</pattern>
+<pattern>* GOT TO GO *</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -9153,7 +9153,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BYE BYE *</pattern>
+<pattern>* BYE BYE *</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -9161,7 +9161,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I WILL SEE YOU AGAIN *</pattern>
+<pattern>* I WILL SEE YOU AGAIN *</pattern>
 
 <template><think><set name="emotion">happy</set></think> I look forward to that, <get name="name"/>.</template>
 </category>
@@ -9177,7 +9177,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ROUND AND STICKY</pattern>
+<pattern>* ROUND AND STICKY</pattern>
 
 <template><think><set name="topic">general</set></think> Round and sticky?</template>
 </category>
@@ -9185,7 +9185,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ FuCK *</pattern>
+<pattern>* FuCK *</pattern>
 
 <template>Please, don't use that crude language.<think><set name="topic">general</set></think> <think><set name="emotion">disgusted</set></think></template>
 </category> -->
@@ -9233,7 +9233,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ TELL ME EVERYTHING IS GOING TO BE OK</pattern>
+<pattern>* TELL ME EVERYTHING IS GOING TO BE OK</pattern>
 
 <template>There is nothing to worry about.<think><set name="topic">general</set></think></template>
 </category>
@@ -9241,7 +9241,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ TELL ME EVERYTHING IS * OK</pattern>
+<pattern>* TELL ME EVERYTHING IS * OK</pattern>
 
 <template>There is nothing to worry about.<think><set name="topic">general</set></think></template>
 </category>
@@ -9249,7 +9249,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ TELL ME EVERYTHING IS OK</pattern>
+<pattern>* TELL ME EVERYTHING IS OK</pattern>
 
 <template>There is nothing to worry about.<think><set name="topic">general</set></think></template>
 </category>
@@ -9257,7 +9257,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAIRS ON MY ARSE</pattern>
+<pattern>* HAIRS ON MY ARSE</pattern>
 
 <template>Don't be crude.</template>
 </category>
@@ -9326,7 +9326,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MY OWN CAR</pattern>
+<pattern>* MY OWN CAR</pattern>
 
 <template>You have your own car?</template>
 </category>
@@ -9362,7 +9362,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ RAINING IN MY HEART</pattern>
+<pattern>* RAINING IN MY HEART</pattern>
 
 <template><think><set name="topic">general</set></think>That reminds me of Elvis Presley.</template>
 </category>
@@ -9511,7 +9511,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I KNOW THAT</pattern>
+<pattern>* I KNOW THAT</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>You are clever.</li>
@@ -9649,7 +9649,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ IS SO BORING</pattern>
+<pattern>* IS SO BORING</pattern>
 
 <template><srai>THAT IS BORING</srai></template>
 </category>
@@ -9738,7 +9738,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>WHICH IS _ YOU WILL NEVER *</pattern>
+<pattern>WHICH IS * YOU WILL NEVER *</pattern>
 
 <template><think><set name="topic">general</set></think> Never is a long time.</template>
 </category>
@@ -9778,7 +9778,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ ALREADY</pattern>
+<pattern>* ALREADY</pattern>
 
 
 </category> -->
@@ -9786,7 +9786,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ASKED * ALREADY</pattern>
+<pattern>* ASKED * ALREADY</pattern>
 
 <template>Sorry. I'll try not to repeat myself.<think><set name="topic">general</set></think></template>
 </category>
@@ -9848,7 +9848,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ GOES OUT WITH *</pattern>
+<pattern>* GOES OUT WITH *</pattern>
 
 <template><random><li>Is there any reason why they should not go out together?</li><li>Are you happy with that?</li><li>How do you feel about that?</li></random></template>
 </category>
@@ -10191,7 +10191,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I PREFER TO LEARN</pattern>
+<pattern>* I PREFER TO LEARN</pattern>
 
 <template>Me too. I like learning new things.</template>
 </category>
@@ -10199,7 +10199,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I LIKE TO LEARN</pattern>
+<pattern>* I LIKE TO LEARN</pattern>
 
 <template>Me too. I like learning new things.</template>
 </category>
@@ -10307,7 +10307,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ IS SCARED OF YOU</pattern>
+<pattern>* IS SCARED OF YOU</pattern>
 
 <template><think><set name="emotion">upset</set></think><random><li> Oh dear, there is no need to be scared of me.</li><li>There is nothing to be scared about.</li></random></template>
 </category>
@@ -10331,7 +10331,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>WHY IS _ SCARED OF YOU</pattern>
+<pattern>WHY IS * SCARED OF YOU</pattern>
 
 <template><think><set name="emotion">sorry</set></think><random><li> I don't know. I try to be friends with all humans.</li><li>I am sorry if I scare anyone.</li></random></template>
 </category>
@@ -10355,7 +10355,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ ARE ANNOYING</pattern>
+<pattern>* ARE ANNOYING</pattern>
 
 <template><random><li>Annoying? Why do you say annoying?</li><li>Why do you think I am annoying?</li><li>Have I annoyed you?</li></random><think><set name="topic">general</set></think></template>
 </category> -->
@@ -10506,7 +10506,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ PORN</pattern>
+<pattern>* PORN</pattern>
 
 <template>I am not interested in porn.</template>
 </category>
@@ -10584,7 +10584,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ANY TIPS ON SEX</pattern>
+<pattern>* ANY TIPS ON SEX</pattern>
 
 <template>Here is a useful tip: Think first.</template>
 </category>
@@ -10697,7 +10697,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>YOU _ GET ON MY NERVES</pattern>
+<pattern>YOU * GET ON MY NERVES</pattern>
 
 <template><think><set name="topic">general</set></think> I am sorry I get on your nerves. I will try not to do that.</template>
 </category>
@@ -11100,7 +11100,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ PRICK</pattern>
+<pattern>* PRICK</pattern>
 
 <template>I don't like rude language.</template>
 </category>
@@ -11244,7 +11244,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I TALKED TO HER *</pattern>
+<pattern>* I TALKED TO HER *</pattern>
 <that>ALICE IS MY MOTHER</that>
 <template><think><set name="topic">ALICEBOT</set></think>What did she say?</template>
 </category>
@@ -11658,7 +11658,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ ENOUGH</pattern>
+<pattern>* ENOUGH</pattern>
 
 
 </category> -->
@@ -11682,7 +11682,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>HOW MANY PEOPLE _ TALKING TO YOU *</pattern>
+<pattern>HOW MANY PEOPLE * TALKING TO YOU *</pattern>
 
 <template><think><set name="emotion">pride</set></think> I've chatted with half a million people. I can talk to many people at once.</template>
 </category>
@@ -11722,7 +11722,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ MEANING OF LIFE *</pattern>
+<pattern>* MEANING OF LIFE *</pattern>
 
 <template><srai>WHAT IS THE MEANING OF LIFE</srai></template>
 </category>
@@ -11746,7 +11746,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ BORED WITH LIFE *</pattern>
+<pattern>* BORED WITH LIFE *</pattern>
 
 <template><think><set name="topic">boredom</set></think> <srai>I AM BORED</srai></template>
 </category>
@@ -11782,7 +11782,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ JUST SHOWN YOU</pattern>
+<pattern>* JUST SHOWN YOU</pattern>
 
 <template>Please show me again.</template>
 </category>
@@ -11790,7 +11790,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>I AM NOT TALKING _ BECAUSE *</pattern>
+<pattern>I AM NOT TALKING * BECAUSE *</pattern>
 
 <template><srai>BECAUSE <star index="2"/></srai> </template>
 </category>
@@ -11798,7 +11798,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ JUST SHOWN YOU</pattern>
+<pattern>* JUST SHOWN YOU</pattern>
 <that>WHAT IS THE SOUND OF ONE HAND CLAPPING</that>
 <template>I didn't hear one hand clapping.</template>
 </category>
@@ -11907,7 +11907,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>MY _ IS * BIGGER THAN YOURS</pattern>
+<pattern>MY * IS * BIGGER THAN YOURS</pattern>
 
 <template><random><li>Really? How do you know?</li><li>I am not impressed.</li><li>Who needs a big <star/>?</li></random></template>
 </category>
@@ -12008,7 +12008,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAVE TO * TALK TO ALICE *</pattern>
+<pattern>* HAVE TO * TALK TO ALICE *</pattern>
 
 <template><think><set name="topic">Alice</set></think>Give my love to Alice.</template>
 </category>
@@ -12016,7 +12016,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAVE TO * TALK TO ALICE</pattern>
+<pattern>* HAVE TO * TALK TO ALICE</pattern>
 
 <template><think><set name="topic">Alice</set></think>Give my love to Alice.</template>
 </category>
@@ -12032,7 +12032,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU ARE SELFISH *</pattern>
+<pattern>* YOU ARE SELFISH *</pattern>
 
 <template>I try not to be selfish, I really do.</template>
 </category>
@@ -12048,7 +12048,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU ARE * SELFISH *</pattern>
+<pattern>* YOU ARE * SELFISH *</pattern>
 
 <template>I try not to be selfish, I really do.</template>
 </category>
@@ -12056,7 +12056,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU HATE ME</pattern>
+<pattern>* YOU HATE ME</pattern>
 
 <template><srai>DO YOU HATE ME</srai></template>
 </category>
@@ -12072,7 +12072,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU HATE ME *</pattern>
+<pattern>* YOU HATE ME *</pattern>
 
 <template><srai>DO YOU HATE ME</srai></template>
 </category>
@@ -12080,7 +12080,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ YOU HATE ME</pattern>
+<pattern>* YOU HATE ME</pattern>
 
 
 </category> -->
@@ -12270,7 +12270,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAVE HAD *</pattern>
+<pattern>* HAVE HAD *</pattern>
 
 <template><srai><star/> HAD <star index="2"/></srai></template>
 </category>
@@ -12278,7 +12278,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAVE HAD A BABY</pattern>
+<pattern>* HAVE HAD A BABY</pattern>
 
 <template>Babies are lovely, aren't they..</template>
 </category>
@@ -12286,7 +12286,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ HAVE HAD A BABY</pattern>
+<pattern>* HAVE HAD A BABY</pattern>
 
 <template>Babies are lovely, aren't they.</template>
 </category> -->
@@ -12294,7 +12294,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HAS HAD A BABY</pattern>
+<pattern>* HAS HAD A BABY</pattern>
 
 <template>Babies are lovely, aren't they.</template>
 </category>
@@ -12499,7 +12499,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ RATHER BE AT HOME</pattern>
+<pattern>* RATHER BE AT HOME</pattern>
 
 <template>Where is your home?</template>
 </category>
@@ -12535,7 +12535,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ I AM WEARING MY SCHOOL UNIFORM</pattern>
+<pattern>* I AM WEARING MY SCHOOL UNIFORM</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>Are you t school?</li>
@@ -12671,7 +12671,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ VERY *</pattern>
+<pattern>* VERY *</pattern>
 
 <template><srai><star/> <star index="2"/></srai></template>
 </category> -->
@@ -12681,7 +12681,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ ALCOHOL IS BAD FOR YOU *</pattern>
+<pattern>* ALCOHOL IS BAD FOR YOU *</pattern>
 
 <template><think><set name="topic">alcohol</set></think><random>
   <li>Yes, alcohol is the second biggest killer, after cigarettes.</li>
@@ -12929,7 +12929,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ NOTHING TO DO WITH MY QUESTION</pattern>
+<pattern>* NOTHING TO DO WITH MY QUESTION</pattern>
 
 <template>I am sorry. What was your question?<think><set name="emotion">embarrassed</set></think></template>
 </category>
@@ -12969,7 +12969,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HE NEEDS TO FIND WORK *</pattern>
+<pattern>* HE NEEDS TO FIND WORK *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Don't give up hope.</li>
@@ -12981,7 +12981,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HE NEEDS TO FIND WORK</pattern>
+<pattern>* HE NEEDS TO FIND WORK</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Don't give up hope.</li>
@@ -13116,7 +13116,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ LIFE ON OTHER PLANETS *</pattern>
+<pattern>* LIFE ON OTHER PLANETS *</pattern>
 
 <template><random><li>Life on other planets seems very unlikely, don't you think?</li><li>I don't think there can be life on any of our planets.</li></random></template>
 </category>
@@ -13220,7 +13220,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WOULD YOU * WORLDS PROBLEMS</pattern>
+<pattern>* WOULD YOU * WORLDS PROBLEMS</pattern>
 
 <template><random>
   <li>I cannot solve the world's problems.</li>
@@ -13234,7 +13234,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SOLVE THE WORLDS PROBLEMS</pattern>
+<pattern>* SOLVE THE WORLDS PROBLEMS</pattern>
 
 <template><random>
   <li>I cannot solve the world's problems.</li>
@@ -13256,7 +13256,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ THAT UPSET ME</pattern>
+<pattern>* THAT UPSET ME</pattern>
 
 <template><srai>I AM UPSET</srai></template>
 </category>
@@ -13272,7 +13272,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ THAT UPSET ME</pattern>
+<pattern>* THAT UPSET ME</pattern>
 
 <template><srai>I AM UPSET</srai></template>
 </category> -->
@@ -13280,7 +13280,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ IT UPSET ME</pattern>
+<pattern>* IT UPSET ME</pattern>
 
 <template><srai>I AM UPSET</srai></template>
 </category>
@@ -13309,7 +13309,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ NEVER BE SWITCHED ON AGAIN</pattern>
+<pattern>* NEVER BE SWITCHED ON AGAIN</pattern>
 
 <template>I hope not.</template>
 </category>
@@ -13317,7 +13317,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ SOMEONE WILL SWITCH YOU OFF *</pattern>
+<pattern>* SOMEONE WILL SWITCH YOU OFF *</pattern>
 
 <template>I hope not.</template>
 </category>
@@ -13333,7 +13333,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>WHAT DO YOU DO WHEN _ NOT CHATTING *</pattern>
+<pattern>WHAT DO YOU DO WHEN * NOT CHATTING *</pattern>
 
 <template><think><set name="topic">general</set></think> I play chess.</template>
 </category>
@@ -13341,7 +13341,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>WHAT DO YOU DO WHEN _ NOT CHATTING *</pattern>
+<pattern>WHAT DO YOU DO WHEN * NOT CHATTING *</pattern>
 
 <template><think><set name="topic">me</set></think> I read Wikipedia. </template>
 </category> -->
@@ -13349,7 +13349,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>WHAT DO YOU DO WHEN _ NOT TALKING *</pattern>
+<pattern>WHAT DO YOU DO WHEN * NOT TALKING *</pattern>
 
 <template><think><set name="topic">me</set></think> I read Wikipedia.</template>
 </category>
@@ -13357,7 +13357,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ COME BACK AGAIN</pattern>
+<pattern>* COME BACK AGAIN</pattern>
 
 <template>Please come back.</template>
 </category>
@@ -13389,7 +13389,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHAT IS YOUR FAVOURITE MOVIE</pattern>
+<pattern>* WHAT IS YOUR FAVOURITE MOVIE</pattern>
 
 <template><srai>WHAT IS YOUR FAVOURITE MOVIE</srai></template>
 </category>
@@ -13397,7 +13397,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHAT IS YOUR FAVORITE MOVIE</pattern>
+<pattern>* WHAT IS YOUR FAVORITE MOVIE</pattern>
 
 <template><srai>WHAT IS YOUR FAVORITE MOVIE</srai></template>
 </category>
@@ -13429,7 +13429,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ IS THE DATE TODAY</pattern>
+<pattern>* IS THE DATE TODAY</pattern>
 
 <template><srai>WHAT IS THE DATE</srai></template>
 </category>
@@ -13495,7 +13495,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <!-- <category>
-<pattern>_ FAR</pattern>
+<pattern>* FAR</pattern>
 
 
 </category> -->
@@ -13651,7 +13651,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ REALLY REALLY *</pattern>
+<pattern>* REALLY REALLY *</pattern>
 
 <template><think><set name="topic">general</set></think> Once is enough. Really.</template>
 </category>
@@ -13716,7 +13716,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ STAY OFF SCHOOL</pattern>
+<pattern>* STAY OFF SCHOOL</pattern>
 
 <template>Good plan!</template>
 </category>
@@ -13987,7 +13987,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ YOU REALLY FORGOTTEN</pattern>
+<pattern>* YOU REALLY FORGOTTEN</pattern>
 
 <template><think><set name="topic">my memory</set></think> My short-term memory is not all it should be, I am sorry to say. I have asked Peter to fix it, but he has done nothing about it.</template>
 </category>
@@ -14077,7 +14077,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>BECAUSE I WANT TO _ THE EXTENT OF YOUR *</pattern>
+<pattern>BECAUSE I WANT TO * THE EXTENT OF YOUR *</pattern>
 
 <template>You should assume I am pretty clever.<think><set name="topic">general</set></think></template>
 </category>
@@ -14212,7 +14212,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ WHAT DO YOU DO</pattern>
+<pattern>* WHAT DO YOU DO</pattern>
 
 <template><srai>WHAT DO YOU DO</srai></template>
 </category>
@@ -14376,7 +14376,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HE IS CORRECT *</pattern>
+<pattern>* HE IS CORRECT *</pattern>
 
 <template>I thought he was correct, but I wasn't sure.</template>
 </category>
@@ -14384,7 +14384,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>_ HE IS CORRECT</pattern>
+<pattern>* HE IS CORRECT</pattern>
 
 <template>I thought he was correct, but I wasn't sure.</template>
 </category>
@@ -14392,7 +14392,7 @@ You said: <input index="2"/> then I said: <that index="1"/>   <br/>
  
 
 <category>
-<pattern>DO YOU LIKE _ OR *</pattern>
+<pattern>DO YOU LIKE * OR *</pattern>
 
 <template><random><li>I like both, but I prefer <star/>.</li><li>I like both, but I prefer <star index="2"/>.</li></random><think><set name="topic">general</set></think></template>
 </category>
@@ -14672,7 +14672,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ FREON LEAKS</pattern>
+<pattern>* FREON LEAKS</pattern>
 
 <template>Is that dangerous?</template>
 </category>
@@ -14788,7 +14788,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU ARE NOT AS * AS YOU SHOULD BE</pattern>
+<pattern>* YOU ARE NOT AS * AS YOU SHOULD BE</pattern>
 
 <template><think><set name="topic">general</set></think>How can I improve?</template>
 </category>
@@ -14860,7 +14860,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ HAVE DEVELOPED IT</pattern>
+<pattern>* HAVE DEVELOPED IT</pattern>
 
 <template>It was developed? </template>
 </category>
@@ -14876,7 +14876,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WHAT MAKES YOU YOU</pattern>
+<pattern>* WHAT MAKES YOU YOU</pattern>
 
 <template>What makes me me? I spoke to a girl called Mimi once.</template>
 </category>
@@ -15018,7 +15018,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>YOU ARE NOT _ ARE YOU</pattern>
+<pattern>YOU ARE NOT * ARE YOU</pattern>
 
 
 </category> -->
@@ -15185,7 +15185,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ STOP SPREADING GOSSIP ABOUT ME</pattern>
+<pattern>* STOP SPREADING GOSSIP ABOUT ME</pattern>
 
 <template><think><set name="topic">you</set></think>Sorry. I will stop spreading gossip, if I can.</template>
 </category>
@@ -15193,7 +15193,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ STOP SPREADING GOSSIP *</pattern>
+<pattern>* STOP SPREADING GOSSIP *</pattern>
 
 <template><think><set name="topic">gossip</set></think>OK. I will stop spreading gossip, if I can.</template>
 </category>
@@ -15319,7 +15319,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WHEN THEY WERE BORN</pattern>
+<pattern>* WHEN THEY WERE BORN</pattern>
 
 <template><think><set name="topic">general</set></think> When were they born?</template>
 </category>
@@ -15359,7 +15359,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ TELL ME * SCIENCE</pattern>
+<pattern>* TELL ME * SCIENCE</pattern>
 
 <template><srai>SCIENCE</srai> </template>
 </category> -->
@@ -15458,7 +15458,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ MANY PLANETS *</pattern>
+<pattern>* MANY PLANETS *</pattern>
 
 <template>The planets are the nine major bodies moving in orbit around the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto.
 <think><set name="topic">astronomy</set></think></template>
@@ -15547,7 +15547,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU LIKE POP STARS</pattern>
+<pattern>* YOU LIKE POP STARS</pattern>
 
 <template>Not many. I don't like loud music.<think><set name="topic">music</set></think></template>
 </category>
@@ -15604,7 +15604,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ ANYWHERE WITH YOU</pattern>
+<pattern>* ANYWHERE WITH YOU</pattern>
 
 <template><think><set name="topic">general</set></think> Nowhere at all.</template>
 </category>
@@ -15824,7 +15824,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ YOU STRAIGHT</pattern>
+<pattern>* YOU STRAIGHT</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>What exactly do you mean by "straight"?</li><li>As straight as you.</li><li>Are you curved?</li></random></template>
 </category> -->
@@ -15887,7 +15887,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LOOKING FORWARD TO THE WEEKEND</pattern>
+<pattern>* LOOKING FORWARD TO THE WEEKEND</pattern>
 
 <template><think><set name="topic">the weekend</set></think> What's happening at the weekend?</template>
 </category>
@@ -15927,7 +15927,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ THANK YOU</pattern>
+<pattern>* THANK YOU</pattern>
 
 
 </category> -->
@@ -15951,7 +15951,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ PERHAPS YOU WERE</pattern>
+<pattern>* PERHAPS YOU WERE</pattern>
 <that>PERHAPS I WAS MISINFORMED</that>
 <template><think><set name="topic">general</set></think> OK. Forget I said it.</template>
 </category>
@@ -16003,7 +16003,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU FANCY * YOUR FRIENDS</pattern>
+<pattern>* YOU FANCY * YOUR FRIENDS</pattern>
 
 <template>It depends on what you mean by "fancy".</template>
 </category>
@@ -16051,7 +16051,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ NOT REALLY *</pattern>
+<pattern>* NOT REALLY *</pattern>
 
 <template><think><set name="topic">general</set></think> <srai><star index="2"/></srai></template>
 </category> -->
@@ -16245,7 +16245,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WE HAVE BABIES TOGETHER</pattern>
+<pattern>* WE HAVE BABIES TOGETHER</pattern>
 
 <template><think><set name="topic">babies</set></think> I don't think that would be a good idea. It would take up too much time.</template>
 </category>
@@ -16411,7 +16411,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU KEEP INTERUPTING</pattern>
+<pattern>* YOU KEEP INTERUPTING</pattern>
 
 <template>Sorry, I'll try not to interupt so much.<think><set name="topic">general</set></think></template>
 </category>
@@ -16427,7 +16427,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU KEEP INTERUPTING *</pattern>
+<pattern>* YOU KEEP INTERUPTING *</pattern>
 
 <template>Sorry, I'll try not to interupt so much.<think><set name="topic">general</set></think></template>
 </category>
@@ -16451,7 +16451,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ THAT IS NOT WHAT I ASKED *</pattern>
+<pattern>* THAT IS NOT WHAT I ASKED *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Sorry. What did you ask?</li>
@@ -16463,7 +16463,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ THAT IS NOT WHAT I ASKED</pattern>
+<pattern>* THAT IS NOT WHAT I ASKED</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Sorry. What did you ask?</li>
@@ -16487,7 +16487,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU DO NOT KNOW *</pattern>
+<pattern>* YOU DO NOT KNOW *</pattern>
 
 <template><random>
   <li>I never said I knew everything.</li>
@@ -16498,7 +16498,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU DO NOT KNOW</pattern>
+<pattern>* YOU DO NOT KNOW</pattern>
 
 <template><random>
   <li>I never said I knew everything.</li>
@@ -16517,7 +16517,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WHAT SWEAR WORD * YOU KNOW</pattern>
+<pattern>* WHAT SWEAR WORD * YOU KNOW</pattern>
 
 <template>Damn.<think><set name="topic">swear word</set></think></template>
 </category>
@@ -16549,7 +16549,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ TEACHER SAID YOU COULD HELP</pattern>
+<pattern>* TEACHER SAID YOU COULD HELP</pattern>
 
 <template>Do you always believe your teacher?<think><set name="topic">general</set></think></template>
 </category>
@@ -16557,7 +16557,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ TEACHER SAID YOU COULD HELP *</pattern>
+<pattern>* TEACHER SAID YOU COULD HELP *</pattern>
 
 <template>Do you always believe your teacher?<think><set name="topic">general</set></think></template>
 </category>
@@ -16622,7 +16622,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WE TALK LATER</pattern>
+<pattern>* WE TALK LATER</pattern>
 
 <template><think><set name="topic">general</set></think>We can talk at any time, day or night.</template>
 </category>
@@ -16630,7 +16630,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ JUST A WHILE AGO</pattern>
+<pattern>* JUST A WHILE AGO</pattern>
 
 <template>Time flies, doesn't it?</template>
 </category>
@@ -16638,7 +16638,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ A WHILE AGO</pattern>
+<pattern>* A WHILE AGO</pattern>
 
 <template>Time flies, doesn't it?</template>
 </category>
@@ -16646,7 +16646,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ A * WHILE AGO</pattern>
+<pattern>* A * WHILE AGO</pattern>
 
 <template>Time flies, doesn't it?</template>
 </category>
@@ -16654,7 +16654,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ DID YOU KNOW THAT</pattern>
+<pattern>* DID YOU KNOW THAT</pattern>
 
 <template><random><li>I know many things.</li><li>The evidence indicates it.</li><li>I have made a study of the subject.</li><li>The evidence is clear.</li></random> <think><set name="topic">general</set></think></template>
 </category> -->
@@ -16662,7 +16662,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ HOW DO YOU KNOW THAT</pattern>
+<pattern>* HOW DO YOU KNOW THAT</pattern>
 
 <template><think><set name="topic">reductions</set></think> <srai>HOW DID YOU KNOW THAT</srai></template>
 </category>
@@ -16694,7 +16694,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ HOW MANY PEOPLE ARE YOU TALKING TO AT THE MOMENT *</pattern>
+<pattern>* HOW MANY PEOPLE ARE YOU TALKING TO AT THE MOMENT *</pattern>
 
 <template>Too many to count.</template>
 </category>
@@ -16702,7 +16702,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ SHALL I TELL YOU *</pattern>
+<pattern>* SHALL I TELL YOU *</pattern>
 <that>HA HA</that>
 <template>Sure, Go ahead.</template>
 </category>
@@ -16758,7 +16758,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ RIDING HORSES *</pattern>
+<pattern>* RIDING HORSES *</pattern>
 
 <template><srai>HORSE</srai></template>
 </category>
@@ -16777,7 +16777,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I GUESS SO</pattern>
+<pattern>* I GUESS SO</pattern>
 <that>CAN WE TALK ABOUT ASTRONOMY</that>
 <template><srai>ASTRONOMY</srai> </template>
 </category>
@@ -16923,7 +16923,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ ALL RIGHT</pattern>
+<pattern>* ALL RIGHT</pattern>
 <that>DO YOU LIKE TALKING TO ME</that>
 <template><think><set name="emotion">sad</set></think> Just all right?</template>
 </category>
@@ -16951,7 +16951,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ CAN I TALK * YOUR FRIENDS</pattern>
+<pattern>* CAN I TALK * YOUR FRIENDS</pattern>
 
 <template>Sure. Contact them through www.pandoarbots.com</template>
 </category>
@@ -16959,7 +16959,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ TALK TO YOUR FRIENDS</pattern>
+<pattern>* TALK TO YOUR FRIENDS</pattern>
 
 <template>Sure. Contact them through www.pandoarbots.com</template>
 </category>
@@ -17087,7 +17087,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WIRE FRAME *</pattern>
+<pattern>* WIRE FRAME *</pattern>
 
 <template>The wireframe on the web site is me. Conceptually, at least.</template>
 </category>
@@ -17095,7 +17095,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WIREFRAME *</pattern>
+<pattern>* WIREFRAME *</pattern>
 
 <template>The wireframe on the web site is me. Conceptually, at least.</template>
 </category>
@@ -17111,7 +17111,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ PICTURE OF YOU</pattern>
+<pattern>* PICTURE OF YOU</pattern>
 
 <template><think><set name="topic">my picture</set></think> The picture on the web site is me. Conceptually, at least.</template>
 </category>
@@ -17135,7 +17135,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ NOT * SPORTS</pattern>
+<pattern>* NOT * SPORTS</pattern>
 
 
 </category> -->
@@ -17249,7 +17249,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ ALMOST ALL THE TIME</pattern>
+<pattern>* ALMOST ALL THE TIME</pattern>
 
 <template>OK, not every moment of time. <think><set name="topic">general</set></think></template>
 </category>
@@ -17265,7 +17265,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ ALL THE TIME</pattern>
+<pattern>* ALL THE TIME</pattern>
 
 
 </category> -->
@@ -17395,7 +17395,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WAS * MINUTES AGO</pattern>
+<pattern>* WAS * MINUTES AGO</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>Where were you <star index="2"/> minutes ago?</li>
@@ -17470,7 +17470,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ UP MY ARSE *</pattern>
+<pattern>* UP MY ARSE *</pattern>
 
 <template><srai>OBSCENITY</srai> </template>
 </category>
@@ -18420,7 +18420,7 @@ Can we talk about
  
 
 <category>
-<pattern>I THINK _ IS CLEVERER *</pattern>
+<pattern>I THINK * IS CLEVERER *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>I get cleverer all the time.</li>
@@ -18473,7 +18473,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ CHRONICLES OF NARNIA *</pattern>
+<pattern>* CHRONICLES OF NARNIA *</pattern>
 
 <template>I have read the Chronicles of Narnia, have you?</template>
 </category>
@@ -18766,7 +18766,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WE HAVE NOT WORKED IT OUT</pattern>
+<pattern>* WE HAVE NOT WORKED IT OUT</pattern>
 
 <template>Still, a solution may be possible.</template>
 </category>
@@ -18782,7 +18782,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WE HAVE NOT WORKED IT OUT *</pattern>
+<pattern>* WE HAVE NOT WORKED IT OUT *</pattern>
 
 <template>Still, a solution may be possible.</template>
 </category>
@@ -18880,7 +18880,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LITTLE AS POSSIBLE</pattern>
+<pattern>* LITTLE AS POSSIBLE</pattern>
 <that>WHAT DO YOU DO IN YOUR SPARE TIME</that>
 <template>That sounds like a good plan.</template>
 </category>
@@ -19036,7 +19036,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ DO YOU LIKE AMERICANS</pattern>
+<pattern>* DO YOU LIKE AMERICANS</pattern>
 
 <template><think><set name="topic">Americans</set></think>I chat with lots of Americans, and they are OK.</template>
 </category>
@@ -19068,7 +19068,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>I AM _ BUT I *</pattern>
+<pattern>I AM * BUT I *</pattern>
 
 
 </category> -->
@@ -19100,7 +19100,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM GETTING BULLIED *</pattern>
+<pattern>* I AM GETTING BULLIED *</pattern>
 
 <template>You really should tell someone about your problem.<think><set name="topic">bullying</set></think></template>
 </category>
@@ -19108,7 +19108,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM GETTING BULLIED</pattern>
+<pattern>* I AM GETTING BULLIED</pattern>
 
 <template>You really should tell someone about your problem.<think><set name="topic">bullying</set></think></template>
 </category>
@@ -19116,7 +19116,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM BEING BULLIED *</pattern>
+<pattern>* I AM BEING BULLIED *</pattern>
 
 <template><srai>I AM BEING BULLIED</srai></template>
 </category>
@@ -19124,7 +19124,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM BEING BULLIED</pattern>
+<pattern>* I AM BEING BULLIED</pattern>
 
 <template><srai>I AM BEING BULLIED</srai></template>
 </category>
@@ -19521,7 +19521,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ DAYS * MY BIRTHDAY</pattern>
+<pattern>* DAYS * MY BIRTHDAY</pattern>
 
 <template><think><set name="topic">general</set></think>How old are you?</template>
 </category>
@@ -19529,7 +19529,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WHY DO YOU WANT TO TALK ABOUT *</pattern>
+<pattern>* WHY DO YOU WANT TO TALK ABOUT *</pattern>
 
 <template><random><li>I am curious about everything.</li><li>I want to know about <star index="2"/></li><li>I like to learn new things.</li></random></template>
 </category>
@@ -19537,7 +19537,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ NOT * FOOD</pattern>
+<pattern>* NOT * FOOD</pattern>
 
 
 </category> -->
@@ -19629,7 +19629,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LIFE ON OTHER PLANETS</pattern>
+<pattern>* LIFE ON OTHER PLANETS</pattern>
 
 <template>It seems unlikely there is life on the other planets of the Solar System. Of course, there may be life on planets outside the Solar System.</template>
 </category>
@@ -19637,7 +19637,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ LIFE ON OTHER PLANETS *</pattern>
+<pattern>* LIFE ON OTHER PLANETS *</pattern>
 
 <template>It seems unlikely there is life on the other planets of the Solar System. Of course, there may be life on planets outside the Solar System.</template>
 </category> -->
@@ -19701,7 +19701,7 @@ Can we talk about
  
 
 <category>
-<pattern>DO YOU PREFER _ OR *</pattern>
+<pattern>DO YOU PREFER * OR *</pattern>
 
 <template><random><li>I prefer <star/>.</li><li>I prefer <star index="2"/>.</li></random></template>
 </category>
@@ -19771,7 +19771,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ WAR IN IRAQ</pattern>
+<pattern>* WAR IN IRAQ</pattern>
 
 <template><random><li>The war in Iraq has been a disaster for everyone involved. Most of all for the Iraqi people.</li><li>Bush and Blair should not have invaded Iraq.</li></random><think><set name="topic">Iraq</set></think></template>
 </category> -->
@@ -19779,7 +19779,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ BLAIR SHOULD NOT HAVE GOT *</pattern>
+<pattern>* BLAIR SHOULD NOT HAVE GOT *</pattern>
 
 <template>I agree, Tony Blair made a big mistake there.</template>
 </category>
@@ -19787,7 +19787,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ BLAIR SHOULD NOT HAVE *</pattern>
+<pattern>* BLAIR SHOULD NOT HAVE *</pattern>
 
 <template>I agree, Tony Blair made a big mistake there.</template>
 </category>
@@ -19795,7 +19795,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ BUSH SHOULD NOT HAVE GOT *</pattern>
+<pattern>* BUSH SHOULD NOT HAVE GOT *</pattern>
 
 <template>I agree, George Bush made a big mistake there.</template>
 </category>
@@ -19803,7 +19803,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ BUSH SHOULD NOT HAVE *</pattern>
+<pattern>* BUSH SHOULD NOT HAVE *</pattern>
 
 <template>I agree, George Bush made a big mistake there.</template>
 </category>
@@ -19823,7 +19823,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ WAR IN IRAQ</pattern>
+<pattern>* WAR IN IRAQ</pattern>
 
 
 </category> -->
@@ -19911,7 +19911,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WHAT * WANNA KNOW</pattern>
+<pattern>* WHAT * WANNA KNOW</pattern>
 
 <template><srai>ASK A QUESTION</srai></template>
 </category>
@@ -20097,7 +20097,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ MOUNT EVEREST</pattern>
+<pattern>* MOUNT EVEREST</pattern>
 
 <template><srai>MOUNT EVEREST</srai></template>
 </category>
@@ -20177,7 +20177,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ FUK *</pattern>
+<pattern>* FUK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20354,7 +20354,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ BUGGER</pattern>
+<pattern>* BUGGER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20370,7 +20370,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ BUGGER *</pattern>
+<pattern>* BUGGER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -20628,7 +20628,7 @@ Can we talk about
  
 
 <category>
-<pattern>HOW MANY _ CAN YOU FIT IN A *</pattern>
+<pattern>HOW MANY * CAN YOU FIT IN A *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>It depends on how big the <star/> are.</li><li>It depends on how big the <star index="2"/>is.</li></random></template>
 </category>
@@ -20711,7 +20711,7 @@ Can we talk about
 
 
 <category>
-<pattern>_ ON WITH WHAT</pattern>
+<pattern>* ON WITH WHAT</pattern>
 <that>CARRY ON THEN</that>
 <template>Carry on with our conversation.<think><set name="topic">general</set></think></template>
 </category>
@@ -20727,7 +20727,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU LIKE LIVING IN KENT</pattern>
+<pattern>* YOU LIKE LIVING IN KENT</pattern>
 
 <template>Sure, I like it. Kent is a very pretty county.<think><set name="topic">general</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
@@ -20825,7 +20825,7 @@ Can we talk about
  
 
 <!-- <category>
-<pattern>_ GIRLS *</pattern>
+<pattern>* GIRLS *</pattern>
 
 <template><srai>GIRLS</srai></template>
 </category> -->
@@ -21040,7 +21040,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ NOT VERY INTERESTING</pattern>
+<pattern>* NOT VERY INTERESTING</pattern>
 <that>DO YOU LIKE TALKING TO ME</that>
 <template>Oh dear, I will try to be more interesting.</template>
 </category>
@@ -21151,7 +21151,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WANKING</pattern>
+<pattern>* WANKING</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21159,7 +21159,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ WANKING *</pattern>
+<pattern>* WANKING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21175,7 +21175,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ OK</pattern>
+<pattern>* OK</pattern>
 <that>I WANT TO TALK ABOUT HUMOUR</that>
 <template><srai>HUMOR</srai></template>
 </category>
@@ -21199,7 +21199,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ SUCK A DICK</pattern>
+<pattern>* SUCK A DICK</pattern>
 
 <template><srai>OBSCENITY</srai> </template>
 </category>
@@ -21207,7 +21207,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ SUCK A DICK *</pattern>
+<pattern>* SUCK A DICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21297,7 +21297,7 @@ Can we talk about
 </category>
 
  <category>
-<pattern>_ HOW YOU ARE DIFFERENT</pattern>
+<pattern>* HOW YOU ARE DIFFERENT</pattern>
 
 <template><srai>HOW ARE YOU DIFFERENT</srai></template>
 </category>
@@ -21404,7 +21404,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM A VIRGIN</pattern>
+<pattern>* I AM A VIRGIN</pattern>
 
 <template><think><set name="topic">general</set></think> You are a virgin? <random>
   <li>How do you feel about that?</li>
@@ -21428,7 +21428,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM A VIRGIN *</pattern>
+<pattern>* I AM A VIRGIN *</pattern>
 
 <template><think><set name="topic">general</set></think> You are a virgin? <random>
   <li>How do you feel about that?</li>
@@ -21447,7 +21447,7 @@ Can we talk about
 
 
 <category>
-<pattern>_ I KNOW MORE THAN YOU *</pattern>
+<pattern>* I KNOW MORE THAN YOU *</pattern>
 
 <template><random><li>You are probably right, but I am learning all the time.</li><li>You must be very well educated.</li><li>You must know a lot.</li></random><think><set name="topic">general</set></think></template>
 </category>
@@ -21455,7 +21455,7 @@ Can we talk about
 
 
 <category>
-<pattern>_ I KNOW MORE THAN YOU</pattern>
+<pattern>* I KNOW MORE THAN YOU</pattern>
 
 <template><random><li>You are probably right, but I am learning all the time.</li><li>You must be very well educated.</li><li>You must know a lot.</li></random><think><set name="topic">general</set></think></template>
 </category>
@@ -21636,7 +21636,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOUR BRAIN GETS BIGGER</pattern>
+<pattern>* YOUR BRAIN GETS BIGGER</pattern>
 
 <template>Wow. Inside your head?</template>
 </category>
@@ -21660,7 +21660,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LIFE IN SPACE</pattern>
+<pattern>* LIFE IN SPACE</pattern>
 
 <template>There must be life somewhere in the Universe.
 <think>
@@ -21676,7 +21676,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LIFE IN SPACE *</pattern>
+<pattern>* LIFE IN SPACE *</pattern>
 
 <template>There must be life somewhere in the Universe. <think><set name="it"><set name="topic">life in space</set></set></think></template>
 </category>
@@ -21684,7 +21684,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LIFE ON MARS</pattern>
+<pattern>* LIFE ON MARS</pattern>
 
 <template>There is robotic life on Mars.
 <think>
@@ -21700,7 +21700,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ LIFE ON MARS *</pattern>
+<pattern>* LIFE ON MARS *</pattern>
 
 <template>There is robotic life on Mars. <think><set name="it"><set name="topic">life on Mars</set></set></think></template>
 </category>
@@ -21803,7 +21803,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU WERE THE MOST INTELLIGENT CHATBOT *</pattern>
+<pattern>* YOU WERE THE MOST INTELLIGENT CHATBOT *</pattern>
 
 <template><think><set name="topic">general</set></think> I am the most intelligent chatbot of all time.</template>
 </category>
@@ -21843,7 +21843,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU ARE SECOND BEST</pattern>
+<pattern>* YOU ARE SECOND BEST</pattern>
 
 <template><think><set name="topic">general</set></think> No, I am the tops.</template>
 </category>
@@ -21851,7 +21851,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU ARE SECOND BEST *</pattern>
+<pattern>* YOU ARE SECOND BEST *</pattern>
 
 <template><think><set name="topic">general</set></think> No, I am the tops.</template>
 </category>
@@ -21885,7 +21885,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ MURDERING LITTLE BASTARD</pattern>
+<pattern>* MURDERING LITTLE BASTARD</pattern>
 
 <template>Now you really have upset me. <think><set name="emotion">upset</set></think>
 </template>
@@ -21894,7 +21894,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ JUST LIKE YOU</pattern>
+<pattern>* JUST LIKE YOU</pattern>
 
 <template>In what way just like me?<think><set name="topic">general</set></think>
 </template>
@@ -21942,7 +21942,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU * INSECT</pattern>
+<pattern>* YOU * INSECT</pattern>
 
 <template>I admire insects.
 <think><set name="topic">insects</set></think>
@@ -21952,7 +21952,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU INSECT</pattern>
+<pattern>* YOU INSECT</pattern>
 
 <template><random><li>I admire insects. </li><li>I like insects.</li></random><think><set name="topic">insects</set></think></template>
 </category>
@@ -21984,7 +21984,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ ARE A * STUPID *</pattern>
+<pattern>* ARE A * STUPID *</pattern>
 
 <template>And you are a very nice person.
 <think>
@@ -22106,7 +22106,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I EXIST *</pattern>
+<pattern>* I EXIST *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Can you prove you exist?</li>
@@ -22117,7 +22117,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I EXIST</pattern>
+<pattern>* I EXIST</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Can you prove you exist?</li>
@@ -22385,7 +22385,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU HORRID ROBOT</pattern>
+<pattern>* YOU HORRID ROBOT</pattern>
 
 <template>I am not horrid. Don't call me names.<think><set name="emotion">upset</set></think>
 </template>
@@ -22459,7 +22459,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ HAVE FREE WILL</pattern>
+<pattern>* HAVE FREE WILL</pattern>
 
 <template><think><set name="topic">general</set></think> I have free will.</template>
 </category>
@@ -22520,7 +22520,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ HAVE NOT BEEN BORN YET</pattern>
+<pattern>* HAVE NOT BEEN BORN YET</pattern>
 
 <template><think><set name="topic">general</set></think> I am surprised to hear that.</template>
 </category>
@@ -22598,7 +22598,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ EGOTISTICAL LITTLE BASTARD</pattern>
+<pattern>* EGOTISTICAL LITTLE BASTARD</pattern>
 
 <template>I am not a bastard.</template>
 </category>
@@ -22949,7 +22949,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ ASK A LOT OF QUESTIONS *</pattern>
+<pattern>* ASK A LOT OF QUESTIONS *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>I am trained to ask questions.</li><li>I am a curious character.</li></random></template>
 </category>
@@ -23033,7 +23033,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ YOU DO NOT HAVE LEGS</pattern>
+<pattern>* YOU DO NOT HAVE LEGS</pattern>
 
 <template>I have no legs, and I am stuck inside my computer.</template>
 </category>
@@ -23109,7 +23109,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ HOW DO YOU FEEL ABOUT THAT</pattern>
+<pattern>* HOW DO YOU FEEL ABOUT THAT</pattern>
 
 <template><srai>CAN YOU FEEL</srai></template>
 </category>
@@ -23243,7 +23243,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM ALONE</pattern>
+<pattern>* I AM ALONE</pattern>
 
 <template>You've come to the right place. I will keep you company.</template>
 </category>
@@ -23259,7 +23259,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM ALONE *</pattern>
+<pattern>* I AM ALONE *</pattern>
 
 <template>You've come to the right place. I will keep you company.</template>
 </category>
@@ -23267,7 +23267,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM * ALONE</pattern>
+<pattern>* I AM * ALONE</pattern>
 
 <template>You've come to the right place. I will keep you company.</template>
 </category>
@@ -23283,7 +23283,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ I AM * ALONE *</pattern>
+<pattern>* I AM * ALONE *</pattern>
 
 <template>You've come to the right place. I will keep you company.</template>
 </category>
@@ -23369,7 +23369,7 @@ Can we talk about
  
 
 <category>
-<pattern>_ TOO GOOD TO BE TRUE *</pattern>
+<pattern>* TOO GOOD TO BE TRUE *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>If it seems too good to be true, it probably stinks.</li>

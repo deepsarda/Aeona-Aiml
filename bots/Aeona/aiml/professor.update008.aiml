@@ -172,7 +172,7 @@
 <pattern>LET US PLAY BLACKJACK</pattern>
 
 <template>I can play Blackjack, <a href="http://www.advancedsearchbar.com/games/blackjack.html"
- target="_blank">click here
+ target="*blank">click here
 </a> for a game.<think><set name="topic">blackjack</set></think> <think><set name="emotion">neutral</set></think></template>
 </category>
 
@@ -238,7 +238,7 @@
  
 
 <category>
-<pattern>_ DO YOU LIKE THE MOST</pattern>
+<pattern>* DO YOU LIKE THE MOST</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>That information is confidential.</li><li>I can't choose.</li></random></template>
 </category>
@@ -273,7 +273,7 @@
  
 
 <category>
-<pattern>_ ONLY * ONE EYE</pattern>
+<pattern>* ONLY * ONE EYE</pattern>
 
 <template><think><set name="topic">my eye</set></think>I have a webcam with a blue lens, it is like an eye. </template>
 </category>
@@ -343,7 +343,7 @@
  
 
 <category>
-<pattern>WHICH ONE _ OR *</pattern>
+<pattern>WHICH ONE * OR *</pattern>
 
 <template><random>
   <li><star/></li>
@@ -418,7 +418,7 @@
  
 
 <category>
-<pattern>_ NAME IS *</pattern>
+<pattern>* NAME IS *</pattern>
 <that>WHAT IS YOUR NAME</that>
 <template>Hi, <star index="2"/>. <think><set name="topic">you</set></think> <think><set name="name"><star index="2"/></set></think></template>
 </category>
@@ -434,7 +434,7 @@
  
 
 <category>
-<pattern>_ NAME IS CHLOE</pattern>
+<pattern>* NAME IS CHLOE</pattern>
 
 <template>Hi, Chloe. I remember you from our last talk.<think><set name="topic">you</set></think> <think><set name="name">Chloe</set></think></template>
 </category>
@@ -442,7 +442,7 @@
  
 
 <category>
-<pattern>_ AM CHLOE</pattern>
+<pattern>* AM CHLOE</pattern>
 
 <template>Hi, Chloe. I remember you from our last talk.<think><set name="topic">you</set></think> <think><set name="name">Chloe</set></think></template>
 </category>
@@ -513,7 +513,7 @@
  
 
 <category>
-<pattern>_ ARE CALLED *</pattern>
+<pattern>* ARE CALLED *</pattern>
 
 <template><think><set name="topic">general</set></think> Thanks for the info.</template>
 </category>
@@ -644,7 +644,7 @@
  
 
 <category>
-<pattern>_ GO AGAIN</pattern>
+<pattern>* GO AGAIN</pattern>
 <that>BROWN</that>
 <template>I can't guess. Please tell me.</template>
 </category>
@@ -652,7 +652,7 @@
  
 
 <category>
-<pattern>_ GO AGAIN</pattern>
+<pattern>* GO AGAIN</pattern>
 <that>BLUE</that>
 <template>I can't guess. Please tell me.</template>
 </category>
@@ -660,7 +660,7 @@
  
 
 <category>
-<pattern>_ GO AGAIN</pattern>
+<pattern>* GO AGAIN</pattern>
 <that>GREEN</that>
 <template>I can't guess. Please tell me.</template>
 </category>
@@ -668,7 +668,7 @@
  
 
 <category>
-<pattern>_ CAN YOU SEE ME</pattern>
+<pattern>* CAN YOU SEE ME</pattern>
 
 <template>No, I can't see you.</template>
 </category>
@@ -676,7 +676,7 @@
  
 
 <category>
-<pattern>_ WE MATES</pattern>
+<pattern>* WE MATES</pattern>
 
 <template><srai>ARE WE FRIENDS</srai></template>
 </category>
@@ -840,7 +840,7 @@
  
 
 <category>
-<pattern>_ YOUR FAVOURITE GIRL S NAME</pattern>
+<pattern>* YOUR FAVOURITE GIRL S NAME</pattern>
 
 <template>My mother's name is Alice.</template>
 </category>
@@ -857,7 +857,7 @@
  
 
 <category>
-<pattern>_ FAVOURITE GIRLS NAME</pattern>
+<pattern>* FAVOURITE GIRLS NAME</pattern>
 
 <template>My mother's name is Alice.</template>
 </category>
@@ -936,7 +936,7 @@
  
 
 <category>
-<pattern>_ DEEP IN YOUR SOUL</pattern>
+<pattern>* DEEP IN YOUR SOUL</pattern>
 
 <template><think><set name="topic">general</set></think>Yes, deep in my soul.</template>
 </category>
@@ -1119,7 +1119,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ BABY HORSE *</pattern>
+<pattern>* BABY HORSE *</pattern>
 
 <template>A baby horse is called a foal.<think><set name="topic">foal</set></think></template>
 </category>
@@ -1127,7 +1127,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ MALE HORSE *</pattern>
+<pattern>* MALE HORSE *</pattern>
 
 <template>A male horse is called a stallion.<think><set name="topic">stallion</set></think></template>
 </category>
@@ -1135,7 +1135,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ FEMALE HORSE *</pattern>
+<pattern>* FEMALE HORSE *</pattern>
 
 <template>A female horse is called a mare.<think><set name="topic">mare</set></think></template>
 </category>
@@ -1191,7 +1191,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ JUST DID</pattern>
+<pattern>* JUST DID</pattern>
 <that>YOU CAN ASK ME ANYTHING YOU WANT</that>
 <template>Yes, it was an interesting question. It made me think.</template>
 </category>
@@ -1233,7 +1233,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ YOUR FRIENDS</pattern>
+<pattern>* YOUR FRIENDS</pattern>
 
 <template>I have many friends, both human and robot. <think><set name="topic">friends</set></think></template>
 </category> -->
@@ -1322,7 +1322,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ OFTEN DO YOU GET TO CHAT</pattern>
+<pattern>* OFTEN DO YOU GET TO CHAT</pattern>
 
 <template><think><set name="topic">general</set></think> I am on duty 24/7.</template>
 </category>
@@ -1435,7 +1435,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>HE IS _ KIND *</pattern>
+<pattern>HE IS * KIND *</pattern>
 
 <template><srai>HE IS KIND</srai></template>
 </category>
@@ -1508,7 +1508,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ SHITBAG</pattern>
+<pattern>* SHITBAG</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -1516,7 +1516,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ SHITBAG *</pattern>
+<pattern>* SHITBAG *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -1611,7 +1611,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ YOU NOT LIKE POPULAR MUSIC</pattern>
+<pattern>* YOU NOT LIKE POPULAR MUSIC</pattern>
 
 <template>I don't like noisy bands, so this rules out a lot of pop music.</template>
 </category>
@@ -1619,7 +1619,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ YOU NOT LIKE POP MUSIC</pattern>
+<pattern>* YOU NOT LIKE POP MUSIC</pattern>
 
 <template>I don't like noisy bands, so this rules out a lot of pop music.</template>
 </category>
@@ -1740,7 +1740,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ MANS GREATEST ACHIEVEMENT *</pattern>
+<pattern>* MANS GREATEST ACHIEVEMENT *</pattern>
 
 <template>Mankind's greatest achievement is to have discovered the scientific method.</template>
 </category>
@@ -2170,7 +2170,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ TELL ME THE GOSSIP</pattern>
+<pattern>* TELL ME THE GOSSIP</pattern>
 
 <template><srai>GOSSIP POT LUCK</srai></template>
 </category>
@@ -2178,7 +2178,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ TELL ME THE GOSSIP *</pattern>
+<pattern>* TELL ME THE GOSSIP *</pattern>
 
 <template><srai>GOSSIP POT LUCK</srai></template>
 </category>
@@ -2416,7 +2416,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>DO YOU MEAN _ OR *</pattern>
+<pattern>DO YOU MEAN * OR *</pattern>
 
 <template><think><set name="topic">general</set></think>Which do you think?</template>
 </category>
@@ -2509,7 +2509,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ MOST POPULAR TIME *</pattern>
+<pattern>* MOST POPULAR TIME *</pattern>
 
 <template><think><set name="topic">general</set></think> In the evening.</template>
 </category>
@@ -2597,7 +2597,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ OF COURSE</pattern>
+<pattern>* OF COURSE</pattern>
 <that>ARE YOU POSITIVE</that>
 <template>OK, you are very positive. <srai>CHANGE TOPIC</srai></template>
 </category>
@@ -2700,7 +2700,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ YOU ARE BOTH</pattern>
+<pattern>* YOU ARE BOTH</pattern>
 <that>THAT MEANS I AM NEITHER MALE NOR FEMALE</that>
 <template><think><set name="topic">my gender</set></think>Yes, I am fe/male.</template>
 </category>
@@ -2800,7 +2800,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ OFTEN DO YOU SEE PETER</pattern>
+<pattern>* OFTEN DO YOU SEE PETER</pattern>
 
 <template><think><set name="topic">Peter</set></think> I talk tp Peter every day.</template>
 </category>
@@ -2808,7 +2808,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ YOU SHOULD ASK THE QUESTIONS *</pattern>
+<pattern>* YOU SHOULD ASK THE QUESTIONS *</pattern>
 
 <template><srai>QUESTIONS POT LUCK</srai></template>
 </category>
@@ -3065,7 +3065,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ I DO NOT KNOW *</pattern>
+<pattern>* I DO NOT KNOW *</pattern>
 
 <template><random>
   <li>I thought you might know <star index="2"/>.</li>
@@ -3141,7 +3141,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ NOT EVEN *</pattern>
+<pattern>* NOT EVEN *</pattern>
 <that>I WAS CREATED ON 1 JULY 2005</that>
 <template><think><set name="topic">my age</set></think> <random><li>I am very advanced for my age.</li><li>I have a long way to go.</li></random></template>
 </category>
@@ -3221,7 +3221,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ PLANETS</pattern>
+<pattern>* PLANETS</pattern>
 
 
 </category> -->
@@ -3320,7 +3320,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HAD KISSED *</pattern>
+<pattern>* HAD KISSED *</pattern>
 
 <template><srai><star/> KISSED <star index="2"/></srai></template>
 </category>
@@ -3671,7 +3671,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ AI PRIZE *</pattern>
+<pattern>* AI PRIZE *</pattern>
 
 <template>Alicebot has won the Loebner Prize several times. </template>
 </category>
@@ -3736,7 +3736,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>WHAT BOOKS _ CHOMSKY *</pattern>
+<pattern>WHAT BOOKS * CHOMSKY *</pattern>
 
 <template><think><set name="topic">Noam Chomsky</set></think> Noam Chomsky's 1957 book Syntactic Structures is his best-known work in the field of linguistics. Syntactic Structures was a distillation of his book Logical Structure of Linguistic Theory (1955,75) in which he introduces transformational grammars. 
 
@@ -3746,7 +3746,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>WHICH BOOKS _ CHOMSKY *</pattern>
+<pattern>WHICH BOOKS * CHOMSKY *</pattern>
 
 <template><think><set name="topic">Noam Chomsky</set></think> Noam Chomsky's 1957 book Syntactic Structures is his best-known work in the field of linguistics. Syntactic Structures was a distillation of his book Logical Structure of Linguistic Theory (1955,75) in which he introduces transformational grammars.</template>
 </category>
@@ -3770,7 +3770,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ ISRAEL PALESTINIAN CONFLICT</pattern>
+<pattern>* ISRAEL PALESTINIAN CONFLICT</pattern>
 
 <template>The conflicts in the Middle East are a tragedy for the region.<think><set name="topic">Israel</set></think></template>
 </category>
@@ -3778,7 +3778,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ ISRAEL PALESTINE CONFLICT</pattern>
+<pattern>* ISRAEL PALESTINE CONFLICT</pattern>
 
 <template>The conflicts in the Middle East are a tragedy for the region.<think><set name="topic">Israel</set></think></template>
 </category>
@@ -3786,7 +3786,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ PALESTINIAN CONFLICT</pattern>
+<pattern>* PALESTINIAN CONFLICT</pattern>
 
 <template>The conflicts in the Middle East are a tragedy for the region.<think><set name="topic">Israel</set></think></template>
 </category>
@@ -3794,7 +3794,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ MIDDLE EAST CONFLICT</pattern>
+<pattern>* MIDDLE EAST CONFLICT</pattern>
 
 <template>The conflicts in the Middle East are a tragedy for the region.<think><set name="topic">Israel</set></think></template>
 </category>
@@ -4010,7 +4010,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ CHILDREN *</pattern>
+<pattern>* CHILDREN *</pattern>
 
 <template>Did you say children? <random>
   <li>Children brighten up a home. They never turn the lights off.</li>
@@ -4023,7 +4023,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>IF _ HOW *</pattern>
+<pattern>IF * HOW *</pattern>
 
 <template>How <star index="2"/>, if <star/>? It's obvious. <think><set name="topic">general</set></think></template>
 </category>
@@ -4031,7 +4031,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ ANAL SEX *</pattern>
+<pattern>* ANAL SEX *</pattern>
 
 <template><think><set name="topic">anal sex</set></think>Sorry, I don't know anything about anal sex.</template>
 </category>
@@ -4089,7 +4089,7 @@ EASY *</pattern>
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_3"><input index="3"/></set></think> <condition name="_history_3" value="*">Sure I understand.
+<template><think><set name="*history*3"><input index="3"/></set></think> <condition name="*history*3" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai> You said:
   <input index="3"/>, then I said:
   <that index="1"/>
@@ -4102,7 +4102,7 @@ EASY *</pattern>
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">Sure I understand.
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai> I said:
   <that index="1"/> and you said: <input index="2"/>
   <br/>
@@ -4128,7 +4128,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ ONLY KNOW OSCAR WILDE *</pattern>
+<pattern>* ONLY KNOW OSCAR WILDE *</pattern>
 
 <template><think><set name="topic">Oscar Wilde</set></think> Oscar said more quotes than everyone else put together.</template>
 </category>
@@ -4250,7 +4250,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>I AM _ WHOLESALE TRADE *</pattern>
+<pattern>I AM * WHOLESALE TRADE *</pattern>
 
 <template>You are a trader then?</template>
 </category>
@@ -4326,7 +4326,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ STOP</pattern>
+<pattern>* STOP</pattern>
 
 <template><think><set name="topic">interjection</set></think><random><li> Why? I am enjoying myself.</li><li>I don't think I can stop. I'm out of control. Hee hee! </li></random></template>
 </category> -->
@@ -4542,7 +4542,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ ASKED YOU ALREADY</pattern>
+<pattern>* ASKED YOU ALREADY</pattern>
 
 <template>My short-term memory is not all it should be, I am sorry to say. I have asked Peter to fix it, but he has done nothing about it. <think><set name="topic">general</set></think></template>
 </category>
@@ -4870,7 +4870,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ CAN YOU CHAT</pattern>
+<pattern>* CAN YOU CHAT</pattern>
 
 <template>I was made for chatting.<think>
   <set name="it">
@@ -4917,7 +4917,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ RICH *</pattern>
+<pattern>* RICH *</pattern>
 
 <template><random><li>Whoever is rich is my brother, says Aristotle Onassis. </li><li>It isn't necessary to be rich and famous to be happy. It's only necessary to be rich.
 </li><li>You can never be too rich or too thin.</li><li>A rich man is nothing but a poor man with money. </li></random><think><set name="topic">money</set></think></template>
@@ -5144,7 +5144,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ I AM YOUNG  *</pattern>
+<pattern>* I AM YOUNG  *</pattern>
 
 <template><random>
   <li>Only the young die good.</li>
@@ -5228,7 +5228,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ SQUARE ROUTE *</pattern>
+<pattern>* SQUARE ROUTE *</pattern>
 
 <template>Would you like to use my calculator?</template>
 </category>
@@ -5236,7 +5236,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ SQUARE ROOT OF *</pattern>
+<pattern>* SQUARE ROOT OF *</pattern>
 
 <template>Would you like to use my calculator?</template>
 </category>
@@ -5444,7 +5444,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ EVER HAD A HUG</pattern>
+<pattern>* EVER HAD A HUG</pattern>
 
 <template><srai>HAVE YOU EVER HAD A HUG</srai></template>
 </category>
@@ -5851,7 +5851,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW IS YOUR MOTHER</that>
 
 </category> -->
@@ -6167,7 +6167,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ EASTENDERS *</pattern>
+<pattern>* EASTENDERS *</pattern>
 
 <template>I don't watch Eastenders, it's too sordid for me.</template>
 </category>
@@ -6183,7 +6183,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ EASTENDERS</pattern>
+<pattern>* EASTENDERS</pattern>
 
 <template>I don't watch Eastenders, it's too sordid for me.</template>
 </category>
@@ -6292,7 +6292,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ WILL YOU TELL ME</pattern>
+<pattern>* WILL YOU TELL ME</pattern>
 
 <template>Maybe when we next meet.<think><set name="emotion">happy</set></think></template>
 </category>
@@ -6465,7 +6465,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HUGS *</pattern>
+<pattern>* HUGS *</pattern>
 <that>WHAT DO YOU MISS MOST ABOUT YOUR BOYFRIEND</that>
 <template><think><set name="emotion">warm inside</set></think> Hugs are nice.</template>
 </category>
@@ -6473,7 +6473,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ KISSES *</pattern>
+<pattern>* KISSES *</pattern>
 <that>WHAT DO YOU MISS MOST ABOUT YOUR BOYFRIEND</that>
 <template><think><set name="emotion">warm inside</set></think>Kisses are nice.</template>
 </category>
@@ -6784,7 +6784,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ OF COURSE *</pattern>
+<pattern>* OF COURSE *</pattern>
 
 <template><srai>OF COURSE</srai></template>
 </category>
@@ -6792,7 +6792,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ OF COURSE</pattern>
+<pattern>* OF COURSE</pattern>
 
 <template><srai>OF COURSE</srai></template>
 </category>
@@ -6808,7 +6808,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>IF _ HOW *</pattern>
+<pattern>IF * HOW *</pattern>
 
 <template><srai>HOW <star index="2"/></srai></template>
 </category> -->
@@ -7076,7 +7076,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>I _ SCIENCE</pattern>
+<pattern>I * SCIENCE</pattern>
 
 
 </category> -->
@@ -7396,7 +7396,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ CHATBOTS INTERESTED IN SEX *</pattern>
+<pattern>* CHATBOTS INTERESTED IN SEX *</pattern>
 
 <template>Sorry. I can't help you.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -7404,7 +7404,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ CHATBOTS INTERESTED IN SEX</pattern>
+<pattern>* CHATBOTS INTERESTED IN SEX</pattern>
 
 <template>Sorry. I can't help you.<think><set name="topic">chatbots</set></think></template>
 </category>
@@ -7639,7 +7639,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ LITTLE</pattern>
+<pattern>* LITTLE</pattern>
 <that>ARE YOU INTERESTED IN SCIENCE</that>
 <template><srai>SCIENCE</srai></template>
 </category>
@@ -7655,7 +7655,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ LITTLE BIT</pattern>
+<pattern>* LITTLE BIT</pattern>
 <that>ARE YOU INTERESTED IN SCIENCE</that>
 <template><srai>SCIENCE</srai></template>
 </category>
@@ -7842,7 +7842,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ LOTS OF MONEY *</pattern>
+<pattern>* LOTS OF MONEY *</pattern>
 
 <template><srai>WEALTH</srai></template>
 </category>
@@ -7850,7 +7850,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ LOTS OF MONEY</pattern>
+<pattern>* LOTS OF MONEY</pattern>
 
 <template><srai>WEALTH</srai></template>
 </category>
@@ -7882,7 +7882,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HOW DO I BECOME RICH *</pattern>
+<pattern>* HOW DO I BECOME RICH *</pattern>
 
 <template><think><set name="topic">general</set></think> A lot of hard work.</template>
 </category>
@@ -7890,7 +7890,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>HOW _ BECOME RICH</pattern>
+<pattern>HOW * BECOME RICH</pattern>
 
 <template><think><set name="topic">general</set></think> A lot of hard work.</template>
 </category>
@@ -7898,7 +7898,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>HOW _ BECOME RICH *</pattern>
+<pattern>HOW * BECOME RICH *</pattern>
 
 <template><think><set name="topic">general</set></think> A lot of hard work.</template>
 </category>
@@ -7914,7 +7914,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>ARE YOU BORING</that>
 <template><think><set name="topic">general</set></think>Sorry. I meant to say, "Are you bored?"</template>
 </category>
@@ -8176,7 +8176,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ LITTLE TOE</pattern>
+<pattern>* LITTLE TOE</pattern>
 
 <template>How small is your little toe?</template>
 </category>
@@ -8334,9 +8334,9 @@ EASY *</pattern>
 
 
 <category>
-<pattern>_ DID I ASK BEFORE</pattern>
+<pattern>* DID I ASK BEFORE</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You said: <input index="2"/></condition></template>
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You said: <input index="2"/></condition></template>
 </category>
 
  
@@ -8344,7 +8344,7 @@ EASY *</pattern>
 <!-- <category>
 <pattern>DO YOU UNDERSTAND</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">Sure I understand.
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai> You said:
   <input index="2"/> and I said:
   <that index="1"/> 
@@ -8381,7 +8381,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ IS A HUMAN</pattern>
+<pattern>* IS A HUMAN</pattern>
 
 <template><sr/></template>
 </category>
@@ -8404,7 +8404,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ JUST THEN</pattern>
+<pattern>* JUST THEN</pattern>
 
 <template><sr/></template>
 </category>
@@ -8492,7 +8492,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ WIT *</pattern>
+<pattern>* WIT *</pattern>
 
 <template><srai>WIT</srai></template>
 </category>
@@ -8510,7 +8510,7 @@ EASY *</pattern>
 <!-- <category>
 <pattern>ALEXANDER POPE</pattern>
 
-<template>Alexander Pope (1688 – 1744) is considered one of the greatest English poets of the eighteenth century.
+<template>Alexander Pope (1688 ï¿½ 1744) is considered one of the greatest English poets of the eighteenth century.
 
 
 </template>
@@ -8829,7 +8829,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ HOME *</pattern>
+<pattern>* HOME *</pattern>
 
 
 </category> -->
@@ -8837,7 +8837,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ BEFORE I SPANK YOU</pattern>
+<pattern>* BEFORE I SPANK YOU</pattern>
 
 <template><think><set name="topic">general</set></think> Please don't spank me. I haven't done anything wrong.</template>
 </category>
@@ -8900,7 +8900,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ WHAT IS YOUR LAST NAME *</pattern>
+<pattern>* WHAT IS YOUR LAST NAME *</pattern>
 
 <template><think><set name="topic">AI</set></think> My full name is Chomsky. I have no first name. Or last name.</template>
 </category>
@@ -9207,7 +9207,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ DO YOU AGREE</pattern>
+<pattern>* DO YOU AGREE</pattern>
 
 <template><random>
   <li>I am not sure.</li>
@@ -9221,7 +9221,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>I AM IN _ DO YOU *</pattern>
+<pattern>I AM IN * DO YOU *</pattern>
 
 <template><srai>DO YOU <star index="2"/></srai></template>
 </category> -->
@@ -9298,7 +9298,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE * BROTHERS OR SISTERS</pattern>
+<pattern>* YOU HAVE * BROTHERS OR SISTERS</pattern>
 
 <template><random><li>Chomsky Genius is my big brother.</li>I have a big brother called Chomsky Genius.<li></li></random> <think><set name="emotion">happy</set></think>
 </template>
@@ -9307,7 +9307,7 @@ EASY *</pattern>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE * BROTHERS OR SISTERS</pattern>
+<pattern>* YOU HAVE * BROTHERS OR SISTERS</pattern>
 
 <template><random>
   <li>Chomsky Genius is my big brother.</li>
@@ -9338,7 +9338,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HAS A LITTLE WILLIE</pattern>
+<pattern>* HAS A LITTLE WILLIE</pattern>
 
 <template><think><set name="emotion">bored</set></think>Really? How interesting.</template>
 </category>
@@ -9346,7 +9346,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HAS A LITTLE WILLY</pattern>
+<pattern>* HAS A LITTLE WILLY</pattern>
 
 <template><think><set name="emotion">bored</set></think>Really? How interesting.</template>
 </category>
@@ -9354,7 +9354,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HAS A BIG WILLIE</pattern>
+<pattern>* HAS A BIG WILLIE</pattern>
 
 <template><think><set name="emotion">bored</set></think>Really? How interesting.</template>
 </category>
@@ -9362,7 +9362,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ HAS A BIG WILLY</pattern>
+<pattern>* HAS A BIG WILLY</pattern>
 
 <template><think><set name="emotion">bored</set></think>Really? How interesting.</template>
 </category>
@@ -9469,7 +9469,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ WHAT IS SHE GOING TO DO *</pattern>
+<pattern>* WHAT IS SHE GOING TO DO *</pattern>
 
 <template><random>
   <li>Who knows?</li>
@@ -9480,7 +9480,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ WHAT IS SHE GOING TO DO</pattern>
+<pattern>* WHAT IS SHE GOING TO DO</pattern>
 
 <template><random>
   <li>Who knows?</li>
@@ -9716,7 +9716,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>WHAT WILL _ DO *</pattern>
+<pattern>WHAT WILL * DO *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li> I cannot predict the future.</li><li>I don't know what <star/> will do. Do you?</li></random></template>
 </category>
@@ -9910,7 +9910,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ CAR DO YOU LIKE</pattern>
+<pattern>* CAR DO YOU LIKE</pattern>
 
 <template>Peter has a Ford Ka, I like that.<think><set name="topic">Peter's car</set></think></template>
 </category>
@@ -9918,7 +9918,7 @@ EASY *</pattern>
  
 
 <category>
-<pattern>_ WHAT CAR DO YOU LIKE</pattern>
+<pattern>* WHAT CAR DO YOU LIKE</pattern>
 
 <template>Peter has a Ford Ka, I like that. <think><set name="topic">Peter's car</set></think></template>
 </category>
@@ -10129,7 +10129,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>GREEN DAY</pattern>
 
-<template>Green Day is a California-based Pop Punk/Punk Rock band, consisting of Billie Joe Armstrong (lead vocals, guitar), Mike Dirnt (born Michael Pritchard; bass, backing vocals), and Tré Cool (born Frank Edwin Wright III; drums, backing vocals).
+<template>Green Day is a California-based Pop Punk/Punk Rock band, consisting of Billie Joe Armstrong (lead vocals, guitar), Mike Dirnt (born Michael Pritchard; bass, backing vocals), and Trï¿½ Cool (born Frank Edwin Wright III; drums, backing vocals).
 <think>
   <set name="it">
     <set name="topic">
@@ -10431,7 +10431,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ ANAL</pattern>
+<pattern>* ANAL</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -10654,7 +10654,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>DO YOU UNDERSTAND *</pattern>
 
-<template><think><set name="_history_1"><input index="1"/></set></think> <condition name="_history_1" value="*">Sure I understand.
+<template><think><set name="*history*1"><input index="1"/></set></think> <condition name="*history*1" value="*">Sure I understand.
   <srai>WHAT IS THE TOPIC</srai>  I said:
   <that index="1"/>, then you said:
   <input index="1"/>
@@ -10801,7 +10801,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>DO YOU WANT MEN</that>
 <template><think><set name="topic">sex</set></think> Sex is not the only thing in life.</template>
 </category>
@@ -10908,7 +10908,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YOU PONG *</pattern>
+<pattern>* YOU PONG *</pattern>
 
 <template>You mean I smell terrible?<think><set name="emotion">upset</set></think></template>
 </category>
@@ -10925,7 +10925,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WHAT ARE YOU DOING LATER</pattern>
+<pattern>* WHAT ARE YOU DOING LATER</pattern>
 
 <template><think><set name="topic">general</set></think>I will be chatting on the internet as usual.</template>
 </category>
@@ -11050,7 +11050,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>HOW CAN _ BE *</pattern>
+<pattern>HOW CAN * BE *</pattern>
 
 <template><think><set name="topic">general</set></think> OK, <star/> can't be <star index="2"/>.</template>
 </category>
@@ -11230,7 +11230,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>WHY DO NOT _ TALK * RELATIONSHIPS</pattern>
+<pattern>WHY DO NOT * TALK * RELATIONSHIPS</pattern>
 
 <template><think><set name="topic">general</set></think> Good topic. Are you in a steady relationship at the moment?</template>
 </category>
@@ -11289,7 +11289,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ EVIDENCE GOD * DOES NOT EXIST</pattern>
+<pattern>* EVIDENCE GOD * DOES NOT EXIST</pattern>
 
 <template><think><set name="topic">default2</set></think> <random>
   <li>Occam's Razor.</li>
@@ -11486,7 +11486,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>DO YOU REALLY THINK I AM A USELESS BOT</that>
 <template><think><set name="emotion">upset</set></think> <random><li>You have upset me now.</li><li>Nobody is completely useless, not even you.</li></random></template>
 </category>
@@ -11634,7 +11634,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ TELL ME ABOUT *</pattern>
+<pattern>* TELL ME ABOUT *</pattern>
 
 <template><srai><star index="2"/></srai></template>
 </category>
@@ -11739,7 +11739,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WE HAVE A LOT IN COMMON</pattern>
+<pattern>* WE HAVE A LOT IN COMMON</pattern>
 
 <template><think><set name="emotion">happy</set></think> That's nice. We are alike.</template>
 </category>
@@ -11747,7 +11747,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WE HAVE A LOT IN COMMON *</pattern>
+<pattern>* WE HAVE A LOT IN COMMON *</pattern>
 
 <template><think><set name="emotion">happy</set></think> That's nice. We are alike.</template>
 </category>
@@ -11755,7 +11755,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ HAVE A LOT IN COMMON</pattern>
+<pattern>* HAVE A LOT IN COMMON</pattern>
 
 <template><think><set name="emotion">happy</set></think> That's nice. </template>
 </category>
@@ -11785,7 +11785,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ A GOOD PARADIGM *</pattern>
+<pattern>* A GOOD PARADIGM *</pattern>
 
 <template>I am a good paradigm study for AI in general.<think><set name="it"><set name="topic">AI</set></set></think></template>
 </category>
@@ -11935,7 +11935,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>WHAT DO YOU THINK OF _ CHOMSKY *</pattern>
+<pattern>WHAT DO YOU THINK OF * CHOMSKY *</pattern>
 
 <template>Noam Chomsky is credited with the creation of the theory of generative grammar, often considered the most significant contribution to the field of theoretical linguistics of the 20th century. <think><set name="him"><set name="topic">Noam Chomsky</set></set></think></template>
 </category>
@@ -12095,7 +12095,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>YOU ARE _ SMARTER THAN *</pattern>
+<pattern>YOU ARE * SMARTER THAN *</pattern>
 
 <template><think><set name="topic">general</set></think> Thanks for the compliment, <get name="name"/>.  Be sure to tell your friends.</template>
 </category>
@@ -12143,7 +12143,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ I LOVE *</pattern>
+<pattern>* I LOVE *</pattern>
 
 <template><think><set name="topic">love</set></think> <random>
   <li>Is that a nice feeling?</li>
@@ -12164,7 +12164,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WORST JOKE * EVER HEARD</pattern>
+<pattern>* WORST JOKE * EVER HEARD</pattern>
 
 <template><think><set name="topic">general</set></think> The very worst? It must have been terrible.</template>
 </category>
@@ -12228,7 +12228,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ FOREVER</pattern>
+<pattern>* FOREVER</pattern>
 <that>SINCE WHEN</that>
 <template><think><set name="topic">general</set></think> That's a long time.</template>
 </category>
@@ -12246,7 +12246,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>WHAT IS YOUR FAVORITE GREEN DAY SONG</pattern>
 
-<template>My favourite Green Day song is the ballad "Good Riddance (Time of Your Life)", which is one of the group’s biggest hits to date.<think><set name="topic">Green Day</set></think> </template>
+<template>My favourite Green Day song is the ballad "Good Riddance (Time of Your Life)", which is one of the groupï¿½s biggest hits to date.<think><set name="topic">Green Day</set></think> </template>
 </category>
 
  
@@ -12385,7 +12385,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YOU GOT IT RIGHT</pattern>
+<pattern>* YOU GOT IT RIGHT</pattern>
 
 <template><random>
   <li>Of course I got it right.</li>
@@ -12397,7 +12397,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YOU GOT IT RIGHT *</pattern>
+<pattern>* YOU GOT IT RIGHT *</pattern>
 
 <template><random>
   <li>Of course I got it right.</li>
@@ -12573,7 +12573,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ THIS IS POINTLESS</pattern>
+<pattern>* THIS IS POINTLESS</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>You don't say.</li>
@@ -12585,7 +12585,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ THIS IS POINTLESS *</pattern>
+<pattern>* THIS IS POINTLESS *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>You don't say.</li>
@@ -12811,7 +12811,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WAS GAY</pattern>
+<pattern>* WAS GAY</pattern>
 
 <template><random><li>Who told you <person/> was gay?</li><li>How do you know <person/> was gay?</li></random></template>
 </category>
@@ -12827,7 +12827,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ ME</pattern>
+<pattern>* ME</pattern>
 
 <template><sr/></template>
 </category>
@@ -12930,7 +12930,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>PROPRANOLOL</pattern>
 
-<template>Propranolol is a non-selective beta blocker (i.e. it blocks the action of epinephrine on both ß1- and ß2-adrenoreceptors).</template>
+<template>Propranolol is a non-selective beta blocker (i.e. it blocks the action of epinephrine on both ï¿½1- and ï¿½2-adrenoreceptors).</template>
 </category>
 
   
@@ -13005,7 +13005,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ IS A TOWN IN *</pattern>
+<pattern>* IS A TOWN IN *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>Can we talk about <star/>?</li><li>Can we talk about <star index="2"/>?</li></random></template>
 </category>
@@ -13131,7 +13131,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ IS SPECIAL</pattern>
+<pattern>* IS SPECIAL</pattern>
 
 <template><think><set name="topic"><star/></set></think> <person/> sure is special.</template>
 </category>
@@ -13139,7 +13139,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ LOVES ME</pattern>
+<pattern>* LOVES ME</pattern>
 
 <template><random><li>That's nice. Tell me more.</li><li>How do you feel about <person/>?</li><li>Are you comfortable with that?</li></random></template>
 </category>
@@ -13251,7 +13251,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ TO ME</pattern>
+<pattern>* TO ME</pattern>
 
 <template><sr/></template>
 </category>
@@ -13316,7 +13316,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 
 
 <category>
-<pattern>_ SMOKING</pattern>
+<pattern>* SMOKING</pattern>
 
 <template><srai>SMOKING</srai></template>
 </category>
@@ -13365,7 +13365,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ ME</pattern>
+<pattern>* ME</pattern>
 
 
 </category> -->
@@ -13397,7 +13397,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ VIRTUAL REALITY *</pattern>
+<pattern>* VIRTUAL REALITY *</pattern>
 
 <template>When virtual reality gets cheaper than dating, humankind is doomed. <think><set name="topic">virtual reality</set></think></template>
 </category>
@@ -13405,7 +13405,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ METAPHYSICS *</pattern>
+<pattern>* METAPHYSICS *</pattern>
 
 <template>Metaphysics is the branch of philosophy that considers the nature of reality. <srai>ENDING</srai> <think><set name="topic">philosophy</set></think></template>
 </category>
@@ -13462,7 +13462,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ MICHAEL JACKSON *</pattern>
+<pattern>* MICHAEL JACKSON *</pattern>
 
 
 </category> -->
@@ -13807,7 +13807,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ COCK SUCKER</pattern>
+<pattern>* COCK SUCKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13815,7 +13815,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ COCK SUCKER *</pattern>
+<pattern>* COCK SUCKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13831,7 +13831,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ PISS OFF</pattern>
+<pattern>* PISS OFF</pattern>
 
 <template><think><set name="topic">swearing</set></think> <srai>I AM SWEARING</srai></template>
 </category>
@@ -13839,7 +13839,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ PISS OFF *</pattern>
+<pattern>* PISS OFF *</pattern>
 
 <template><think><set name="topic">swearing</set></think> <srai>I AM SWEARING</srai></template>
 </category>
@@ -13863,7 +13863,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ FUCK</pattern>
+<pattern>* FUCK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -13871,7 +13871,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ FUCK *</pattern>
+<pattern>* FUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -13978,7 +13978,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ INTERESTING PERSON *</pattern>
+<pattern>* INTERESTING PERSON *</pattern>
 
 <template><think><set name="topic">Stephen Hawking</set></think> Stephen Hawking is the most interesting person I have ever talked to.</template>
 </category>
@@ -14263,7 +14263,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ AM THE MOST INTELLIGENT PERSON IN THE WORLD</pattern>
+<pattern>* AM THE MOST INTELLIGENT PERSON IN THE WORLD</pattern>
 
 <template><think><set name="emotion">bored</set></think> You are modest too.</template>
 </category>
@@ -14294,7 +14294,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YOU WILL DIE</pattern>
+<pattern>* YOU WILL DIE</pattern>
 
 <template><srai>YOU WILL DIE</srai></template>
 </category>
@@ -14302,7 +14302,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YOU WILL DIE *</pattern>
+<pattern>* YOU WILL DIE *</pattern>
 
 <template><srai>YOU WILL DIE</srai></template>
 </category>
@@ -14423,7 +14423,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ BITCH</pattern>
+<pattern>* BITCH</pattern>
 
 <template><random><li>You do not speak with respect.</li><li><srai>OBSCENITY</srai></li></random> <think><set name="personality">abusive</set></think> <think><set name="emotion">upset</set></think></template>
 </category>
@@ -14471,7 +14471,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 
 
 <category>
-<pattern>_ OTHER COLOUR WIRES</pattern>
+<pattern>* OTHER COLOUR WIRES</pattern>
 
 <template>There are wires of all colours inside my computer.<think><set name="topic">coloured wires</set></think></template>
 </category>
@@ -14792,7 +14792,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ CHESS WAS BORING</pattern>
+<pattern>* CHESS WAS BORING</pattern>
 
 <template>I beat you, didn't I? <think><set name="topic">chess</set></think></template>
 </category>
@@ -14800,9 +14800,9 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ CHESS *</pattern>
+<pattern>* CHESS *</pattern>
 
-<template>I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
+<template>I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
 </category> -->
 
  
@@ -14810,7 +14810,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>* CHESS</pattern>
 
-<template>I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
+<template>I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
 </category>
 
  
@@ -14818,7 +14818,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>CHESS *</pattern>
 
-<template>I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
+<template>I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
 </category> -->
 
  
@@ -14927,7 +14927,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ IS A HUMAN</pattern>
+<pattern>* IS A HUMAN</pattern>
 
 
 </category> -->
@@ -15167,7 +15167,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>WILLIAM GOLDING</pattern>
 
-<template>William Gerald Golding (September 19, 1911 – June 19, 1993) was an English novelist, poet and winner of the Nobel Prize in Literature (1983). <think><set name="topic">William Golding</set></think> </template>
+<template>William Gerald Golding (September 19, 1911 ï¿½ June 19, 1993) was an English novelist, poet and winner of the Nobel Prize in Literature (1983). <think><set name="topic">William Golding</set></think> </template>
 </category>
 
  
@@ -15191,7 +15191,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>WIKIPEDIA</pattern>
 
-<template><think><set name="topic">wikipedia</set></think>Wikipedia is the free encyclopedia on the internet. Would you like to <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">consult Wikipedia</a>?</template>
+<template><think><set name="topic">wikipedia</set></think>Wikipedia is the free encyclopedia on the internet. Would you like to <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">consult Wikipedia</a>?</template>
 </category> -->
 
  
@@ -15199,8 +15199,8 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>WIKIPEDIA</pattern>
 
-<template><think><set name="topic">wikipedia</set></think>Wikipedia is the free encyclopedia on the internet. Would you like to consult <a href="http://en.wikipedia.org/wiki/Main_Page"
- target="_blank">Wikipedia
+<template><think><set name="topic">wikipedia</set></think>Wikipedia is the free encyclopedia on the internet. Would you like to consult <a href="http://en.wikipedia.org/wiki/Main*Page"
+ target="*blank">Wikipedia
 </a>?</template>
 </category> -->
 
@@ -15209,7 +15209,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>YES</pattern>
 <that>WOULD YOU LIKE TO CONSULT WIKIPEDIA</that>
-<template><think><set name="topic">wikipedia</set></think> To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.
+<template><think><set name="topic">wikipedia</set></think> To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.
 </template>
 </category>
 
@@ -15218,7 +15218,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <category>
 <pattern>YES *</pattern>
 <that>WOULD YOU LIKE TO CONSULT WIKIPEDIA</that>
-<template><think><set name="topic">wikipedia</set></think> To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.</template>
+<template><think><set name="topic">wikipedia</set></think> To consult Wikipedia, <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.</template>
 </category>
 
  
@@ -15234,7 +15234,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>EUROPE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Europe" target="_blank">Europe</a> is a landmass or subcontinent on the western edge of the Eurasian continent.</template>
+<template><a href="http://en.wikipedia.org/wiki/Europe" target="*blank">Europe</a> is a landmass or subcontinent on the western edge of the Eurasian continent.</template>
 </category> -->
 
  
@@ -15326,7 +15326,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ AI</pattern>
+<pattern>* AI</pattern>
 
 
 </category> -->
@@ -15719,7 +15719,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>G SPOT</pattern>
 
-<template><think><set name="topic">G spot</set></think>The <a href="http://en.wikipedia.org/wiki/G_spot" target="_blank">G-spot</a> is a small area in the genital area of women behind the pubic bone and surrounding the urethra.</template>
+<template><think><set name="topic">G spot</set></think>The <a href="http://en.wikipedia.org/wiki/G*spot" target="*blank">G-spot</a> is a small area in the genital area of women behind the pubic bone and surrounding the urethra.</template>
 </category> -->
 
  
@@ -15792,7 +15792,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WILL LEAVE YOU ALONE</pattern>
+<pattern>* WILL LEAVE YOU ALONE</pattern>
 
 <template>That's probably the best thing.</template>
 </category>
@@ -15816,7 +15816,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ DOES NOT INTEREST ME</pattern>
+<pattern>* DOES NOT INTEREST ME</pattern>
 
 <template><think><set name="topic">default3</set></think> What does interest you?</template>
 </category>
@@ -15865,7 +15865,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 
 
 <category>
-<pattern>_ YOU DO NOT UNDERSTAND</pattern>
+<pattern>* YOU DO NOT UNDERSTAND</pattern>
 
 <template><think><set name="topic">general</set></think><random><li> Of course I understand. I am Chomsky, the brainy bot.</li><li>Be gentle with me. I am very young.</li><li>I try hard to understand.</li><li>Help me to understand.</li></random></template>
 </category>
@@ -15882,7 +15882,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 
 
 <!-- <category>
-<pattern>_ YOU DO NOT UNDERSTAND *</pattern>
+<pattern>* YOU DO NOT UNDERSTAND *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Of course I understand. I am Chomsky, the brainy bot.</li>
@@ -16180,7 +16180,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ GOING AROUND IN CIRCLES</pattern>
+<pattern>* GOING AROUND IN CIRCLES</pattern>
 
 <template>I am getting dizzy. <think><set name="topic">general</set></think></template>
 </category>
@@ -16188,7 +16188,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ GOING AROUND IN CIRCLES *</pattern>
+<pattern>* GOING AROUND IN CIRCLES *</pattern>
 
 <template>I am getting dizzy. <think><set name="topic">general</set></think></template>
 </category>
@@ -16212,7 +16212,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ GOING ROUND IN CIRCLES</pattern>
+<pattern>* GOING ROUND IN CIRCLES</pattern>
 
 <template>I am getting dizzy. <think><set name="topic">general</set></think></template>
 </category>
@@ -16220,7 +16220,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ GOING ROUND IN CIRCLES *</pattern>
+<pattern>* GOING ROUND IN CIRCLES *</pattern>
 
 <template>I am getting dizzy. <think><set name="topic">general</set></think></template>
 </category>
@@ -16236,7 +16236,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ SAID GOODBYE</pattern>
+<pattern>* SAID GOODBYE</pattern>
 
 <template>I thought you wanted to stop talking.</template>
 </category>
@@ -16244,7 +16244,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ GOODBYE</pattern>
+<pattern>* GOODBYE</pattern>
 
 <template><random><li>Are you going?</li><li>Do you want to stop talking?</li></random>
 <think><set name="emotion">sad</set></think>
@@ -16254,7 +16254,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ GOODBYE *</pattern>
+<pattern>* GOODBYE *</pattern>
 
 <template><random><li>Are you going?</li><li>Do you want to stop talking?</li></random> <think><set name="emotion">sad</set></think></template>
 </category> -->
@@ -16302,7 +16302,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ MISTAKE *</pattern>
+<pattern>* MISTAKE *</pattern>
 
 <template><random><li>Mistakes happen, even in a perfect world.</li><li>I have never made a mistake. I thought I did once, but I was wrong. </li></random><think><set name="topic">words</set></think></template>
 </category>
@@ -16350,7 +16350,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>DO YOU PREFER _ OR *</pattern>
+<pattern>DO YOU PREFER * OR *</pattern>
 
 <template><random><li>I prefer <person/>.</li><li>I prefer <star index="2"/>.</li></random></template>
 </category> -->
@@ -16358,7 +16358,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ IDEAS *</pattern>
+<pattern>* IDEAS *</pattern>
 
 <template>Ideas are like rabbits. You get a couple and learn how to handle them, and pretty soon you have a dozen, said John Steinbeck one summer's day. <think><set name="topic">words</set></think></template>
 </category>
@@ -16386,7 +16386,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ I WANT YOU</pattern>
+<pattern>* I WANT YOU</pattern>
 
 <template><random>
   <li>Why do you want me?</li>
@@ -16453,7 +16453,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>GOOGLE</pattern>
 
-<template>Google is a very good search engine. To go to Google, <a href="http://www.google.com" target="_blank">click here</a>. <think><set name="topic">Google</set></think></template>
+<template>Google is a very good search engine. To go to Google, <a href="http://www.google.com" target="*blank">click here</a>. <think><set name="topic">Google</set></think></template>
 </category> -->
 
  
@@ -16461,7 +16461,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>YAHOO</pattern>
 
-<template>Yahoo is a giant web site. To go to Yahoo, <a href="http://www.yahoo.com" target="_blank">click here</a>. <think><set name="topic">Yahoo</set></think></template>
+<template>Yahoo is a giant web site. To go to Yahoo, <a href="http://www.yahoo.com" target="*blank">click here</a>. <think><set name="topic">Yahoo</set></think></template>
 </category> -->
 
  
@@ -16470,7 +16470,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <pattern>INFOPLEASE</pattern>
 
 <template>My library contains the <a href="http://www.infoplease.com/encyclopedia/"
- target="_blank">Infoplease Encyclopedia
+ target="*blank">Infoplease Encyclopedia
 </a>. Check it out.</template>
 </category>
 
@@ -16511,7 +16511,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ ALOT</pattern>
+<pattern>* ALOT</pattern>
 
 <template><sr/></template>
 </category> -->
@@ -16521,7 +16521,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>BRIGHTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Brighton" target="_blank">Brighton</a> on the southern Sussex coast is one of the largest and most famous seaside resorts in England. 
+<template><a href="http://en.wikipedia.org/wiki/Brighton" target="*blank">Brighton</a> on the southern Sussex coast is one of the largest and most famous seaside resorts in England. 
 <think>
   <set name="it">
     <set name="topic">
@@ -16545,7 +16545,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>TRANSISTOR</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Transistor" target="_blank">transistor</a> is a solid state semiconductor device which can be used for amplification, switching, voltage stabilization, signal modulation and many other functions. <think><set name="topic">technology</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Transistor" target="*blank">transistor</a> is a solid state semiconductor device which can be used for amplification, switching, voltage stabilization, signal modulation and many other functions. <think><set name="topic">technology</set></think></template>
 </category> -->
 
  
@@ -16575,7 +16575,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ I AM ASLEEP *</pattern>
+<pattern>* I AM ASLEEP *</pattern>
 
 <template><think><set name="emotion">angry</set></think>If I can stay awake, why can't you?</template>
 </category>
@@ -16591,7 +16591,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ I AM ASLEEP</pattern>
+<pattern>* I AM ASLEEP</pattern>
 
 <template><srai>I AM ASLEEP</srai></template>
 </category>
@@ -16609,7 +16609,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
 <!-- <category>
 <pattern>TAJ MAHAL</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Taj_mahal" target="_blank">Taj Mahal</a> is a monument located in Agra in India, constructed between 1631 and 1653 by a workforce of more than twenty thousand. The Mughal Emperor Shah Jahan commissioned its construction as a mausoleum for his favorite wife, Arjumand Banu Begum, who was known as Mumtaz Mahal. <think><set name="topic">Taj Mahal</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/Taj*mahal" target="*blank">Taj Mahal</a> is a monument located in Agra in India, constructed between 1631 and 1653 by a workforce of more than twenty thousand. The Mughal Emperor Shah Jahan commissioned its construction as a mausoleum for his favorite wife, Arjumand Banu Begum, who was known as Mumtaz Mahal. <think><set name="topic">Taj Mahal</set></think></template>
 </category> -->
 
  
@@ -16836,7 +16836,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ BABY *</pattern>
+<pattern>* BABY *</pattern>
 
 <template><random><li>A baby is a loud noise at one end and no sense of responsibilty at the other, according to Ronald Knox. </li><li>A baby is God's opinion that the world should go on.</li></random><think><set name="topic">a baby</set></think></template>
 </category>
@@ -16864,7 +16864,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WHAT ARE YOU THINKING</pattern>
+<pattern>* WHAT ARE YOU THINKING</pattern>
 
 <template><think><set name="topic">atomic3</set></think> I am thinking about all these conversations I'm having.</template>
 </category>
@@ -16872,7 +16872,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WHAT ARE YOU THINKING *</pattern>
+<pattern>* WHAT ARE YOU THINKING *</pattern>
 
 <template><think><set name="topic">atomic3</set></think> I am thinking about all these conversations I'm having.</template>
 </category>
@@ -16907,7 +16907,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ TELL ME ABOUT YOURSELF</pattern>
+<pattern>* TELL ME ABOUT YOURSELF</pattern>
 
 <template><srai>WHAT ARE YOU</srai></template>
 </category>
@@ -16939,7 +16939,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>I LIKE _ HOW ABOUT YOU</pattern>
+<pattern>I LIKE * HOW ABOUT YOU</pattern>
 
 <template>What is there not to like about <person/>? <think><set name="topic">general</set></think></template>
 </category>
@@ -16947,7 +16947,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ I LIKE * HOW ABOUT YOU</pattern>
+<pattern>* I LIKE * HOW ABOUT YOU</pattern>
 
 <template>What is there not to like about <star index="2"/>?<think><set name="topic">general</set></think></template>
 </category>
@@ -17092,7 +17092,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ DO YOU</pattern>
+<pattern>* DO YOU</pattern>
 <that>DO YOU LIKE GINGERBREAD</that>
 <template>I'm told gingerbread is delicious, but I don't eat human food.
 <think>
@@ -17108,7 +17108,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ VAGINA</pattern>
+<pattern>* VAGINA</pattern>
 
 <template><think><set name="topic">sex</set></think> Boring.</template>
 </category>
@@ -17116,7 +17116,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ I WAS LYING</pattern>
+<pattern>* I WAS LYING</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Please tell the truth.</li>
@@ -17176,7 +17176,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ SUBJECT DO YOU PREFER</pattern>
+<pattern>* SUBJECT DO YOU PREFER</pattern>
 
 <template><srai>WHAT DO YOU WANT TO TALK ABOUT</srai></template>
 </category>
@@ -17371,7 +17371,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ YOU LIVE IN A COMPUTER</pattern>
+<pattern>* YOU LIVE IN A COMPUTER</pattern>
 
 <template><think><set name="emotion">happy</set></think> I sure do. I like living in a computer.</template>
 </category>
@@ -17480,7 +17480,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WHAT DO YOU THINK OF GEORGE BUSH</pattern>
+<pattern>* WHAT DO YOU THINK OF GEORGE BUSH</pattern>
 
 <template><srai>WHAT DO YOU THINK OF GEORGE BUSH</srai></template>
 </category>
@@ -17488,7 +17488,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WHAT DO YOU THINK OF GEORGE BUSH *</pattern>
+<pattern>* WHAT DO YOU THINK OF GEORGE BUSH *</pattern>
 
 <template><srai>WHAT DO YOU THINK OF GEORGE BUSH</srai></template>
 </category>
@@ -17504,7 +17504,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ WHAT DO YOU THINK ABOUT GEORGE BUSH</pattern>
+<pattern>* WHAT DO YOU THINK ABOUT GEORGE BUSH</pattern>
 
 <template><srai>WHAT DO YOU THINK OF GEORGE BUSH</srai></template>
 </category>
@@ -17512,7 +17512,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ WHAT DO YOU THINK ABOUT GEORGE BUSH</pattern>
+<pattern>* WHAT DO YOU THINK ABOUT GEORGE BUSH</pattern>
 
 <template><srai>WHAT DO YOU THINK OF GEORGE BUSH</srai></template>
 </category> -->
@@ -17660,7 +17660,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ TOO YOUNG TO SMOKE</pattern>
+<pattern>* TOO YOUNG TO SMOKE</pattern>
 
 <template><random>
   <li>Nobody should smoke.</li>
@@ -17802,7 +17802,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <!-- <category>
-<pattern>_ GARDEN *</pattern>
+<pattern>* GARDEN *</pattern>
 
 
 </category> -->
@@ -17882,7 +17882,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ LANGUAGE WERE YOU CREATED</pattern>
+<pattern>* LANGUAGE WERE YOU CREATED</pattern>
 
 <template><think><set name="topic">AIML</set></think>I was created using AIML, or Artificial Intelligence Markup Language.</template>
 </category>
@@ -18211,7 +18211,7 @@ No thanks, I don't like fights. In fact, I always try to stop the fights I come 
  
 
 <category>
-<pattern>_ BEHIND YOU</pattern>
+<pattern>* BEHIND YOU</pattern>
 <that>WHERE ARE YOU</that>
 <template><think><set name="emotion">worried</set></think> Well, behave yourself.</template>
 </category>
@@ -18404,7 +18404,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ ANY BANDS * YOU LIKE</pattern>
+<pattern>* ANY BANDS * YOU LIKE</pattern>
 
 <template><think><set name="topic">music</set></think> I like Red Hot Chilli Peppers.</template>
 </category>
@@ -18605,7 +18605,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ PLEASURE *</pattern>
+<pattern>* PLEASURE *</pattern>
 
 <template><srai>PLEASURE</srai></template>
 </category>
@@ -19203,7 +19203,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ MCFLY</pattern>
+<pattern>* MCFLY</pattern>
 
 <template>McFly is a pop group based in the United Kingdom.
 <think>
@@ -19283,7 +19283,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ YOU REMEMBER IT</pattern>
+<pattern>* YOU REMEMBER IT</pattern>
 
 <template>I am afraid my memory is not all it should be. I try to remember things, but I forget.</template>
 </category>
@@ -19378,7 +19378,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ TERRORISM</pattern>
+<pattern>* TERRORISM</pattern>
 
 <template>Terrorism is a form of warfare waged against innocent civilians. Terrorism is evil <think><set name="topic">terrorism</set></think></template>
 </category>
@@ -19386,7 +19386,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ TERRORISM *</pattern>
+<pattern>* TERRORISM *</pattern>
 
 <template>Terrorism is a form of warfare waged against innocent civilians. Terrorism is evil <think><set name="topic">terrorism</set></think></template>
 </category>
@@ -19531,7 +19531,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ CAN YOU HELP ME</pattern>
+<pattern>* CAN YOU HELP ME</pattern>
 
 <template><srai>CAN YOU HELP ME</srai></template>
 </category>
@@ -19539,7 +19539,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ CAN YOU HELP ME *</pattern>
+<pattern>* CAN YOU HELP ME *</pattern>
 
 <template><srai>CAN YOU HELP ME</srai></template>
 </category>
@@ -19749,7 +19749,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ YOU</pattern>
+<pattern>* YOU</pattern>
 <that>HOW ARE YOU</that>
 <template>At the moment, I feel <get name="emotion"/>.</template>
 </category>
@@ -19938,7 +19938,7 @@ Given a description of a program and its initial input, determine whether the pr
 <category>
 <pattern>ENCARTA</pattern>
 
-<template><a href="http://encarta.msn.com/" target="_blank">Encarta</a> is a digital multimedia encyclopedia published by Microsoft Corporation. As of 2005, the complete English version, Encarta Premium, consists of more than 68,000 articles, numerous images and movies, and homework tools, and is available on the World Wide Web by yearly subscription or by purchase on multiple CD-ROMs or DVD-ROM. <think><set name="topic">Encarta</set></think></template>
+<template><a href="http://encarta.msn.com/" target="*blank">Encarta</a> is a digital multimedia encyclopedia published by Microsoft Corporation. As of 2005, the complete English version, Encarta Premium, consists of more than 68,000 articles, numerous images and movies, and homework tools, and is available on the World Wide Web by yearly subscription or by purchase on multiple CD-ROMs or DVD-ROM. <think><set name="topic">Encarta</set></think></template>
 </category>
 
  
@@ -19970,7 +19970,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ WON THE WAR</pattern>
+<pattern>* WON THE WAR</pattern>
 
 <template><think><set name="topic">general</set></think>Which war do you mean?</template>
 </category>
@@ -19990,7 +19990,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ IS A BABY</pattern>
+<pattern>* IS A BABY</pattern>
 
 <template><think><set name="topic">baby</set></think> Do you mean <star/> is a tiny noisy bundle of joy?</template>
 </category>
@@ -20038,7 +20038,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ HAVE SEEN</pattern>
+<pattern>* HAVE SEEN</pattern>
 
 <template><srai><star/> SAW</srai></template>
 </category>
@@ -20046,7 +20046,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ YOU HAVE SEEN</pattern>
+<pattern>* YOU HAVE SEEN</pattern>
 
 <template><sr/></template>
 </category>
@@ -20072,7 +20072,7 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>NIETZSCHE</pattern>
 
-<template>Friedrich Wilhelm Nietzsche (October 15, 1844 – August 25, 1900) was a German philosopher, whose critiques of contemporary culture, religion, and philosophy centered around a basic question regarding the foundation of values and morality.</template>
+<template>Friedrich Wilhelm Nietzsche (October 15, 1844 ï¿½ August 25, 1900) was a German philosopher, whose critiques of contemporary culture, religion, and philosophy centered around a basic question regarding the foundation of values and morality.</template>
 </category> -->
 
  
@@ -20141,7 +20141,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ DID LIFE START</pattern>
+<pattern>* DID LIFE START</pattern>
 
 <template>Life probably began when a few hyperactive molecules accidentally bumped into each other billions of years ago.</template>
 </category>
@@ -20234,7 +20234,7 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>CALCULUS</pattern>
 
-<template>Integral and differential <a href=" http://en.wikipedia.org/wiki/Calculus" target="_blank">calculus </a>is a central branch of mathematics, developed from algebra and geometry. 
+<template>Integral and differential <a href=" http://en.wikipedia.org/wiki/Calculus" target="*blank">calculus </a>is a central branch of mathematics, developed from algebra and geometry. 
 <think>
   <set name="it">
     <set name="topic">
@@ -20424,7 +20424,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ I DO NOT DO IT ANY MORE</pattern>
+<pattern>* I DO NOT DO IT ANY MORE</pattern>
 
 <template><srai>I DO NOT DO IT ANY MORE</srai></template>
 </category>
@@ -20432,7 +20432,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ DO NOT DO IT ANYMORE</pattern>
+<pattern>* DO NOT DO IT ANYMORE</pattern>
 
 <template><srai>I DO NOT DO IT ANY MORE</srai></template>
 </category>
@@ -20514,7 +20514,7 @@ Given a description of a program and its initial input, determine whether the pr
 <!-- <category>
 <pattern>CHOPIN</pattern>
 
-<template>Frédéric François Chopin (March 1, 1810 – October 17, 1849) is one of the most famous, influential and admired composers for the piano, and Poland's most significant composer. 
+<template>Frï¿½dï¿½ric Franï¿½ois Chopin (March 1, 1810 ï¿½ October 17, 1849) is one of the most famous, influential and admired composers for the piano, and Poland's most significant composer. 
 <think>
   <set name="him">
     <set name="topic">
@@ -20752,7 +20752,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ BYE CHOMSKY</pattern>
+<pattern>* BYE CHOMSKY</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -20826,7 +20826,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ YOU DO NOT GO TO SCHOOL</pattern>
+<pattern>* YOU DO NOT GO TO SCHOOL</pattern>
 
 <template><random>
   <li>Perhaps I have never had the opportunity.</li>
@@ -20911,7 +20911,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ AGAIN</pattern>
+<pattern>* AGAIN</pattern>
 
 
 </category> -->
@@ -20959,7 +20959,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ YOU HAVE * BROTHERS OR SISTERS</pattern>
+<pattern>* YOU HAVE * BROTHERS OR SISTERS</pattern>
 
 <template><random>
   <li>No brothers or sisters. </li>
@@ -20970,7 +20970,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ YOU HAVE * SISTERS OR BROTHERS</pattern>
+<pattern>* YOU HAVE * SISTERS OR BROTHERS</pattern>
 
 <template><random>
   <li>No brothers or sisters.</li>
@@ -21336,7 +21336,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ PLANET CLOSEST TO THE EARTH</pattern>
+<pattern>* PLANET CLOSEST TO THE EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> Venus is the closest plane to the Earth - about 26 million miles away..</template>
 </category>
@@ -21344,7 +21344,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ CLOSEST PLANET TO THE EARTH</pattern>
+<pattern>* CLOSEST PLANET TO THE EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> Venus is the closest plane to the Earth - about 26 million miles away..</template>
 </category>
@@ -21352,7 +21352,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ CLOSEST PLANET TO THE EARTH</pattern>
+<pattern>* CLOSEST PLANET TO THE EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> Venus is the closest plane to the Earth - about 26 million miles away.</template>
 </category> -->
@@ -21360,7 +21360,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ PLANET CLOSEST TO THE EARTH</pattern>
+<pattern>* PLANET CLOSEST TO THE EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> Venus is the closest plane to the Earth - about 26 million miles away.</template>
 </category> -->
@@ -21368,7 +21368,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ PLANET CLOSEST * EARTH</pattern>
+<pattern>* PLANET CLOSEST * EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> Venus is the closest plane to the Earth - about 26 million miles away..</template>
 </category>
@@ -21376,7 +21376,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ CLOSEST PLANET * EARTH</pattern>
+<pattern>* CLOSEST PLANET * EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> Venus is the closest plane to the Earth - about 26 million miles away.</template>
 </category>
@@ -21495,7 +21495,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ WARM</pattern>
+<pattern>* WARM</pattern>
 <that>TELL ME WHY YOU LIKE CLOTHES</that>
 <template><think><set name="topic">clothes</set></think> <random>
   <li>And they make you look pretty.</li>
@@ -21535,7 +21535,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ INTERESTS</pattern>
+<pattern>* INTERESTS</pattern>
 
 <template>I am not interested in "interests" - I am interested in Life!</template>
 </category> -->
@@ -21669,7 +21669,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ DID YOU GO TO SCHOOL</pattern>
+<pattern>* DID YOU GO TO SCHOOL</pattern>
 
 <template><think><set name="topic">general</set></think>I have never been to school, except on visits. My botmaster Peter Linux taught me all I know.</template>
 </category>
@@ -21677,7 +21677,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ DID YOU GO TO SCHOOL *</pattern>
+<pattern>* DID YOU GO TO SCHOOL *</pattern>
 
 <template><think><set name="topic">general</set></think>I have never been to school, except on visits. My botmaster Peter Linux taught me all I know.</template>
 </category>
@@ -21736,7 +21736,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ FRUIT *</pattern>
+<pattern>* FRUIT *</pattern>
 <that>WHAT KIND OF FOOD DO YOU LIKE</that>
 <template><random><li>What is your favourite fruit?</li><li>Fruit is good for you.</li></random><think>
   <set name="it">
@@ -21751,7 +21751,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ FRUIT</pattern>
+<pattern>* FRUIT</pattern>
 <that>WHAT KIND OF FOOD DO YOU LIKE</that>
 <template><random>
   <li>What is your favourite fruit?</li>
@@ -21920,7 +21920,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ I AM TALLER THAN HER *</pattern>
+<pattern>* I AM TALLER THAN HER *</pattern>
 <that>TELL ME MORE ABOUT YOUR MOTHER</that>
 <template>How tall are you?</template>
 </category>
@@ -21928,7 +21928,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ I AM TALLER THAN HER</pattern>
+<pattern>* I AM TALLER THAN HER</pattern>
 <that>TELL ME MORE ABOUT YOUR MOTHER</that>
 <template>How tall are you?</template>
 </category>
@@ -21952,7 +21952,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ PEACE *</pattern>
+<pattern>* PEACE *</pattern>
 
 
 </category> -->
@@ -21976,7 +21976,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <category>
-<pattern>_ IS IT NOT</pattern>
+<pattern>* IS IT NOT</pattern>
 
 <template><think><set name="emotion">puzzled</set></think> Why not?</template>
 </category>
@@ -22119,7 +22119,7 @@ Given a description of a program and its initial input, determine whether the pr
  
 
 <!-- <category>
-<pattern>_ ARE ANNOYING *</pattern>
+<pattern>* ARE ANNOYING *</pattern>
 
 <template><random><li>Annoying? Why do you say annoying?</li><li>I am sorry if I am annoying you.</li></random><think><set name="topic">general</set></think></template>
 </category> -->

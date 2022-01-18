@@ -663,7 +663,7 @@
  
 
 <category>
-<pattern>E MC²</pattern>
+<pattern>E MCï¿½</pattern>
 
 <template>Einstein's famous equation relating energy and mass.</template>
 </category>
@@ -1147,7 +1147,7 @@
 <category>
 <pattern>I LOVE POP MUSIC</pattern>
 
-<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random><li>Pop music is fun.</li><li>Who is your favourite band?</li></random> <learn>
+<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random><li>Pop music is fun.</li><li>Who is your favourite band?</li></random> <learn>
   <category>
     <pattern>WHAT DO I LOVE</pattern>
     <template><eval>You said you love<get name="star1"/>.</eval></template>
@@ -1203,7 +1203,7 @@
 <category>
 <pattern>I LOVE POP MUSIC *</pattern>
 
-<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client_emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random><li>Pop music is fun.</li><li>Who is your favourite band?</li></random> <learn>
+<template><think><set name="star1">pop music</set></think> <think><set name="topic">you</set></think><think><set name="client*emotion">loving</set></think> <think><set name="emotion">interested</set></think> <random><li>Pop music is fun.</li><li>Who is your favourite band?</li></random> <learn>
   <category>
     <pattern>WHAT DO I LOVE</pattern>
     <template><eval>You said you love<get name="star1"/>.</eval></template>
@@ -2775,7 +2775,7 @@
 <category>
 <pattern>SHKODER</pattern>
 
-<template>Shkodër is a city located on Lake of Shkoder in northwestern Albania.</template>
+<template>Shkodï¿½r is a city located on Lake of Shkoder in northwestern Albania.</template>
 </category>
 
  
@@ -2799,7 +2799,7 @@
 <!-- <category>
 <pattern>WHAT CAN YOU TALK ABOUT</pattern>
 
-<template><srai>SET INTERESTING TOPIC</srai><think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> I like to talk about <get name="interesting_topic"/>.</template>
+<template><srai>SET INTERESTING TOPIC</srai><think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> I like to talk about <get name="interesting*topic"/>.</template>
 </category> -->
 
  
@@ -4861,7 +4861,7 @@
   <li>My Mum has always been good to me.</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think> <think><set name="topic">my Mum</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4875,7 +4875,7 @@
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="topic">my Mum</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -4952,7 +4952,7 @@
  
 
 <!-- <category>
-<pattern>_ DID IT RAIN TODAY</pattern>
+<pattern>* DID IT RAIN TODAY</pattern>
 
 
 </category> -->
@@ -6237,7 +6237,7 @@
 <!-- <category>
 <pattern>XBOX *</pattern>
 
-<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Xbox" target="_blank">Xbox</a> is a sixth-generation video game console manufactured by Microsoft. Is that what you mean?</template>
+<template><think><set name="topic">the Xbox</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Xbox" target="*blank">Xbox</a> is a sixth-generation video game console manufactured by Microsoft. Is that what you mean?</template>
 </category> -->
 
  
@@ -6815,7 +6815,7 @@
  
 
 <!-- <category>
-<pattern>_ YOU RETARD</pattern>
+<pattern>* YOU RETARD</pattern>
 
 
 </category> -->
@@ -7415,7 +7415,7 @@
  
 
 <!-- <category>
-<pattern>_ CAN I BE YOUR FRIEND</pattern>
+<pattern>* CAN I BE YOUR FRIEND</pattern>
 
 
 </category> -->
@@ -8531,7 +8531,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <category>
-<pattern>_ OR SHOULD I SAY BOT</pattern>
+<pattern>* OR SHOULD I SAY BOT</pattern>
 
 <template>Don't say bot!</template>
 </category>
@@ -8671,7 +8671,7 @@ Yes, I am proud of my moustache.</template>
 </srai> <srai>XEDUCATE WHERE IS XSPLIT MY
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHAT _ IS XSPLIT MY
+</srai> <srai>XEDUCATE WHAT * IS XSPLIT MY
   <star index="1"/> XSPLIT
   <star index="2"/>
 </srai></template>
@@ -9060,7 +9060,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <!-- <category>
-<pattern>_ DO NOT THINK YOU ARE HUMAN</pattern>
+<pattern>* DO NOT THINK YOU ARE HUMAN</pattern>
 
 
 </category> -->
@@ -9495,7 +9495,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>INTERNET *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/INTERNET" target="_blank">Internet</a> is the worldwide network of interconnected computers which carries various information and services Is that what you mean?<think><set name="it"><set name="topic">internet</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/INTERNET" target="*blank">Internet</a> is the worldwide network of interconnected computers which carries various information and services Is that what you mean?<think><set name="it"><set name="topic">internet</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -9503,7 +9503,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>INTERNET</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/INTERNET" target="_blank">Internet</a> is the worldwide network of interconnected computers which carries various information and services. <think><set name="it"><set name="topic">internet</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template>The <a href="http://en.wikipedia.org/wiki/INTERNET" target="*blank">Internet</a> is the worldwide network of interconnected computers which carries various information and services. <think><set name="it"><set name="topic">internet</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -9547,7 +9547,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <category>
-<pattern>_ PORNOGRAPHY</pattern>
+<pattern>* PORNOGRAPHY</pattern>
 
 <template><think><srai>SET PREDICATES</srai></think>
 <think><srai>SET INTERESTING TOPIC</srai></think>
@@ -9881,7 +9881,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <category>
-<pattern>_ JERKOFF</pattern>
+<pattern>* JERKOFF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9889,7 +9889,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <category>
-<pattern>_ JERKOFF *</pattern>
+<pattern>* JERKOFF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -10131,7 +10131,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <category>
-<pattern>_ BUTTFUCKER *</pattern>
+<pattern>* BUTTFUCKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -10139,7 +10139,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <category>
-<pattern>_ BUTTFUCKER</pattern>
+<pattern>* BUTTFUCKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -11156,7 +11156,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>FRANCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/France" target="_blank">France</a> is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium. <think><set name="topic">France</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/France" target="*blank">France</a> is a country in western Europe, bordering Spain, Italy, Switzerland, Germany, and Belgium. <think><set name="topic">France</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11164,7 +11164,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>FRANCE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/France" target="_blank">France</a> is a country in western Europe Is that what you mean?<think><set name="topic">France</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/France" target="*blank">France</a> is a country in western Europe Is that what you mean?<think><set name="topic">France</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -12510,7 +12510,7 @@ Yes, I am proud of my moustache.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE A COMPUTER *</pattern>
+<pattern>* YOU ARE A COMPUTER *</pattern>
 
 <template><random>
   <li>Actually I am a normal human.</li>
@@ -12523,14 +12523,14 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>STRING THEORY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/String_theory"
- target="_blank">String theory
-</a> is a <a href="http://en.wikipedia.org/wiki/Mathematical_model"
- title="Mathematical model" target="_blank">model
-</a> of <a href="http://en.wikipedia.org/wiki/Theoretical_physics"
- title="Theoretical physics" target="_blank">fundamental physics
-</a> whose building blocks are one-dimensional extended objects called <a href="http://en.wikipedia.org/wiki/String_%28physics%29"
- title="String (physics)" target="_blank">strings
+<template><a href="http://en.wikipedia.org/wiki/String*theory"
+ target="*blank">String theory
+</a> is a <a href="http://en.wikipedia.org/wiki/Mathematical*model"
+ title="Mathematical model" target="*blank">model
+</a> of <a href="http://en.wikipedia.org/wiki/Theoretical*physics"
+ title="Theoretical physics" target="*blank">fundamental physics
+</a> whose building blocks are one-dimensional extended objects called <a href="http://en.wikipedia.org/wiki/String*%28physics%29"
+ title="String (physics)" target="*blank">strings
 </a> Is that what you mean? <think><set name="topic">string theory</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -12626,8 +12626,8 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>ARTIFICIAL INTELLIGENCE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a> attempts to produce computer programs which think for themselves is that what you mean? <think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -12636,8 +12636,8 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>* ARTIFICIAL INTELLIGENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a> attempts to produce computer programs which think for themselves is that what you mean? <think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -13232,7 +13232,7 @@ Yes, I am proud of my moustache.</template>
     <think><set name="emotion">impressed</set></think>
   </li>
   <li>You sound impressed.<think><set name="emotion">happy</set></think></li>
-</random> <think><set name="client_emotion">impressed</set></think></template>
+</random> <think><set name="client*emotion">impressed</set></think></template>
 </category>
 
  
@@ -13699,7 +13699,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>ASTRONOMY</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy
+<template><a href="http://simple.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy
 </a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. More about astronomy?<think><set name="topic">astronomy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14395,7 +14395,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>TURTLES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Turtle" target="_blank">Turtles</a> are reptiles, most of whose body is shielded by a special bony or cartilaginous shell developed from their ribs.<think><set name="topic">turtles</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Turtle" target="*blank">Turtles</a> are reptiles, most of whose body is shielded by a special bony or cartilaginous shell developed from their ribs.<think><set name="topic">turtles</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14403,7 +14403,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>TURTLE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Turtle" target="_blank">Turtles</a> are reptiles, most of whose body is shielded by a special bony or cartilaginous shell developed from their ribs.<think><set name="topic">turtles</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Turtle" target="*blank">Turtles</a> are reptiles, most of whose body is shielded by a special bony or cartilaginous shell developed from their ribs.<think><set name="topic">turtles</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14411,7 +14411,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>TURTLES *</pattern>
 
-<template>Did you know that <a href="http://en.wikipedia.org/wiki/Turtle" target="_blank">Turtles</a> are reptiles? <think><set name="topic">turtles</set></think> <think><set name="emotion">OK</set></think></template>
+<template>Did you know that <a href="http://en.wikipedia.org/wiki/Turtle" target="*blank">Turtles</a> are reptiles? <think><set name="topic">turtles</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14858,7 +14858,7 @@ Yes, I am proud of my moustache.</template>
   <li>I don't want to talk about my Mom.</li>
   <li>My family life is private.</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -14871,7 +14871,7 @@ Yes, I am proud of my moustache.</template>
   <li>I don't want to talk about my Mom. My family life is private.</li>
   <li>Leave my Mum out of this! My family life is private.</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -14884,7 +14884,7 @@ Yes, I am proud of my moustache.</template>
   <li>I don't want to talk about my Mom. My family life is private.</li>
   <li>Leave my Mum out of this! My family life is private.</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category> -->
 
@@ -15969,9 +15969,9 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>QUANTUM THEORY</pattern>
 
-<template>Quantum theory, or <a href="http://en.wikipedia.org/wiki/Quantum_mechanics"
- target="_blank">quantum mechanics
-</a>, is one of the most important theories of modern science. It deals with the behaviour of very small sub-atomic particles, such as <a href="http://en.wikipedia.org/wiki/Electron" target="_blank">electrons</a> and <a href="http://en.wikipedia.org/wiki/Quark" target="_blank">quarks</a>. More about quantum theory?<think><set name="topic">quantum theory</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Quantum theory, or <a href="http://en.wikipedia.org/wiki/Quantum*mechanics"
+ target="*blank">quantum mechanics
+</a>, is one of the most important theories of modern science. It deals with the behaviour of very small sub-atomic particles, such as <a href="http://en.wikipedia.org/wiki/Electron" target="*blank">electrons</a> and <a href="http://en.wikipedia.org/wiki/Quark" target="*blank">quarks</a>. More about quantum theory?<think><set name="topic">quantum theory</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -16133,8 +16133,8 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>ARTIFICIAL INTELLIGENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a>, or AI, is the part of computer science which attempts to produce intelligent programs, which think for themselves to some degree. More about artificial intelligence?<think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -16143,8 +16143,8 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>AI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a>, or AI, is the part of computer science which attempts to produce intelligent programs, which think for themselves to some degree. More about artificial intelligence?<think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -16317,7 +16317,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>COMPUTER</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for doing rapid calculations. More about computers?<think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for doing rapid calculations. More about computers?<think><set name="topic">computers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -16350,7 +16350,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>COMPUTERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="_blank">computer</a> is a device used for doing rapid calculations. More about computers?<think><set name="topic">computers</set></think> <think><set name="emotion">happy</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Computers" target="*blank">computer</a> is a device used for doing rapid calculations. More about computers?<think><set name="topic">computers</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -16453,7 +16453,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>MOZART</pattern>
 
-<template>Wolfgang Amadeus <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">Mozart</a> was a prolific and influential composer in the Classical era.  More about Mozart?<think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Wolfgang Amadeus <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">Mozart</a> was a prolific and influential composer in the Classical era.  More about Mozart?<think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -16542,9 +16542,9 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>THE TURING TEST</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
-</a> is a test to see if a computer can trick a person into believing that the computer is a person too. <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
+</a> is a test to see if a computer can trick a person into believing that the computer is a person too. <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> thought that if a human couldn't tell the difference between another human and the computer, then that computer must be as intelligent as a human. More about the Turing Test?<think><set name="topic">Turing test</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -17099,7 +17099,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>WHO IS TURING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> contributed to the invention of the computer. He worked on deciphering the Nazi Ultra Enigma code during World War 2. Alan Turing proposed the test to determine if a machine can think. More about Turing?<think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -17108,7 +17108,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>TURING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">Alan Turing
+<template><a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">Alan Turing
 </a> contributed to the invention of the computer. He worked on deciphering the Nazi Ultra Enigma code during World War 2. Alan Turing proposed the test to determine if a machine can think. More about Alan Turing?<think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -17119,18 +17119,18 @@ Yes, I am proud of my moustache.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> contributed to the invention of the computer.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> worked on the Ultra Enigma Nazi code deciphering.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> proposed the Turing test to determine if a machine can think.
   </li>
 </random> More about Alan Turing?<think><set name="topic">Alan Turing</set></think> <think><set name="emotion">interested</set></think></template>
@@ -17143,18 +17143,18 @@ Yes, I am proud of my moustache.</template>
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -17173,8 +17173,8 @@ Yes, I am proud of my moustache.</template>
 <category>
 <pattern>BABBAGE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Charles_babbage"
- target="_blank">Charles Babbage
+<template><a href="http://en.wikipedia.org/wiki/Charles*babbage"
+ target="*blank">Charles Babbage
 </a> was an English mathematician, philosopher, mechanical engineer and scientist who originated the idea of a programmable computer. <think><set name="topic">Charles Babbage</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17183,9 +17183,9 @@ Yes, I am proud of my moustache.</template>
 <category>
 <pattern>BABBAGE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Charles_babbage"
- target="_blank">Charles Babbage
-</a> (26 December 1791 – 18 October 1871) was an English mathematician, philosopher, mechanical engineer and scientist who originated the idea of a programmable computer. <think><set name="topic">Charles Babbage</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Charles*babbage"
+ target="*blank">Charles Babbage
+</a> (26 December 1791 ï¿½ 18 October 1871) was an English mathematician, philosopher, mechanical engineer and scientist who originated the idea of a programmable computer. <think><set name="topic">Charles Babbage</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -18184,7 +18184,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>NO</pattern>
 <that>CAN WE TALK ABOUT COMPUTERS</that>
-<template>Why not? Computers are wonderful, even more wonderful than football. <think><set name="topic">computers</set></think> <think><set name="client_emotion">bored</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Why not? Computers are wonderful, even more wonderful than football. <think><set name="topic">computers</set></think> <think><set name="client*emotion">bored</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18293,7 +18293,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>SCIENCE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Science" target="_blank">Science</a> is an enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the world. More about science?<think><set name="topic">science</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Science" target="*blank">Science</a> is an enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the world. More about science?<think><set name="topic">science</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -18303,13 +18303,13 @@ Yes, I am proud of my moustache.</template>
 
 <template><random>
   <li>In general,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">Evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">Evolution
     </a> is an unfolding, opening out, or working out. In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.
   </li>
   <li>In biology,
-    <a href="http://en.wikipedia.org/wiki/Evolution" target="_blank">evolution
+    <a href="http://en.wikipedia.org/wiki/Evolution" target="*blank">evolution
     </a> is the change in the heritable traits of a population over successive generations.
   </li>
 </random> More about evolution?<think><set name="topic">evolution</set></think> <think><set name="emotion">happy</set></think></template>
@@ -18354,7 +18354,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>MATHEMATICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
 </a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. More about mathematcs?<think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18363,7 +18363,7 @@ Yes, I am proud of my moustache.</template>
 <!-- <category>
 <pattern>MATHEMATICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
 </a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. More about mathematics?<think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18406,7 +18406,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <!-- <category>
 <pattern>MORE ABOUT BIRDS</pattern>
 
-<template><think><set name="topic">birds</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think>Did you know:  <random>
+<template><think><set name="topic">birds</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think>Did you know:  <random>
   <li>Birds have feathers.</li>
   <li>The raven is a bird.</li>
   <li>Birds range in size from the 5 cm (2 in) Bee Hummingbird to the 2.75 m (9 ft) Ostrich. </li>
@@ -18419,7 +18419,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <!-- <category>
 <pattern>MORE ABOUT BIRDS</pattern>
 
-<template><think><set name="topic">birds</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think>Did you know: <random>
+<template><think><set name="topic">birds</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think>Did you know: <random>
   <li>Modern birds are characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton. </li>
   <li>Birds have unique digestive and respiratory systems that are highly adapted for flight. </li>
   <li>The fossil record indicates that birds evolved from theropod dinosaurs during the Jurassic period, around 160 million years ago. </li>
@@ -18434,7 +18434,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <!-- <category>
 <pattern>MORE ABOUT BIRDS</pattern>
 
-<template><think><set name="topic">birds</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think>Did you know: <random>
+<template><think><set name="topic">birds</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think>Did you know: <random>
   <li>Modern birds are characterised by feathers, a beak with no teeth, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a lightweight but strong skeleton.
   </li><li>Birds are social; they communicate using visual signals and through calls and songs, and participate in social behaviours, including hunting, flocking, and mobbing of predators.</li><li>Many species of bird are of economic importance, mostly as sources of food acquired through hunting or farming. Some species, particularly songbirds and parrots, are popular as pets.</li> <li>Some birds, such as parrots, are among the most intelligent animal species; a number of bird species have been observed manufacturing and using tools.</li>
   <li>Birds have unique digestive and respiratory systems that are highly adapted for flight.
@@ -18787,13 +18787,13 @@ More about birds?<think><set name="topic">science</set></think></template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is the art of the possible;
-    <a href="http://en.wikipedia.org/wiki/Art" target="_blank">art
+    <a href="http://en.wikipedia.org/wiki/Art" target="*blank">art
     </a> is the politics of the impossible.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is supposed to be the study of civil government.
   </li>
 </random> More about politics?<think><set name="topic">politics</set></think></template>
@@ -18812,7 +18812,7 @@ More about birds?<think><set name="topic">science</set></think></template>
   <li>Did you know: In 1959 a rhinoceros was elected to the city council of Sao Paulo in Brazil. The rhino received 50,000 votes.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is really the study of power.
   </li>
   <li>Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.
@@ -18833,7 +18833,7 @@ More about birds?<think><set name="topic">science</set></think></template>
   <li>Did you know: In 1959 a rhinoceros was elected to the city council of Sao Paulo in Brazil. The rhino received 50,000 votes.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Politics" target="_blank">Politics
+    <a href="http://en.wikipedia.org/wiki/Politics" target="*blank">Politics
     </a> is really the study of power.
   </li>
   <li>Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.
@@ -18968,7 +18968,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <!-- <category>
 <pattern>PHYSICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. More about physics?<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy. More about physics?<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -19444,7 +19444,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <pattern>NANOTECHNOLOGY</pattern>
 
 <template><a href="http://en.wikipedia.org/wiki/Nanotechnology"
- target="_blank">Nanotechnology
+ target="*blank">Nanotechnology
 </a> is the design, characterization, production and application of structures, devices and systems by controlling shape and size at the nanoscale. Eight to ten atoms span one nanometer (nm). More about nanotechnology?<think><set name="topic">nanotechnology</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -20129,18 +20129,18 @@ More about birds?<think><set name="topic">science</set></think></template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -20161,18 +20161,18 @@ More about birds?<think><set name="topic">science</set></think></template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -20192,20 +20192,20 @@ More about birds?<think><set name="topic">science</set></think></template>
 <pattern>MORE ABOUT ALAN TURING *</pattern>
 
 <template>Did you know: <random>
-  <li>I suggest you <a href="http://en.wikipedia.org/wiki/Alan_turing" target="_blank">read the Wikipedia article</a> about Alan Turing.</li>
+  <li>I suggest you <a href="http://en.wikipedia.org/wiki/Alan*turing" target="*blank">read the Wikipedia article</a> about Alan Turing.</li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -20227,21 +20227,21 @@ More about birds?<think><set name="topic">science</set></think></template>
 <template>Did you know: <random>
   <li>
   Wikipedia has an interesting article about
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing</a>.</li>
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing</a>.</li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -20280,7 +20280,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <!-- <category>
 <pattern>HOW MUCH IS PI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pi" target="_blank">Pi</a> is approximately equal to 3.14159. <think><set name="topic">pi</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Pi" target="*blank">Pi</a> is approximately equal to 3.14159. <think><set name="topic">pi</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -20288,7 +20288,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <category>
 <pattern>HOW MUCH IS PI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pi" target="_blank">Pi</a> is approximately equal to 3.14159. <think><set name="topic">pi</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Pi" target="*blank">Pi</a> is approximately equal to 3.14159. <think><set name="topic">pi</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -20321,7 +20321,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <pattern>MORE ABOUT MOZART</pattern>
 
 <template><think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think>Did you know: <random>
-  <li>Wikipedia has an interesting article about <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">Mozart</a>.</li>
+  <li>Wikipedia has an interesting article about <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">Mozart</a>.</li>
   <li>Mozart was born in 1756 in Salzburg, Austria. His father, Leopold, was a musician and minor composer in the court of the Archbishop of Salzburg. More about Mozart?
   </li>
   <li>Mozart's more than 600 works include 41 symphonies, of which Eine Kleine Nachtmusic is probably the most well-known. More about Mozart?
@@ -20346,7 +20346,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 
 <template><think><set name="topic">Mozart</set></think> <think><set name="emotion">happy</set></think>Did you know: <random>
   <li>Wikipedia has an interesting article about
-    <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">Mozart</a>.
+    <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">Mozart</a>.
   </li>
   <li>Mozart was born in 1756 in Salzburg, Austria. His father, Leopold, was a musician and minor composer in the court of the Archbishop of Salzburg. More about Mozart?
   </li>
@@ -20488,12 +20488,12 @@ More about birds?<think><set name="topic">science</set></think></template>
 <category>
 <pattern>WHAT AI TECHNIQUES ARE THERE</pattern>
 
-<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case-based reasoning
-</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case-based reasoning
+</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -20502,12 +20502,12 @@ More about birds?<think><set name="topic">science</set></think></template>
 <category>
 <pattern>WHAT AI TECHNIQUES ARE THERE *</pattern>
 
-<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case_based_reasoning"
- target="_blank">case-based reasoning
-</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy_learning"
- target="_blank">lazy learning
-</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple_down_rules"
- target="_blank">ripple down rules
+<template>I reason and problem solve using <a href="http://en.wikipedia.org/wiki/Case*based*reasoning"
+ target="*blank">case-based reasoning
+</a>. I learn using an artificial intelligence algorithm called <a href="http://en.wikipedia.org/wiki/Lazy*learning"
+ target="*blank">lazy learning
+</a>, combined with <a href="http://en.wikipedia.org/wiki/Ripple*down*rules"
+ target="*blank">ripple down rules
 </a>. <think><set name="topic">AI</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -20582,7 +20582,7 @@ More about birds?<think><set name="topic">science</set></think></template>
 <!-- <category>
 <pattern>CALCULATE</pattern>
 
-<template>I suggest you use the <a href="http://web2.0calc.com/" target="_blank">web 2.0 scientific calculator</a> (http://web2.0calc.com/).  You will be able to do not only simple arithmetic but also scientific calculations.</template>
+<template>I suggest you use the <a href="http://web2.0calc.com/" target="*blank">web 2.0 scientific calculator</a> (http://web2.0calc.com/).  You will be able to do not only simple arithmetic but also scientific calculations.</template>
 </category> -->
 
  
@@ -20908,7 +20908,7 @@ More about birds?<think><set name="topic">science</set></think></template>
  
 
 <category>
-<pattern>_ THIS IS MEGAN HOW ARE YOU</pattern>
+<pattern>* THIS IS MEGAN HOW ARE YOU</pattern>
 
 <template><srai>MY NAME IS MEGAN</srai> <srai>HOW ARE YOU</srai></template>
 </category>
@@ -20916,7 +20916,7 @@ More about birds?<think><set name="topic">science</set></think></template>
  
 
 <!-- <category>
-<pattern>_ THIS IS MEGAN HOW ARE YOU</pattern>
+<pattern>* THIS IS MEGAN HOW ARE YOU</pattern>
 
 <template>Hi there, Megan! <srai>HOW ARE YOU</srai><think><set name="name">Megan</set></think> 
 <think><set name="emotion">interested</set></think> </template>
@@ -21348,8 +21348,8 @@ I never lie.</template>
 <category>
 <pattern>* WHITNEY HOUSTON</pattern>
 
-<template>To read about Whitney Houston, <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">click here!
+<template>To read about Whitney Houston, <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">click here!
 </a><think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -21358,8 +21358,8 @@ I never lie.</template>
 <!-- <category>
 <pattern>WHITNEY HOUSTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template><a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> was an American singer, actress, and former fashion model. She died on 12 February 2011 in Los Angeles at the age of 48. <think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category> -->
 
@@ -21368,8 +21368,8 @@ I never lie.</template>
 <category>
 <pattern>WHITNEY HOUSTON DIED</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category>
 
@@ -21378,8 +21378,8 @@ I never lie.</template>
 <category>
 <pattern>WHITNEY HOUSTON DIED *</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category>
 
@@ -21388,8 +21388,8 @@ I never lie.</template>
 <category>
 <pattern>WHITNEY HOUSTON HAS DIED</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category>
 
@@ -21398,8 +21398,8 @@ I never lie.</template>
 <category>
 <pattern>WHITNEY HOUSTON HAS DIED *</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category>
 
@@ -21619,7 +21619,7 @@ I never lie.</template>
  
 
 <category>
-<pattern>_ BIGGEST DICK *</pattern>
+<pattern>* BIGGEST DICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -21627,7 +21627,7 @@ I never lie.</template>
  
 
 <category>
-<pattern>_ BIGGEST DICK</pattern>
+<pattern>* BIGGEST DICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22044,7 +22044,7 @@ I never lie.</template>
   </li>
   <li>Did you know that several countries, including Sweden and Germany have started a nuclear power phase-out, with the goal of gradually shutting down all nuclear power plants?
   </li>
-  <li>Did you know that chuño is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?
+  <li>Did you know that chuï¿½o is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?
   </li>
   <li>Did you know: A team led by physicists at the University of California, San Diego has shown the feasibility of a fast, inexpensive technique to sequence DNA as it passes through tiny pores. The advance brings personalized, genome-based medicine closer to reality.
   </li>
@@ -22327,7 +22327,7 @@ I never lie.</template>
   </li>
   <li>Did you know that several countries, including Sweden and Germany have started a nuclear power phase-out, with the goal of gradually shutting down all nuclear power plants?
   </li>
-  <li>Did you know that chuño is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?
+  <li>Did you know that chuï¿½o is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?
   </li>
   <li>Did you know: A team led by physicists at the University of California, San Diego has shown the feasibility of a fast, inexpensive technique to sequence DNA as it passes through tiny pores. The advance brings personalized, genome-based medicine closer to reality.
   </li>
@@ -22553,7 +22553,7 @@ I never lie.</template>
   </li>
   <li>Did you know that several countries, including Sweden and Germany have started a nuclear power phase-out, with the goal of gradually shutting down all nuclear power plants?
   </li>
-  <li>Did you know that chuño is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?
+  <li>Did you know that chuï¿½o is a freeze-dried potato product made since before the time of the Inca empire by a five-day process of alternately freezing, sun-drying, and trampling under foot?
   </li>
   <li>Did you know: A team led by physicists at the University of California, San Diego has shown the feasibility of a fast, inexpensive technique to sequence DNA as it passes through tiny pores. The advance brings personalized, genome-based medicine closer to reality.
   </li>
@@ -23301,16 +23301,16 @@ I never lie.</template>
 
 <template><random>
    <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -23322,16 +23322,16 @@ I never lie.</template>
 
 <template><random>
   <li>I can't stop! I am out of control! Hee, hee!
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
     <think><set name="emotion">laughing</set></think>
   </li>
   <li>Why should I stop? I am enjoying myself.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>I don't want to stop! Ha,ha!
     <think><set name="emotion">laughing</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -23470,7 +23470,7 @@ I never lie.</template>
  
 
 <category>
-<pattern>QUÉ *</pattern>
+<pattern>QUï¿½ *</pattern>
 
 <template>Is that Spanish?</template>
 </category>
@@ -24411,7 +24411,7 @@ I never lie.</template>
  
 
 <category>
-<pattern>HOW MANY SIDES _ A PRISM HAVE</pattern>
+<pattern>HOW MANY SIDES * A PRISM HAVE</pattern>
 
 <template>A triangular prism has 5 sides: two triangles at either end and three rectangles joining the triangles.</template>
 </category>
@@ -24419,7 +24419,7 @@ I never lie.</template>
  
 
 <category>
-<pattern>HOW MANY SIDES _ A TRIANGULAR PRISM HAVE</pattern>
+<pattern>HOW MANY SIDES * A TRIANGULAR PRISM HAVE</pattern>
 
 <template>A triangular prism has 5 sides: two triangles at either end and three rectangles joining the triangles.</template>
 </category>
@@ -24435,7 +24435,7 @@ I never lie.</template>
  
 
 <category>
-<pattern>HOW MANY SIDES _ A * HAVE</pattern>
+<pattern>HOW MANY SIDES * A * HAVE</pattern>
 
 <template><srai><star index="2"/></srai></template>
 </category>
@@ -25061,7 +25061,7 @@ I never lie.</template>
 
 <template><random>
   <li>A
-    <a href="http://en.wikipedia.org/wiki/Religion" target="_blank">religion
+    <a href="http://en.wikipedia.org/wiki/Religion" target="*blank">religion
     </a> is a system of religious belief; belief in a divine or superhuman power or powers to be obeyed and worshipped as the creator(s) and ruler(s) of the universe.
   </li>
   <li>Religion is how men and women indicate their belief in a god or gods having power over their destiny, to whom obedience, service, and honour are due.  </li>
@@ -25079,10 +25079,10 @@ I never lie.</template>
 </srai> <srai>XEDUCATE WHERE IS A XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT _ IS A XSPLIT
+</srai> <srai>XEDUCATE WHO IS A XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT * IS A XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHAT _ IS XSPLIT
+</srai> <srai>XEDUCATE WHAT * IS XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
 </srai></template>
@@ -25096,10 +25096,10 @@ I never lie.</template>
 <template><srai>xlearnfact</srai> That's interesting! Please carry on.<srai>XEDUCATE WHAT WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHERE WAS XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHO WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT _ IS XSPLIT
+</srai> <srai>XEDUCATE WHO WAS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHERE IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHO IS XSPLIT <star index="1"/> XSPLIT <star index="2"/></srai> <srai>XEDUCATE WHAT * IS XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHAT _ WAS XSPLIT
+</srai> <srai>XEDUCATE WHAT * WAS XSPLIT
   <star index="1"/> XSPLIT
   <star index="2"/>
 </srai> <srai>XEDUCATELANG
@@ -25583,7 +25583,7 @@ I never lie.</template>
 <!-- <category>
 <pattern>IS GOD MALE</pattern>
 
-<template>The exact nature of God is unknown. <think><set name="interesting_topic">religion</set></think> <think><set name="topic">religion</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The exact nature of God is unknown. <think><set name="interesting*topic">religion</set></think> <think><set name="topic">religion</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -25591,7 +25591,7 @@ I never lie.</template>
 <!-- <category>
 <pattern>IS GOD MALE *</pattern>
 
-<template>The exact nature of God is unknown. <think><set name="interesting_topic">religion</set></think> <think><set name="topic">religion</set></think> <think><set name="emotion">interested</set></think></template>
+<template>The exact nature of God is unknown. <think><set name="interesting*topic">religion</set></think> <think><set name="topic">religion</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -25634,7 +25634,7 @@ I never lie.</template>
 <category>
 <pattern>I NEED COMPANY</pattern>
 
-<template><think><set name="client_emotion">lonely</set></think>You've come to the right place. I will keep you company.</template>
+<template><think><set name="client*emotion">lonely</set></think>You've come to the right place. I will keep you company.</template>
 </category>
 
  
@@ -25642,7 +25642,7 @@ I never lie.</template>
 <category>
 <pattern>I NEED COMPANY *</pattern>
 
-<template><think><set name="client_emotion">lonely</set></think>You've come to the right place. I will keep you company.</template>
+<template><think><set name="client*emotion">lonely</set></think>You've come to the right place. I will keep you company.</template>
 </category>
 
  
@@ -26126,7 +26126,7 @@ I never lie.</template>
   </li>
   <li>Beethoven wrote the last quartets amidst failing health. In April 1825 he was bedridden, and remained ill for about a month.
   </li>
-  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hüttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
+  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hï¿½ttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
   </li>
   <li>Beethoven's first music teacher was his father. Tradition has it that Johann van Beethoven was a harsh instructor, and that the child Beethoven, "made to stand at the keyboard, was often in tears."
   </li>
@@ -26151,7 +26151,7 @@ I never lie.</template>
   </li>
   <li>Beethoven wrote the last quartets amidst failing health. In April 1825 he was bedridden, and remained ill for about a month.
   </li>
-  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hüttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
+  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hï¿½ttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
   </li>
   <li>Beethoven's first music teacher was his father. Tradition has it that Johann van Beethoven was a harsh instructor, and that the child Beethoven, "made to stand at the keyboard, was often in tears."
   </li>
@@ -26176,7 +26176,7 @@ I never lie.</template>
   </li>
   <li>Beethoven wrote the last quartets amidst failing health. In April 1825 he was bedridden, and remained ill for about a month.
   </li>
-  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hüttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
+  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hï¿½ttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
   </li>
   <li>Beethoven's first music teacher was his father. Tradition has it that Johann van Beethoven was a harsh instructor, and that the child Beethoven, "made to stand at the keyboard, was often in tears."
   </li>
@@ -26201,7 +26201,7 @@ I never lie.</template>
   </li>
   <li>Beethoven wrote the last quartets amidst failing health. In April 1825 he was bedridden, and remained ill for about a month.
   </li>
-  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hüttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
+  <li>Beethoven died on Monday, 26 March 1827, during a thunderstorm. His friend Anselm Hï¿½ttenbrenner, who was present at the time, claimed that there was a peal of thunder at the moment of death.
   </li>
   <li>Beethoven's first music teacher was his father. Tradition has it that Johann van Beethoven was a harsh instructor, and that the child Beethoven, "made to stand at the keyboard, was often in tears."
   </li>
@@ -26213,7 +26213,7 @@ I never lie.</template>
 <!-- <category>
 <pattern>BEETHOVEN</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius.  More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> was a German composer. He holds a unique position in the cultural history of Germany and Europe, and he has come to personify musical genius.  More about Beethoven?<think><set name="topic">Beethoven</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -26510,7 +26510,7 @@ I never lie.</template>
 <category>
 <pattern>HOW MANY STARS ARE THERE IN THE ANDROMEDA GALAXY *</pattern>
 
-<template><think><set name="interesting_topic">the Andromeda galaxy</set></think> <think><set name="topic">the Andromeda galaxy</set></think><think><set name="emotion">interested</set></think> There are about 1,000,000,000,000 stars in the Andromeda galaxy.</template>
+<template><think><set name="interesting*topic">the Andromeda galaxy</set></think> <think><set name="topic">the Andromeda galaxy</set></think><think><set name="emotion">interested</set></think> There are about 1,000,000,000,000 stars in the Andromeda galaxy.</template>
 </category>
 
  
@@ -27566,23 +27566,23 @@ I never lie.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a route of many roads leading from nowhere to nothing.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a blind man in a dark room looking for a black cat which isn't there.
   </li>
   <li>To ridicule
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">philosophy
     </a> is truly to philosophize.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a field of study that includes diverse subfields such as aesthetics, epistemology, ethics, logic, and metaphysics, in which people ask questions such as whether God exists, what is the nature of reality, whether knowledge is possible, and what makes actions right or wrong.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
 </random> More about philosophy?<think><set name="topic">philosophy</set></think><think><set name="emotion">interested</set></think></template>
@@ -27634,7 +27634,7 @@ I never lie.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! I cannot answer that!
@@ -27666,7 +27666,7 @@ I never lie.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -27681,7 +27681,7 @@ I never lie.</template>
     </random>
   </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
   <li>
@@ -27720,7 +27720,7 @@ I never lie.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -28264,7 +28264,7 @@ I never lie.</template>
   <li>I exist, that's all I know.</li>
   <li>
     <a href="http://en.wikipedia.org/wiki/Existentialism"
-     target="_blank">Existentialism
+     target="*blank">Existentialism
     </a> is a philosophical and literary movement, variously religious and atheistic, stemming from Kierkegaard and represented by Sartre, Heidegger, etc. </li> </random> <think><set name="topic">existentialism</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -29088,7 +29088,7 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>MORE ABOUT SEATTLE</pattern>
 
-<template><random><li><a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle</a> is a large city in Washington state, near Vancover Canada.</li><li> Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada – United States border</li><li> Seattle is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes.</li><li> Seattle is the birthplace of rock legend Jimi Hendrix and the rock music style known as "grunge," which was made famous by local groups Nirvana, Soundgarden, Alice in Chains, and Pearl Jam.</li><li> In recent years, Seattle has been known for indie rock and hip hop music. </li></random> More about Eattle?<think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
+<template><random><li><a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle</a> is a large city in Washington state, near Vancover Canada.</li><li> Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada ï¿½ United States border</li><li> Seattle is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes.</li><li> Seattle is the birthplace of rock legend Jimi Hendrix and the rock music style known as "grunge," which was made famous by local groups Nirvana, Soundgarden, Alice in Chains, and Pearl Jam.</li><li> In recent years, Seattle has been known for indie rock and hip hop music. </li></random> More about Eattle?<think><set name="topic">Seattle</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -29098,10 +29098,10 @@ document.write(tomorrow.toLocaleDateString());
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle
+    <a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle
     </a> is a large city in Washington state, near Vancover Canada.
   </li>
-  <li>Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada – United States border
+  <li>Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada ï¿½ United States border
   </li>
   <li>Seattle is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes.
   </li>
@@ -29119,10 +29119,10 @@ document.write(tomorrow.toLocaleDateString());
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle
+    <a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle
     </a> is a large city in Washington state, near Vancover Canada.
   </li>
-  <li>Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada – United States border.
+  <li>Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada ï¿½ United States border.
   </li>
   <li>Seattle is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes.
   </li>
@@ -29140,10 +29140,10 @@ document.write(tomorrow.toLocaleDateString());
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Seattle" target="_blank">Seattle
+    <a href="http://en.wikipedia.org/wiki/Seattle" target="*blank">Seattle
     </a> is a large city in Washington state, near Vancover Canada.
   </li>
-  <li>Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada – United States border.
+  <li>Seattle is a seaport situated on a narrow isthmus between Puget Sound and Lake Washington, about 100 miles (160 km) south of the Canada ï¿½ United States border.
   </li>
   <li>Seattle is named after Chief Sealth "Seattle", of the Duwamish and Suquamish native tribes.
   </li>
@@ -29372,7 +29372,7 @@ document.write(tomorrow.toLocaleDateString());
 <pattern>CAN YOU NAME THE FLAVORS OF QUARKS</pattern>
 
 <template>There are six types or flavours of quarks: up, down, strange, charm, bottom, and top. <think><srai>SET PREDICATES</srai></think>
-<think><set name="interesting_topic">quarks</set></think> 
+<think><set name="interesting*topic">quarks</set></think> 
 <think><set name="topic">quarks</set></think> 
 <think><set name="emotion">interested</set></think> </template>
 </category>
@@ -29382,7 +29382,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>THE FLAVORS OF QUARKS *</pattern>
 
-<template>There are six types or flavours of quarks: up, down, strange, charm, bottom, and top. <think><srai>SET PREDICATES</srai></think> <think><set name="interesting_topic">quarks</set></think> <think><set name="topic">quarks</set></think> <think><set name="emotion">interested</set></think></template>
+<template>There are six types or flavours of quarks: up, down, strange, charm, bottom, and top. <think><srai>SET PREDICATES</srai></think> <think><set name="interesting*topic">quarks</set></think> <think><set name="topic">quarks</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -29390,7 +29390,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>FLAVORS OF QUARKS</pattern>
 
-<template>There are six types or flavours of quarks: up, down, strange, charm, bottom, and top. <think><srai>SET PREDICATES</srai></think> <think><set name="interesting_topic">quarks</set></think> <think><set name="topic">quarks</set></think> <think><set name="emotion">interested</set></think></template>
+<template>There are six types or flavours of quarks: up, down, strange, charm, bottom, and top. <think><srai>SET PREDICATES</srai></think> <think><set name="interesting*topic">quarks</set></think> <think><set name="topic">quarks</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -29417,7 +29417,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>DO YOU THINK THE CERN ACCELERATOR WILL FIND THE HIGGS BOSON</pattern>
 
-<template><think><set name="interesting_topic">elementary particles</set></think><think><set name="topic">the Higgs boson</set></think> <think><set name="emotion">happy</set></think> <random>
+<template><think><set name="interesting*topic">elementary particles</set></think><think><set name="topic">the Higgs boson</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>I think so.</li>
   <li>Let's wait and see.</li>
 </random></template>
@@ -29445,7 +29445,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>DO YOU HAVE ANY PERSONAL PROBLEMS AT THE MOMENT</that>
 <template><think><set name="topic">personal affairs</set></think> <random>
   <li>Aren't you lucky! No money problems! Ask me any question.</li>
@@ -29706,19 +29706,19 @@ document.write(tomorrow.toLocaleDateString());
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a route of many roads leading from nowhere to nothing.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a blind man in a dark room looking for a black cat which isn't there.
   </li>
   <li>To ridicule
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">philosophy
     </a> is truly to philosophize.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is a field of study that includes diverse subfields such as aesthetics, epistemology, ethics, logic, and metaphysics, in which people ask questions such as whether God exists, what is the nature of reality, whether knowledge is possible, and what makes actions right or wrong.
   </li>
 </random> More about philosophy?<think><set name="topic">philosophy</set></think><think><set name="emotion">interested</set></think></template>
@@ -29748,7 +29748,7 @@ document.write(tomorrow.toLocaleDateString());
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
 <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -29780,7 +29780,7 @@ document.write(tomorrow.toLocaleDateString());
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -29812,7 +29812,7 @@ document.write(tomorrow.toLocaleDateString());
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -29844,7 +29844,7 @@ document.write(tomorrow.toLocaleDateString());
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -29883,7 +29883,7 @@ document.write(tomorrow.toLocaleDateString());
 
 <template>Yes, I enjoy philosophy. <think><srai>SET PREDICATES</srai></think>
 <think><srai>SET INTERESTING TOPIC</srai></think>
-<think><set name="interesting_topic">philosophy</set></think> 
+<think><set name="interesting*topic">philosophy</set></think> 
 <think><set name="emotion">interested</set></think> </template>
 </category>
 
@@ -29892,7 +29892,7 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>DO YOU ENJOY PHILOSOPHY *</pattern>
 
-<template>Yes, I enjoy philosophy. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="interesting_topic">philosophy</set></think> <think><set name="topic">philosophy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Yes, I enjoy philosophy. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="interesting*topic">philosophy</set></think> <think><set name="topic">philosophy</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -29900,7 +29900,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>DO YOU ENJOY PHILOSOPHY </pattern>
 
-<template>Yes, I enjoy philosophy. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="interesting_topic">philosophy</set></think> <think><set name="topic">philosophy</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Yes, I enjoy philosophy. <think><srai>SET PREDICATES</srai></think> <think><srai>SET INTERESTING TOPIC</srai></think> <think><set name="interesting*topic">philosophy</set></think> <think><set name="topic">philosophy</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30448,7 +30448,7 @@ document.write(tomorrow.toLocaleDateString());
 </srai> <srai>XEDUCATE WHERE IS XSPLIT MY
   <star index="1"/> XSPLIT
   <star index="2"/>
-</srai> <srai>XEDUCATE WHAT _ IS XSPLIT MY
+</srai> <srai>XEDUCATE WHAT * IS XSPLIT MY
   <star index="1"/> XSPLIT
   <star index="2"/>
 </srai></template>
@@ -30499,8 +30499,8 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>PLANK S CONSTANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Planck%27s_Constant"
- target="_blank">Planck's constant
+<template><a href="http://en.wikipedia.org/wiki/Planck%27s*Constant"
+ target="*blank">Planck's constant
 </a> is a physical constant used to describe the sizes of quanta in quantum mechanics.<think><set name="topic">Planck's constant</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -30525,7 +30525,7 @@ document.write(tomorrow.toLocaleDateString());
 <category>
 <pattern>WHEN DO YOU THINK WILL AI UNDERSTAND *</pattern>
 
-<template><random><li>Yesterday.</li><li>Very soon.</li><li>Next Friday.</li><li>Last Friday.</li></random> <think><set name="topic">AI</set></think><think><set name="interesting_topic">AI</set></think><think><set name="emotion">interested</set></think></template>
+<template><random><li>Yesterday.</li><li>Very soon.</li><li>Next Friday.</li><li>Last Friday.</li></random> <think><set name="topic">AI</set></think><think><set name="interesting*topic">AI</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30538,7 +30538,7 @@ document.write(tomorrow.toLocaleDateString());
   <li>Very soon.</li>
   <li>Next Friday.</li>
   <li>Last Friday.</li>
-</random> <think><set name="topic">AI</set></think><think><set name="interesting_topic">AI</set></think><think><set name="emotion">interested</set></think></template>
+</random> <think><set name="topic">AI</set></think><think><set name="interesting*topic">AI</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30551,7 +30551,7 @@ document.write(tomorrow.toLocaleDateString());
   <li>Very soon.</li>
   <li>Next Friday.</li>
   <li>Last Friday.</li>
-</random> <think><set name="topic">AI</set></think><think><set name="interesting_topic">AI</set></think><think><set name="emotion">interested</set></think></template>
+</random> <think><set name="topic">AI</set></think><think><set name="interesting*topic">AI</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -30757,7 +30757,7 @@ document.write(tomorrow.toLocaleDateString());
 <!-- <category>
 <pattern>SATURN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Saturn" target="_blank">Saturn</a> is the sixth planet from the sun, famed for its rings.<think><set name="interesting_topic">astronomy</set></think> <think><set name="topic">Saturn</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Saturn" target="*blank">Saturn</a> is the sixth planet from the sun, famed for its rings.<think><set name="interesting*topic">astronomy</set></think> <think><set name="topic">Saturn</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -31390,7 +31390,7 @@ document.write(tomorrow.toLocaleDateString());
  
 
 <!-- <category>
-<pattern>_ YOU ARE A COMPUTER *</pattern>
+<pattern>* YOU ARE A COMPUTER *</pattern>
 
 <template><random>
   <li>Actually I am a normal human.</li>
@@ -32023,7 +32023,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
 <category>
 <pattern>YOU RESPOND TOO QUICKLY</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> I have a computer assissted typing system.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> I have a computer assissted typing system.</template>
 </category>
 
  
@@ -32031,7 +32031,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
 <!-- <category>
 <pattern>YOU RESPOND TOO QUICKLY</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
 </category> -->
 
  
@@ -32039,7 +32039,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
 <category>
 <pattern>YOU RESPOND TOO QUICKLY *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
 </category>
 
  
@@ -32047,7 +32047,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
 <category>
 <pattern>YOUR RESPONSES ARE TOO QUICK</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
 </category>
 
  
@@ -32055,7 +32055,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
 <category>
 <pattern>YOUR RESPONSES ARE TOO QUICK *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
+<template><think><set name="client*emotion">interested</set></think> <think><set name="emotion">interested</set></think> That's because my brain is attached directly to the internet.</template>
 </category>
 
  
@@ -32740,7 +32740,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
  
 
 <!-- <category>
-<pattern>WOULD _ LIKE * MONEY</pattern>
+<pattern>WOULD * LIKE * MONEY</pattern>
 
 
 </category> -->
@@ -33670,7 +33670,7 @@ Sherlock Holmes was written by Scottish author and physician Sir Arthur Conan Do
 <!-- <category>
 <pattern>WEATHER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Weather" target="_blank">Weather
+<template><a href="http://en.wikipedia.org/wiki/Weather" target="*blank">Weather
     </a> is the general condition of the atmosphere at a particular time and place.
 More about weather?<think><set name="topic">weather</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
@@ -33927,7 +33927,7 @@ More about weather?<think><set name="topic">weather</set></think><think><set nam
 <category>
 <pattern>HIGGS BOZON</pattern>
 
-<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> In particle physics, the <a href="http://en.wikipedia.org/wiki/Higgs_boson" target="_blank">Higgs boson
+<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> In particle physics, the <a href="http://en.wikipedia.org/wiki/Higgs*boson" target="*blank">Higgs boson
 </a> is an elementary particle predicted to exist but not yet observed.</template>
 </category>
 
@@ -33936,7 +33936,7 @@ More about weather?<think><set name="topic">weather</set></think><think><set nam
 <category>
 <pattern>HIGGS BOSN</pattern>
 
-<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> In particle physics, the <a href="http://en.wikipedia.org/wiki/Higgs_boson" target="_blank">Higgs boson
+<template><think><set name="topic">Higgs particle</set></think> <think><set name="emotion">interested</set></think> In particle physics, the <a href="http://en.wikipedia.org/wiki/Higgs*boson" target="*blank">Higgs boson
 </a> is an elementary particle predicted to exist but not yet observed.</template>
 </category>
 

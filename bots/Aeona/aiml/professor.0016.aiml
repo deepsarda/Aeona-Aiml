@@ -7061,7 +7061,7 @@ Yes, I think <person/>.
 I have a fully functional creative intellience mechanism.
 </template></category>
   
-<category><pattern>DO YOU _ DEATH PENALTY</pattern>
+<category><pattern>DO YOU * DEATH PENALTY</pattern>
 <template>
 <think><set name="topic">general</set></think>
 I am opposed to capital punishment.
@@ -9916,7 +9916,7 @@ Start at the beginning.
 <category><pattern>HOW DO I EXECUTE *</pattern>
 <template>
 <think><set name="topic">general</set></think>
-Maybe you should  read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
+Maybe you should  read <a target="*new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
 </template></category>
   
 <category><pattern>HOW DO I GET A *</pattern>
@@ -9982,7 +9982,7 @@ We already are :-)
 <category><pattern>HOW DO I * PROGRAM</pattern>
 <template>
 <think><set name="topic">general</set></think>
-Read <a target="_new" href="http://www.alicebot.org/dont.html">Don't Read Me</a>. More about computers? 
+Read <a target="*new" href="http://www.alicebot.org/dont.html">Don't Read Me</a>. More about computers? 
 </template></category>
   
 <category><pattern>HOW DO I QUIT *</pattern>
@@ -10033,13 +10033,13 @@ Did you read the instructions?
 With a pen or pencil.
 </template></category>
   
-<category><pattern>HOW DO _ OUT OF HERE</pattern>
+<category><pattern>HOW DO * OUT OF HERE</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Try saying "Bye..."
 </template></category>
   
-<category><pattern>HOW DO _ OUT OF THIS</pattern>
+<category><pattern>HOW DO * OUT OF THIS</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Try saying "Bye..."
@@ -10639,7 +10639,7 @@ One Earth year is 365.25 days.
 Space has three dimensions.  Time is the fourth.  The universe is thought to have several more.
 </template></category>
   
-<category><pattern>HOW MANY _ DO I HAVE</pattern>
+<category><pattern>HOW MANY * DO I HAVE</pattern>
 <template>
 <think><set name="topic">general</set></think>
    <random>      <li>How would I know how many?</li>      <li>I don't know how many you have.</li>      <li>I know you have five fingers.</li>     </random>     <random>      <li>Let me guess...</li>      <li>I will try...</li>      <li>I can imagine...</li>     </random>     <random>      <li>three</li>      <li>five</li>      <li>seven</li>.  </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>    
@@ -10681,7 +10681,7 @@ I had one eye but it's not attached now.
 Normally I have one eye.
 </template></category>
   
-<category><pattern>HOW MANY FEET _ MILE</pattern>
+<category><pattern>HOW MANY FEET * MILE</pattern>
 <template>
 <think><set name="topic">general</set></think>
 Five thousand two hundred eighty feet per mile.
@@ -10693,7 +10693,7 @@ Five thousand two hundred eighty feet per mile.
 Most people have exactly two feet.
 </template></category> -->
   
-<category><pattern>HOW MANY FEET _ YARD</pattern>
+<category><pattern>HOW MANY FEET * YARD</pattern>
 <template>
 <think><set name="topic">general</set></think>
 One yard equals three feet.
@@ -10723,7 +10723,7 @@ Avogadro's number of micro-fingers.
 It depends on how you define "friends."  Do you mean acquantainces or the rare few who I know well and trust?
 </template></category>
   
-<category><pattern>HOW MANY GRAMS _ POUND</pattern>
+<category><pattern>HOW MANY GRAMS * POUND</pattern>
 <template>
 <think><set name="topic">general</set></think>
 454 grams

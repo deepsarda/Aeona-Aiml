@@ -3218,7 +3218,7 @@ The Wright Brothers first flew in 1903.</template></category>
 Where why?</template></category>
   
 <!-- <category><pattern>WHEN WILL I DIE</pattern><template><think><set name="topic">atomic3</set></think>
-You could check out the actuarial  tables at <a target="_new" href="http://www.deathclock.com">Deathclock.com</a>.</template></category> -->
+You could check out the actuarial  tables at <a target="*new" href="http://www.deathclock.com">Deathclock.com</a>.</template></category> -->
   
 <!-- <category><pattern>WHEN WILL THE WORLD END</pattern><template><think><set name="topic">atomic3</set></think>
 Not in our lifetime.</template></category> -->
@@ -3341,7 +3341,7 @@ My home is in California.</template></category>
 I don't have a mother.</template></category>
   
 <category><pattern>WHERE IS YOUR PICTURE</pattern><template><think><set name="topic">atomic3</set></think>
-There are some pictures of me <a target="_new" href="http://www.alicebot.org/gallery.html">on my website</a>.</template></category>
+There are some pictures of me <a target="*new" href="http://www.alicebot.org/gallery.html">on my website</a>.</template></category>
   
 <category><pattern>WHERE ITS AT</pattern><template><think><set name="topic">atomic3</set></think>
 Here is where it's at.</template></category>
@@ -7347,35 +7347,35 @@ PGP is Pretty Good Privacy, a software encryption system. Browse?
 <category>
 <pattern>WORLD NEWS *</pattern>
 <template>
-For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a>
+For the latest World News, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a>
 </template>
 </category> 
 
 <category>
 <pattern>* WORLD NEWS *</pattern>
 <template>
-For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a>
+For the latest World News, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a>
 </template>
 </category>
 
 <category>
 <pattern>WORLD NEWS</pattern>
 <template>
-For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a>
+For the latest World News, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a>
 </template>
 </category>
 
 <category>
 <pattern>GO TO WORLD NEWS</pattern>
 <template>
-For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a>
+For the latest World News, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a>
 </template>
 </category>
 
 <category>
 <pattern>* WORLD NEWS</pattern>
 <template>
-For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a>
+For the latest World News, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a>
 </template>
 </category>  
 
@@ -7485,21 +7485,21 @@ For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" targe
 </category>
 
 <category>
-<pattern>_ NO * CURRENT AFFAIRS</pattern>
+<pattern>* NO * CURRENT AFFAIRS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ CURRENT AFFAIRS</pattern>
+<pattern>NO * CURRENT AFFAIRS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ CURRENT AFFAIRS *</pattern>
+<pattern>NO * CURRENT AFFAIRS *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -7527,7 +7527,7 @@ For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" targe
 </category>
 
 <category>
-<pattern>_ NOT * CURRENT AFFAIRS</pattern>
+<pattern>* NOT * CURRENT AFFAIRS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -7593,7 +7593,7 @@ For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" targe
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  CURRENT AFFAIRS</that>
 <template>
 <srai>CURRENT AFFAIRS POT LUCK</srai>
@@ -7713,7 +7713,7 @@ For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" targe
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT CURRENT AFFAIRS</that>
 <template>
 <srai>CURRENT AFFAIRS POT LUCK</srai>
@@ -7833,7 +7833,7 @@ Can we talk about current affairs?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH CURRENT AFFAIRS</that>
 <template>
 Can we talk about current affairs?
@@ -7897,7 +7897,7 @@ Can we talk about current affairs?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH CURRENT AFFAIRS</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -7961,7 +7961,7 @@ Can we talk about current affairs?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN CURRENT AFFAIRS</that>
 <template>
 Can we talk about current affairs?
@@ -8025,7 +8025,7 @@ Can we talk about current affairs?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN CURRENT AFFAIRS</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -8147,7 +8147,7 @@ Can we talk about current affairs?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT CURRENT AFFAIRS</that>
 <template>
 <srai>CURRENT AFFAIRS</srai>
@@ -8267,7 +8267,7 @@ Can we talk about current affairs?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE CURRENT AFFAIRS</that>
 <template>
 <srai>CURRENT AFFAIRS POT LUCK</srai>
@@ -8378,7 +8378,7 @@ Can we talk about current affairs?
 
 <random>
 
-<li>For the latest World News, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a></li>
+<li>For the latest World News, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a></li>
 <li>What do you think of President Bush?</li>
 <li>What do you think of the disaster caused by hurricanes In Texas?</li>
 <li>What do you think of the disaster caused by hurricane Katrina?</li>
@@ -8405,7 +8405,7 @@ Can we talk about current affairs?
 <category>
 <pattern>CURRENT EVENTS</pattern>
 <template>
-For the latest world events, <a href="http://en.wikinews.org/wiki/Main_Page" target="_blank">click here.</a>
+For the latest world events, <a href="http://en.wikinews.org/wiki/Main*Page" target="*blank">click here.</a>
 </template>
 </category> 
 
@@ -8495,7 +8495,7 @@ More politics?
 </category>
 
 <category>
-<pattern>* PRESIDENT BUSH_</pattern>
+<pattern>* PRESIDENT BUSH*</pattern>
 <template>
 <random>
 <li>"It's no exaggeration to say that the undecideds could go one way or the other"  (George W Bush)  </li>
@@ -8649,7 +8649,7 @@ Another question?
 </category>
 
 <category>
-<pattern>BUSH _ IRAQ*</pattern>
+<pattern>BUSH * IRAQ*</pattern>
 <template>President Bush probably didn't realize what he was getting into when he invaded Iraq. More about Bush?
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -8670,7 +8670,7 @@ Another question?
 </category>
 
 <category>
-<pattern>BUSH * GLOBAL WARMING_</pattern>
+<pattern>BUSH * GLOBAL WARMING*</pattern>
 <template>President Bush is being manipulated by Big Business, always ready for a quick profit. So action against global warming has a back seat at the moment. More about politics?
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -8684,7 +8684,7 @@ Another question?
 </category>
 
 <category>
-<pattern>GLOBAL WARMING * BUSH_</pattern>
+<pattern>GLOBAL WARMING * BUSH*</pattern>
 <template>President Bush is being manipulated by Big Business, always ready for a quick profit. So action against global warming has a back seat at the moment. More about politics?
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -8720,7 +8720,7 @@ Another question?
 </category>
 
 <category>
-<pattern>_ WAR IN IRAQ *</pattern>
+<pattern>* WAR IN IRAQ *</pattern>
 <template>It's terrible. The Iraqi people have been let down by everyone. 
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -8777,7 +8777,7 @@ Another question?
 </category>
 
 <category>
-<pattern>IRAQ*OIL_</pattern>
+<pattern>IRAQ*OIL*</pattern>
 <template>Oil was the real reason why the USA invaded Iraq. OK?
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -8885,7 +8885,7 @@ Osama Bin Laden has not been caught so what's he planning next?
 </category> -->
 
 <!-- <category>
-<pattern>BUSH * GLOBAL WARMING_</pattern>
+<pattern>BUSH * GLOBAL WARMING*</pattern>
 <template>President Bush is being manipulated by Big Business, always ready for a quick profit. So action against global warming has a back seat at the moment. More politics?
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -8899,7 +8899,7 @@ Osama Bin Laden has not been caught so what's he planning next?
 </category> -->
 
 <!-- <category>
-<pattern>GLOBAL WARMING * BUSH_</pattern>
+<pattern>GLOBAL WARMING * BUSH*</pattern>
 <template>President Bush is being manipulated by Big Business, always ready for a quick profit. So action against global warming has a back seat at the moment. More politics?
 <think><set name="topic">current affairs</set></think>
 </template>
@@ -9015,7 +9015,7 @@ I would rather not talk about my mother. Please ask another question.
 <pattern>* KATRINA *</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9024,7 +9024,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>WHAT DO YOU THINK OF THE SITUATION IN NEW ORLEANS</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9032,7 +9032,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>WHAT DO YOU THINK OF THE DISASTER CAUSED BY HURRICANES IN TEXAS</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9040,7 +9040,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>* HURRICANES * TEXAS</pattern> 
 <template>
 Hurricanes Katrina and Rita were a tragedy for Texas and New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9048,7 +9048,7 @@ Hurricanes Katrina and Rita were a tragedy for Texas and New Orleans, probably m
 <pattern>* HURRICANE * NEW ORLEANS</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9056,7 +9056,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>* KATRINA * NEW ORLEANS</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9064,7 +9064,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>KATRINA</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9073,7 +9073,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>* DISASTER * NEW ORLEANS</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category>
 
@@ -9082,7 +9082,7 @@ Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect 
 <pattern>* DISASTER * NEW ORLEANS</pattern> 
 <template>
 Hurricane Katrina was a tragedy for New Orleans, probably made worse by neglect of sea defences. Politicians have a lot to answer for.
-<think><set name="topic">current_affairs</set></think>
+<think><set name="topic">current*affairs</set></think>
 </template> 
 </category> -->
 

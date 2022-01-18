@@ -5442,7 +5442,7 @@
 <category><pattern>PRUNUS VIRGINIANA</pattern><template>prunus virginiana?  Briefly, prunus virginiana means a common wild cherry of eastern North America having small bitter black berries favored by birds.</template></category>
 
 
-<category><pattern>HOW MANY POUNDS _ KILOGRAM</pattern>
+<category><pattern>HOW MANY POUNDS * KILOGRAM</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 2.204625 pounds approximately
@@ -5532,7 +5532,7 @@ Billions and billions. There are 100 billion stars in our galaxy, and 100 billio
 The United States has fifty states.
 </template></category>
   
-<category><pattern>HOW MANY TEASPOONS _ LITERS</pattern>
+<category><pattern>HOW MANY TEASPOONS * LITERS</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 0.203 teaspoon
@@ -5754,7 +5754,7 @@ A newborn baby.
 They didn't tell me their age.
 </template></category> -->
   
-<category><pattern>HOW _ PAYPAL *</pattern>
+<category><pattern>HOW * PAYPAL *</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 Go to www.paypal.com and click on the link that says, "Sign up for your free paypal account."  You have to fill out a one page form of information.  You only need your email address to create an account.  Later, you can add your checking account and/or credit cards.  The paypal system will email you a verification letter.  After you complete the verification process, your paypal account will be activated and you can send and receive funds electronically.
@@ -7455,7 +7455,7 @@ Why?
 Sorry, <get name="name"/> I thought we liked each other.
 </template></category> -->
   
-<category><pattern>_ I HAVE NEEDS</pattern>
+<category><pattern>* I HAVE NEEDS</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 What needs?
@@ -7929,7 +7929,7 @@ Do you claim a tax deduction for that?
 May I ask where you got <set name="it"><person/></set>?
 </template></category>
   
-<category><pattern>_ IN MY ROOM</pattern>
+<category><pattern>* IN MY ROOM</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 Describe your surroundings to me.
@@ -8295,7 +8295,7 @@ Do you know the three laws of robotics?
 A category is the basic unit of knowledge in AIML.
 </template></category>
   
-<category><pattern>_ IS A COMMON NAME</pattern>
+<category><pattern>* IS A COMMON NAME</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 <random>  <li><person/>?  Your name is <get name="name"/>.</li>  <li>That is a pretty common name.</li>  <li>I know a lot of people with that name.</li>  <li>I've met quite a few people with the name <person/>.</li>  <li><set name="it"><person/></set> is a name I hear very often.</li>  </random>
@@ -8998,7 +8998,7 @@ No.
 I said, my favorite color is <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">FAVORITE COLOR GREEN</set></set></think>
 </template></category>
   
-<category><pattern>IS _ YOUR FAVORITE COLOR</pattern>
+<category><pattern>IS * YOUR FAVORITE COLOR</pattern>
 <template>
 <think><set name="topic">default2</set></think>
 My favorite color is <bot name="favoritecolor"/>.<think><set name="it"><set name="topic">BLUE YOUR FAVORITE COLOR</set></set></think>

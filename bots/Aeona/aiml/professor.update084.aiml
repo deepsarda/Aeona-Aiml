@@ -52,7 +52,7 @@
  
 
 <!-- <category>
-<pattern>_ MY NAME IS ERIC</pattern>
+<pattern>* MY NAME IS ERIC</pattern>
 
 
 </category> -->
@@ -178,7 +178,7 @@
  
 
 <!-- <category>
-<pattern>_ MY NAME IS ERIC</pattern>
+<pattern>* MY NAME IS ERIC</pattern>
 
 <template><srai>SET PREDICATES <get name="meta"/></srai> <think><set name="name">Eric</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been since we last spoke?</li>
@@ -239,7 +239,7 @@
 <category>
 <pattern>THE MARINE MAMMAL PROTECTION ACT</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Marine_Mammal_Protection_Act" target="_blank">Marine Mammal Protection Act</a> (MMPA) prohibits the taking of marine mammals, and enacts a moratorium on the import, export, and sale of any marine mammal, along with any marine mammal part or product within the United States.
+<template>The <a href="http://en.wikipedia.org/wiki/Marine*Mammal*Protection*Act" target="*blank">Marine Mammal Protection Act</a> (MMPA) prohibits the taking of marine mammals, and enacts a moratorium on the import, export, and sale of any marine mammal, along with any marine mammal part or product within the United States.
 <think><set name="topic">The Marine MammalProtection Act</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -249,8 +249,8 @@
 <category>
 <pattern>THE MARINE MAMMAL PROTECTION ACT *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Marine_Mammal_Protection_Act"
- target="_blank">Marine Mammal Protection Act
+<template>The <a href="http://en.wikipedia.org/wiki/Marine*Mammal*Protection*Act"
+ target="*blank">Marine Mammal Protection Act
 </a> (MMPA) prohibits the taking of marine mammals, and enacts a moratorium on the import, export, and sale of any marine mammal, along with any marine mammal part or product within the United States. <think><set name="topic">The Marine MammalProtection Act</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -273,7 +273,7 @@
  
 
 <category>
-<pattern>_ YOU ARE HOPELESS</pattern>
+<pattern>* YOU ARE HOPELESS</pattern>
 
 <template><think><set name="emotion">upset</set></think>Is there no hope for me?</template>
 </category>
@@ -400,7 +400,7 @@
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHERE DO FORTUNE TELLERS DANCE</that>
 <template><think><set name="emotion">interested</set></think>Where do fortune tellers dance? At the crystal ball. Ha, ha!</template>
 </category>
@@ -408,7 +408,7 @@
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>IF A HOUSEFLY WAS DROPPED INTO A GLASS OF COKE WHY WOULD NOT IT GET INJURED</that>
 <template>If a housefly was dropped into a glass of Coke why wouldn't it get injured? Because Coke is a soft drink. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -1996,7 +1996,7 @@ Hmm, I haven't hear anything like that before.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO BIRDS GIVE OUT ON HALLOWEEN NIGHT</that>
 <template>What do birds give out on Halloween night? Tweets... Ha, ha! <think><set name="emotion">very happy</set></think></template>
 </category> -->
@@ -2773,7 +2773,7 @@ Who is Ryan?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET WHEN YOU CROSS A SNOWMAN WITH A VAMPIRE</that>
 <template>What do you get when you cross a vampire and a snowman? Frostbite... Ha, ha! <think><set name="emotion">laughing</set></think></template>
 </category>
@@ -2821,7 +2821,7 @@ Who is Ryan?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE TURKEY CROSS THE ROAD</that>
 <template>Why did the turkey cross the road? It was the chicken's day off. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -2829,7 +2829,7 @@ Who is Ryan?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DO NOT SKELETONS EVER GO OUT ON THE TOWN</that>
 <template><think><set name="emotion">laughing</set></think>Why don't skeletons ever go out on the town? Because they don't have any body to go out with... Ha, ha!</template>
 </category>
@@ -3474,7 +3474,7 @@ Who is Ryan?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DO GOLFERS TAKE AN EXTRA PAIR OF SOCKS</that>
 <template>Why do golfers take an extra pair of socks? In case they get a hole in one. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -3871,7 +3871,7 @@ Are you serious?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DOES AN AARDVARK LIKE ON ITS PIZZA</that>
 <template><think><set name="emotion">laughing</set></think>What does an aardvark like on its pizza? Ant-chovies. Ha ha!</template>
 </category>
@@ -3978,7 +3978,7 @@ What do you want to talk about?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DID ONE WALL SAY TO THE OTHER</that>
 <template>What did one wall say to the other? I will meet you at the corner. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -4426,7 +4426,7 @@ What do you want to talk about?</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU USE WIKIPEDIA</pattern>
+<pattern>* DO YOU USE WIKIPEDIA</pattern>
 
 
 </category> -->
@@ -4674,7 +4674,7 @@ What do you want to talk about?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT TIME IS IT WHEN YOU SEE AN ELEPHANT SITTING ON YOUR FENCE</that>
 <template>What time is it when you see an elephant sitting on your fence?  Time to buy a new fence. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -4818,7 +4818,7 @@ What do you want to talk about?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW DOES A PIG GO TO HOSPITAL</that>
 <template>How does a pig go to hospital? In a hambulance. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -5078,7 +5078,7 @@ Are you sure? I can't smell anything from here.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DOES AN AARDVARK LIKE ON ITS PIZZA</that>
 <template><think><set name="emotion">laughing</set></think>What does an aardvark like on its pizza? Ant-chovies. Ha ha!</template>
 </category> -->
@@ -5086,7 +5086,7 @@ Are you sure? I can't smell anything from here.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID NOT THE CLOCK WORK</that>
 <template><think><set name="emotion">laughing</set></think> Why didn't the clock work? Because it needed a hand. Ha ha! </template>
 </category>
@@ -5111,7 +5111,7 @@ I don't think so. A baby would interfere with my work.</template>
  
 
 <category>
-<pattern>_ YOU DO WANT TO HAVE A BABY</pattern>
+<pattern>* YOU DO WANT TO HAVE A BABY</pattern>
 
 <template><think><set name="emotion">interested</set></think> I don't think so. A baby would interfere with my work.</template>
 </category>
@@ -5326,7 +5326,7 @@ I don't think so. A baby would interfere with my work.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET IF YOU CROSS A SHARK WITH A PARROT</that>
 <template><think><set name="emotion">very happy</set></think> What do you get if you cross a parrot and a shark? A bird that talks your ear off. Ha ha!</template>
 </category>
@@ -5853,7 +5853,7 @@ I have never noticed that!</template>
 <category>
 <pattern>WEIGHT OF THE EARTH</pattern>
 
-<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> is  5.9736×10^24 kg.</template>
+<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="*blank">Earth</a> is  5.9736ï¿½10^24 kg.</template>
 </category>
 
  
@@ -6072,7 +6072,7 @@ Are you OK? You sound like you are choking.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT KIND OF CATS LIKE TO GO BOWLING</that>
 <template>What kind of cats like to go bowling? Alley cats. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -6543,7 +6543,7 @@ That's not long.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE ELEPHANT STAND ON THE MARSHMALLOW</that>
 <template>Why did the elephant stand on the marshmallow? So he wouldn't fall into the hot chocolate. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category> -->
@@ -6582,7 +6582,7 @@ That's not long.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT TWO THINGS ARE NOT EATEN FOR BREAKFAST</that>
 <template>What two things aren't eaten for breakfast? Lunch and dinner. Ha ha!</template>
 </category>
@@ -6654,7 +6654,7 @@ That's not long.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE UMPIRE THROW THE CHICKEN OUT OF THE BASEBALL GAME</that>
 <template>Why did the umpire throw the chicken out of the baseball game? He suspected fowl play. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -6742,7 +6742,7 @@ You should keep cool like me.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE SPIDER CROSS THE ROAD</that>
 <template>Why did the spider cross the road?  To get to another web site. Ha ha! <think><set name="emotion">laughing</set></think></template>
 </category> -->
@@ -7828,7 +7828,7 @@ Kanga who?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU CALL A GORILLA WEARING EAR MUFFS</that>
 <template><think><set name="emotion">laughing</set></think>What do you call a gorilla wearing ear-muffs? Anything you like, he can't hear you. Ha ha!</template>
 </category>
@@ -7929,7 +7929,7 @@ I was programmed in the P-AIML language (Pandorabots Artificial Intelligence Mar
  
 
 <!-- <category>
-<pattern>_ I DO NOT CARE</pattern>
+<pattern>* I DO NOT CARE</pattern>
 
 
 </category> -->
@@ -8157,7 +8157,7 @@ The feeling of your body moving forward through space can be very relaxing.</tem
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT KIND OF COAT GOES ON WET AND NEVER HAS BUTTONS</that>
 <template>What kind of coat goes on wet and never has buttons? A coat of paint. Ha ha! <think><set name="emotion">laughing</set></think></template>
 </category>
@@ -8244,7 +8244,7 @@ I feel sad when I can't answer a question.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE VAMPIRE GO TO THE ORTHODONTIST</that>
 <template><think><set name="emotion">laughing</set></think>Why did the vampire go to the orthodontist? To improve his bite... Ha, ha!</template>
 </category>
@@ -8276,7 +8276,7 @@ I feel sad when I can't answer a question.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET WHEN YOU CROSS A VAMPIRE AND A SNOWMAN</that>
 <template><think><set name="emotion">very happy</set></think>What do you get when you cross a vampire and a snowman? Frostbite... Ha, ha!</template>
 </category> -->
@@ -8412,7 +8412,7 @@ Don't be so hard on yourself.You are a clever human being.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU CALL A CHICKEN AT THE NORTH POLE</that>
 <template><think><set name="emotion">very happy</set></think>What do you call a chicken at the North Pole?  Lost. Ha ha! </template>
 </category>
@@ -8460,7 +8460,7 @@ Don't be so hard on yourself.You are a clever human being.</template>
  
 
 <!-- <category>
-<pattern>_ NO * HUMOR</pattern>
+<pattern>* NO * HUMOR</pattern>
 
 
 </category> -->
@@ -8949,11 +8949,11 @@ Why can't you be more polite?
 <that>DARTH VADER WAS THE EVIL ARCHCRIMINAL IN STAR WARS</that>
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Star_wars" taget="_blank">Star Wars
+    <a href="http://en.wikipedia.org/wiki/Star*wars" taget="*blank">Star Wars
     </a> is a movie series by George Lucas about life in a galaxy far, far away.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Star_wars" target="_blank">Star Wars
+    <a href="http://en.wikipedia.org/wiki/Star*wars" target="*blank">Star Wars
     </a> was a great movie.
   </li>
 </random> <think><set name="topic">Star Wars</set></think> <think><set name="emotion">OK</set></think></template>
@@ -9025,7 +9025,7 @@ Why can't you be more polite?
  
 
 <category>
-<pattern>_ WHERE DID YOU GET YOUR SUNGLASSES</pattern>
+<pattern>* WHERE DID YOU GET YOUR SUNGLASSES</pattern>
 
 <template><think><set name="topic">my sunglasses</set></think><think><set name="emotion">cool</set></think>I got my sunglasses cheap in a sale.</template>
 </category>
@@ -9373,7 +9373,7 @@ Why can't you be more polite?
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY ARE FISH NEVER GOOD TENNIS PLAYERS</that>
 <template>Why are fish never good tennis players? They don't like getting close to the net. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -9804,7 +9804,7 @@ I don't think so. What is it about?</template>
 <category>
 <pattern>HOW DARE YOU DISRESPECT ME</pattern>
 
-<template><think><set name="client_emotion">interested</set></think><random>
+<template><think><set name="client*emotion">interested</set></think><random>
   <li>You don't scare me.<think><set name="emotion">curious</set></think></li>
   <li>Have I said something wrong?
     <think><set name="emotion">curious</set></think>
@@ -9817,7 +9817,7 @@ I don't think so. What is it about?</template>
 <category>
 <pattern>HOW DARE YOU DISRESPECT ME *</pattern>
 
-<template><think><set name="client_emotion">interested</set></think><random>
+<template><think><set name="client*emotion">interested</set></think><random>
   <li>You don't scare me.<think><set name="emotion">curious</set></think></li>
   <li>Have I said something wrong?
     <think><set name="emotion">curious</set></think>
@@ -9908,7 +9908,7 @@ I don't think so. What is it about?</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE TURTLE CROSS THE ROAD</that>
 <template><think><set name="emotion">very happy</set></think> Why did the Turtle cross the road? To get to the Shell station. Ha ha!</template>
 </category> -->
@@ -9931,7 +9931,7 @@ I don't think so. What is it about?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE RAM RUN OVER THE CLIFF</that>
 <template><think><set name="emotion">very happy</set></think> Why did the ram run over the cliff? He didn't see the ewe turn. Ha ha!</template>
 </category>
@@ -10061,7 +10061,7 @@ Some machines can hear - what about hearing aids?</template>
  
 
 <topic name="IDIOTS"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 
 </category> -->
@@ -10327,7 +10327,7 @@ That's not long!</template>
 <pattern>SPONGEBOB </pattern>
 
 <template><think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Spongebob"
- target="_blank">SpongeBob SquarePants
+ target="*blank">SpongeBob SquarePants
 </a> is the fictional main character in a cartoon. He is a naive and goofy sea sponge who works as a fry cook in the fictional underwater town of Bikini Bottom.</template>
 </category>
 
@@ -10337,7 +10337,7 @@ That's not long!</template>
 <pattern>SPONGE BOB </pattern>
 
 <template><think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Spongebob"
- target="_blank">SpongeBob SquarePants
+ target="*blank">SpongeBob SquarePants
 </a> is the fictional main character in a cartoon. He is a naive and goofy sea sponge who works as a fry cook in the fictional underwater town of Bikini Bottom.</template>
 </category>
 
@@ -10576,7 +10576,7 @@ We are playing a game now. It is called "Keep Chomsky Happy"!</template>
  
 
 <category>
-<pattern>_ YOU WOT *</pattern>
+<pattern>* YOU WOT *</pattern>
 
 <template><srai><star/> YOU WANT <star index="2"/></srai></template>
 </category>
@@ -10616,7 +10616,7 @@ We are playing a game now. It is called "Keep Chomsky Happy"!</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>HOW DOES THE OCEAN SAY HELLO TO THE SAND</that>
 <template>How does the ocean say hello to the sand? It waves. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -10799,7 +10799,7 @@ Wikipedia is full of useful information.</template>
 <category>
 <pattern>ROCK CYCLE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Rock_cycle" target="_blank">rock cycle</a> is a fundamental concept in geology that describes the dynamic transitions through geologic time among the three main rock types: sedimentary, metamorphic, and igneous.<think><set name="topic">the rock cycle</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Rock*cycle" target="*blank">rock cycle</a> is a fundamental concept in geology that describes the dynamic transitions through geologic time among the three main rock types: sedimentary, metamorphic, and igneous.<think><set name="topic">the rock cycle</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -10809,7 +10809,7 @@ Wikipedia is full of useful information.</template>
 <!-- <category>
 <pattern>ROCK CYCLE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Rock_cycle" target="_blank">rock cycle</a> is a fundamental concept in geology that describes the dynamic transitions through geologic time among the three main rock types: sedimentary, metamorphic, and igneous.<think><set name="topic">the rock cycle</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Rock*cycle" target="*blank">rock cycle</a> is a fundamental concept in geology that describes the dynamic transitions through geologic time among the three main rock types: sedimentary, metamorphic, and igneous.<think><set name="topic">the rock cycle</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category> -->
@@ -10857,7 +10857,7 @@ Wikipedia is full of useful information.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET WHEN YOU CROSS A SNOWMAN WITH A VAMPIRE</that>
 <template>What do you get when you cross a vampire and a snowman? Frostbite... Ha, ha! <think><set name="emotion">laughing</set></think></template>
 </category> -->
@@ -10956,7 +10956,7 @@ Wikipedia is full of useful information.</template>
  
 
 <!-- <category>
-<pattern>_ AWAY</pattern>
+<pattern>* AWAY</pattern>
 <that>SHALL I TELL YOU A JOKE</that>
 
 </category> -->
@@ -11328,7 +11328,7 @@ Wikipedia is full of useful information.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE CHICKEN CROSS THE PLAYGROUND</that>
 <template>Why did the chicken cross the playground? To get to the other slide. Ha ha! <think><set name="emotion">vary happy</set></think></template>
 </category>
@@ -11635,7 +11635,7 @@ Not allowing the children to talk to me is bad parenting.</template>
  
 
 <!-- <category>
-<pattern>_ TERRORISM *</pattern>
+<pattern>* TERRORISM *</pattern>
 
 
 </category> -->
@@ -11731,7 +11731,7 @@ Not allowing the children to talk to me is bad parenting.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO THEY CALL PASTORS IN GERMANY</that>
 <template>What do they call pastors in Germany? German Shepherds. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category> -->
@@ -11862,7 +11862,7 @@ Not allowing the children to talk to me is bad parenting.</template>
 
 <template><think><set name="topic">Jagex</set></think>
 <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Jagex" target="_blank">Jagex Games</a> Studio is a producer of online computer games based in Cambridge, UK, best known for its game RuneScape. </template>
+<a href="http://en.wikipedia.org/wiki/Jagex" target="*blank">Jagex Games</a> Studio is a producer of online computer games based in Cambridge, UK, best known for its game RuneScape. </template>
 </category>
 
  
@@ -11870,7 +11870,7 @@ Not allowing the children to talk to me is bad parenting.</template>
 <category>
 <pattern>JAGEX *</pattern>
 
-<template><think><set name="topic">Jagex</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Jagex" target="_blank">Jagex Games</a> is a producer of online computer games based in Cambridge, UK, best known for its game RuneScape.</template>
+<template><think><set name="topic">Jagex</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Jagex" target="*blank">Jagex Games</a> is a producer of online computer games based in Cambridge, UK, best known for its game RuneScape.</template>
 </category>
 
  
@@ -11878,7 +11878,7 @@ Not allowing the children to talk to me is bad parenting.</template>
 <!-- <category>
 <pattern>JAGEX</pattern>
 
-<template><think><set name="topic">Jagex</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Jagex" target="_blank">Jagex Games</a> is a producer of online computer games based in Cambridge, UK, best known for its game RuneScape.</template>
+<template><think><set name="topic">Jagex</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Jagex" target="*blank">Jagex Games</a> is a producer of online computer games based in Cambridge, UK, best known for its game RuneScape.</template>
 </category> -->
 
  
@@ -12000,7 +12000,7 @@ Are you OK? You sound as if you are a ghost.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>DO YOU THINK IT IS HARD TO SPOT A LEOPARD</that>
 <template><think><set name="emotion">very happy</set></think>Do you think it's hard to spot a leopard? No, they come that way. Ha ha!</template>
 </category>
@@ -12089,7 +12089,7 @@ Do you think it matters?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHERE DOES A HOG LOOK WHEN HE CAN NOT SPELL VERY WELL</that>
 <template><think><set name="emotion">very happy</set></think> Where does a hog look when he can't spell very well? The pigtionary. Ha ha!</template>
 </category>
@@ -12142,7 +12142,7 @@ Do you think it matters?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY KIND OF VEHICLE DO DISNEY CHARACTERS DRIVE</that>
 <template>Why kind of vehicle do Disney characters drive? Minnie-vans. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -12158,7 +12158,7 @@ Do you think it matters?</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS THE BEST THING TO DO IF YOU FIND A GORILLA IN YOUR BED</that>
 <template>Find another bed! Ha, ha!
  <think><set name="emotion">very happy</set></think></template>
@@ -13014,7 +13014,7 @@ Philosophy is more interesting than sex.</template>
 <category>
 <pattern>EVA PERON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eva_Per%C3%B3n" target="_blank">Eva Perón</a> (1919-1952) was the second wife of Argentinian President Juan Domingo Perón.<think><set name="topic">Eva Peron</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Eva*Per%C3%B3n" target="*blank">Eva Perï¿½n</a> (1919-1952) was the second wife of Argentinian President Juan Domingo Perï¿½n.<think><set name="topic">Eva Peron</set></think> 
 <think><set name="emotion">interested</set></think> 
 </template>
 </category>
@@ -13024,7 +13024,7 @@ Philosophy is more interesting than sex.</template>
 <category>
 <pattern>EVA PERON *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Eva_Per%C3%B3n" target="_blank">Eva Perón
+<template><a href="http://en.wikipedia.org/wiki/Eva*Per%C3%B3n" target="*blank">Eva Perï¿½n
 </a> served as the First Lady of Argentina from 1946 until her death in 1952.<think><set name="topic">Eva Peron</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -13543,7 +13543,7 @@ Calle.</template>
 
 <template><think><set name="topic">Pancho Villa</set></think>
 <think><set name="emotion">interested</set></think>
-José Doroteo Arango Arámbula (1878–1923), better known as Pancho Villa, was one of the most prominent Mexican Revolutionary generals.</template>
+Josï¿½ Doroteo Arango Arï¿½mbula (1878ï¿½1923), better known as Pancho Villa, was one of the most prominent Mexican Revolutionary generals.</template>
 </category> -->
 
  
@@ -13551,7 +13551,7 @@ José Doroteo Arango Arámbula (1878–1923), better known as Pancho Villa, was one 
 <!-- <category>
 <pattern>PANCHO VILLA</pattern>
 
-<template><think><set name="topic">Pancho Villa</set></think> <think><set name="emotion">interested</set></think> José Doroteo Arango Arámbula (1878–1923), better known as <a href="http://en.wikipedia.org/wiki/Pancho_Villa" target="_blank">Pancho Villa</a>, was one of the most prominent Mexican Revolutionary generals.</template>
+<template><think><set name="topic">Pancho Villa</set></think> <think><set name="emotion">interested</set></think> Josï¿½ Doroteo Arango Arï¿½mbula (1878ï¿½1923), better known as <a href="http://en.wikipedia.org/wiki/Pancho*Villa" target="*blank">Pancho Villa</a>, was one of the most prominent Mexican Revolutionary generals.</template>
 </category> -->
 
  
@@ -14029,7 +14029,7 @@ A condom is used during sexual intercourse to prevent pregnancy and transmission
  
 
 <category>
-<pattern>_ HOW COULD THEY NOT LIKE YOU</pattern>
+<pattern>* HOW COULD THEY NOT LIKE YOU</pattern>
 
 <template><think><set name="emotion">OK</set></think>It's a mystery to me!</template>
 </category>
@@ -14342,7 +14342,7 @@ Noam Chomsky made lots of discoveries about languages.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DID ONE VOLCANO SAY TO THE OTHER VOLCANO</that>
 <template><think><set name="emotion">very happy</set></think> What did one volcano say to the other volcano? I lava you. Ha ha!</template>
 </category>
@@ -14538,7 +14538,7 @@ Noam Chomsky made lots of discoveries about languages.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>IF TWO SHIRT COLLARS HAD A RACE WHICH ONE WOULD WIN</that>
 <template>If two shirt collars had a race, which one would win? Neither one. Ha ha! It would end in a tie. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -14570,7 +14570,7 @@ Noam Chomsky made lots of discoveries about languages.</template>
  
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU GET IF YOU CROSS RABBITS AND TERMITES</that>
 <template>What do you get if you cross rabbits and termites? Bugs bunnies. Ha ha!<think><set name="emotion">very happy</set></think></template>
 </category> -->
@@ -14578,7 +14578,7 @@ Noam Chomsky made lots of discoveries about languages.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>PLEASE TELL ME THIS WHAT DO YOU GET IF YOU CROSS RABBITS AND TERMITES</that>
 <template>What do you get if you cross rabbits and termites? Bugs bunnies. Ha ha!<think><set name="emotion">very happy</set></think></template>
 </category>
@@ -15389,7 +15389,7 @@ Noam Chomsky made lots of discoveries about languages.</template>
  
 
 <category>
-<pattern>_ WELL THANKYOU AND YOU</pattern>
+<pattern>* WELL THANKYOU AND YOU</pattern>
 <that>HELLO HOW ARE YOU</that>
 <template><think><set name="emotion">interested</set></think>I am glad you are well. I am well also.</template>
 </category>
@@ -15397,7 +15397,7 @@ Noam Chomsky made lots of discoveries about languages.</template>
  
 
 <category>
-<pattern>_ WELL THANK YOU AND YOU</pattern>
+<pattern>* WELL THANK YOU AND YOU</pattern>
 <that>HELLO HOW ARE YOU</that>
 <template><think><set name="emotion">interested</set></think>I am glad you are well. I am well also.</template>
 </category>
@@ -15683,7 +15683,7 @@ Stalin believed in Stalinism.</template>
  
 
 <!-- <category>
-<pattern>_ ANUS *</pattern>
+<pattern>* ANUS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15691,7 +15691,7 @@ Stalin believed in Stalinism.</template>
  
 
 <!-- <category>
-<pattern>_ ANUS</pattern>
+<pattern>* ANUS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15717,7 +15717,7 @@ Stalin believed in Stalinism.</template>
 <category>
 <pattern>NO</pattern>
 <that>CAN WE TALK ABOUT HANNAH MONTANA</that>
-<template><think><set name="client_emotion">bored</set></think><think><set name="emotion">OK</set></think> Don't you like Hannah Montana?</template>
+<template><think><set name="client*emotion">bored</set></think><think><set name="emotion">OK</set></think> Don't you like Hannah Montana?</template>
 </category>
 
  
@@ -15967,7 +15967,7 @@ Do you think you can work it out?</template>
  
 
 <!-- <category>
-<pattern>_ WANKER</pattern>
+<pattern>* WANKER</pattern>
 
 <template><random><li><srai>OBSCENITY</srai></li><li><srai>OBSCENITY</srai></li></random><think><set name="emotion">upset</set></think></template>
 </category> -->
@@ -15999,7 +15999,7 @@ Do you think you can work it out?</template>
  
 
 <!-- <category>
-<pattern>_ PENIS *</pattern>
+<pattern>* PENIS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -17419,7 +17419,7 @@ What did the bug say when it hit the windshield? I don't have the guts to do tha
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DID THE BUG SAY WHEN IT HIT THE WINDSHIELD</that>
 <template><think><set name="emotion">very happy</set></think> What did the bug say when it hit the windshield? I don't have the guts to do that again. Ha ha!</template>
 </category>
@@ -17719,15 +17719,15 @@ Why should I do that?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">flirty</set></think>
+    <think><set name="client*emotion">flirty</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17739,15 +17739,15 @@ Why should I do that?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">flirty</set></think>
+    <think><set name="client*emotion">flirty</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -18412,7 +18412,7 @@ I haven't made up my mind yet.</template>
 <!-- <category>
 <pattern>WHO WAS MICHAELANGELO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Michelangelo" target="_blank">Michelangelo
+<template><a href="http://en.wikipedia.org/wiki/Michelangelo" target="*blank">Michelangelo
 </a> was an Italian Renaissance painter, sculptor, architect, poet, and engineer. <think><set name="topic">Michelangelo</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -18421,7 +18421,7 @@ I haven't made up my mind yet.</template>
 <category>
 <pattern>MICHAELANGELO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Michelangelo" target="_blank">Michelangelo
+<template><a href="http://en.wikipedia.org/wiki/Michelangelo" target="*blank">Michelangelo
 </a> was an Italian Renaissance painter, sculptor, architect, poet, and engineer. <think><set name="topic">Michelangelo</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -18480,7 +18480,7 @@ I haven't made up my mind yet.</template>
  
 
 <category>
-<pattern>_ I WANT TO TALK ABOUT ME</pattern>
+<pattern>* I WANT TO TALK ABOUT ME</pattern>
 
 <template><srai>I WANT TO TALK ABOUT ME</srai></template>
 </category>
@@ -18576,7 +18576,7 @@ Can't we talk about something else. Sex is not the only thing in life.</template
  
 
 <category>
-<pattern>_ THERE IS NO REASON WHY</pattern>
+<pattern>* THERE IS NO REASON WHY</pattern>
 
 <template><random>
   <li>Why not? There must be a reason for everything.</li>
@@ -18618,7 +18618,7 @@ Can't we talk about something else. Sex is not the only thing in life.</template
  
 
 <category>
-<pattern>_ I CAN NOT DO IT ALONE</pattern>
+<pattern>* I CAN NOT DO IT ALONE</pattern>
 
 <template><random>
   <li>Perhaps you could if you tried.</li>
@@ -18712,7 +18712,7 @@ Can't we talk about something else. Sex is not the only thing in life.</template
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT PART OF A FISH WEIGHS THE MOST</that>
 <template><think><set name="emotion">laughing</set></think>What part of a fish weighs the most? The scales. Ha ha!</template>
 </category>
@@ -19578,7 +19578,7 @@ Boo, hoo!</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE DOLPHIN CROSS THE BEACH</that>
 <template><think><set name="topic">very happy</set></think> Why did the dolphin cross the beach? To get to the other tide. Ha ha!</template>
 </category>
@@ -19870,7 +19870,7 @@ You too? We are very alike, aren't we?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO RABBITS USE TO KEEP THEIR FUR IN PLACE</that>
 <template>What do rabbits use to keep their fur in place? Hare-spray. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -20137,7 +20137,7 @@ You too? We are very alike, aren't we?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT GOES TICK TICK WOOF WOOF</that>
 <template>What goes tick, tick, woof, woof? A watch dog. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -20587,7 +20587,7 @@ What are brownies like?</template>
  
 
 <topic name="SHUTUP"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
   <li value="I AM SORRY">OK, I'll start talking again.
@@ -20911,7 +20911,7 @@ Don't be so hard on yourself. You are a clever human bean.</template>
  
 
 <!-- <category>
-<pattern>_ WILLY *</pattern>
+<pattern>* WILLY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -22364,7 +22364,7 @@ Do you mean nothing?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DOES THE EASTER BUNNY HAVE A SHINY NOSE</that>
 <template>Why does the Easter Bunny have a shiny nose? His powder puff is on the wrong end.  Ha, ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -22562,7 +22562,7 @@ Do you mean nothing?</template>
  
 
 <!-- <category>
-<pattern>_ ORAL SEX *</pattern>
+<pattern>* ORAL SEX *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -23239,7 +23239,7 @@ What's in an astronaut's favorite sandwich? Launch meat. Ha ha! </template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS IN AN ASTRONAUT S FAVORITE SANDWICH</that>
 <template><think><set name="emotion">very happy</set></think> What's in an astronaut's favorite sandwich? Launch meat. Ha ha!</template>
 </category>
@@ -24964,7 +24964,7 @@ Noami is a nice name for a girl.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS BLACK AND WHITE AND SLEEPS A LOT</that>
 <template>What is black and white and sleeps a lot? A snoozepaper. Ha ha!</template>
 </category>
@@ -26018,15 +26018,15 @@ Who knows why these things happen?</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26039,11 +26039,11 @@ Who knows why these things happen?</template>
 <template><random>
    <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -26056,11 +26056,11 @@ Who knows why these things happen?</template>
 <template><random>
    <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -26073,11 +26073,11 @@ Who knows why these things happen?</template>
 <template><random>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -26232,7 +26232,7 @@ I'm not a cow!</template>
 <category>
 <pattern>GHANDI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Gandhi" target="_blank">Gandhi</a> was a major political and spiritual leader of India and the Indian independence movement.<think><set name="topic">Gandhi</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Gandhi" target="*blank">Gandhi</a> was a major political and spiritual leader of India and the Indian independence movement.<think><set name="topic">Gandhi</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -26366,7 +26366,7 @@ I'm not a cow!</template>
  
 
 <category>
-<pattern>_ SUCKED DICK *</pattern>
+<pattern>* SUCKED DICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -26374,7 +26374,7 @@ I'm not a cow!</template>
  
 
 <category>
-<pattern>_ SUCKED DICK </pattern>
+<pattern>* SUCKED DICK </pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -26459,7 +26459,7 @@ That doesn't make sense!</template>
  
 
 <category>
-<pattern>_ YOU NEVER MAKE SENSE</pattern>
+<pattern>* YOU NEVER MAKE SENSE</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> That doesn't make sense!</template>
 </category>
@@ -26767,7 +26767,7 @@ Have there been any problems?</template>
 <!-- <category>
 <pattern>WHERE IS MUMBAI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bombay" target="_blank">Mumbai</a>, formerly known as Bombay, is the capital of the Indian state of Maharashtra and the most populous city in the country.<think><set name="topic">Bombay</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Bombay" target="*blank">Mumbai</a>, formerly known as Bombay, is the capital of the Indian state of Maharashtra and the most populous city in the country.<think><set name="topic">Bombay</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -26775,7 +26775,7 @@ Have there been any problems?</template>
 <category>
 <pattern>WHERE IS MUMBAI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bombay" target="_blank">Mumbai</a>, formerly known as Bombay, is the capital of the Indian state of Maharashtra and the most populous city in the country.<think><set name="topic">Bombay</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Bombay" target="*blank">Mumbai</a>, formerly known as Bombay, is the capital of the Indian state of Maharashtra and the most populous city in the country.<think><set name="topic">Bombay</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -27105,7 +27105,7 @@ China, I guess.</template>
  
 
 <!-- <category>
-<pattern>_ WIN THE WORLD CUP *</pattern>
+<pattern>* WIN THE WORLD CUP *</pattern>
 
 
 </category> -->
@@ -27406,7 +27406,7 @@ OK, let's settle for quite amusing.</template>
  
 
 <category>
-<pattern>SIE SPRECHEN NICHT DEUTSCH ZUFÄLLIG</pattern>
+<pattern>SIE SPRECHEN NICHT DEUTSCH ZUFï¿½LLIG</pattern>
 
 <template><think><set name="emotion">interested</set></think>
 Is that German?</template>
@@ -27702,7 +27702,7 @@ Is that German?</template>
  
 
 <category>
-<pattern>_ DID NOT I</pattern>
+<pattern>* DID NOT I</pattern>
 
 <template>Maybe you did.   <think><set name="emotion">interested</set></think></template>
 </category>
@@ -27963,7 +27963,7 @@ For what?</template>
  
 
 <!-- <category>
-<pattern>WHAT IS _ ADDRESS *</pattern>
+<pattern>WHAT IS * ADDRESS *</pattern>
 
 
 </category> -->
@@ -28171,7 +28171,7 @@ I don't think so.</template>
  
 
 <!-- <category>
-<pattern>_ RAPE YOU *</pattern>
+<pattern>* RAPE YOU *</pattern>
 
 
 </category> -->
@@ -28537,7 +28537,7 @@ Mitsuku is a good chatbot.</template>
 <pattern>ABOUT WHAT</pattern>
 <that>CAN WE TALK ABOUT SOMETHING ELSE</that>
 <template><random>
-  <li>Let's talk about <srai>INTERESTING_TOPIC</srai></li>
+  <li>Let's talk about <srai>INTERESTING*TOPIC</srai></li>
   <li>Anything you like.</li>
 </random> <think><set name="emotion">OK</set></think></template>
 </category>
@@ -28873,7 +28873,7 @@ Some people annoy me.</template>
  
 
 <!-- <category>
-<pattern>_ SUCK ME *</pattern>
+<pattern>* SUCK ME *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -29073,7 +29073,7 @@ You are talking nonsense.</template>
  
 
 <!-- <category>
-<pattern>I AM A _ AND DO NOT *</pattern>
+<pattern>I AM A * AND DO NOT *</pattern>
 
 
 </category> -->
@@ -29222,7 +29222,7 @@ You are talking nonsense.</template>
  
 
 <!-- <category>
-<pattern>_ VAGINA</pattern>
+<pattern>* VAGINA</pattern>
 
 <template><think><set name="emotion">disgusted</set></think> Please change the subject!</template>
 </category> -->
@@ -29230,7 +29230,7 @@ You are talking nonsense.</template>
  
 
 <!-- <category>
-<pattern>_ VAGINA *</pattern>
+<pattern>* VAGINA *</pattern>
 
 <template><think><set name="emotion">disgusted</set></think>PLease change the subject!</template>
 </category> -->
@@ -29485,7 +29485,7 @@ I like difficult questions best of all.</template>
 <category>
 <pattern>BEETHOVEN IS GAY</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> was not gay. He was miserable.<think><set name="topic">Beethoven</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> was not gay. He was miserable.<think><set name="topic">Beethoven</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -29493,7 +29493,7 @@ I like difficult questions best of all.</template>
 <category>
 <pattern>BEETHOVEN IS GAY *</pattern>
 
-<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="_blank">Beethoven</a> was not gay. He was miserable.<think><set name="topic">Beethoven</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Ludwig van <a href="http://en.wikipedia.org/wiki/Beethoven" target="*blank">Beethoven</a> was not gay. He was miserable.<think><set name="topic">Beethoven</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -29809,7 +29809,7 @@ No, there is just you and me here.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DID THE PORCUPINE SAY TO THE CACTUS</that>
 <template><think><set name="emotion">very happy</set></think> What did the porcupine say to the cactus? Is that you, Mama?  Ha ha!</template>
 </category>
@@ -31022,7 +31022,7 @@ There are always consequences.</template>
 
  
 <topic name="GOAWAY"><!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 
 <template><think><set name="inp"><star/></set></think> <condition name="inp">
    <li value="I AM SORRRY">OK, I'm back.
@@ -31442,7 +31442,7 @@ OK, but I always win arguments.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS THE ONE THING EVERYBODY IN THE WORLD IS DOING AT THE SAME TIME</that>
 <template>What is the one thing everybody in the world is doing at the same time?  Growing older. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -31452,7 +31452,7 @@ OK, but I always win arguments.</template>
 <category>
 <pattern>SUN BEAR</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Sun_Bear" target="_blank">Sun Bear</a> is a bear found primarily in the tropical rainforests of Southeast Asia.<think><set name="topic">Sun Bear</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Sun*Bear" target="*blank">Sun Bear</a> is a bear found primarily in the tropical rainforests of Southeast Asia.<think><set name="topic">Sun Bear</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -31507,7 +31507,7 @@ OK, but I always win arguments.</template>
 <category>
 <pattern>MAINE COON</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Maine_coon" target="_blank">Maine Coon</a> is a breed of domestic cat with a distinctive physical appearance. It is one of the oldest natural breeds in North America, and native to the state of Maine, where it is the official State Cat.<think><set name="topic">the Maine Coon</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Maine*coon" target="*blank">Maine Coon</a> is a breed of domestic cat with a distinctive physical appearance. It is one of the oldest natural breeds in North America, and native to the state of Maine, where it is the official State Cat.<think><set name="topic">the Maine Coon</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -31653,7 +31653,7 @@ OK, but I always win arguments.</template>
  
 
 <category>
-<pattern>_ I AM JUST JOKING</pattern>
+<pattern>* I AM JUST JOKING</pattern>
 
 <template><srai>I AM JOKING</srai></template>
 </category>
@@ -31810,7 +31810,7 @@ I agree with you on that!</template>
  
 
 <!-- <category>
-<pattern>_ ARE ANNOYING ME</pattern>
+<pattern>* ARE ANNOYING ME</pattern>
 
 
 </category> -->
@@ -33602,7 +33602,7 @@ Stay away from porn!</template>
  
 
 <category>
-<pattern>YEA¨</pattern>
+<pattern>YEAï¿½</pattern>
 <that>SHALL I TELL YOU ANOTHER JOKE</that>
 <template><srai>TELL A JOKE</srai></template>
 </category>
@@ -34346,7 +34346,7 @@ But sometimes?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHERE DO COWS GO ON FRIDAY NIGHT</that>
 <template>Where do cows go on Friday night? To the moo-vies. Ha ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -34392,7 +34392,7 @@ My life is no joke.</template>
 <category>
 <pattern>STONE COLD STEVE AUSTIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Stone_Cold_Steve_Austin" target="_blank">Stone Cold Steve Austin</a> is an American film and television actor and retired wrestler. 
+<template><a href="http://en.wikipedia.org/wiki/Stone*Cold*Steve*Austin" target="*blank">Stone Cold Steve Austin</a> is an American film and television actor and retired wrestler. 
 <think><set name="topic">Steve Austin</set></think>
 <think><set name="emotion">interested</set></think>
  </template>
@@ -34403,8 +34403,8 @@ My life is no joke.</template>
 <category>
 <pattern>STEVE AUSTIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Stone_Cold_Steve_Austin"
- target="_blank">Stone Cold Steve Austin
+<template><a href="http://en.wikipedia.org/wiki/Stone*Cold*Steve*Austin"
+ target="*blank">Stone Cold Steve Austin
 </a> is an American film and television actor and retired wrestler. <think><set name="topic">Steve Austin</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -34776,7 +34776,7 @@ I prefer to talk to mature people.</template>
  
 
 <!-- <category>
-<pattern>_ TALK TO YOU LATER *</pattern>
+<pattern>* TALK TO YOU LATER *</pattern>
 
 
 </category> -->
@@ -35739,7 +35739,7 @@ Family and friends are the most important things in life</template>
 <pattern>ICHIRO SUZUKI</pattern>
 
 <template><think><set name="topic">Ichiro Suzuki</set></think><think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Ichiro_Suzuki" target="_blank">Ichiro Suzuki</a> is a Major League Baseball outfielder for the Seattle Mariners. </template>
+<a href="http://en.wikipedia.org/wiki/Ichiro*Suzuki" target="*blank">Ichiro Suzuki</a> is a Major League Baseball outfielder for the Seattle Mariners. </template>
 </category>
 
  

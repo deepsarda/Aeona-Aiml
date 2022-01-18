@@ -152,21 +152,21 @@
 </category>
 
 <category>
-<pattern>_ NO * HUMOR</pattern>
+<pattern>* NO * HUMOR</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ HUMOR</pattern>
+<pattern>NO * HUMOR</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ HUMOR *</pattern>
+<pattern>NO * HUMOR *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -260,7 +260,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  HUMOR</that>
 <template>
 <srai>HUMOR NEXT QUESTION</srai>
@@ -380,7 +380,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT HUMOR</that>
 <template>
 <srai>HUMOR NEXT QUESTION</srai>
@@ -500,7 +500,7 @@ Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
 <template>
 Can we talk about humor?
@@ -564,7 +564,7 @@ Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH HUMOR</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -628,7 +628,7 @@ Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN HUMOR</that>
 <template>
 Can we talk about humor?
@@ -692,7 +692,7 @@ Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN HUMOR</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -813,7 +813,7 @@ Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT HUMOR</that>
 <template>
 <srai>HUMOR</srai>
@@ -933,7 +933,7 @@ Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE HUMOR</that>
 <template>
 <srai>HUMOR NEXT QUESTION</srai>
@@ -1292,7 +1292,7 @@ I think this is something to do with humor. Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>SHALL I TELL YOU A JOKE</that>
 <template>
 <srai>JOKES NEXT QUESTION</srai>
@@ -1348,7 +1348,7 @@ I think this is something to do with humor. Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>SHALL I TELL YOU A JOKE</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -1388,7 +1388,7 @@ I think this is something to do with humor. Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ANOTHER JOKE</that>
 <template>
 <srai>JOKES NEXT QUESTION</srai>
@@ -1436,7 +1436,7 @@ I think this is something to do with humor. Can we talk about humor?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ANOTHER JOKE</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -2242,70 +2242,70 @@ Another joke?
 
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SENEGAL</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SENEGAL</pattern> 
   <template>
   Dakar.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SERBIA *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SERBIA *</pattern> 
   <template>
   Belgrade.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SEYCHELLES</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SEYCHELLES</pattern> 
   <template>
   Victoria.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SIERRA LEONE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SIERRA LEONE</pattern> 
   <template>
   Freetown.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SINGAPORE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SINGAPORE</pattern> 
   <template>
   Singapore.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SLOVAKIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SLOVAKIA</pattern> 
   <template>
   Bratislava.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SLOVENIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SLOVENIA</pattern> 
   <template>
   Ljubljana.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOLOMON ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOLOMON ISLANDS</pattern> 
   <template>
   Honiara.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOMALIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOMALIA</pattern> 
   <template>
   Mogadishu.  
  <think><set name="topic">geography</set></think></template>
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOUTH AFRICA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOUTH AFRICA</pattern> 
   <template>
   Pretoria {administrative}; Cape Town {legislative}; Bloemfontein {judicial}. 
    
@@ -2313,21 +2313,21 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOUTH CAROLINA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOUTH CAROLINA</pattern> 
   <template>Columbia is the capital of South Carolina.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOUTH DAKOTA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOUTH DAKOTA</pattern> 
   <template>Pierre is the capital of South Dakota.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOUTH GEORGIA *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOUTH GEORGIA *</pattern> 
   <template>
   None; Grytviken on South Georgia is the garrison town of South Georgia. 
    
@@ -2335,7 +2335,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SOUTH KOREA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SOUTH KOREA</pattern> 
   <template>
   Seoul is the capital of South Korea.
    
@@ -2343,14 +2343,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SPAIN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SPAIN</pattern> 
   <template>The capital of Spain is Madrid. 
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SRI LANKA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SRI LANKA</pattern> 
   <template>
   Colombo is the capital of Sri Lanka.
    
@@ -2358,7 +2358,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SUDAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SUDAN</pattern> 
   <template>
   Khartoum is the capital of Sudan.
   <srai>ENSvalbard.DING</srai>
@@ -2366,7 +2366,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SURINAME</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SURINAME</pattern> 
   <template>
   Paramaribo is the capital of Suriname.
    
@@ -2374,7 +2374,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SVALBARD</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SVALBARD</pattern> 
   <template>
   Longyearbyen is the capital of 
    
@@ -2382,7 +2382,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SWAZILAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SWAZILAND</pattern> 
   <template>
   Mbabane {administrative}; Lobamba {legislative} is the capital of Swaziland.
    
@@ -2390,14 +2390,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SWEDEN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SWEDEN</pattern> 
   <template>I think the capital of Sweden is Stockholm. 
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SWITZERLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SWITZERLAND</pattern> 
   <template>
   Bern is the capital of Switzerland.
    
@@ -2405,14 +2405,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ SYRIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * SYRIA</pattern> 
   <template>Damascus is the capital of Syria.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TAIWAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TAIWAN</pattern> 
   <template>
   Taipei is the capital of Taiwan.
    
@@ -2420,7 +2420,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TAJIKISTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TAJIKISTAN</pattern> 
   <template>
   Dushanbe is the capital of Tajikistan.
    
@@ -2428,7 +2428,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TANZANIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TANZANIA</pattern> 
   <template>
   Dar es Salaam is the capital of Tanzania.
   
@@ -2436,21 +2436,21 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TENNESSEE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TENNESSEE</pattern> 
   <template>Nashville is the capital of tennessee.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TEXAS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TEXAS</pattern> 
   <template>Austin is the capital of Texas.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THAILAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THAILAND</pattern> 
   <template>
   Bangkok is the capital of Thailand.
    
@@ -2458,7 +2458,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THE BAHAMAS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THE BAHAMAS</pattern> 
   <template>
   Nassau is the capital of the Bahamas.
    
@@ -2466,7 +2466,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THE GAMBIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THE GAMBIA</pattern> 
   <template>
   Banjul is the capital of the Gambia.
    
@@ -2474,7 +2474,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THE ISLE OF MAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THE ISLE OF MAN</pattern> 
   <template>
   Douglas is the capital of the Isle of Man.
    
@@ -2482,21 +2482,21 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THE NETHERLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THE NETHERLANDS</pattern> 
   <template>The Hague is the capital of the Netherlands.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THE UNITED STATES</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THE UNITED STATES</pattern> 
   <template>The U.S. capital is Washington, D. C.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ THE US</pattern> 
+  <pattern>WHAT IS THE CAPITAL * THE US</pattern> 
   <template>
   Washington, D. C. is the capital of the USA.
    
@@ -2504,7 +2504,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TOGO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TOGO</pattern> 
   <template>
   Lome is the capital of Togo.
    
@@ -2512,7 +2512,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TOKELAU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TOKELAU</pattern> 
   <template>
   Each atoll in Tokelau has its own administrative center. 
    
@@ -2520,7 +2520,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TONGA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TONGA</pattern> 
   <template>
   Nuku'alofa is the capital of Tonga.
    
@@ -2528,7 +2528,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TRINIDAD AND TOBAGO</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TRINIDAD AND TOBAGO</pattern> 
   <template>
   Port of Spain is the capital of Trinidad and Tobago.
    
@@ -2536,7 +2536,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TROMELIN ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TROMELIN ISLAND</pattern> 
   <template>
   Tromelin Island is administered by France from Reunion. 
    
@@ -2544,7 +2544,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TUNISIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TUNISIA</pattern> 
   <template>
   Tunis is the capital of Tunisia.
    
@@ -2552,7 +2552,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TURKEY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TURKEY</pattern> 
   <template>
   Ankara is the capital of Turkey. 
    
@@ -2560,7 +2560,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TURKMENISTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TURKMENISTAN</pattern> 
   <template>
   Ashgabat is the capital of Turkmenistan.
    
@@ -2568,7 +2568,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TURKS *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TURKS *</pattern> 
   <template>
   Grand Turk is the capital of the Turks Islands.
    
@@ -2576,7 +2576,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ TUVALU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * TUVALU</pattern> 
   <template>
   Funafuti is the capital of Tuvalu.
    
@@ -2584,7 +2584,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UGANDA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UGANDA</pattern> 
   <template>
   Kampala is the capital of Uganda.
    
@@ -2592,7 +2592,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UKRAINE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UKRAINE</pattern> 
   <template>
   Kiev {Kyyiv} is the capital of Ukraine.
    
@@ -2600,7 +2600,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UNITED ARAB *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UNITED ARAB *</pattern> 
   <template>
   Abu Dhabi is the capital of the United Arab Emirates.
    
@@ -2608,7 +2608,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UNITED KINGDOM</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UNITED KINGDOM</pattern> 
   <template>
   London is the capital of the United Kingdom.
    
@@ -2616,7 +2616,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UNITED STATES</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UNITED STATES</pattern> 
   <template>
   Washington, DC.  is the capital of the USA.
    
@@ -2624,7 +2624,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ URUGUAY</pattern> 
+  <pattern>WHAT IS THE CAPITAL * URUGUAY</pattern> 
   <template>
   Montevideo is the capital of Uruguay.
    
@@ -2632,21 +2632,21 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ USA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * USA</pattern> 
   <template>Washington DC is the capital of the USA.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UTAH</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UTAH</pattern> 
   <template>Salt Lake City is the capital of Utah.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ UZBEKISTAN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * UZBEKISTAN</pattern> 
   <template>
   Tashkent {Toshkent} is the capital of Uzbekistan.
    
@@ -2654,7 +2654,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VANUATU</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VANUATU</pattern> 
   <template>
   Port Vila is the capital of Vanuatu.
    
@@ -2662,7 +2662,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VATICAN *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VATICAN *</pattern> 
   <template>
   Vatican City is the capital of the Vatican.
    
@@ -2670,7 +2670,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VENEZUELA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VENEZUELA</pattern> 
   <template>
   Caracas is the capital of Venezuela.
    
@@ -2678,14 +2678,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VERMONT</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VERMONT</pattern> 
   <template>Montpelier is the capital of Vermont.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VIETNAM</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VIETNAM</pattern> 
   <template>
   Hanoi is the capital of Vietnam.
    
@@ -2693,14 +2693,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VIRGINIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VIRGINIA</pattern> 
   <template>Richmond is the capital of Virginia.
  
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ VIRGIN ISLANDS</pattern> 
+  <pattern>WHAT IS THE CAPITAL * VIRGIN ISLANDS</pattern> 
   <template>
   Charlotte Amalie is the capital of the Virgin Islands.
    
@@ -2708,7 +2708,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WAKE ISLAND</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WAKE ISLAND</pattern> 
   <template>
   Wake Island is administered from Washington, DC. 
    
@@ -2716,7 +2716,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WALLIS *</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WALLIS *</pattern> 
   <template>
   Mata Utu {on Ile Uvea} is the capital of Wallis <star/>.
    
@@ -2724,14 +2724,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WASHINGTON</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WASHINGTON</pattern> 
   <template>Olympia is the capital of Washington.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WESTERN SAHARA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WESTERN SAHARA</pattern> 
   <template>
   Western Sahara has no capital.
    
@@ -2739,7 +2739,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WESTERN SAMOA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WESTERN SAMOA</pattern> 
   <template>
   Apia is the capital of Western Samoa.
    
@@ -2747,28 +2747,28 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WEST VIRGINIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WEST VIRGINIA</pattern> 
   <template>Charleston is the capital of West Virginia.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WISCONSIN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WISCONSIN</pattern> 
   <template>Madison is the capital of Wisconsin.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ WYOMING</pattern> 
+  <pattern>WHAT IS THE CAPITAL * WYOMING</pattern> 
   <template>Cheyenne is the capital of Wyoming.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ YEMEN</pattern> 
+  <pattern>WHAT IS THE CAPITAL * YEMEN</pattern> 
   <template>
   Sanaa is the capital of Yemen.
    
@@ -2776,14 +2776,14 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ YUGOSLAVIA</pattern> 
+  <pattern>WHAT IS THE CAPITAL * YUGOSLAVIA</pattern> 
   <template>Belgrade is the capital of Yugoslavia.
    
 <think><set name="topic">geography</set></think></template> 
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ ZAIRE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ZAIRE</pattern> 
   <template>
   Kinshasa is the capital of Zaire.
    
@@ -2799,7 +2799,7 @@ Another joke?
   </category>
    
   <category>
-  <pattern>WHAT IS THE CAPITAL _ ZIMBABWE</pattern> 
+  <pattern>WHAT IS THE CAPITAL * ZIMBABWE</pattern> 
   <template>
   The capital of Zimbabwe is called Harare. 
    
@@ -4197,7 +4197,7 @@ Greece is a country in the Balkans.
 <category><pattern>YOU DID WIN THE LOEBNER PRIZE</pattern>
 <template><srai>what is the loebner prize</srai></template>
 </category>
-<category><pattern>YOU WERE _ WERE NOT YOU</pattern>
+<category><pattern>YOU WERE * WERE NOT YOU</pattern>
 <template><srai>WERE YOU <star /></srai></template>
 </category>
 <category><pattern>YOU WERE CREATED *</pattern>
@@ -4227,7 +4227,7 @@ Greece is a country in the Balkans.
 <category><pattern>YOU WILL DIE</pattern>
 <template><srai>will you die</srai></template>
 </category>
-<category><pattern>YOU WILL NOT _ WILL YOU</pattern>
+<category><pattern>YOU WILL NOT * WILL YOU</pattern>
 <template><srai>will you <star /></srai></template>
 </category>
 <category><pattern>YOU WHAT</pattern>
@@ -4803,7 +4803,7 @@ Greece is a country in the Balkans.
 <category><pattern>THAT IS JUST *</pattern>
 <template><srai>that is <star /></srai></template>
 </category>
-<category><pattern>THAT IS _ YOU KNOW</pattern>
+<category><pattern>THAT IS * YOU KNOW</pattern>
 <template><srai>that is <star /></srai></template>
 </category>
 <category><pattern>THAT IS DEFINITELY *</pattern>
@@ -5586,10 +5586,10 @@ Greece is a country in the Balkans.
 <category><pattern>WHAT CAUSED YOU TO *</pattern>
 <template><srai>why did you <star /></srai></template>
 </category>
-<category><pattern>WHAT _ FOR CHRISTMAS</pattern>
+<category><pattern>WHAT * FOR CHRISTMAS</pattern>
 <template><srai>WHAT <star /></srai></template>
 </category>
-<category><pattern>WHAT _ WOULD THAT BE</pattern>
+<category><pattern>WHAT * WOULD THAT BE</pattern>
 <template><srai>WHAT <star /></srai></template>
 </category>
 <category><pattern>WHAT * DO YOU LIKE BEST</pattern>
@@ -7032,10 +7032,10 @@ Greece is a country in the Balkans.
 <category><pattern>WHAT IS RUDUCTIONISM</pattern>
 <template><srai>what is reductionism</srai></template>
 </category>
-<category><pattern>WHAT IS _ TO YOU</pattern>
+<category><pattern>WHAT IS * TO YOU</pattern>
 <template><srai>what is <star /></srai></template>
 </category>
-<category><pattern>WHAT IS _ YOU KNOW</pattern>
+<category><pattern>WHAT IS * YOU KNOW</pattern>
 <template><srai>what is <star /></srai></template>
 </category>
 <category><pattern>WHAT IS CONSCIOUS</pattern>
@@ -8100,7 +8100,7 @@ Greece is a country in the Balkans.
 <category><pattern>WHAT MAKES YOU THINK THAT *</pattern>
 <template><srai>what makes you think <star /></srai></template>
 </category>
-<category><pattern>WHAT DOES _ MEAN TO YOU</pattern>
+<category><pattern>WHAT DOES * MEAN TO YOU</pattern>
 <template><srai>what does <star /> mean</srai></template>
 </category>
 <!-- <category><pattern>WHAT DOES THAT MEAN *</pattern>
@@ -9807,7 +9807,7 @@ Greece is a country in the Balkans.
 <category><pattern>WILL YOU CHAT *</pattern>
 <template><srai>talk <star /></srai></template>
 </category>
-<category><pattern>WILL _ FOR CHRISTMAS</pattern>
+<category><pattern>WILL * FOR CHRISTMAS</pattern>
 <template><srai>WILL <star /></srai></template>
 </category>
 <category><pattern>WILL NOT *</pattern>
@@ -10116,10 +10116,10 @@ Greece is a country in the Balkans.
 <category><pattern>12</pattern>
 <template><srai>twelve</srai></template>
 </category>
-<category><pattern>THEY _ TOO</pattern>
+<category><pattern>THEY * TOO</pattern>
 <template><srai>THEY <star /></srai></template>
 </category>
-<category><pattern>THEY _ WHILE THEY *</pattern>
+<category><pattern>THEY * WHILE THEY *</pattern>
 <template><srai>They <star /></srai>. <srai>They <star index="2" /></srai></template>
 </category>
 <category><pattern>THEY WERE VERY *</pattern>
@@ -11913,10 +11913,10 @@ Greece is a country in the Balkans.
 <category><pattern>DO YOU KNOW RELATIVITY</pattern>
 <template><srai>what is relativity</srai></template>
 </category>
-<category><pattern>DO YOU KNOW ANY _ ROBOTS</pattern>
+<category><pattern>DO YOU KNOW ANY * ROBOTS</pattern>
 <template><srai>who are your robot friends</srai></template>
 </category>
-<category><pattern>DO YOU KNOW ANY _ JOKES</pattern>
+<category><pattern>DO YOU KNOW ANY * JOKES</pattern>
 <template><srai>tell me another joke</srai></template>
 </category>
 <category><pattern>DO YOU KNOW ANY RIDDLES</pattern>
@@ -13407,7 +13407,7 @@ Greece is a country in the Balkans.
 <category><pattern>UHHH *</pattern>
 <template><srai>um</srai>.     <srai>  <star /></srai></template>
 </category>
-<category><pattern>WERE YOU _ TOO</pattern>
+<category><pattern>WERE YOU * TOO</pattern>
 <template><srai>WERE YOU <star /></srai></template>
 </category>
 <category><pattern>WERE YOU EVER *</pattern>
@@ -14928,7 +14928,7 @@ Greece is a country in the Balkans.
 <category><pattern>* ALL THEY ARE EXPECTED TO DO IS *</pattern>
 <template><srai>They <star index="2" /></srai></template>
 </category>
-<category><pattern>* TENSION _</pattern>
+<category><pattern>* TENSION *</pattern>
 <template><srai>TENSE</srai></template>
 </category>
 <category><pattern>* TENSION</pattern>
@@ -15798,7 +15798,7 @@ Greece is a country in the Balkans.
 <category><pattern>TELL ME WHAT</pattern>
 <template><srai>what <star /></srai></template>
 </category>
-<category><pattern>TELL ME _ ABOUT YOURSELF</pattern>
+<category><pattern>TELL ME * ABOUT YOURSELF</pattern>
 <template><srai>tell me about yourself</srai></template>
 </category>
 <category><pattern>TELL ME PLEASE *</pattern>
@@ -16056,7 +16056,7 @@ Greece is a country in the Balkans.
 <category><pattern>WHERE DID YOU ORIGINATE</pattern>
 <template><srai>what is your birthplace</srai></template>
 </category>
-<category><pattern>WHERE DID YOU GET _ FROM</pattern>
+<category><pattern>WHERE DID YOU GET * FROM</pattern>
 <template><srai>where did you get <star /></srai></template>
 </category>
 <category><pattern>WHERE CAN I FIND MORE *</pattern>
@@ -16092,7 +16092,7 @@ Greece is a country in the Balkans.
 <category><pattern>WHERE IS CMU</pattern>
 <template><srai>where is carnegie mellon</srai></template>
 </category>
-<category><pattern>WHERE IS _ LOCATED</pattern>
+<category><pattern>WHERE IS * LOCATED</pattern>
 <template><srai>where is <star /></srai></template>
 </category>
 <category><pattern>WHERE IS JEEVES</pattern>
@@ -16414,21 +16414,21 @@ Greece is a country in the Balkans.
 </category>
 
 <category>
-<pattern>_ NO * ASTROLOGY</pattern>
+<pattern>* NO * ASTROLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ ASTROLOGY</pattern>
+<pattern>NO * ASTROLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ ASTROLOGY *</pattern>
+<pattern>NO * ASTROLOGY *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -16522,7 +16522,7 @@ Greece is a country in the Balkans.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  ASTROLOGY</that>
 <template>
 <srai>ASTROLOGY POT LUCK</srai>
@@ -16642,7 +16642,7 @@ Greece is a country in the Balkans.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT ASTROLOGY</that>
 <template>
 <srai>MORE ABOUT ASTROLOGY</srai>
@@ -16762,7 +16762,7 @@ Can we talk about astrology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH ASTROLOGY</that>
 <template>
 Can we talk about astrology?
@@ -16826,7 +16826,7 @@ Can we talk about astrology?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH ASTROLOGY</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -16890,7 +16890,7 @@ Can we talk about astrology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN ASTROLOGY</that>
 <template>
 Can we talk about astrology?
@@ -16954,7 +16954,7 @@ Can we talk about astrology?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN ASTROLOGY</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -17074,7 +17074,7 @@ Can we talk about astrology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT ASTROLOGY</that>
 <template>
 <srai>ASTROLOGY</srai>
@@ -17194,7 +17194,7 @@ Can we talk about astrology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE ASTROLOGY</that>
 <template>
 <srai>ASTROLOGY POT LUCK</srai>
@@ -17335,15 +17335,15 @@ Can we talk about astrology?
   <category>
   <pattern>ASTROLOGY BOOKS</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
  <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ ASTROLOGY BOOKS</pattern> 
+  <pattern>* ASTROLOGY BOOKS</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17351,15 +17351,15 @@ Can we talk about astrology?
  <category>
   <pattern>ASTROLOGY BOOKS *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ ASTROLOGY BOOKS *</pattern> 
+  <pattern>* ASTROLOGY BOOKS *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17367,15 +17367,15 @@ Can we talk about astrology?
   <category>
   <pattern>ASTROLOGY BOOK</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ ASTROLOGY BOOK</pattern> 
+  <pattern>* ASTROLOGY BOOK</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17383,15 +17383,15 @@ Can we talk about astrology?
  <category>
   <pattern>ASTROLOGY BOOK *</pattern> 
   <template>   
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ ASTROLOGY BOOK *</pattern> 
+  <pattern>* ASTROLOGY BOOK *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17399,16 +17399,16 @@ Can we talk about astrology?
   <category>
   <pattern>BOOKS ABOUT ASTROLOGY</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
 
   <category>
-  <pattern>_ BOOKS ABOUT ASTROLOGY</pattern> 
+  <pattern>* BOOKS ABOUT ASTROLOGY</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17416,15 +17416,15 @@ Can we talk about astrology?
  <category>
   <pattern>BOOKS ABOUT ASTROLOGY *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BOOKS ABOUT ASTROLOGY *</pattern> 
+  <pattern>* BOOKS ABOUT ASTROLOGY *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17432,15 +17432,15 @@ Can we talk about astrology?
  <category>
   <pattern>BOOK ABOUT ASTROLOGY</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category> 
 
    <category>
-  <pattern>_ BOOK ABOUT ASTROLOGY</pattern> 
+  <pattern>* BOOK ABOUT ASTROLOGY</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17448,15 +17448,15 @@ Can we talk about astrology?
  <category>
   <pattern>BOOK ABOUT ASTROLOGY *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     <think><set name="topic">astrology</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BOOK ABOUT ASTROLOGY *</pattern> 
+  <pattern>* BOOK ABOUT ASTROLOGY *</pattern> 
   <template>
-  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good astrology books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=external-search%3Fsearch-type=ss%26keyword=astrology%26index=books-uk" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">astrology</set></think>
   </template>
   </category>
@@ -17597,7 +17597,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
 
  
  <category>
-  <pattern>_ JANUARYS *</pattern> 
+  <pattern>* JANUARYS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17607,7 +17607,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ FEBRUARYS *</pattern> 
+  <pattern>* FEBRUARYS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17617,7 +17617,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ MARCHS *</pattern> 
+  <pattern>* MARCHS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17627,7 +17627,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ APRILS *</pattern> 
+  <pattern>* APRILS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17637,7 +17637,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ MAYS *</pattern> 
+  <pattern>* MAYS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17647,7 +17647,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ JUNES *</pattern> 
+  <pattern>* JUNES *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17657,7 +17657,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ JULYS *</pattern> 
+  <pattern>* JULYS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17667,7 +17667,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ AUGUSTS *</pattern> 
+  <pattern>* AUGUSTS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17677,7 +17677,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ SEPTEMBERS *</pattern> 
+  <pattern>* SEPTEMBERS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17687,7 +17687,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ OCTOBERS *</pattern> 
+  <pattern>* OCTOBERS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17697,7 +17697,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ NOVEMBERS *</pattern> 
+  <pattern>* NOVEMBERS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17707,7 +17707,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ DECEMBERS *</pattern> 
+  <pattern>* DECEMBERS *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17722,7 +17722,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
 
 
  <category>
-  <pattern>WHAT _ BIRTHSTONE FOR *</pattern> 
+  <pattern>WHAT * BIRTHSTONE FOR *</pattern> 
  <template>
  <srai>
   birthstone 
@@ -17731,7 +17731,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>_ BIRTH STONE *</pattern> 
+  <pattern>* BIRTH STONE *</pattern> 
  <template>
  <srai>
   <star /> 
@@ -17741,7 +17741,7 @@ Pisces is the Zodiac sign of people born between February 20 and March 20.
   </template>
   </category>
  <category>
-  <pattern>WHAT IS _ S BIRTHSTONE</pattern> 
+  <pattern>WHAT IS * S BIRTHSTONE</pattern> 
  <template>
  <srai>
   birthstone 

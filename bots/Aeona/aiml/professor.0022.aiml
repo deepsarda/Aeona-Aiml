@@ -6476,7 +6476,7 @@ OK. But ask me a question and I will carry on.
 </category> -->
 
 <category>
-<pattern>_ STOP</pattern>
+<pattern>* STOP</pattern>
 <template>
 <think><set name="topic">interjection</set></think>
 Why? I am enjoying myself.
@@ -6492,7 +6492,7 @@ Why? I am enjoying myself.
 </category> -->
 
 <category>
-<pattern>_ STOP *</pattern>
+<pattern>* STOP *</pattern>
  <template>
 <think><set name="topic">interjection</set></think>
 OK. But ask me a question and I will carry on.

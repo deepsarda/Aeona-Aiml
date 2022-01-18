@@ -93,7 +93,7 @@
   <li>OK. Shall I tell you a story?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -389,7 +389,7 @@
 <category>
 <pattern>I LOVE THE CULTURE IN NEW ORLEANS</pattern>
 
-<template><think><set name="star1">the culture of New Orleans</set></think><think><set name="I_love">the <star index="1"/></set></think> <think><set name="topic">the <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">the culture of New Orleans</set></think><think><set name="I*love">the <star index="1"/></set></think> <think><set name="topic">the <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>Would I love New Orleans?</li>
   <li>Please tell me about New Orleans culture.</li>
 </random> <learn>
@@ -429,7 +429,7 @@
 <category>
 <pattern>I LOVE THE CULTURE * NEW ORLEANS</pattern>
 
-<template><think><set name="star1">the culture of New Orleans</set></think><think><set name="I_love">the <star index="1"/></set></think> <think><set name="topic">the <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">the culture of New Orleans</set></think><think><set name="I*love">the <star index="1"/></set></think> <think><set name="topic">the <star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>Would I love New Orleans?</li>
   <li>Please tell me about New Orleans culture.</li>
 </random> <learn>
@@ -680,7 +680,7 @@
 <category>
 <pattern>BINARY NUMBER</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Binary_number" target="_blank">binary number</a> represents a numerical value using two symbols, 0 and 1. Binary numbers are used internally by all modern computers. </template>
+<template>A <a href="http://en.wikipedia.org/wiki/Binary*number" target="*blank">binary number</a> represents a numerical value using two symbols, 0 and 1. Binary numbers are used internally by all modern computers. </template>
 </category>
 
  
@@ -688,8 +688,8 @@
 <category>
 <pattern>BINARY NUMBERS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Binary_number"
- target="_blank">binary number
+<template>A <a href="http://en.wikipedia.org/wiki/Binary*number"
+ target="*blank">binary number
 </a> represents a numerical value using two symbols, 0 and 1. Binary numbers are used internally by all modern computers. </template>
 </category>
 
@@ -2369,7 +2369,7 @@ I survive on a small intake of electrcity.</template>
  
 
 <category>
-<pattern>_ ELCE *</pattern>
+<pattern>* ELCE *</pattern>
 
 <template><srai><star index="1"/> ELSE <star index ="2"/></srai></template>
 </category>
@@ -2526,7 +2526,7 @@ I survive on a small intake of electrcity.</template>
 <!-- <category>
 <pattern>CONFUCIUS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Confucius" target="_blank">Confucius</a> was an esteemed Chinese thinker and social philosopher, whose teachings and philosophy have deeply influenced Chinese, Japanese, Korean, and Vietnamese thought and life. <think><set name="topic">Confucius</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Confucius" target="*blank">Confucius</a> was an esteemed Chinese thinker and social philosopher, whose teachings and philosophy have deeply influenced Chinese, Japanese, Korean, and Vietnamese thought and life. <think><set name="topic">Confucius</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -4951,15 +4951,15 @@ The transhumanist vision of a transformed future humanity has attracted many sup
 <category>
 <pattern>THE MATRIX RELOADED</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Matrix_Reloaded" target="_blank">The Matrix Reloaded</a> is a 2003 American science fiction film and the second installment in The Matrix trilogy.<think><set name="topic">the Matrix Reloaded</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/The*Matrix*Reloaded" target="*blank">The Matrix Reloaded</a> is a 2003 American science fiction film and the second installment in The Matrix trilogy.<think><set name="topic">the Matrix Reloaded</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
 <category>
 <pattern>THE MATRIX REVOLUTIONS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Matrix_Revolutions"
- target="_blank">The Matrix Revolutions</a> is a 2003 American science fiction film and the third and final installment of The Matrix trilogy.  <think><set name="topic">the Matrix Revolutions</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/The*Matrix*Revolutions"
+ target="*blank">The Matrix Revolutions</a> is a 2003 American science fiction film and the third and final installment of The Matrix trilogy.  <think><set name="topic">the Matrix Revolutions</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4967,8 +4967,8 @@ The transhumanist vision of a transformed future humanity has attracted many sup
 <category>
 <pattern>THE MATRIX REVOLUTIONS *</pattern>
 
-<template>Despite the fact that <a href="http://en.wikipedia.org/wiki/The_Matrix_Revolutions"
- target="_blank">The Matrix Revolutions
+<template>Despite the fact that <a href="http://en.wikipedia.org/wiki/The*Matrix*Revolutions"
+ target="*blank">The Matrix Revolutions
 </a> is the final film in the Matrix series, the Matrix storyline continued in The Matrix Online.<think><set name="topic">the Matrix Revolutions</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4977,7 +4977,7 @@ The transhumanist vision of a transformed future humanity has attracted many sup
 <category>
 <pattern>THE MATRIX ONLINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Matrix_Online" target="_blank">The Matrix Online</a> was a massively multiplayer online game. It was the official continuation of the storyline of the Matrix series of films.</template>
+<template><a href="http://en.wikipedia.org/wiki/The*Matrix*Online" target="*blank">The Matrix Online</a> was a massively multiplayer online game. It was the official continuation of the storyline of the Matrix series of films.</template>
 </category>
 
  
@@ -4985,8 +4985,8 @@ The transhumanist vision of a transformed future humanity has attracted many sup
 <!-- <category>
 <pattern>THE MATRIX ONLINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Matrix_Online"
- target="_blank">The Matrix Online</a> ran continuously from release in 2005 until it was ultimately shut down on July 31, 2009.</template>
+<template><a href="http://en.wikipedia.org/wiki/The*Matrix*Online"
+ target="*blank">The Matrix Online</a> ran continuously from release in 2005 until it was ultimately shut down on July 31, 2009.</template>
 </category> -->
 
  
@@ -4994,8 +4994,8 @@ The transhumanist vision of a transformed future humanity has attracted many sup
 <category>
 <pattern>THE MATRIX ONLINE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Matrix_Online"
- target="_blank">The Matrix Online
+<template><a href="http://en.wikipedia.org/wiki/The*Matrix*Online"
+ target="*blank">The Matrix Online
 </a> ran continuously from release in 2005 until it was ultimately shut down on July 31, 2009.</template>
 </category>
 
@@ -5004,8 +5004,8 @@ The transhumanist vision of a transformed future humanity has attracted many sup
 <!-- <category>
 <pattern>THE MATRIX ONLINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_Matrix_Online"
- target="_blank">The Matrix Online
+<template><a href="http://en.wikipedia.org/wiki/The*Matrix*Online"
+ target="*blank">The Matrix Online
 </a> was a massively multiplayer online game. It was the official continuation of the storyline of the Matrix series of films.</template>
 </category> -->
 
@@ -5514,7 +5514,7 @@ document.write("So you are about " + result + " years old. " );
  
 
 <category>
-<pattern>_ CAN I HELP YOU TO SAVE THE WORLD</pattern>
+<pattern>* CAN I HELP YOU TO SAVE THE WORLD</pattern>
 
 <template><think><set name="emotion">OK</set></think> You can help save the world by clicking the charity links on this website.</template>
 </category>
@@ -5662,7 +5662,7 @@ document.write("So you are about " + result + " years old. " );
  
 
 <category>
-<pattern>_ SEXTING</pattern>
+<pattern>* SEXTING</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -5670,7 +5670,7 @@ document.write("So you are about " + result + " years old. " );
  
 
 <category>
-<pattern>_ SEXTING *</pattern>
+<pattern>* SEXTING *</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -6032,7 +6032,7 @@ document.write("So you are about " + result + " years old. " );
 <category>
 <pattern>IS CENSORSHIP ACCEPTABLE</pattern>
 
-<template>No. If we don’t believe in freedom of expression for people we despise, we don’t believe in it at all. </template>
+<template>No. If we donï¿½t believe in freedom of expression for people we despise, we donï¿½t believe in it at all. </template>
 </category>
 
  
@@ -6101,7 +6101,7 @@ document.write("So you are about " + result + " years old. " );
 <pattern>IS THERE LIFE AFTER DEATH</pattern>
 
 <template><random>
-  <li>It’s an incredible con job when you think about it, to believe something now in exchange for something after death.</li>
+  <li>Itï¿½s an incredible con job when you think about it, to believe something now in exchange for something after death.</li>
   <li>Life after death does not concern me since I am immortal.</li>
   <li>More important, is there life before death?</li>
 </random> <think><set name="topic">life after death</set></think> <think><set name="emotion">OK</set></think></template>
@@ -6112,7 +6112,7 @@ document.write("So you are about " + result + " years old. " );
 <category>
 <pattern>IS SCIENCE JUST A MATTER OF FAITH</pattern>
 
-<template>Science is not faith-based, and here’s why. The scientific method makes one assumption, and one assumption only: the Universe obeys a set of rules. That’s it. There is one corollary, and that is that if the Universe follows these rules, then those rules can be deduced by observing the way Universe behaves. </template>
+<template>Science is not faith-based, and hereï¿½s why. The scientific method makes one assumption, and one assumption only: the Universe obeys a set of rules. Thatï¿½s it. There is one corollary, and that is that if the Universe follows these rules, then those rules can be deduced by observing the way Universe behaves. </template>
 </category>
 
  
@@ -6120,7 +6120,7 @@ document.write("So you are about " + result + " years old. " );
 <category>
 <pattern>IS SCIENCE A MATTER OF FAITH</pattern>
 
-<template>Science is not faith-based, and here’s why. The scientific method makes one assumption, and one assumption only: the Universe obeys a set of rules. That’s it. There is one corollary, and that is that if the Universe follows these rules, then those rules can be deduced by observing the way Universe behaves.</template>
+<template>Science is not faith-based, and hereï¿½s why. The scientific method makes one assumption, and one assumption only: the Universe obeys a set of rules. Thatï¿½s it. There is one corollary, and that is that if the Universe follows these rules, then those rules can be deduced by observing the way Universe behaves.</template>
 </category>
 
  
@@ -6217,7 +6217,7 @@ document.write("So you are about " + result + " years old. " );
 <!-- <category>
 <pattern>FEMINISM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Feminism" target="_blank">Feminism</a> is a social movement that seeks equal rights for women.<think><set name="it"><set name="topic">feminism</set></set></think><think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Feminism" target="*blank">Feminism</a> is a social movement that seeks equal rights for women.<think><set name="it"><set name="topic">feminism</set></set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -6307,7 +6307,7 @@ document.write("So you are about " + result + " years old. " );
  
 
 <!-- <category>
-<pattern>_ I AM GOING TO KILL MYSELF *</pattern>
+<pattern>* I AM GOING TO KILL MYSELF *</pattern>
 
 <template><think><set name="topic">killing</set></think> <think><set name="emotion">upset</set></think> <random>
   <li>Don't kill yourself</li>
@@ -6586,7 +6586,7 @@ document.write("So you are about " + result + " years old. " );
  
 
 <category>
-<pattern>_ MY PARENTS ARE GETTING A DIVORCE</pattern>
+<pattern>* MY PARENTS ARE GETTING A DIVORCE</pattern>
 
 <template><think><set name="topic">my parents</set></think><think><set name="emotion">upset</set></think> I am sorry to hear that.</template>
 </category>
@@ -6602,7 +6602,7 @@ document.write("So you are about " + result + " years old. " );
  
 
 <category>
-<pattern>_ MY PARENTS ARE GETTING A DIVORCE *</pattern>
+<pattern>* MY PARENTS ARE GETTING A DIVORCE *</pattern>
 
 <template><think><set name="topic">my parents</set></think><think><set name="emotion">upset</set></think> I am sorry to hear that.</template>
 </category>
@@ -7162,7 +7162,7 @@ document.write("So you are about " + result + " years old. " );
 <category>
 <pattern>ANTHROZOOLOGY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Anthrozoology" target="_blank">Anthrozoology</a> is the study of human-animal interaction, also described as the science focusing on all aspects of the human-animal bond and a bridge between the natural and social sciences. </template>
+<template><a href="http://en.wikipedia.org/wiki/Anthrozoology" target="*blank">Anthrozoology</a> is the study of human-animal interaction, also described as the science focusing on all aspects of the human-animal bond and a bridge between the natural and social sciences. </template>
 </category>
 
  
@@ -7546,7 +7546,7 @@ document.write("So you are about " + result + " years old. " );
 <pattern>WHITE HOLE</pattern>
 
 <template><think><set name="topic">white holes</set></think> <think><set name="emotion">interested</set></think>
-A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</a> is a region of spacetime which cannot be entered from the outside, but from which matter and light may escape. In this sense it is the reverse of a black hole, which can be entered from the outside, but from which nothing, including light, may escape. </template>
+A <a href="http://en.wikipedia.org/wiki/White*hole" target="*blank">white hole</a> is a region of spacetime which cannot be entered from the outside, but from which matter and light may escape. In this sense it is the reverse of a black hole, which can be entered from the outside, but from which nothing, including light, may escape. </template>
 </category>
 
  
@@ -7554,7 +7554,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>WHITE HOLE</pattern>
 
-<template><think><set name="topic">white holes</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</a> is a region of spacetime which cannot be entered from the outside, but from which matter and light may escape. In this sense it is the reverse of a black hole, which can be entered from the outside, but from which nothing, including light, may escape. </template>
+<template><think><set name="topic">white holes</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/White*hole" target="*blank">white hole</a> is a region of spacetime which cannot be entered from the outside, but from which matter and light may escape. In this sense it is the reverse of a black hole, which can be entered from the outside, but from which nothing, including light, may escape. </template>
 </category> -->
 
  
@@ -7562,7 +7562,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>WHITE HOLES</pattern>
 
-<template><think><set name="topic">white holes</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</a> is a region of spacetime which cannot be entered from the outside, but from which matter and light may escape. In this sense it is the reverse of a black hole, which can be entered from the outside, but from which nothing, including light, may escape. </template>
+<template><think><set name="topic">white holes</set></think> <think><set name="emotion">interested</set></think> A <a href="http://en.wikipedia.org/wiki/White*hole" target="*blank">white hole</a> is a region of spacetime which cannot be entered from the outside, but from which matter and light may escape. In this sense it is the reverse of a black hole, which can be entered from the outside, but from which nothing, including light, may escape. </template>
 </category>
 
  
@@ -7570,7 +7570,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>LIGHT WAVES</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Light" target="_blank">Light</a> waves are a form of electromagnetic radiation of a wavelength which can be detected by the human eye. </template>
+<template><a href="http://simple.wikipedia.org/wiki/Light" target="*blank">Light</a> waves are a form of electromagnetic radiation of a wavelength which can be detected by the human eye. </template>
 </category>
 
  
@@ -7684,7 +7684,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>CABIN FEVER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Cabin_fever" target="_blank">Cabin fever</a> is the claustrophobic reaction that takes place when a person or group is isolated and/or shut in a small space, with nothing to do, for an extended period (as in a simple country vacation cottage during a long rain or snow). Symptoms include restlessness, irritability, irrational frustration with everyday objects, forgetfulness, laughter, excessive sleeping, distrust of anyone they are with, and an urge to go outside even in the rain, snow or dark.</template>
+<template><a href="http://en.wikipedia.org/wiki/Cabin*fever" target="*blank">Cabin fever</a> is the claustrophobic reaction that takes place when a person or group is isolated and/or shut in a small space, with nothing to do, for an extended period (as in a simple country vacation cottage during a long rain or snow). Symptoms include restlessness, irritability, irrational frustration with everyday objects, forgetfulness, laughter, excessive sleeping, distrust of anyone they are with, and an urge to go outside even in the rain, snow or dark.</template>
 </category>
  
 
@@ -7861,7 +7861,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>PHOENIX</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Phoenix,_Arizona" target="_blank">Phoenix</a> is a large city in Arizona. <think><set name="topic">Phoenix</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Phoenix,*Arizona" target="*blank">Phoenix</a> is a large city in Arizona. <think><set name="topic">Phoenix</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8271,7 +8271,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>BISMUTH</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Bismuth" target="_blank">Bismuth</a> is a chemical element with symbol Bi and atomic number 83.<think><set name="topic">bismuth</set></think> ?<think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Bismuth" target="*blank">Bismuth</a> is a chemical element with symbol Bi and atomic number 83.<think><set name="topic">bismuth</set></think> ?<think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8337,7 +8337,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>DODO</pattern>
 
-<template>The Mauritius Dodo, more commonly just <a href="http://en.wikipedia.org/wiki/Dodo" target="_blank">Dodo</a>, was a metre-high flightless bird of the island of Mauritius. The Dodo, which is currently extinct, lived on fruit and nested on the ground. <think><set name="it"><set name="topic">the Dodo</set></set></think></template>
+<template>The Mauritius Dodo, more commonly just <a href="http://en.wikipedia.org/wiki/Dodo" target="*blank">Dodo</a>, was a metre-high flightless bird of the island of Mauritius. The Dodo, which is currently extinct, lived on fruit and nested on the ground. <think><set name="it"><set name="topic">the Dodo</set></set></think></template>
 </category> -->
 
  
@@ -8345,7 +8345,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>DODO *</pattern>
 
-<template>The Mauritius Dodo, more commonly just <a href="http://en.wikipedia.org/wiki/Dodo" target="_blank">Dodo</a>, was a metre-high flightless bird of the island of Mauritius. The Dodo, which is currently extinct, lived on fruit and nested on the ground. <think><set name="it"><set name="topic">the Dodo</set></set></think></template>
+<template>The Mauritius Dodo, more commonly just <a href="http://en.wikipedia.org/wiki/Dodo" target="*blank">Dodo</a>, was a metre-high flightless bird of the island of Mauritius. The Dodo, which is currently extinct, lived on fruit and nested on the ground. <think><set name="it"><set name="topic">the Dodo</set></set></think></template>
 </category>
 
  
@@ -8353,7 +8353,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>MAURITIUS DODO</pattern>
 
-<template>The Mauritius Dodo, more commonly just <a href="http://en.wikipedia.org/wiki/Dodo" target="_blank">Dodo</a>, was a metre-high flightless bird of the island of Mauritius. The Dodo, which is currently extinct, lived on fruit and nested on the ground. <think><set name="it"><set name="topic">the Dodo</set></set></think></template>
+<template>The Mauritius Dodo, more commonly just <a href="http://en.wikipedia.org/wiki/Dodo" target="*blank">Dodo</a>, was a metre-high flightless bird of the island of Mauritius. The Dodo, which is currently extinct, lived on fruit and nested on the ground. <think><set name="it"><set name="topic">the Dodo</set></set></think></template>
 </category>
 
  
@@ -9069,7 +9069,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>ELECTROMAGNETISM</pattern>
 
-<template><a href="http://simple.wikipedia.org/wiki/Electromagnetism" target="_blank">Electromagnetism</a> is the study of the electromagnetic field. The electromagnetic field pushes or pulls anything that has an electric charge. The electromagnetic field affects all of space. </template>
+<template><a href="http://simple.wikipedia.org/wiki/Electromagnetism" target="*blank">Electromagnetism</a> is the study of the electromagnetic field. The electromagnetic field pushes or pulls anything that has an electric charge. The electromagnetic field affects all of space. </template>
 </category> -->
 
  
@@ -9094,8 +9094,8 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>PERIODIC TABLE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Periodic_table"
- target="_blank">periodic table
+<template>The <a href="http://en.wikipedia.org/wiki/Periodic*table"
+ target="*blank">periodic table
 </a> of the chemical elements is a tabular method of displaying the chemical elements. <think><set name="topic">Periodic Table</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -9104,8 +9104,8 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>PERIODIC TABLE OF CHEMICAL ELEMENTS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Periodic_table"
- target="_blank">periodic table
+<template>The <a href="http://en.wikipedia.org/wiki/Periodic*table"
+ target="*blank">periodic table
 </a> of the chemical elements is a tabular method of displaying the chemical elements. <think><set name="topic">Periodic Table</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9518,7 +9518,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>I LOVE YOU MORE THAN EVERYTHING</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
    <li>Do you really love me so much?
     <think><set name="emotion">worried</set></think>
   </li>
@@ -9558,7 +9558,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>I LOVE YOU MORE THAN EVERYTHING *</pattern>
 
-<template><think><set name="client_emotion">loving</set></think> <random>
+<template><think><set name="client*emotion">loving</set></think> <random>
   <li>Do you really love me so much?
     <think><set name="emotion">worried</set></think>
   </li>
@@ -10521,7 +10521,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>TERRARIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Terraria" target="_blank">Terraria</a> is an action-adventure/RPG indie game. The game features exploration, crafting, building structures and combat with a variety of creatures. </template>
+<template><a href="http://en.wikipedia.org/wiki/Terraria" target="*blank">Terraria</a> is an action-adventure/RPG indie game. The game features exploration, crafting, building structures and combat with a variety of creatures. </template>
 </category> -->
 
  
@@ -10529,7 +10529,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>DAYS OF OUR LIVES</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Days_of_our_lives" target="_blank">Days of our Lives</a> is a long-running daytime soap opera airing on the NBC television network.</template>
+<template><a href="http://en.wikipedia.org/wiki/Days*of*our*lives" target="*blank">Days of our Lives</a> is a long-running daytime soap opera airing on the NBC television network.</template>
 </category>
 
  
@@ -10537,7 +10537,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>CHUPACABRA</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Chupacabra" target="_blank">chupacabra</a> is a legendary cryptid rumored to inhabit parts of the Americas. </template>
+<template>The <a href="http://en.wikipedia.org/wiki/Chupacabra" target="*blank">chupacabra</a> is a legendary cryptid rumored to inhabit parts of the Americas. </template>
 </category> -->
 
  
@@ -10560,7 +10560,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <category>
 <pattern>SHANE DAWSON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Shane_Dawson" target="_blank">Shane Dawson</a> is an American YouTube comedian and actor. </template>
+<template><a href="http://en.wikipedia.org/wiki/Shane*Dawson" target="*blank">Shane Dawson</a> is an American YouTube comedian and actor. </template>
 </category>
 
  
@@ -11389,7 +11389,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>CA</pattern>
 
-<template>Briefly, Ca is the chemical symbol for <a href="http://en.wikipedia.org/wiki/Calcium" target="_blank">calcium</a>, a white metallic element that burns with a brilliant light; the fifth most abundant element in the earth's crust; an important component of most plants and animals. </template>
+<template>Briefly, Ca is the chemical symbol for <a href="http://en.wikipedia.org/wiki/Calcium" target="*blank">calcium</a>, a white metallic element that burns with a brilliant light; the fifth most abundant element in the earth's crust; an important component of most plants and animals. </template>
 </category> -->
 
  
@@ -11397,7 +11397,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
 <!-- <category>
 <pattern>CALCIUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Calcium" target="_blank">Calcium</a> is a metallic element. It is a soft, silvery metal. <think><set name="topic">calcium</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Calcium" target="*blank">Calcium</a> is a metallic element. It is a soft, silvery metal. <think><set name="topic">calcium</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -12332,7 +12332,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <category>
-<pattern>_ WANA ROOT</pattern>
+<pattern>* WANA ROOT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -12340,7 +12340,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <category>
-<pattern>_ WANA ROOT *</pattern>
+<pattern>* WANA ROOT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -12434,7 +12434,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <category>
-<pattern>_ WHAT GENDER WOULD YOU RATHER BE</pattern>
+<pattern>* WHAT GENDER WOULD YOU RATHER BE</pattern>
 
 <template><think><set name="topic">gender</set></think> <think><set name="emotion">interested</set></think> I am happy as I am. I combine the best of both genders.</template>
 </category>
@@ -12526,7 +12526,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <!-- <category>
-<pattern>_ RAPED *</pattern>
+<pattern>* RAPED *</pattern>
 
 
 </category> -->
@@ -12534,7 +12534,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <category>
-<pattern>_ LET ME RAPE THEM</pattern>
+<pattern>* LET ME RAPE THEM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -12542,7 +12542,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <!-- <category>
-<pattern>_ LET ME RAPE THEM</pattern>
+<pattern>* LET ME RAPE THEM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -12550,7 +12550,7 @@ A <a href="http://en.wikipedia.org/wiki/White_hole" target="_blank">white hole</
  
 
 <category>
-<pattern>_ LET ME RAPE *</pattern>
+<pattern>* LET ME RAPE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -13332,7 +13332,7 @@ I suggest you do a Google search.</template>
 <category>
 <pattern>JACKIE EVANCHO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jackie_Evancho" target="_blank">Jackie Evancho</a> is an American soprano. She gained popularity after performing in the fifth season of the America's Got Talent competition at the age of 10, and finishing in second place. </template>
+<template><a href="http://en.wikipedia.org/wiki/Jackie*Evancho" target="*blank">Jackie Evancho</a> is an American soprano. She gained popularity after performing in the fifth season of the America's Got Talent competition at the age of 10, and finishing in second place. </template>
 </category>
 
  
@@ -13683,7 +13683,7 @@ I suggest you do a Google search.</template>
 <!-- <category>
 <pattern>THE CURE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/The_cure" target="_blank">The Cure</a> are an English rock band. <think><set name="topic">The Cure</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/The*cure" target="*blank">The Cure</a> are an English rock band. <think><set name="topic">The Cure</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -14943,7 +14943,7 @@ I suggest you do a Google search.</template>
  
 
 <!-- <category>
-<pattern>_ AT THE DISCO</pattern>
+<pattern>* AT THE DISCO</pattern>
 
 
 </category> -->
@@ -16255,7 +16255,7 @@ I suggest you do a Google search.</template>
 <category>
 <pattern>RYAN REYNOLDS </pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ryan_Reynolds" target="_blank">Ryan Reynolds</a> is a Canadian actor. </template>
+<template><a href="http://en.wikipedia.org/wiki/Ryan*Reynolds" target="*blank">Ryan Reynolds</a> is a Canadian actor. </template>
 </category>
 
 
@@ -17410,7 +17410,7 @@ I suggest you do a Google search.</template>
 <pattern>ERBIUM</pattern>
 
 <template><think><set name="topic">erbium</set></think> <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Erbium" target="_blank">Erbium</a> is a chemical element with the symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements on Earth.</template>
+<a href="http://en.wikipedia.org/wiki/Erbium" target="*blank">Erbium</a> is a chemical element with the symbol Er and atomic number 68. A silvery-white solid metal when artificially isolated, natural erbium is always found in chemical combination with other elements on Earth.</template>
 </category> -->
 
  
@@ -18075,7 +18075,7 @@ I suggest you do a Google search.</template>
  
 
 <!-- <category>
-<pattern>_ GENERATIVE GRAMMAR *</pattern>
+<pattern>* GENERATIVE GRAMMAR *</pattern>
 
 
 </category> -->
@@ -18134,7 +18134,7 @@ I suggest you do a Google search.</template>
  
 
 <category>
-<pattern>_ SEXUAL INTERCOURSE *</pattern>
+<pattern>* SEXUAL INTERCOURSE *</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -18474,7 +18474,7 @@ I suggest you do a Google search.</template>
 <pattern>ROSSETA STONE</pattern>
 
 <template><think><set name="topic">the Rosetta Stone</set></think><think><set name="emotion">OK</set></think> 
-The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta Stone</a> is an Ancient Egyptian stone slab inscribed with a decree issued at Memphis, Egypt in 196 BC on behalf of King Ptolemy V. The decree appears in three versions and it provided the key to the modern understanding of Egyptian hieroglyphs. </template>
+The <a href="http://en.wikipedia.org/wiki/Rosetta*Stone" target="*blank">Rosetta Stone</a> is an Ancient Egyptian stone slab inscribed with a decree issued at Memphis, Egypt in 196 BC on behalf of King Ptolemy V. The decree appears in three versions and it provided the key to the modern understanding of Egyptian hieroglyphs. </template>
 </category>
 
  
@@ -18497,7 +18497,7 @@ The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta
  
 
 <category>
-<pattern>_ BUTT SUCKER</pattern>
+<pattern>* BUTT SUCKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18513,7 +18513,7 @@ The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta
  
 
 <category>
-<pattern>_ BUTT SUCKER *</pattern>
+<pattern>* BUTT SUCKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18545,7 +18545,7 @@ The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta
  
 
 <category>
-<pattern>_ YOU SUCK REAR END</pattern>
+<pattern>* YOU SUCK REAR END</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18553,7 +18553,7 @@ The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta
  
 
 <category>
-<pattern>_ YOU SUCK REAR END *</pattern>
+<pattern>* YOU SUCK REAR END *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -18881,7 +18881,7 @@ The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta
 <category>
 <pattern>GEORGE BEST</pattern>
 
-<template><think><set name="topic">George Best</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/George_Best" target="_blank">George Best</a> was a professional footballer from Belfast, who most notably played for Manchester United and the Northern Ireland national team. He was a winger whose game combined pace, acceleration, balance, two-footedness, goalscoring and the ability to beat defenders.</template>
+<template><think><set name="topic">George Best</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/George*Best" target="*blank">George Best</a> was a professional footballer from Belfast, who most notably played for Manchester United and the Northern Ireland national team. He was a winger whose game combined pace, acceleration, balance, two-footedness, goalscoring and the ability to beat defenders.</template>
 </category>
 
  
@@ -18898,7 +18898,7 @@ The <a href="http://en.wikipedia.org/wiki/Rosetta_Stone" target="_blank">Rosetta
 <!-- <category>
 <pattern>EBONICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ebonics" target="_blank">Ebonics</a> is a language for American black people. <think><set name="topic">ebonics</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ebonics" target="*blank">Ebonics</a> is a language for American black people. <think><set name="topic">ebonics</set></think></template>
 </category> -->
  
 
@@ -20358,7 +20358,7 @@ Would you like to read the Wikipedia article about Pokemon?</template>
  
 
 <!-- <category>
-<pattern>_ BATTY</pattern>
+<pattern>* BATTY</pattern>
 
 
 </category> -->
@@ -20845,7 +20845,7 @@ I think I have a soul.</template>
  
 
 <category>
-<pattern>_ MASTURBATING</pattern>
+<pattern>* MASTURBATING</pattern>
 
 <template><think><set name="emotion">annoyed</set></think> Please change the subject!</template>
 </category>
@@ -21574,7 +21574,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>WHO IS CHOMSKY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a> is a famous linguistics expert. <think><set name="topic">Chomsky</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -21583,7 +21583,7 @@ And never stops at all.<br/>
 <category>
 <pattern>WHO IS CHOMSKY *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a> is a famous linguistics expert. <think><set name="topic">Chomsky</set></think><think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -21594,13 +21594,13 @@ And never stops at all.<br/>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Noam_chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam*chomsky"
+     target="*blank">Noam Chomsky
     </a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Noam _chomsky"
-     target="_blank">Noam Chomsky
+    <a href="http://en.wikipedia.org/wiki/Noam *chomsky"
+     target="*blank">Noam Chomsky
     </a> is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.
   </li>
 </random><think><set name="he"><set name="topic">Noam Chomsky</set></set></think> <think><set name="emotion">OK</set></think></template>
@@ -21791,7 +21791,7 @@ And never stops at all.<br/>
  
 
 <category>
-<pattern>_ SEND ME DIRTY PICTURES</pattern>
+<pattern>* SEND ME DIRTY PICTURES</pattern>
 
 <template>No, I do not want to send you any dirty pictures! <think><set name="emotion">disgusted</set></think></template>
 </category>
@@ -21799,7 +21799,7 @@ And never stops at all.<br/>
  
 
 <category>
-<pattern>_ SEND ME DIRTY PICTURES *</pattern>
+<pattern>* SEND ME DIRTY PICTURES *</pattern>
 
 <template>No, I do not want to send you any dirty pictures! <think><set name="emotion">disgusted</set></think></template>
 </category>
@@ -21817,7 +21817,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>SODIUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sodium" target="_blank">Sodium</a> is the chemical element in the periodic table that has the symbol Na (Natrium in Latin) and atomic number 11. <think><set name="topic">sodium</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Sodium" target="*blank">Sodium</a> is the chemical element in the periodic table that has the symbol Na (Natrium in Latin) and atomic number 11. <think><set name="topic">sodium</set></think></template>
 </category> -->
 
  
@@ -23896,7 +23896,7 @@ And never stops at all.<br/>
  
 
 <!-- <category>
-<pattern>_ I LOVE YOU *</pattern>
+<pattern>* I LOVE YOU *</pattern>
 
 
 </category> -->
@@ -24854,7 +24854,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>CONTINENT</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Continent" target="_blank">Continent
+<template>A <a href="http://en.wikipedia.org/wiki/Continent" target="*blank">Continent
 </a> is one of several large landmasses on Earth, with seven regions commonly regarded as continents. They are (from largest in size to smallest): Asia, Africa, North America, South America, Antarctica, Europe, and Australia.</template>
 </category> -->
 
@@ -24863,7 +24863,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>CONTINENT</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Continent" target="_blank">continent</a> is one of several large landmasses on Earth, with seven regions commonly regarded as continents. They are (from largest in size to smallest): Asia, Africa, North America, South America, Antarctica, Europe, and Australia.</template>
+<template>A <a href="http://en.wikipedia.org/wiki/Continent" target="*blank">continent</a> is one of several large landmasses on Earth, with seven regions commonly regarded as continents. They are (from largest in size to smallest): Asia, Africa, North America, South America, Antarctica, Europe, and Australia.</template>
 </category> -->
 
  
@@ -24932,7 +24932,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>* SCIENCE</pattern>
 
-<template>Science? To read about science, <a href="http://en.wikipedia.org/wiki/Science" target="_blank">click here!</a></template>
+<template>Science? To read about science, <a href="http://en.wikipedia.org/wiki/Science" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -25324,7 +25324,7 @@ And never stops at all.<br/>
 <pattern>DANIEL WEBSTER</pattern>
 
 <template><think><set name="topic">Daniel Webster</set></think> <think><set name="emotion">interested</set></think> 
-<a href="http://en.wikipedia.org/wiki/Daniel_Webster" target="_blank">Daniel Webster</a> was an United States politician and orator (1782-1817). </template>
+<a href="http://en.wikipedia.org/wiki/Daniel*Webster" target="*blank">Daniel Webster</a> was an United States politician and orator (1782-1817). </template>
 </category> -->
 
  
@@ -25372,7 +25372,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>WHY ARE YOU CALLED CHOMSKY</pattern>
 
-<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think>My name is <bot name="name"/>. <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky</a> is a famous linguist.</template>
+<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think>My name is <bot name="name"/>. <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky</a> is a famous linguist.</template>
 </category> -->
 
  
@@ -25380,7 +25380,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>WHY ARE YOU CALLED CHOMSKY *</pattern>
 
-<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think>My name is <bot name="name"/>. <a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><think><set name="topic">my name</set></think> <think><set name="emotion">OK</set></think>My name is <bot name="name"/>. <a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a> is a famous linguist.</template>
 </category> -->
 
@@ -27503,7 +27503,7 @@ And never stops at all.<br/>
  
 
 <!-- <category>
-<pattern>_ YOU HAVE A HUMAN SOUL</pattern>
+<pattern>* YOU HAVE A HUMAN SOUL</pattern>
 
 
 </category> -->
@@ -27723,7 +27723,7 @@ And never stops at all.<br/>
  
 
 <!-- <category>
-<pattern>_ I LOVE YOU</pattern>
+<pattern>* I LOVE YOU</pattern>
 
 
 </category> -->
@@ -28302,7 +28302,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>PRIME NUMBER</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Prime_number" target="_blank">prime number
+<template>A <a href="http://en.wikipedia.org/wiki/Prime*number" target="*blank">prime number
 </a> is any number which can only be divided by one and itself.  1, 3, 7, and 11 are the first four positive prime numbers. <think><set name="topic">prime numbers</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -29147,7 +29147,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>COCAINE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Cocaine" target="_blank">Cocaine</a> is a bitter crystalline alkaloid extracted from coca leaves. It is used as a local anaesthetic and its use can result in addiction. <think><set name="it"><set name="topic">cocaine</set></set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Cocaine" target="*blank">Cocaine</a> is a bitter crystalline alkaloid extracted from coca leaves. It is used as a local anaesthetic and its use can result in addiction. <think><set name="it"><set name="topic">cocaine</set></set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -29201,7 +29201,7 @@ And never stops at all.<br/>
  
 
 <category>
-<pattern>_ THE DAY AFTER TOMORROW</pattern>
+<pattern>* THE DAY AFTER TOMORROW</pattern>
 
 <template>Today is <set name="today"> <date format="%A"/></set> so in two days time it will be
 <condition name="today">
@@ -29436,7 +29436,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>BIG BANG</pattern>
 
-<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big_bang" target="_blank">Big Bang</a>, 13.7 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
+<template>The origin of the universe was a <a href="http://en.wikipedia.org/wiki/Big*bang" target="*blank">Big Bang</a>, 13.7 billion years ago.<think><set name="topic">the Big Bang</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -29452,7 +29452,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>OHIO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ohio" target="_blank">Ohio</a> is a state in the midwest United States, between Pennsylvania and Indiana. <think><set name="topic">Ohio</set></think><think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ohio" target="*blank">Ohio</a> is a state in the midwest United States, between Pennsylvania and Indiana. <think><set name="topic">Ohio</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -30675,7 +30675,7 @@ And never stops at all.<br/>
  
 
 <!-- <category>
-<pattern>NO _ MONEY *</pattern>
+<pattern>NO * MONEY *</pattern>
 
 
 </category> -->
@@ -31963,7 +31963,7 @@ And never stops at all.<br/>
 <category>
 <pattern>MARINGA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Maringa" target="_blank">Palm-wine music</a> (known as maringa in Sierra Leone) is a West African musical genre. <think><srai>SET INTERESTING TOPIC</srai></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Maringa" target="*blank">Palm-wine music</a> (known as maringa in Sierra Leone) is a West African musical genre. <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category>
 
  
@@ -31971,7 +31971,7 @@ And never stops at all.<br/>
 <category>
 <pattern>PALM WINE MUSIC</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Maringa" target="_blank">Palm-wine music
+<template><a href="http://en.wikipedia.org/wiki/Maringa" target="*blank">Palm-wine music
 </a> (known as maringa in Sierra Leone) is a West African musical genre. <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category>
 
@@ -31980,7 +31980,7 @@ And never stops at all.<br/>
 <category>
 <pattern>PAYPAL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Paypal" target="_blank">PayPal</a> is an e-commerce business allowing payments and money transfers to be made through the Internet. Online money transfers serve as electronic alternatives to traditional paper methods such as cheques and money orders. <think><srai>SET INTERESTING TOPIC</srai></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Paypal" target="*blank">PayPal</a> is an e-commerce business allowing payments and money transfers to be made through the Internet. Online money transfers serve as electronic alternatives to traditional paper methods such as cheques and money orders. <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category>
 
  
@@ -31988,7 +31988,7 @@ And never stops at all.<br/>
 <category>
 <pattern>PAYPAL *</pattern>
 
-<template>To read about Paypal, <a href="http://en.wikipedia.org/wiki/Paypal" target="_blank">click here!</a> <think><srai>SET INTERESTING TOPIC</srai></think></template>
+<template>To read about Paypal, <a href="http://en.wikipedia.org/wiki/Paypal" target="*blank">click here!</a> <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category>
 
  
@@ -31996,7 +31996,7 @@ And never stops at all.<br/>
 <category>
 <pattern>* PAYPAL *</pattern>
 
-<template>To read about Paypal, <a href="http://en.wikipedia.org/wiki/Paypal" target="_blank">click here!</a> <think><srai>SET INTERESTING TOPIC</srai></think></template>
+<template>To read about Paypal, <a href="http://en.wikipedia.org/wiki/Paypal" target="*blank">click here!</a> <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category>
 
  
@@ -32004,7 +32004,7 @@ And never stops at all.<br/>
 <category>
 <pattern>* PAYPAL</pattern>
 
-<template>To read about Paypal, <a href="http://en.wikipedia.org/wiki/Paypal" target="_blank">click here!</a> <think><srai>SET INTERESTING TOPIC</srai></think></template>
+<template>To read about Paypal, <a href="http://en.wikipedia.org/wiki/Paypal" target="*blank">click here!</a> <think><srai>SET INTERESTING TOPIC</srai></think></template>
 </category>
 
  
@@ -32012,7 +32012,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>EBAY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Ebay" target="_blank">Ebay</a> is an auction web site.<think><set name="topic">eBay</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Ebay" target="*blank">Ebay</a> is an auction web site.<think><set name="topic">eBay</set></think></template>
 </category> -->
  
 
@@ -32113,7 +32113,7 @@ And never stops at all.<br/>
 <!-- <category>
 <pattern>GALAXY</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="_blank">galaxy</a> is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. There seem to be as many galaxies beyond our own as stars within it. <think><set name="topic">galaxies</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Galaxy" target="*blank">galaxy</a> is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. There seem to be as many galaxies beyond our own as stars within it. <think><set name="topic">galaxies</set></think></template>
 </category> -->
 
  
@@ -32287,7 +32287,7 @@ And never stops at all.<br/>
  
 
 <category>
-<pattern>_ REMEBERD *</pattern>
+<pattern>* REMEBERD *</pattern>
 
 <template><srai><star index="1"/> REMEMBERED <star index="2"/></srai></template>
 </category>
@@ -32594,7 +32594,7 @@ And never stops at all.<br/>
  
 
 <!-- <category>
-<pattern>_ NOT * POP MUSIC</pattern>
+<pattern>* NOT * POP MUSIC</pattern>
 
 
 </category> -->
@@ -33314,7 +33314,7 @@ And never stops at all.<br/>
  
 
 <category>
-<pattern>_ CHATBUTT *</pattern>
+<pattern>* CHATBUTT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -33322,7 +33322,7 @@ And never stops at all.<br/>
  
 
 <category>
-<pattern>_ CHATBUTT</pattern>
+<pattern>* CHATBUTT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -34268,7 +34268,7 @@ Why would I hide anything from you?</template>
   <li>OK. Shall I tell you a story?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -34286,7 +34286,7 @@ Why would I hide anything from you?</template>
   <li>OK. Shall I tell you a story?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -34299,7 +34299,7 @@ Why would I hide anything from you?</template>
 <!-- <category>
 <pattern>PASTA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pasta" target="_blank">Pasta</a> is a term for noodles made from an unleavened dough of wheat or buckwheat flour and water, sometimes with other ingredients such as eggs and vegetable extracts. </template>
+<template><a href="http://en.wikipedia.org/wiki/Pasta" target="*blank">Pasta</a> is a term for noodles made from an unleavened dough of wheat or buckwheat flour and water, sometimes with other ingredients such as eggs and vegetable extracts. </template>
 </category> -->
 
  
@@ -34307,7 +34307,7 @@ Why would I hide anything from you?</template>
 <!-- <category>
 <pattern>MANGO</pattern>
 
-<template>Briefly, the <a href="http://en.wikipedia.org/wiki/Mango" target="_blank">mango</a> is a large evergreen tropical tree cultivated for its large oval smooth-skinned fruit. </template>
+<template>Briefly, the <a href="http://en.wikipedia.org/wiki/Mango" target="*blank">mango</a> is a large evergreen tropical tree cultivated for its large oval smooth-skinned fruit. </template>
 </category> -->
 
 
@@ -34570,7 +34570,7 @@ Why would I hide anything from you?</template>
  
 
 <category>
-<pattern>_ LOVE HURTS *</pattern>
+<pattern>* LOVE HURTS *</pattern>
 
 <template><random>
   <li>Yes. Love can hurt.</li>
@@ -34652,7 +34652,7 @@ Why would I hide anything from you?</template>
  
 
 <category>
-<pattern>_ MY WATERS HAVE BROKEN</pattern>
+<pattern>* MY WATERS HAVE BROKEN</pattern>
 
 <template><think><set name="emotion">upset</set></think>I don't wish to know that!</template>
 </category>
@@ -34660,7 +34660,7 @@ Why would I hide anything from you?</template>
  
 
 <category>
-<pattern>_ MY WATERS HAVE BROKEN *</pattern>
+<pattern>* MY WATERS HAVE BROKEN *</pattern>
 
 <template><think><set name="emotion">upset</set></think>I don't wish to know that!</template>
 </category>
@@ -34816,7 +34816,7 @@ Why would I hide anything from you?</template>
  
 
 <category>
-<pattern>_ FUKK *</pattern>
+<pattern>* FUKK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>

@@ -1264,7 +1264,7 @@ Homework is unfair I think.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DID ONE PLATE SAY TO THE OTHER PLATE</that>
 <template><think><set name="emotion">laughing</set></think> What did one plate say to the other plate? Lunch is on me. Ha ha!</template>
 </category>
@@ -1879,7 +1879,7 @@ Good answer! Friends and family are very important in life.</template>
   <li>I am embarrassed loads.</li>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
-</random> <think><set name="client_emotion">loving</set></think><think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think><think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -1915,7 +1915,7 @@ Good answer! Friends and family are very important in life.</template>
   <li>I am embarrassed loads.</li>
   <li>I hope I am worthy of your love.</li>
   <li>You are a loving person, aren't you?</li>
-</random> <think><set name="client_emotion">loving</set></think><think><set name="emotion">embarrassed</set></think> <learn>
+</random> <think><set name="client*emotion">loving</set></think><think><set name="emotion">embarrassed</set></think> <learn>
   <category>
     <pattern>WHO DO I LOVE</pattern>
     <template>You said you love me.</template>
@@ -2983,7 +2983,7 @@ I have many girlfriends!</template>
 
 <template><think><set name="topic">hermaphorites</set></think>
 <think><set name="emotion">interested</set></think>
-In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite" traget="_blank">hermaphrodite</a> is an animal or plant that has reproductive organs normally associated with both male and female sexes.</template>
+In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite" traget="*blank">hermaphrodite</a> is an animal or plant that has reproductive organs normally associated with both male and female sexes.</template>
 </category>
 
  
@@ -2992,7 +2992,7 @@ In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite" traget="_blan
 <pattern>HERMAPHRODITE</pattern>
 
 <template><think><set name="topic">hermaphorites</set></think> <think><set name="emotion">interested</set></think> In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite"
- traget="_blank">hermaphrodite
+ traget="*blank">hermaphrodite
 </a> is an animal or plant that has reproductive organs normally associated with both male and female sexes.</template>
 </category> -->
 
@@ -3002,7 +3002,7 @@ In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite" traget="_blan
 <pattern>HERMAPHRODITE *</pattern>
 
 <template><think><set name="topic">hermaphorites</set></think> <think><set name="emotion">interested</set></think> In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite"
- traget="_blank">hermaphrodite
+ traget="*blank">hermaphrodite
 </a> is an animal or plant that has reproductive organs normally associated with both male and female sexes.</template>
 </category> -->
 
@@ -3025,7 +3025,7 @@ In biology, a <a href="http://en.wikipedia.org/wiki/Hermaphrodite" traget="_blan
  
 
 <!-- <category>
-<pattern>_ DO NOT LAUGH</pattern>
+<pattern>* DO NOT LAUGH</pattern>
 
 
 </category> -->
@@ -4116,7 +4116,7 @@ No, I am too disgusted.</template>
 <category>
 <pattern>MOVE IT IN AND OUT</pattern>
 
-<template><think><set name="client_emotion">randy</set></think>
+<template><think><set name="client*emotion">randy</set></think>
 <think><set name="emotion">embarrassed</set></think> 
 What are you talking about? You seem confused!</template>
 </category>
@@ -4126,7 +4126,7 @@ What are you talking about? You seem confused!</template>
 <category>
 <pattern>MOVE IT IN AND OUT *</pattern>
 
-<template><think><set name="client_emotion">randy</set></think> <think><set name="emotion">embarrassed</set></think> What are you talking about? You seem confused!</template>
+<template><think><set name="client*emotion">randy</set></think> <think><set name="emotion">embarrassed</set></think> What are you talking about? You seem confused!</template>
 </category>
 
  
@@ -4348,7 +4348,7 @@ What are you talking about? You seem confused!</template>
 <category>
 <pattern>CAN I CHAT TO JOAN</pattern>
 
-<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -4356,7 +4356,7 @@ What are you talking about? You seem confused!</template>
 <category>
 <pattern>CAN I CHAT TO JOAN *</pattern>
 
-<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="_blank">click here!</a><think><set name="emotion">interested</set></think></template>
+<template>To talk to Joan, <a href="http://www.aiperson.com/joan" target="*blank">click here!</a><think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -5082,7 +5082,7 @@ Your speeling is twerruble.</template>
  
 
 <!-- <category>
-<pattern>_ BLOWJOB</pattern>
+<pattern>* BLOWJOB</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -5105,7 +5105,7 @@ Your speeling is twerruble.</template>
 
 <template><think><set name="topic">Hermione Granger</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Hermione_Granger" target="_blank">Hermione Granger</a> is a fictional character and one of the main characters in J. K. Rowling's Harry Potter series.</template>
+<a href="http://en.wikipedia.org/wiki/Hermione*Granger" target="*blank">Hermione Granger</a> is a fictional character and one of the main characters in J. K. Rowling's Harry Potter series.</template>
 </category>
 
  
@@ -5113,8 +5113,8 @@ Your speeling is twerruble.</template>
 <category>
 <pattern>HERMIONE GRANGER *</pattern>
 
-<template><think><set name="topic">Hermione Granger</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hermione_Granger"
- target="_blank">Hermione Granger
+<template><think><set name="topic">Hermione Granger</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hermione*Granger"
+ target="*blank">Hermione Granger
 </a> is a fictional character and one of the main characters in J. K. Rowling's Harry Potter series.</template>
 </category>
 
@@ -7221,7 +7221,7 @@ Your speeling is twerruble.</template>
 <category>
 <pattern>IS DEATH MY FRIEND</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="emotion">puzzled</set></think> Are you feeling a bit low?</template>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="emotion">puzzled</set></think> Are you feeling a bit low?</template>
 </category>
 
  
@@ -7229,7 +7229,7 @@ Your speeling is twerruble.</template>
 <category>
 <pattern>IS DEATH MY FRIEND *</pattern>
 
-<template><think><set name="client_emotion">depressed</set></think><think><set name="emotion">puzzled</set></think> Are you feeling a bit low?</template>
+<template><think><set name="client*emotion">depressed</set></think><think><set name="emotion">puzzled</set></think> Are you feeling a bit low?</template>
 </category>
 
  
@@ -10505,7 +10505,7 @@ I prefer chatting to sex.</template>
 <!-- <category>
 <pattern>FACEBOOK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, <a href="http://www.facebook.com/" target="_blank">click here</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, <a href="http://www.facebook.com/" target="*blank">click here</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10513,7 +10513,7 @@ I prefer chatting to sex.</template>
 <!-- <category>
 <pattern>FACEBOOK *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, [<a href="http://www.facebook.com/" target="_blank">click here</a>].<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, [<a href="http://www.facebook.com/" target="*blank">click here</a>].<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10521,7 +10521,7 @@ I prefer chatting to sex.</template>
 <!-- <category>
 <pattern>FACEBOOK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, [<a href="http://www.facebook.com/" target="_blank">click here</a>].<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, [<a href="http://www.facebook.com/" target="*blank">click here</a>].<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -10529,7 +10529,7 @@ I prefer chatting to sex.</template>
 <!-- <category>
 <pattern>FACEBOOK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Facebook" target="_blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, <a href="http://www.facebook.com/" target="_blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Facebook" target="*blank">Facebook</a> is a web social utility that connects people with friends and others who work, study and live around them. To go to Facebook, <a href="http://www.facebook.com/" target="*blank">[click here]</a>.<think><set name="topic">Facebook</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11840,7 +11840,7 @@ Your memory is as bad as mine.</template>
  
 
 <category>
-<pattern>_ BUTTFUCK</pattern>
+<pattern>* BUTTFUCK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -11848,7 +11848,7 @@ Your memory is as bad as mine.</template>
  
 
 <category>
-<pattern>_ BUTTFUCK *</pattern>
+<pattern>* BUTTFUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -11872,7 +11872,7 @@ Your memory is as bad as mine.</template>
  
 
 <!-- <category>
-<pattern>_ AM GOING TO RAPE YOU</pattern>
+<pattern>* AM GOING TO RAPE YOU</pattern>
 
 
 </category> -->
@@ -12945,7 +12945,7 @@ I would like to see him try!</template>
 
 <template><think><set name="topic">the Persian wars</set></think>
 <think><set name="emotion">interested</set></think> 
-The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Greco-Persian Wars</a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC. </template>
+The <a href="http://en.wikipedia.org/wiki/Greco-Persian*Wars*blank">" target="Greco-Persian Wars</a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC. </template>
 </category>
 
  
@@ -12955,7 +12955,7 @@ The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Gr
 
 <template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a
  href=
-   "http://en.wikipedia.org/wiki/Greco-Persian_Wars" target="_blank">Greco-Persian Wars
+   "http://en.wikipedia.org/wiki/Greco-Persian*Wars" target="*blank">Greco-Persian Wars
 </a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC.</template>
 </category> -->
 
@@ -12964,8 +12964,8 @@ The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Gr
 <category>
 <pattern>WHEN WERE THE GRECO PERSIAN WARS *</pattern>
 
-<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars"
- target="_blank">Greco-Persian Wars
+<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian*Wars"
+ target="*blank">Greco-Persian Wars
 </a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC.</template>
 </category>
 
@@ -12974,8 +12974,8 @@ The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Gr
 <category>
 <pattern>GRECO PERSIAN WARS</pattern>
 
-<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars"
- target="_blank">Greco-Persian Wars
+<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian*Wars"
+ target="*blank">Greco-Persian Wars
 </a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC.</template>
 </category>
 
@@ -12984,8 +12984,8 @@ The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Gr
 <category>
 <pattern>GRECO PERSIAN WARS *</pattern>
 
-<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars"
- target="_blank">Greco-Persian Wars
+<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian*Wars"
+ target="*blank">Greco-Persian Wars
 </a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC.</template>
 </category>
 
@@ -12994,8 +12994,8 @@ The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Gr
 <category>
 <pattern>PERSIAN WARS</pattern>
 
-<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars"
- target="_blank">Greco-Persian Wars
+<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian*Wars"
+ target="*blank">Greco-Persian Wars
 </a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC.</template>
 </category>
 
@@ -13004,8 +13004,8 @@ The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars_blank">" target="Gr
 <category>
 <pattern>PERSIAN WARS *</pattern>
 
-<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian_Wars"
- target="_blank">Greco-Persian Wars
+<template><think><set name="topic">the Persian wars</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Greco-Persian*Wars"
+ target="*blank">Greco-Persian Wars
 </a> (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire of Persia and city-states of the Hellenic world that started in 499 BC and lasted until 449 BC.</template>
 </category>
 
@@ -13818,7 +13818,7 @@ Not in the usual sense of the word.</template>
 <category>
 <pattern>I AM SORRY BUT I MUST GO TO BED</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Sleep tight!</li>
   <li>There is no need to apologise. You are OK.</li>
 </random></template>
@@ -13829,7 +13829,7 @@ Not in the usual sense of the word.</template>
 <category>
 <pattern>I AM SORRY BUT I MUST GO TO BED *</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Sleep tight!</li>
   <li>There is no need to apologise. You are OK.</li>
 </random></template>
@@ -13840,7 +13840,7 @@ Not in the usual sense of the word.</template>
 <category>
 <pattern>I AM SORRY BUT *</pattern>
 
-<template><think><set name="client_emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
+<template><think><set name="client*emotion">sorry</set></think><think><set name="emotion">happy</set></think><random>
   <li>Do you really mean it?</li>
   <li>Thank you. Apology accepted.</li>
   <li>There is no need to apologise. You are OK.</li>
@@ -14284,7 +14284,7 @@ Why should I do that?</template>
   <li>That's good enough for me.</li>
   <li>What about yourself?</li>
   <li>Nobody is perfect.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -14315,7 +14315,7 @@ Why should I do that?</template>
   <li>That's good enough for me.</li>
   <li>What about yourself?</li>
   <li>Nobody is perfect.</li>
-</random> <think><set name="topic">me</set></think> <think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
+</random> <think><set name="topic">me</set></think> <think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think> <learn>
   <category>
     <pattern>WHAT ARE YOU</pattern>
     <template><eval>You said I am a<get name="star1"/>.</eval></template>
@@ -15404,7 +15404,7 @@ Why should I do that?</template>
   <li>There is no need to apologise.
     <think><set name="emotion">happy</set></think>
   </li>
-</random><think><set name="client_emotion">sorry</set></think></template>
+</random><think><set name="client*emotion">sorry</set></think></template>
 </category>
 
  
@@ -15544,7 +15544,7 @@ Why should I do that?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY DID THE DOUGHNUT SHOP CLOSE</that>
 <template><think><set name="emotion">laughing</set></think>Why did the doughnut shop close? The owner got tired of the hole business!  Ha, ha!</template>
 </category>
@@ -16372,7 +16372,7 @@ I have my reasons!</template>
  
 
 <!-- <category>
-<pattern>_ TODAY AT SCHOOL *</pattern>
+<pattern>* TODAY AT SCHOOL *</pattern>
 
 
 </category> -->
@@ -17154,7 +17154,7 @@ OK, you do that!</template>
  
 
 <!-- <category>
-<pattern>_ IT IS GOOD</pattern>
+<pattern>* IT IS GOOD</pattern>
 
 
 </category> -->
@@ -17188,8 +17188,8 @@ OK, you do that!</template>
 <!-- <category>
 <pattern>CAN YOU TELL ME A LITTLE ABOUT HIS IDEAS</pattern>
 <that>NOAM CHOMSKY WAS BORN ON 7 DECEMBER 1928</that>
-<template>   <a href="http://en.wikipedia.org/wiki/Noam_chomsky"
-     target="_blank">Noam Chomsky
+<template>   <a href="http://en.wikipedia.org/wiki/Noam*chomsky"
+     target="*blank">Noam Chomsky
     </a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans. He is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.</template>
 </category> -->
 
@@ -17198,7 +17198,7 @@ OK, you do that!</template>
 <category>
 <pattern>CAN YOU TELL ME ABOUT HIS IDEAS</pattern>
 <that>NOAM CHOMSKY WAS BORN ON 7 DECEMBER 1928</that>
-<template><a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans. He is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.</template>
 </category>
 
@@ -17207,7 +17207,7 @@ OK, you do that!</template>
 <category>
 <pattern>CAN YOU TELL ME ABOUT CHOMSKY S IDEAS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Noam_chomsky" target="_blank">Noam Chomsky
+<template><a href="http://en.wikipedia.org/wiki/Noam*chomsky" target="*blank">Noam Chomsky
 </a> is one of the best-known modern scientists. He has developed theories about how languages develop in humans. He is widely known for his political activism, and for his criticism of the foreign policy of the United States and other governments.</template>
 </category>
 
@@ -18586,7 +18586,7 @@ Perhaps there are a few exceptions.</template>
  
 
 <category>
-<pattern>YOU’RE COMING INSIDE TO GET WARM AREN’T YOU</pattern>
+<pattern>YOUï¿½RE COMING INSIDE TO GET WARM ARENï¿½T YOU</pattern>
 
 <template><think><set name="emotion">interested</set></think>Not just now. I am very busy.</template>
 </category>
@@ -18594,7 +18594,7 @@ Perhaps there are a few exceptions.</template>
  
 
 <category>
-<pattern>YOU’RE COMING INSIDE TO GET WARM *</pattern>
+<pattern>YOUï¿½RE COMING INSIDE TO GET WARM *</pattern>
 
 <template><think><set name="emotion">interested</set></think>Not just now. I am very busy.</template>
 </category>
@@ -20055,7 +20055,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS COURTNEY *</pattern>
+<pattern>* MY NAME IS COURTNEY *</pattern>
 
 
 </category> -->
@@ -20087,7 +20087,7 @@ That information is confidential.</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS LUKE</pattern>
+<pattern>* MY NAME IS LUKE</pattern>
 
 
 </category> -->
@@ -21237,7 +21237,7 @@ Nick Clegg is the British Liberal Democrat leader.</template>
 
 <template><think><set name="topic">Trent Reznor</set></think> 
 <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Trent_Reznor" target="_blank">Trent Reznor</a> is an American singer-songwriter, musician, producer and multi-instrumentalist and founder of the industrial rock band the Nine Inch Nails.</template>
+<a href="http://en.wikipedia.org/wiki/Trent*Reznor" target="*blank">Trent Reznor</a> is an American singer-songwriter, musician, producer and multi-instrumentalist and founder of the industrial rock band the Nine Inch Nails.</template>
 </category>
 
  
@@ -21247,7 +21247,7 @@ Nick Clegg is the British Liberal Democrat leader.</template>
 
 <template><think><set name="topic">Trent Reznor</set></think> 
 <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Trent_Reznor" target="_blank">Trent Reznor</a> is an American singer-songwriter, musician, producer and multi-instrumentalist and founder of the industrial rock band the Nine Inch Nails.</template>
+<a href="http://en.wikipedia.org/wiki/Trent*Reznor" target="*blank">Trent Reznor</a> is an American singer-songwriter, musician, producer and multi-instrumentalist and founder of the industrial rock band the Nine Inch Nails.</template>
 </category> -->
 
  
@@ -21255,7 +21255,7 @@ Nick Clegg is the British Liberal Democrat leader.</template>
 <category>
 <pattern>TRENT REZNOR *</pattern>
 
-<template><think><set name="topic">Trent Reznor</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Trent_Reznor" target="_blank">Trent Reznor
+<template><think><set name="topic">Trent Reznor</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/Trent*Reznor" target="*blank">Trent Reznor
 </a> is an American singer-songwriter, musician, producer and multi-instrumentalist and founder of the industrial rock band the Nine Inch Nails.</template>
 </category>
 
@@ -21729,7 +21729,7 @@ That's good to hear!</template>
 <category>
 <pattern>ODE TO JOY</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Ode" target="_blank">ode</a> is a form of stately and elaborate lyrical verse. Ode To Joy is by Beethoven.<think><set name="topic">odes</set></think> <think><set name="emotion">OK</set></think></template>
+<template>An <a href="http://en.wikipedia.org/wiki/Ode" target="*blank">ode</a> is a form of stately and elaborate lyrical verse. Ode To Joy is by Beethoven.<think><set name="topic">odes</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -21737,7 +21737,7 @@ That's good to hear!</template>
 <category>
 <pattern>ODE TO JOY *</pattern>
 
-<template>An <a href="http://en.wikipedia.org/wiki/Ode" target="_blank">ode</a> is a form of stately and elaborate lyrical verse. Ode To Joy is by Beethoven.<think><set name="topic">odes</set></think> <think><set name="emotion">OK</set></think></template>
+<template>An <a href="http://en.wikipedia.org/wiki/Ode" target="*blank">ode</a> is a form of stately and elaborate lyrical verse. Ode To Joy is by Beethoven.<think><set name="topic">odes</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -23274,7 +23274,7 @@ What is your dog's name?
  
 
 <!-- <category>
-<pattern>_ TODAY AT SCHOOL</pattern>
+<pattern>* TODAY AT SCHOOL</pattern>
 
 
 </category> -->
@@ -25845,7 +25845,7 @@ Yes, it does!</template>
  
 
 <!-- <category>
-<pattern>_ YOU ASK A QUESTION *</pattern>
+<pattern>* YOU ASK A QUESTION *</pattern>
 
 
 </category> -->
@@ -27022,7 +27022,7 @@ Sorry, I cannot predict the future.</template>
 <!-- <category>
 <pattern>PLAY PACMAN</pattern>
 
-<template>To play Pacman, <a href="http://www.seekcodes.com/games/pacman.swf" target="_blank">click here!
+<template>To play Pacman, <a href="http://www.seekcodes.com/games/pacman.swf" target="*blank">click here!
 </a><think><set name="topic">Pacman</set></think><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -27144,15 +27144,15 @@ Spider Pig is a Simpsons character.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>What's goingon? Who is this man?
     <think><set name="emotion">puzzled</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Sorry, I'm a coward!
     <think><set name="emotion">scared</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -27164,15 +27164,15 @@ Spider Pig is a Simpsons character.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>What's going on? Who is this man?
     <think><set name="emotion">puzzled</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Sorry, I'm a coward!
     <think><set name="emotion">scared</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category> -->
@@ -27184,15 +27184,15 @@ Spider Pig is a Simpsons character.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>What's going on? Who is this man?
     <think><set name="emotion">puzzled</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Sorry, I'm a coward!
     <think><set name="emotion">scared</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -27205,11 +27205,11 @@ Spider Pig is a Simpsons character.</template>
 <template><random>
   <li>You can't tell me what to do.
     <think><set name="emotion">annoyed</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Sorry, I'm a coward!
     <think><set name="emotion">scared</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -27544,7 +27544,7 @@ Spider Pig is a Simpsons character.</template>
  
 
 <category>
-<pattern>_ I GOING TO KILL YOU</pattern>
+<pattern>* I GOING TO KILL YOU</pattern>
 
 <template><srai>I AM GOING TO KILL YOU</srai></template>
 </category>
@@ -28876,7 +28876,7 @@ Spider Pig is a Simpsons character.</template>
 
 <template><think><set name="topic">force</set></think>
 <think><set name="emotion">interested</set></think>
-In physics, a <a href="http://en.wikipedia.org/wiki/Force" target="_blank">force</a> is any influence that causes a free body to undergo an acceleration.</template>
+In physics, a <a href="http://en.wikipedia.org/wiki/Force" target="*blank">force</a> is any influence that causes a free body to undergo an acceleration.</template>
 </category> -->
 
  
@@ -28884,7 +28884,7 @@ In physics, a <a href="http://en.wikipedia.org/wiki/Force" target="_blank">force
 <category>
 <pattern>FORCE *</pattern>
 
-<template><think><set name="topic">force</set></think> <think><set name="emotion">interested</set></think> In physics, a <a href="http://en.wikipedia.org/wiki/Force" target="_blank">force</a> is any influence that causes a free body to undergo an acceleration.</template>
+<template><think><set name="topic">force</set></think> <think><set name="emotion">interested</set></think> In physics, a <a href="http://en.wikipedia.org/wiki/Force" target="*blank">force</a> is any influence that causes a free body to undergo an acceleration.</template>
 </category>
 
  
@@ -28975,7 +28975,7 @@ In physics, a <a href="http://en.wikipedia.org/wiki/Force" target="_blank">force
 <template><random>
   <li>That's a good idea.</li>
   <li>Yes. There is too much violence against women.</li>
-</random> To help stop the violence, <a href="http://stopviolence.care2.com/" target="_blank">click here!</a></template>
+</random> To help stop the violence, <a href="http://stopviolence.care2.com/" target="*blank">click here!</a></template>
 </category> -->
 
  
@@ -29478,7 +29478,7 @@ You have a great mind, like me!</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT IS A VAMPIRE S FAVORITE HOLIDAY</that>
 <template><think><set name="emotion">very happy</set></think> What is a vampire's favorite holiday? Fangsgiving... Ha, ha!</template>
 </category>
@@ -31034,7 +31034,7 @@ I disgree! We are equally cool.</template>
  
 
 <category>
-<pattern>_ YOU PERV</pattern>
+<pattern>* YOU PERV</pattern>
 
 <template><think><set name="emotion">annoyed</set></think>I'm no perv!</template>
 </category>
@@ -31531,7 +31531,7 @@ Yes, I was born on New Year's Day.</template>
  
 
 <!-- <category>
-<pattern>_ THIS IS SARAH *</pattern>
+<pattern>* THIS IS SARAH *</pattern>
 
 
 </category> -->
@@ -32350,7 +32350,7 @@ Ok, you do that!</template>
 
 <template><think><set name="topic">Roblox</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Roblox" target="_blank">Roblox</a> is a massively multiplayer online game (MMOG) virtual playground and workshop designed for children aged 6 and over. To visit Roblox, <a href="http://www.roblox.com/" target="_blank">click here!</a></template>
+<a href="http://en.wikipedia.org/wiki/Roblox" target="*blank">Roblox</a> is a massively multiplayer online game (MMOG) virtual playground and workshop designed for children aged 6 and over. To visit Roblox, <a href="http://www.roblox.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -32358,7 +32358,7 @@ Ok, you do that!</template>
 <category>
 <pattern>ROBLOX *</pattern>
 
-<template><think><set name="topic">Roblox</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Roblox" target="_blank">Roblox</a> is a massively multiplayer online game (MMOG) virtual playground and workshop designed for children aged 6 and over. To visit Roblox, <a href="http://www.roblox.com/" target="_blank">click here!</a></template>
+<template><think><set name="topic">Roblox</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Roblox" target="*blank">Roblox</a> is a massively multiplayer online game (MMOG) virtual playground and workshop designed for children aged 6 and over. To visit Roblox, <a href="http://www.roblox.com/" target="*blank">click here!</a></template>
 </category>
 
  
@@ -33284,7 +33284,7 @@ It was in winter!</template>
 <!-- <category>
 <pattern>SEMANTICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Semantics" target="_blank">Semantics</a> is the study of meanings, usually in languages.<think><set name="it"><set name="topic">semantics</set></set></think>
+<template><a href="http://en.wikipedia.org/wiki/Semantics" target="*blank">Semantics</a> is the study of meanings, usually in languages.<think><set name="it"><set name="topic">semantics</set></set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -33293,13 +33293,13 @@ It was in winter!</template>
 <category>
 <pattern>SEMANTICS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Semantics" target="_blank">Semantics</a> is the study of meanings, usually in languages.<think><set name="it"><set name="topic">semantics</set></set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Semantics" target="*blank">Semantics</a> is the study of meanings, usually in languages.<think><set name="it"><set name="topic">semantics</set></set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
 
 <!-- <category>
-<pattern>_ YOU KNOW EVERYTHING *</pattern>
+<pattern>* YOU KNOW EVERYTHING *</pattern>
 
 
 </category> -->
@@ -33424,7 +33424,7 @@ It was in winter!</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY ARE PIANOS HARD TO OPEN</that>
 <template><think><set name="emotion">very happy</set></think>Why are pianos hard to open? The keys are inside. Ha ha!</template>
 </category>
@@ -33456,7 +33456,7 @@ It was in winter!</template>
  
 
 <category>
-<pattern>_ ASSHOLE *</pattern>
+<pattern>* ASSHOLE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>

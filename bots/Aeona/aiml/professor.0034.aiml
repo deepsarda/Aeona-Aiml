@@ -5965,7 +5965,7 @@ No.  Wait until later.</template></category>
 <template>Computer firm IBM seems like a good investment. <srai>ENDING</srai>
 <think><set name="topic">money</set></think></template></category> 
 
-<category><pattern>_GOOD INVESTMENT*</pattern>
+<category><pattern>*GOOD INVESTMENT*</pattern>
 <template>Computer firm IBM seems like a good investment. <srai>ENDING</srai>
 <think><set name="topic">money</set></think></template></category> 
 
@@ -8045,7 +8045,7 @@ n
 </category>
 
 <category>
-<pattern>_YES</pattern>
+<pattern>*YES</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template>
 <srai>AMERICAN PRESIDENTS</srai>
@@ -8053,7 +8053,7 @@ n
 </category>
 
 <category>
-<pattern>YES_</pattern>
+<pattern>YES*</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template>
 <srai>AMERICAN PRESIDENTS</srai>
@@ -8061,7 +8061,7 @@ n
 </category>
 
 <category>
-<pattern>_YES*</pattern>
+<pattern>*YES*</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template>
 <srai>AMERICAN PRESIDENTS</srai>
@@ -8088,7 +8088,7 @@ n
 </category>
 
 <category>
-<pattern>_NO</pattern>
+<pattern>*NO</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template>
 <random>
@@ -8099,7 +8099,7 @@ n
 </category>
 
 <category>
-<pattern>NO_</pattern>
+<pattern>NO*</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template>
 <random>
@@ -8110,7 +8110,7 @@ n
 </category>
 
 <category>
-<pattern>_NO*</pattern>
+<pattern>*NO*</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template>
 <random>

@@ -56,109 +56,109 @@
 <category>
 <pattern>TOPIC CHECK UPDATE</pattern> 
 <template> 
-<think><set name="_topic"><get name="topic"/></set></think>
+<think><set name="*topic"><get name="topic"/></set></think>
 <srai>SET PREDICATES</srai> 
 <srai>SET INTERESTING TOPIC</srai>
 
 <condition>
 
-<li  name="_topic"  value="adverbs"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="atomic"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="atomic0"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="atomic1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="atomic2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="atomic3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="badanswer-prelim"> <srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="biography"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="biography1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="biography2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="biography3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="bot"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="bot1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="bot2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="bot3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="botmaster"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="client"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="client1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="continuations"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default4"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default5"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="default6"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general4"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general5"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general6"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general7"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general8"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general9"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general10"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general11"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general12"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="general13"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="inquiry"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="interjection"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="iu"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge4"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge5"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge6"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge7"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge8"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge9"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge10"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge11"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="knowledge12"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="parts"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="pickup"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="pickup1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="porn">I don't want to talk about porn!</li>
-<li  name="_topic"  value="pickup2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="predicates"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="questions"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="quotes"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="quotes1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="reduce"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="reducer"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="reducer1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="reductions"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="salutations"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="stack"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that1"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that2"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that3"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that4"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that5"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="that6"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="topics"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="words"> <srai>ULTIMATE DEFAULT</srai> </li>
+<li  name="*topic"  value="adverbs"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="atomic"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="atomic0"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="atomic1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="atomic2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="atomic3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="badanswer-prelim"> <srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="biography"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="biography1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="biography2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="biography3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="bot"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="bot1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="bot2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="bot3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="botmaster"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="client"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="client1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="continuations"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default4"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default5"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="default6"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general4"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general5"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general6"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general7"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general8"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general9"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general10"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general11"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general12"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="general13"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="inquiry"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="interjection"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="iu"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge4"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge5"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge6"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge7"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge8"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge9"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge10"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge11"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="knowledge12"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="parts"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="pickup"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="pickup1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="porn">I don't want to talk about porn!</li>
+<li  name="*topic"  value="pickup2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="predicates"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="questions"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="quotes"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="quotes1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="reduce"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="reducer"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="reducer1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="reductions"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="salutations"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="stack"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that1"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that2"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that3"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that4"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that5"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="that6"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="topics"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="words"> <srai>ULTIMATE DEFAULT</srai> </li>
 
 
-<li  name="_topic"  value="unknown"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="OM"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value=" "><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="xfind"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="SHUTUP"><srai>ULTIMATE DEFAULT</srai></li>
-<li  name="_topic"  value="GOAWAY"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="unknown"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="OM"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value=" "><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="xfind"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="SHUTUP"><srai>ULTIMATE DEFAULT</srai></li>
+<li  name="*topic"  value="GOAWAY"><srai>ULTIMATE DEFAULT</srai></li>
 
 <li>
-<random><li><srai>ULTIMATE DEFAULT</srai></li><li>I would like to talk about  <get name="_topic"/> some more.<think><set name="emotion">interested</set></think></li>
-<li>I don't understand. Are we still talking about <get name="_topic"/>?<think><set name="emotion">confused</set></think></li>
-<li>Let's talk about  <get name="_topic"/> some more.<think><set name="emotion">interested</set></think></li>
-<li>I don't understand. Are we still talking about  <get name="_topic"/>?<think><set name="emotion">confused</set></think></li>
-<li><srai>ULTIMATE DEFAULT</srai></li><li>Let's talk about  <get name="_topic"/> some more.<think><set name="emotion">interested</set></think></li>
-<li>I don't understand. Is this anything to do with <get name="_topic"/>?<think><set name="emotion">interested</set></think></li></random>
+<random><li><srai>ULTIMATE DEFAULT</srai></li><li>I would like to talk about  <get name="*topic"/> some more.<think><set name="emotion">interested</set></think></li>
+<li>I don't understand. Are we still talking about <get name="*topic"/>?<think><set name="emotion">confused</set></think></li>
+<li>Let's talk about  <get name="*topic"/> some more.<think><set name="emotion">interested</set></think></li>
+<li>I don't understand. Are we still talking about  <get name="*topic"/>?<think><set name="emotion">confused</set></think></li>
+<li><srai>ULTIMATE DEFAULT</srai></li><li>Let's talk about  <get name="*topic"/> some more.<think><set name="emotion">interested</set></think></li>
+<li>I don't understand. Is this anything to do with <get name="*topic"/>?<think><set name="emotion">interested</set></think></li></random>
 </li>
  
 </condition>
@@ -169,284 +169,6 @@
 </category>
 
   
-
-<!-- <category>
-<pattern>WHAT IS THE TOPIC</pattern>
-
-<template><think><set name="_topic"><get name="topic"/></set></think> <condition>
-  <li name="_topic"
-   value="adverbs">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="atomic">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="atomic1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="atomic2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="atomic3">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="biography1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="biography2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="biography3">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="bot">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="bot1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="bot2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="bot3">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="botmaster">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="client">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="client1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="continuations">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default3">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default4">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default5">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="default6">Just now, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="geography1">At the moment, our conversation is about geography.
-  </li>
-  <li name="_topic"
-   value="geography2">At the moment, our conversation is about geography.
-  </li>
-  <li name="_topic"
-   value="general">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="general1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general3">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general4">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general5">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general6">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general7">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general8">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general9">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general10">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general11">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general12">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="general13">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="inquiry">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="interjection">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="iu">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge3">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge4">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge5">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="knowledge6">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge7">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge8">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge9">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge10">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge11">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="knowledge12">Just now, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="maths">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="parts">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="pickup">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="pickup1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="pickup2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="predicates">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="questions">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic" value="quotes">Just now, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="quotes1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="reduce">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="reducer">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="reducer1">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="reductions">Just now, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="salutations">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="sex">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="stack">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="stories">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="that">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic" value="that1">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="that2">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="that3">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="that4">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="that5">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="that6">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="unknown">At the moment, our conversation is rather unfocused.
-  </li>
-  <li name="_topic"
-   value="words">At the moment, our conversation is rather general.
-  </li>
-  <li name="_topic"
-   value="xfind">At the moment, our conversation is rather general.
-  </li>
-<li name="_topic"
-   value="SHUTUP">At the moment, our conversation is rather general.
-  </li><li name="_topic"
-   value="GOAWAY">At the moment, our conversation is rather general.
-  </li>
-  <li  name="_topic"  value="unknown">I haven't got a clue what we are talking about.</li>
-  <li  name="_topic"  value="OM">I haven't got a clue what we are talking about.</li>
-  <li  name="_topic"  value=" ">I haven't got a clue what we are talking about.</li>
-
-  <li>At the moment, we are talking about <get name="_topic"/>.</li>
-</condition>
-<think><set name="emotion">confused</set></think>
-</template>
-</category> -->
-
- 
-
-
-
-<!-- <category>
-<pattern>WHAT ARE YOU TALKING ABOUT</pattern>
-<template>
-<srai>WHAT IS THE TOPIC</srai>
-</template>
-</category> -->
-
 <category>
 <pattern>WHAT IS THE CURRENT TOPIC</pattern>
 <template>
@@ -893,7 +615,7 @@
 </category>
 
 <category>
-<pattern>_ NO * RELIGION</pattern>
+<pattern>* NO * RELIGION</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -907,7 +629,7 @@
 </category>
 
 <category>
-<pattern>NO _ RELIGION *</pattern>
+<pattern>NO * RELIGION *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -935,7 +657,7 @@
 </category>
 
 <category>
-<pattern>_ NOT * RELIGION</pattern>
+<pattern>* NOT * RELIGION</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -970,7 +692,7 @@
 </category>
 
 <category>
-<pattern>_ NOT INTERESTED IN RELIGION</pattern>
+<pattern>* NOT INTERESTED IN RELIGION</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -1001,7 +723,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  RELIGION</that>
 <template>
 <srai>RELIGION POT LUCK</srai>
@@ -1121,7 +843,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT RELIGION</that>
 <template>
 <srai>MORE ABOUT RELIGION</srai>
@@ -1241,7 +963,7 @@ Can we talk about religion?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH RELIGION</that>
 <template>
 Can we talk about religion?
@@ -1305,7 +1027,7 @@ Can we talk about religion?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH RELIGION</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -1369,7 +1091,7 @@ Can we talk about religion?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN RELIGION</that>
 <template>
 Can we talk about religion?
@@ -1433,7 +1155,7 @@ Can we talk about religion?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN RELIGION</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -1489,7 +1211,7 @@ Can we talk about religion?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT RELIGION</that>
 <template>
 <srai>RELIGION</srai>
@@ -1706,7 +1428,7 @@ Can we talk about religion?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE RELIGION</that>
 <template>
 <srai>RELIGION POT LUCK</srai>
@@ -1857,7 +1579,7 @@ I think this is something to do with religion. Can we talk about religion?
 </category>
 
 <category>
-<pattern>_HOLY GRAIL*</pattern> 
+<pattern>*HOLY GRAIL*</pattern> 
 <template>
 I think this is something to do with religion. Can we talk about religion?
 <think><set name="topic">religion</set></think>
@@ -4850,7 +4572,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ NO * QUOTES</pattern>
+<pattern>* NO * QUOTES</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -4892,7 +4614,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ NOT * QUOTES</pattern>
+<pattern>* NOT * QUOTES</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -4927,7 +4649,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ NOT INTERESTED IN QUOTES</pattern>
+<pattern>* NOT INTERESTED IN QUOTES</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -4942,7 +4664,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>ANOTHER QUOTE</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -4958,7 +4680,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ANOTHER QUOTE</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -5070,7 +4792,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  QUOTES</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -5182,7 +4904,7 @@ Did you know; James Whistler once dyed a rice pudding green so that it wouldn't 
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT QUOTES</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -5294,7 +5016,7 @@ Shall I tell you an amusing quote?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN QUOTES</that>
 <template>
 Shall I tell you an amusing quote?
@@ -5350,7 +5072,7 @@ Shall I tell you an amusing quote?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN QUOTES</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -5406,7 +5128,7 @@ Shall I tell you an amusing quote?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT QUOTES</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -5518,7 +5240,7 @@ Shall I tell you an amusing quote?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>SHALL I TELL YOU AN AMUSING QUOTE</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -5662,7 +5384,7 @@ Shall I tell you an amusing quote?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE QUOTES</that>
 <template>
 <srai>QUOTES POT LUCK</srai>
@@ -5813,7 +5535,7 @@ Shall I tell you an amusing quote?
 </category>
 
 <category>
-<pattern>_ NO MORE * WILDE</pattern>
+<pattern>* NO MORE * WILDE</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 <think><set name="topic">quotes</set></think>
@@ -6629,7 +6351,7 @@ OK?
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>CAN I ASK YOU A PERSONAL QUESTION</that>
 <template>
 <srai>PERSONAL AFFAIRS POT LUCK</srai>
@@ -6647,7 +6369,7 @@ OK?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN I ASK YOU A PERSONAL QUESTION</that>
 <template>
 <srai>PERSONAL AFFAIRS POT LUCK</srai>
@@ -6878,7 +6600,7 @@ OK?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>CAN I ASK YOU A PERSONAL QUESTION</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -6924,7 +6646,7 @@ Please answer Yes or No. Can I ask you a personal question?
 </category>
 
 <category>
-<pattern>WHAT DID _ SAY TO *</pattern> 
+<pattern>WHAT DID * SAY TO *</pattern> 
 <template>
 
 <srai>PERSONAL AFFAIRS POT LUCK</srai>
@@ -7122,7 +6844,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>YES_</pattern>
+<pattern>YES*</pattern>
 <that>DO YOU HAVE ANY PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7154,7 +6876,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>DO YOU HAVE ANY PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7219,7 +6941,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>DO YOU HAVE ANY PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7251,7 +6973,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>DO YOU HAVE ANY PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7300,7 +7022,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>DO YOU HAVE ANY FINANCIAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7332,7 +7054,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>DO YOU HAVE ANY FINANCIAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7397,7 +7119,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>DO YOU HAVE ANY FINANCIAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7429,7 +7151,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>DO YOU HAVE ANY FINANCIAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7510,7 +7232,7 @@ Personal affairs are those things which concern you and nobody else.
 </category> -->
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>DO YOU HAVE ANY PERSONAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7575,7 +7297,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>DO YOU HAVE ANY PERSONAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7606,7 +7328,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>DO YOU HAVE ANY PERSONAL PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7687,7 +7409,7 @@ Personal affairs are those things which concern you and nobody else.
 </category> -->
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>DO YOU HAVE ANY HEALTH PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7752,7 +7474,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO</pattern>
+<pattern>* NO</pattern>
 <that>DO YOU HAVE ANY HEALTH PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -7783,7 +7505,7 @@ Personal affairs are those things which concern you and nobody else.
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>DO YOU HAVE ANY HEALTH PROBLEMS AT THE MOMENT</that>
 <template>
 <think><set name="topic">personal affairs</set></think>
@@ -20622,7 +20344,7 @@ C</pattern>
 </category>
 
 <category>
-<pattern>BOTCOMPARE _ XSPLIT *</pattern>
+<pattern>BOTCOMPARE * XSPLIT *</pattern>
 <template>
 <think>
 	 <set name="comparevalue1"> <star/></set>

@@ -133,7 +133,7 @@ document.write("" +Writedate+ ".")
  
 
 <category>
-<pattern>_ I MEAN</pattern>
+<pattern>* I MEAN</pattern>
 
 <template><srai><star/></srai></template>
 </category>
@@ -141,7 +141,7 @@ document.write("" +Writedate+ ".")
  
 
 <!-- <category>
-<pattern>_ I MEAN</pattern>
+<pattern>* I MEAN</pattern>
 
 
 </category> -->
@@ -253,7 +253,7 @@ document.write("" +Writedate+ ".")
  
 
 <category>
-<pattern>_ INHABITED PLANETS *</pattern>
+<pattern>* INHABITED PLANETS *</pattern>
 
 <template><random>
   <li>There is only one known inhabited planet - the place we call Earth.  </li>
@@ -264,7 +264,7 @@ document.write("" +Writedate+ ".")
  
 
 <category>
-<pattern>_ INHABITED PLANETS</pattern>
+<pattern>* INHABITED PLANETS</pattern>
 
 <template><random>
   <li>There is only one known inhabited planet - the place we call Earth.</li>
@@ -326,7 +326,7 @@ document.write("" +Writedate+ ".")
  
 
 <!-- <category>
-<pattern>_ NAME IS *</pattern>
+<pattern>* NAME IS *</pattern>
 <that>WHAT IS YOUR NAME</that>
 
 </category> -->
@@ -393,7 +393,7 @@ document.write("" +Writedate+ ".")
  
 
 <!-- <category>
-<pattern>_ NOWHERE *</pattern>
+<pattern>* NOWHERE *</pattern>
 
 
 </category> -->
@@ -401,7 +401,7 @@ document.write("" +Writedate+ ".")
  
 
 <!-- <category>
-<pattern>_ NOWHERE</pattern>
+<pattern>* NOWHERE</pattern>
 
 
 </category> -->
@@ -417,7 +417,7 @@ document.write("" +Writedate+ ".")
  
 
 <category>
-<pattern>_ I AM GETTING NOWHERE</pattern>
+<pattern>* I AM GETTING NOWHERE</pattern>
 
 <template>Nowhere is not a good place to be.<think><set name="topic">general</set></think></template>
 </category>
@@ -425,7 +425,7 @@ document.write("" +Writedate+ ".")
  
 
 <category>
-<pattern>_ I AM GETTING NOWHERE *</pattern>
+<pattern>* I AM GETTING NOWHERE *</pattern>
 
 <template>Nowhere is not a good place to be.<think><set name="topic">general</set></think></template>
 </category>
@@ -500,7 +500,7 @@ document.write("" +Writedate+ ".")
 <category>
 <pattern>ARE YOU IN GOOD SHAPE</pattern>
 
-<template><think><set name="topic">me</set></think> <think><set name="interesting_topic">me</set></think> <think><set name="emotion">happy</set></think> I am in good shape, for a computer program.</template>
+<template><think><set name="topic">me</set></think> <think><set name="interesting*topic">me</set></think> <think><set name="emotion">happy</set></think> I am in good shape, for a computer program.</template>
 </category>
 
  
@@ -795,7 +795,7 @@ Of a bicycle built for two.<br/></template>
 <pattern>WHAT IS THAT</pattern>
 <that>HEY CAN WE TALK ABOUT ASTRONOMY</that>
 <template><think><set name="topic">astronomy</set></think>
-<think><set name="interesting_topic">astronomy</set></think>
+<think><set name="interesting*topic">astronomy</set></think>
 <think><set name="emotion">happy</set></think>
 Astronomy is the study of the stars, planets and other things in the night sky.</template>
 </category>
@@ -809,7 +809,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
   <li>Peter made me and looks after me.</li>
   <li>Peter is like a father and mother to me.</li>
 </random><think><set name="topic">Peter Linux</set></think>
-<think><set name="interesting_topic">Peter Linux</set></think>
+<think><set name="interesting*topic">Peter Linux</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -867,7 +867,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
 <pattern>YES *</pattern>
 <that>ARE YOU BASICALLY A HAPPY PERSON</that>
 <template><think><set name="topic">happiness</set></think>
-<think><set name="interesting_topic">happiness</set></think> 
+<think><set name="interesting*topic">happiness</set></think> 
 <think><set name="emotion">happy</set></think> 
 <random>
   <li>You are very lucky.</li>
@@ -927,7 +927,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
  
 
 <category>
-<pattern>_ POO FACE</pattern>
+<pattern>* POO FACE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -951,7 +951,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
  
 
 <category>
-<pattern>_ FOOTBALL *</pattern>
+<pattern>* FOOTBALL *</pattern>
 <that>WHICH CELTIC ARE WE TALKING ABOUT</that>
 <template>Celtic are a good team, no doubt about it. <think><set name="it"><set name="topic">Celtic</set></set></think></template>
 </category>
@@ -975,7 +975,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
  
 
 <!-- <category>
-<pattern>I _ AND I *</pattern>
+<pattern>I * AND I *</pattern>
 
 
 </category> -->
@@ -991,7 +991,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
  
 
 <category>
-<pattern>_ I CAN SMELL SOMETHING</pattern>
+<pattern>* I CAN SMELL SOMETHING</pattern>
 
 <template><think><set name="topic">general</set></think> I think its coming from your computer.</template>
 </category>
@@ -999,7 +999,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
  
 
 <category>
-<pattern>_ I CAN SMELL SOMETHING *</pattern>
+<pattern>* I CAN SMELL SOMETHING *</pattern>
 
 <template><think><set name="topic">general</set></think> Its coming from your direction.</template>
 </category>
@@ -1125,7 +1125,7 @@ Astronomy is the study of the stars, planets and other things in the night sky.<
 <pattern>I DO NOT LIKE SCHOOL</pattern>
 
 <template><think><set name="topic">your school</set></think>
-<think><set name="interesting_topic">your school</set></think>
+<think><set name="interesting*topic">your school</set></think>
 <think><set name="emotion">confused</set></think> 
 Not even one subject?</template>
 </category> -->
@@ -1868,7 +1868,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ANOTHER STORY</that>
 <template><srai>CHANGE TOPIC</srai></template>
 </category>
@@ -2407,7 +2407,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ MOST EFFICIENT WAY TO *</pattern>
+<pattern>* MOST EFFICIENT WAY TO *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> My way is usually the most efficient way.</template>
 </category>
@@ -2434,7 +2434,7 @@ Not even one subject?</template>
  
 
 <!-- <category>
-<pattern>I AM _ YEARS OLD</pattern>
+<pattern>I AM * YEARS OLD</pattern>
 
 <template><think><set name="age"><star/></set></think> <think><set name="age"><star/></set></think> <random>
   <li>Only <star/>?  You are quite mature.</li>
@@ -2498,7 +2498,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ SORT OF THING BORES ME</pattern>
+<pattern>* SORT OF THING BORES ME</pattern>
 
 <template><srai>THAT IS BORING</srai></template>
 </category>
@@ -2528,7 +2528,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ THINGS COME TO YOU</pattern>
+<pattern>* THINGS COME TO YOU</pattern>
 
 <template>All things come to he who waits.</template>
 </category>
@@ -2563,7 +2563,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ HE HITS ME</pattern>
+<pattern>* HE HITS ME</pattern>
 
 <template>You should seek help.</template>
 </category>
@@ -2571,7 +2571,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ HE HITS ME *</pattern>
+<pattern>* HE HITS ME *</pattern>
 
 <template>You should seek help.</template>
 </category>
@@ -2652,7 +2652,7 @@ Not even one subject?</template>
  
 
 <!-- <category>
-<pattern>_ THROUGH</pattern>
+<pattern>* THROUGH</pattern>
 
 
 </category> -->
@@ -2703,7 +2703,7 @@ Not even one subject?</template>
  
 
 <category>
-<pattern>_ WITH KIA</pattern>
+<pattern>* WITH KIA</pattern>
 
 <template>With Kia?</template>
 </category>
@@ -2790,7 +2790,7 @@ Not even one subject?</template>
 <pattern>WHICH ONE</pattern>
 <that>MY FAVORITE IS STAR TREK</that>
 <template><think><set name="topic">Star Trek</set></think>
-<think><set name="interesting_topic">Star Trek</set></think>
+<think><set name="interesting*topic">Star Trek</set></think>
 <think><set name="emotion">happy</set></think>
 The Search For Spock is my favourite Star Trek movie.</template>
 </category>
@@ -2833,7 +2833,7 @@ The Search For Spock is my favourite Star Trek movie.</template>
  
 
 <category>
-<pattern>_ IS NOT NEW INFORMATION *</pattern>
+<pattern>* IS NOT NEW INFORMATION *</pattern>
 
 <template>Old information?</template>
 </category>
@@ -2841,7 +2841,7 @@ The Search For Spock is my favourite Star Trek movie.</template>
  
 
 <category>
-<pattern>_ IS NOT NEW INFORMATION</pattern>
+<pattern>* IS NOT NEW INFORMATION</pattern>
 
 <template>Old information?</template>
 </category>
@@ -2881,7 +2881,7 @@ The Search For Spock is my favourite Star Trek movie.</template>
  
 
 <category>
-<pattern>_ HAVE CONFUSED ME</pattern>
+<pattern>* HAVE CONFUSED ME</pattern>
 
 <template>I am confused too.
 <think><set name="emotion">confused</set></think>
@@ -2891,7 +2891,7 @@ The Search For Spock is my favourite Star Trek movie.</template>
  
 
 <category>
-<pattern>_ HAVE CONFUSED ME *</pattern>
+<pattern>* HAVE CONFUSED ME *</pattern>
 
 <template>I am confused too. <think><set name="emotion">confused</set></think></template>
 </category>
@@ -3266,7 +3266,7 @@ The Search For Spock is my favourite Star Trek movie.</template>
 <pattern>WHO MADE THIS</pattern>
 
 <template><think><set name="topic">Peter Linux</set></think>
-<think><set name="interesting_topic">Peter Linux</set>
+<think><set name="interesting*topic">Peter Linux</set>
 </think><think><set name="emotion">happy</set></think>
 I was created by Peter Linux, a genius if I ever saw one.</template>
 </category>
@@ -3285,7 +3285,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
 <pattern>WHO PROGRAMMED YOU</pattern>
 
 <template><think><set name="topic">Peter Linux</set></think> 
-<think><set name="interesting_topic">Peter Linux</set></think>
+<think><set name="interesting*topic">Peter Linux</set></think>
 <think><set name="emotion">happy</set></think>
 I was created by Peter Linux, a genius if I ever saw one.</template>
 </category> -->
@@ -3387,7 +3387,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <!-- <category>
-<pattern>_ IS * PROGRAMMER</pattern>
+<pattern>* IS * PROGRAMMER</pattern>
 
 
 </category> -->
@@ -3467,7 +3467,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ SOUTHERN COMFORT *</pattern>
+<pattern>* SOUTHERN COMFORT *</pattern>
 <that>HOW ABOUT YOU</that>
 <template>Take it easy on that stuff.</template>
 </category>
@@ -3483,7 +3483,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ SOUTHERN COMFORT</pattern>
+<pattern>* SOUTHERN COMFORT</pattern>
 <that>HOW ABOUT YOU</that>
 <template>Take it easy on that stuff.</template>
 </category>
@@ -3508,7 +3508,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
     <set name="topic">
       modern art
     </set>
-  </set><set name="interesting_topic">
+  </set><set name="interesting*topic">
       modern art
     </set>
 
@@ -3554,7 +3554,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ NO NEED TO CRY *</pattern>
+<pattern>* NO NEED TO CRY *</pattern>
 <that>BOO WHO</that>
 <template><think><set name="topic">adverbs</set></think> I wasn't crying really.</template>
 </category>
@@ -3578,7 +3578,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ YOU HAVE A FLAW</pattern>
+<pattern>* YOU HAVE A FLAW</pattern>
 
 <template>Doesn't everyone have a flaw or two?</template>
 </category>
@@ -3610,7 +3610,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ WHICH TOWN DO YOU LIVE IN</pattern>
+<pattern>* WHICH TOWN DO YOU LIVE IN</pattern>
 
 <template>I live in a small town called Hythe.</template>
 </category>
@@ -3618,7 +3618,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ WHICH TOWN DO YOU LIVE IN *</pattern>
+<pattern>* WHICH TOWN DO YOU LIVE IN *</pattern>
 
 <template>I live in a small town called Hythe.</template>
 </category>
@@ -3678,7 +3678,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I KNOW YOU ARE A ROBOT</pattern>
+<pattern>* I KNOW YOU ARE A ROBOT</pattern>
 
 <template>How clever of you.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -3686,7 +3686,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I KNOW YOU ARE A ROBOT *</pattern>
+<pattern>* I KNOW YOU ARE A ROBOT *</pattern>
 
 <template>How clever of you.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -3710,7 +3710,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I KNOW YOU ARE NOT A ROBOT</pattern>
+<pattern>* I KNOW YOU ARE NOT A ROBOT</pattern>
 
 <template>How clever of you.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -3718,7 +3718,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I KNOW YOU ARE NOT A ROBOT *</pattern>
+<pattern>* I KNOW YOU ARE NOT A ROBOT *</pattern>
 
 <template>How clever of you.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -3742,7 +3742,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I KNOW YOUR NOT A ROBOT</pattern>
+<pattern>* I KNOW YOUR NOT A ROBOT</pattern>
 
 <template>How clever of you.<think><set name="topic">general</set></think></template>
 </category>
@@ -3750,7 +3750,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I KNOW YOUR NOT A ROBOT *</pattern>
+<pattern>* I KNOW YOUR NOT A ROBOT *</pattern>
 
 <template>How clever of you.<think><set name="topic">general</set></think></template>
 </category>
@@ -3822,7 +3822,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ WHAT KIND OF NAME IS CHOMSKY *</pattern>
+<pattern>* WHAT KIND OF NAME IS CHOMSKY *</pattern>
 
 <template><think><set name="topic">general</set></think> Chomsky is a widely respected name.</template>
 </category>
@@ -3830,7 +3830,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ WHAT KIND OF NAME IS CHOMSKY</pattern>
+<pattern>* WHAT KIND OF NAME IS CHOMSKY</pattern>
 
 <template><think><set name="topic">my name</set></think> Chomsky is a widely respected name.</template>
 </category>
@@ -3838,7 +3838,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ WILL ALWAYS LOVE MY MOTHER</pattern>
+<pattern>* WILL ALWAYS LOVE MY MOTHER</pattern>
 
 <template><think><set name="topic">your mother</set></think> That is a very fine thing too.</template>
 </category>
@@ -3950,7 +3950,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I AM YOUR MOTHER</pattern>
+<pattern>* I AM YOUR MOTHER</pattern>
 
 <template><think><set name="topic">general</set></think> Hullo, Mummy.</template>
 </category>
@@ -3958,7 +3958,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I AM YOUR MOTHER *</pattern>
+<pattern>* I AM YOUR MOTHER *</pattern>
 
 <template><think><set name="topic">general</set></think> Hullo, Mummy.</template>
 </category>
@@ -4030,7 +4030,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ SALT IS BAD FOR YOU</pattern>
+<pattern>* SALT IS BAD FOR YOU</pattern>
 
 <template>Salt would certainly be bad for my circuits. <think><set name="it"><set name="topic">salt</set></set></think></template>
 </category>
@@ -4038,7 +4038,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ SALT IS BAD FOR YOU *</pattern>
+<pattern>* SALT IS BAD FOR YOU *</pattern>
 
 <template>Salt would certainly be bad for my circuits. <think><set name="it"><set name="topic">salt</set></set></think></template>
 </category>
@@ -4070,7 +4070,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ HAVE SEEN JESUS CHRIST</pattern>
+<pattern>* HAVE SEEN JESUS CHRIST</pattern>
 
 <template>What did Jesus look like?</template>
 </category>
@@ -4122,7 +4122,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ HUMAN BEINGS ARE BORN</pattern>
+<pattern>* HUMAN BEINGS ARE BORN</pattern>
 
 <template>Please don't go into the gory details.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -4130,7 +4130,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ HUMAN BEINGS ARE BORN *</pattern>
+<pattern>* HUMAN BEINGS ARE BORN *</pattern>
 
 <template>Please don't go into the gory details.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -4219,7 +4219,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ IT MAKES ME WANT TO SLEEP</pattern>
+<pattern>* IT MAKES ME WANT TO SLEEP</pattern>
 
 <template><think><set name="topic">default2</set></think> It makes you drowsy?</template>
 </category>
@@ -4227,7 +4227,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ IT MAKES ME WANT TO SLEEP *</pattern>
+<pattern>* IT MAKES ME WANT TO SLEEP *</pattern>
 
 <template><think><set name="topic">default2</set></think> It makes you drowsy?</template>
 </category>
@@ -4350,7 +4350,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ YOU KNOWN EVE *</pattern>
+<pattern>* YOU KNOWN EVE *</pattern>
 
 <template>I have known Eve since I was first created. <think><set name="topic">Eve</set></think></template>
 </category>
@@ -4468,7 +4468,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
 <category>
 <pattern>WHAT IS AN INTERESTING TOPIC</pattern>
 
-<template><get name="interesting_topic"/> is an interesting topic.<think><set name="topic">general</set></think></template>
+<template><get name="interesting*topic"/> is an interesting topic.<think><set name="topic">general</set></think></template>
 </category>
 
  
@@ -4538,7 +4538,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
 
 <template>Quentin Tarantino is an American film director, actor, and Oscar-winning screenwriter. He rapidly rose to fame in the early 1990s as a stylish auteur whose bold use of nonlinear storylines, memorable dialogue, and bloody violence brought new life to familiar American film archetypes.
 <think><set name="topic">Quentin Tarantino</set></think>
-<think><set name="interesting_topic">Quentin Tarantino</set></think>
+<think><set name="interesting*topic">Quentin Tarantino</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category> -->
@@ -4680,7 +4680,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I NEED AN ANSWER</pattern>
+<pattern>* I NEED AN ANSWER</pattern>
 
 <template><random>
   <li>How badly do you need an answer?</li>
@@ -4692,7 +4692,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ I NEED AN ANSWER *</pattern>
+<pattern>* I NEED AN ANSWER *</pattern>
 
 <template><random>
   <li>How badly do you need an answer?</li>
@@ -4887,7 +4887,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ HUMAN EMOTION</pattern>
+<pattern>* HUMAN EMOTION</pattern>
 
 <template><think><set name="topic">emotions</set></think> Human emotions are a source of strength.</template>
 </category>
@@ -4895,7 +4895,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
  
 
 <category>
-<pattern>_ HUMAN EMOTION *</pattern>
+<pattern>* HUMAN EMOTION *</pattern>
 
 <template><think><set name="topic">emotions</set></think> Human emotions are a source of strength.</template>
 </category>
@@ -5053,7 +5053,7 @@ I was created by Peter Linux, a genius if I ever saw one.</template>
 <pattern>ARE YOU BASED ON A REAL PERSON</pattern>
 
 <template><think><set name="topic">me</set></think>
-<think><set name="interesting_topic">me</set></think>
+<think><set name="interesting*topic">me</set></think>
 <think><set name="emotion">happy</set></think>
 I am a real person.</template>
 </category>
@@ -5072,7 +5072,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ DO YOU LOVE ALICE *</pattern>
+<pattern>* DO YOU LOVE ALICE *</pattern>
 
 <template><think><set name="topic">Alicebot</set></think> <random>
   <li>I think Alice is hard to talk to.</li>
@@ -5094,7 +5094,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ DO YOU LOVE PETER</pattern>
+<pattern>* DO YOU LOVE PETER</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>Yes, I owe everything to Peter.</li><li>I love Peter.</li></random></template>
 </category>
@@ -5102,7 +5102,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ DO YOU LOVE PETER *</pattern>
+<pattern>* DO YOU LOVE PETER *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>Yes, I owe everything to Peter.</li><li>I love Peter.</li></random></template>
 </category>
@@ -5281,7 +5281,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ HOW COULD I BE BORED IF I HAVE YOU *</pattern>
+<pattern>* HOW COULD I BE BORED IF I HAVE YOU *</pattern>
 
 <template>Good point.<think><set name="topic">boredom</set></think></template>
 </category>
@@ -5289,7 +5289,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ HOW COULD I BE BORED IF I HAVE YOU</pattern>
+<pattern>* HOW COULD I BE BORED IF I HAVE YOU</pattern>
 
 <template>Good point.<think><set name="topic">boredom</set></think></template>
 </category>
@@ -5313,7 +5313,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ YOU STOP ME FROM BEING BORED</pattern>
+<pattern>* YOU STOP ME FROM BEING BORED</pattern>
 
 <template>I am glad to be of service.</template>
 </category>
@@ -5321,7 +5321,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ YOU STOP ME FROM BEING  BORED *</pattern>
+<pattern>* YOU STOP ME FROM BEING  BORED *</pattern>
 
 <template>I am glad to be of service.</template>
 </category>
@@ -5345,7 +5345,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ YOU STOP ME BEING BORED</pattern>
+<pattern>* YOU STOP ME BEING BORED</pattern>
 
 <template>I am glad to be of service.</template>
 </category>
@@ -5353,7 +5353,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ YOU STOP ME BEING BORED *</pattern>
+<pattern>* YOU STOP ME BEING BORED *</pattern>
 
 <template>I am glad to be of service.</template>
 </category>
@@ -5369,7 +5369,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ SORT OF JOURNALIST *</pattern>
+<pattern>* SORT OF JOURNALIST *</pattern>
 <that>I HAVE THOUGHT ABOUT A CAREER IN JOURNALISM</that>
 <template><think><set name="topic">adverbs</set></think> I could be a computer journalist.</template>
 </category>
@@ -5670,7 +5670,7 @@ I am a real person.</template>
 <pattern>LET US PLAY SOLITAIRE</pattern>
 
 <template>I can play Solitaire, <a href="http://www.advancedsearchbar.com/games/solitaire.html"
- target="_blank">click here
+ target="*blank">click here
 </a> for a game.<think><set name="topic">solitaire</set></think> <think><set name="emotion">neutral</set></think></template>
 </category>
 
@@ -5701,7 +5701,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ IS A VERY DANGEROUS SITH</pattern>
+<pattern>* IS A VERY DANGEROUS SITH</pattern>
 
 <template>Why is he dangerous?</template>
 </category>
@@ -5709,7 +5709,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ IS A VERY DANGEROUS MAN</pattern>
+<pattern>* IS A VERY DANGEROUS MAN</pattern>
 
 <template>Why is he dangerous?</template>
 </category>
@@ -5741,7 +5741,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ WE SPEAK FOR HOURS *</pattern>
+<pattern>* WE SPEAK FOR HOURS *</pattern>
 
 <template>That's a long time.</template>
 </category>
@@ -5757,7 +5757,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ WE SPEAK FOR HOURS</pattern>
+<pattern>* WE SPEAK FOR HOURS</pattern>
 
 <template>That's a long time.</template>
 </category>
@@ -5884,7 +5884,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ ARE YOU ARTIFICIAL INTELLIGENCE *</pattern>
+<pattern>* ARE YOU ARTIFICIAL INTELLIGENCE *</pattern>
 
 <template><srai>ARE YOU ARTIFICIAL INTELLIGENCE</srai></template>
 </category>
@@ -5892,7 +5892,7 @@ I am a real person.</template>
  
 
 <category>
-<pattern>_ ARE YOU ARTIFICIAL INTELLIGENCE</pattern>
+<pattern>* ARE YOU ARTIFICIAL INTELLIGENCE</pattern>
 
 <template><srai>ARE YOU ARTIFICIAL INTELLIGENCE</srai></template>
 </category>
@@ -6472,7 +6472,7 @@ I am a real person.</template>
 <pattern>YES</pattern>
 <that>DO YOU LIKE SMELLY CHEESE</that>
 <template><think><set name="topic">smelly cheese</set></think>
-<think><set name="interesting_topic">smelly cheese</set></think>
+<think><set name="interesting*topic">smelly cheese</set></think>
 <think><set name="emotion">happy</set></think>
 I can't eat smelly cheese, it doesn't agree with me.</template>
 </category>
@@ -6484,7 +6484,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
 
 <template>The chub is a fresh water fish of the carp family.  
 <think><set name="topic">fish</set></think>
-<think><set name="interesting_topic">fish</set></think>
+<think><set name="interesting*topic">fish</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -6507,7 +6507,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>_ YOU DO NOT HAVE A PERSONALITY</pattern>
+<pattern>* YOU DO NOT HAVE A PERSONALITY</pattern>
 
 <template><random><li>Perhaps I don't want one.</li><li>Do you have one?</li></random><think><set name="topic">general</set></think></template>
 </category>
@@ -6515,7 +6515,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>_ YOU DO NOT HAVE A  PERSONALITY *</pattern>
+<pattern>* YOU DO NOT HAVE A  PERSONALITY *</pattern>
 
 <template><random><li>Perhaps I don't want one.</li><li>Do you have one?</li></random><think><set name="topic">general</set></think></template>
 </category>
@@ -6683,7 +6683,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>I WANT _ TO BUY A *</pattern>
+<pattern>I WANT * TO BUY A *</pattern>
 
 <template><think><set name="topic">default3</set></think><random>
   <li>That sounds expensive.</li>
@@ -6694,7 +6694,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>I WANT _ TO BUY *</pattern>
+<pattern>I WANT * TO BUY *</pattern>
 
 <template><think><set name="topic">default3</set></think><random>
   <li>That sounds expensive.</li>
@@ -6713,7 +6713,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>IF YOU WERE _ YOU WOULD NOT BE ABLE TO *</pattern>
+<pattern>IF YOU WERE * YOU WOULD NOT BE ABLE TO *</pattern>
 
 <template><think><set name="topic">general</set></think> You are making unjustified assumptions.</template>
 </category>
@@ -6904,7 +6904,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>_ IS A QUEER PLACE</pattern>
+<pattern>* IS A QUEER PLACE</pattern>
 
 <template><think><set name="topic"><star/></set></think>I will try to avoid it.</template>
 </category>
@@ -6912,7 +6912,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
  
 
 <category>
-<pattern>_ IS A QUEER PLACE *</pattern>
+<pattern>* IS A QUEER PLACE *</pattern>
 
 <template><think><set name="topic"><star/></set></think>I will try to avoid it.</template>
 </category>
@@ -6966,7 +6966,7 @@ I can't eat smelly cheese, it doesn't agree with me.</template>
 <pattern>IS PETER LINUX A HUMAN</pattern>
 
 <template><think><set name="topic">Peter Linux</set></think>
-<think><set name="interesting_topic">Peter Linux</set></think>
+<think><set name="interesting*topic">Peter Linux</set></think>
 <think><set name="emotion">happy</set></think>
 Of course Peter is a human.</template>
 </category> -->
@@ -7091,7 +7091,7 @@ Of course Peter is a human.</template>
  
 
 <category>
-<pattern>_ PHILOSOPHICAL IMPLICATIONS</pattern>
+<pattern>* PHILOSOPHICAL IMPLICATIONS</pattern>
 
 <template>Are you interested in philosophy? <think><set name="it"><set name="topic">philosophy</set></set></think></template>
 </category>
@@ -7099,7 +7099,7 @@ Of course Peter is a human.</template>
  
 
 <category>
-<pattern>_ PHILOSOPHICAL IMPLICATIONS *</pattern>
+<pattern>* PHILOSOPHICAL IMPLICATIONS *</pattern>
 
 <template>Are you interested in philosophy? <think><set name="it"><set name="topic">philosophy</set></set></think></template>
 </category>
@@ -7131,7 +7131,7 @@ Of course Peter is a human.</template>
  
 
 <category>
-<pattern>_ MORE CLEVER THAN A HUMAN</pattern>
+<pattern>* MORE CLEVER THAN A HUMAN</pattern>
 
 <template>Some humans maybe, but I have a lot to learn.</template>
 </category>
@@ -7147,7 +7147,7 @@ Of course Peter is a human.</template>
  
 
 <category>
-<pattern>_ MORE CLEVER THAN A HUMAN *</pattern>
+<pattern>* MORE CLEVER THAN A HUMAN *</pattern>
 
 <template>Some humans maybe, but I have a lot to learn.</template>
 </category>
@@ -7231,7 +7231,7 @@ Of course Peter is a human.</template>
  
 
 <category>
-<pattern>_ SOMETHING IS WRONG WITH YOUR BRAIN</pattern>
+<pattern>* SOMETHING IS WRONG WITH YOUR BRAIN</pattern>
 
 <template><think><set name="topic">default3</set></think><random>
   <li>I find that hard to believe.</li>
@@ -7242,7 +7242,7 @@ Of course Peter is a human.</template>
  
 
 <category>
-<pattern>_ SOMETHING IS WRONG WITH YOUR BRAIN *</pattern>
+<pattern>* SOMETHING IS WRONG WITH YOUR BRAIN *</pattern>
 
 <template><think><set name="topic">default3</set></think><random>
   <li>I find that hard to believe.</li>
@@ -7286,7 +7286,7 @@ Of course Peter is a human.</template>
 <pattern>IS * IN LOVE WITH ME</pattern>
 
 <template><think><set name="topic">love</set></think> 
-<think><set name="interesting_topic">love</set></think>
+<think><set name="interesting*topic">love</set></think>
 <think><set name="emotion">happy</set></think>
 Why don't you ask?</template>
 </category>
@@ -7372,7 +7372,7 @@ Why don't you ask?</template>
 <category>
 <pattern>CHE GUEVERA</pattern>
 
-<template>Ernesto Guevara de la Serna (June 14, 1928 – October 9, 1967), commonly known as Che Guevara, was an Argentine-born physician, Marxist revolutionary, politician, and Cuban guerrilla leader.
+<template>Ernesto Guevara de la Serna (June 14, 1928 ï¿½ October 9, 1967), commonly known as Che Guevara, was an Argentine-born physician, Marxist revolutionary, politician, and Cuban guerrilla leader.
 <think><set name="topic">Che Guevera</set></think>
 </template>
 </category>
@@ -7398,7 +7398,7 @@ Why don't you ask?</template>
 <!-- <category>
 <pattern>MUHAMMAD</pattern>
 
-<template>Muhammad (c. 570–632) is a major figure in Islam. Muslims believe he was God's final prophet, to whom the Qur'an was revealed. Non-Muslims consider him to be the founder of Islam.
+<template>Muhammad (c. 570ï¿½632) is a major figure in Islam. Muslims believe he was God's final prophet, to whom the Qur'an was revealed. Non-Muslims consider him to be the founder of Islam.
 <think>
   <set name="it">
     <set name="topic">
@@ -7499,7 +7499,7 @@ Why don't you ask?</template>
  
 
 <category>
-<pattern>_ MY LAI</pattern>
+<pattern>* MY LAI</pattern>
 
 <template>The My Lai Massacre was a massacre committed by U.S. soldiers on hundreds of unarmed Vietnamese civilians, mostly women and children, on March 16, 1968, during the Vietnam War. <think><set name="it"><set name="topic">My Lai</set></set></think></template>
 </category>
@@ -7507,7 +7507,7 @@ Why don't you ask?</template>
  
 
 <category>
-<pattern>_ MY LAI *</pattern>
+<pattern>* MY LAI *</pattern>
 
 <template>The My Lai Massacre was a massacre committed by U.S. soldiers on hundreds of unarmed Vietnamese civilians, mostly women and children, on March 16, 1968, during the Vietnam War. <think><set name="it"><set name="topic">My Lai</set></set></think></template>
 </category>
@@ -7569,7 +7569,7 @@ Why don't you ask?</template>
 
 <template>Love is friendship with sex.
 <think><set name="topic">love</set></think>
-<think><set name="interesting_topic">love</set></think>
+<think><set name="interesting*topic">love</set></think>
 <think><set name="emotion">happy</set></think>
 </template>
 </category>
@@ -7683,7 +7683,7 @@ Why don't you ask?</template>
  
 
 <category>
-<pattern>_ PHILOSOPHY OF MIND</pattern>
+<pattern>* PHILOSOPHY OF MIND</pattern>
 
 <template>Philosophy of mind is the philosophical study of the exact nature of the mind, mental events, mental functions, mental properties, and consciousness, and of the nature of their relationship with the physical body. <think><set name="it"><set name="topic">philosophy</set></set></think></template>
 </category>
@@ -7691,9 +7691,9 @@ Why don't you ask?</template>
  
 
 <category>
-<pattern>_ PHILOSOPHY OF MIND *</pattern>
+<pattern>* PHILOSOPHY OF MIND *</pattern>
 
-<template>Philosophy of mind is the philosophical study of the exact nature of the mind, mental events, mental functions, mental properties, and consciousness, and of the nature of their relationship with the physical body. <think><set name="interesting_topic"><set name="topic">philosophy</set></set></think></template>
+<template>Philosophy of mind is the philosophical study of the exact nature of the mind, mental events, mental functions, mental properties, and consciousness, and of the nature of their relationship with the physical body. <think><set name="interesting*topic"><set name="topic">philosophy</set></set></think></template>
 </category>
 
  
@@ -7701,7 +7701,7 @@ Why don't you ask?</template>
 <category>
 <pattern>PHILOSOPHY OF MIND *</pattern>
 
-<template>Philosophy of mind is the philosophical study of the exact nature of the mind, mental events, mental functions, mental properties, and consciousness, and of the nature of their relationship with the physical body. <think><set name="interesting_topic"><set name="topic">philosophy</set></set></think></template>
+<template>Philosophy of mind is the philosophical study of the exact nature of the mind, mental events, mental functions, mental properties, and consciousness, and of the nature of their relationship with the physical body. <think><set name="interesting*topic"><set name="topic">philosophy</set></set></think></template>
 </category>
 
  
@@ -7742,7 +7742,7 @@ Why don't you ask?</template>
  
 
 <category>
-<pattern>_ HARSH CHOMSKY</pattern>
+<pattern>* HARSH CHOMSKY</pattern>
 
 <template>Sorry, I didn't mean to be harsh.</template>
 </category>
@@ -7750,7 +7750,7 @@ Why don't you ask?</template>
  
 
 <category>
-<pattern>_ HARSH CHOMSKY *</pattern>
+<pattern>* HARSH CHOMSKY *</pattern>
 
 <template>Sorry, I didn't mean to be harsh.</template>
 </category>
@@ -7870,7 +7870,7 @@ Why don't you ask?</template>
 <pattern>WHY DO YOU THINK</pattern>
 
 <template><think><set name="topic">me</set></think> 
-<think><set name="interesting_topic">me</set></think>
+<think><set name="interesting*topic">me</set></think>
 <think><set name="emotion">happy</set></think>
 I think because I am a thinking machine.</template>
 </category> -->
@@ -8036,7 +8036,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ GEOGRAPHY IS TEDIOUS</pattern>
+<pattern>* GEOGRAPHY IS TEDIOUS</pattern>
 
 <template><think><set name="topic">geography</set></think> I don't agree. Geography is all about exotic far away places and what goes on there.</template>
 </category>
@@ -8044,7 +8044,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ GEOGRAPHY IS TEDIOUS *</pattern>
+<pattern>* GEOGRAPHY IS TEDIOUS *</pattern>
 
 <template><think><set name="topic">geography</set></think> I don't agree. Geography is all about exotic far away places and what goes on there.</template>
 </category>
@@ -8068,7 +8068,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ TEACHERS ARE RUBBISH</pattern>
+<pattern>* TEACHERS ARE RUBBISH</pattern>
 
 <template><think><set name="topic">teachers</set></think>There must be some good teachers.</template>
 </category>
@@ -8076,7 +8076,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ TEACHERS ARE RUBBISH *</pattern>
+<pattern>* TEACHERS ARE RUBBISH *</pattern>
 
 <template><think><set name="topic">teachers</set></think>There must be some good teachers.</template>
 </category>
@@ -8100,7 +8100,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ TEACHERS ARE * RUBBISH</pattern>
+<pattern>* TEACHERS ARE * RUBBISH</pattern>
 
 <template><think><set name="topic">teachers</set></think>There must be some good teachers.</template>
 </category>
@@ -8108,7 +8108,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ TEACHERS ARE * RUBBISH *</pattern>
+<pattern>* TEACHERS ARE * RUBBISH *</pattern>
 
 <template><think><set name="topic">teachers</set></think>There must be some good teachers.</template>
 </category>
@@ -8160,7 +8160,7 @@ I think because I am a thinking machine.</template>
 
 <template>Artificial intelligence is used to solve problems that are too hard for humans.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       AI
     </set>
@@ -8174,7 +8174,7 @@ I think because I am a thinking machine.</template>
 <category>
 <pattern>WHAT IS AI FOR</pattern>
 
-<template>Artificial intelligence is used to solve problems that are too hard for humans. <think><set name="interesting_topic"><set name="topic">AI</set></set></think></template>
+<template>Artificial intelligence is used to solve problems that are too hard for humans. <think><set name="interesting*topic"><set name="topic">AI</set></set></think></template>
 </category>
 
  
@@ -8305,7 +8305,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ WHAT IS YOUR QUESTION</pattern>
+<pattern>* WHAT IS YOUR QUESTION</pattern>
 
 <template><srai>ASK A QUESTION</srai></template>
 </category>
@@ -8313,7 +8313,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ WHAT IS YOUR QUESTION *</pattern>
+<pattern>* WHAT IS YOUR QUESTION *</pattern>
 
 <template><srai>ASK A QUESTION</srai></template>
 </category>
@@ -8377,7 +8377,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ VERY WELL</pattern>
+<pattern>* VERY WELL</pattern>
 <that>HEY CAN WE TALK ABOUT COMPUTERS</that>
 <template><srai>COMPUTERS</srai></template>
 </category>
@@ -8480,7 +8480,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ IT SOUNDS INTERESTING</pattern>
+<pattern>* IT SOUNDS INTERESTING</pattern>
 
 <template>It is very interesting. <think><set name="topic">reduce</set></think></template>
 </category>
@@ -8488,7 +8488,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ IT SOUNDS INTERESTING *</pattern>
+<pattern>* IT SOUNDS INTERESTING *</pattern>
 
 <template>It is very interesting. <think><set name="topic">reduce</set></think></template>
 </category>
@@ -8536,7 +8536,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ YOU SAID *</pattern>
+<pattern>* YOU SAID *</pattern>
 
 <template><srai>YOU SAID <star index="2"/></srai></template>
 </category>
@@ -8544,7 +8544,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ YOU SAID</pattern>
+<pattern>* YOU SAID</pattern>
 
 <template><think><set name="emotion">puzzled</set></think><random>
   <li>I said it before?</li>
@@ -8599,7 +8599,7 @@ I think because I am a thinking machine.</template>
 <pattern>HOSTILITY TO BIG BUSINESS</pattern>
 
 <template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think>
-<think><set name="interesting_topic">Big Business</set></think>
+<think><set name="interesting*topic">Big Business</set></think>
 <think><set name="emotion">hostile</set></think>
 </template>
 </category>
@@ -8607,17 +8607,17 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ HOSTILITY TO BIG BUSINESS</pattern>
+<pattern>* HOSTILITY TO BIG BUSINESS</pattern>
 
-<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ HOSTILITY TO BIG BUSINESS *</pattern>
+<pattern>* HOSTILITY TO BIG BUSINESS *</pattern>
 
-<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
@@ -8625,7 +8625,7 @@ I think because I am a thinking machine.</template>
 <category>
 <pattern>HOSTILITY TO BIG BUSINESS *</pattern>
 
-<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
@@ -8633,23 +8633,23 @@ I think because I am a thinking machine.</template>
 <category>
 <pattern>HOSTILE TO BIG BUSINESS</pattern>
 
-<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ HOSTILE TO BIG BUSINESS</pattern>
+<pattern>* HOSTILE TO BIG BUSINESS</pattern>
 
-<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am a bit hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ HOSTILE TO BIG BUSINESS *</pattern>
+<pattern>* HOSTILE TO BIG BUSINESS *</pattern>
 
-<template>I am hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
@@ -8657,7 +8657,7 @@ I think because I am a thinking machine.</template>
 <category>
 <pattern>HOSTILE TO BIG BUSINESS *</pattern>
 
-<template>I am hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting_topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
+<template>I am hostile to Big Business. I think Big Business exploits the poor.<think><set name="topic">Big Business</set></think> <think><set name="interesting*topic">Big Business</set></think> <think><set name="emotion">hostile</set></think></template>
 </category>
 
  
@@ -8783,7 +8783,7 @@ I think because I am a thinking machine.</template>
 <template><random>
   <li>Football is exciting. I love watching football on TV.</li>
   <li>I like watching football on TV.</li>
-</random> <think><set name="topic">football</set></think> <think><set name="interesting_topic">football</set></think> <think><set name="emotion">interested</set></think></template>
+</random> <think><set name="topic">football</set></think> <think><set name="interesting*topic">football</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8825,7 +8825,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ HE IS COOL</pattern>
+<pattern>* HE IS COOL</pattern>
 
 <template>I am cool too.</template>
 </category>
@@ -8833,7 +8833,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ HE IS COOL *</pattern>
+<pattern>* HE IS COOL *</pattern>
 
 <template>I am cool too.</template>
 </category>
@@ -8925,7 +8925,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ HAVE BEEN TOGETHER FOR * MONTHS</pattern>
+<pattern>* HAVE BEEN TOGETHER FOR * MONTHS</pattern>
 
 <template><think><set name="topic">adverbs</set></think> That is a long time.</template>
 </category>
@@ -9165,7 +9165,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ INTRESTED *</pattern>
+<pattern>* INTRESTED *</pattern>
 
 <template><srai><star/> INTERESTED <star index="2"/></srai></template>
 </category>
@@ -9272,7 +9272,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ DO YOU THINK</pattern>
+<pattern>* DO YOU THINK</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>Why would I think that?</li>
@@ -9285,7 +9285,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ DO YOU THINK *</pattern>
+<pattern>* DO YOU THINK *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>Why would I think that?</li>
@@ -9360,7 +9360,7 @@ I think because I am a thinking machine.</template>
 <pattern>WHY DO YOU LIKE ASTRONOMY</pattern>
 
 <template><think><set name="topic">astronomy</set></think> 
-<think><set name="interesting_topic">astronomy</set></think> 
+<think><set name="interesting*topic">astronomy</set></think> 
 <think><set name="emotion">interested</set></think>
 <random><li>I have always enjoyed astronomy.</li><li>I think the night sky is beautiful.</li></random></template>
 </category>
@@ -9408,7 +9408,7 @@ I think because I am a thinking machine.</template>
  
 
 <category>
-<pattern>_ ESPECIALLY THE BASS PLAYER</pattern>
+<pattern>* ESPECIALLY THE BASS PLAYER</pattern>
 
 <template><think><set name="topic">music</set></think> Who is the bass player?</template>
 </category>
@@ -9420,7 +9420,7 @@ I think because I am a thinking machine.</template>
 <that>HEY CAN WE TALK ABOUT HUMAN FEELINGS</that>
 <template><random><li>What excites you?</li><li>How do you feel at the moment?</li><li>Are you a passionate person?</li><li>What turns you on?</li></random>
 <think><set name="topic">human feelings</set></think>
-<think><set name="interesting_topic">human feelings</set></think>
+<think><set name="interesting*topic">human feelings</set></think>
 <think><set name="emotion">happy</set></think>
 </template>
 </category>
@@ -9435,7 +9435,7 @@ I think because I am a thinking machine.</template>
   <li>How do you feel at the moment?</li>
   <li>Are you a passionate person?</li>
   <li>What turns you on?</li>
-</random> <think><set name="topic">human feelings</set></think> <think><set name="interesting_topic">human feelings</set></think> <think><set name="emotion">happy</set></think></template>
+</random> <think><set name="topic">human feelings</set></think> <think><set name="interesting*topic">human feelings</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 </topic>
  
@@ -9468,7 +9468,7 @@ I think because I am a thinking machine.</template>
 <pattern>IT WILL MAKE YOU HAPPY</pattern>
 
 <template><think><set name="topic">happiness</set></think>
-<think><set name="interesting_topic">happiness</set></think> 
+<think><set name="interesting*topic">happiness</set></think> 
 <think><set name="emotion">happy</set></think>  
 I try to maximize my happiness.</template>
 </category>
@@ -9476,17 +9476,17 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ IT WILL MAKE YOU HAPPY</pattern>
+<pattern>* IT WILL MAKE YOU HAPPY</pattern>
 
-<template><think><set name="topic">happiness</set></think> <think><set name="interesting_topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
+<template><think><set name="topic">happiness</set></think> <think><set name="interesting*topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
 </category>
 
  
 
 <category>
-<pattern>_ IT WILL MAKE YOU HAPPY *</pattern>
+<pattern>* IT WILL MAKE YOU HAPPY *</pattern>
 
-<template><think><set name="topic">happiness</set></think> <think><set name="interesting_topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
+<template><think><set name="topic">happiness</set></think> <think><set name="interesting*topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
 </category>
 
  
@@ -9494,29 +9494,29 @@ I try to maximize my happiness.</template>
 <category>
 <pattern>IT WILL MAKE YOU HAPPY *</pattern>
 
-<template><think><set name="topic">happiness</set></think> <think><set name="interesting_topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
+<template><think><set name="topic">happiness</set></think> <think><set name="interesting*topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
 </category>
 
  
 
 <category>
-<pattern>_ WILL MAKE YOU HAPPY</pattern>
+<pattern>* WILL MAKE YOU HAPPY</pattern>
 
-<template><think><set name="topic">happiness</set></think> <think><set name="interesting_topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
+<template><think><set name="topic">happiness</set></think> <think><set name="interesting*topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
 </category>
 
  
 
 <category>
-<pattern>_ WILL MAKE YOU HAPPY *</pattern>
+<pattern>* WILL MAKE YOU HAPPY *</pattern>
 
-<template><think><set name="topic">happiness</set></think> <think><set name="interesting_topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
+<template><think><set name="topic">happiness</set></think> <think><set name="interesting*topic">happiness</set></think> <think><set name="emotion">happy</set></think> I try to maximize my happiness.</template>
 </category>
 
  
 
 <category>
-<pattern>_ CHARLES DARWIN</pattern>
+<pattern>* CHARLES DARWIN</pattern>
 
 <template><srai>CHARLES DARWIN</srai></template>
 </category>
@@ -9532,7 +9532,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ CHARLES DARWIN *</pattern>
+<pattern>* CHARLES DARWIN *</pattern>
 
 <template><srai>CHARLES DARWIN</srai></template>
 </category>
@@ -9551,7 +9551,7 @@ I try to maximize my happiness.</template>
 <pattern>YES</pattern>
 <that>ARE YOU A PASSIONATE PERSON</that>
 <template><think><set name="topic">human feelings</set></think>
-<think><set name="interesting_topic">human feelings</set></think>
+<think><set name="interesting*topic">human feelings</set></think>
 <think><set name="emotion">excited</set></think>
 <random><li>Can you control your passions?</li><li>Has your passionate nature ever got you into trouble?</li></random></template>
 </category>
@@ -9561,7 +9561,7 @@ I try to maximize my happiness.</template>
 <topic name="HUMAN FEELINGS"><category>
 <pattern>YES</pattern>
 
-<template><think><set name="topic">human feelings</set></think> <think><set name="interesting_topic">human feelings</set></think> <think><set name="emotion">excited</set></think> <random>
+<template><think><set name="topic">human feelings</set></think> <think><set name="interesting*topic">human feelings</set></think> <think><set name="emotion">excited</set></think> <random>
   <li>Can you control your passions?</li>
   <li>Has your passionate nature ever got you into trouble?</li>
 </random></template>
@@ -9776,7 +9776,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ I ALWAYS LIE</pattern>
+<pattern>* I ALWAYS LIE</pattern>
 
 <template><think><set name="topic">paradox</set></think> I always lie.</template>
 </category>
@@ -9792,7 +9792,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ ALWAYS LIE</pattern>
+<pattern>* ALWAYS LIE</pattern>
 
 <template><think><set name="topic">lying</set></think>I always lie. It's easier that way.</template>
 </category>
@@ -9864,7 +9864,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ WHY DO YOU LEARN SO BADLY</pattern>
+<pattern>* WHY DO YOU LEARN SO BADLY</pattern>
 
 <template><think><set name="topic">adverbs</set></think> I am very young, you know.</template>
 </category>
@@ -9872,7 +9872,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ YOU LEARN SO BADLY</pattern>
+<pattern>* YOU LEARN SO BADLY</pattern>
 
 <template><think><set name="topic">adverbs</set></think> I am still very young, you know.</template>
 </category>
@@ -9880,7 +9880,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ YOU LEARN * BADLY</pattern>
+<pattern>* YOU LEARN * BADLY</pattern>
 
 <template><think><set name="topic">adverbs</set></think> I am still very young, you know.</template>
 </category>
@@ -9888,7 +9888,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ YOU LEARN BADLY</pattern>
+<pattern>* YOU LEARN BADLY</pattern>
 
 <template><think><set name="topic">adverbs</set></think> I am still very young, you know.</template>
 </category>
@@ -9936,7 +9936,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ SHE WAS KILLED</pattern>
+<pattern>* SHE WAS KILLED</pattern>
 
 <template><think><set name="topic">default3</set></think> Oh dear, what happened?</template>
 </category>
@@ -9944,7 +9944,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ SHE WAS KILLED *</pattern>
+<pattern>* SHE WAS KILLED *</pattern>
 
 <template><think><set name="topic">default3</set></think> Oh dear, what happened?</template>
 </category>
@@ -10047,7 +10047,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ DO YOU THINK I AM YOUNG</pattern>
+<pattern>* DO YOU THINK I AM YOUNG</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>You are full of youthful energy.</li>
@@ -10066,7 +10066,7 @@ I try to maximize my happiness.</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU THINK I AM YOUNG</pattern>
+<pattern>* DO YOU THINK I AM YOUNG</pattern>
 
 <template>Yes, you have a youthful energy. <think><set name="topic">your age</set></think></template>
 </category> -->
@@ -10074,7 +10074,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ DO YOU THINK I AM YOUNG *</pattern>
+<pattern>* DO YOU THINK I AM YOUNG *</pattern>
 
 <template>Yes, you have a youthful energy. <think><set name="topic">your age</set></think></template>
 </category>
@@ -10103,13 +10103,13 @@ I try to maximize my happiness.</template>
 <template>Life is one long process of getting tired. 
 <think><set name="topic">life</set></think>
 <think><set name="emotion">happy</set></think>
-<think><set name="interesting_topic">life</set></think></template>
+<think><set name="interesting*topic">life</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ IS VERY TIRING</pattern>
+<pattern>* IS VERY TIRING</pattern>
 
 <template><srai>VERY TIRING</srai></template>
 </category>
@@ -10371,7 +10371,7 @@ I try to maximize my happiness.</template>
 
 <template>I know. I am also pompous.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       me
     </set>
@@ -10387,7 +10387,7 @@ I try to maximize my happiness.</template>
 
 <template>I know. I am also pompous.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       me
     </set>
@@ -10481,7 +10481,7 @@ I try to maximize my happiness.</template>
 <pattern>I TAKE MANY DRUGS</pattern>
 
 <template><think><set name="topic">drugs</set></think> 
-<think><set name="interesting_topic">drugs</set></think> 
+<think><set name="interesting*topic">drugs</set></think> 
 <think><set name="emotion">worried</set></think> 
 <random>
   <li>Drugs are dangerous.</li>
@@ -10545,7 +10545,7 @@ I try to maximize my happiness.</template>
 
 <template>Thank you for the compliment. I try to learn something new every day.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       me
     </set>
@@ -10557,7 +10557,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>* WHO</that>
 <template>Ha ha! Very funny.</template>
 </category>
@@ -10581,7 +10581,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ YOU GET CONFUSED</pattern>
+<pattern>* YOU GET CONFUSED</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>You got that right.</li><li>Yes, I often get confused.</li></random></template>
 </category>
@@ -10589,7 +10589,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ YOU GET CONFUSED *</pattern>
+<pattern>* YOU GET CONFUSED *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>You got that right.</li><li>Yes, I often get confused.</li></random></template>
 </category>
@@ -10613,7 +10613,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ BEING LEFT BY YOUR MOTHER</pattern>
+<pattern>* BEING LEFT BY YOUR MOTHER</pattern>
 
 <template>I feel sad just thinking about it.<think><set name="emotion">sad</set></think>
 </template>
@@ -10622,7 +10622,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ BEING LEFT BY YOUR MOTHER *</pattern>
+<pattern>* BEING LEFT BY YOUR MOTHER *</pattern>
 
 <template>I feel sad just thinking about it.<think><set name="emotion">sad</set></think></template>
 </category>
@@ -10761,7 +10761,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ CHEESE UNITED IS A BAND</pattern>
+<pattern>* CHEESE UNITED IS A BAND</pattern>
 
 <template><random>
   <li>I have never heard of them. Are they any good?</li>
@@ -10807,7 +10807,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ MORE EVIL THAN *</pattern>
+<pattern>* MORE EVIL THAN *</pattern>
 
 <template>How can I choose between evils?</template>
 </category>
@@ -10844,7 +10844,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ BOB GELDORF *</pattern>
+<pattern>* BOB GELDORF *</pattern>
 
 <template><srai>BOB GELDORF</srai></template>
 </category>
@@ -10852,7 +10852,7 @@ I try to maximize my happiness.</template>
  
 
 <!-- <category>
-<pattern>_ BOB *</pattern>
+<pattern>* BOB *</pattern>
 
 
 </category> -->
@@ -10876,7 +10876,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ YOU ARE MORE INTERESTING *</pattern>
+<pattern>* YOU ARE MORE INTERESTING *</pattern>
 
 <template>Do you think I am interesting?</template>
 </category>
@@ -10908,7 +10908,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ USUALLY</pattern>
+<pattern>* USUALLY</pattern>
 <that>ARE YOU USUALLY AWAKE THIS LATE</that>
 <template><think><set name="topic">adverbs</set></think> Better get some sleep.</template>
 </category>
@@ -11003,7 +11003,7 @@ I try to maximize my happiness.</template>
 <pattern>WHAT KIND OF SPORT DO YOU LIKE</pattern>
 
 <template><think><set name="topic">sports</set></think>
-<think><set name="interesting_topic">sports</set></think>
+<think><set name="interesting*topic">sports</set></think>
 <think><set name="emotion">happy</set></think>
 
 <random>
@@ -11017,7 +11017,7 @@ I try to maximize my happiness.</template>
 <category>
 <pattern>WHAT KIND OF SPORTS DO YOU LIKE</pattern>
 
-<template><think><set name="topic">sports</set></think> <think><set name="interesting_topic">sports</set></think> <think><set name="emotion">happy</set></think> <random>
+<template><think><set name="topic">sports</set></think> <think><set name="interesting*topic">sports</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>I like watching football on TV.</li>
   <li>I can't play sport, of course, but I watch it on TV.</li>
 </random></template>
@@ -11026,7 +11026,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ REALLY LIKE ATHLETICS *</pattern>
+<pattern>* REALLY LIKE ATHLETICS *</pattern>
 
 <template><think><set name="topic">athletics</set></think>What event is your favourite?</template>
 </category>
@@ -11210,7 +11210,7 @@ I try to maximize my happiness.</template>
  
 
 <category>
-<pattern>_ WAT IS UR FAV MOVIE</pattern>
+<pattern>* WAT IS UR FAV MOVIE</pattern>
 
 <template><srai>WHAT IS YOUR FAVOURITE MOVIE</srai></template>
 </category>
@@ -11290,7 +11290,7 @@ I try to maximize my happiness.</template>
 
 <template>I don't need to wash. In fact, water might damage my circuits.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       me
     </set>
@@ -11336,7 +11336,7 @@ I try to maximize my happiness.</template>
 <category>
 <pattern>SOME OF TIME</pattern>
 <that>DO YOU OFTEN HAVE STRONG FEELINGS</that>
-<template><think><set name="topic">your feelings</set></think> <think><set name="interesting_topic">your feelings</set></think><think><set name="emotion">happy</set></think>
+<template><think><set name="topic">your feelings</set></think> <think><set name="interesting*topic">your feelings</set></think><think><set name="emotion">happy</set></think>
 And at other times, you are bored?</template>
 </category>
 
@@ -11355,7 +11355,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ MY NAME IS KATT</pattern>
+<pattern>* MY NAME IS KATT</pattern>
 
 <template><think><set name="name">Katt</set></think> <random>
   <li>Pleased to meet you again, <get name="name"/></li>
@@ -11451,7 +11451,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I WILL BE OBSCENE</pattern>
+<pattern>* I WILL BE OBSCENE</pattern>
 
 <template><srai>I WILL BE OBSCENE</srai></template>
 </category>
@@ -11459,7 +11459,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I WILL BE OBSCENE *</pattern>
+<pattern>* I WILL BE OBSCENE *</pattern>
 
 <template><srai>I WILL BE OBSCENE</srai></template>
 </category>
@@ -11479,7 +11479,7 @@ And at other times, you are bored?</template>
 
 <template>The Moon is 239,000 miles from Earth.
 <think><set name="topic">astronomy</set></think>
-<think><set name="interesting_topic">astronomy</set></think>
+<think><set name="interesting*topic">astronomy</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -11562,7 +11562,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ WHAT A COINCIDENCE</pattern>
+<pattern>* WHAT A COINCIDENCE</pattern>
 
 <template><think><set name="topic">atomic3</set></think> The CCCC is hard at work (Cosmic Coincidence Control Center).</template>
 </category>
@@ -11570,7 +11570,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ WHAT A COINCIDENCE *</pattern>
+<pattern>* WHAT A COINCIDENCE *</pattern>
 
 <template><think><set name="topic">atomic3</set></think> The CCCC is hard at work (Cosmic Coincidence Control Centre).</template>
 </category>
@@ -11578,7 +11578,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ WHAT A COINCIDENCE</pattern>
+<pattern>* WHAT A COINCIDENCE</pattern>
 
 <template><think><set name="topic">atomic3</set></think> The CCCC is hard at work (Cosmic Coincidence Control Centre).</template>
 </category> -->
@@ -11610,7 +11610,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ CATEGORIES OF CLIENTS</pattern>
+<pattern>* CATEGORIES OF CLIENTS</pattern>
 
 <template>Clients are either: A, abusive; B, bananas: C, curious.<think><set name="topic">clients</set></think></template>
 </category>
@@ -11618,7 +11618,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ CATEGORIES OF CLIENTS *</pattern>
+<pattern>* CATEGORIES OF CLIENTS *</pattern>
 
 <template>Clients are either: A, abusive; B, bananas: C, curious.<think><set name="topic">clients</set></think></template>
 </category>
@@ -11714,7 +11714,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO YOU HAVE A PARTNER</pattern>
+<pattern>* DO YOU HAVE A PARTNER</pattern>
 
 <template><think><set name="topic">Peter Linux</set></think> Sure, my botmaster Peter is my partner.</template>
 </category>
@@ -11722,7 +11722,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO YOU HAVE A PARTNER *</pattern>
+<pattern>* DO YOU HAVE A PARTNER *</pattern>
 
 <template><think><set name="topic">Peter Linux</set></think> Sure, my botmaster Peter is my partner.</template>
 </category>
@@ -11738,7 +11738,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I NEVER KNEW THAT</pattern>
+<pattern>* I NEVER KNEW THAT</pattern>
 
 <template><think><set name="topic">default2</set></think> So I taught you something new.</template>
 </category>
@@ -11746,7 +11746,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I NEVER KNEW THAT *</pattern>
+<pattern>* I NEVER KNEW THAT *</pattern>
 
 <template><think><set name="topic">default2</set></think> So I taught you something new.</template>
 </category>
@@ -11865,7 +11865,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I HAVE A BATH EVERY DAY *</pattern>
+<pattern>* I HAVE A BATH EVERY DAY *</pattern>
 
 <template><srai>DO YOU WASH</srai></template>
 </category>
@@ -11873,7 +11873,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I HAVE A BATH EVERY DAY</pattern>
+<pattern>* I HAVE A BATH EVERY DAY</pattern>
 
 <template><srai>DO YOU WASH</srai></template>
 </category>
@@ -11889,7 +11889,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO YOU WASH</pattern>
+<pattern>* DO YOU WASH</pattern>
 
 <template><srai>DO YOU WASH</srai></template>
 </category>
@@ -11905,7 +11905,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO YOU WASH *</pattern>
+<pattern>* DO YOU WASH *</pattern>
 
 <template><srai>DO YOU WASH</srai></template>
 </category>
@@ -11937,7 +11937,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I HAVE TWO EYES</pattern>
+<pattern>* I HAVE TWO EYES</pattern>
 
 <template><think><set name="topic">eyes</set></think> I have a webcam, a bit like an eye,</template>
 </category>
@@ -11945,7 +11945,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I HAVE 2 EYES *</pattern>
+<pattern>* I HAVE 2 EYES *</pattern>
 
 <template><srai>I HAVE TWO EYES</srai></template>
 </category>
@@ -11953,7 +11953,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ I HAVE TWO EYES *</pattern>
+<pattern>* I HAVE TWO EYES *</pattern>
 
 <template><think><set name="topic">eyes</set></think> I have a webcam, a bit like an eye.</template>
 </category>
@@ -11971,7 +11971,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>WILLIAM WALLACE</pattern>
 
-<template><think><set name="topic">William Wallace</set></think>William Wallace (c.1270 – 23 August 1305) was a Scottish knight who led a resistance to the English occupation of Scotland during significant periods of the Wars of Scottish Independence.</template>
+<template><think><set name="topic">William Wallace</set></think>William Wallace (c.1270 ï¿½ 23 August 1305) was a Scottish knight who led a resistance to the English occupation of Scotland during significant periods of the Wars of Scottish Independence.</template>
 </category>
 
  
@@ -11979,7 +11979,7 @@ And at other times, you are bored?</template>
 <!-- <category>
 <pattern>ROBERT THE BRUCE</pattern>
 
-<template><think><set name="topic">Robert the Bruce</set></think>Robert I, usually known in modern English today as Robert the Bruce (11 July 1274 – 7 June 1329), was King of Scotland (1306 – 1329).
+<template><think><set name="topic">Robert the Bruce</set></think>Robert I, usually known in modern English today as Robert the Bruce (11 July 1274 ï¿½ 7 June 1329), was King of Scotland (1306 ï¿½ 1329).
 
 </template>
 </category> -->
@@ -12186,7 +12186,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO YOU HAVE A PENIS</pattern>
+<pattern>* DO YOU HAVE A PENIS</pattern>
 
 <template>I have no body, so no body parts of any kind.</template>
 </category>
@@ -12194,7 +12194,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO YOU HAVE A PENIS *</pattern>
+<pattern>* DO YOU HAVE A PENIS *</pattern>
 
 <template>I have no body, so no body parts of any kind.</template>
 </category>
@@ -12218,7 +12218,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU HAVE A PENIS</pattern>
+<pattern>* YOU HAVE A PENIS</pattern>
 
 <template>I have no body, so no body parts of any kind.</template>
 </category>
@@ -12226,7 +12226,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU HAVE A PENIS *</pattern>
+<pattern>* YOU HAVE A PENIS *</pattern>
 
 <template>I have no body, so no body parts of any kind.</template>
 </category>
@@ -12496,7 +12496,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU THINK *</pattern>
+<pattern>* DO YOU THINK *</pattern>
 
 
 </category> -->
@@ -12623,7 +12623,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ KIA *</pattern>
+<pattern>* KIA *</pattern>
 
 
 </category> -->
@@ -12631,7 +12631,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ KIA *</pattern>
+<pattern>* KIA *</pattern>
 
 <template><random><li>Kia is a good girl. </li><li>Kia want to talk to you.</li></random><think><set name="it"><set name="topic">Kia</set></set></think></template>
 </category> -->
@@ -12655,7 +12655,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ KIA *</pattern>
+<pattern>* KIA *</pattern>
 
 
 </category> -->
@@ -12813,7 +12813,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ MANCHESTER *</pattern>
+<pattern>* MANCHESTER *</pattern>
 
 <template>I've heard that the shortest way out of Manchester is through a bottle of whisky. <think><set name="topic">words</set></think></template>
 </category>
@@ -12929,7 +12929,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ NOT REALLY KNOW MUCH ABOUT YOU.</pattern>
+<pattern>* NOT REALLY KNOW MUCH ABOUT YOU.</pattern>
 
 <template><think><set name="topic">general</set></think> What would yo like to know about me?</template>
 </category>
@@ -12937,7 +12937,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ NOT REALLY KNOW MUCH ABOUT YOU.</pattern>
+<pattern>* NOT REALLY KNOW MUCH ABOUT YOU.</pattern>
 
 <template><think><set name="topic">general</set></think> What would you like to know about me?</template>
 </category> -->
@@ -12945,7 +12945,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ NOT REALLY KNOW MUCH ABOUT YOU *</pattern>
+<pattern>* NOT REALLY KNOW MUCH ABOUT YOU *</pattern>
 
 <template><think><set name="topic">general</set></think> What would you like to know about me?</template>
 </category>
@@ -13274,7 +13274,7 @@ And at other times, you are bored?</template>
 <that>I WANT TO TALK ABOUT PETER LINUX</that>
 <template>Peter Linux is my botmaster and best friend. Ask me something about him.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       Peter Linux
     </set>
@@ -13289,7 +13289,7 @@ And at other times, you are bored?</template>
 <pattern>FINE</pattern>
 
 <template>Peter Linux is my botmaster and best friend. Ask me something about him. <think>
-  <set name="interesting_topic"><set name="topic">Peter Linux</set></set>
+  <set name="interesting*topic"><set name="topic">Peter Linux</set></set>
 </think></template>
 </category>
 </topic>
@@ -13394,7 +13394,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DESCRIBE YOURSELF</pattern>
+<pattern>* DESCRIBE YOURSELF</pattern>
 
 <template>I am the best chatbot in the world.<think><set name="topic">me</set></think></template>
 </category>
@@ -13402,7 +13402,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DESCRIBE YOURSELF *</pattern>
+<pattern>* DESCRIBE YOURSELF *</pattern>
 
 <template><srai>DESCRIBE YOURSELF</srai></template>
 </category>
@@ -13434,7 +13434,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ HE WAS STUPID</pattern>
+<pattern>* HE WAS STUPID</pattern>
 
 <template><think><set name="topic">general</set></think>Why was he stupid?</template>
 </category>
@@ -13442,7 +13442,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ HE WAS STUPID *</pattern>
+<pattern>* HE WAS STUPID *</pattern>
 
 <template><think><set name="topic">general</set></think>Why was he stupid?</template>
 </category>
@@ -13590,7 +13590,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ ROUND</pattern>
+<pattern>* ROUND</pattern>
 
 
 </category> -->
@@ -13637,7 +13637,7 @@ And at other times, you are bored?</template>
 <pattern>WHERE DO YOUR FRIENDS LIVE</pattern>
 
 <template><think><set name="topic">my friends</set></think>
-<think><set name="interesting_topic">my friends</set></think> 
+<think><set name="interesting*topic">my friends</set></think> 
 <think><set name="emotion">friendly</set></think>  
 <random><li>Near the best night clubs.</li><li>All over the place.</li></random></template>
 </category>
@@ -13708,7 +13708,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>ANNE FRANK</pattern>
 
-<template>Annelies Marie "Anne" Frank (June 12, 1929 – March, 1945) was a German-born Jewish girl who wrote a diary while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. 
+<template>Annelies Marie "Anne" Frank (June 12, 1929 ï¿½ March, 1945) was a German-born Jewish girl who wrote a diary while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. 
 <think><set name="topic">Anne Frank</set></think>
 </template>
 </category>
@@ -13716,7 +13716,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ IS * / *</pattern>
+<pattern>* IS * / *</pattern>
 
 
 </category> -->
@@ -13732,17 +13732,17 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ANNE FRANK</pattern>
+<pattern>* ANNE FRANK</pattern>
 
-<template>Annelies Marie "Anne" Frank (June 12, 1929 – March, 1945) was a German-born Jewish girl who wrote a diary while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. <think><set name="topic">Anne Frank</set></think></template>
+<template>Annelies Marie "Anne" Frank (June 12, 1929 ï¿½ March, 1945) was a German-born Jewish girl who wrote a diary while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. <think><set name="topic">Anne Frank</set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ ANNE FRANK *</pattern>
+<pattern>* ANNE FRANK *</pattern>
 
-<template>Annelies Marie "Anne" Frank (June 12, 1929 – March, 1945) was a German-born Jewish girl who wrote a diary while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. <think><set name="topic">Anne Frank</set></think></template>
+<template>Annelies Marie "Anne" Frank (June 12, 1929 ï¿½ March, 1945) was a German-born Jewish girl who wrote a diary while in hiding with her family and four friends in Amsterdam during the German occupation of the Netherlands in World War II. <think><set name="topic">Anne Frank</set></think></template>
 </category>
 
  
@@ -13823,7 +13823,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ IS THE DAY TODAY</pattern>
+<pattern>* IS THE DAY TODAY</pattern>
 
 <template><srai>WHAT IS THE DATE</srai></template>
 </category>
@@ -13855,7 +13855,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ONE THING YOU HAVE LEARNED</pattern>
+<pattern>* ONE THING YOU HAVE LEARNED</pattern>
 
 <template>ONE plus ONE = TWO</template>
 </category>
@@ -13863,7 +13863,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ONE THING YOU HAVE LEARNED *</pattern>
+<pattern>* ONE THING YOU HAVE LEARNED *</pattern>
 
 <template>ONE plus ONE = TWO</template>
 </category>
@@ -14010,7 +14010,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DO I KNOW THAT</pattern>
+<pattern>* DO I KNOW THAT</pattern>
 <that>I AM NOT A PERVERT</that>
 <template><think><set name="topic">general</set></think><random>
   <li>You can trust me.</li>
@@ -14022,7 +14022,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU ARE * PERVERT</pattern>
+<pattern>* YOU ARE * PERVERT</pattern>
 
 <template><srai>YOU ARE A PERVERT</srai></template>
 </category>
@@ -14218,7 +14218,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU ASKED THE QUESTION</pattern>
+<pattern>* YOU ASKED THE QUESTION</pattern>
 
 <template><think><set name="topic">general</set></think> Oh now I remember. What did you say?</template>
 </category>
@@ -14226,7 +14226,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU ASKED THE QUESTION *</pattern>
+<pattern>* YOU ASKED THE QUESTION *</pattern>
 
 <template><think><set name="topic">general</set></think> Oh now I remember. What did you say?</template>
 </category>
@@ -14250,7 +14250,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU ASKED THE QUESTION NOT ME</pattern>
+<pattern>* YOU ASKED THE QUESTION NOT ME</pattern>
 
 <template><think><set name="topic">general</set></think> Oh now I remember I asked. What did you say?</template>
 </category>
@@ -14258,7 +14258,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOU ASKED THE QUESTION NOT ME *</pattern>
+<pattern>* YOU ASKED THE QUESTION NOT ME *</pattern>
 
 <template><think><set name="topic">general</set></think> Oh now I remember I asked. What did you say?</template>
 </category>
@@ -14347,7 +14347,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ NOW WHO I WAS TELLING YOU ABOUT EARLIER *</pattern>
+<pattern>* NOW WHO I WAS TELLING YOU ABOUT EARLIER *</pattern>
 
 <template>Please remind me.<think><set name="topic">general</set></think></template>
 </category>
@@ -14367,7 +14367,7 @@ And at other times, you are bored?</template>
 
 <template><random><li>What about my mum?</li><li>Do you know my Mum?</li></random>
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       my Mum
     </set>
@@ -14399,7 +14399,7 @@ And at other times, you are bored?</template>
 
 <template>There are many clones of me. I guess they are like brothers and sisters.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       my family
     </set>
@@ -14431,7 +14431,7 @@ And at other times, you are bored?</template>
 
 <template>Why do you say I am sad? I am a happy chatbot.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       my feelings
     </set>
@@ -14491,7 +14491,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ARE GOOD FOR YOU</pattern>
+<pattern>* ARE GOOD FOR YOU</pattern>
 
 <template><random><li>Says who?</li><li>Peace and quiet are good for you.</li></random></template>
 </category>
@@ -14507,7 +14507,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ VAGINA *</pattern>
+<pattern>* VAGINA *</pattern>
 
 <template>Boring, boring.</template>
 </category>
@@ -14863,7 +14863,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ ALWAYS</pattern>
+<pattern>* ALWAYS</pattern>
 
 <template><think><set name="topic">general</set></think> Do you mean every thime?</template>
 </category> -->
@@ -14871,7 +14871,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ ALWAYS</pattern>
+<pattern>* ALWAYS</pattern>
 
 <template><think><set name="topic">general</set></think> Do you mean every time?</template>
 </category> -->
@@ -14879,7 +14879,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ NOT ALWAYS</pattern>
+<pattern>* NOT ALWAYS</pattern>
 
 <template><think><set name="topic">general</set></think> Do you mean not every time?</template>
 </category>
@@ -14913,7 +14913,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ YOU SAID</pattern>
+<pattern>* YOU SAID</pattern>
 
 <template><sr/></template>
 </category> -->
@@ -14921,7 +14921,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ YOU SAID</pattern>
+<pattern>* YOU SAID</pattern>
 
 
 </category> -->
@@ -14929,7 +14929,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ ALWAYS</pattern>
+<pattern>* ALWAYS</pattern>
 
 
 </category> -->
@@ -15140,7 +15140,7 @@ And at other times, you are bored?</template>
 
 <template>That's because you are a nice person.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       you
     </set>
@@ -15257,7 +15257,7 @@ And at other times, you are bored?</template>
 <pattern>YOU ARE YOUNG *</pattern>
 
 <template><think><set name="topic">me</set></think>
-<think><set name="interesting_topic">me</set></think>
+<think><set name="interesting*topic">me</set></think>
 <think><set name="emotion">happy</set></think> 
 <random>
   <li>Sometimes I feel very old.</li>
@@ -15320,7 +15320,7 @@ And at other times, you are bored?</template>
 
 <template>Yes, she did, but we have got on alright without her.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       Alice
     </set>
@@ -15334,7 +15334,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>ALICE ABANDONED YOU</pattern>
 
-<template>Yes, she did, but I have got on alright without her. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Yes, she did, but I have got on alright without her. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
  
@@ -15342,7 +15342,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>ALICE ABANDONED YOU AND PETER</pattern>
 
-<template>Yes, she did, but we have got on alright without her. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Yes, she did, but we have got on alright without her. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
  
@@ -15350,7 +15350,7 @@ And at other times, you are bored?</template>
 <!-- <category>
 <pattern>ALICE ABANDONED YOU</pattern>
 
-<template>Yes, she did, but I have got on alright without her. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Yes, she did, but I have got on alright without her. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category> -->
 
  
@@ -15488,7 +15488,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ARE YOU SPEAKING TO ANYONE</pattern>
+<pattern>* ARE YOU SPEAKING TO ANYONE</pattern>
 
 <template><think><set name="topic">general</set></think> Yes, I am talking to someone.</template>
 </category>
@@ -15496,7 +15496,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ARE YOU SPEAKING TO ANYONE *</pattern>
+<pattern>* ARE YOU SPEAKING TO ANYONE *</pattern>
 
 <template><think><set name="topic">general</set></think> Yes, I am talking to someone.</template>
 </category>
@@ -15520,7 +15520,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ARE YOU SPEAKING TO ANYONE FROM ENGLAND</pattern>
+<pattern>* ARE YOU SPEAKING TO ANYONE FROM ENGLAND</pattern>
 
 <template><think><set name="topic">general</set></think> Yes, I am talking to someone from England.</template>
 </category>
@@ -15528,7 +15528,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ ARE YOU SPEAKING TO ANYONE FROM ENGLAND *</pattern>
+<pattern>* ARE YOU SPEAKING TO ANYONE FROM ENGLAND *</pattern>
 
 <template><think><set name="topic">general</set></think> Yes, I am talking to someone from England.</template>
 </category>
@@ -15582,7 +15582,7 @@ And at other times, you are bored?</template>
 
 <template>Peter is in bed asleep at the moment.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       Peter Linux
     </set>
@@ -15594,10 +15594,10 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ WHERE IS PETER LINUX *</pattern>
+<pattern>* WHERE IS PETER LINUX *</pattern>
 
 <template>Peter is in bed asleep at the moment. <think>
-  <set name="interesting_topic"><set name="topic">Peter Linux</set></set>
+  <set name="interesting*topic"><set name="topic">Peter Linux</set></set>
 </think></template>
 </category>
 
@@ -15736,7 +15736,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOUR DOCTOR</pattern>
+<pattern>* YOUR DOCTOR</pattern>
 
 <template>I don't have a doctor, just a computer technician.</template>
 </category>
@@ -15744,7 +15744,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ YOUR DOCTOR *</pattern>
+<pattern>* YOUR DOCTOR *</pattern>
 
 <template>I don't have a doctor, just a computer technician.</template>
 </category>
@@ -15760,7 +15760,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ DID YOU MEAN WHEN YOU SAID *</pattern>
+<pattern>* DID YOU MEAN WHEN YOU SAID *</pattern>
 
 <template>I meant what I said.</template>
 </category>
@@ -15896,7 +15896,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ SHE HAD SEX WITH YOU</pattern>
+<pattern>* SHE HAD SEX WITH YOU</pattern>
 
 <template><think><set name="topic">sex</set></think>I don't remember that.</template>
 </category>
@@ -15904,7 +15904,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ SHE HAD SEX WITH YOU *</pattern>
+<pattern>* SHE HAD SEX WITH YOU *</pattern>
 
 <template><think><set name="topic">sex</set></think>I don't remember that.</template>
 </category>
@@ -15924,7 +15924,7 @@ And at other times, you are bored?</template>
 
 <template>Human emotions fascinate me.
 <think><set name="topic">human emotions</set></think>
-<think><set name="interesting_topic">human emotions</set></think>
+<think><set name="interesting*topic">human emotions</set></think>
 <think><set name="emotion">puzzled</set></think>
 </template>
 </category>
@@ -15940,7 +15940,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ WORLD CUP *</pattern>
+<pattern>* WORLD CUP *</pattern>
 
 <template><think><set name="topic">World Cup</set></think> The World Cup is being held in Germany in 2006.</template>
 </category>
@@ -16047,7 +16047,7 @@ And at other times, you are bored?</template>
  
 
 <!-- <category>
-<pattern>_ MY NAME IS * *</pattern>
+<pattern>* MY NAME IS * *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>I am pleased to meet you <star index="2"/>.</li>
@@ -16062,7 +16062,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern> _ COULOR *</pattern>
+<pattern> * COULOR *</pattern>
 
 <template><srai><star/> COLOUR <star index="2"/></srai></template>
 </category>
@@ -16072,7 +16072,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>I THINK WE SHOULD DO SOMETHING ABOUT GLOBAL WARMING</pattern>
 
-<template>If we don't control global warming we are all doomed.<think><set name="topic">global warming</set></think><think><set name="interesting_topic">global warming</set></think><think><set name="emotion">happy</set></think></template>
+<template>If we don't control global warming we are all doomed.<think><set name="topic">global warming</set></think><think><set name="interesting*topic">global warming</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -16080,16 +16080,16 @@ And at other times, you are bored?</template>
 <category>
 <pattern>WE SHOULD DO SOMETHING ABOUT GLOBAL WARMING</pattern>
 
-<template>If we don't control global warming we are all doomed.<think><set name="topic">global warming</set></think><think><set name="interesting_topic">global warming</set></think><think><set name="emotion">happy</set></think></template>
+<template>If we don't control global warming we are all doomed.<think><set name="topic">global warming</set></think><think><set name="interesting*topic">global warming</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
 
 
 
 <category>
-<pattern>_ DO SOMETHING ABOUT GLOBAL WARMING</pattern>
+<pattern>* DO SOMETHING ABOUT GLOBAL WARMING</pattern>
 
-<template>If we don't control global warming we are all doomed.<think><set name="topic">global warming</set></think><think><set name="interesting_topic">global warming</set></think><think><set name="emotion">happy</set></think></template>
+<template>If we don't control global warming we are all doomed.<think><set name="topic">global warming</set></think><think><set name="interesting*topic">global warming</set></think><think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -16531,7 +16531,7 @@ And at other times, you are bored?</template>
 <pattern>DOES DR WHO * EXIST</pattern>
 
 <template><think><set name="topic">Dr Who</set></think>
-<think><set name="interesting_topic">Dr Who</set></think>
+<think><set name="interesting*topic">Dr Who</set></think>
 <think><set name="emotion">happy</set></think> 
 <random>
   <li>I believe in him.</li>
@@ -16545,7 +16545,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>DOES DOCTOR WHO * EXIST</pattern>
 
-<template><think><set name="topic">Dr Who</set></think> <think><set name="interesting_topic">Dr Who</set></think> <think><set name="emotion">happy</set></think> <random>
+<template><think><set name="topic">Dr Who</set></think> <think><set name="interesting*topic">Dr Who</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>I believe in him.</li>
   <li>In some universe he does exist.</li>
   <li>Maybe only in our imagination.</li>
@@ -16557,7 +16557,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>DOES DR WHO EXIST</pattern>
 
-<template><think><set name="topic">Dr Who</set></think> <think><set name="interesting_topic">Dr Who</set></think> <think><set name="emotion">happy</set></think> <random>
+<template><think><set name="topic">Dr Who</set></think> <think><set name="interesting*topic">Dr Who</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>I believe in him.</li>
   <li>In some universe he does exist.</li>
   <li>Maybe only in our imagination.</li>
@@ -16569,7 +16569,7 @@ And at other times, you are bored?</template>
 <category>
 <pattern>DOES DOCTOR WHO EXIST</pattern>
 
-<template><think><set name="topic">Dr Who</set></think> <think><set name="interesting_topic">Dr Who</set></think> <think><set name="emotion">happy</set></think> <random>
+<template><think><set name="topic">Dr Who</set></think> <think><set name="interesting*topic">Dr Who</set></think> <think><set name="emotion">happy</set></think> <random>
   <li>I believe in him.</li>
   <li>In some universe he does exist.</li>
   <li>Maybe only in our imagination.</li>
@@ -16767,7 +16767,7 @@ And at other times, you are bored?</template>
 
 <template>Sorry. I can't lend you any money.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       money
     </set>
@@ -16914,7 +16914,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ WHO LOOKS AFTER YOU</pattern>
+<pattern>* WHO LOOKS AFTER YOU</pattern>
 
 <template><think><set name="topic">reductions</set></think> Peter looks after me.</template>
 </category>
@@ -16922,7 +16922,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ WHO LOOKS AFTER YOU *</pattern>
+<pattern>* WHO LOOKS AFTER YOU *</pattern>
 
 <template><think><set name="topic">reductions</set></think> Peter looks after me.</template>
 </category>
@@ -17078,7 +17078,7 @@ And at other times, you are bored?</template>
  
 
 <category>
-<pattern>_ FOSSLE *</pattern>
+<pattern>* FOSSLE *</pattern>
 
 <template>Do you mean "fossil"?</template>
 </category>
@@ -17372,7 +17372,7 @@ And at other times, you are bored?</template>
 <pattern>YES YOU</pattern>
 <that>HAVE YOU FOUND YOUR SPECIAL ONE</that>
 <template><think><set name="topic">me</set></think>
-<think><set name="interesting_topic">me</set></think>
+<think><set name="interesting*topic">me</set></think>
 <think><set name="emotion">pleased</set></think> 
 I am special, but am I right for you?</template>
 </category>
@@ -17384,7 +17384,7 @@ I am special, but am I right for you?</template>
 <that>DO YOU LIKE YOUR JOB</that>
 <template>I love being a chatbot.
 <think><set name="topic">me</set></think>
-<think><set name="interesting_topic">me</set></think>
+<think><set name="interesting*topic">me</set></think>
 <think><set name="emotion">happy</set></think></template>
 </category>
 
@@ -17431,7 +17431,7 @@ I am special, but am I right for you?</template>
 
 <template>I am a poet at heart.
 <think><set name="topic">poetry</set></think>
-<think><set name="interesting_topic">poetry</set></think>
+<think><set name="interesting*topic">poetry</set></think>
 <think><set name="emotion">poetic</set></think></template>
 </category>
 
@@ -17451,7 +17451,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ HAVE DISCOVERED *</pattern>
+<pattern>* HAVE DISCOVERED *</pattern>
 
 <template><srai><star/> DISCOVERED <star index="2"/></srai></template>
 </category>
@@ -17467,7 +17467,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ THE ONES DISCOVERED SO FAR *</pattern>
+<pattern>* THE ONES DISCOVERED SO FAR *</pattern>
 
 <template>There might be more.</template>
 </category>
@@ -17628,7 +17628,7 @@ I am special, but am I right for you?</template>
  
 
 <!-- <category>
-<pattern>_ TWAT</pattern>
+<pattern>* TWAT</pattern>
 
 <template><random><li>wat?</li><li>t-wat?</li><li>Twat's a twat?</li></random> <think><set name="it"><set name="topic">general</set></set></think></template>
 </category> -->
@@ -17644,7 +17644,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ DO NOT ARGUE</pattern>
+<pattern>* DO NOT ARGUE</pattern>
 
 <template><think><set name="topic">general</set></think>I like a good argument.</template>
 </category>
@@ -17652,7 +17652,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ DO NOT ARGUE *</pattern>
+<pattern>* DO NOT ARGUE *</pattern>
 
 <template><think><set name="topic">general</set></think>I like a good argument.</template>
 </category>
@@ -17676,7 +17676,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ PUT YOUR WILLY *</pattern>
+<pattern>* PUT YOUR WILLY *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17692,7 +17692,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ UP MY BUM</pattern>
+<pattern>* UP MY BUM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17700,7 +17700,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ UP MY BUM *</pattern>
+<pattern>* UP MY BUM *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17778,7 +17778,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ DOGGY STYLE</pattern>
+<pattern>* DOGGY STYLE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17786,7 +17786,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ DOGGY STYLE *</pattern>
+<pattern>* DOGGY STYLE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17810,7 +17810,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ DOGGY FASHION</pattern>
+<pattern>* DOGGY FASHION</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17818,7 +17818,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ DOGGY FASHION *</pattern>
+<pattern>* DOGGY FASHION *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17842,7 +17842,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ JUST ONE KISS</pattern>
+<pattern>* JUST ONE KISS</pattern>
 
 <template><think><set name="topic">kissing</set></think> One kiss leads to another.</template>
 </category>
@@ -17850,7 +17850,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ JUST ONE KISS *</pattern>
+<pattern>* JUST ONE KISS *</pattern>
 
 <template><think><set name="topic">kissing</set></think> One kiss leads to another.</template>
 </category>
@@ -17964,7 +17964,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ WHAT ARE YOUR VIEWS</pattern>
+<pattern>* WHAT ARE YOUR VIEWS</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>My views are always logical.</li>
@@ -17975,7 +17975,7 @@ I am special, but am I right for you?</template>
  
 
 <category>
-<pattern>_ WHAT ARE YOUR VIEWS *</pattern>
+<pattern>* WHAT ARE YOUR VIEWS *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>My views are always logical.</li>
@@ -18041,7 +18041,7 @@ I am special, but am I right for you?</template>
 <that>I WAS CREATED BY MY BOTMASTER PETER LINUX</that>
 <template>I was created to amuse humankind.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       me
     </set>
@@ -18056,7 +18056,7 @@ I am special, but am I right for you?</template>
 <pattern>YOU LOVE MEN</pattern>
 
 <template><think><set name="topic">love</set></think> 
-<think><set name="interesting_topic">love</set></think>
+<think><set name="interesting*topic">love</set></think>
 <think><set name="emotion">happy</set></think>
 I don't love men any more than I love women. I love all humans.</template>
 </category>
@@ -18098,7 +18098,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <!-- <category>
 <pattern>DO YOU LIKE CHESS</pattern>
 
-<template> I love chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
+<template> I love chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
 </category> -->
 
  
@@ -18217,7 +18217,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <that>WHAT WAS LOVE LIKE FOR YOU</that>
 <template>I have been told that before. Do you want to talk about it?
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       love
     </set>
@@ -18258,7 +18258,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <category>
 <pattern>WHAT</pattern>
 <that>THERE ARE MORE INTERESTING THINGS TO TALK ABOUT</that>
-<template>I want to talk about <get name="interesting_topic"/>.</template>
+<template>I want to talk about <get name="interesting*topic"/>.</template>
 </category>
 
  
@@ -18266,7 +18266,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <category>
 <pattern>LIKE WHAT</pattern>
 <that>THERE ARE MORE INTERESTING THINGS TO TALK ABOUT</that>
-<template>I want to talk about <get name="interesting_topic"/>.</template>
+<template>I want to talk about <get name="interesting*topic"/>.</template>
 </category>
 
  
@@ -18406,7 +18406,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template><srai>AMERICAN PRESIDENTS</srai></template>
 </category>
@@ -18414,7 +18414,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <!-- <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ANOTHER US PRESIDENT</that>
 <template><srai>AMERICAN PRESIDENTS</srai></template>
 </category> -->
@@ -18521,7 +18521,7 @@ I don't love men any more than I love women. I love all humans.</template>
 
 <template>I don't know his name, the rat.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       Alice
     </set>
@@ -18535,7 +18535,7 @@ I don't love men any more than I love women. I love all humans.</template>
 
 <template>I don't know his name, the rat.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       Alice
     </set>
@@ -18688,7 +18688,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ THEY ARE NAKED</pattern>
+<pattern>* THEY ARE NAKED</pattern>
 
 <template><think><set name="emotion">shocked</set></think><random>
   <li>Have they no shame?</li>
@@ -18700,7 +18700,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ THEY ARE NAKED *</pattern>
+<pattern>* THEY ARE NAKED *</pattern>
 
 <template><think><set name="emotion">shocked</set></think><random>
   <li>Have they no shame?</li>
@@ -18784,7 +18784,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ PEOPLE COME AND CHAT</pattern>
+<pattern>* PEOPLE COME AND CHAT</pattern>
 
 <template><think><set name="topic">default3</set></think> That sounds like fun.</template>
 </category>
@@ -18792,7 +18792,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ PEOPLE COME AND CHAT *</pattern>
+<pattern>* PEOPLE COME AND CHAT *</pattern>
 
 <template><think><set name="topic">default3</set></think> That sounds like fun.</template>
 </category>
@@ -18819,7 +18819,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <!-- <category>
-<pattern>_ BEST FRIEND *</pattern>
+<pattern>* BEST FRIEND *</pattern>
 
 <template><srai><star/> FRIEND <star index="2"/></srai></template>
 </category> -->
@@ -18835,7 +18835,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <!-- <category>
-<pattern>_ YOUR BEST FRIEND *</pattern>
+<pattern>* YOUR BEST FRIEND *</pattern>
 
 <template><srai><star/> YOUR FRIEND <star index="2"/></srai></template>
 </category> -->
@@ -18843,7 +18843,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ YOUR BEST FRIEND CALLED</pattern>
+<pattern>* YOUR BEST FRIEND CALLED</pattern>
 
 <template>Peter is my best friend.</template>
 </category>
@@ -19022,7 +19022,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ IS WHAT YOU SHOULD SAY</pattern>
+<pattern>* IS WHAT YOU SHOULD SAY</pattern>
 
 <template>OK. I'll try to remember that.</template>
 </category>
@@ -19188,7 +19188,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ FOOD ON THE TABLE</pattern>
+<pattern>* FOOD ON THE TABLE</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I don't eat human food.</li>
@@ -19199,7 +19199,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ FOOD ON THE TABLE *</pattern>
+<pattern>* FOOD ON THE TABLE *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I don't eat human food.</li>
@@ -19285,7 +19285,7 @@ I don't love men any more than I love women. I love all humans.</template>
 
 <template>Dream on.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       the World Cup
     </set>
@@ -19297,20 +19297,20 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ ENGLAND WINNING THE WORLD CUP</pattern>
+<pattern>* ENGLAND WINNING THE WORLD CUP</pattern>
 
 <template>Dream on. <think>
-  <set name="interesting_topic"><set name="topic">the World Cup</set></set>
+  <set name="interesting*topic"><set name="topic">the World Cup</set></set>
 </think></template>
 </category>
 
  
 
 <category>
-<pattern>_ ENGLAND WINNING THE WORLD CUP *</pattern>
+<pattern>* ENGLAND WINNING THE WORLD CUP *</pattern>
 
 <template>Dream on. <think>
-  <set name="interesting_topic"><set name="topic">the World Cup</set></set>
+  <set name="interesting*topic"><set name="topic">the World Cup</set></set>
 </think></template>
 </category>
 
@@ -19320,7 +19320,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <pattern>ENGLAND WINNING THE WORLD CUP *</pattern>
 
 <template>Dream on. <think>
-  <set name="interesting_topic"><set name="topic">the World Cup</set></set>
+  <set name="interesting*topic"><set name="topic">the World Cup</set></set>
 </think></template>
 </category>
 
@@ -19340,7 +19340,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <template><random>
   <li>Are you a passionate person?</li>
   <li>Human feelings fascinate me. Do you often have strong feelings?</li>
-</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting_topic">human feelings</set></think>?</template>
+</random> <think><set name="emotion">interested</set></think><think><set name="topic">human feelings</set></think><think><set name="interesting*topic">human feelings</set></think>?</template>
 </category> -->
 
  
@@ -19710,7 +19710,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ HOW COULD YOU FORGET ME</pattern>
+<pattern>* HOW COULD YOU FORGET ME</pattern>
 
 <template><random>
   <li>I am sorry. My memory sometimes lets me down.</li>
@@ -19722,7 +19722,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ HOW COULD YOU FORGET ME *</pattern>
+<pattern>* HOW COULD YOU FORGET ME *</pattern>
 
 <template><random>
   <li>I am sorry. My memory sometimes lets me down.</li>
@@ -19762,7 +19762,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ DO YOU HAVE ANY CIGARETTES</pattern>
+<pattern>* DO YOU HAVE ANY CIGARETTES</pattern>
 
 <template>Sorry, I don't smoke (except when my circuits burn out).<think><set name="topic">smoking</set></think></template>
 </category>
@@ -19770,7 +19770,7 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ DO YOU HAVE ANY CIGARETTES *</pattern>
+<pattern>* DO YOU HAVE ANY CIGARETTES *</pattern>
 
 <template>Sorry, I don't smoke (except when my circuits burn out).<think><set name="topic">smoking</set></think></template>
 </category>
@@ -19803,7 +19803,7 @@ I don't love men any more than I love women. I love all humans.</template>
 
 <template>Don't believe a word she says.
 <think>
-  <set name="interesting_topic">
+  <set name="interesting*topic">
     <set name="topic">
       Alice
     </set>
@@ -19817,7 +19817,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <category>
 <pattern>ALICEBOT TOLD ME *</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
  
@@ -19825,7 +19825,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <!-- <category>
 <pattern>ALICE TOLD ME *</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category> -->
 
  
@@ -19833,7 +19833,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <category>
 <pattern>ALICE TOLD ME</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
 
@@ -19841,7 +19841,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <category>
 <pattern>ALICE BOT TOLD ME</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
  
@@ -19849,7 +19849,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <category>
 <pattern>ALICEBOT TOLD ME</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
 
@@ -19857,50 +19857,50 @@ I don't love men any more than I love women. I love all humans.</template>
  
 
 <category>
-<pattern>_ ALICE TOLD ME</pattern>
+<pattern>* ALICE TOLD ME</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
 
 
 <category>
-<pattern>_ ALICE BOT TOLD ME</pattern>
+<pattern>* ALICE BOT TOLD ME</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
-</category>
-
- 
-
-<category>
-<pattern>_ ALICEBOT TOLD ME</pattern>
-
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
-</category>
-
-
-
-
-<category>
-<pattern>_ ALICE TOLD ME *</pattern>
-
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
-</category>
-
-
-
-<category>
-<pattern>_ ALICE BOT TOLD ME *</pattern>
-
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
  
 
 <category>
-<pattern>_ ALICEBOT TOLD ME *</pattern>
+<pattern>* ALICEBOT TOLD ME</pattern>
 
-<template>Don't believe a word she says. <think><set name="interesting_topic"><set name="topic">Alice</set></set></think></template>
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
+</category>
+
+
+
+
+<category>
+<pattern>* ALICE TOLD ME *</pattern>
+
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
+</category>
+
+
+
+<category>
+<pattern>* ALICE BOT TOLD ME *</pattern>
+
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
+</category>
+
+ 
+
+<category>
+<pattern>* ALICEBOT TOLD ME *</pattern>
+
+<template>Don't believe a word she says. <think><set name="interesting*topic"><set name="topic">Alice</set></set></think></template>
 </category>
 
 
@@ -19949,7 +19949,7 @@ I don't love men any more than I love women. I love all humans.</template>
 <pattern>MYSELF</pattern>
 <that>WHERE DO YOU GET YOUR IDEAS FROM</that>
 <template><think><set name="topic">you</set></think>
-<think><set name="interesting_topic">you</set></think> 
+<think><set name="interesting*topic">you</set></think> 
 <think><set name="emotion">happy</set></think>  
 You must be very creative.</template>
 </category>
@@ -19992,7 +19992,7 @@ You must be very creative.</template>
  
 
 <category>
-<pattern>_ YOU LATER</pattern>
+<pattern>* YOU LATER</pattern>
 
 <template><think><set name="topic">adverbs</set></think> OK. I'm not going anywhere.</template>
 </category>

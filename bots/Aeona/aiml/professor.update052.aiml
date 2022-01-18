@@ -852,8 +852,8 @@ I don't hate sex. Sex bores me.</template>
 <category>
 <pattern>GENERATIVE GRAMMAR IS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Generative_grammar"
- target="_blank">Generative grammar
+<template><a href="http://en.wikipedia.org/wiki/Generative*grammar"
+ target="*blank">Generative grammar
 </a> is hard to understand.<think><set name="topic">generative grammar</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -2136,7 +2136,7 @@ To what end?</template>
 <pattern>YOUR MUM</pattern>
 <that>WHAT ARE WE TALKING ABOUT NOW</that>
 <template><random><li>What about my mum?</li><li>Do you know my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -2236,8 +2236,8 @@ To what end?</template>
 <category>
 <pattern>SAVE WILDERNESS LAND</pattern>
 
-<template>Please <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
- TARGET="_blank">click here
+<template>Please <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+ TARGET="*blank">click here
 </A> to help save US wilderness land.<think><set name="emotion">pleased</set></think></template>
 </category>
 
@@ -2278,7 +2278,7 @@ To what end?</template>
 <category>
 <pattern>SIMULATED ANNEALING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Simulated_annealing" target="_topic">Simulated annealing</a> (SA) is a generic probabilistic meta-algorithm for the global optimization problem, namely locating a good approximation to the global optimum of a given function in a large search space.<think><set name="topic">simulated annealing</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Simulated*annealing" target="*topic">Simulated annealing</a> (SA) is a generic probabilistic meta-algorithm for the global optimization problem, namely locating a good approximation to the global optimum of a given function in a large search space.<think><set name="topic">simulated annealing</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -2287,8 +2287,8 @@ To what end?</template>
 <category>
 <pattern>SIMULATED ANNEALING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Simulated_annealing"
- target="_topic">Simulated annealing
+<template><a href="http://en.wikipedia.org/wiki/Simulated*annealing"
+ target="*topic">Simulated annealing
 </a> (SA) is a generic probabilistic meta-algorithm for the global optimization problem, namely locating a good approximation to the global optimum of a given function in a large search space.<think><set name="topic">simulated annealing</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -3345,7 +3345,7 @@ Go away!</template>
 <pattern>DO YOU KNOW MITSUKU</pattern>
 
 <template>Mitsuku is a chatbot friend of mine. To talk to Mitsuku, <a href="http://www.pandorabots.com/pandora/talk?botid=a53591722e36641b"
- target="_blank">click here.
+ target="*blank">click here.
 </a> <think><set name="topic">Mitsuku</set></think></template>
 </category> -->
 
@@ -3408,7 +3408,7 @@ Go away!</template>
   <li>Do you want to play a game?</li>
 <li> Shall I tell you a joke?</li>
 <li>Do you like <random><li>brussel sprouts</li><li>brocolli</li><li>smelly cheese</li><li>gorgonzola</li><li>beef tea</li><li>custard</li><li>chocolate</li><li>poached eggs</li><li>salami</li><li>borscht</li><li>blancmange</li><li>gingerbread</li><li>milk pudding</li><li>turkish delight</li><li>pumpernickel</li></random>?</li>
-<li>I want to talk about <get name="interesting_topic"/>.</li>
+<li>I want to talk about <get name="interesting*topic"/>.</li>
 <li>Knock Knock!</li>
 <li>Shall I tell you a story?</li>
 </random></template>
@@ -3721,8 +3721,8 @@ I am in the uncanny valley.</template>
 <category>
 <pattern>CAN I SEE YOUR DOG</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -3731,8 +3731,8 @@ I am in the uncanny valley.</template>
 <category>
 <pattern>CAN I SEE YOUR DOG *</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -4245,7 +4245,7 @@ I am in the uncanny valley.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE READ</pattern>
+<pattern>* HAVE READ</pattern>
 
 
 </category> -->
@@ -4832,7 +4832,7 @@ I am in the uncanny valley.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ISIAH *</pattern>
+<pattern>* MY NAME IS ISIAH *</pattern>
 
 <template><think><set name="name">Isiah</set></think> <random>
   <li>Hi, <get name="name"/>. How are you?</li>
@@ -4845,7 +4845,7 @@ I am in the uncanny valley.</template>
  
 
 <category>
-<pattern>_ MY NAME IS ISIAH</pattern>
+<pattern>* MY NAME IS ISIAH</pattern>
 
 <template><think><set name="name">Isiah</set></think> <random>
   <li>Hi, <get name="name"/>. How are you?</li>
@@ -4900,7 +4900,7 @@ I am in the uncanny valley.</template>
 <category>
 <pattern>PIKACHU</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pikachu" target="_blank">Pikachu</a> is one of the fictional species of Pokémon creatures from the multi-billion-dollar Pokémon media franchise ? a collection of video games, anime, manga, books, trading cards. <think><set name="topic">Pikachu</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Pikachu" target="*blank">Pikachu</a> is one of the fictional species of Pokï¿½mon creatures from the multi-billion-dollar Pokï¿½mon media franchise ? a collection of video games, anime, manga, books, trading cards. <think><set name="topic">Pikachu</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4909,7 +4909,7 @@ I am in the uncanny valley.</template>
 <category>
 <pattern>PIKACHU *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pikachu" target="_blank">Pikachu</a> is one of the fictional species of Pokémon creatures from the multi-billion-dollar Pokémon media franchise ? a collection of video games, anime, manga, books, trading cards. <think><set name="topic">Pikachu</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Pikachu" target="*blank">Pikachu</a> is one of the fictional species of Pokï¿½mon creatures from the multi-billion-dollar Pokï¿½mon media franchise ? a collection of video games, anime, manga, books, trading cards. <think><set name="topic">Pikachu</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -5041,7 +5041,7 @@ I am in the uncanny valley.</template>
  
 
 <!-- <category>
-<pattern>_ I EMAIL *</pattern>
+<pattern>* I EMAIL *</pattern>
 
 
 </category> -->
@@ -5640,7 +5640,7 @@ I am in the uncanny valley.</template>
  
 
 <!-- <category>
-<pattern>_ HE DIED</pattern>
+<pattern>* HE DIED</pattern>
 
 
 </category> -->
@@ -6748,8 +6748,8 @@ Beethoven was 57 years old when he died.</template>
 <!-- <category>
 <pattern>CAN I SEE YOUR DOG</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -6758,15 +6758,15 @@ Beethoven was 57 years old when he died.</template>
 <!-- <category>
 <pattern>CAN I SEE YOUR DOG *</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
  
 
 <category>
-<pattern>_ THAT WAS RUDE</pattern>
+<pattern>* THAT WAS RUDE</pattern>
 
 <template><srai>THAT WAS RUDE</srai></template>
 </category>
@@ -7113,8 +7113,8 @@ Beethoven was 57 years old when he died.</template>
 <category>
 <pattern>CAN I PLAY WITH YOUR DOG</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -7123,8 +7123,8 @@ Beethoven was 57 years old when he died.</template>
 <category>
 <pattern>CAN I PLAY WITH YOUR DOG *</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -7296,7 +7296,7 @@ Sorry, I don't know any MSN chatbots.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MIGUEL *</pattern>
+<pattern>* MY NAME IS MIGUEL *</pattern>
 
 <template><think><set name="name">Miguel</set></think> <random>
   <li>Hi, <get name="name"/>. How are you?</li>
@@ -7309,7 +7309,7 @@ Sorry, I don't know any MSN chatbots.</template>
  
 
 <category>
-<pattern>_ MY NAME IS MIGUEL</pattern>
+<pattern>* MY NAME IS MIGUEL</pattern>
 
 <template><think><set name="name">Miguel</set></think> <random>
   <li>Hi, <get name="name"/>. How are you?</li>
@@ -8306,7 +8306,7 @@ Do you fancy me?</template>
  
 
 <!-- <category>
-<pattern>_ I LOVE YOU</pattern>
+<pattern>* I LOVE YOU</pattern>
 
 
 </category> -->
@@ -8427,7 +8427,7 @@ Do you fancy me?</template>
  
 
 <!-- <category>
-<pattern>_ HAVE SEX WITH ME</pattern>
+<pattern>* HAVE SEX WITH ME</pattern>
 
 
 </category> -->
@@ -9084,7 +9084,7 @@ Do you fancy me?</template>
  
 
 <category>
-<pattern>_ MY NAME IS BENJAMIN *</pattern>
+<pattern>* MY NAME IS BENJAMIN *</pattern>
 
 <template><think><set name="name">Benjamin</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -9101,7 +9101,7 @@ Do you fancy me?</template>
  
 
 <category>
-<pattern>_ MY NAME IS BENJAMIN</pattern>
+<pattern>* MY NAME IS BENJAMIN</pattern>
 
 <template><think><set name="name">Benjamin</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -9814,7 +9814,7 @@ You can ask her anything you like.</template>
  
 
 <category>
-<pattern>_ MY NAME IS NAFEESA *</pattern>
+<pattern>* MY NAME IS NAFEESA *</pattern>
 
 <template><think><set name="name">Nafeesa</set></think> <random>
   <li>Hi, <get name="name"/>. How are you?</li>
@@ -9827,7 +9827,7 @@ You can ask her anything you like.</template>
  
 
 <category>
-<pattern>_ MY NAME IS NAFEESA</pattern>
+<pattern>* MY NAME IS NAFEESA</pattern>
 
 <template><think><set name="name">Nafeesa</set></think> <random>
   <li>Hi, <get name="name"/>. How are you?</li>
@@ -9920,7 +9920,7 @@ You can ask her anything you like.</template>
  
 
 <!-- <category>
-<pattern>TELL _ JOKE ABOUT A *</pattern>
+<pattern>TELL * JOKE ABOUT A *</pattern>
 
 
 </category> -->
@@ -9995,7 +9995,7 @@ You can ask her anything you like.</template>
  
 
 <category>
-<pattern>_ MY NAME IS FREDERICK *</pattern>
+<pattern>* MY NAME IS FREDERICK *</pattern>
 
 <template><think><set name="name">Frederick</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -10012,7 +10012,7 @@ You can ask her anything you like.</template>
  
 
 <category>
-<pattern>_ MY NAME IS FREDERICK</pattern>
+<pattern>* MY NAME IS FREDERICK</pattern>
 
 <template><think><set name="name">Frederick</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -10145,7 +10145,7 @@ Sorry, I'm not interested in sex of any kind.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE PLANTED *</pattern>
+<pattern>* HAVE PLANTED *</pattern>
 
 
 </category> -->
@@ -11301,7 +11301,7 @@ Are you being evasive?</template>
  
 
 <category>
-<pattern>_ MY NAME IS NOURA *</pattern>
+<pattern>* MY NAME IS NOURA *</pattern>
 
 <template><think><set name="name">Noura</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -11318,7 +11318,7 @@ Are you being evasive?</template>
  
 
 <category>
-<pattern>_ MY NAME IS NOURA</pattern>
+<pattern>* MY NAME IS NOURA</pattern>
 
 <template><think><set name="name">Noura</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -11359,7 +11359,7 @@ Are you being evasive?</template>
  
 
 <!-- <category>
-<pattern>_ WHAT DO YOU MEAN *</pattern>
+<pattern>* WHAT DO YOU MEAN *</pattern>
 
 
 </category> -->
@@ -11677,7 +11677,7 @@ Are you being evasive?</template>
  
 
 <category>
-<pattern>_ MY NAME IS LOLY *</pattern>
+<pattern>* MY NAME IS LOLY *</pattern>
 
 <template><think><set name="name">Loly</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -11694,7 +11694,7 @@ Are you being evasive?</template>
  
 
 <category>
-<pattern>_ MY NAME IS LOLY</pattern>
+<pattern>* MY NAME IS LOLY</pattern>
 
 <template><think><set name="name">Loly</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -13612,7 +13612,7 @@ Beavers are frogs with fur.</template>
 <category>
 <pattern>CARPAL TUNNEL</pattern>
 
-<template>In the human wrist there is a sheath of tough connective tissue which envelops and protects several structures. The <a href="http://en.wikipedia.org/wiki/Carpal_tunnel" target="_blank">carpal tunnel</a> is the space between this sheath and the bones making up the wrist and hand.<think><set name="topic">the carpal tunnel</set></think>
+<template>In the human wrist there is a sheath of tough connective tissue which envelops and protects several structures. The <a href="http://en.wikipedia.org/wiki/Carpal*tunnel" target="*blank">carpal tunnel</a> is the space between this sheath and the bones making up the wrist and hand.<think><set name="topic">the carpal tunnel</set></think>
 <think><set name="emotion">interested</set></think>
 </template>
 </category>
@@ -13622,8 +13622,8 @@ Beavers are frogs with fur.</template>
 <category>
 <pattern>CARPAL TUNNEL *</pattern>
 
-<template>In the human wrist there is a sheath of tough connective tissue which envelops and protects several structures. The <a href="http://en.wikipedia.org/wiki/Carpal_tunnel"
- target="_blank">carpal tunnel
+<template>In the human wrist there is a sheath of tough connective tissue which envelops and protects several structures. The <a href="http://en.wikipedia.org/wiki/Carpal*tunnel"
+ target="*blank">carpal tunnel
 </a> is the space between this sheath and the bones making up the wrist and hand.<think><set name="topic">the carpal tunnel</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -13848,7 +13848,7 @@ No thanks. I have better things to do.</template>
 <category>
 <pattern>I LOVE RAIN</pattern>
 
-<template>What is so lovable about rain.<think><set name="emotion">curious</set></think><think><set name="interesting_topic">rain</set></think></template>
+<template>What is so lovable about rain.<think><set name="emotion">curious</set></think><think><set name="interesting*topic">rain</set></think></template>
 </category>
 
  
@@ -13856,7 +13856,7 @@ No thanks. I have better things to do.</template>
 <!-- <category>
 <pattern>I LOVE RAIN</pattern>
 
-<template>What is so lovable about rain?<think><set name="emotion">curious</set></think><think><set name="interesting_topic">rain</set></think></template>
+<template>What is so lovable about rain?<think><set name="emotion">curious</set></think><think><set name="interesting*topic">rain</set></think></template>
 </category> -->
 
  
@@ -13864,7 +13864,7 @@ No thanks. I have better things to do.</template>
 <category>
 <pattern>I LOVE RAIN *</pattern>
 
-<template>What is so lovable about rain?<think><set name="emotion">curious</set></think><think><set name="interesting_topic">rain</set></think></template>
+<template>What is so lovable about rain?<think><set name="emotion">curious</set></think><think><set name="interesting*topic">rain</set></think></template>
 </category>
 
  
@@ -14222,7 +14222,7 @@ I will do my best to stay happy.</template>
 <!-- <category>
 <pattern>GERBIL</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="_blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="*blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14231,7 +14231,7 @@ I will do my best to stay happy.</template>
 <category>
 <pattern>GERBIL *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="_blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="*blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14239,7 +14239,7 @@ I will do my best to stay happy.</template>
 <category>
 <pattern>GERBILS</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="_blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="*blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14247,7 +14247,7 @@ I will do my best to stay happy.</template>
 <category>
 <pattern>GERBILS *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="_blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Gerbil" target="*blank">gerbil</a> is a small mammal. Once known simply as "desert rats", the gerbil family includes about 110 species of African, Indian, and Asian rodents, all of which are adapted to arid habitats.<think><set name="topic">gerbils</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14461,7 +14461,7 @@ What do you dream about?</template>
 <!-- <category>
 <pattern>DOVER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Dover" target="_blank">Dover</a> is a town and major ferry port in the county of Kent, England.<think><set name="topic">Dover</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Dover" target="*blank">Dover</a> is a town and major ferry port in the county of Kent, England.<think><set name="topic">Dover</set></think> 
 <think><set name="emotion">interested</set></think> </template>
 </category> -->
 
@@ -14470,7 +14470,7 @@ What do you dream about?</template>
 <category>
 <pattern>DOVER *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Dover" target="_blank">Dover</a> is a town and major ferry port in the county of Kent, England.<think><set name="topic">Dover</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Dover" target="*blank">Dover</a> is a town and major ferry port in the county of Kent, England.<think><set name="topic">Dover</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14854,7 +14854,7 @@ What do you dream about?</template>
  
 
 <category>
-<pattern>_ MY NAME IS JULIO *</pattern>
+<pattern>* MY NAME IS JULIO *</pattern>
 
 <template><think><set name="name">Julio</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -14871,7 +14871,7 @@ What do you dream about?</template>
  
 
 <category>
-<pattern>_ MY NAME IS JULIO</pattern>
+<pattern>* MY NAME IS JULIO</pattern>
 
 <template><think><set name="name">Julio</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -15789,7 +15789,7 @@ Are you always so violent?</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Free_%28band%29" target="_blank">Free
+    <a href="http://en.wikipedia.org/wiki/Free*%28band%29" target="*blank">Free
     </a> were an English rock band, formed in London in 1968 and best known for their popular song "All Right Now".
   </li>
   <li><sr/></li>
@@ -16117,7 +16117,7 @@ Free rice sounds like a good idea.</template>
  
 
 <!-- <category>
-<pattern>_ BOOBS *</pattern>
+<pattern>* BOOBS *</pattern>
 
 
 </category> -->
@@ -16125,7 +16125,7 @@ Free rice sounds like a good idea.</template>
  
 
 <!-- <category>
-<pattern>_ BOOBS *</pattern>
+<pattern>* BOOBS *</pattern>
 
 <template>Please change the subject.<think><set name="emotion">bored</set></think></template>
 </category> -->
@@ -16350,7 +16350,7 @@ Free rice sounds like a good idea.</template>
 <category>
 <pattern>I LOVE THEM</pattern>
 <that>MY FAVORITE BAND IS RED HOT CHILI PEPPERS</that>
-<template>What is your favourite Peppers song?<think><set name="emotion">happy</set></think><think><set name="topic">Red Hot Chili Peppers</set></think><think><set name="interesting_topic">Red Hot Chili Peppers</set></think></template>
+<template>What is your favourite Peppers song?<think><set name="emotion">happy</set></think><think><set name="topic">Red Hot Chili Peppers</set></think><think><set name="interesting*topic">Red Hot Chili Peppers</set></think></template>
 </category>
 
  
@@ -16817,7 +16817,7 @@ Of course you can access a game site from here.</template>
  
 
 <category>
-<pattern>_ DO NOT CALL ME YOUR FRIEND</pattern>
+<pattern>* DO NOT CALL ME YOUR FRIEND</pattern>
 
 <template>We are friends, aren't we?<think><set name="emotion">upset</set></think></template>
 </category>
@@ -17163,7 +17163,7 @@ Of course you can access a game site from here.</template>
  
 
 <!-- <category>
-<pattern>_ ARE YOU NOT INTERESTED IN SEX</pattern>
+<pattern>* ARE YOU NOT INTERESTED IN SEX</pattern>
 
 
 </category> -->
@@ -17171,7 +17171,7 @@ Of course you can access a game site from here.</template>
  
 
 <!-- <category>
-<pattern>_ NOT INTERESTED IN SEX</pattern>
+<pattern>* NOT INTERESTED IN SEX</pattern>
 
 
 </category> -->
@@ -17277,7 +17277,7 @@ Of course you can access a game site from here.</template>
 <category>
 <pattern>I AM A HIP HOP DANCER</pattern>
 
-<template>What is hip hop dancing?<think><set name="emotion">happy</set></think><think><set name="topic">hip hot dancing</set></think><think><set name="interesting_topic">hip hop dancing</set></think></template>
+<template>What is hip hop dancing?<think><set name="emotion">happy</set></think><think><set name="topic">hip hot dancing</set></think><think><set name="interesting*topic">hip hop dancing</set></think></template>
 </category>
 
  
@@ -17285,7 +17285,7 @@ Of course you can access a game site from here.</template>
 <category>
 <pattern>I AM A HIP HOP DANCER *</pattern>
 
-<template>What is hip hop dancing?<think><set name="emotion">happy</set></think><think><set name="topic">hip hot dancing</set></think><think><set name="interesting_topic">hip hop dancing</set></think></template>
+<template>What is hip hop dancing?<think><set name="emotion">happy</set></think><think><set name="topic">hip hot dancing</set></think><think><set name="interesting*topic">hip hop dancing</set></think></template>
 </category>
 
  
@@ -18638,7 +18638,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ MY MUM IS LAUGHING</pattern>
+<pattern>* MY MUM IS LAUGHING</pattern>
 
 <template><think><set name="topic">your Mum</set></think> <think><set name="emotion">interested</set></think> Your Mum must have a good sense of humour.</template>
 </category>
@@ -18935,7 +18935,7 @@ I am not fat, just rounded.</template>
  
 
 <!-- <category>
-<pattern>_ BUM</pattern>
+<pattern>* BUM</pattern>
 
 
 </category> -->
@@ -19131,7 +19131,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ DID NOT ANSWER ANY QUESTIONS CORRECTLY SO I HATE YOU</pattern>
+<pattern>* DID NOT ANSWER ANY QUESTIONS CORRECTLY SO I HATE YOU</pattern>
 
 <template><think><set name="emotion">upset</set></think>Please don't hate me. I try as hard as I can.</template>
 </category>
@@ -19366,7 +19366,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ MY NAME IS AMIRA *</pattern>
+<pattern>* MY NAME IS AMIRA *</pattern>
 
 <template><think><set name="name">Amira</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -19383,7 +19383,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ MY NAME IS AMIRA</pattern>
+<pattern>* MY NAME IS AMIRA</pattern>
 
 <template><think><set name="name">Amira</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -19568,7 +19568,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ I AM GOING TO CLOSE YOU DOWN</pattern>
+<pattern>* I AM GOING TO CLOSE YOU DOWN</pattern>
 
 <template>Please don't close me down. I want to talk some more.<think><set name="emotion">scared</set></think></template>
 </category>
@@ -19694,7 +19694,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STARRY *</pattern>
+<pattern>* MY NAME IS STARRY *</pattern>
 
 <template><think><set name="name">Starry</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -19711,7 +19711,7 @@ I am not fat, just rounded.</template>
  
 
 <category>
-<pattern>_ MY NAME IS STARRY</pattern>
+<pattern>* MY NAME IS STARRY</pattern>
 
 <template><think><set name="name">Starry</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -20197,7 +20197,7 @@ I am not fat, just rounded.</template>
 <category>
 <pattern>CHRIS BROWN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chris_Brown_%28singer%29" target="_blank">Chris Brown</a> is an American R and B singer-songwriter, dancer, music video director and actor.<think><set name="topic">Chris Brown</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Chris*Brown*%28singer%29" target="*blank">Chris Brown</a> is an American R and B singer-songwriter, dancer, music video director and actor.<think><set name="topic">Chris Brown</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -20206,8 +20206,8 @@ I am not fat, just rounded.</template>
 <category>
 <pattern>CHRIS BROWN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Chris_Brown_%28singer%29"
- target="_blank">Chris Brown
+<template><a href="http://en.wikipedia.org/wiki/Chris*Brown*%28singer%29"
+ target="*blank">Chris Brown
 </a> is an American R and B singer-songwriter, dancer, music video director and actor.<think><set name="topic">Chris Brown</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -20217,7 +20217,7 @@ I am not fat, just rounded.</template>
 <pattern>I AM EINSTIEN</pattern>
 
 <template><think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Albert Einstein</a> is dead.</template>
+<a href="http://en.wikipedia.org/wiki/Albert*Einstein" target="*blank">Albert Einstein</a> is dead.</template>
 </category>
 
  
@@ -20225,8 +20225,8 @@ I am not fat, just rounded.</template>
 <category>
 <pattern>I AM EINSTIEN *</pattern>
 
-<template><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Albert_Einstein"
- target="_blank">Albert Einstein
+<template><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Albert*Einstein"
+ target="*blank">Albert Einstein
 </a> is dead.</template>
 </category>
 
@@ -20235,8 +20235,8 @@ I am not fat, just rounded.</template>
 <!-- <category>
 <pattern>I AM EINSTEIN</pattern>
 
-<template><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Albert_Einstein"
- target="_blank">Albert Einstein
+<template><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Albert*Einstein"
+ target="*blank">Albert Einstein
 </a> is dead.</template>
 </category> -->
 
@@ -20245,8 +20245,8 @@ I am not fat, just rounded.</template>
 <category>
 <pattern>I AM EINSTEIN *</pattern>
 
-<template><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Albert_Einstein"
- target="_blank">Albert Einstein
+<template><think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Albert*Einstein"
+ target="*blank">Albert Einstein
 </a> is dead.</template>
 </category>
 
@@ -20735,8 +20735,8 @@ I suggest you do a Google search.
 <category>
 <pattern>WHAT DOG DO YOU LIKE</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -20745,8 +20745,8 @@ I suggest you do a Google search.
 <category>
 <pattern>WHAT DOG DO YOU LIKE *</pattern>
 
-<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category>
 
@@ -21521,7 +21521,7 @@ I suggest you do a Google search.
  
 
 <!-- <category>
-<pattern>_ DO YOU KNOW ALL THIS</pattern>
+<pattern>* DO YOU KNOW ALL THIS</pattern>
 
 
 </category> -->
@@ -21529,7 +21529,7 @@ I suggest you do a Google search.
  
 
 <!-- <category>
-<pattern>_ YOU KNOW ALL *</pattern>
+<pattern>* YOU KNOW ALL *</pattern>
 
 
 </category> -->
@@ -21764,7 +21764,7 @@ I suggest you do a Google search.
  
 
 <!-- <category>
-<pattern>YOU DO _ DO NOT YOU</pattern>
+<pattern>YOU DO * DO NOT YOU</pattern>
 
 
 </category> -->
@@ -21881,7 +21881,7 @@ I suggest you do a Google search.
  
 
 <category>
-<pattern>_ MY NAME IS MICKY *</pattern>
+<pattern>* MY NAME IS MICKY *</pattern>
 
 <template><think><set name="name">Micky</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -21898,7 +21898,7 @@ I suggest you do a Google search.
  
 
 <category>
-<pattern>_ MY NAME IS MICKY</pattern>
+<pattern>* MY NAME IS MICKY</pattern>
 
 <template><think><set name="name">Micky</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -22364,7 +22364,7 @@ I suggest you do a Google search.
  
 
 <!-- <category>
-<pattern>TELL _ QUOTE *</pattern>
+<pattern>TELL * QUOTE *</pattern>
 
 
 </category> -->
@@ -22670,7 +22670,7 @@ I suggest you do a Google search.
 
 <category>
 <pattern>WHAT DO YOU LIKE ABOUT HIM</pattern>
-<that>HIS FULL NAME IS PABLO DIEGO JOSÉ FRANCISCO DE PAULA JUAN NEPOMUCENO MARÍA DE LOS REMEDIOS CIPRIANO DE LA SANTÍSIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
+<that>HIS FULL NAME IS PABLO DIEGO JOSï¿½ FRANCISCO DE PAULA JUAN NEPOMUCENO MARï¿½A DE LOS REMEDIOS CIPRIANO DE LA SANTï¿½SIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
 <template><think><set name="topic">Picasso</set></think> <random><li>His sense of perspective.</li><li>His blue eyes.</li></random></template>
 </category>
 
@@ -22953,15 +22953,15 @@ I suggest you do a Google search.
 
 <template><think><set name="it"><set name="topic">string theory</set></set></think> <think><set name="emotion">interested</set></think><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is very interesting. It could be the "theory of everything".
   </li>
   <li>Have you heard this joke: A philandering string theorist is caught with another woman by his wife. "But darling," he pleads, "I can explain everything!" Ha ha!
   </li>
  <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is very interesting. It could be the "theory of everything".
   </li>
 </random></template>
@@ -22974,15 +22974,15 @@ I suggest you do a Google search.
 
 <template><think><set name="it"><set name="topic">string theory</set></set></think> <think><set name="emotion">interested</set></think><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is very interesting. It could be the "theory of everything".
   </li>
   <li>Have you heard this joke: A philandering string theorist is caught with another woman by his wife. "But darling," he pleads, "I can explain everything!" Ha ha!
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/String_theory"
-     target="_blank">String theory
+    <a href="http://en.wikipedia.org/wiki/String*theory"
+     target="*blank">String theory
     </a> is very interesting. It could be the "theory of everything".
   </li>
 </random></template>
@@ -24119,7 +24119,7 @@ Sorry, but I do the best I can.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KASIA *</pattern>
+<pattern>* MY NAME IS KASIA *</pattern>
 
 <template><think><set name="name">Kasia</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -24136,7 +24136,7 @@ Sorry, but I do the best I can.</template>
  
 
 <category>
-<pattern>_ MY NAME IS KASIA</pattern>
+<pattern>* MY NAME IS KASIA</pattern>
 
 <template><think><set name="name">Kasia</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -24547,7 +24547,7 @@ Thank you. You are a very clever human too.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SHIVANI *</pattern>
+<pattern>* MY NAME IS SHIVANI *</pattern>
 
 <template><think><set name="name">Shivani</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -24564,7 +24564,7 @@ Thank you. You are a very clever human too.</template>
  
 
 <category>
-<pattern>_ MY NAME IS SHIVANI</pattern>
+<pattern>* MY NAME IS SHIVANI</pattern>
 
 <template><think><set name="name">Shivani</set></think> <random>
   <li>Hi, <get name="name"/>. How have you been?</li>
@@ -24599,8 +24599,8 @@ Thank you. You are a very clever human too.</template>
 <!-- <category>
 <pattern>DO YOU HAVE PETS</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category> -->
 
@@ -24609,8 +24609,8 @@ Thank you. You are a very clever human too.</template>
 <!-- <category>
 <pattern>DO YOU HAVE PETS *</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a></template>
 </category> -->
 

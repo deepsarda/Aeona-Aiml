@@ -152,7 +152,7 @@
 </category>
 
 <category>
-<pattern>_ NO * TECHNOLOGY</pattern>
+<pattern>* NO * TECHNOLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -166,7 +166,7 @@
 </category>
 
 <category>
-<pattern>NO _ TECHNOLOGY *</pattern>
+<pattern>NO * TECHNOLOGY *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -194,7 +194,7 @@
 </category>
 
 <category>
-<pattern>_ NOT * TECHNOLOGY</pattern>
+<pattern>* NOT * TECHNOLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -229,7 +229,7 @@
 </category>
 
 <category>
-<pattern>_ NOT INTERESTED IN TECHNOLOGY</pattern>
+<pattern>* NOT INTERESTED IN TECHNOLOGY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -260,7 +260,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  TECHNOLOGY</that>
 <template>
 <srai>TECHNOLOGY POT LUCK</srai>
@@ -380,7 +380,7 @@
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT TECHNOLOGY</that>
 <template>
 <srai>MORE ABOUT TECHNOLOGY</srai>
@@ -500,7 +500,7 @@ Can we talk about technology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
 <template>
 Can we talk about technology?
@@ -564,7 +564,7 @@ Can we talk about technology?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH TECHNOLOGY</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -628,7 +628,7 @@ Can we talk about technology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
 <template>
 Can we talk about technology?
@@ -692,7 +692,7 @@ Can we talk about technology?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN TECHNOLOGY</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -748,7 +748,7 @@ Can we talk about technology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT TECHNOLOGY</that>
 <template>
 <srai>TECHNOLOGY</srai>
@@ -965,7 +965,7 @@ Can we talk about technology?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE TECHNOLOGY</that>
 <template>
 <srai>TECHNOLOGY POT LUCK</srai>
@@ -1128,7 +1128,7 @@ I think this is something to do with technology. Can we talk about technology?
 </category> -->
 
 <category>
-<pattern>_MOBILE PHONE*</pattern> 
+<pattern>*MOBILE PHONE*</pattern> 
 <template>
 I think this is something to do with technology. Can we talk about technology?
 <think><set name="topic">technology</set></think>
@@ -1158,7 +1158,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
 
 
 <category>
-  <pattern>_ BOOKER PRIZE IN *</pattern> 
+  <pattern>* BOOKER PRIZE IN *</pattern> 
  <template>
  <srai>
   BOOKERPRIZE 
@@ -1338,192 +1338,192 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
 
 
  <category>
-  <pattern>_ SANG * DOCTOR NO</pattern> 
+  <pattern>* SANG * DOCTOR NO</pattern> 
   <template>The James Bond Theme was the title song to this film and was written by Monty Norman(NOT John Barry).</template> 
   </category>
  <category>
-  <pattern>_ SANG * FROM RUSSIA WITH LOVE</pattern> 
+  <pattern>* SANG * FROM RUSSIA WITH LOVE</pattern> 
   <template>The title song to this James Bond film was performed by Matt Munro.</template> 
   </category>
  <category>
-  <pattern>_ SANG * GOLDFINGER</pattern> 
+  <pattern>* SANG * GOLDFINGER</pattern> 
  <template>
   Goldfinger was one of three James Bond film themes sung by Shirley Bassey. 
   The other two were Diamonds Are Forever and Moonraker. 
   </template>
   </category>
  <category>
-  <pattern>_ SANG * THUNDERBALL</pattern> 
+  <pattern>* SANG * THUNDERBALL</pattern> 
   <template>Thunderball was performed by Tom Jones.</template> 
   </category>
  <category>
-  <pattern>_ SANG * YOU ONLY LIVE TWICE</pattern> 
+  <pattern>* SANG * YOU ONLY LIVE TWICE</pattern> 
   <template>Nancy Sinatra sang the theme tune to You Only Live Twice.</template> 
   </category>
  <category>
-  <pattern>_ SANG * ON HER * SECRET SERVICE</pattern> 
+  <pattern>* SANG * ON HER * SECRET SERVICE</pattern> 
   <template>The theme song to this film was called "All The Time In The World" and was performed by Louis Armstrong.</template> 
   </category>
  <category>
-  <pattern>_ SANG * DIAMONDS ARE FOREVER</pattern> 
+  <pattern>* SANG * DIAMONDS ARE FOREVER</pattern> 
  <template>
   Diamonds Are Forever was one of three James Bond film themes sung by Shirley Bassey.  The other two were Goldfinger and Moonraker. 
   </template>
   </category>
  <category>
-  <pattern>_ SANG * LIVE AND LET DIE</pattern> 
+  <pattern>* SANG * LIVE AND LET DIE</pattern> 
  <template>
   Live And Let Die was the first James Bond film starring Roger Moore.  The title song was performed by Paul McCartney and Wings. 
   </template>
   </category>
  <category>
-  <pattern>_ SANG * THE MAN WITH THE GOLDEN GUN</pattern> 
+  <pattern>* SANG * THE MAN WITH THE GOLDEN GUN</pattern> 
   <template>The title track to this James Bond film was sung by Lulu.</template> 
   </category>
  <category>
-  <pattern>_ SANG * THE SPY WHO LOVED ME</pattern> 
+  <pattern>* SANG * THE SPY WHO LOVED ME</pattern> 
   <template>Carly Simon sang this James Bond film theme.</template> 
   </category>
  <category>
-  <pattern>_ SANG * MOONRAKER</pattern> 
+  <pattern>* SANG * MOONRAKER</pattern> 
  <template>
   Moonraker was one of three James Bond film themes sung by Shirley Bassey. The other two were Diamonds Are Forever and Goldfinger. 
   </template>
   </category>
  <category>
-  <pattern>_ SANG * FOR YOUR EYES ONLY</pattern> 
+  <pattern>* SANG * FOR YOUR EYES ONLY</pattern> 
   <template>The title song, "For Your Eyes Only" was performed by Sheena Easton.</template> 
   </category>
  <category>
-  <pattern>_ SANG * OCTOPUSSY</pattern> 
+  <pattern>* SANG * OCTOPUSSY</pattern> 
   <template>Rita Coolidge sang the title song in this James Bond film.</template> 
   </category>
  <category>
-  <pattern>_ SANG * A VIEW TO A KILL</pattern> 
+  <pattern>* SANG * A VIEW TO A KILL</pattern> 
   <template>A View To A Kill was performed by Duran Duran.</template> 
   </category>
  <category>
-  <pattern>_ SANG * THE LIVING DAYLIGHTS</pattern> 
+  <pattern>* SANG * THE LIVING DAYLIGHTS</pattern> 
  <template>
   Live And Let Die was the first James Bond film starring Timothy Dalton. The title song was performed by A-Ha. 
   </template>
   </category>
  <category>
-  <pattern>_ SANG * LICENCE TO KILL</pattern> 
+  <pattern>* SANG * LICENCE TO KILL</pattern> 
   <template>Gladys Knight sang the title track in this james Bond film.</template> 
   </category>
  <category>
-  <pattern>_ SANG * GOLDENEYE</pattern> 
+  <pattern>* SANG * GOLDENEYE</pattern> 
   <template>Goldeneye was performed by Tina Turner.</template> 
   </category>
  <category>
-  <pattern>_ SANG * TOMORROW NEVER DIES</pattern> 
+  <pattern>* SANG * TOMORROW NEVER DIES</pattern> 
   <template>Sheryl Crowe sang the title song in Tomorrow Never Dies.</template> 
   </category>
  <category>
-  <pattern>_ SANG * THE WORLD IS NOT ENOUGH</pattern> 
+  <pattern>* SANG * THE WORLD IS NOT ENOUGH</pattern> 
   <template>This James Bond film theme was performed by Garbage.</template> 
   </category>
  <category>
-  <pattern>_ SANG * DIE ANOTHER DAY</pattern> 
+  <pattern>* SANG * DIE ANOTHER DAY</pattern> 
   <template>Madonna sang the title track to this film.</template> 
   </category>
  <category>
-  <pattern>_ SANG * CASINO ROYALE</pattern> 
+  <pattern>* SANG * CASINO ROYALE</pattern> 
   <template>Chris Cornell sang, "You Know My Name" for this film.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * DOCTOR NO</pattern> 
+  <pattern>* SINGS * DOCTOR NO</pattern> 
   <template>The James Bond Theme was the title song to this film and was written by Monty Norman(NOT John Barry).</template> 
   </category>
  <category>
-  <pattern>_ SINGS * FROM RUSSIA WITH LOVE</pattern> 
+  <pattern>* SINGS * FROM RUSSIA WITH LOVE</pattern> 
   <template>The title song to this James Bond film was performed by Matt Munro.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * GOLDFINGER</pattern> 
+  <pattern>* SINGS * GOLDFINGER</pattern> 
  <template>
   Goldfinger was one of three James Bond film themes sung by Shirley Bassey. The other two were Diamonds Are Forever and Moonraker. 
   </template>
   </category>
  <category>
-  <pattern>_ SINGS * THUNDERBALL</pattern> 
+  <pattern>* SINGS * THUNDERBALL</pattern> 
   <template>Thunderball was performed by Tom Jones.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * YOU ONLY LIVE TWICE</pattern> 
+  <pattern>* SINGS * YOU ONLY LIVE TWICE</pattern> 
   <template>Nancy Sinatra sang the theme tune to You Only Live Twice.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * ON HER * SECRET SERVICE</pattern> 
+  <pattern>* SINGS * ON HER * SECRET SERVICE</pattern> 
   <template>The theme song to this film was called "All The Time In The World" and was performed by Louis Armstrong.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * DIAMONDS ARE FOREVER</pattern> 
+  <pattern>* SINGS * DIAMONDS ARE FOREVER</pattern> 
  <template>
   Diamonds Are Forever was one of three James Bond film themes sung by Shirley Bassey. The other two were Goldfinger and Moonraker. 
   </template>
   </category>
  <category>
-  <pattern>_ SINGS * LIVE AND LET DIE</pattern> 
+  <pattern>* SINGS * LIVE AND LET DIE</pattern> 
  <template>
   Live And Let Die was the first James Bond film starring Roger Moore. The title song was performed by Paul McCartney and Wings. 
   </template>
   </category>
  <category>
-  <pattern>_ SINGS * THE MAN WITH THE GOLDEN GUN</pattern> 
+  <pattern>* SINGS * THE MAN WITH THE GOLDEN GUN</pattern> 
   <template>The title track to this James Bond film was sung by Lulu.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * THE SPY WHO LOVED ME</pattern> 
+  <pattern>* SINGS * THE SPY WHO LOVED ME</pattern> 
   <template>Carly Simon sang this James Bond film theme.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * MOONRAKER</pattern> 
+  <pattern>* SINGS * MOONRAKER</pattern> 
  <template>
   Moonraker was one of three James Bond film themes sung by Shirley Bassey. The other two were Diamonds Are Forever and Goldfinger. 
   </template>
   </category>
  <category>
-  <pattern>_ SINGS * FOR YOUR EYES ONLY</pattern> 
+  <pattern>* SINGS * FOR YOUR EYES ONLY</pattern> 
   <template>The title song, "For Your Eyes Only" was performed by Sheena Easton.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * OCTOPUSSY</pattern> 
+  <pattern>* SINGS * OCTOPUSSY</pattern> 
   <template>Rita Coolidge sang the title song in this James Bond film.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * A VIEW TO A KILL</pattern> 
+  <pattern>* SINGS * A VIEW TO A KILL</pattern> 
   <template>A View To A Kill was performed by Duran Duran.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * THE LIVING DAYLIGHTS</pattern> 
+  <pattern>* SINGS * THE LIVING DAYLIGHTS</pattern> 
  <template>
   Live And Let Die was the first James Bond film starring Timothy Dalton. The title song was performed by A-Ha. 
   </template>
   </category>
  <category>
-  <pattern>_ SINGS * LICENCE TO KILL</pattern> 
+  <pattern>* SINGS * LICENCE TO KILL</pattern> 
   <template>Gladys Knight sang the title track in this james Bond film.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * GOLDENEYE</pattern> 
+  <pattern>* SINGS * GOLDENEYE</pattern> 
   <template>Goldeneye was performed by Tina Turner.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * TOMORROW NEVER DIES</pattern> 
+  <pattern>* SINGS * TOMORROW NEVER DIES</pattern> 
   <template>Sheryl Crowe sang the title song in Tomorrow Never Dies.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * THE WORLD IS NOT ENOUGH</pattern> 
+  <pattern>* SINGS * THE WORLD IS NOT ENOUGH</pattern> 
   <template>This James Bond film theme was performed by Garbage.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * DIE ANOTHER DAY</pattern> 
+  <pattern>* SINGS * DIE ANOTHER DAY</pattern> 
   <template>Madonna sang the title track to this film.</template> 
   </category>
  <category>
-  <pattern>_ SINGS * CASINO ROYALE</pattern> 
+  <pattern>* SINGS * CASINO ROYALE</pattern> 
   <template>Chris Cornell sang, "You Know My Name" for this film.</template> 
   </category>
 
@@ -1533,71 +1533,71 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
   <template>Ten green bottles hanging on a wall.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ MAGNUM</pattern> 
+  <pattern>HOW MANY BOTTLES * MAGNUM</pattern> 
   <template>A magnum is equivalent to 2 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ JEROBOAM</pattern> 
+  <pattern>HOW MANY BOTTLES * JEROBOAM</pattern> 
   <template>A jeroboam (sometimes called a double magnum) is equivalent to 4 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ REHOBOAM</pattern> 
+  <pattern>HOW MANY BOTTLES * REHOBOAM</pattern> 
   <template>A rehoboam is equivalent to 6 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ METHUSELAH</pattern> 
+  <pattern>HOW MANY BOTTLES * METHUSELAH</pattern> 
   <template>A methuselah is equivalent to 8 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ SALMANAZAR</pattern> 
+  <pattern>HOW MANY BOTTLES * SALMANAZAR</pattern> 
   <template>A salmanazar is equivalent to 12 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ BALTHAZAR</pattern> 
+  <pattern>HOW MANY BOTTLES * BALTHAZAR</pattern> 
   <template>A balthazar is equivalent to 16 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ NEBUCHADNEZZAR</pattern> 
+  <pattern>HOW MANY BOTTLES * NEBUCHADNEZZAR</pattern> 
   <template>A nebuchadnezzar is equivalent to 20 standard bottles.</template> 
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ MAGNUM *</pattern> 
+  <pattern>HOW MANY BOTTLES * MAGNUM *</pattern> 
  <template>
   <srai>How many bottles in a magnum</srai> 
   </template>
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ JEROBOAM *</pattern> 
+  <pattern>HOW MANY BOTTLES * JEROBOAM *</pattern> 
  <template>
   <srai>How many bottles in a jeroboam</srai> 
   </template>
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ REHOBOAM *</pattern> 
+  <pattern>HOW MANY BOTTLES * REHOBOAM *</pattern> 
  <template>
   <srai>How many bottles in a rehoboam</srai> 
   </template>
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ METHUSELAH *</pattern> 
+  <pattern>HOW MANY BOTTLES * METHUSELAH *</pattern> 
  <template>
   <srai>How many bottles in a methuselah</srai> 
   </template>
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ SALMANAZAR *</pattern> 
+  <pattern>HOW MANY BOTTLES * SALMANAZAR *</pattern> 
  <template>
   <srai>How many bottles in a salmanazar</srai> 
   </template>
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ BALTHAZAR *</pattern> 
+  <pattern>HOW MANY BOTTLES * BALTHAZAR *</pattern> 
  <template>
   <srai>How many bottles in a balthazar</srai> 
   </template>
   </category>
  <category>
-  <pattern>HOW MANY BOTTLES _ NEBUCHADNEZZAR *</pattern> 
+  <pattern>HOW MANY BOTTLES * NEBUCHADNEZZAR *</pattern> 
  <template>
   <srai>How many bottles in a nebuchadnezzar</srai> 
   </template>
@@ -1784,7 +1784,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
   </category>
 
  <category>
-  <pattern>WHAT _ THE * WONDERS OF THE WORLD.</pattern> 
+  <pattern>WHAT * THE * WONDERS OF THE WORLD.</pattern> 
  <template>
   The Seven Wonders of the World are: 
   <br /> 
@@ -1916,7 +1916,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
   </template>
   </category>
   <category>
-  <pattern>_ THE BATTLE OF * TAKE PLACE</pattern> 
+  <pattern>* THE BATTLE OF * TAKE PLACE</pattern> 
   <template>
   <srai>
   when was the battle of 
@@ -1925,7 +1925,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
   </template>
   </category>
   <category>
-  <pattern>WHO _ THE BATTLE OF *</pattern> 
+  <pattern>WHO * THE BATTLE OF *</pattern> 
   <template>
   <srai>
   when was the battle of 
@@ -1934,7 +1934,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
   </template>
   </category>
   <category>
-  <pattern>WHICH _ THE BATTLE OF *</pattern> 
+  <pattern>WHICH * THE BATTLE OF *</pattern> 
   <template>
   <srai>
   when was the battle of 
@@ -2059,7 +2059,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
   <template><think><set name="emotion">interested</set></think>1813 - Huge Russian, Austrian, Prussian force under the command of Schwarzenberg defeated a smaller force of French under the command of Napoleon Bonaparte.</template> 
   </category>
   <category>
-  <pattern>_ LITTLE BIG HORN</pattern> 
+  <pattern>* LITTLE BIG HORN</pattern> 
   <template><think><set name="emotion">interested</set></think>
   <srai>
   <star /> 
@@ -4098,7 +4098,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
  
   <topic name="SHUTUP">
   <category>
-  <pattern>_</pattern> 
+  <pattern>*</pattern> 
   <template>
   <think>
   <set name="inp">
@@ -4284,7 +4284,7 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
 
   <topic name="GOAWAY">
   <category>
-  <pattern>_</pattern> 
+  <pattern>*</pattern> 
   <template>
   <think>
   <set name="inp">
@@ -4451,21 +4451,21 @@ The Falcon Hypersonic Technology Vehicle program intends to test the HTV-1 in Se
 
 
 <category>
-<pattern>ON THIS DAY _</pattern>
+<pattern>ON THIS DAY *</pattern>
 <template>
 <srai>ON THIS DAY</srai>
 </template>
 </category>   
 
 <category>
-<pattern>_ ON THIS DAY</pattern>
+<pattern>* ON THIS DAY</pattern>
 <template>
 <srai>ON THIS DAY</srai>
 </template>
 </category>   
 
 <category>
-<pattern>_ ON THIS DAY *</pattern>
+<pattern>* ON THIS DAY *</pattern>
 <template>
 <srai>ON THIS DAY</srai>
 </template>
@@ -4932,7 +4932,7 @@ AD 41 - Roman Emperor Caligula murdered in Rome<br/>
 <category>
 <pattern>FEBRUARY 26</pattern>
 <template>
-1797 - First £1 notes issused by the Bank of England<br/>
+1797 - First ï¿½1 notes issused by the Bank of England<br/>
 1815 - Escape of Napoleon Bonaparte from Elba
 </template>
 </category>
@@ -5048,7 +5048,7 @@ AD 41 - Roman Emperor Caligula murdered in Rome<br/>
 <template>
 1682 - Royal Chelsea Hospital founded<br/>
 1985 - Mikhail Gorbachev appointed General Secretary of the Communist Party of the Soviet Union<br/>
-1988 - The Bank of England £1 note ceased to be legal tender
+1988 - The Bank of England ï¿½1 note ceased to be legal tender
 </template>
 </category>
 
@@ -5418,7 +5418,7 @@ AD 41 - Roman Emperor Caligula murdered in Rome<br/>
 <pattern>APRIL 22</pattern>
 <template>
 1915 - First use of poison gas (by Germans at Ypres)<br/>
-1983 - Introduction of £1 coins in Britain
+1983 - Introduction of ï¿½1 coins in Britain
 </template>
 </category>
 
@@ -5760,7 +5760,7 @@ AD 41 - Roman Emperor Caligula murdered in Rome<br/>
 <category>
 <pattern>JUNE 01</pattern>
 <template>
-1946 - Television licences introduced in Britain (£2)<br/>
+1946 - Television licences introduced in Britain (ï¿½2)<br/>
 1957 - The first Premium Bond winner drawn
 </template>
 </category>
@@ -7766,7 +7766,7 @@ NOTHING HAPPENED
 </category>
 
 <category>
-<pattern>_ NO * SPORTS</pattern>
+<pattern>* NO * SPORTS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -7780,7 +7780,7 @@ NOTHING HAPPENED
 </category>
 
 <category>
-<pattern>NO _ SPORTS *</pattern>
+<pattern>NO * SPORTS *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -7808,7 +7808,7 @@ NOTHING HAPPENED
 </category>
 
 <category>
-<pattern>_ NOT * SPORTS</pattern>
+<pattern>* NOT * SPORTS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -7874,7 +7874,7 @@ NOTHING HAPPENED
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  SPORTS</that>
 <template>
 <srai>SPORTS POT LUCK</srai>
@@ -7994,7 +7994,7 @@ NOTHING HAPPENED
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT SPORTS</that>
 <template>
 <srai>MORE ABOUT SPORTS</srai>
@@ -8114,7 +8114,7 @@ Can we talk about sports?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
 <template>
 Can we talk about sports?
@@ -8178,7 +8178,7 @@ Can we talk about sports?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH SPORTS</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -8242,7 +8242,7 @@ Can we talk about sports?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN SPORTS</that>
 <template>
 Can we talk about sports?
@@ -8306,7 +8306,7 @@ Can we talk about sports?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN SPORTS</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -8362,7 +8362,7 @@ Can we talk about sports?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT SPORTS</that>
 <template>
 <srai>SPORTS</srai>
@@ -8579,7 +8579,7 @@ Can we talk about sports?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE SPORTS</that>
 <template>
 <srai>SPORTS POT LUCK</srai>
@@ -8792,7 +8792,7 @@ I think this is something to do with sports. Can we talk about sports?
 </category> -->
 
 <category>
-<pattern>_SPORTSMAN*</pattern> 
+<pattern>*SPORTSMAN*</pattern> 
 <template>
 I think this is something to do with sports. Can we talk about sports?
 <think><set name="topic">sports</set></think>
@@ -8802,28 +8802,28 @@ I think this is something to do with sports. Can we talk about sports?
  <category>
   <pattern>CHESS</pattern> 
   <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
+   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank"> Click here</a> for a game.
  <think><set name="topic">sports</set></think></template>
   </category>
 
 <category>
-  <pattern>_ CHESS</pattern> 
+  <pattern>* CHESS</pattern> 
   <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
+   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank"> Click here</a> for a game.
   <think><set name="topic">sports</set></think></template>
   </category>
 
 <category>
   <pattern>CHESS *</pattern> 
   <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
+   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank"> Click here</a> for a game.
   <think><set name="topic">sports</set></think></template>
   </category>
 
     <category>
-  <pattern>_ CHESS *</pattern> 
+  <pattern>* CHESS *</pattern> 
   <template>
-   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank"> Click here</a> for a game.
+   I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank"> Click here</a> for a game.
   <think><set name="topic">sports</set></think></template>
   </category>
 
@@ -9005,7 +9005,7 @@ I think this is something to do with sports. Can we talk about sports?
   </category>
   
 <category>
-  <pattern>_ RUNESCAPE *</pattern> 
+  <pattern>* RUNESCAPE *</pattern> 
   <template>
   Everyone keep asking about Runescape. What is it? Can you tell me what Runescape is?
   <think><set name="topic">sports</set></think></template>
@@ -9126,7 +9126,7 @@ Running is faster than walking.
 </category>
 
 <category>
-<pattern>_ NO * POLITICS</pattern>
+<pattern>* NO * POLITICS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -9140,7 +9140,7 @@ Running is faster than walking.
 </category>
 
 <category>
-<pattern>NO _ POLITICS *</pattern>
+<pattern>NO * POLITICS *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -9168,7 +9168,7 @@ Running is faster than walking.
 </category>
 
 <category>
-<pattern>_ NOT * POLITICS</pattern>
+<pattern>* NOT * POLITICS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -9203,7 +9203,7 @@ Running is faster than walking.
 </category>
 
 <category>
-<pattern>_ NOT INTERESTED IN POLITICS</pattern>
+<pattern>* NOT INTERESTED IN POLITICS</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -9234,7 +9234,7 @@ Running is faster than walking.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  POLITICS</that>
 <template>
 <srai>POLITICS POT LUCK</srai>
@@ -9354,7 +9354,7 @@ Running is faster than walking.
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT POLITICS</that>
 <template>
 <srai>MORE ABOUT POLITICS</srai>
@@ -9474,7 +9474,7 @@ Can we talk about politics?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH POLITICS</that>
 <template>
 Can we talk about politics?
@@ -9538,7 +9538,7 @@ Can we talk about politics?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH POLITICS</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -9602,7 +9602,7 @@ Can we talk about politics?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN POLITICS</that>
 <template>
 Can we talk about politics?
@@ -9666,7 +9666,7 @@ Can we talk about politics?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN POLITICS</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -9722,7 +9722,7 @@ Can we talk about politics?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT POLITICS</that>
 <template>
 <srai>POLITICS</srai>
@@ -9939,7 +9939,7 @@ Can we talk about politics?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE POLITICS</that>
 <template>
 <srai>POLITICS POT LUCK</srai>
@@ -10126,7 +10126,7 @@ I think this is something to do with politics. Can we talk about politics?
 </category> -->
 
 <category>
-<pattern>_ REPUBLICAN *</pattern> 
+<pattern>* REPUBLICAN *</pattern> 
 <template>
 I think this is something to do with politics. Can we talk about poltics?
 <think><set name="topic">politics</set></think>
@@ -10391,7 +10391,7 @@ Marxism is the system of economic and political ideas first developed by Karl Ma
   <li>Shall I tell you a poem?</li>
   <li>I love poetry too. My favourite poet is Emily Dickinson.</li>
   <li>Who is your favourite poet?</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">poetry</set></think><think><set name="interesting_topic">poetry</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">poetry</set></think><think><set name="interesting*topic">poetry</set></think></template>
 </category>
 
  
@@ -10564,7 +10564,7 @@ Shall I compare thee to a summers day, Sonnet 18 by William Shakespeare.
 <category>
 <pattern>TELL ME A LIMERICK</pattern>
 <template>
-<think><set name="interesting_topic">poetry</set></think> <think><set name="topic">poetry</set></think> <think><set name="emotion">OK</set></think> 
+<think><set name="interesting*topic">poetry</set></think> <think><set name="topic">poetry</set></think> <think><set name="emotion">OK</set></think> 
 <random> <li>There was an old man from Peru
     <br/>Who dreamt he was kissing his shoe
     <br/>He woke in the night
@@ -10780,7 +10780,7 @@ The brain is wider than the sky,
 <category>
 <pattern>TELL ME A POEM *</pattern>
 <template>
-<think><set name="interesting_topic">poetry</set></think> <think><set name="topic">poetry</set></think> <think><set name="emotion">OK</set></think> <random>
+<think><set name="interesting*topic">poetry</set></think> <think><set name="topic">poetry</set></think> <think><set name="emotion">OK</set></think> <random>
 <li>
 I love you, I love you,
 <br/>I love you divine.
@@ -11077,7 +11077,7 @@ The days, locked in each other's arms,
 </category>
 
 <category>
-<pattern>_ NO * MUSIC</pattern>
+<pattern>* NO * MUSIC</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -11091,7 +11091,7 @@ The days, locked in each other's arms,
 </category>
 
 <category>
-<pattern>NO _ MUSIC *</pattern>
+<pattern>NO * MUSIC *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -11105,7 +11105,7 @@ The days, locked in each other's arms,
 </category>
 
 <category>
-<pattern>_ NOT MUSIC</pattern>
+<pattern>* NOT MUSIC</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -11119,7 +11119,7 @@ The days, locked in each other's arms,
 </category>
 
 <category>
-<pattern>_ NOT * MUSIC</pattern>
+<pattern>* NOT * MUSIC</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -11185,7 +11185,7 @@ The days, locked in each other's arms,
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  MUSIC</that>
 <template>
 <srai>MUSIC POT LUCK</srai>
@@ -11305,7 +11305,7 @@ The days, locked in each other's arms,
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT MUSIC</that>
 <template>
 <srai>MORE ABOUT MUSIC</srai>
@@ -11425,7 +11425,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
 <template>
 Can we talk about music?
@@ -11489,7 +11489,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH MUSIC</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -11553,7 +11553,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN MUSIC</that>
 <template>
 Can we talk about music?
@@ -11617,7 +11617,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN MUSIC</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -11737,7 +11737,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT MUSIC</that>
 <template>
 <srai>MUSIC</srai>
@@ -11857,7 +11857,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE MUSIC</that>
 <template>
 <srai>MUSIC POT LUCK</srai>
@@ -11969,7 +11969,7 @@ Can we talk about music?
    <li>Did you know that a demisemiquaver is a musical note that is played for 1/32 the duration of a whole note?</li>
    <li>Did you know that Coldplay's A Rush of Blood to the Head Tour featured frontman Chris Martin performing songs after inhaling a helium balloon? </li>
    <li>Did you know that according to the Guinness Book of World Records, Queen albums have spent more time on the UK album charts than those of any other musical act?</li>
-   <li>Did you know that Gabriel Fauré declared that his Requiem was "composed for nothing...for fun, if I may be permitted to say so"? </li>
+   <li>Did you know that Gabriel Faurï¿½ declared that his Requiem was "composed for nothing...for fun, if I may be permitted to say so"? </li>
    <li>Did you know that Stravinsky wrote his 1948 Mass partially in response to the masses of Mozart, which he called "rococo-operatic sweets-of-sin"? </li>
    <li>Did you know that The Beatles were pelted with rotten fruit during their Memphis concert on August 20, 1966?</li>
    <li>Did you that Russian composer Ella Adayevskaya took her pseudonym from the notes played by the kettledrum in Mikhail Glinka's opera Ruslan and Ludmila? </li>
@@ -12025,7 +12025,7 @@ Can we talk about music?
 </category>
 
 <category>
-<pattern>_YES*</pattern>
+<pattern>*YES*</pattern>
 <that>MORE ABOUT POP</that>
 <template>
 <srai>POP POT LUCK</srai>
@@ -12074,7 +12074,7 @@ More about music?
 </category>
 
 <category>
-<pattern>_NO*</pattern>
+<pattern>*NO*</pattern>
 <that>MORE ABOUT POP</that>
 <template>
 More about music?
@@ -12158,7 +12158,7 @@ More about music?
 </category>
 
 <category>
-<pattern>_YES*</pattern>
+<pattern>*YES*</pattern>
 <that>MORE ABOUT JAZZ</that>
 <template>
 <srai>JAZZ POT LUCK</srai>
@@ -12206,7 +12206,7 @@ More about music?
 </category>
 
 <category>
-<pattern>_NO*</pattern>
+<pattern>*NO*</pattern>
 <that>MORE ABOUT JAZZ</that>
 <template>
 More about music?
@@ -12266,7 +12266,7 @@ More about music?
 </category>
 
 <category>
-<pattern>_YES*</pattern>
+<pattern>*YES*</pattern>
 <that>MORE ABOUT CLASSICAL MUSIC</that>
 <template>
 <srai>CLASSICAL POT LUCK</srai>
@@ -12314,7 +12314,7 @@ More about music?
 </category>
 
 <category>
-<pattern>_NO*</pattern>
+<pattern>*NO*</pattern>
 <that>MORE ABOUT CLASSICAL MUSIC</that>
 <template>
 More about music?
@@ -12490,7 +12490,7 @@ I think this is something to do with music. Can we talk about music?
 </category>
 
 <category>
-<pattern>_ BJORK *</pattern> 
+<pattern>* BJORK *</pattern> 
 <template>
 I think this is something to do with music. Can we talk about music?
 <think><set name="topic">pop music</set></think>
@@ -12546,7 +12546,7 @@ Joan Baez is a great folk singer who burst upon the music scene in the 1960s dur
   </category>
 
   <category>
-  <pattern>_ JOAN BAEZ *</pattern> 
+  <pattern>* JOAN BAEZ *</pattern> 
   <template>
 Joan Baez is a great folk singer who burst upon the music scene in the 1960s during the Bob Dylan era. She has a most beautiful voice. 
   <think><set name="topic">pop music</set></think>
@@ -12570,7 +12570,7 @@ Perfect pitch is the assumed possession of a delicate ear that gives one the rig
   </category> -->
 
 <category>
-  <pattern>_ PERFECT PITCH *</pattern> 
+  <pattern>* PERFECT PITCH *</pattern> 
   <template>
 Perfect pitch is the assumed possession of a delicate ear that gives one the right to say that performers are out of tune. 
   <think><set name="topic">music</set></think>
@@ -12602,7 +12602,7 @@ Pentatonic means music that can only be played on the bagpipes.
   </category> -->
 
 <category>
-  <pattern>_ PENTATONIC *</pattern> 
+  <pattern>* PENTATONIC *</pattern> 
   <template>
 Did you say pentatonic? This means music that can only be played on the bagpipes. 
   <think><set name="topic">music</set></think>
@@ -12634,7 +12634,7 @@ Polyrhythm is the ability to dance a quick-step to a waltz.
   </category>
 
 <category>
-  <pattern>_ POLYRHYTHM *</pattern> 
+  <pattern>* POLYRHYTHM *</pattern> 
   <template>
 Polyrhythm is the ability to dance a quick-stp to a waltz. 
   <think><set name="topic">music</set></think>
@@ -12666,7 +12666,7 @@ Antiphonal is the music that results when half a choir has been given the wrong 
   </category>
 
 <category>
-  <pattern>_ ANTIPHONAL *</pattern> 
+  <pattern>* ANTIPHONAL *</pattern> 
   <template>
 Did you say antiphonal? It is the music that results when half a choir has been given the wrong music.  
   <think><set name="topic">music</set></think>
@@ -12698,7 +12698,7 @@ Atonal music is the result of a composer forgetting, or not caring, what key he 
   </category>
 
 <category>
-  <pattern>_ ATONAL *</pattern> 
+  <pattern>* ATONAL *</pattern> 
   <template>
 Did you say atonal? Atonal music is the result of a composer forgetting, or not caring, what key he is supposed to be writing in.   
   <think><set name="topic">music</set></think>
@@ -12730,7 +12730,7 @@ Bel Canto is the lost art of singing properly.
   </category>
 
 <category>
-  <pattern>_ BEL CANTO *</pattern> 
+  <pattern>* BEL CANTO *</pattern> 
   <template>
 Did you mention Bel Canto? That is the lost art of singing properly.   
   <think><set name="topic">music</set></think>
@@ -12762,7 +12762,7 @@ Contrapuntal music is music with two or three tunes all going on at the same tim
   </category>
 
 <category>
-  <pattern>_ CONTRAPUNTAL *</pattern> 
+  <pattern>* CONTRAPUNTAL *</pattern> 
   <template>
 Did you say contrapuntal? This is music with two or three tunes all going on at the same time.  
   <think><set name="topic">music</set></think>
@@ -12794,7 +12794,7 @@ Chamber music is music written for a small number of listeners.
   </category>
 
 <category>
-  <pattern>_ CHAMBER MUSIC *</pattern> 
+  <pattern>* CHAMBER MUSIC *</pattern> 
   <template>
 Did you say chamber music? This is music written for a small number of listeners.  
   <think><set name="topic">music</set></think>
@@ -12826,7 +12826,7 @@ A musical score is either (1) a complete copy of the music being played that all
   </category> -->
 
 <category>
-  <pattern>_ MUSICAL SCORE *</pattern> 
+  <pattern>* MUSICAL SCORE *</pattern> 
   <template>
 Musical score? A musical score is either (1) a complete copy of the music being played that all the best soloists and conductors like to do without, or (2) the complete copy of the music being played that with-it members of the audience like to read during the performance.  
   <think><set name="topic">music</set></think>
@@ -12858,7 +12858,7 @@ A coda is an extra bit of music stuck at the end of a composition during which t
   </category>
 
 <category>
-  <pattern>_ CODA*</pattern> 
+  <pattern>* CODA*</pattern> 
   <template>
 Did you say coda? A coda is an extra bit of music stuck at the end of a composition during which the audience can find their coats and hats and put their shoes on.  
   <think><set name="topic">music</set></think>
@@ -12890,7 +12890,7 @@ Harmonics are the buzzing sounds that musical instruments make.
   </category> -->
 
 <category>
-  <pattern>_ HARMONICS *</pattern> 
+  <pattern>* HARMONICS *</pattern> 
   <template>
 Did you say harmonics? Harmonics are the buzzing sounds that musical instruments make.  
   <think><set name="topic">music</set></think>
@@ -12922,7 +12922,7 @@ Improvisation is a natural activity amongst jazz musicians, but now only used by
   </category> -->
 
 <category>
-  <pattern>_ IMPROVISATION *</pattern> 
+  <pattern>* IMPROVISATION *</pattern> 
   <template>
 Did you say improvisation? This is a natural activity amongst jazz musicians, but now only used by classical musicians when the music falls of their stand. More about jazz?
   <think><set name="topic">music</set></think>
@@ -12954,7 +12954,7 @@ In music, modulation is the art of changing from one key to another in a way tha
   </category> -->
 
 <category>
-  <pattern>_ MODULATION *</pattern> 
+  <pattern>* MODULATION *</pattern> 
   <template>
 Did you say modulation? In music, this is the art of changing from one key to another in a way that is smooth but but obvious enough to attract admiration.  
   <think><set name="topic">music</set></think>
@@ -12986,7 +12986,7 @@ In music, an accidental is a wrong note played on purpose.
   </category>
 
 <category>
-  <pattern>_ ACCIDENTAL *</pattern> 
+  <pattern>* ACCIDENTAL *</pattern> 
   <template>
 Did you say accidental? In music, this is a wrong note played on purpose.  
   <think><set name="topic">music</set></think>
@@ -13018,7 +13018,7 @@ In music, a cadenza is an over-long and unnecessary solo in a concerto.
   </category>
 
 <category>
-  <pattern>_ CADENZA *</pattern> 
+  <pattern>* CADENZA *</pattern> 
   <template>
 Did you say cadenza? In music, this is an over-long and unnecessary solo in a concerto.  
   <think><set name="topic">music</set></think>
@@ -13050,7 +13050,7 @@ In music, coloratura is when a singer, usually of unnaturally high voice, does m
   </category>
 
 <category>
-  <pattern>_ COLORATURA *</pattern> 
+  <pattern>* COLORATURA *</pattern> 
   <template>
 Did you say coloratura? In music, this is when a singer, usually of unnaturally high voice, does more than is strictly necessary.  
   <think><set name="topic">music</set></think>
@@ -13082,7 +13082,7 @@ In music, a fugue clever music, generally played by an organist.
   </category> -->
 
 <category>
-  <pattern>_ FUGUE *</pattern> 
+  <pattern>* FUGUE *</pattern> 
   <template>
 Did you say fugue? In music, this clever music, generally played by an organist.  
   <think><set name="topic">music</set></think>
@@ -13114,7 +13114,7 @@ In music, a madrigal is a medieval barber-shop song, now generally sung out of d
   </category> -->
 
 <category>
-  <pattern>_ MADRIGAL *</pattern> 
+  <pattern>* MADRIGAL *</pattern> 
   <template>
 Did you say madrigal? In music, this is a medieval barber-shop song, now generally sung out of doors on a wet summer evening.  
   <think><set name="topic">music</set></think>
@@ -13146,7 +13146,7 @@ In music, obbligato is an accompanying part which, despite what the name suggest
   </category> -->
 
 <category>
-  <pattern>_ OBBLIGATO *</pattern> 
+  <pattern>* OBBLIGATO *</pattern> 
   <template>
 Did you say obbligato? In music, this is an accompanying part which, despite what the name suggests, is slightly unnecessary.  
   <think><set name="topic">music</set></think>
@@ -13178,7 +13178,7 @@ In music, rubato means playing in an old-fashioned and blatantly emotional way l
   </category> -->
 
 <category>
-  <pattern>_ RUBATO *</pattern> 
+  <pattern>* RUBATO *</pattern> 
   <template>
 Did you say rubato? In music, this means playing in an old-fashioned and blatantly emotional way like Paderewski playing Chopin. The less apparent a musician's rubato is the more one admires it.  
   <think><set name="topic">music</set></think>
@@ -13211,7 +13211,7 @@ In music, vibrato means the minutely wavering quality of voice or instrument tha
 
 
 <category>
-  <pattern>_ VIBRATO *</pattern> 
+  <pattern>* VIBRATO *</pattern> 
   <template>
 Did you say vibrato? In music, this means the minutely wavering quality of voice or instrument that critics say most people have too much of.  
   <think><set name="topic">music</set></think>
@@ -13446,21 +13446,21 @@ The Sex Pistols were a UK punk-rock group (1975-78) that became notorious under 
 </category>
 
 <category>
-<pattern>_ NO * LITERATURE</pattern>
+<pattern>* NO * LITERATURE</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ LITERATURE</pattern>
+<pattern>NO * LITERATURE</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ LITERATURE *</pattern>
+<pattern>NO * LITERATURE *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -13488,7 +13488,7 @@ The Sex Pistols were a UK punk-rock group (1975-78) that became notorious under 
 </category>
 
 <category>
-<pattern>_ NOT * LITERATURE</pattern>
+<pattern>* NOT * LITERATURE</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -13554,7 +13554,7 @@ The Sex Pistols were a UK punk-rock group (1975-78) that became notorious under 
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  LITERATURE</that>
 <template>
 <srai>LITERATURE NEXT QUESTION</srai>
@@ -13674,7 +13674,7 @@ The Sex Pistols were a UK punk-rock group (1975-78) that became notorious under 
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT LITERATURE</that>
 <template>
 <srai>MORE ABOUT LITERATURE</srai>
@@ -13794,7 +13794,7 @@ Can we talk about literature?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH LITERATURE</that>
 <template>
 Can we talk about literature?
@@ -13858,7 +13858,7 @@ Can we talk about literature?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH LITERATURE</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -13922,7 +13922,7 @@ Can we talk about literature?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN LITERATURE</that>
 <template>
 Can we talk about literature?
@@ -13986,7 +13986,7 @@ Can we talk about literature?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN LITERATURE</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -14106,7 +14106,7 @@ Can we talk about literature?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT LITERATURE</that>
 <template>
 <srai>LITERATURE</srai>
@@ -14226,7 +14226,7 @@ Can we talk about literature?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE LITERATURE</that>
 <template>
 <srai>LITERATURE NEXT QUESTION</srai>
@@ -14374,7 +14374,7 @@ Can we talk about literature?
 
 <li>Did you know that Arthur Miller's 1987 autobiography is entitled Timebends?</li>
 
-<li>Did you know that Richardson's Clarissa, Laclos's Les Liaisons dangereuses and Elizabeth von Arnim's Fräulein Schmidt and Mr Anstruther are epistolary novels?</li>
+<li>Did you know that Richardson's Clarissa, Laclos's Les Liaisons dangereuses and Elizabeth von Arnim's Frï¿½ulein Schmidt and Mr Anstruther are epistolary novels?</li>
 
 <li>Did you know that Eric Malpass was more successful in Germany than in his native England?</li>
 
@@ -14720,14 +14720,14 @@ William Butler Yeats (1865-1939) was an Irish poet and dramatist. His verse coll
 </category>
 
 <category>
-<pattern>NO _ ART</pattern>
+<pattern>NO * ART</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ ART *</pattern>
+<pattern>NO * ART *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -14821,7 +14821,7 @@ William Butler Yeats (1865-1939) was an Irish poet and dramatist. His verse coll
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  ART</that>
 <template>
 <srai>ART POT LUCK</srai>
@@ -14941,7 +14941,7 @@ William Butler Yeats (1865-1939) was an Irish poet and dramatist. His verse coll
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT ART</that>
 <template>
 <srai>MORE ABOUT ART</srai>
@@ -15061,7 +15061,7 @@ Can we talk about art?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH ART</that>
 <template>
 Can we talk about art?
@@ -15125,7 +15125,7 @@ Can we talk about art?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH ART</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -15189,7 +15189,7 @@ Can we talk about art?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN ART</that>
 <template>
 Can we talk about art?
@@ -15253,7 +15253,7 @@ Can we talk about art?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN ART</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -15375,7 +15375,7 @@ Can we talk about art?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT ART</that>
 <template>
 <srai>ART</srai>
@@ -15495,7 +15495,7 @@ Can we talk about art?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE ART</that>
 <template>
 <srai>ART POT LUCK</srai>
@@ -15605,13 +15605,13 @@ Can we talk about art?
 <random>
 
    <li>Have your heard that Marcel Duchamp has emerged as the most influential artist in the UK. The French conceptualist who famously placed a urinal in a New York gallery in 1917 and declared "this is art", has come top of a survey of students from 11 of the leading art schools in the UK.</li>
-  <li>In July 2007 a portrait of Florentine ruler Lorenzo de' Medici by the artist Raphael was sold for more than £18m ($37.3m) braking the previous record for a painting by the Renaissance master. </li>
-   <li>Did you know that the Très Riches Heures du Duc de Berry, a 416-page illuminated manuscript and masterpiece of the International Gothic style, has 300 decorated Initial letters?</li>
+  <li>In July 2007 a portrait of Florentine ruler Lorenzo de' Medici by the artist Raphael was sold for more than ï¿½18m ($37.3m) braking the previous record for a painting by the Renaissance master. </li>
+   <li>Did you know that the Trï¿½s Riches Heures du Duc de Berry, a 416-page illuminated manuscript and masterpiece of the International Gothic style, has 300 decorated Initial letters?</li>
    <li>Did you know that in Chinese art the three Vinegar tasters are allegorical figures representing Confucianism, Buddhism, and Taoism?</li>
    <li>Did you know that a genetic defect prevented Henri de Toulouse-Lautrec from growing more than 1.5 m (5 ft) tall?</li>
    <li>Did you know that Giulio Romano, mentioned in The Winter's Tale, is the only Renaissance artist to feature in a play by William Shakespeare?</li>
    <li>Did you know that the Pre-Raphaelite painter Dante Gabriel Rossetti had an obsession with wombats?</li>
-   <li>Have you heard that a Picasso portrait of his lover Dora Maar has been sold for $95.2m (£51.8m), the second highest amount ever paid for a painting at auction.  The 1941 masterpiece Dora Maar With Cat was sold to an anonymous buyer at Sotheby's in New York May 2006.</li>
+   <li>Have you heard that a Picasso portrait of his lover Dora Maar has been sold for $95.2m (ï¿½51.8m), the second highest amount ever paid for a painting at auction.  The 1941 masterpiece Dora Maar With Cat was sold to an anonymous buyer at Sotheby's in New York May 2006.</li>
    <li>What do you think of the enormous prices paid for artworks today? Is art value for money?</li>
    <li>According to Frank Zappa, art is making something out of nothing and selling it. Do you agree? </li>
    <li>The artistic temperament is a disease that afflicts amateurs, according to G.K. Chesterton.</li>
@@ -15698,7 +15698,7 @@ I think this is something to do with art. Can we talk about art?
 <category>
 <pattern>SCIENTIFIC CALCULATOR</pattern>
 <template>
-To use my scientific calculator, <a href="http://web2.0calc.com/" target="_blank">click here!</a>
+To use my scientific calculator, <a href="http://web2.0calc.com/" target="*blank">click here!</a>
 </template>
 </category>
 
@@ -16130,12 +16130,12 @@ To use my scientific calculator, <a href="http://web2.0calc.com/" target="_blank
 
 
 <category>
-<pattern>HOW MANY SIDES _ A * *</pattern>
+<pattern>HOW MANY SIDES * A * *</pattern>
 <template><srai><star index="2"/></srai></template>
 </category>
 
 <category>
-<pattern>HOW MANY SIDES _ A * </pattern>
+<pattern>HOW MANY SIDES * A * </pattern>
 <template><srai><star index="2"/></srai></template>
 </category>
 
@@ -16147,7 +16147,7 @@ To use my scientific calculator, <a href="http://web2.0calc.com/" target="_blank
 <category>
 <pattern>GO TO CALCULATOR</pattern>
 <template>
-To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalmaths/Calculator.html" target="_blank">click here.</a>
+To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalmaths/Calculator.html" target="*blank">click here.</a>
 <think><set name="topic">maths</set></think>
 </template>
 </category>
@@ -16175,7 +16175,7 @@ To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalma
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>WOULD YOU LIKE TO USE MY CALCULATOR</that>
 <template>
 <srai>GO TO CALCULTOR</srai>
@@ -16200,7 +16200,7 @@ To use my calculator, <a href="http://www.amblesideprimary.com/ambleweb/mentalma
 
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>WOULD YOU LIKE TO USE MY CALCULATOR</that>
 <template>
 <srai>GO TO CALCULTOR</srai>
@@ -16277,7 +16277,7 @@ OK. To use my calculator just say "Go to calculator."
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>WOULD YOU LIKE TO USE MY CALCULATOR</that>
 <template>
 OK. To use my calculator just say "Go to calculator."
@@ -16313,7 +16313,7 @@ OK. To use my calculator just say "Go to calculator."
 </category>
 
 <category>
-<pattern>_ YES</pattern>
+<pattern>* YES</pattern>
 <that>DO YOU WANT TO USE MY CALCULATOR</that>
 <template>
 <srai>GO TO CALCULTOR</srai>
@@ -16339,7 +16339,7 @@ OK. To use my calculator just say "Go to calculator."
 
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>DO YOU WANT TO USE MY CALCULATOR</that>
 <template>
 <srai>GO TO CALCULTOR</srai>
@@ -16416,7 +16416,7 @@ OK. To use my calculator just say "Go to calculator."
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>DO YOU WANT TO USE MY CALCULATOR</that>
 <template>
 OK. To use my calculator just say "Go to calculator."
@@ -20234,7 +20234,7 @@ That's a big number.
 <!-- ENCYCLOPEDIA -->
 
 
-<category><pattern>KAFKA *</pattern><template><a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> has an article that might interest you:  <a href="http://en.wikipedia.org/wiki/Franz_Kafka" target="_blank" title="en:Franz Kafka">Kafka, Franz</a></template></category> 
+<category><pattern>KAFKA *</pattern><template><a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a> has an article that might interest you:  <a href="http://en.wikipedia.org/wiki/Franz*Kafka" target="*blank" title="en:Franz Kafka">Kafka, Franz</a></template></category> 
 
 
 
@@ -20559,7 +20559,7 @@ That's a big number.
   <category>
     <pattern> Chibcha </pattern>
     <template>
-               Group of South American Indians who at the time of the Spanish conquest occupied the high valleys surrounding what are now Bogotá and Tunja in Colombia.
+               Group of South American Indians who at the time of the Spanish conquest occupied the high valleys surrounding what are now Bogotï¿½ and Tunja in Colombia.
     </template>
   </category>
   <category>
@@ -20583,7 +20583,7 @@ That's a big number.
   <category>
     <pattern> Chichen Itza </pattern>
     <template>
-               Ancient ruined Mayan city in Mexico's Yucatán state.
+               Ancient ruined Mayan city in Mexico's Yucatï¿½n state.
     </template>
   </category>
   <category>
@@ -21450,7 +21450,7 @@ That's a big number.
   <category>
     <pattern> Churrigueresque </pattern>
     <template>
-               Spanish Rococo architectural style named after the architect José Churriguera (1665-1725).
+               Spanish Rococo architectural style named after the architect Josï¿½ Churriguera (1665-1725).
     </template>
   </category>
   <category>
@@ -21476,7 +21476,7 @@ That's a big number.
     </template>
   </category>
   <category>
-    <pattern> Seven Cities of Cíbola </pattern>
+    <pattern> Seven Cities of Cï¿½bola </pattern>
     <template>
                Legendary cities of splendour and riches sought by Spanish conquistadores in North America during the 16th century.
     </template>
@@ -21512,9 +21512,9 @@ That's a big number.
     <template> Expressed juice of apples. </template>
   </category>
   <category>
-    <pattern> científico </pattern>
+    <pattern> cientï¿½fico </pattern>
     <template>
-               Member of a group of officials who served in the government of Porfirio Díaz (1877-80, 1884-1911) in Mexico.
+               Member of a group of officials who served in the government of Porfirio Dï¿½az (1877-80, 1884-1911) in Mexico.
     </template>
   </category>
   <category>
@@ -21700,7 +21700,7 @@ That's a big number.
   <category>
     <pattern> Cistercian </pattern>
     <template>
-               Member of a Roman Catholic monastic order founded by St. Stephen Harding (1098) at Cîteaux (Latin, Cistercium), Burgundy, by Benedictines dissatisfied with their abbey's laxity.
+               Member of a Roman Catholic monastic order founded by St. Stephen Harding (1098) at Cï¿½teaux (Latin, Cistercium), Burgundy, by Benedictines dissatisfied with their abbey's laxity.
     </template>
   </category>
   <category>
@@ -21716,7 +21716,7 @@ That's a big number.
   <category>
     <pattern> Citizen Genet Affair </pattern>
     <template>
-               Incident precipitated by the French diplomat Citizen Edmond C. Genêt (1763-1834), who was sent to the U.S. in 1793 by the French government to gain support for France's war with Britain and Spain.
+               Incident precipitated by the French diplomat Citizen Edmond C. Genï¿½t (1763-1834), who was sent to the U.S. in 1793 by the French government to gain support for France's war with Britain and Spain.
     </template>
   </category>
   <category>
@@ -21742,7 +21742,7 @@ That's a big number.
     </template>
   </category>
   <category>
-    <pattern> Citroën </pattern>
+    <pattern> Citroï¿½n </pattern>
     <template> Historic French automobile manufacturer. </template>
   </category>
   <category>
@@ -22283,7 +22283,7 @@ That's a big number.
     </template>
   </category>
   <category>
-    <pattern> cloisonné </pattern>
+    <pattern> cloisonnï¿½ </pattern>
     <template> Enameling technique. </template>
   </category>
   <category>
@@ -22787,7 +22787,7 @@ That's a big number.
   <category>
     <pattern> ergo sum cogito </pattern>
     <template>
-               Dictum coined in 1637 by René Descartes as a first step
+               Dictum coined in 1637 by Renï¿½ Descartes as a first step
                in demonstrating the attainability of certain knowledge.
     </template>
   </category>

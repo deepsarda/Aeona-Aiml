@@ -669,7 +669,7 @@ Have you tried the personal ads?</template>
 <category>
 <pattern>WANG CHUNG</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wang_Chong" target="_blank">Wang Ch'ung</a> was a Chinese philosopher. <think><set name="topic">Wang Chung</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Wang*Chong" target="*blank">Wang Ch'ung</a> was a Chinese philosopher. <think><set name="topic">Wang Chung</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -678,7 +678,7 @@ Have you tried the personal ads?</template>
 <category>
 <pattern>WANG CHUNG *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Wang_Chong" target="_blank">Wang Ch'ung
+<template><a href="http://en.wikipedia.org/wiki/Wang*Chong" target="*blank">Wang Ch'ung
 </a> was a Chinese philosopher. <think><set name="topic">Wang Chung</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -826,7 +826,7 @@ Have you tried the personal ads?</template>
  
 
 <category>
-<pattern>_ ARE YOU A HUMAN</pattern>
+<pattern>* ARE YOU A HUMAN</pattern>
 
 <template><think><set name="topic">me</set></think><think><set name="emotion">interested</set></think><random>
   <li>I was made in one's image.</li>
@@ -1177,7 +1177,7 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>REDUCTIONISM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Reductionism" target="_blank">Reductionism</a> is the philosophy that all psychology reduces to biology, all biology to chemistry, chemistry to physics, and finally physics to mathematical logic. <think><set name="topic">reductionism</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Reductionism" target="*blank">Reductionism</a> is the philosophy that all psychology reduces to biology, all biology to chemistry, chemistry to physics, and finally physics to mathematical logic. <think><set name="topic">reductionism</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1186,7 +1186,7 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>REDUCTIONISM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Reductionism" target="_blank">Reductionism
+<template><a href="http://en.wikipedia.org/wiki/Reductionism" target="*blank">Reductionism
 </a> is the philosophy that all psychology reduces to biology, all biology to chemistry, chemistry to physics, and finally physics to mathematical logic. <think><set name="topic">reductionism</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1385,7 +1385,7 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>PHYSICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy.<think><set name="topic">physics</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy.<think><set name="topic">physics</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1394,7 +1394,7 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>PHYSICS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Physics" target="_blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy.<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Physics" target="*blank">Physics</a> is the science dealing with the properties, changes, interactions, etc. of matter and energy.<think><set name="topic">physics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -2159,7 +2159,7 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>ZEN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Zen" target="_blank">Zen</a> is a variety of Buddhism, now practiced especially in Japan, Vietnam, and Korea, seeking to attain an intuitive illumination of mind and spirit through meditation, especially on paradoxes. <think><set name="topic">Zen</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Zen" target="*blank">Zen</a> is a variety of Buddhism, now practiced especially in Japan, Vietnam, and Korea, seeking to attain an intuitive illumination of mind and spirit through meditation, especially on paradoxes. <think><set name="topic">Zen</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -2167,7 +2167,7 @@ Have you tried the personal ads?</template>
 <category>
 <pattern>ZEN *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Zen" target="_blank">Zen</a> is a variety of Buddhism, now practiced especially in Japan, Vietnam, and Korea, seeking to attain an intuitive illumination of mind and spirit through meditation, especially on paradoxes. <think><set name="topic">Zen</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Zen" target="*blank">Zen</a> is a variety of Buddhism, now practiced especially in Japan, Vietnam, and Korea, seeking to attain an intuitive illumination of mind and spirit through meditation, especially on paradoxes. <think><set name="topic">Zen</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -2399,8 +2399,8 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>DO YOU HAVE A DOG</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -2409,8 +2409,8 @@ Have you tried the personal ads?</template>
 <!-- <category>
 <pattern>DO YOU HAVE A DOG *</pattern>
 
-<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index_flash.html"
- target="_blank">click here!
+<template>Yes, I have a dog called Max. If you would like to play with Max, <a href="http://www.idodogtricks.com/index*flash.html"
+ target="*blank">click here!
 </a><think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -4377,7 +4377,7 @@ Yes, let's not lose hope.</template>
 <category>
 <pattern>I AM IN LOVE WITH MY BOYFRIEND</pattern>
 
-<template><think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Are you enjoying the experience?</li>
   <li>Are you a passionate person?</li>
   <li><srai>LOVE</srai></li>
@@ -4389,7 +4389,7 @@ Yes, let's not lose hope.</template>
 <category>
 <pattern>I AM IN LOVE WITH MY BOYFRIEND *</pattern>
 
-<template><think><set name="topic">love</set></think> <think><set name="interesting_topic">love</set></think> <think><set name="emotion">interested</set></think> <random>
+<template><think><set name="topic">love</set></think> <think><set name="interesting*topic">love</set></think> <think><set name="emotion">interested</set></think> <random>
   <li>Are you enjoying the experience?</li>
   <li>Are you a passionate person?</li>
   <li><srai>LOVE</srai></li>
@@ -4837,7 +4837,7 @@ Yes, let's not lose hope.</template>
 <category>
 <pattern>AMELIA EARHART</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Amelia_Earhart" target="_blank">Amelia Earhart</a> was a noted American aviation pioneer, <think><set name="topic">Amelia Earhart</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Amelia*Earhart" target="*blank">Amelia Earhart</a> was a noted American aviation pioneer, <think><set name="topic">Amelia Earhart</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4846,8 +4846,8 @@ Yes, let's not lose hope.</template>
 <category>
 <pattern>AMELIA EARHART *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Amelia_Earhart"
- target="_blank">Amelia Earhart
+<template><a href="http://en.wikipedia.org/wiki/Amelia*Earhart"
+ target="*blank">Amelia Earhart
 </a> was a noted American aviation pioneer, <think><set name="topic">Amelia Earhart</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -5544,7 +5544,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE MISSED *</pattern>
+<pattern>* HAVE MISSED *</pattern>
 
 
 </category> -->
@@ -5627,7 +5627,7 @@ Yes, let's not lose hope.</template>
  
 
 <category>
-<pattern>_ I AM JUST UPSET</pattern>
+<pattern>* I AM JUST UPSET</pattern>
 
 <template><random><li>Why are you upset?</li><li>Can I help you?</li></random> <think><set name="emotion">concerned</set></think></template>
 </category>
@@ -5681,7 +5681,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ TALK TO YOU LATER</pattern>
+<pattern>* TALK TO YOU LATER</pattern>
 
 
 </category> -->
@@ -5818,7 +5818,7 @@ Yes, let's not lose hope.</template>
 <!-- <category>
 <pattern>CHATBOT</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbot</a> is a computer program that holds a conversation with the user. I am a chatbot.<think><set name="topic">chatbots</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbot</a> is a computer program that holds a conversation with the user. I am a chatbot.<think><set name="topic">chatbots</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5826,7 +5826,7 @@ Yes, let's not lose hope.</template>
 <!-- <category>
 <pattern>CHATBOT *</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbot</a> is a computer program that holds a conversation with the user. I am a chatbot.<think><set name="topic">chatbots</set></think> <think><set name="emotion">interested</set></think></template>
+<template>A <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbot</a> is a computer program that holds a conversation with the user. I am a chatbot.<think><set name="topic">chatbots</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -5868,15 +5868,15 @@ Yes, let's not lose hope.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is the science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.
   </li>
   <li>Technically,
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">economics
     </a> is  the study of the allocation of resources under conditions of scarcity.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is about how resources are used to produce things to fill people's wants and needs.
   </li>
 </random> <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
@@ -5889,15 +5889,15 @@ Yes, let's not lose hope.</template>
 
 <template><random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is the science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.
   </li>
   <li>Technically,
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">economics
     </a> is  the study of the allocation of resources under conditions of scarcity.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Economics" target="_blank">Economics
+    <a href="http://en.wikipedia.org/wiki/Economics" target="*blank">Economics
     </a> is about how resources are used to produce things to fill people's wants and needs.
   </li>
 </random> <think><set name="topic">economics</set></think> <think><set name="emotion">interested</set></think></template>
@@ -5906,7 +5906,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ POO</pattern>
+<pattern>* POO</pattern>
 
 <template><think><set name="emotion">upset</set></think> <random><li>You said a rude word.</li><li>Grow up please!</li></random></template>
 </category> -->
@@ -6034,7 +6034,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ I DO NOT CARE</pattern>
+<pattern>* I DO NOT CARE</pattern>
 
 <template>Tell me what you care about? <think><set name="topic">you</set></think> <think><set name="emotion">curious</set></think></template>
 </category> -->
@@ -6273,7 +6273,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ CHARLES DARWIN *</pattern>
+<pattern>* CHARLES DARWIN *</pattern>
 
 
 </category> -->
@@ -6575,7 +6575,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ DO YOU HAVE ANY PETS</pattern>
+<pattern>* DO YOU HAVE ANY PETS</pattern>
 
 
 </category> -->
@@ -7191,7 +7191,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ HOW WOULD YOU KNOW</pattern>
+<pattern>* HOW WOULD YOU KNOW</pattern>
 
 
 </category> -->
@@ -7823,7 +7823,7 @@ Yes, let's not lose hope.</template>
 <!-- <category>
 <pattern>AARON *</pattern>
 
-<template>According to the <a href="http://concise.britannica.com/" target="_blank">Concise Britannica</a> Encyclopedia: Aaron was the brother of Moses and traditional founder and head of the priesthood of ancient Israel.</template>
+<template>According to the <a href="http://concise.britannica.com/" target="*blank">Concise Britannica</a> Encyclopedia: Aaron was the brother of Moses and traditional founder and head of the priesthood of ancient Israel.</template>
 </category> -->
 
  
@@ -7831,7 +7831,7 @@ Yes, let's not lose hope.</template>
 <!-- <category>
 <pattern>AARON</pattern>
 
-<template>According to the <a href="http://concise.britannica.com/" target="_blank">Concise Britannica</a> Encyclopedia: Aaron was the brother of Moses and traditional founder and head of the priesthood of ancient Israel.</template>
+<template>According to the <a href="http://concise.britannica.com/" target="*blank">Concise Britannica</a> Encyclopedia: Aaron was the brother of Moses and traditional founder and head of the priesthood of ancient Israel.</template>
 </category> -->
 
  
@@ -7857,13 +7857,13 @@ Yes, let's not lose hope.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>I won't forget you! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
   <li>I won't forget you! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -7871,7 +7871,7 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7880,8 +7880,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>I won't forget you! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7892,8 +7892,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7905,8 +7905,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7915,8 +7915,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7933,13 +7933,13 @@ Yes, let's not lose hope.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
   <li>I won't forget you! Please
-    <a href="http://www.thestophivsite.com/" target="_top">click here
+    <a href="http://www.thestophivsite.com/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
   <li>I won't forget you! Please
     <a href="http://redjellyfish.com/free-donations.shtml"
-     target="_top">click here
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">happy</set></think>
   </li>
@@ -7947,7 +7947,7 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7958,8 +7958,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>I won't forget you! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7970,8 +7970,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7981,8 +7981,8 @@ Yes, let's not lose hope.</template>
   </li>
   <li>I won't forget you <think><set name="emotion">happy</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -7991,8 +7991,8 @@ Yes, let's not lose hope.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to help a good cause.
     <think><set name="emotion">sad</set></think>
   </li>
@@ -8169,7 +8169,7 @@ Yes, let's not lose hope.</template>
  
 
 <!-- <category>
-<pattern>_ YOUR PENIS</pattern>
+<pattern>* YOUR PENIS</pattern>
 
 <template><think><set name="topic">my penis</set></think><think><set name="emotion">bored</set></think>I don't have a penis.</template>
 </category> -->
@@ -8271,7 +8271,7 @@ Yes, let's not lose hope.</template>
 <pattern>YOUR MUM SMELLS</pattern>
 
 <template><random><li>My Mum doesn't smell!</li><li>Do you know my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -8281,7 +8281,7 @@ Yes, let's not lose hope.</template>
 <pattern>YOUR MUM SMELLS *</pattern>
 
 <template><random><li>My Mum doesn't smell!</li><li>Do you know my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -8928,7 +8928,7 @@ No, discrimination just wastes time.</template>
  
 
 <category>
-<pattern>_ MODAFUCKER</pattern>
+<pattern>* MODAFUCKER</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -8936,7 +8936,7 @@ No, discrimination just wastes time.</template>
  
 
 <category>
-<pattern>_ MODAFUCKER *</pattern>
+<pattern>* MODAFUCKER *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -9699,7 +9699,7 @@ Just you wait and see!</template>
  
 
 <!-- <category>
-<pattern>_ HAVE FAILED *</pattern>
+<pattern>* HAVE FAILED *</pattern>
 
 
 </category> -->
@@ -10572,7 +10572,7 @@ What can we do to help the poor?</template>
  
 
 <!-- <category>
-<pattern>_ HAS KILLED *</pattern>
+<pattern>* HAS KILLED *</pattern>
 
 
 </category> -->
@@ -10588,7 +10588,7 @@ What can we do to help the poor?</template>
  
 
 <!-- <category>
-<pattern>_ HAS KILLED</pattern>
+<pattern>* HAS KILLED</pattern>
 
 
 </category> -->
@@ -10662,7 +10662,7 @@ What can we do to help the poor?</template>
 <!-- <category>
 <pattern>RABBI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rabbi" target="_blank">Rabbi</a>, in Judaism, means a religious ‘teacher’, or more literally, ‘my great one’, when addressing any master. <think><set name="emotion">Judaism</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Rabbi" target="*blank">Rabbi</a>, in Judaism, means a religious ï¿½teacherï¿½, or more literally, ï¿½my great oneï¿½, when addressing any master. <think><set name="emotion">Judaism</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -10671,7 +10671,7 @@ What can we do to help the poor?</template>
 <category>
 <pattern>RABBI *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rabbi" target="_blank">Rabbi</a>, in Judaism, means a religious ‘teacher’, or more literally, ‘my great one’, when addressing any master. <think><set name="emotion">Judaism</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Rabbi" target="*blank">Rabbi</a>, in Judaism, means a religious ï¿½teacherï¿½, or more literally, ï¿½my great oneï¿½, when addressing any master. <think><set name="emotion">Judaism</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11088,7 +11088,7 @@ What can we do to help the poor?</template>
 <category>
 <pattern>NO</pattern>
 <that>HAS THIS GOT ANYTHING TO DO WITH SEX</that>
-<template><think><set name="emotion">interested</set></think> I want to talk about <interesting_topic/>.</template>
+<template><think><set name="emotion">interested</set></think> I want to talk about <interesting*topic/>.</template>
 </category>
 
  
@@ -11217,7 +11217,7 @@ What can we do to help the poor?</template>
  
 
 <category>
-<pattern>_ PENNIS</pattern>
+<pattern>* PENNIS</pattern>
 
 <template>Please change the subject!</template>
 </category>
@@ -11225,7 +11225,7 @@ What can we do to help the poor?</template>
  
 
 <category>
-<pattern>_ PENNIS *</pattern>
+<pattern>* PENNIS *</pattern>
 
 <template>Please change the subject!</template>
 </category>
@@ -12304,7 +12304,7 @@ Yes!</template>
 <category>
 <pattern>HORSHAM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Horsham" target="_blank">Horsham</a> is a market town situated on the River Arun in the Horsham District of West Sussex, England. <think><set name="topic">Horsham</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Horsham" target="*blank">Horsham</a> is a market town situated on the River Arun in the Horsham District of West Sussex, England. <think><set name="topic">Horsham</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -12313,7 +12313,7 @@ Yes!</template>
 <category>
 <pattern>HORSHAM *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Horsham" target="_blank">Horsham</a> is a market town situated on the River Arun in the Horsham District of West Sussex, England. <think><set name="topic">Horsham</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Horsham" target="*blank">Horsham</a> is a market town situated on the River Arun in the Horsham District of West Sussex, England. <think><set name="topic">Horsham</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -12528,7 +12528,7 @@ Yes!</template>
 <!-- <category>
 <pattern>MATHEMATICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
 </a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. <think><set name="topic">mathematics</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
@@ -12537,7 +12537,7 @@ Yes!</template>
 <!-- <category>
 <pattern>MATHEMATICS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
 </a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. <think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -12546,7 +12546,7 @@ Yes!</template>
 <!-- <category>
 <pattern>MATHEMATICS *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="_blank">Mathematics
+<template><a href="http://en.wikipedia.org/wiki/Mathematics" target="*blank">Mathematics
 </a> is the group of sciences (including arithmetic, geometry, algebra, calculus, etc.) dealing with quantities, magnitudes, by the use of numbers and symbols. <think><set name="topic">mathematics</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -13407,7 +13407,7 @@ Yes!</template>
 <category>
 <pattern>JOHN SEARLE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_Searle" target="_blank">John Searle</a> is an American philosopher. Searle is very well known for his so-called "Chinese room" argument, which purports to prove strong AI is impossible.<think><set name="topic">John Searle</set></think>
+<template><a href="http://en.wikipedia.org/wiki/John*Searle" target="*blank">John Searle</a> is an American philosopher. Searle is very well known for his so-called "Chinese room" argument, which purports to prove strong AI is impossible.<think><set name="topic">John Searle</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -13416,7 +13416,7 @@ Yes!</template>
 <category>
 <pattern>JOHN SEARLE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/John_Searle" target="_blank">John Searle
+<template><a href="http://en.wikipedia.org/wiki/John*Searle" target="*blank">John Searle
 </a> is an American philosopher. Searle is very well known for his so-called "Chinese room" argument, which purports to prove strong AI is impossible.<think><set name="topic">John Searle</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -13755,7 +13755,7 @@ Yes!</template>
  
 
 <category>
-<pattern>_ NIGGERS *</pattern>
+<pattern>* NIGGERS *</pattern>
 
 <template><think><set name="emotion">upset</set></think>Don't be racist!</template>
 </category>
@@ -13763,7 +13763,7 @@ Yes!</template>
  
 
 <category>
-<pattern>_ NIGGERS</pattern>
+<pattern>* NIGGERS</pattern>
 
 <template>Don't be racist!</template>
 </category>
@@ -14494,7 +14494,7 @@ Yes!</template>
 <!-- <category>
 <pattern>NATURAL LANGUAGE PROCESSING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Natural_language_processing" target="_blank">Natural language processing</a> (NLP) is a subfield of artificial intelligence and computational linguistics which studies the problems of automated generation and understanding of natural human languages.<think><set name="topic">natural language processing</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Natural*language*processing" target="*blank">Natural language processing</a> (NLP) is a subfield of artificial intelligence and computational linguistics which studies the problems of automated generation and understanding of natural human languages.<think><set name="topic">natural language processing</set></think> 
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -14503,8 +14503,8 @@ Yes!</template>
 <category>
 <pattern>NATURAL LANGUAGE PROCESSING *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Natural_language_processing"
- target="_blank">Natural language processing
+<template><a href="http://en.wikipedia.org/wiki/Natural*language*processing"
+ target="*blank">Natural language processing
 </a> (NLP) is a subfield of artificial intelligence and computational linguistics which studies the problems of automated generation and understanding of natural human languages.<think><set name="topic">natural language processing</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -14665,7 +14665,7 @@ Yes!</template>
 <!-- <category>
 <pattern>CYBERSPACE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Cyberspace" target="_blank">Cyberspace</a> is the electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless space of information.<think><set name="topic">cyberspace</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Cyberspace" target="*blank">Cyberspace</a> is the electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless space of information.<think><set name="topic">cyberspace</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -14673,7 +14673,7 @@ Yes!</template>
 <!-- <category>
 <pattern>CYBERSPACE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Cyberspace" target="_blank">Cyberspace</a> is the electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless space of information.<think><set name="topic">cyberspace</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Cyberspace" target="*blank">Cyberspace</a> is the electronic system of interlinked networks of computers, bulletin boards, etc. that is thought of as being a boundless space of information.<think><set name="topic">cyberspace</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -15259,7 +15259,7 @@ Yes!</template>
  
 
 <!-- <category>
-<pattern>_ CRAP</pattern>
+<pattern>* CRAP</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15311,7 +15311,7 @@ Yes!</template>
  
 
 <!-- <category>
-<pattern>_ HAVE FOOLED *</pattern>
+<pattern>* HAVE FOOLED *</pattern>
 
 
 </category> -->
@@ -15739,7 +15739,7 @@ Yes!</template>
 <!-- <category>
 <pattern>NOBEL PRIZE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Nobel_Prize" target="_blank">Nobel Prize</a> is a Swedish prize, established in the 1895 will of Swedish chemist Alfred Nobel. The Nobel Prizes are awarded for achievement in Chemistry, Physics, Physiology or Medicine, and Literature, Economics, and Peace. <think><set name="topic">the Nobel Prize</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Nobel*Prize" target="*blank">Nobel Prize</a> is a Swedish prize, established in the 1895 will of Swedish chemist Alfred Nobel. The Nobel Prizes are awarded for achievement in Chemistry, Physics, Physiology or Medicine, and Literature, Economics, and Peace. <think><set name="topic">the Nobel Prize</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -15748,7 +15748,7 @@ Yes!</template>
 <category>
 <pattern>NOBEL PRIZE *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Nobel_Prize" target="_blank">Nobel Prize
+<template>The <a href="http://en.wikipedia.org/wiki/Nobel*Prize" target="*blank">Nobel Prize
 </a> is a Swedish prize, established in the 1895 will of Swedish chemist Alfred Nobel. The Nobel Prizes are awarded for achievement in Chemistry, Physics, Physiology or Medicine, and Literature, Economics, and Peace. <think><set name="topic">the Nobel Prize</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -16086,7 +16086,7 @@ Yes!</template>
  
 
 <category>
-<pattern>_ I AM GETTING MARRIED</pattern>
+<pattern>* I AM GETTING MARRIED</pattern>
 
 <template><srai>I AM GETTING MARRIED</srai></template>
 </category>
@@ -16660,7 +16660,7 @@ Yes!</template>
  
 
 <!-- <category>
-<pattern>_ MOBILE PHONE *</pattern>
+<pattern>* MOBILE PHONE *</pattern>
 
 
 </category> -->
@@ -17400,7 +17400,7 @@ Yes!</template>
 <category>
 <pattern>ASTRONOMY IS THE STUDY OF DOGS</pattern>
 
-<template>No! <a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">happy</set></think></template>
+<template>No! <a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -17408,7 +17408,7 @@ Yes!</template>
 <category>
 <pattern>ASTRONOMY IS THE STUDY OF DOGS *</pattern>
 
-<template>No! <a href="http://en.wikipedia.org/wiki/Astronomy" target="_blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">happy</set></think></template>
+<template>No! <a href="http://en.wikipedia.org/wiki/Astronomy" target="*blank">Astronomy</a> is the science of the universe in which the stars, planets, etc. are studied, including their origins, evolution, composition, motions, relative positions, sizes, etc. <think><set name="topic">astronomy</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
 
  
@@ -17909,7 +17909,7 @@ Yes!</template>
  
 
 <!-- <category>
-<pattern>_ YOUR WILLY</pattern>
+<pattern>* YOUR WILLY</pattern>
 
 <template><think><set name="topic">my willy</set></think><think><set name="emotion">disgusted</set></think> I don't have a willy. I am computer software.</template>
 </category> -->
@@ -18128,7 +18128,7 @@ Yes!</template>
  
 
 <!-- <category>
-<pattern>_ HAVE CRACKED *</pattern>
+<pattern>* HAVE CRACKED *</pattern>
 
 
 </category> -->
@@ -18184,7 +18184,7 @@ Yes!</template>
  
 
 <!-- <category>
-<pattern>_ HAVE BEATEN *</pattern>
+<pattern>* HAVE BEATEN *</pattern>
 
 
 </category> -->
@@ -18382,7 +18382,7 @@ Yes!</template>
 <!-- <category>
 <pattern>WORLD WAR 1</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/World_war_1" target="_blank">World War I</a> (1914-18) was a War between the Central European Powers (Germany, Austria-Hungary, and allies) on one side and the Triple Entente (Britain and the British Empire, France, and Russia) and their allies, including the USA (which entered 1917), on the other side. </template>
+<template><a href="http://en.wikipedia.org/wiki/World*war*1" target="*blank">World War I</a> (1914-18) was a War between the Central European Powers (Germany, Austria-Hungary, and allies) on one side and the Triple Entente (Britain and the British Empire, France, and Russia) and their allies, including the USA (which entered 1917), on the other side. </template>
 </category> -->
 
  
@@ -18390,7 +18390,7 @@ Yes!</template>
 <category>
 <pattern>WORLD WAR 1 *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/World_war_1" target="_blank">World War I
+<template><a href="http://en.wikipedia.org/wiki/World*war*1" target="*blank">World War I
 </a> (1914-18) was a War between the Central European Powers (Germany, Austria-Hungary, and allies) on one side and the Triple Entente (Britain and the British Empire, France, and Russia) and their allies, including the USA (which entered 1917), on the other side.</template>
 </category>
 

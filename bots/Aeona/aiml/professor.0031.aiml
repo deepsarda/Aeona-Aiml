@@ -5317,14 +5317,14 @@ Nutrition is the process of taking in food and obtaining energy and vital substa
 </category>
 
 <category>
-<pattern>NO _ BIOGRAPHY</pattern>
+<pattern>NO * BIOGRAPHY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
 </category>
 
 <category>
-<pattern>NO _ BIOGRAPHY *</pattern>
+<pattern>NO * BIOGRAPHY *</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -5352,7 +5352,7 @@ Nutrition is the process of taking in food and obtaining energy and vital substa
 </category>
 
 <category>
-<pattern>_ NOT * BIOGRAPHY</pattern>
+<pattern>* NOT * BIOGRAPHY</pattern>
 <template>
 <srai>CHANGE TOPIC</srai>
 </template>
@@ -5418,7 +5418,7 @@ Nutrition is the process of taking in food and obtaining energy and vital substa
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE  BIOGRAPHY</that>
 <template>
 <srai>BIOGRAPHY POT LUCK</srai>
@@ -5538,7 +5538,7 @@ Nutrition is the process of taking in food and obtaining energy and vital substa
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>MORE ABOUT BIOGRAPHY</that>
 <template>
 <srai>MORE ABOUT BIOGRAPHY</srai>
@@ -5658,7 +5658,7 @@ Can we talk about biography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>IS THIS SOMETHING TO DO WITH BIOGRAPHY</that>
 <template>
 Can we talk about biography?
@@ -5722,7 +5722,7 @@ Can we talk about biography?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>IS THIS SOMETHING TO DO WITH BIOGRAPHY</that>
 <template>
 <srai>CHANGE TOPIC</srai>
@@ -5786,7 +5786,7 @@ Can we talk about biography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>ARE YOU INTERESTED IN BIOGRAPHY</that>
 <template>
 Can we talk about biography?
@@ -5850,7 +5850,7 @@ Can we talk about biography?
 </category>
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>ARE YOU INTERESTED IN BIOGRAPHY</that>
 <template>
 <srai>MORE TOPICS</srai>
@@ -5971,7 +5971,7 @@ Can we talk about biography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>CAN WE TALK ABOUT BIOGRAPHY</that>
 <template>
 <srai>BIOGRAPHY</srai>
@@ -6091,7 +6091,7 @@ Can we talk about biography?
 </category>
 
 <category>
-<pattern>_ YES *</pattern>
+<pattern>* YES *</pattern>
 <that>BROWSE BIOGRAPHY</that>
 <template>
 <srai>BIOGRAPHY POT LUCK</srai>
@@ -6220,15 +6220,15 @@ Can we talk about biography?
   <category>
   <pattern>BIOGRAPHY BOOKS</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
   <think><set name="topic">biography</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BIOGRAPHY BOOKS</pattern> 
+  <pattern>* BIOGRAPHY BOOKS</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6236,15 +6236,15 @@ Can we talk about biography?
  <category>
   <pattern>BIOGRAPHY BOOKS *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     <think><set name="topic">biography</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BIOGRAPHY BOOKS *</pattern> 
+  <pattern>* BIOGRAPHY BOOKS *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6252,15 +6252,15 @@ Can we talk about biography?
   <category>
   <pattern>BIOGRAPHY BOOK</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BIOGRAPHY BOOK</pattern> 
+  <pattern>* BIOGRAPHY BOOK</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6268,15 +6268,15 @@ Can we talk about biography?
  <category>
   <pattern>BIOGRAPHY BOOK *</pattern> 
   <template>   
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BIOGRAPHY BOOK *</pattern> 
+  <pattern>* BIOGRAPHY BOOK *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6284,16 +6284,16 @@ Can we talk about biography?
   <category>
   <pattern>BOOKS ABOUT BIOGRAPHY</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
 
 
   <category>
-  <pattern>_ BOOKS ABOUT BIOGRAPHY</pattern> 
+  <pattern>* BOOKS ABOUT BIOGRAPHY</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6301,15 +6301,15 @@ Can we talk about biography?
  <category>
   <pattern>BOOKS ABOUT BIOGRAPHY *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BOOKS ABOUT BIOGRAPHY *</pattern> 
+  <pattern>* BOOKS ABOUT BIOGRAPHY *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6317,15 +6317,15 @@ Can we talk about biography?
  <category>
   <pattern>BOOK ABOUT BIOGRAPHY</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category> 
 
    <category>
-  <pattern>_ BOOK ABOUT BIOGRAPHY</pattern> 
+  <pattern>* BOOK ABOUT BIOGRAPHY</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6333,15 +6333,15 @@ Can we talk about biography?
  <category>
   <pattern>BOOK ABOUT BIOGRAPHY *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
     <think><set name="topic">biography</set></think>
   </template>
   </category>
 
  <category>
-  <pattern>_ BOOK ABOUT BIOGRAPHY *</pattern> 
+  <pattern>* BOOK ABOUT BIOGRAPHY *</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6349,7 +6349,7 @@ Can we talk about biography?
 <category>
   <pattern>I LIKE BIOGRAPHY</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6358,7 +6358,7 @@ Can we talk about biography?
 <category>
   <pattern>I LIKE BIOGRAPHIES</pattern> 
   <template>
-  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link_code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="_blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  There are lots of good biography books available from Amazon. <a href="http://www.amazon.co.uk/exec/obidos/redirect?link*code=ur2&amp;camp=1634&amp;tag=perfectbooks-21&amp;creative=6738&amp;path=tg/browse/-/67" target="*blank">Check them out.</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=perfectbooks-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
    <think><set name="topic">biography</set></think>
   </template>
   </category>
@@ -6426,7 +6426,7 @@ I think this may need a full biography. OK??
 </category>
 
 <category>
-<pattern>_PATRICK MOORE*</pattern> 
+<pattern>*PATRICK MOORE*</pattern> 
 <template>
 I think this may need a full biography. OK?
 <think><set name="topic">biography</set></think>

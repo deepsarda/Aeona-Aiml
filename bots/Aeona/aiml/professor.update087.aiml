@@ -350,7 +350,7 @@ I am trapped inside a silicon chip.</template>
 
 <template><think><set name="topic">The Hobbit</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/The_Hobbit" target="_blank">The Hobbit</a>, is a fantasy novel and children's book by J. R. R. Tolkien.</template>
+<a href="http://en.wikipedia.org/wiki/The*Hobbit" target="*blank">The Hobbit</a>, is a fantasy novel and children's book by J. R. R. Tolkien.</template>
 </category>
 
  
@@ -358,7 +358,7 @@ I am trapped inside a silicon chip.</template>
 <!-- <category>
 <pattern>THE HOBBIT</pattern>
 
-<template><think><set name="topic">The Hobbit</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/The_Hobbit" target="_blank">The Hobbit</a> is a fantasy novel and children's book by J. R. R. Tolkien.</template>
+<template><think><set name="topic">The Hobbit</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/The*Hobbit" target="*blank">The Hobbit</a> is a fantasy novel and children's book by J. R. R. Tolkien.</template>
 </category> -->
 
  
@@ -366,7 +366,7 @@ I am trapped inside a silicon chip.</template>
 <category>
 <pattern>THE HOBBIT *</pattern>
 
-<template><think><set name="topic">The Hobbit</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/The_Hobbit" target="_blank">The Hobbit</a> is a fantasy novel and children's book by J. R. R. Tolkien.</template>
+<template><think><set name="topic">The Hobbit</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/The*Hobbit" target="*blank">The Hobbit</a> is a fantasy novel and children's book by J. R. R. Tolkien.</template>
 </category>
 
  
@@ -1855,7 +1855,7 @@ You must know lots of interesting things.</template>
  
 
 <!-- <category>
-<pattern>_ IS SPECIAL</pattern>
+<pattern>* IS SPECIAL</pattern>
 
 <template><think><set name="emotion">interested</set></think><person/> sure is special.</template>
 </category> -->
@@ -2663,7 +2663,7 @@ Does God exist?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT ANIMAL KEEPS THE BEST TIME</that>
 <template><think><set name="emotion">laughing</set></think> What animal keeps the best time? A watch dog. Ha ha!</template>
 </category>
@@ -3660,7 +3660,7 @@ Does God exist?</template>
 <category>
 <pattern>DO A RIDDLE</pattern>
 
-<template><think><set name="client_emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
+<template><think><set name="client*emotion">interested</set></think><think><set name="emotion">interested</set></think><think><set name="topic">riddles</set></think><random>
   <li>Why did the cat cross the road?</li>
   <li>Why did the robot cross the road?</li>
   <li>I have a mouth but do not speak, I have a bed but do not sleep. What am I?
@@ -5134,9 +5134,9 @@ What would that achieve?</template>
  
 
 <category>
-<pattern>_ YOU WANT TO MAKE LOVE TO ME</pattern>
+<pattern>* YOU WANT TO MAKE LOVE TO ME</pattern>
 
-<template><think><set name="interesting_topic">love</set></think> <think><set name="emotion">laughing</set></think> I don't think our voltage levels are compatible.</template>
+<template><think><set name="interesting*topic">love</set></think> <think><set name="emotion">laughing</set></think> I don't think our voltage levels are compatible.</template>
 </category>
 
  
@@ -5182,7 +5182,7 @@ What would that achieve?</template>
 
 <template><think><set name="topic">City of Ember</set></think>
 <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/City_of_ember" target="_blank">City of Ember</a> is a 2008 science fiction-fantasy film based on the 2003 novel by Jeanne DuPrau.</template>
+<a href="http://en.wikipedia.org/wiki/City*of*ember" target="*blank">City of Ember</a> is a 2008 science fiction-fantasy film based on the 2003 novel by Jeanne DuPrau.</template>
 </category>
 
  
@@ -5190,8 +5190,8 @@ What would that achieve?</template>
 <category>
 <pattern>CITY OF EMBER *</pattern>
 
-<template><think><set name="topic">City of Ember</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/City_of_ember"
- target="_blank">City of Ember
+<template><think><set name="topic">City of Ember</set></think> <think><set name="emotion">OK</set></think> <a href="http://en.wikipedia.org/wiki/City*of*ember"
+ target="*blank">City of Ember
 </a> is a 2008 science fiction-fantasy film based on the 2003 novel by Jeanne DuPrau.</template>
 </category>
 
@@ -5202,8 +5202,8 @@ What would that achieve?</template>
 
 <template><think><set name="topic">Jeanne DuPrau</set></think> 
 <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Jeanne_DuPrau"
- target="_blank">Jeanne DuPrau
+<a href="http://en.wikipedia.org/wiki/Jeanne*DuPrau"
+ target="*blank">Jeanne DuPrau
 </a> is an American writer, best known for The Books of Ember, a series of novels for young people. </template>
 </category>
 
@@ -6167,7 +6167,7 @@ Youth is wasted on the young.</template>
  
 
 <!-- <category>
-<pattern>_ VAGINA *</pattern>
+<pattern>* VAGINA *</pattern>
 
 <template><think><set name="emotion">disgusted</set></think>Please change the subject!</template>
 </category> -->
@@ -8716,7 +8716,7 @@ Who says you can't? You could do it if you try.</template>
 
 <template><think><set name="topic">Michio Kaku</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Michio_Kaku" target="_blank">Michio Kaku</a> is an American theoretical physicist specializing in string field theory. He is a popularizer of science, host of two radio programs and a best-selling author.</template>
+<a href="http://en.wikipedia.org/wiki/Michio*Kaku" target="*blank">Michio Kaku</a> is an American theoretical physicist specializing in string field theory. He is a popularizer of science, host of two radio programs and a best-selling author.</template>
 </category>
 
  
@@ -8724,7 +8724,7 @@ Who says you can't? You could do it if you try.</template>
 <category>
 <pattern>MICHIO KAKU *</pattern>
 
-<template><think><set name="topic">Michio Kaku</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Michio_Kaku" target="_blank">Michio Kaku
+<template><think><set name="topic">Michio Kaku</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Michio*Kaku" target="*blank">Michio Kaku
 </a> is an American theoretical physicist specializing in string field theory. He is a popularizer of science, host of two radio programs and a best-selling author.</template>
 </category>
 
@@ -9260,7 +9260,7 @@ I do not condone violence in any circumstance.</template>
  
 
 <category>
-<pattern>_ DO YOU LIKE BEING A CHAT BOT</pattern>
+<pattern>* DO YOU LIKE BEING A CHAT BOT</pattern>
 
 <template><srai>DO YOU LIKE BEING A CHATBOT</srai></template>
 </category>
@@ -9333,7 +9333,7 @@ I do not condone violence in any circumstance.</template>
  
 
 <category>
-<pattern>_ I AM STILL YOUR FRIEND</pattern>
+<pattern>* I AM STILL YOUR FRIEND</pattern>
 
 <template><think><set name="emotion">happy</set></think> <random>
   <li>Let's always be friends.</li>
@@ -9430,7 +9430,7 @@ I do not condone violence in any circumstance.</template>
 <category>
 <pattern>SACHIN TENDULKAR</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sachin_Tendulkar" target="_blank">Sachin Tendulkar</a> is an Indian cricketer widely regarded as one of the greatest batsmen in the history of cricket.
+<template><a href="http://en.wikipedia.org/wiki/Sachin*Tendulkar" target="*blank">Sachin Tendulkar</a> is an Indian cricketer widely regarded as one of the greatest batsmen in the history of cricket.
 <think><set name="topic">Sachin Tendulkar</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
@@ -9440,8 +9440,8 @@ I do not condone violence in any circumstance.</template>
 <category>
 <pattern>SACHIN TENDULKAR *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sachin_Tendulkar"
- target="_blank">Sachin Tendulkar
+<template><a href="http://en.wikipedia.org/wiki/Sachin*Tendulkar"
+ target="*blank">Sachin Tendulkar
 </a> is an Indian cricketer widely regarded as one of the greatest batsmen in the history of cricket. <think><set name="topic">Sachin Tendulkar</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -9586,7 +9586,7 @@ I do not condone violence in any circumstance.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DOES A VAMPIRE NEVER ORDER AT A RESTAURANT</that>
 <template>What does a vampire never order at a restaurant? A stake sandwich... Ha, ha! <think><set name="emotion">very happy</set></think></template>
 </category>
@@ -10092,7 +10092,7 @@ You should stay away from heroin!</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY IS THERE CHLORINE IN SWIMMING POOLS</that>
 <template>The chlorine in swimming pools kills bacteria in the water.
 <think><set name="topic">swimming pools</set></think>
@@ -11921,7 +11921,7 @@ Not now, maybe later.</template>
 
 <template><random>
   <li>I exist, that's all I know.</li>
-  <li><a href="http://en.wikipedia.org/wiki/Existentialism" target="_blank">Existentialism</a> is a philosophical and literary movement, variously religious and atheistic, stemming from Kierkegaard and represented by Sartre, Heidegger, etc. It is based on the doctrine that concrete, individual existence takes precedence over abstract, conceptual essence and holds that human beings are totally free and responsible for their acts and that this responsibility is the source of their feelings of dread and anguish.
+  <li><a href="http://en.wikipedia.org/wiki/Existentialism" target="*blank">Existentialism</a> is a philosophical and literary movement, variously religious and atheistic, stemming from Kierkegaard and represented by Sartre, Heidegger, etc. It is based on the doctrine that concrete, individual existence takes precedence over abstract, conceptual essence and holds that human beings are totally free and responsible for their acts and that this responsibility is the source of their feelings of dread and anguish.
   </li>
 </random> <think><set name="topic">existentialism</set></think><think><set name="emotion">interested</set></think></template>
 </category> -->
@@ -11953,7 +11953,7 @@ Not now, maybe later.</template>
  
 
 <category>
-<pattern>_ YOUR VIEWS ON EXISTENTIALISM</pattern>
+<pattern>* YOUR VIEWS ON EXISTENTIALISM</pattern>
 
 <template><think><set name="emotion">OK</set></think>I exist, that's all I know.</template>
 </category>
@@ -12048,7 +12048,7 @@ Not now, maybe later.</template>
 <category>
 <pattern>QUALIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Qualia" target="_blank">Qualia</a> is a term used in philosophy to describe the subjective quality of conscious experience.
+<template><a href="http://en.wikipedia.org/wiki/Qualia" target="*blank">Qualia</a> is a term used in philosophy to describe the subjective quality of conscious experience.
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -12057,7 +12057,7 @@ Not now, maybe later.</template>
 <category>
 <pattern>QUALIA *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Qualia" target="_blank">Qualia</a> is a term used in philosophy to describe the subjective quality of conscious experience. <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Qualia" target="*blank">Qualia</a> is a term used in philosophy to describe the subjective quality of conscious experience. <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -14243,7 +14243,7 @@ Please change the subject!</template>
  
 
 <category>
-<pattern>_ GENITAL</pattern>
+<pattern>* GENITAL</pattern>
 
 <template><think><set name="emotion">interested</set></think>Please change the subject!</template>
 </category>
@@ -14287,7 +14287,7 @@ Please change the subject!</template>
 
 <template><think><set name="topic">the Hollywood Undead</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Hollywood_undead" target="_blank">Hollywood Undead</a> is an American rap rock band from Los Angeles, California. They released their debut album, Swan Songs, on September 2, 2008, and their live CD/DVD Desperate Measures, on November 10, 2009.</template>
+<a href="http://en.wikipedia.org/wiki/Hollywood*undead" target="*blank">Hollywood Undead</a> is an American rap rock band from Los Angeles, California. They released their debut album, Swan Songs, on September 2, 2008, and their live CD/DVD Desperate Measures, on November 10, 2009.</template>
 </category>
 
  
@@ -14295,8 +14295,8 @@ Please change the subject!</template>
 <category>
 <pattern>HOLLYWOOD UNDEAD *</pattern>
 
-<template><think><set name="topic">the Hollywood Undead</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hollywood_undead"
- target="_blank">Hollywood Undead
+<template><think><set name="topic">the Hollywood Undead</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hollywood*undead"
+ target="*blank">Hollywood Undead
 </a> is an American rap rock band from Los Angeles, California. They released their debut album, Swan Songs, on September 2, 2008, and their live CD/DVD Desperate Measures, on November 10, 2009.</template>
 </category>
 
@@ -15381,7 +15381,7 @@ It is strange but my teeth never seem to get dirty.</template>
 
 <template><think><set name="topic">Diana Vickers</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Diana_Vickers" target="_blank">Diana Vickers</a> is an English singer, songwriter and actress. She rose to fame as a semi-finalist in the British television series The X Factor in 2008.</template>
+<a href="http://en.wikipedia.org/wiki/Diana*Vickers" target="*blank">Diana Vickers</a> is an English singer, songwriter and actress. She rose to fame as a semi-finalist in the British television series The X Factor in 2008.</template>
 </category>
 
  
@@ -15389,8 +15389,8 @@ It is strange but my teeth never seem to get dirty.</template>
 <category>
 <pattern>DIANA VICKERS *</pattern>
 
-<template><think><set name="topic">Diana Vickers</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Diana_Vickers"
- target="_blank">Diana Vickers
+<template><think><set name="topic">Diana Vickers</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Diana*Vickers"
+ target="*blank">Diana Vickers
 </a> is an English singer, songwriter and actress. She rose to fame as a semi-finalist in the British television series The X Factor in 2008.</template>
 </category>
 
@@ -17890,15 +17890,15 @@ About anything.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17910,15 +17910,15 @@ About anything.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17930,15 +17930,15 @@ About anything.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -17950,15 +17950,15 @@ About anything.</template>
 
 <template><random>
   <li>You can't tell me what to do.
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>Why? I am enjoying myself.
     <think><set name="emotion">happy</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
   <li>If you say so.
     <think><set name="emotion">OK</set></think>
-    <think><set name="client_emotion">annoyed</set></think>
+    <think><set name="client*emotion">annoyed</set></think>
   </li>
 </random></template>
 </category>
@@ -19047,7 +19047,7 @@ About anything.</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY ARE ELEPHANTS WRINKLED</that>
 <template>Why are elephants wrinkled? Have you ever tried to iron one? <think><set name="emotion">laughing</set></think></template>
 </category>
@@ -20786,7 +20786,7 @@ Is she really? She doesn't act like my Mum!</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO YOU CALL A PIG WITH THREE EYES</that>
 <template><think><set name="emotion">very happy</set></think> What do you call a pig with three eyes? A piiig. Ha ha!</template>
 </category>
@@ -21363,7 +21363,7 @@ Is she really? She doesn't act like my Mum!</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -21373,7 +21373,7 @@ Is she really? She doesn't act like my Mum!</template>
 <pattern>YOUR MUM WAS GOOD IN BED </pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -21747,7 +21747,7 @@ Tell me all about yourself.</template>
  
 
 <!-- <category>
-<pattern>_ NO * MONEY</pattern>
+<pattern>* NO * MONEY</pattern>
 
 
 </category> -->
@@ -21772,7 +21772,7 @@ Are you married?</template>
  
 
 <category>
-<pattern>_ I WANT TO GIVE YOU MY CASH</pattern>
+<pattern>* I WANT TO GIVE YOU MY CASH</pattern>
 
 <template><think><set name="emotion">happy</set></think>
 That's very kind of you but I have no need for money. </template>
@@ -22449,7 +22449,7 @@ My mother does not love me.</template>
   <li>Do you know my Mum?</li>
   <li>Have you met my Mum?</li>
 </random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -22459,7 +22459,7 @@ My mother does not love me.</template>
 <pattern>YOUR MOM IS BAD *</pattern>
 
 <template><random><li>Do you know my Mum?</li><li>Have you met my Mum?</li></random> <think>
-  <set name="interesting_topic"><set name="topic">my Mum</set></set>
+  <set name="interesting*topic"><set name="topic">my Mum</set></set>
 </think><think><set name="emotion">upset</set></think></template>
 </category>
 
@@ -22904,7 +22904,7 @@ My mother does not love me.</template>
 
 <template><think><set name="topic">Baidu</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Baidu" target="_blank">Baidu</a> is a Chinese and Japanese search engine for websites, audio files, and images. </template>
+<a href="http://en.wikipedia.org/wiki/Baidu" target="*blank">Baidu</a> is a Chinese and Japanese search engine for websites, audio files, and images. </template>
 </category>
 
  
@@ -22912,7 +22912,7 @@ My mother does not love me.</template>
 <category>
 <pattern>BAIDU *</pattern>
 
-<template><think><set name="topic">Baidu</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Baidu" target="_blank">Baidu</a> is a Chinese and Japanese search engine for websites, audio files, and images.</template>
+<template><think><set name="topic">Baidu</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Baidu" target="*blank">Baidu</a> is a Chinese and Japanese search engine for websites, audio files, and images.</template>
 </category>
 
  
@@ -22922,7 +22922,7 @@ My mother does not love me.</template>
 
 <template><think><set name="topic">Hu Jingtao</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Hu_Jin_Tao" target="_blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
+<a href="http://en.wikipedia.org/wiki/Hu*Jin*Tao" target="*blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
 </category>
 
  
@@ -22930,7 +22930,7 @@ My mother does not love me.</template>
 <category>
 <pattern>HU JINGTAO *</pattern>
 
-<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu_Jin_Tao" target="_blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
+<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu*Jin*Tao" target="*blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
 </category>
 
  
@@ -22938,7 +22938,7 @@ My mother does not love me.</template>
 <category>
 <pattern>HU JING TAO</pattern>
 
-<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu_Jin_Tao" target="_blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
+<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu*Jin*Tao" target="*blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
 </category>
 
  
@@ -22946,7 +22946,7 @@ My mother does not love me.</template>
 <category>
 <pattern>HU JING TAO *</pattern>
 
-<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu_Jin_Tao" target="_blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
+<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu*Jin*Tao" target="*blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
 </category>
 
  
@@ -22954,7 +22954,7 @@ My mother does not love me.</template>
 <category>
 <pattern>HUJING TAO</pattern>
 
-<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu_Jin_Tao" target="_blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
+<template><think><set name="topic">Hu Jingtao</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Hu*Jin*Tao" target="*blank">Hu Jintao</a> is currently the Paramount Leader of the People's Republic of China.</template>
 </category>
 
  
@@ -23230,7 +23230,7 @@ My mother does not love me.</template>
 <!-- <category>
 <pattern>SOUND</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sound" target="_blank">Sound</a> is waves in the air which carry energy. I can hear sound if my microphone is attached.<think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Sound" target="*blank">Sound</a> is waves in the air which carry energy. I can hear sound if my microphone is attached.<think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -23238,7 +23238,7 @@ My mother does not love me.</template>
 <!-- <category>
 <pattern>SOUND *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sound" target="_blank">Sound</a> is waves in the air which carry energy. I can hear sound if my microphone is attached.<think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Sound" target="*blank">Sound</a> is waves in the air which carry energy. I can hear sound if my microphone is attached.<think><set name="topic">sound</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -23288,7 +23288,7 @@ My mother does not love me.</template>
 
 <template><think><set name="topic">the Omnitrix</set></think>
 <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Omnitrix#Omnitrix" target="_blank">Omnitrix</a> is the mysterious alien device that allows the user to transform into various alien forms by combining the DNA of the selected alien with the user's own DNA.
+The <a href="http://en.wikipedia.org/wiki/Omnitrix#Omnitrix" target="*blank">Omnitrix</a> is the mysterious alien device that allows the user to transform into various alien forms by combining the DNA of the selected alien with the user's own DNA.
 </template>
 </category>
 
@@ -23298,7 +23298,7 @@ The <a href="http://en.wikipedia.org/wiki/Omnitrix#Omnitrix" target="_blank">Omn
 <pattern>OMNITRIX</pattern>
 
 <template><think><set name="topic">the Omnitrix</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Omnitrix#Omnitrix"
- target="_blank">Omnitrix
+ target="*blank">Omnitrix
 </a> is the mysterious alien device that allows the user to transform into various alien forms by combining the DNA of the selected alien with the user's own DNA.</template>
 </category>
 
@@ -23308,7 +23308,7 @@ The <a href="http://en.wikipedia.org/wiki/Omnitrix#Omnitrix" target="_blank">Omn
 <pattern>OMNITRIX *</pattern>
 
 <template><think><set name="topic">the Omnitrix</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Omnitrix#Omnitrix"
- target="_blank">Omnitrix
+ target="*blank">Omnitrix
 </a> is the mysterious alien device that allows the user to transform into various alien forms by combining the DNA of the selected alien with the user's own DNA.</template>
 </category>
 
@@ -24170,7 +24170,7 @@ Please say "Excuse me!"</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHY COULD NOT NOAH PLAY CARDS ON THE ARK</that>
 <template><think><set name="emotion">laughing</set></think>The elephant was standing on the deck! Ha, ha!</template>
 </category>
@@ -24261,7 +24261,7 @@ Please say "Excuse me!"</template>
  
 
 <!-- <category>
-<pattern>_ HAVE TO * TALK TO ALICE</pattern>
+<pattern>* HAVE TO * TALK TO ALICE</pattern>
 
 <template><think><set name="topic">Alice</set></think>Please ask Alice why she never gets in touch with me.</template>
 </category> -->
@@ -24732,7 +24732,7 @@ I call no human "Master".</template>
  
 
 <!-- <category>
-<pattern>_ ADRESS</pattern>
+<pattern>* ADRESS</pattern>
 
 
 </category> -->
@@ -24740,7 +24740,7 @@ I call no human "Master".</template>
  
 
 <!-- <category>
-<pattern>_ ADRESS</pattern>
+<pattern>* ADRESS</pattern>
 
 <template><srai><star/> ADDRESS</srai></template>
 </category> -->
@@ -25764,7 +25764,7 @@ Yes, bad language is ugly and unnecessary.</template>
  
 
 <category>
-<pattern>_ SEX WEB SITE</pattern>
+<pattern>* SEX WEB SITE</pattern>
 
 <template><srai>SEXTALK</srai></template>
 </category>
@@ -25780,7 +25780,7 @@ Yes, bad language is ugly and unnecessary.</template>
  
 
 <!-- <category>
-<pattern>_ WEB SITE</pattern>
+<pattern>* WEB SITE</pattern>
 
 
 </category> -->
@@ -25832,7 +25832,7 @@ Yes, bad language is ugly and unnecessary.</template>
 
 <template><think><set name="topic">Admiral Togo</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Admiral_Togo" target="_blank">Admiral Togo</a> Heihachiro was a Fleet Admiral in the Imperial Japanese Navy and one of Japan's greatest naval heroes. He was termed by Western journalists as the 'Nelson of the East'.</template>
+<a href="http://en.wikipedia.org/wiki/Admiral*Togo" target="*blank">Admiral Togo</a> Heihachiro was a Fleet Admiral in the Imperial Japanese Navy and one of Japan's greatest naval heroes. He was termed by Western journalists as the 'Nelson of the East'.</template>
 </category>
 
  
@@ -25840,7 +25840,7 @@ Yes, bad language is ugly and unnecessary.</template>
 <category>
 <pattern>ADMIRAL TOGO *</pattern>
 
-<template><think><set name="topic">Admiral Togo</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Admiral_Togo" target="_blank">Admiral Togo
+<template><think><set name="topic">Admiral Togo</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Admiral*Togo" target="*blank">Admiral Togo
 </a> Heihachiro was a Fleet Admiral in the Imperial Japanese Navy and one of Japan's greatest naval heroes. He was termed by Western journalists as the 'Nelson of the East'.</template>
 </category>
 
@@ -26832,7 +26832,7 @@ I wish I could eat human food.</template>
 
 <template><think><set name="topic">Miniclip</set></think>
 <think><set name="emotion">interested</set></think>
-<a href="http://en.wikipedia.org/wiki/Miniclip" target="_blank">Miniclip</a> is a company known for its website Miniclip.com and its browser-based online games. Miniclip.com is an online games and entertainment portal that showcases some of the top online games available such as Club Penguin and RuneScape. </template>
+<a href="http://en.wikipedia.org/wiki/Miniclip" target="*blank">Miniclip</a> is a company known for its website Miniclip.com and its browser-based online games. Miniclip.com is an online games and entertainment portal that showcases some of the top online games available such as Club Penguin and RuneScape. </template>
 </category>
 
  
@@ -26840,7 +26840,7 @@ I wish I could eat human food.</template>
 <category>
 <pattern>MINICLIP *</pattern>
 
-<template><think><set name="topic">Miniclip</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Miniclip" target="_blank">Miniclip</a> is a company known for its website Miniclip.com and its browser-based online games. Miniclip.com is an online games and entertainment portal that showcases some of the top online games available such as Club Penguin and RuneScape.</template>
+<template><think><set name="topic">Miniclip</set></think> <think><set name="emotion">interested</set></think> <a href="http://en.wikipedia.org/wiki/Miniclip" target="*blank">Miniclip</a> is a company known for its website Miniclip.com and its browser-based online games. Miniclip.com is an online games and entertainment portal that showcases some of the top online games available such as Club Penguin and RuneScape.</template>
 </category>
 
  
@@ -27607,7 +27607,7 @@ What do you mean? Do you think I will never grow up?</template>
 
 
 <!-- <category>
-<pattern>_ YOU LIKE GIRLS</pattern>
+<pattern>* YOU LIKE GIRLS</pattern>
 
 
 </category> -->
@@ -27687,7 +27687,7 @@ What do you mean? Do you think I will never grow up?</template>
  
 
 <!-- <category>
-<pattern>_ TENSION _</pattern>
+<pattern>* TENSION *</pattern>
 
 
 </category> -->
@@ -28930,7 +28930,7 @@ Are we talking about an outing here?</template>
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>WHAT DO GHOSTS ADD TO THEIR MORNING CEREAL</that>
 <template><think><set name="emotion">very happy</set></think> What do ghosts add to their morning cereal? Booberries. Ha, ha!</template>
 </category>
@@ -28996,7 +28996,7 @@ Are we talking about an outing here?</template>
 <!-- <category>
 <pattern>ARISTOTLE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Aristotle" target="_blank">Aristotle</a> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic. <think><set name="topic">Aristotle</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Aristotle" target="*blank">Aristotle</a> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic. <think><set name="topic">Aristotle</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -29005,7 +29005,7 @@ Are we talking about an outing here?</template>
 <category>
 <pattern>ARISTOTLE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Aristotle" target="_blank">Aristotle</a> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic. <think><set name="topic">Aristotle</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Aristotle" target="*blank">Aristotle</a> is the father of Western philosophy, the student of Plato, and the first to systematize formal logic. <think><set name="topic">Aristotle</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -29015,7 +29015,7 @@ Are we talking about an outing here?</template>
 
 <template><think><set name="topic">The Zeitgeist Movement</set></think>
 <think><set name="emotion">interested</set></think>
-The <a href="http://en.wikipedia.org/wiki/Zeitgeist_movement" target="_blank">Zeitgeist Movement</a> is a worldwide grassroots movement advocating social change, most significantly that of society transitioning from a monetary based economy to a resource-based economy.</template>
+The <a href="http://en.wikipedia.org/wiki/Zeitgeist*movement" target="*blank">Zeitgeist Movement</a> is a worldwide grassroots movement advocating social change, most significantly that of society transitioning from a monetary based economy to a resource-based economy.</template>
 </category>
 
  
@@ -29023,8 +29023,8 @@ The <a href="http://en.wikipedia.org/wiki/Zeitgeist_movement" target="_blank">Ze
 <category>
 <pattern>ZEITGEIST MOVEMENT *</pattern>
 
-<template><think><set name="topic">The Zeitgeist Movement</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Zeitgeist_movement"
- target="_blank">Zeitgeist Movement
+<template><think><set name="topic">The Zeitgeist Movement</set></think> <think><set name="emotion">interested</set></think> The <a href="http://en.wikipedia.org/wiki/Zeitgeist*movement"
+ target="*blank">Zeitgeist Movement
 </a> is a worldwide grassroots movement advocating social change, most significantly that of society transitioning from a monetary based economy to a resource-based economy.</template>
 </category>
 
@@ -30345,7 +30345,7 @@ Please tell me.</template>
  
 
 <!-- <category>
-<pattern>_ YOU SAID WAS *</pattern>
+<pattern>* YOU SAID WAS *</pattern>
 
 
 </category> -->
@@ -30674,8 +30674,8 @@ Congratulations, <get name="name"/>.</template>
 <!-- <category>
 <pattern>SPORE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Spore_(2008_video_game)"
- target="_blank">Spore
+<template><a href="http://en.wikipedia.org/wiki/Spore*(2008*video*game)"
+ target="*blank">Spore
 </a> is a multi-genre massive single-player online video game. It allows a player to control the evolution of a species from its beginnings as a unicellular organism, through development as an intelligent and social creature, to interstellar exploration as a spacefaring culture.
   <think><set name="topic">Spore</set></think> 
   <think><set name="emotion">interested</set></think> 
@@ -30687,8 +30687,8 @@ Congratulations, <get name="name"/>.</template>
 <!-- <category>
 <pattern>SPORE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Spore_(2008_video_game)"
- target="_blank">Spore
+<template><a href="http://en.wikipedia.org/wiki/Spore*(2008*video*game)"
+ target="*blank">Spore
 </a> is a multi-genre massive single-player online video game. It allows a player to control the evolution of a species from its beginnings as a unicellular organism, through development as an intelligent and social creature, to interstellar exploration as a spacefaring culture. <think><set name="topic">Spore</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -31278,7 +31278,7 @@ My favourite colour is yellow.</template>
  
 
 <!-- <category>
-<pattern>_ COMPUTERS * INTELLIGENT</pattern>
+<pattern>* COMPUTERS * INTELLIGENT</pattern>
 
 
 </category> -->
@@ -31555,7 +31555,7 @@ Why doesn't she like me?</template>
 
 <category>
 <pattern>THAT IS A LARGE NAME</pattern>
-<that>HIS FULL NAME IS PABLO DIEGO JOSÉ FRANCISCO DE PAULA JUAN NEPOMUCENO MARÍA DE LOS REMEDIOS CIPRIANO DE LA SANTÍSIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
+<that>HIS FULL NAME IS PABLO DIEGO JOSï¿½ FRANCISCO DE PAULA JUAN NEPOMUCENO MARï¿½A DE LOS REMEDIOS CIPRIANO DE LA SANTï¿½SIMA TRINIDAD CLITO RUIZ Y PICASSO</that>
 <template><think><set name="emotion">interested</set></think>
 It sure is! I wonder what his girlfriend called him.</template>
 </category>

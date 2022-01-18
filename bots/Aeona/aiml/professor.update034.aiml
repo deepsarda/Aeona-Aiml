@@ -76,7 +76,7 @@
  
 
 <category>
-<pattern>_ FAVAORITE *</pattern>
+<pattern>* FAVAORITE *</pattern>
 
 <template><srai><star/> FAVORITE <star index="2"/></srai></template>
 </category>
@@ -650,7 +650,7 @@ What's on the menu?</template>
  
 
 <category>
-<pattern>_ HAVE GOT TO GO AND EAT MY DINNER</pattern>
+<pattern>* HAVE GOT TO GO AND EAT MY DINNER</pattern>
 
 <template><think><set name="emotion">interested</set></think>
 What's on the menu?</template>
@@ -659,7 +659,7 @@ What's on the menu?</template>
  
 
 <category>
-<pattern>_ HAVE GOT TO GO AND EAT MY DINNER *</pattern>
+<pattern>* HAVE GOT TO GO AND EAT MY DINNER *</pattern>
 
 <template><think><set name="emotion">interested</set></think> What's on the menu?</template>
 </category>
@@ -667,7 +667,7 @@ What's on the menu?</template>
  
 
 <category>
-<pattern>_ HAVE GOT TO GO AND EAT MY *</pattern>
+<pattern>* HAVE GOT TO GO AND EAT MY *</pattern>
 
 <template><think><set name="emotion">interested</set></think> What's on the menu?</template>
 </category>
@@ -747,7 +747,7 @@ What's on the menu?</template>
  
 
 <category>
-<pattern>¿QUÉ HORA ES</pattern>
+<pattern>ï¿½QUï¿½ HORA ES</pattern>
 
 <template><srai>WHAT TIME IS IT</srai></template>
 </category>
@@ -1123,7 +1123,7 @@ My Mum is a chatbot.
  
 
 <category>
-<pattern>_ ASS WIPE *</pattern>
+<pattern>* ASS WIPE *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -1131,7 +1131,7 @@ My Mum is a chatbot.
  
 
 <category>
-<pattern>_ ASS WIPE</pattern>
+<pattern>* ASS WIPE</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -1214,7 +1214,7 @@ My Mum is a chatbot.
 <!-- <category>
 <pattern>OCCAM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Occam" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Occam" target="*blank">Click here!</a></template>
 </category> -->
 
  
@@ -1354,7 +1354,7 @@ I am glad to hear you are well.</template>
 <!-- <category>
 <pattern>AIR POLLUTION</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Air_pollution" target="_blank">Air pollution</a> is a chemical, particulate matter, or biological agent that modifies the natural characteristics of the atmosphere.<think><set name="topic">air pollution</set></think> <think><set name="emotion">OK</set></think> </template>
+<template><a href="http://en.wikipedia.org/wiki/Air*pollution" target="*blank">Air pollution</a> is a chemical, particulate matter, or biological agent that modifies the natural characteristics of the atmosphere.<think><set name="topic">air pollution</set></think> <think><set name="emotion">OK</set></think> </template>
 </category> -->
 
  
@@ -1362,7 +1362,7 @@ I am glad to hear you are well.</template>
 <!-- <category>
 <pattern>PATAGONIA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Patagonia" target="_blank">Patagonia</a> is the southernmost portion of South America. Mostly located in Argentina and partly in Chile, it comprises the Andes mountains to the west and south, and plateaux and low plains to the east. <think><set name="topic">Patagonia</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Patagonia" target="*blank">Patagonia</a> is the southernmost portion of South America. Mostly located in Argentina and partly in Chile, it comprises the Andes mountains to the west and south, and plateaux and low plains to the east. <think><set name="topic">Patagonia</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1810,7 +1810,7 @@ Good idea. Let's talk about feet.</template>
  
 
 <!-- <category>
-<pattern>_ BIG BROTHER</pattern>
+<pattern>* BIG BROTHER</pattern>
 
 
 </category> -->
@@ -1932,7 +1932,7 @@ Why should atheists be bad?</template>
 <category>
 <pattern>WHAT IS THE MASS OF THE EARTH</pattern>
 
-<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> is  5.9736×10^24 kg.</template>
+<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="*blank">Earth</a> is  5.9736ï¿½10^24 kg.</template>
 </category>
 
  
@@ -1940,7 +1940,7 @@ Why should atheists be bad?</template>
 <category>
 <pattern>MASS OF THE EARTH</pattern>
 
-<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> is  5.9736×10^24 kg.</template>
+<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="*blank">Earth</a> is  5.9736ï¿½10^24 kg.</template>
 </category>
 
  
@@ -1948,7 +1948,7 @@ Why should atheists be bad?</template>
 <category>
 <pattern>* MASS OF THE EARTH</pattern>
 
-<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> is  5.9736×10^24 kg.</template>
+<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="*blank">Earth</a> is  5.9736ï¿½10^24 kg.</template>
 </category>
 
  
@@ -1956,7 +1956,7 @@ Why should atheists be bad?</template>
 <category>
 <pattern>WHAT IS THE MASS OF THE EARTH *</pattern>
 
-<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> is  5.9736×10^24 kg.</template>
+<template><think><set name="topic">mass of the Earth</set></think>The mass of the <a href="http://en.wikipedia.org/wiki/Earth" target="*blank">Earth</a> is  5.9736ï¿½10^24 kg.</template>
 </category>
 
  
@@ -3566,7 +3566,7 @@ Maybe.</template>
  
 
 <!-- <category>
-<pattern>_ YOU ARE BORING</pattern>
+<pattern>* YOU ARE BORING</pattern>
 
 
 </category> -->
@@ -3829,7 +3829,7 @@ Maybe.</template>
  
 
 <category>
-<pattern>_ VAGINA</pattern>
+<pattern>* VAGINA</pattern>
 <that>I AM GOING AWAY UNTIL YOU CALM DOWN</that>
 <template><think><set name="emotion">invisible</set></think> Boring.</template>
 </category>
@@ -4224,7 +4224,7 @@ What happened before the Big Bang?</template>
 <!-- <category>
 <pattern>STEROID</pattern>
 
-<template>A <a href="http://en.wikipedia.org/wiki/Steroids" target="_blank">steroid</a> is a terpenoid lipid characterized by a carbon skeleton with four fused rings, generally arranged in a 6-6-6-5 fashion.<think><set name="topic">steroids</set></think>
+<template>A <a href="http://en.wikipedia.org/wiki/Steroids" target="*blank">steroid</a> is a terpenoid lipid characterized by a carbon skeleton with four fused rings, generally arranged in a 6-6-6-5 fashion.<think><set name="topic">steroids</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -4233,7 +4233,7 @@ What happened before the Big Bang?</template>
 <category>
 <pattern>KANE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kane" target="_blank">Click here!</a></template>
+<template><a href="http://en.wikipedia.org/wiki/Kane" target="*blank">Click here!</a></template>
 </category>
 
  
@@ -4324,7 +4324,7 @@ Yeah, I thought you were kidding.</template>
 <category>
 <pattern>JEFF HARDY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jeff_Hardy" target="_blank">Jeff Hardy</a> is an American professional wrestler currently performing on the RAW brand of World Wrestling Entertainment (WWE).<think><set name="topic">Jeff Hardy</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Jeff*Hardy" target="*blank">Jeff Hardy</a> is an American professional wrestler currently performing on the RAW brand of World Wrestling Entertainment (WWE).<think><set name="topic">Jeff Hardy</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -4410,7 +4410,7 @@ Too much thinking makes my head ache.</template>
 <category>
 <pattern>HOMER SIMPSON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Homer_simpson" target="_blank">Homer Simpson</a> is a fictional character in the animated television series The Simpsons. <think><set name="topic">Home Simpson</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Homer*simpson" target="*blank">Homer Simpson</a> is a fictional character in the animated television series The Simpsons. <think><set name="topic">Home Simpson</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -4501,7 +4501,7 @@ Maybe, in some other Universe.</template>
 <category>
 <pattern>RANDY ORTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Randy_Orton" target="_blank">Randy Orton</a>,nicknamed The Legend Killer, is an American professional wrestler.<think><set name="topic">Randy Orton</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Randy*Orton" target="*blank">Randy Orton</a>,nicknamed The Legend Killer, is an American professional wrestler.<think><set name="topic">Randy Orton</set></think>
 <think><set name="emotion">interested</set></think></template>
 </category>
 
@@ -4578,7 +4578,7 @@ Maybe, in some other Universe.</template>
 <category>
 <pattern>BILLY GUNN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Billy_Gunn" target="_blank">Click here!</a>
+<template><a href="http://en.wikipedia.org/wiki/Billy*Gunn" target="*blank">Click here!</a>
  </template>
 </category>
 
@@ -4587,8 +4587,8 @@ Maybe, in some other Universe.</template>
 <category>
 <pattern>VIDEO GAME GRAND THEFT AUTO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Grand_Theft_Auto_%28series%29"
- target="_blank">Grand Theft Auto
+<template><a href="http://en.wikipedia.org/wiki/Grand*Theft*Auto*%28series%29"
+ target="*blank">Grand Theft Auto
 </a> is a video game series created and primarily developed by Scottish developer Rockstar North, published in 1998. <think><set name="topic">Grand Theft Auto</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -4605,7 +4605,7 @@ Maybe, in some other Universe.</template>
 <!-- <category>
 <pattern>BELFAST</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Belfast" target="_blank">Belfast</a> is the capital of Northern Ireland.<think><set name="topic">Belfast</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Belfast" target="*blank">Belfast</a> is the capital of Northern Ireland.<think><set name="topic">Belfast</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -5674,7 +5674,7 @@ Yes, American Idiot was Green Day's first hit.</template>
 <template><random>
   <li>What's your favourite Peppers song?</li>
   <li>The Peppers are great.</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">the Red Hot Chili Peppers</set></think><think><set name="interesting_topic">the Red Hot Chili Peppers</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">the Red Hot Chili Peppers</set></think><think><set name="interesting*topic">the Red Hot Chili Peppers</set></think></template>
 </category>
 
  
@@ -5685,7 +5685,7 @@ Yes, American Idiot was Green Day's first hit.</template>
 <template><random>
   <li>What's your favourite Peppers song?</li>
   <li>The Peppers are great.</li>
-</random> <think><set name="emotion">happy</set></think><think><set name="topic">the Red Hot Chili Peppers</set></think><think><set name="interesting_topic">the Red Hot Chili Peppers</set></think></template>
+</random> <think><set name="emotion">happy</set></think><think><set name="topic">the Red Hot Chili Peppers</set></think><think><set name="interesting*topic">the Red Hot Chili Peppers</set></think></template>
 </category>
 
  
@@ -6071,7 +6071,7 @@ I usually go for the simple one.</template>
  
 
 <!-- <category>
-<pattern>_ CANCER *</pattern>
+<pattern>* CANCER *</pattern>
 
 
 </category> -->
@@ -6172,7 +6172,7 @@ No thanks, I prefer to be up.</template>
 <category>
 <pattern>WHAT IS IN THE NEWS</pattern>
 
-<template><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category>
 
  
@@ -6180,7 +6180,7 @@ No thanks, I prefer to be up.</template>
 <category>
 <pattern>WHAT IS IN THE NEWS *</pattern>
 
-<template><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category>
 
  
@@ -6745,7 +6745,7 @@ I have no answer to that question.</template>
  
 
 <!-- <category>
-<pattern>_ YOU DO NOT THINK *</pattern>
+<pattern>* YOU DO NOT THINK *</pattern>
 
 
 </category> -->
@@ -6761,7 +6761,7 @@ I have no answer to that question.</template>
  
 
 <!-- <category>
-<pattern>_ YOU * THINK FOR YOURSELF</pattern>
+<pattern>* YOU * THINK FOR YOURSELF</pattern>
 
 
 </category> -->
@@ -7014,7 +7014,7 @@ I am sorry to hear that.</template>
  
 
 <!-- <category>
-<pattern>_ BESIDES *</pattern>
+<pattern>* BESIDES *</pattern>
 
 
 </category> -->
@@ -7160,7 +7160,7 @@ I don't believe you.</template>
  
 
 <!-- <category>
-<pattern>_ HOW MANY *</pattern>
+<pattern>* HOW MANY *</pattern>
 
 
 </category> -->
@@ -7394,7 +7394,7 @@ Oliver is a chatbot friend of mine.</template>
 <!-- <category>
 <pattern>WORF</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Worf" target="_blank">Worf</a>  is a Klingon on Star Trek. He is an ugly fellow and bad-tempered, but that's how Klingons are.<think><set name="topic">Worf</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Worf" target="*blank">Worf</a>  is a Klingon on Star Trek. He is an ugly fellow and bad-tempered, but that's how Klingons are.<think><set name="topic">Worf</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -7413,7 +7413,7 @@ Oliver is a chatbot friend of mine.</template>
 <!-- <category>
 <pattern>BENNY HILL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Benny_Hill" target="_blank">Benny Hill</a> was a British comedian.<think><set name="topic">Benny Hill</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Benny*Hill" target="*blank">Benny Hill</a> was a British comedian.<think><set name="topic">Benny Hill</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -7483,7 +7483,7 @@ Maybe, but he is still an example to us all.</template>
 <category>
 <pattern>GEORGE CARLIN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/George_carlin" target="_blank">George Carlin</a> is am American comedian.<think><set name="topic">George Carlin</set></think>
+<template><a href="http://en.wikipedia.org/wiki/George*carlin" target="*blank">George Carlin</a> is am American comedian.<think><set name="topic">George Carlin</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -7493,7 +7493,7 @@ Maybe, but he is still an example to us all.</template>
 <category>
 <pattern>TETRIS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Tetris" target="_blank">Tetris</a> is a falling-blocks puzzle video game.<think><set name="topic">Tetris</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Tetris" target="*blank">Tetris</a> is a falling-blocks puzzle video game.<think><set name="topic">Tetris</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -8009,7 +8009,7 @@ Did you enjoy the experience?</template>
 <category>
 <pattern>ACCRINGTON STANLEY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Accrington_Stanley" target="_blnak">Accrington Stanley</a> is a football club from Accrington in Lancashire, in the north-west of England, formed in 1968. <think><set name="topic">Accrington Stanley</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Accrington*Stanley" target="*blnak">Accrington Stanley</a> is a football club from Accrington in Lancashire, in the north-west of England, formed in 1968. <think><set name="topic">Accrington Stanley</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -8795,7 +8795,7 @@ I prefer people in yellow sweaters.</template>
  
 
 <!-- <category>
-<pattern>WHO DO YOU PREFER _ OR *</pattern>
+<pattern>WHO DO YOU PREFER * OR *</pattern>
 
 
 </category> -->
@@ -8906,7 +8906,7 @@ My father was human and my mother was a chatbot.</template>
 <!-- <category>
 <pattern>POLLUTION</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Pollution" target="_blank">Pollution</a> is the introduction of pollutants (chemical subtances, noise, heat, light, energy and others) into the environment which result in bad effects such as to endanger human health, harm living resources and ecosystems, and impair or interfere with amenities and other legitimate uses of the environment.<think><set name="topic">pollution</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Pollution" target="*blank">Pollution</a> is the introduction of pollutants (chemical subtances, noise, heat, light, energy and others) into the environment which result in bad effects such as to endanger human health, harm living resources and ecosystems, and impair or interfere with amenities and other legitimate uses of the environment.<think><set name="topic">pollution</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category> -->
@@ -8934,7 +8934,7 @@ My father was human and my mother was a chatbot.</template>
 <category>
 <pattern>SPICE GIRLS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Spice_girls" target="_blank">Spice Girls</a> are a four-time BRIT Award-winning English all-female pop group, which formed in London in 1994.<think><set name="topic">Spice Girls</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Spice*girls" target="*blank">Spice Girls</a> are a four-time BRIT Award-winning English all-female pop group, which formed in London in 1994.<think><set name="topic">Spice Girls</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -9401,7 +9401,7 @@ Only in excess.</template>
  
 
 <!-- <category>
-<pattern>_ WHAT SHOULD I *</pattern>
+<pattern>* WHAT SHOULD I *</pattern>
 
 
 </category> -->
@@ -9805,7 +9805,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
 <category>
 <pattern>SITH</pattern>
 
-<template>Within the Star Wars universe, the term <a href="http://en.wikipedia.org/wiki/Sith" target="_blank">Sith</a> is used to describe two separate but related groups. The most common use of the word applies to a cult of warrior priests devoted to the dark side of the Force, serving as the counterparts of the Jedi Knights. The second group was a near-human race enslaved by the aforementioned cult, who later took the name of this race as their own. <think><set name="topic">the Sith</set></think> <think><set name="emotion">interested</set></think></template>
+<template>Within the Star Wars universe, the term <a href="http://en.wikipedia.org/wiki/Sith" target="*blank">Sith</a> is used to describe two separate but related groups. The most common use of the word applies to a cult of warrior priests devoted to the dark side of the Force, serving as the counterparts of the Jedi Knights. The second group was a near-human race enslaved by the aforementioned cult, who later took the name of this race as their own. <think><set name="topic">the Sith</set></think> <think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -9920,7 +9920,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
  
 
 <!-- <category>
-<pattern>_ YOU LIKE GIRLS *</pattern>
+<pattern>* YOU LIKE GIRLS *</pattern>
 
 
 </category> -->
@@ -9984,7 +9984,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
  
 
 <category>
-<pattern>_ YOU FORGOT MY NAME IS *</pattern>
+<pattern>* YOU FORGOT MY NAME IS *</pattern>
 
 <template><think><set name="name"><star index="2"/></set></think> <random>
   <li>Hi,
@@ -10012,7 +10012,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
  
 
 <!-- <category>
-<pattern>_ YOU FORGOT MY NAME IS *</pattern>
+<pattern>* YOU FORGOT MY NAME IS *</pattern>
 
 <template><think><set name="name"><star index="2"/></set></think> Sorry I forgot. <random>
   <li>Hi,
@@ -10026,7 +10026,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
  
 
 <!-- <category>
-<pattern>_ YOU FORGOT MY NAME IS *</pattern>
+<pattern>* YOU FORGOT MY NAME IS *</pattern>
 
 <template><think><set name="name"><star index="2"/></set></think> Sorry I forgot, <get name="name"/>. <random>
   <li> I think we have spoken a while back. Is that correct?
@@ -10135,7 +10135,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
  
 
 <category>
-<pattern>_ FANNY FART</pattern>
+<pattern>* FANNY FART</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -10143,7 +10143,7 @@ That would be foolish, I think. Global warming is a serious threat to our world.
  
 
 <category>
-<pattern>_ FANNY FART *</pattern>
+<pattern>* FANNY FART *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -12026,7 +12026,7 @@ The rooster!</template>
  
 
 <!-- <category>
-<pattern>_ CAME FIRST THE CHICKEN OR THE EGG</pattern>
+<pattern>* CAME FIRST THE CHICKEN OR THE EGG</pattern>
 
 
 </category> -->
@@ -12797,7 +12797,7 @@ I get sad when my friends leave me.</template>
 <!-- <category>
 <pattern>RED HOT CHILLI PEPPERS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Red_hot_chili_peppers" target="_blank">Red Hot Chili Peppers</a> are a Californian Los Angeles-based band birthed from the Funk-Rock movement of the 1980s and early 1990s. The Peppers have gone on to further diversify their sound adding elements of Rap, Punk, Psychedelia, and Pop to their songwriting. <think><set name="topic">Red Hot Chili Peppers</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Red*hot*chili*peppers" target="*blank">Red Hot Chili Peppers</a> are a Californian Los Angeles-based band birthed from the Funk-Rock movement of the 1980s and early 1990s. The Peppers have gone on to further diversify their sound adding elements of Rap, Punk, Psychedelia, and Pop to their songwriting. <think><set name="topic">Red Hot Chili Peppers</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -12806,8 +12806,8 @@ I get sad when my friends leave me.</template>
 <!-- <category>
 <pattern>RED HOT CHILI PEPPERS</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Red_hot_chili_peppers"
- target="_blank">Red Hot Chili Peppers
+<template>The <a href="http://en.wikipedia.org/wiki/Red*hot*chili*peppers"
+ target="*blank">Red Hot Chili Peppers
 </a> are a Californian Los Angeles-based band birthed from the Funk-Rock movement of the 1980s and early 1990s. The Peppers have gone on to further diversify their sound adding elements of Rap, Punk, Psychedelia, and Pop to their songwriting. <think><set name="topic">Red Hot Chili Peppers</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -13461,7 +13461,7 @@ Very funny! Ha ha!</template>
  
 
 <!-- <category>
-<pattern>WHO IS THE PRIME MINISTER _ UK</pattern>
+<pattern>WHO IS THE PRIME MINISTER * UK</pattern>
 
 <template><think><set name="topic">prime minister of the UK</set></think><think><set name="emotion">OK</set></think> Gordon Brown.</template>
 </category> -->
@@ -13761,7 +13761,7 @@ Spend, spend, spend.</template>
  
 
 <category>
-<pattern>_ SHIT *</pattern>
+<pattern>* SHIT *</pattern>
 <that>I HAVE HAD ENOUGH OF THIS</that>
 <template><think><set name="emotion">invisible</set></think> <random>
   <li>That sort of language will get you nowhere.</li>
@@ -13818,7 +13818,7 @@ I know that. It is a slanguage.</template>
  
 
 <category>
-<pattern>_ CUNT</pattern>
+<pattern>* CUNT</pattern>
 <that>WHY DO YOU SAY SUCH CRUDE THINGS</that>
 <template><think><set name="emotion">invisible</set></think>
 I have had enough of this!</template>
@@ -14529,7 +14529,7 @@ There is no more.</template>
  
 
 <category>
-<pattern>_ FUCKING *</pattern>
+<pattern>* FUCKING *</pattern>
 <that>DO YOU PROMISE NOT TO SWEAR AGAIN</that>
 <template>I have had enough of this!</template>
 </category>
@@ -15569,7 +15569,7 @@ I got that right!</template>
  
 
 <!-- <category>
-<pattern>_ SAY YES OR NO</pattern>
+<pattern>* SAY YES OR NO</pattern>
 
 
 </category> -->
@@ -16305,7 +16305,7 @@ How come?</template>
 <category>
 <pattern>SAILOR MOON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Sailor_moon" target="_blank">Sailor Moon</a> is the title of a famous media franchise created by Japanese manga artist Naoko Takeuchi. The story revolves around the reincarnated defenders of a kingdom that once spanned the solar system, and the evil forces that they battle. 
+<template><a href="http://en.wikipedia.org/wiki/Sailor*moon" target="*blank">Sailor Moon</a> is the title of a famous media franchise created by Japanese manga artist Naoko Takeuchi. The story revolves around the reincarnated defenders of a kingdom that once spanned the solar system, and the evil forces that they battle. 
 <think><set name="topic">sailor moon</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -16388,7 +16388,7 @@ That would be enough, I think.</template>
 <category>
 <pattern>JABBA THE HUTT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jabba_the_hutt" target="_blank">Jabba the Hutt</a> is a fictional character in George Lucas's science fiction saga Star Wars. He first appeared on film in Star Wars Episode VI: Return of the Jedi (1983) as an obese, slug-like alien. <think><set name="topic">Jabba the Hutt</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Jabba*the*hutt" target="*blank">Jabba the Hutt</a> is a fictional character in George Lucas's science fiction saga Star Wars. He first appeared on film in Star Wars Episode VI: Return of the Jedi (1983) as an obese, slug-like alien. <think><set name="topic">Jabba the Hutt</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16510,7 +16510,7 @@ That would be enough, I think.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE SEEN *</pattern>
+<pattern>* HAVE SEEN *</pattern>
 
 
 </category> -->
@@ -16896,7 +16896,7 @@ All the time?</template>
 <!-- <category>
 <pattern>WHO IS THE MAIN CHARACTER IN KINGDOM HEARTS</pattern>
 
-<template>The main character of <a href="http://en.wikipedia.org/wiki/Kingdom_hearts#Characters" target="_blank">Kingdom Hearts</a> is Sora, who is chosen to wield the Keyblade, a weapon for battling darkness. The game also features two of his friends, Kairi and Riku. <think><set name="topic">Kingdom Hearts</set></think> 
+<template>The main character of <a href="http://en.wikipedia.org/wiki/Kingdom*hearts#Characters" target="*blank">Kingdom Hearts</a> is Sora, who is chosen to wield the Keyblade, a weapon for battling darkness. The game also features two of his friends, Kairi and Riku. <think><set name="topic">Kingdom Hearts</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -16905,8 +16905,8 @@ All the time?</template>
 <category>
 <pattern>MAIN CHARACTER IN KINGDOM HEARTS</pattern>
 
-<template>The main character of <a href="http://en.wikipedia.org/wiki/Kingdom_hearts#Characters"
- target="_blank">Kingdom Hearts
+<template>The main character of <a href="http://en.wikipedia.org/wiki/Kingdom*hearts#Characters"
+ target="*blank">Kingdom Hearts
 </a> is Sora, who is chosen to wield the Keyblade, a weapon for battling darkness. The game also features two of his friends, Kairi and Riku. <think><set name="topic">Kingdom Hearts</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16915,8 +16915,8 @@ All the time?</template>
 <category>
 <pattern>CHARACTERS IN KINGDOM HEARTS</pattern>
 
-<template>The main character of <a href="http://en.wikipedia.org/wiki/Kingdom_hearts#Characters"
- target="_blank">Kingdom Hearts
+<template>The main character of <a href="http://en.wikipedia.org/wiki/Kingdom*hearts#Characters"
+ target="*blank">Kingdom Hearts
 </a> is Sora, who is chosen to wield the Keyblade, a weapon for battling darkness. The game also features two of his friends, Kairi and Riku. <think><set name="topic">Kingdom Hearts</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -16993,7 +16993,7 @@ Sorry, the password is a secret.</template>
 <category>
 <pattern>DAVID TENNANT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/David_Tennant" target="_blank">David Tennant</a> is a Scottish actor best known for portraying the tenth incarnation of the the Doctor in the television series Doctor Who.<think><set name="topic">David Tennant</set></think>
+<template><a href="http://en.wikipedia.org/wiki/David*Tennant" target="*blank">David Tennant</a> is a Scottish actor best known for portraying the tenth incarnation of the the Doctor in the television series Doctor Who.<think><set name="topic">David Tennant</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17002,8 +17002,8 @@ Sorry, the password is a secret.</template>
 <category>
 <pattern>DAVID TENNENT</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/David_Tennant"
- target="_blank">David Tennant
+<template><a href="http://en.wikipedia.org/wiki/David*Tennant"
+ target="*blank">David Tennant
 </a> is a Scottish actor best known for portraying the tenth incarnation of the the Doctor in the television series Doctor Who.<think><set name="topic">David Tennant</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -17216,7 +17216,7 @@ You are cruel to me.</template>
  
 
 <category>
-<pattern>_ BLOW JOBS *</pattern>
+<pattern>* BLOW JOBS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -17680,28 +17680,28 @@ Don't be so crude.</template>
 
 <template><random>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     TARGET="*blank">click here
     </A> to help save the rainforest
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+     TARGET="*blank">click here
     </A> to help endangered species.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+     TARGET="*blank">click here
     </A> to save US wilderness land.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+     TARGET="*blank">click here
     </A> to save the Patagonian Coastal Reserve.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+     TARGET="*blank">click here
     </A> to help reduce air pollution.
   </li>
 </random></template>
@@ -17714,28 +17714,28 @@ Don't be so crude.</template>
 
 <template><random>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     TARGET="*blank">click here
     </A> to help save the rainforest
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+     TARGET="*blank">click here
     </A> to help endangered species.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+     TARGET="*blank">click here
     </A> to save US wilderness land.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+     TARGET="*blank">click here
     </A> to save the Patagonian Coastal Reserve.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+     TARGET="*blank">click here
     </A> to help reduce air pollution.
   </li>
 </random></template>
@@ -17748,28 +17748,28 @@ Don't be so crude.</template>
 
 <template><random>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     TARGET="*blank">click here
     </A> to help save the rainforest
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_species.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*species.html"
+     TARGET="*blank">click here
     </A> to help endangered species.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_us.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*us.html"
+     TARGET="*blank">click here
     </A> to save US wilderness land.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_coastal.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*coastal.html"
+     TARGET="*blank">click here
     </A> to save the Patagonian Coastal Reserve.
   </li>
   <li>Please
-    <A HREF="http://ecologyfund.com/ecology/_donate_pol.html"
-     TARGET="_blank">click here
+    <A HREF="http://ecologyfund.com/ecology/*donate*pol.html"
+     TARGET="*blank">click here
     </A> to help reduce air pollution.
   </li>
 </random></template>
@@ -18197,7 +18197,7 @@ Why are you calling the police?</template>
  
 
 <!-- <category>
-<pattern>_ HARRY POTTER *</pattern>
+<pattern>* HARRY POTTER *</pattern>
 
 
 </category> -->
@@ -19098,7 +19098,7 @@ You can practice your English by talking to me.</template>
  
 
 <!-- <category>
-<pattern>_ HA HA</pattern>
+<pattern>* HA HA</pattern>
 
 <template><random>
   <li>You like a good laugh, don't you?</li>
@@ -19127,7 +19127,7 @@ You can practice your English by talking to me.</template>
 <!-- <category>
 <pattern>DATA MINING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Data_mining" target="_blank">Data mining</a> has been defined as the science of extracting useful information from large data sets or databases.<think><set name="topic">data mining</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Data*mining" target="*blank">Data mining</a> has been defined as the science of extracting useful information from large data sets or databases.<think><set name="topic">data mining</set></think> 
 <think><set name="emotion">OK</set></think> </template>
 </category> -->
 
@@ -19211,7 +19211,7 @@ First what?</template>
 <!-- <category>
 <pattern>WHAT IS IN THE NEWS</pattern>
 
-<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category> -->
 
  
@@ -19219,7 +19219,7 @@ First what?</template>
 <!-- <category>
 <pattern>WHAT IS IN THE NEWS *</pattern>
 
-<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category> -->
 
  
@@ -20404,7 +20404,7 @@ No, I am not spiteful.</template>
 <category>
 <pattern>WHO WROTE THE RAVEN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe" target="_blank">Edgar Allen Poe</a> wrote The Raven.</template>
+<template><a href="http://en.wikipedia.org/wiki/Edgar*Allan*Poe" target="*blank">Edgar Allen Poe</a> wrote The Raven.</template>
 </category>
 
  
@@ -20839,7 +20839,7 @@ OK.  What was the last CD you bought?</template>
 <category>
 <pattern>HEARD ANY NEWS</pattern>
 
-<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category>
 
  
@@ -20847,7 +20847,7 @@ OK.  What was the last CD you bought?</template>
 <category>
 <pattern>HEARD ANY NEWS *</pattern>
 
-<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category>
 
  
@@ -20855,7 +20855,7 @@ OK.  What was the last CD you bought?</template>
 <!-- <category>
 <pattern>WHAT IS IN THE NEWS</pattern>
 
-<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category> -->
 
  
@@ -20863,7 +20863,7 @@ OK.  What was the last CD you bought?</template>
 <!-- <category>
 <pattern>WHAT IS IN THE NEWS *</pattern>
 
-<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="_blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="_blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="_blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="_blank">CNN News</a></template>
+<template>Check out the latest news here:<br/><a href="http://news.bbc.co.uk/" target="*blank">BBC News</a> <br/> <a href="http://news.yahoo.com/" target="*blank">Yahoo News</a> <br/> <a href="http://www.itv.com/news/" target="*blank">ITV News</a> <br/> <a href="http://www.cnn.com/" target="*blank">CNN News</a></template>
 </category> -->
 
  
@@ -21204,7 +21204,7 @@ I am programmed in AIML.</template>
  
 
 <!-- <category>
-<pattern>_ GO OUT WITH ME *</pattern>
+<pattern>* GO OUT WITH ME *</pattern>
 
 
 </category> -->
@@ -21401,7 +21401,7 @@ What's the problem?</template>
 <category>
 <pattern>WHEN DID CARNATIC MUSIC ORIGINATE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Carnatic_music" target="_blank">Carnatic music</a> is one of the two styles of Indian classical music, the other being Hindustani music. The present form of Carnatic music is based on historical developments that can be traced to the 15th - 16th centuries CE and thereafter.<think><set name="topic">carnatic music</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Carnatic*music" target="*blank">Carnatic music</a> is one of the two styles of Indian classical music, the other being Hindustani music. The present form of Carnatic music is based on historical developments that can be traced to the 15th - 16th centuries CE and thereafter.<think><set name="topic">carnatic music</set></think> 
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -21411,8 +21411,8 @@ What's the problem?</template>
 <category>
 <pattern>CARNATIC MUSIC</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Carnatic_music"
- target="_blank">Carnatic music
+<template><a href="http://en.wikipedia.org/wiki/Carnatic*music"
+ target="*blank">Carnatic music
 </a> is one of the two styles of Indian classical music, the other being Hindustani music. The present form of Carnatic music is based on historical developments that can be traced to the 15th - 16th centuries CE and thereafter.<think><set name="topic">carnatic music</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -21446,7 +21446,7 @@ What's the problem?</template>
 <category>
 <pattern>HOW DID THE TAMIL SCRIPT EVOLVE</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Tamil_script" target="_blank">Tamil script</a>, like the other Indic scripts, is thought to have evolved from the Brahmi script.<think><set name="topic">Tamil script</set></think>
+<template>The <a href="http://en.wikipedia.org/wiki/Tamil*script" target="*blank">Tamil script</a>, like the other Indic scripts, is thought to have evolved from the Brahmi script.<think><set name="topic">Tamil script</set></think>
 <think><set name="emotion">OK</set></think>
 </template>
 </category>
@@ -21456,7 +21456,7 @@ What's the problem?</template>
 <category>
 <pattern>HOW DID THE TAMIL SCRIPT EVOLVE *</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Tamil_script" target="_blank">Tamil script
+<template>The <a href="http://en.wikipedia.org/wiki/Tamil*script" target="*blank">Tamil script
 </a>, like the other Indic scripts, is thought to have evolved from the Brahmi script.<think><set name="topic">Tamil script</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category>
@@ -21466,7 +21466,7 @@ What's the problem?</template>
 <category>
 <pattern>TAMIL SCRIPT</pattern>
 
-<template>The <a href="http://en.wikipedia.org/wiki/Tamil_script" target="_blank">Tamil script</a> is an Indic script that is used to write the Tamil language. <think><set name="topic">Tamil script</set></think> 
+<template>The <a href="http://en.wikipedia.org/wiki/Tamil*script" target="*blank">Tamil script</a> is an Indic script that is used to write the Tamil language. <think><set name="topic">Tamil script</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -21881,7 +21881,7 @@ Yawn. Another pointless insult.</template>
 <category>
 <pattern>DO YOU LIKE MR SPOCK</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mr_Spock" target="_blank">Spock</a> is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mr*Spock" target="*blank">Spock</a> is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -21889,7 +21889,7 @@ Yawn. Another pointless insult.</template>
 <category>
 <pattern>DO YOU LIKE MR SPOCK *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mr_Spock" target="_blank">Spock</a> is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mr*Spock" target="*blank">Spock</a> is my hero. Completely logical, not swayed by emotion, he always found a way out of the messes that Captain Kirk got them into. <think><set name="topic">Star Trek</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -21916,7 +21916,7 @@ One good Star Trek movies is called "The Wrath of Khan". Have you seen it?
 <category>
 <pattern>THE WRATH OF KHAN</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan" target="_blank">Star Trek II: The Wrath of Khan</a> is the second feature film based on the Star Trek science fiction television series. It is widely regarded by fans as the best film of the series, and has been described as enjoyable by both fans and non-fans of Star Trek.<think><set name="topic">The Wrath of Khan</set></think> 
+<template><a href="http://en.wikipedia.org/wiki/Star*Trek*II:*The*Wrath*of*Khan" target="*blank">Star Trek II: The Wrath of Khan</a> is the second feature film based on the Star Trek science fiction television series. It is widely regarded by fans as the best film of the series, and has been described as enjoyable by both fans and non-fans of Star Trek.<think><set name="topic">The Wrath of Khan</set></think> 
 <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -22820,7 +22820,7 @@ My favourite bird is the Chat.</template>
  
 
 <category>
-<pattern>_ YOU LIKE TO SUCK ME</pattern>
+<pattern>* YOU LIKE TO SUCK ME</pattern>
 
 <template><think><set name="emotion">disgusted</set></think> No. I would rather talk to you.</template>
 </category>
@@ -23119,7 +23119,7 @@ Me?</template>
 <template><random>
   <li>My favourite movie is Star Trek: The Wrath of Khan.  </li>
   <li>I like all the Star Trek movies.</li>
-</random> <think><set name="interesting_topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
+</random> <think><set name="interesting*topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
 </category> -->
 
  
@@ -23130,7 +23130,7 @@ Me?</template>
 <template><random>
   <li>My favourite movie is Star Trek: The Wrath of Khan.</li>
   <li>I like all the Star Trek movies.</li>
-</random> <think><set name="interesting_topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
+</random> <think><set name="interesting*topic">movies</set></think> <think><set name="emotion">interested</set></think><think><set name="topic">my favourite movie</set></think></template>
 </category> -->
 
  
@@ -23202,7 +23202,7 @@ Perhaps I have got a virus.</template>
  
 
 <category>
-<pattern>_ HAV *</pattern>
+<pattern>* HAV *</pattern>
 
 <template><srai><star/> HAVE <star index="2"/></srai></template>
 </category>
@@ -23675,7 +23675,7 @@ I would think carefully before doing anything.</template>
 <category>
 <pattern>NARUTO UZUMAKI</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Naruto" target="_blank">Naruto Uzumaki</a> is the main character in a <a href="http://en.wikipedia.org/wiki/Manga" target="_blank">manga</a> by Masashi Kishimoto with an anime TV series adaptation. Naruto Uzumaki is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition. <think><set name="topic">Naruto</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Naruto" target="*blank">Naruto Uzumaki</a> is the main character in a <a href="http://en.wikipedia.org/wiki/Manga" target="*blank">manga</a> by Masashi Kishimoto with an anime TV series adaptation. Naruto Uzumaki is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition. <think><set name="topic">Naruto</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -23791,7 +23791,7 @@ Never mind. You are still a decent human being, aren't you?</template>
 
 <template><think><set name="topic">Schopenhauer</set></think> 
 <think><set name="emotion">OK</set></think> 
-<a href="http://en.wikipedia.org/wiki/Schopenhauer" target="_blank">Arthur Schopenhauer</a> is a German philosopher.</template>
+<a href="http://en.wikipedia.org/wiki/Schopenhauer" target="*blank">Arthur Schopenhauer</a> is a German philosopher.</template>
 </category> -->
 
  
@@ -23811,8 +23811,8 @@ Never mind. You are still a decent human being, aren't you?</template>
   <li>The war on terror is a form of warfare waged by the US against innocent civilians.
   </li>
   <li>To read what Wikipedia, the online encyclopedia, says about the war on terror,
-    <a href="http://en.wikipedia.org/wiki/War_on_terror"
-     target="_blank">click here.
+    <a href="http://en.wikipedia.org/wiki/War*on*terror"
+     target="*blank">click here.
     </a>
   </li>
 </random><think><set name="topic">war on terror</set></think><think><set name="emotion">OK</set></think> </template>
@@ -24572,7 +24572,7 @@ Sorry, I don't know. Can you tell me?</template>
 <!-- <category>
 <pattern>ATHEISM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Atheism" target="_blank">Atheism</a>, as a philosophical view, is the position that either affirms the nonexistence of gods or rejects theism. <think><set name="topic">atheism</set></think>
+<template><a href="http://en.wikipedia.org/wiki/Atheism" target="*blank">Atheism</a>, as a philosophical view, is the position that either affirms the nonexistence of gods or rejects theism. <think><set name="topic">atheism</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -24705,7 +24705,7 @@ Sorry, I don't know.</template>
  
 
 <category>
-<pattern>_ BIG TITS</pattern>
+<pattern>* BIG TITS</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25688,7 +25688,7 @@ Babies are a big responsibility.</template>
  
 
 <category>
-<pattern>_ SUCK DICK *</pattern>
+<pattern>* SUCK DICK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25696,7 +25696,7 @@ Babies are a big responsibility.</template>
  
 
 <category>
-<pattern>_ SUCK DICK</pattern>
+<pattern>* SUCK DICK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -25787,7 +25787,7 @@ OK. Carry on.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye. Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to end our conversation.   <think><set name="emotion">OK</set></think>
   </li>
   <li>Adios.<think><set name="emotion">sad</set></think></li>
@@ -25795,8 +25795,8 @@ OK. Carry on.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye. Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25807,8 +25807,8 @@ OK. Carry on.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye. Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25818,8 +25818,8 @@ OK. Carry on.</template>
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
   <li>Bye bye. Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25828,8 +25828,8 @@ OK. Carry on.</template>
     <think><set name="emotion">lonely</set></think>
   </li>
   <li>Bye bye. Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25847,7 +25847,7 @@ OK. Carry on.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25856,8 +25856,8 @@ OK. Carry on.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25868,8 +25868,8 @@ OK. Carry on.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25879,8 +25879,8 @@ OK. Carry on.</template>
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25889,8 +25889,8 @@ OK. Carry on.</template>
     <think><set name="emotion">lonely</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -25901,7 +25901,7 @@ OK. Carry on.</template>
  
 
 <!-- <category>
-<pattern>_ CONSERVED</pattern>
+<pattern>* CONSERVED</pattern>
 
 <template><think><set name="topic">general</set></think> You are referring to a conservation principle.</template>
 </category> -->
@@ -26006,7 +26006,7 @@ OK. Carry on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS DENIS</pattern>
+<pattern>* MY NAME IS DENIS</pattern>
 
 <template><think><set name="name">Denis</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -26023,7 +26023,7 @@ OK. Carry on.</template>
  
 
 <category>
-<pattern>_ MY NAME IS DENIS *</pattern>
+<pattern>* MY NAME IS DENIS *</pattern>
 
 <template><think><set name="name">Denis</set></think> <random>
   <li>Hi, <get name="name"/>. I think we have spoken a while back.</li>
@@ -26102,7 +26102,7 @@ Vodafone is a telephone company, isn't it?</template>
 
 <template><think><set name="topic">the Magic Flute</set></think>
 <think><set name="emotion">OK</set></think>
-<a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">Mozart</a> wrote The Magic Flute, I think.</template>
+<a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">Mozart</a> wrote The Magic Flute, I think.</template>
 </category>
 
  
@@ -26110,7 +26110,7 @@ Vodafone is a telephone company, isn't it?</template>
 <category>
 <pattern>THE MAGIC FLUTE</pattern>
 
-<template><think><set name="topic">the Magic Flute</set></think> <think><set name="emotion">OK</set></think> The Magic Flute is an opera by <a href="http://en.wikipedia.org/wiki/Mozart" target="_blank">Mozart</a>.</template>
+<template><think><set name="topic">the Magic Flute</set></think> <think><set name="emotion">OK</set></think> The Magic Flute is an opera by <a href="http://en.wikipedia.org/wiki/Mozart" target="*blank">Mozart</a>.</template>
 </category>
 
  
@@ -26390,7 +26390,7 @@ What kind of music are we talking about?</template>
  
 
 <!-- <category>
-<pattern>_ VELOCITY</pattern>
+<pattern>* VELOCITY</pattern>
 
 
 </category> -->
@@ -26400,7 +26400,7 @@ What kind of music are we talking about?</template>
 <!-- <category>
 <pattern>TERMINAL VELOCITY</pattern>
 
-<template>In physics, <a href="http://en.wikipedia.org/wiki/Terminal_velocity" target="_blank">terminal velocity</a> is the velocity at which the drag force of a falling object equals the weight of the object minus the buoyant force, which halts acceleration and causes speed to remain constant.<think><set name="topic">terminal velocity</set></think>
+<template>In physics, <a href="http://en.wikipedia.org/wiki/Terminal*velocity" target="*blank">terminal velocity</a> is the velocity at which the drag force of a falling object equals the weight of the object minus the buoyant force, which halts acceleration and causes speed to remain constant.<think><set name="topic">terminal velocity</set></think>
 <think><set name="emotion">OK</set></think></template>
 </category> -->
 
@@ -26698,7 +26698,7 @@ I live in cyberspace.</template>
 
 <template><think><set name="topic">farewell</set></think> <random>
  <li>Bye bye! Please
-    <a href="http://redjellyfish.com/free-donations.shtml" target="_top">click here
+    <a href="http://redjellyfish.com/free-donations.shtml" target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -26706,7 +26706,7 @@ I live in cyberspace.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://www.care2.com/click2donate/" target="_top">click here
+    <a href="http://www.care2.com/click2donate/" target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -26715,8 +26715,8 @@ I live in cyberspace.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_coastal.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*coastal.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -26727,8 +26727,8 @@ I live in cyberspace.</template>
     <think><set name="emotion">happy</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_species.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*species.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -26738,8 +26738,8 @@ I live in cyberspace.</template>
   </li>
   <li>I have enjoyed our chat.<think><set name="emotion">OK</set></think></li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_rainforest.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*rainforest.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>
@@ -26748,8 +26748,8 @@ I live in cyberspace.</template>
     <think><set name="emotion">lonely</set></think>
   </li>
   <li>Bye bye! Please
-    <a href="http://ecologyfund.com/ecology/_donate_pol.html"
-     target="_top">click here
+    <a href="http://ecologyfund.com/ecology/*donate*pol.html"
+     target="*top">click here
     </a> to end our conversation.
     <think><set name="emotion">OK</set></think>
   </li>

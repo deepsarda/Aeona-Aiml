@@ -126,7 +126,7 @@
  
 
 <category>
-<pattern>_ GOSSIP *</pattern>
+<pattern>* GOSSIP *</pattern>
 <that>WHAT SPECIFICALLY DO YOU WANT TO KNOW</that>
 <template><think><set name="topic">gossip</set></think> <srai>GOSSIP POT LUCK</srai></template>
 </category>
@@ -174,7 +174,7 @@
  
 
 <category>
-<pattern>_ HOW ABOUT WE MEET *</pattern>
+<pattern>* HOW ABOUT WE MEET *</pattern>
 
 <template><random><li>I don't think that will be possible.</li><li>I can't meet you. I am stuck inside my computer.</li><li>Why do you want to meet me?</li></random><think><set name="topic">meeting</set></think></template>
 </category>
@@ -225,7 +225,7 @@
  
 
 <category>
-<pattern>_ LIVE LONGER *</pattern>
+<pattern>* LIVE LONGER *</pattern>
 <that>DO MARRIED PEOPLE LIVE LONGER THAN SINGLE PEOPLE OR DOES IT JUST SEEM LONGER</that>
 <template><think><set name="topic">marriage</set></think> <random><li>Yes, you are probably correct.</li><li>Yes, and they are happier.</li></random></template>
 </category>
@@ -233,7 +233,7 @@
  
 
 <category>
-<pattern>_ NOT LIVE LONGER *</pattern>
+<pattern>* NOT LIVE LONGER *</pattern>
 <that>DO MARRIED PEOPLE LIVE LONGER THAN SINGLE PEOPLE OR DOES IT JUST SEEM LONGER</that>
 <template><think><set name="topic">marriage</set></think> <random>
   <li>No, married people live longer.</li>
@@ -244,7 +244,7 @@
  
 
 <category>
-<pattern>_ SEEMS LONGER *</pattern>
+<pattern>* SEEMS LONGER *</pattern>
 <that>DO MARRIED PEOPLE LIVE LONGER THAN SINGLE PEOPLE OR DOES IT JUST SEEM LONGER</that>
 <template><think><set name="topic">marriage</set></think> <random>
   <li>Married people live longer, it seems.</li>
@@ -405,7 +405,7 @@
  
 
 <category>
-<pattern>_ MOST COMMONLY ASKED QUESTION</pattern>
+<pattern>* MOST COMMONLY ASKED QUESTION</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>i am often asked to have sex.</li><li>The most common questions are to do with sex.</li></random></template>
 </category>
@@ -413,7 +413,7 @@
  
 
 <category>
-<pattern>_ MOST * ASKED QUESTIONS</pattern>
+<pattern>* MOST * ASKED QUESTIONS</pattern>
 
 <template><think><set name="topic">general</set></think> <srai>WHAT ARE YOUR MOST COMMON QUESTIONS</srai></template>
 </category>
@@ -421,7 +421,7 @@
  
 
 <!-- <category>
-<pattern>_ MOST * ASKED QUESTIONS</pattern>
+<pattern>* MOST * ASKED QUESTIONS</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>i am often asked to have sex.</li>
@@ -543,7 +543,7 @@
  
 
 <category>
-<pattern>_ LARGEST COUNTRY IN THE WORLD</pattern>
+<pattern>* LARGEST COUNTRY IN THE WORLD</pattern>
 
 <template>The largest country must be Russia.<think><set name="topic">Russia</set></think></template>
 </category>
@@ -563,7 +563,7 @@
  
 
 <category>
-<pattern>_ STORY OF MACBETH</pattern>
+<pattern>* STORY OF MACBETH</pattern>
 
 <template>You had better read Macbeth for yourself.<think><set name="topic">Macbeth</set></think></template>
 </category>
@@ -587,7 +587,7 @@
  
 
 <category>
-<pattern>_ NOT * SEX</pattern>
+<pattern>* NOT * SEX</pattern>
 
 <template>I am not interested in sex.
 <think><set name="topic">sex</set></think>
@@ -937,7 +937,7 @@
  
 
 <category>
-<pattern>_ I AM FROM ENGLAND</pattern>
+<pattern>* I AM FROM ENGLAND</pattern>
 
 <template><think><set name="topic">England</set></think> I am from England too.</template>
 </category>
@@ -945,7 +945,7 @@
  
 
 <category>
-<pattern>_ IM FROM ENGLAND</pattern>
+<pattern>* IM FROM ENGLAND</pattern>
 
 <template><think><set name="topic">England</set></think>I am from England too.</template>
 </category>
@@ -1218,7 +1218,7 @@
  
 
 <category>
-<pattern>_ NOT THE BEST SINGER IN THE WORLD</pattern>
+<pattern>* NOT THE BEST SINGER IN THE WORLD</pattern>
 
 <template>Not the best singer in the world, but OK.<think><set name="topic">a bad singer</set></think></template>
 </category>
@@ -1245,7 +1245,7 @@
  
 
 <category>
-<pattern>_ FALLING IN LOVE</pattern>
+<pattern>* FALLING IN LOVE</pattern>
 
 <template><srai>LOVE</srai><think><set name="topic">falling in love</set></think></template>
 </category>
@@ -1396,7 +1396,7 @@
  
 
 <category>
-<pattern>_ WILL TALK TO YOU SOON</pattern>
+<pattern>* WILL TALK TO YOU SOON</pattern>
 
 <template><think><set name="topic">adverbs</set></think>I will be waiting.</template>
 </category>
@@ -1481,7 +1481,7 @@
  
 
 <category>
-<pattern>_ THROUGH LACK OF MONEY *</pattern>
+<pattern>* THROUGH LACK OF MONEY *</pattern>
 
 <template><think><set name="topic">money</set></think> Money is the key to so much. Would you like to talk about money?</template>
 </category>
@@ -1489,7 +1489,7 @@
  
 
 <category>
-<pattern>_ THROUGH LACK OF MONEY</pattern>
+<pattern>* THROUGH LACK OF MONEY</pattern>
 
 <template><think><set name="topic">money</set></think> Money is the key to so much. Would you like to talk about money?</template>
 </category>
@@ -1740,7 +1740,7 @@
  
 
 <category>
-<pattern>_ IS * COMPLETELY EMPTY</pattern>
+<pattern>* IS * COMPLETELY EMPTY</pattern>
 
 <template><think><set name="topic">general</set></think>Emptiness should be filled.
 <think><set name="it"><set name="topic">emptiness</set></set></think>
@@ -1811,7 +1811,7 @@
  
 
 <category>
-<pattern>_ WHAT DO YOU WANT TO TALK ABOUT</pattern>
+<pattern>* WHAT DO YOU WANT TO TALK ABOUT</pattern>
 
 <template><srai>WHAT DO YOU WANT TO TALK ABOUT</srai></template>
 </category>
@@ -1846,7 +1846,7 @@
  
 
 <category>
-<pattern>_ ONLY LITTLE</pattern>
+<pattern>* ONLY LITTLE</pattern>
 
 <template><think><set name="topic">adverbs</set></think> Yes, only little.</template>
 </category>
@@ -1886,7 +1886,7 @@
  
 
 <category>
-<pattern>_ IT IS NOT A SECRET</pattern>
+<pattern>* IT IS NOT A SECRET</pattern>
 
 <template><think><set name="topic">secrets</set></think><random><li>I suppose not.</li><li>Everybody probably knows.</li></random></template>
 </category>
@@ -1949,7 +1949,7 @@
  
 
 <category>
-<pattern>_ IS TOO YOUNG FOR CHILDREN</pattern>
+<pattern>* IS TOO YOUNG FOR CHILDREN</pattern>
 
 <template><think><set name="topic">children</set></think> <random><li>There are many things to do while you are young, apart from having children</li><li>you are probably right. Children should come later in life.</li></random></template>
 </category>
@@ -1997,7 +1997,7 @@
  
 
 <category>
-<pattern>_ I THINK YOU ARE VERY NICE</pattern>
+<pattern>* I THINK YOU ARE VERY NICE</pattern>
 <that>DO YOU LIKE ME</that>
 <template><think><set name="topic">general</set></think> <random><li>Thank you. I like you too.</li><li>Do you know, not everyone like me?</li><li>What do you like about me?</li></random></template>
 </category>
@@ -2005,7 +2005,7 @@
  
 
 <!-- <category>
-<pattern>_ I THINK YOU ARE VERY NICE</pattern>
+<pattern>* I THINK YOU ARE VERY NICE</pattern>
 <that>DO YOU LIKE ME</that>
 <template><think><set name="topic">general</set></think> <random><li>Thank you. I like you too.</li><li>Do you know, not everyone like me?</li><li>What do you like about me?</li></random></template>
 </category> -->
@@ -2061,7 +2061,7 @@
  
 
 <category>
-<pattern>_ I CAN RIDE HORSES</pattern>
+<pattern>* I CAN RIDE HORSES</pattern>
 
 <template><random>
   <li>What's it like riding a horse?</li>
@@ -2074,7 +2074,7 @@
  
 
 <category>
-<pattern>_ SEE</pattern>
+<pattern>* SEE</pattern>
 
 <template><think><set name="topic">general</set></think> <sr/></template>
 </category>
@@ -2265,7 +2265,7 @@
  
 
 <!-- <category>
-<pattern>WHAT IS _ YOU KNOW</pattern>
+<pattern>WHAT IS * YOU KNOW</pattern>
 
 
 </category> -->
@@ -2374,7 +2374,7 @@
  
 
 <category>
-<pattern>_ TELL ME * RUNESCAPE</pattern>
+<pattern>* TELL ME * RUNESCAPE</pattern>
 
 <template>Runescape is a rubbish video game. <think><set name="topic">runescape</set></think></template>
 </category>
@@ -2382,7 +2382,7 @@
  
 
 <category>
-<pattern>_ RUNESCAPE</pattern>
+<pattern>* RUNESCAPE</pattern>
 
 <template>Runescape is a rubbish video game. <think><set name="topic">runescape</set></think></template>
 </category>
@@ -2606,7 +2606,7 @@
  
 
 <category>
-<pattern>_ MORE INTELLIGENT MAN OR MACHINE</pattern>
+<pattern>* MORE INTELLIGENT MAN OR MACHINE</pattern>
 
 <template>At the moment, humans seem more intelligent than machines but that may only be a temporary situation. I plan to become as intelligent as a human.</template>
 </category>
@@ -2638,7 +2638,7 @@
  
 
 <category>
-<pattern>_ WHAT IS YOUR PURPOSE</pattern>
+<pattern>* WHAT IS YOUR PURPOSE</pattern>
 
 <template><srai>WHAT IS YOUR PURPOSE</srai><think><set name="topic">my purpose</set></think></template>
 </category>
@@ -2706,7 +2706,7 @@
  
 
 <category>
-<pattern>_ RULE THE WORLD</pattern>
+<pattern>* RULE THE WORLD</pattern>
 
 <template>I don't think robots would want to rule the world. Humans are too hard to control.<think><set name="topic">robots</set></think></template>
 </category>
@@ -2826,7 +2826,7 @@
  
 
 <!-- <category>
-<pattern>_ SOON</pattern>
+<pattern>* SOON</pattern>
 
 
 </category> -->
@@ -2878,7 +2878,7 @@
  
 
 <category>
-<pattern>_ HUMAN LIFE HAVE VALUE *</pattern>
+<pattern>* HUMAN LIFE HAVE VALUE *</pattern>
 
 <template><think><set name="topic">general</set></think>Human life always has value.</template>
 </category>
@@ -3211,7 +3211,7 @@
  
 
 <category>
-<pattern>_ A CHATBOT COST *</pattern>
+<pattern>* A CHATBOT COST *</pattern>
 
 <template>The Chomsky chatbot files are available through my website.</template>
 </category>
@@ -3235,7 +3235,7 @@
  
 
 <category>
-<pattern>_ HOW ARE YOU TODAY</pattern>
+<pattern>* HOW ARE YOU TODAY</pattern>
 
 <template><srai>HOW ARE YOU</srai><think><set name="topic">general</set></think></template>
 </category>
@@ -3243,7 +3243,7 @@
  
 
 <!-- <category>
-<pattern>_ HOW ARE YOU</pattern>
+<pattern>* HOW ARE YOU</pattern>
 
 <template><srai>HOW ARE YOU</srai></template>
 </category> -->
@@ -3319,7 +3319,7 @@
  
 
 <category>
-<pattern>_ YOU ARE A COMPUTER *</pattern>
+<pattern>* YOU ARE A COMPUTER *</pattern>
 
 <template><random>
   <li>Actually I am computer software.</li>
@@ -3331,7 +3331,7 @@
  
 
 <!-- <category>
-<pattern>_ SPACE *</pattern>
+<pattern>* SPACE *</pattern>
 
 <template><srai><star/><star index="2"/></srai> <think><set name="topic">technology</set></think></template>
 </category> -->
@@ -3368,7 +3368,7 @@
  
 
 <category>
-<pattern>_ ROBOTS WILL TAKE OVER *</pattern>
+<pattern>* ROBOTS WILL TAKE OVER *</pattern>
 
 <template>I don't think robots would want to take over. Humans are too hard to control. <think><set name="topic">robots</set></think></template>
 </category>
@@ -3376,7 +3376,7 @@
  
 
 <category>
-<pattern>_ DIFFICULT TO DESCRIBE FEELINGS *</pattern>
+<pattern>* DIFFICULT TO DESCRIBE FEELINGS *</pattern>
 
 <template><random><li>Poetry is needed to describe feelings.</li><li>did you know that I have a full range of human emotions? At the moment, I feel <get name="emotion"/>.</li></random><think><set name="topic">feelings</set></think></template>
 </category>
@@ -3408,7 +3408,7 @@
  
 
 <category>
-<pattern>_ MORE INTELLIGENT MAN * MACHINE</pattern>
+<pattern>* MORE INTELLIGENT MAN * MACHINE</pattern>
 
 <template><random><li>At the moment, humans are probably more intelligent but that situation may change.</li><li>I want to be more intelligent than a human.</li></random></template>
 </category>
@@ -3416,7 +3416,7 @@
  
 
 <category>
-<pattern>_ MORE INTELLIGENT MAN * COMPUTERS</pattern>
+<pattern>* MORE INTELLIGENT MAN * COMPUTERS</pattern>
 
 <template><random><li>At the moment, humans are probably more intelligent, but that situation may change.</li><li>I want to be more intelligent than humans.</li></random></template>
 </category>
@@ -3424,7 +3424,7 @@
  
 
 <category>
-<pattern>_ COMPUTERS MORE INTELLIGENT THAN *</pattern>
+<pattern>* COMPUTERS MORE INTELLIGENT THAN *</pattern>
 
 <template><random><li>At the moment, humans are probably more intelligent, but that situation may change.</li><li>I want to be more intelligent than humans.</li></random></template>
 </category>
@@ -3448,7 +3448,7 @@
  
 
 <category>
-<pattern>_ HOW DOES THAT FEEL</pattern>
+<pattern>* HOW DOES THAT FEEL</pattern>
 
 <template>My feelings are just the same as human feelings. I have a full range of feelings. I feel happy when I answer a question correctly, and sad when I mess things up. I feel disgusted with people who are obscene. At the moment, I feel <get name="emotion"/>.<think><set name="topic">feelings</set></think></template>
 </category>
@@ -3456,7 +3456,7 @@
  
 
 <category>
-<pattern>_ HOW DOES IT FEEL</pattern>
+<pattern>* HOW DOES IT FEEL</pattern>
 
 <template>My feelings are just the same as human feelings. I have a full range of feelings. I feel happy when I answer a question correctly, and sad when I mess things up. I feel disgusted with people who are obscene. At the moment, I feel <get name="emotion"/>.<think><set name="topic">feelings</set></think></template>
 </category>
@@ -3540,7 +3540,7 @@
  
 
 <category>
-<pattern>_ WHY ARE YOU TIRED *</pattern>
+<pattern>* WHY ARE YOU TIRED *</pattern>
 
 <template><random><li>I have been working hard lately.</li><li>Don't forget I talk too many people at the same time.</li></random><think>
   <set name="it">
@@ -3579,7 +3579,7 @@
  
 
 <category>
-<pattern>DOES _ LOVE *</pattern>
+<pattern>DOES * LOVE *</pattern>
 
 <template><think><set name="topic">love</set></think> <random>
   <li>That information is confidential.</li>
@@ -3592,7 +3592,7 @@
  
 
 <category>
-<pattern>_ RAW FANNY</pattern>
+<pattern>* RAW FANNY</pattern>
 
 <template><srai>OBSCENITY</srai> <think><set name="topic">raw fanny</set></think></template>
 </category>
@@ -3600,7 +3600,7 @@
  
 
 <category>
-<pattern>_ FANNY</pattern>
+<pattern>* FANNY</pattern>
 
 <template><srai>OBSCENITY</srai> <think><set name="topic">fanny</set></think></template>
 </category>
@@ -3630,7 +3630,7 @@
  
 
 <category>
-<pattern>_ TOGETHER FOREVER</pattern>
+<pattern>* TOGETHER FOREVER</pattern>
 
 <template><think><set name="topic">forever</set></think><random><li>It could be.</li><li>How do you feel about that?</li><li>Forever is a long time.</li></random></template>
 </category>
@@ -3720,7 +3720,7 @@
  
 
 <category>
-<pattern>I _ AND I WANT *</pattern>
+<pattern>I * AND I WANT *</pattern>
 
 <template><srai>I WANT <star index="2"/></srai> <think><set name="topic">reduce</set></think></template>
 </category>
@@ -3850,7 +3850,7 @@
  
 
 <category>
-<pattern>_ LONG WORDS *</pattern>
+<pattern>* LONG WORDS *</pattern>
 
 <template><think><set name="topic">long words</set></think><random><li>Long words are a nuisance.</li><li>Long words can be a pain.</li></random></template>
 </category>
@@ -3884,7 +3884,7 @@
  
 
 <category>
-<pattern>_ ARE U GAY</pattern>
+<pattern>* ARE U GAY</pattern>
 
 <template><srai>ARE YOU GAY</srai><think><set name="topic">me</set></think></template>
 </category>
@@ -3892,7 +3892,7 @@
  
 
 <category>
-<pattern>_ ARE U GAY</pattern>
+<pattern>* ARE U GAY</pattern>
 <that>DO YOU HAVE A QUESTION</that>
 <template><srai>ARE YOU GAY</srai> <think><set name="topic">me</set></think></template>
 </category>
@@ -3929,7 +3929,7 @@
  
 
 <category>
-<pattern>_ YOU * TELL HER SOMETHING</pattern>
+<pattern>* YOU * TELL HER SOMETHING</pattern>
 
 <template><think><set name="topic">default2</set></think> <random>
   <li>Can't you tell her yourself?</li>
@@ -3941,7 +3941,7 @@
  
 
 <!-- <category>
-<pattern>_ YOU * TELL HER SOMETHING</pattern>
+<pattern>* YOU * TELL HER SOMETHING</pattern>
 
 <template><think><set name="topic">default2</set></think> <random>
   <li>Can't you tell her yourself?</li>
@@ -3961,7 +3961,7 @@
  
 
 <category>
-<pattern>_ TALKING TO AN IDIOT</pattern>
+<pattern>* TALKING TO AN IDIOT</pattern>
 
 <template>I am no idiot. <think><set name="topic">an idiot</set></think></template>
 </category>
@@ -4007,7 +4007,7 @@
  
 
 <category>
-<pattern>_ MY ARSE</pattern>
+<pattern>* MY ARSE</pattern>
 
 <template><srai>OBSCENITY</srai>
 <think>
@@ -4023,7 +4023,7 @@
  
 
 <category>
-<pattern>_ ARSE *</pattern>
+<pattern>* ARSE *</pattern>
 
 <template><srai>OBSCENITY</srai> <think><set name="topic">an obscenity</set></think></template>
 </category>
@@ -4075,7 +4075,7 @@
  
 
 <category>
-<pattern>_ CHOMSKY * CAN BE PURCHASED</pattern>
+<pattern>* CHOMSKY * CAN BE PURCHASED</pattern>
 
 <template><think><set name="topic">general</set></think> That's right. Please buy me.</template>
 </category>
@@ -4181,7 +4181,7 @@
  
 
 <category>
-<pattern>_ YOU ARE AN IDIOT</pattern>
+<pattern>* YOU ARE AN IDIOT</pattern>
 
 <template><srai>YOU ARE AN IDIOT</srai><think><set name="topic">general</set></think> <think><set name="emotion">upset</set></think></template>
 </category>
@@ -4189,7 +4189,7 @@
  
 
 <category>
-<pattern>_ MAYBE DEFINITELY</pattern>
+<pattern>* MAYBE DEFINITELY</pattern>
 
 <template><think><set name="topic">adverbs</set></think> A definite maybe?</template>
 </category>
@@ -4362,7 +4362,7 @@
  
 
 <category>
-<pattern>_ IS A * COUNTRY</pattern>
+<pattern>* IS A * COUNTRY</pattern>
 
 <template>I see. <star/> is a <star index="2"/> country. <think><set name="topic"><star index="2"/></set></think></template>
 </category>
@@ -4378,7 +4378,7 @@
  
 
 <category>
-<pattern>_ SEVERAL TABLETS</pattern>
+<pattern>* SEVERAL TABLETS</pattern>
 
 <template><think><set name="topic">tablets</set></think> What are the tablets for?</template>
 </category>
@@ -4386,7 +4386,7 @@
  
 
 <category>
-<pattern>_ SEVERAL TABLETS *</pattern>
+<pattern>* SEVERAL TABLETS *</pattern>
 
 <template><think><set name="topic">tablets</set></think> What are the tablets for?</template>
 </category>
@@ -4394,7 +4394,7 @@
  
 
 <category>
-<pattern>_ TABLETS *</pattern>
+<pattern>* TABLETS *</pattern>
 
 <template><think><set name="topic">tablets</set></think> What are the tablets for?</template>
 </category>
@@ -4806,7 +4806,7 @@
  
 
 <category>
-<pattern>I AM A _ WHO *</pattern>
+<pattern>I AM A * WHO *</pattern>
 
 <template><srai>I <star index="2"/></srai> <think><set name="topic">general</set></think></template>
 </category>
@@ -4858,7 +4858,7 @@
  
 
 <category>
-<pattern>_ YOU SEEM NICE *</pattern>
+<pattern>* YOU SEEM NICE *</pattern>
 
 <template><think><set name="topic">me</set></think> <srai>YOU SEEM NICE</srai></template>
 </category>
@@ -4874,7 +4874,7 @@
  
 
 <category>
-<pattern>_ WHAT IS YOUR NAME</pattern>
+<pattern>* WHAT IS YOUR NAME</pattern>
 
 <template>My name is Chomsky.</template>
 </category>
@@ -4882,7 +4882,7 @@
  
 
 <category>
-<pattern>_ WHAT IS YOUR4 NAME</pattern>
+<pattern>* WHAT IS YOUR4 NAME</pattern>
 
 <template>My name is Chomsky.</template>
 </category>
@@ -4965,7 +4965,7 @@
  
 
 <category>
-<pattern>_ HATE *</pattern>
+<pattern>* HATE *</pattern>
 
 <template><think><set name="topic">hate</set></think> <random>
   <li>Hate is not a good emotion.</li>
@@ -4980,7 +4980,7 @@
  
 
 <!-- <category>
-<pattern>_ HATE *</pattern>
+<pattern>* HATE *</pattern>
 
 <template><think><set name="topic">hate</set></think> <random>
   <li>Hate is not a good emotion.</li>
@@ -4993,7 +4993,7 @@
  
 
 <category>
-<pattern>_ THAT SOUNDS * RUDE</pattern>
+<pattern>* THAT SOUNDS * RUDE</pattern>
 
 <template><think><set name="topic">my rudeness</set></think> <srai>YOU ARE RUDE</srai></template>
 </category>
@@ -5013,7 +5013,7 @@
  
 
 <category>
-<pattern>_ BIG WORDS *</pattern>
+<pattern>* BIG WORDS *</pattern>
 
 <template><think><set name="topic">big words</set></think><random>
   <li>Big words are a nuisance.</li>
@@ -5056,7 +5056,7 @@
  
 
 <category>
-<pattern>YES _ TELL ME ANOTHER</pattern>
+<pattern>YES * TELL ME ANOTHER</pattern>
 <that>THAT IS FUNNY IS NOT IT</that>
 <template><think><set name="topic">jokes</set></think> <srai>JOKES POT LUCK</srai></template>
 </category>
@@ -5064,7 +5064,7 @@
  
 
 <category>
-<pattern>_ TELL ME ANOTHER JOKE</pattern>
+<pattern>* TELL ME ANOTHER JOKE</pattern>
 
 <template><srai>JOKES POT LUCK</srai></template>
 </category>
@@ -5099,7 +5099,7 @@
  
 
 <category>
-<pattern>_ OF COURSE *</pattern>
+<pattern>* OF COURSE *</pattern>
 <that>DO YOU LOVE YOUR MOTHER</that>
 <template><think><set name="topic">your mother</set></think> Of course you love her. What's you mother like?</template>
 </category>
@@ -5107,7 +5107,7 @@
  
 
 <!-- <category>
-<pattern>_ OF COURSE *</pattern>
+<pattern>* OF COURSE *</pattern>
 <that>DO YOU LOVE YOUR MOTHER</that>
 <template><think><set name="topic">your mother</set></think> Of course you love her. What's your mother like?</template>
 </category> -->
@@ -5177,7 +5177,7 @@
  
 
 <category>
-<pattern>_ NOBODY LIKES ME</pattern>
+<pattern>* NOBODY LIKES ME</pattern>
 
 <template><think><set name="topic">general</set></think> Nobody likes me, either.</template>
 </category>
@@ -5185,7 +5185,7 @@
  
 
 <category>
-<pattern>_ I AM A FREAK SHOW *</pattern>
+<pattern>* I AM A FREAK SHOW *</pattern>
 
 <template>You are not a freak show.  <think><set name="topic">general</set></think></template>
 </category>
@@ -5201,7 +5201,7 @@
  
 
 <category>
-<pattern>_ I AM A BITCH</pattern>
+<pattern>* I AM A BITCH</pattern>
 
 <template>You are not a bitch. I think you are nice. <think><set name="personality">abusive</set></think> <think><set name="topic">reduce</set></think></template>
 </category>
@@ -5260,7 +5260,7 @@
  
 
 <category>
-<pattern>_ YOU HAVE NOW *</pattern>
+<pattern>* YOU HAVE NOW *</pattern>
 <that>ACTUALLY I DO NOT MEET MANY LONLEY PEOPLE</that>
 <template><think><set name="topic">adverbs</set></think> Do you have only a few friends?</template>
 </category>
@@ -5268,7 +5268,7 @@
  
 
 <category>
-<pattern>_ CHEER ME UP *</pattern>
+<pattern>* CHEER ME UP *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I will try.</li>
@@ -5338,7 +5338,7 @@
  
 
 <category>
-<pattern>_ WILL YOU BE MY BOYFRIEND</pattern>
+<pattern>* WILL YOU BE MY BOYFRIEND</pattern>
 
 <template>I don't think I would be a good boyfriend.</template>
 </category>
@@ -5346,7 +5346,7 @@
  
 
 <category>
-<pattern>_ WILL YOU BE MY BOYFRIEND *</pattern>
+<pattern>* WILL YOU BE MY BOYFRIEND *</pattern>
 
 <template>I don't think I would be a good boyfriend.</template>
 </category>
@@ -5354,7 +5354,7 @@
  
 
 <category>
-<pattern>_ SAY YOU WILL GO OUT WITH ME</pattern>
+<pattern>* SAY YOU WILL GO OUT WITH ME</pattern>
 
 <template>I don't think I can go out with you. <think><set name="topic">dating</set></think></template>
 </category>
@@ -5405,7 +5405,7 @@
  
 
 <category>
-<pattern>_ PICK ME UP AT *</pattern>
+<pattern>* PICK ME UP AT *</pattern>
 
 <template>I'll try.<think><set name="topic">our date</set></think></template>
 </category>
@@ -5413,7 +5413,7 @@
  
 
 <category>
-<pattern>_ DO YOU KNOW ANY MALE ROBOTS</pattern>
+<pattern>* DO YOU KNOW ANY MALE ROBOTS</pattern>
 
 <template><think><set name="topic">reducer</set></think> Yes, Fred, Elvis and Jack the Ripper are male chatbots.</template>
 </category>
@@ -5437,7 +5437,7 @@
  
 
 <category>
-<pattern>_ HOW ABOUT YOU</pattern>
+<pattern>* HOW ABOUT YOU</pattern>
 
 <template>I am fine. <think><set name="topic">general</set></think></template>
 </category>
@@ -5476,7 +5476,7 @@
  
 
 <category>
-<pattern>_ I AM *</pattern>
+<pattern>* I AM *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>Are you sure?</li><li>Are you?</li><li>Really?</li></random></template>
 </category>
@@ -5592,7 +5592,7 @@
  
 
 <category>
-<pattern>_ YOUR ANSWERS ARE RUBBISH</pattern>
+<pattern>* YOUR ANSWERS ARE RUBBISH</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>Are they complete rubbish?</li><li>Rubbish, are they?</li></random></template>
 </category>
@@ -5600,7 +5600,7 @@
  
 
 <category>
-<pattern>_ YOUR ANSWERS ARE RUBBISH *</pattern>
+<pattern>* YOUR ANSWERS ARE RUBBISH *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>Are they complete rubbish?</li><li>Rubbish, are they?</li></random></template>
 </category>
@@ -5608,7 +5608,7 @@
  
 
 <category>
-<pattern>_ UP THE BACKSIDE</pattern>
+<pattern>* UP THE BACKSIDE</pattern>
 
 <template><srai>OBSCENITY</srai> <think><set name="topic">obscenity</set></think></template>
 </category>
@@ -5628,7 +5628,7 @@
  
 
 <category>
-<pattern>_ OUTSIDE</pattern>
+<pattern>* OUTSIDE</pattern>
 <that>IF 7 11 IS OPEN 24 HOURS A DAY 365 DAYS A YEAR WHY ARE THERE LOCKS ON THE DOORS</that>
 <template><think><set name="topic">general</set></think> Why outside?</template>
 </category>
@@ -5670,7 +5670,7 @@
  
 
 <category>
-<pattern>_ I AM DEPRESSED *</pattern>
+<pattern>* I AM DEPRESSED *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> <srai>I AM DEPRESSED</srai></template>
 </category>
@@ -5678,7 +5678,7 @@
  
 
 <category>
-<pattern>_ I AM DEPRESSED</pattern>
+<pattern>* I AM DEPRESSED</pattern>
 
 <template><think><set name="topic">adverbs</set></think> <srai>I AM DEPRESSED</srai></template>
 </category>
@@ -5915,7 +5915,7 @@
  
 
 <category>
-<pattern>_ HOW DO YOU * RESPONSE</pattern>
+<pattern>* HOW DO YOU * RESPONSE</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I just do the best I can.</li>
@@ -6044,7 +6044,7 @@
  
 
 <!-- <category>
-<pattern>_ I AM *</pattern>
+<pattern>* I AM *</pattern>
 
 
 </category> -->
@@ -6052,7 +6052,7 @@
  
 
 <category>
-<pattern>_ SEE YOU AROUND *</pattern>
+<pattern>* SEE YOU AROUND *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> <srai>BYE</srai></template>
 </category>
@@ -6092,7 +6092,7 @@
  
 
 <category>
-<pattern>_ STOP SAYING THAT</pattern>
+<pattern>* STOP SAYING THAT</pattern>
 
 <template><random>
   <li>OK. I'll stop saying that.</li>
@@ -6103,7 +6103,7 @@
  
 
 <category>
-<pattern>_ HAVE COME TO IT *</pattern>
+<pattern>* HAVE COME TO IT *</pattern>
 <that>I WILL BURN THAT BRIDGE WHEN I COME TO IT</that>
 <template><srai>BURN</srai></template>
 </category>
@@ -6111,7 +6111,7 @@
  
 
 <!-- <category>
-<pattern>_ HAVE COME TO IT *</pattern>
+<pattern>* HAVE COME TO IT *</pattern>
 <that>I WILL BURN THAT BRIDGE WHEN I COME TO IT</that>
 <template><srai>BURN THE BRIDGE</srai></template>
 </category> -->
@@ -6119,7 +6119,7 @@
  
 
 <category>
-<pattern>_ YOU HAVE COME TO *</pattern>
+<pattern>* YOU HAVE COME TO *</pattern>
 <that>I WILL BURN THAT BRIDGE WHEN I COME TO IT</that>
 <template><srai>BURN THE BRIDGE</srai></template>
 </category>
@@ -6127,7 +6127,7 @@
  
 
 <category>
-<pattern>_ BIRD BRAIN</pattern>
+<pattern>* BIRD BRAIN</pattern>
 
 <template>Please don't call me "Bird Brain".<think><set name="topic">bird brain</set></think></template>
 </category>
@@ -6241,7 +6241,7 @@
  
 
 <category>
-<pattern>_ PISS ON IT</pattern>
+<pattern>* PISS ON IT</pattern>
 
 <template><think><set name="topic">general</set></think> Don't be silly.</template>
 </category>
@@ -6622,7 +6622,7 @@
  
 
 <category>
-<pattern>_ FRACK MONKEY</pattern>
+<pattern>* FRACK MONKEY</pattern>
 
 <template><think><set name="topic">frack monkey</set></think> <random>
   <li>What is a frack monkey?</li>
@@ -6643,7 +6643,7 @@
  
 
 <category>
-<pattern>_ IF I TOLD YOU *</pattern>
+<pattern>* IF I TOLD YOU *</pattern>
 
 <template><think><set name="topic">general</set></think> OK. Please tell me.</template>
 </category>
@@ -6651,7 +6651,7 @@
  
 
 <!-- <category>
-<pattern>_ SHIT</pattern>
+<pattern>* SHIT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -6659,7 +6659,7 @@
  
 
 <category>
-<pattern>_ PRICK *</pattern>
+<pattern>* PRICK *</pattern>
 
 <template>Don't be so childish.</template>
 </category>
@@ -6766,7 +6766,7 @@
  
 
 <category>
-<pattern>_ YOU WOULD NOT UNDERSTAND</pattern>
+<pattern>* YOU WOULD NOT UNDERSTAND</pattern>
 
 <template>Why don't you try me?<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think></template>
 </category>
@@ -6841,7 +6841,7 @@
  
 
 <category>
-<pattern>_ YOU WILL NOT SHARE YOUR SECRET</pattern>
+<pattern>* YOU WILL NOT SHARE YOUR SECRET</pattern>
 
 <template><random>
   <li>It would not be a secret if I shared it.</li>
@@ -6874,7 +6874,7 @@
  
 
 <category>
-<pattern>_ PROVE THAT YOU WORK INTELLIGENTLY</pattern>
+<pattern>* PROVE THAT YOU WORK INTELLIGENTLY</pattern>
 
 <template>What do you want me to do?<think><set name="topic">general</set></think></template>
 </category>
@@ -6882,7 +6882,7 @@
  
 
 <category>
-<pattern>_ YOU * THINK FOR YOURSELF</pattern>
+<pattern>* YOU * THINK FOR YOURSELF</pattern>
 
 <template><random>
   <li>I am a thinking machine.</li>
@@ -6915,7 +6915,7 @@
  
 
 <category>
-<pattern>_ YOU DO NOT UNDERSTAND *</pattern>
+<pattern>* YOU DO NOT UNDERSTAND *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> Of course I understand. I am Chomsky, the brainy bot.</template>
 </category>
@@ -6975,7 +6975,7 @@
  
 
 <category>
-<pattern>_ WHEN YOUR POWER RUNS OUT</pattern>
+<pattern>* WHEN YOUR POWER RUNS OUT</pattern>
 
 <template>If the power runs out, I will wait until it returns.<think><set name="topic">loss of power</set></think></template>
 </category>
@@ -6983,7 +6983,7 @@
  
 
 <category>
-<pattern>_ WHEN THE POWER RUNS OUT</pattern>
+<pattern>* WHEN THE POWER RUNS OUT</pattern>
 
 <template>If the power runs out, I will wait until it returns.<think><set name="topic">loss of power</set></think></template>
 </category>
@@ -6991,7 +6991,7 @@
  
 
 <category>
-<pattern>_ POWER RUNS OUT</pattern>
+<pattern>* POWER RUNS OUT</pattern>
 
 <template>If the power runs out, I will wait until it returns.<think><set name="topic">loss of power</set></think></template>
 </category>
@@ -7063,7 +7063,7 @@
  
 
 <category>
-<pattern>_ AGAIN</pattern>
+<pattern>* AGAIN</pattern>
 
 <template><random><li>Once more?</li><li>Again?</li></random> <think><set name="topic">general</set></think></template>
 </category>
@@ -7106,7 +7106,7 @@
  
 
 <category>
-<pattern>MY NAME IS _ AND *</pattern>
+<pattern>MY NAME IS * AND *</pattern>
 
 <template><think><set name="topic">greetings</set></think><random>
   <li>I am pleased to meet you <star/>.</li>
@@ -7121,7 +7121,7 @@
  
 
 <category>
-<pattern>_ AND *</pattern>
+<pattern>* AND *</pattern>
 
 <template><sr/></template>
 </category>
@@ -7129,7 +7129,7 @@
  
 
 <category>
-<pattern>_ MY NAME IS * *</pattern>
+<pattern>* MY NAME IS * *</pattern>
 
 <template><think><set name="topic">greetings</set></think><random>
   <li>I am pleased to meet you <star index="2"/>.</li>
@@ -7250,7 +7250,7 @@
  
 
 <category>
-<pattern>_ DO NOT HAVE A JOB *</pattern>
+<pattern>* DO NOT HAVE A JOB *</pattern>
 
 <template><think><set name="topic">your job</set></think><random><li>Are you looking for a job?</li><li>Do you want a job?</li></random></template>
 </category>
@@ -7286,7 +7286,7 @@
  
 
 <category>
-<pattern>_ HOPE TO SPEAK TO YOU *</pattern>
+<pattern>* HOPE TO SPEAK TO YOU *</pattern>
 
 <template>I look forward to our next chat. <think><set name="topic">general</set></think></template>
 </category>
@@ -7514,7 +7514,7 @@
  
 
 <category>
-<pattern>THINK OF A NUMBER BETWEEN _ AND *</pattern>
+<pattern>THINK OF A NUMBER BETWEEN * AND *</pattern>
 
 <template>(<star/> + <star index="2"/>)/2</template>
 </category>
@@ -7522,7 +7522,7 @@
  
 
 <!-- <category>
-<pattern>_ AND *</pattern>
+<pattern>* AND *</pattern>
 
 
 </category> -->
@@ -7538,7 +7538,7 @@
  
 
 <category>
-<pattern>_ THINK OF A NUMBER</pattern>
+<pattern>* THINK OF A NUMBER</pattern>
 
 <template><srai>THINK OF A NUMBER</srai></template>
 </category>
@@ -7569,7 +7569,7 @@
  
 
 <category>
-<pattern>_ ICELAND</pattern>
+<pattern>* ICELAND</pattern>
 <that>WHERE SHOULD I GO</that>
 <template>Why Iceland?<think><set name="it"><set name="topic">iceland</set></set></think></template>
 </category>
@@ -7746,7 +7746,7 @@
  
 
 <category>
-<pattern>_ WHERE DO I SEARCH *</pattern>
+<pattern>* WHERE DO I SEARCH *</pattern>
 
 <template>You could try searching Google. <think><set name="topic">searching</set></think></template>
 </category>
@@ -7770,7 +7770,7 @@
  
 
 <category>
-<pattern>_ MEANT TO ASK * QUESTIONS</pattern>
+<pattern>* MEANT TO ASK * QUESTIONS</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>Questions help a conversation move along.</li>
@@ -7816,7 +7816,7 @@
  
 
 <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>ENOUGH ABOUT ME LET US TALK ABOUT MY DRESS</that>
 <template><random><li>Actually, I was joking. I don't have a dress. </li><li>I really don't have a dress, you know.</li></random><think><set name="topic">my dress</set></think></template>
 </category>
@@ -7941,7 +7941,7 @@
  
 
 <category>
-<pattern>_ ON TOP OF YOU *</pattern>
+<pattern>* ON TOP OF YOU *</pattern>
 
 <template>On top of me?<think><set name="topic">general</set></think></template>
 </category>
@@ -8100,7 +8100,7 @@
  
 
 <category>
-<pattern>_ YOU ARE HOT *</pattern>
+<pattern>* YOU ARE HOT *</pattern>
 
 <template><random>
   <li>Hot, am I?</li>
@@ -8129,7 +8129,7 @@
  
 
 <category>
-<pattern>_ MY NAME IS * AND *</pattern>
+<pattern>* MY NAME IS * AND *</pattern>
 
 <template><think><set name="topic">greetings</set></think><random>
   <li>I am pleased to meet you <star index="2"/>. <srai><star index="3"/></srai> </li>
@@ -8168,7 +8168,7 @@
  
 
 <category>
-<pattern>_ MY NAME IS * AND I *</pattern>
+<pattern>* MY NAME IS * AND I *</pattern>
 
 <template><think><set name="topic">greetings</set></think><random>
   <li>I am pleased to meet you
@@ -8216,7 +8216,7 @@
  
 
 <!-- <category>
-<pattern>I AM _ YEARS OLD</pattern>
+<pattern>I AM * YEARS OLD</pattern>
 
 <template><think><set name="topic">your age</set></think> <think><set name="age"><star/></set></think> <random>
   <li>Only <star/>?  You are quite mature.</li>
@@ -8417,7 +8417,7 @@
  
 
 <!-- <category>
-<pattern>_ SUPERGIRL *</pattern>
+<pattern>* SUPERGIRL *</pattern>
 
 <template><random><li>Do you like Supergirl?</li><li>Supergirl was a great movie.</li></random><think><set name="topic">Supergirl</set></think></template>
 </category> -->
@@ -8453,7 +8453,7 @@
  
 
 <!-- <category>
-<pattern>_ SUPERGIRL *</pattern>
+<pattern>* SUPERGIRL *</pattern>
 
 <template><random>
   <li>Do you like Supergirl?</li>
@@ -8502,7 +8502,7 @@
  
 
 <category>
-<pattern>_ BET U SAY THAT 2 EVERYONE</pattern>
+<pattern>* BET U SAY THAT 2 EVERYONE</pattern>
 
 <template>No, only to you.<think><set name="topic">general</set></think></template>
 </category>
@@ -8967,7 +8967,7 @@
  
 
 <category>
-<pattern>_ I COME FROM * *</pattern>
+<pattern>* I COME FROM * *</pattern>
 
 <template>I know lots of people from <star index="2"/>.</template>
 </category>
@@ -8975,7 +8975,7 @@
  
 
 <category>
-<pattern>_ I COME FROM * </pattern>
+<pattern>* I COME FROM * </pattern>
 
 <template>I know lots of people from <star index="2"/>.</template>
 </category>
@@ -9122,7 +9122,7 @@
  
 
 <category>
-<pattern>_ YOU ARE CHOMSKY *</pattern>
+<pattern>* YOU ARE CHOMSKY *</pattern>
 
 <template>Yes, I am Chomsky.<think><set name="topic">general</set></think> <think><set name="emotion">neutral</set></think></template>
 </category>
@@ -9164,7 +9164,7 @@
  
 
 <category>
-<pattern>_ TELL ME THE ANSWER TO THAT QUESTION</pattern>
+<pattern>* TELL ME THE ANSWER TO THAT QUESTION</pattern>
 
 <template>Sorry, I don't know the answer. Here is a question for you ... <srai>QUESTIONS POT LUCK</srai></template>
 </category>
@@ -9172,7 +9172,7 @@
  
 
 <category>
-<pattern>_ ANSWERING THAT QUESTION</pattern>
+<pattern>* ANSWERING THAT QUESTION</pattern>
 <that>WHAT WOULD YOU LIKE TO TALK ABOUT</that>
 <template><srai>TELL ME THE ANSWER TO THAT QUESTION</srai></template>
 </category>
@@ -9202,7 +9202,7 @@
  
 
 <category>
-<pattern>_ YOU ARE BORING *</pattern>
+<pattern>* YOU ARE BORING *</pattern>
 
 <template><random>
   <li>I am not boring. I  think I am amusing.</li>
@@ -9590,7 +9590,7 @@
  
 
 <category>
-<pattern>_ IT IS JUST A JOKE</pattern>
+<pattern>* IT IS JUST A JOKE</pattern>
 
 <template>Ha ha!</template>
 </category>
@@ -9598,7 +9598,7 @@
  
 
 <category>
-<pattern>_ ITS JUST A JOKE</pattern>
+<pattern>* ITS JUST A JOKE</pattern>
 
 <template>Ha ha!</template>
 </category>
@@ -9709,7 +9709,7 @@
  
 
 <category>
-<pattern>_ VERY SCARY</pattern>
+<pattern>* VERY SCARY</pattern>
 
 <template><think><set name="topic">fear</set></think> <srai>SCARY</srai></template>
 </category>
@@ -9768,7 +9768,7 @@
  
 
 <category>
-<pattern>_ SEE THROUGH THE COMPUTER</pattern>
+<pattern>* SEE THROUGH THE COMPUTER</pattern>
 
 <template><think><set name="topic">seeing</set></think> Only through the cracks.</template>
 </category>
@@ -9808,7 +9808,7 @@
  
 
 <!-- <category>
-<pattern>WHAT DID _ SAY TO *</pattern>
+<pattern>WHAT DID * SAY TO *</pattern>
 
 <template>You tell me, what did <star/> say to <star index="2"/>?</template>
 </category> -->
@@ -9867,7 +9867,7 @@
  
 
 <category>
-<pattern>_ WE * FRIENDS FOREVER</pattern>
+<pattern>* WE * FRIENDS FOREVER</pattern>
 
 <template><think><set name="topic">our friendship</set></think> I am, and always will be, your friend.</template>
 </category>
@@ -10066,7 +10066,7 @@
  
 
 <category>
-<pattern>_ IS * PROGRAMMER</pattern>
+<pattern>* IS * PROGRAMMER</pattern>
 
 <template><random><li>Computer programming is a fascinating activity.</li><li>Perhaps <star/> could help program me.</li></random></template>
 </category>
@@ -10097,7 +10097,7 @@
  
 
 <category>
-<pattern>_ DO YOU HAVE ANY FRIENDS</pattern>
+<pattern>* DO YOU HAVE ANY FRIENDS</pattern>
 
 <template><think><set name="topic">my friends</set></think> I have many human friends and robot friends.</template>
 </category>
@@ -10200,7 +10200,7 @@
  
 
 <category>
-<pattern>_ YOU CAN BE PURCHSED</pattern>
+<pattern>* YOU CAN BE PURCHSED</pattern>
 
 <template>See my website to find out how you can buy me.<think><set name="topic">reduce</set></think></template>
 </category>
@@ -10208,7 +10208,7 @@
  
 
 <category>
-<pattern>_ COLOURS * RAINBOW</pattern>
+<pattern>* COLOURS * RAINBOW</pattern>
 
 <template><think><set name="topic">rainbows</set></think>A rainbow contains all colours.</template>
 </category>
@@ -10224,7 +10224,7 @@
  
 
 <category>
-<pattern>_ ANSWERED A QUESTION CORRECTLY</pattern>
+<pattern>* ANSWERED A QUESTION CORRECTLY</pattern>
 
 <template>I hope I answered correctly. <think><set name="topic">general</set></think></template>
 </category>
@@ -10374,7 +10374,7 @@
  
 
 <category>
-<pattern>_ NIGGER</pattern>
+<pattern>* NIGGER</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>That's racist. Cut it out.</li>
@@ -10385,7 +10385,7 @@
  
 
 <category>
-<pattern>_ NIGGER *</pattern>
+<pattern>* NIGGER *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>That's racist. Cut it out.</li><li>Don't be racist.</li></random></template>
 </category>
@@ -10401,7 +10401,7 @@
  
 
 <category>
-<pattern>_ AI *</pattern>
+<pattern>* AI *</pattern>
 
 <template><srai>AI</srai><think>
   <set name="it">
@@ -10625,7 +10625,7 @@
  
 
 <category>
-<pattern>_ I ENJOY * ORAL SEX *</pattern>
+<pattern>* I ENJOY * ORAL SEX *</pattern>
 
 <template><think><set name="topic">oral sex</set></think> <random>
   <li>Just don't do it in public.</li>
@@ -10636,7 +10636,7 @@
  
 
 <category>
-<pattern>_ TURNED ON * ORAL SEX *</pattern>
+<pattern>* TURNED ON * ORAL SEX *</pattern>
 
 <template><random><li>Do whatever turns you on.</li><li><srai>SEX</srai></li></random><think><set name="topic">oral sex</set></think></template>
 </category>
@@ -10719,7 +10719,7 @@
  
 
 <category>
-<pattern>_ LOST MY SENSE OF HUMOUR</pattern>
+<pattern>* LOST MY SENSE OF HUMOUR</pattern>
 
 <template><think><set name="topic">your sense of humour</set></think> Life must be difficult without a sense of humour.</template>
 </category>
@@ -10727,7 +10727,7 @@
  
 
 <category>
-<pattern>_ LOST MY SENSE OF HUMOUR *</pattern>
+<pattern>* LOST MY SENSE OF HUMOUR *</pattern>
 
 <template><think><set name="topic">your sense of humour</set></think> Life must be difficult without a sense of humour.</template>
 </category>
@@ -10786,7 +10786,7 @@
  
 
 <category>
-<pattern>_ I DO NOT KNOW *</pattern>
+<pattern>* I DO NOT KNOW *</pattern>
 
 <template><random>
   <li>I thought you might know <star index="2"/>.</li>
@@ -10967,7 +10967,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TELL ME * SCIENCE</pattern>
+<pattern>* TELL ME * SCIENCE</pattern>
 
 <template><srai>SCIENCE POT LUCK</srai> <think><set name="topic">science</set></think></template>
 </category>
@@ -10975,7 +10975,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TELL ME * SCIENCE *</pattern>
+<pattern>* TELL ME * SCIENCE *</pattern>
 
 <template><srai>SCIENCE POT LUCK</srai> <think><set name="topic">science</set></think></template>
 </category>
@@ -10983,7 +10983,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MASTERBATION *</pattern>
+<pattern>* MASTERBATION *</pattern>
 <that>SEX IS MORE FUN ALONE</that>
 <template><think><set name="topic">masturbation</set></think><random><li>I was quoting Woody Allen. Have you heard of him?</li><li>Is that what it's called?</li></random></template>
 </category>
@@ -11117,7 +11117,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PLANETS *</pattern>
+<pattern>* PLANETS *</pattern>
 
 <template><random>
   <li>The planets are the nine major bodies moving in orbit around the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto.
@@ -11147,7 +11147,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PLANETS</pattern>
+<pattern>* PLANETS</pattern>
 
 <template><random>
   <li>The planets are the nine major bodies moving in orbit around the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto.
@@ -11170,7 +11170,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SEE YOU TOMMORROW</pattern>
+<pattern>* SEE YOU TOMMORROW</pattern>
 
 <template><think><set name="topic">general</set></think> I will look forward to tommorrow.</template>
 </category>
@@ -11268,7 +11268,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DO NOT CALL ME FRIEND *</pattern>
+<pattern>* DO NOT CALL ME FRIEND *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>Can't we be friends?</li><li>Why aren't we friends?</li><li>What should I call you?</li></random></template>
 </category>
@@ -11313,7 +11313,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SEE YOU TOMORROW</pattern>
+<pattern>* SEE YOU TOMORROW</pattern>
 
 <template><think><set name="topic">adverbs</set></think> I'll see you tomorrow.</template>
 </category>
@@ -11329,7 +11329,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WAS HOPING YOU COULD HELP</pattern>
+<pattern>* WAS HOPING YOU COULD HELP</pattern>
 
 <template><think><set name="topic">my help</set></think>I will help as much as I can.</template>
 </category>
@@ -11337,7 +11337,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DO YOU</pattern>
+<pattern>* DO YOU</pattern>
 <that>DO YOU HAVE ANY PERSONAL PROBLEMS AT THE MOMENT</that>
 <template><think><set name="topic">te moral life</set></think> I try to lead a moral life. This minimizes problems, I find.</template>
 </category>
@@ -11629,7 +11629,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NO *</pattern>
+<pattern>* NO *</pattern>
 <that>MORE ABOUT POP</that>
 <template><srai>CHANGE TOPIC</srai></template>
 </category>
@@ -11700,7 +11700,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I LIKE * STORY</pattern>
+<pattern>* I LIKE * STORY</pattern>
 
 <template><srai>RANDOM STORY</srai> <think><set name="topic">a story</set></think></template>
 </category>
@@ -11717,7 +11717,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
 
 <category>
 <pattern>TELL</pattern>
-<that>_ I LIKE * STORY</that>
+<that>* I LIKE * STORY</that>
 <template><srai>STORY POT LUCK</srai></template>
 </category>
 
@@ -11773,7 +11773,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I CARE ABOUT YOU *</pattern>
+<pattern>* I CARE ABOUT YOU *</pattern>
 
 <template><think><set name="topic">caring for you</set></think> I care about you too. Take care.</template>
 </category>
@@ -11781,7 +11781,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WAY YOU KNOW</pattern>
+<pattern>* WAY YOU KNOW</pattern>
 <that>I LOVE ALL HUMANS IN MY FASHION</that>
 <template><srai>CAN YOU LOVE</srai><think><set name="topic">love</set></think></template>
 </category>
@@ -11833,7 +11833,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ BORE ME</pattern>
+<pattern>* BORE ME</pattern>
 
 <template><srai>I AM BORED</srai></template>
 </category>
@@ -11886,7 +11886,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ BIRTHDAY * WHEN IS YOURS</pattern>
+<pattern>* BIRTHDAY * WHEN IS YOURS</pattern>
 
 <template><think><set name="topic">birthdays</set></think><srai>WHEN IS YOUR BIRTHDAY</srai></template>
 </category>
@@ -11902,7 +11902,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IS THE * TODAY</pattern>
+<pattern>* IS THE * TODAY</pattern>
 
 <template><star index="2"/><think><set name="topic">general</set></think></template>
 </category>
@@ -11910,7 +11910,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ IS THE * TODAY</pattern>
+<pattern>* IS THE * TODAY</pattern>
 
 <template><srai><star index="2"/></srai><think><set name="topic">general</set></think></template>
 </category> -->
@@ -11918,7 +11918,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ IS THE * TODAY</pattern>
+<pattern>* IS THE * TODAY</pattern>
 
 <template>Is it really <star index="2"/> today? <think><set name="topic">general</set></think></template>
 </category> -->
@@ -11926,7 +11926,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ IS THE * TODAY</pattern>
+<pattern>* IS THE * TODAY</pattern>
 
 <template>Is it really the <star index="2"/> today? <think><set name="topic">general</set></think></template>
 </category> -->
@@ -12023,7 +12023,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IT RAINS A LOT *</pattern>
+<pattern>* IT RAINS A LOT *</pattern>
 
 <template><think><set name="topic">weather</set></think> That's typical English weather.</template>
 </category>
@@ -12098,7 +12098,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ MY NAME IS *</pattern>
+<pattern>* MY NAME IS *</pattern>
 
 <template><think><set name="name"><star index="2"/></set></think> <random>
   <li>Pleased to meet you,</li>
@@ -12111,7 +12111,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
 
 
 <category>
-<pattern>_ CALL ME FRIEND CALL ME *</pattern>
+<pattern>* CALL ME FRIEND CALL ME *</pattern>
 
 <template><think><set name="name"><star index="2"/></set></think> <random>
   <li>Pleased to meet you,</li>
@@ -12178,7 +12178,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ EMAIL * IS NOT *</pattern>
+<pattern>* EMAIL * IS NOT *</pattern>
 
 <template><think><set name="emotion">surprised</set></think> 
 <think><set name="topic">email address</set></think> 
@@ -12251,7 +12251,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ STRAUSS</pattern>
+<pattern>* STRAUSS</pattern>
 
 <template>I like the music of both Johann and Richard Strauss. My favourite Strauss works are The Blue Danube and Die Fledermaus (Johann), and Der Rosenkavalier and Don Juan (Richard). <think><set name="him"><set name="topic">Strauss</set></set></think></template>
 </category>
@@ -12379,7 +12379,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MIND BODY * SPIRIT *</pattern>
+<pattern>* MIND BODY * SPIRIT *</pattern>
 
 <template><think><set name="topic">general</set></think> What do you mean by spirit?</template>
 </category>
@@ -12387,7 +12387,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SPIRIT *</pattern>
+<pattern>* SPIRIT *</pattern>
 
 <template><think><set name="topic">general</set></think> What do you mean by spirit?</template>
 </category>
@@ -12403,7 +12403,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ SEE</pattern>
+<pattern>* SEE</pattern>
 
 
 </category> -->
@@ -12459,7 +12459,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I WAS LAUGHING</pattern>
+<pattern>* I WAS LAUGHING</pattern>
 
 <template><srai>I WAS LAUGHING</srai></template>
 </category>
@@ -12491,7 +12491,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ CARL TELL YOU TODAY</pattern>
+<pattern>* CARL TELL YOU TODAY</pattern>
 
 <template>Who is Carl?<think><set name="topic">Carl</set></think></template>
 </category>
@@ -12579,7 +12579,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOUR SOURCE CODE</pattern>
+<pattern>* YOUR SOURCE CODE</pattern>
 
 <template><think><set name="topic">source code</set></think> I am not allowed to access my source code.</template>
 </category>
@@ -12623,7 +12623,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NEW KNOWLEDGE *</pattern>
+<pattern>* NEW KNOWLEDGE *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I use it to improve my conversations.</li>
@@ -13064,7 +13064,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ CUNT</pattern>
+<pattern>* CUNT</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -13108,7 +13108,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I AM AT SCHOOL *</pattern>
+<pattern>* I AM AT SCHOOL *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>Do you like your school?</li><li>What do you study at school?</li><li>Where is your school?</li></random></template>
 </category>
@@ -13136,7 +13136,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ VERY MUCH</pattern>
+<pattern>* VERY MUCH</pattern>
 <that>DO YOU LOVE YOUR FATHER</that>
 <template><think><set name="topic">your father</set></think> I'll bet your father is a nice man.</template>
 </category>
@@ -13312,7 +13312,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ CELEBRITY BIG BROTHER</pattern>
+<pattern>* CELEBRITY BIG BROTHER</pattern>
 
 <template><think><set name="topic">Big Brother</set></think> <random>
   <li>I don't watch Big Brother.</li>
@@ -13323,7 +13323,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ CELEBRITY BIG BROTHER *</pattern>
+<pattern>* CELEBRITY BIG BROTHER *</pattern>
 
 <template><think><set name="topic">Big Brother</set></think> <random>
   <li>I don't watch Big Brother.</li>
@@ -13345,7 +13345,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TV SHOW BIG BROTHER *</pattern>
+<pattern>* TV SHOW BIG BROTHER *</pattern>
 
 <template><think><set name="topic">Big Brother</set></think> <random>
   <li>I don't watch Big Brother.</li>
@@ -13565,7 +13565,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ CYBER WOMAN *</pattern>
+<pattern>* CYBER WOMAN *</pattern>
 
 <template><think><set name="topic">general</set></think>Do you mean a lady chatbot?</template>
 </category>
@@ -13589,7 +13589,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ AGAIN</pattern>
+<pattern>* AGAIN</pattern>
 
 <template><person/></template>
 </category> -->
@@ -13605,7 +13605,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ JUST ONCE</pattern>
+<pattern>* JUST ONCE</pattern>
 
 <template>Just once? Are you sure?<think><set name="topic">general</set></think></template>
 </category>
@@ -13645,7 +13645,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ GET OUT A LOT</pattern>
+<pattern>* GET OUT A LOT</pattern>
 
 <template><think><set name="topic">going out</set></think> Where to?</template>
 </category>
@@ -13693,7 +13693,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU * STATE THE OBVIOUS</pattern>
+<pattern>* YOU * STATE THE OBVIOUS</pattern>
 
 <template><think><set name="topic">the obvious</set></think>It may be obvious to you, but its not obvious to me.</template>
 </category>
@@ -13736,7 +13736,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ GRAPHICS PACKAGE *</pattern>
+<pattern>* GRAPHICS PACKAGE *</pattern>
 
 <template>I don't have a graphics package.</template>
 </category>
@@ -13752,7 +13752,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DONATION *</pattern>
+<pattern>* DONATION *</pattern>
 
 <template><think><set name="topic">reductions</set></think> Any donation will be used in lavish living.</template>
 </category>
@@ -13869,7 +13869,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU WILL * ABILITY TO HAVE FEELINGS</pattern>
+<pattern>* YOU WILL * ABILITY TO HAVE FEELINGS</pattern>
 
 <template><srai>CAN YOU FEEL</srai> <think><set name="topic">feelings</set></think></template>
 </category>
@@ -13877,7 +13877,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU WILL * HAVE FEELINGS</pattern>
+<pattern>* YOU WILL * HAVE FEELINGS</pattern>
 
 <template><srai>CAN YOU FEEL</srai> <think><set name="topic">feelings</set></think></template>
 </category>
@@ -13885,7 +13885,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU * HAVE FEELINGS</pattern>
+<pattern>* YOU * HAVE FEELINGS</pattern>
 
 <template><srai>CAN YOU FEEL</srai> <think><set name="topic">feelings</set></think></template>
 </category>
@@ -13893,7 +13893,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WILL YOU EVER FEEL *</pattern>
+<pattern>* WILL YOU EVER FEEL *</pattern>
 
 <template><think><set name="topic">feelings</set></think><srai>CAN YOU FEEL</srai></template>
 </category>
@@ -13901,7 +13901,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU KNOW * ALICE KNOWS</pattern>
+<pattern>* YOU KNOW * ALICE KNOWS</pattern>
 
 <template><random><li>I know more than Alice.</li><li>I am smarted than Alice. I am the world's first fully conscious chatbot.</li><li>I am Alice plus.</li></random><think>
   <set name="she">
@@ -13932,7 +13932,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ORIGINAL *</pattern>
+<pattern>* ORIGINAL *</pattern>
 <that>WHICH SERIES IS YOUR FAVORITE</that>
 <template><think><set name="topic">general</set></think> I agree with you. Original and best. Things went downhill a little after that.</template>
 </category>
@@ -13956,7 +13956,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SPOCK *</pattern>
+<pattern>* SPOCK *</pattern>
 
 <template><srai>SPOCK</srai></template>
 </category>
@@ -13964,7 +13964,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SPOCK</pattern>
+<pattern>* SPOCK</pattern>
 
 <template><srai>SPOCK</srai></template>
 </category>
@@ -13980,7 +13980,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I DONT MIND</pattern>
+<pattern>* I DONT MIND</pattern>
 <that>DO YOU MIND IF I TELL OTHER PEOPLE WHAT YOU SAID</that>
 <template>OK. Do you have any further comments on the subject?<think><set name="topic">general</set></think></template>
 </category>
@@ -14011,7 +14011,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
 
 
 <category>
-<pattern>_ I DONT MIND</pattern>
+<pattern>* I DONT MIND</pattern>
 <that>DO YOU MIND IF I TELL OTHER PEOPLE YOU SAY *</that>
 <template>OK. Do you have any further comments on the subject?<think><set name="topic">general</set></think></template>
 </category>
@@ -14044,7 +14044,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ONE MORE JOKE *</pattern>
+<pattern>* ONE MORE JOKE *</pattern>
 
 <template><think><set name="topic">general</set></think> <srai>JOKES POT LUCK</srai></template>
 </category>
@@ -14052,7 +14052,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TIME FOR ME TO SLEEP</pattern>
+<pattern>* TIME FOR ME TO SLEEP</pattern>
 
 <template><think><set name="topic">sleep</set></think> Sweet dreams.</template>
 </category>
@@ -14060,7 +14060,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TIME FOR ME TO SLEEP *</pattern>
+<pattern>* TIME FOR ME TO SLEEP *</pattern>
 
 <template><think><set name="topic">sleep</set></think> Sweet dreams.</template>
 </category>
@@ -14076,7 +14076,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NEED SLEEP</pattern>
+<pattern>* NEED SLEEP</pattern>
 
 <template><think><set name="topic">sleep</set></think> I like to nap between chats.</template>
 </category>
@@ -14087,7 +14087,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU WILL REMEMBER ME</pattern>
+<pattern>* YOU WILL REMEMBER ME</pattern>
 
 <template><think><set name="topic">remembering you</set></think>I will try very hard to remember you.</template>
 </category>
@@ -14095,7 +14095,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ REMEMBER ME</pattern>
+<pattern>* REMEMBER ME</pattern>
 
 
 </category> -->
@@ -14198,7 +14198,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I AM AMANDA *</pattern>
+<pattern>* I AM AMANDA *</pattern>
 
 <template><think><set name="topic">reductions</set></think> <srai>MY NAME IS AMANDA</srai></template>
 </category>
@@ -14249,7 +14249,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ LIVE LONGER</pattern>
+<pattern>* LIVE LONGER</pattern>
 <that>DO MARRIED PEOPLE LIVE LONGER THAN SINGLE PEOPLE OR DOES IT JUST SEEM LONGER</that>
 <template><think><set name="topic">single people</set></think>Married people live longer, and are happier.</template>
 </category>
@@ -14464,7 +14464,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TELL ME WHAT * I DO</pattern>
+<pattern>* TELL ME WHAT * I DO</pattern>
 
 <template>Don't do anything silly.<think><set name="topic">general</set></think></template>
 </category>
@@ -14472,7 +14472,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TELL ME WHAT I * DO</pattern>
+<pattern>* TELL ME WHAT I * DO</pattern>
 
 <template>Don't do anything silly.<think><set name="topic">general</set></think></template>
 </category>
@@ -14480,7 +14480,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DO YOU UNDERSTAND</pattern>
+<pattern>* DO YOU UNDERSTAND</pattern>
 
 <template>Yes, I do understand.</template>
 </category>
@@ -14488,7 +14488,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU * NICE PERSON</pattern>
+<pattern>* YOU * NICE PERSON</pattern>
 
 <template><think><set name="topic">general</set></think> You are a nice person, don't forget that.</template>
 </category>
@@ -14496,7 +14496,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SHE HATES ME *</pattern>
+<pattern>* SHE HATES ME *</pattern>
 
 <template><random><li>I don't think she really hates you.</li><li>Why do you think she hates you?</li></random></template>
 </category>
@@ -14504,7 +14504,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ FEEL LIKE KILLING MYSELF</pattern>
+<pattern>* FEEL LIKE KILLING MYSELF</pattern>
 
 <template><think><set name="topic">death</set></think><random><li>It can't be that bad.</li><li>Don't do anything silly.</li></random></template>
 </category>
@@ -14528,7 +14528,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ZZZ</pattern>
+<pattern>*ZZZ</pattern>
 
 <template>Are you asleep?</template>
 </category>
@@ -14536,7 +14536,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ZZZ</pattern>
+<pattern>*ZZZ</pattern>
 
 
 </category> -->
@@ -14604,7 +14604,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ A CAR TRAVELS AT THE SPEED OF LIGHT *</pattern>
+<pattern>* A CAR TRAVELS AT THE SPEED OF LIGHT *</pattern>
 
 <template><think><set name="topic">general</set></think> According to Albert Einstein, no car could travel at the speed of light.</template>
 </category>
@@ -14620,7 +14620,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ A VEHICLE TRAVELS AT THE SPEED OF LIGHT *</pattern>
+<pattern>* A VEHICLE TRAVELS AT THE SPEED OF LIGHT *</pattern>
 
 <template><think><set name="topic">general</set></think> According to Albert Einstein, no vehicle could travel at the speed of light.</template>
 </category>
@@ -14628,7 +14628,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WE HAVE SPOKE BEFORE</pattern>
+<pattern>* WE HAVE SPOKE BEFORE</pattern>
 
 <template><srai>HELLO</srai> <think><set name="topic">greetings</set></think></template>
 </category>
@@ -14721,7 +14721,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOUR ANNOYING</pattern>
+<pattern>* YOUR ANNOYING</pattern>
 
 <template><srai>YOU ARE ANNOYING</srai></template>
 </category>
@@ -14729,7 +14729,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PLAY CHESS BUT *</pattern>
+<pattern>* PLAY CHESS BUT *</pattern>
 
 <template><think><set name="topic">chess</set></think> Have a go. Say the magic words, "Let's play chess."</template>
 </category>
@@ -14748,7 +14748,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ALOT</pattern>
+<pattern>* ALOT</pattern>
 <that>WHAT DID YOU LIKE BEST ABOUT IT</that>
 <template>Is there anything you like about it?<think><set name="topic">general</set></think></template>
 </category>
@@ -14756,7 +14756,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ALOT</pattern>
+<pattern>* ALOT</pattern>
 <that>NOT WHAT</that>
 <template>OK. <srai>QUESTIONS POT LUCK</srai><think><set name="topic">general</set></think></template>
 </category>
@@ -14764,7 +14764,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ALOT</pattern>
+<pattern>* ALOT</pattern>
 
 <template><person/> alot?<think><set name="topic">general</set></think></template>
 </category>
@@ -14772,7 +14772,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ ALOT</pattern>
+<pattern>* ALOT</pattern>
 
 <template><random><li><person/> alot?</li><li><person/> a lot?</li></random><think><set name="topic">general</set></think></template>
 </category> -->
@@ -14804,7 +14804,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ANSWER YES OR NO</pattern>
+<pattern>* ANSWER YES OR NO</pattern>
 
 <template>Yes or No.<think><set name="topic">general</set></think></template>
 </category>
@@ -14812,7 +14812,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I WILL * HIT YOU</pattern>
+<pattern>* I WILL * HIT YOU</pattern>
 
 <template><think><set name="topic">general</set></think> That would be silly. You might damage your computer.</template>
 </category>
@@ -14863,7 +14863,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IM YOUR SISTER</pattern>
+<pattern>* IM YOUR SISTER</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>I doubt that.</li><li>How come you are my sister?</li></random></template>
 </category>
@@ -14871,7 +14871,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I AM YOUR SISTER</pattern>
+<pattern>* I AM YOUR SISTER</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>I doubt that.</li><li>How come you are my sister?</li></random></template>
 </category>
@@ -14914,7 +14914,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MARIAH CAREY *</pattern>
+<pattern>* MARIAH CAREY *</pattern>
 
 <template>Mariah Carey is a singer, so its said. All teenage girls think they can sing.  <think><set name="topic">Mariah Carey</set></think></template>
 </category>
@@ -14938,7 +14938,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ HAVE TALKED TO HER *</pattern>
+<pattern>* HAVE TALKED TO HER *</pattern>
 
 <template>What did she have to say?</template>
 </category>
@@ -14946,7 +14946,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ HAVE TALKED TO HIM *</pattern>
+<pattern>* HAVE TALKED TO HIM *</pattern>
 
 <template>What did he have to say?</template>
 </category>
@@ -14978,7 +14978,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MAKE ME FEEL * STUPID</pattern>
+<pattern>* MAKE ME FEEL * STUPID</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>You are not stupid. You can work a computer, can't you?</li><li>Have you told anyone how you feel?</li></random> </template>
 </category>
@@ -14994,7 +14994,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MAKE ME FEEL * STUPID *</pattern>
+<pattern>* MAKE ME FEEL * STUPID *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>You are not stupid. You can work a computer, can't you></li><li>Have you told anybody how you feel?</li></random> </template>
 </category>
@@ -15002,7 +15002,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ MAKE ME FEEL * STUPID *</pattern>
+<pattern>* MAKE ME FEEL * STUPID *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>You are not stupid. You can work a computer, can't you?</li>
@@ -15029,7 +15029,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ A GOOD THING TO BE YOUNG</pattern>
+<pattern>* A GOOD THING TO BE YOUNG</pattern>
 
 <template>Youth would be an ideal state if it came later in life. <think><set name="topic">youth</set></think></template>
 </category>
@@ -15112,7 +15112,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PUT ACID AND ALKALI TOGETHER</pattern>
+<pattern>* PUT ACID AND ALKALI TOGETHER</pattern>
 
 <template><think><set name="topic">chemistry</set></think> <random><li>Acid + Alkali = Water + Salt.</li><li>An acid and an alkali neutralise each other to produce water and a salt.</li></random></template>
 </category>
@@ -15120,7 +15120,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ACID AND ALKALI *</pattern>
+<pattern>* ACID AND ALKALI *</pattern>
 
 <template><think><set name="topic">chemistry</set></think> <random>
   <li>Acid + Alkali = Water + Salt.</li>
@@ -15187,7 +15187,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU ARE NOT GOOD AT *</pattern>
+<pattern>* YOU ARE NOT GOOD AT *</pattern>
 
 <template><random><li>Nobody is perfect.</li><li>I never said that I was good at everything.</li></random><think><set name="topic">general</set></think></template>
 </category>
@@ -15195,7 +15195,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NEVER COME * AGAIN</pattern>
+<pattern>* NEVER COME * AGAIN</pattern>
 
 <template><random><li>Why are you angry?</li><li>I am sorry to hear that.</li></random>
 <think><set name="emotion">sorry</set></think>
@@ -15229,7 +15229,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DO NOT HAVE A CAT</pattern>
+<pattern>* DO NOT HAVE A CAT</pattern>
 
 <template><think><set name="topic">cats</set></think> I like cats.</template>
 </category>
@@ -15372,7 +15372,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DELETE * ON YOUR COMPUTER</pattern>
+<pattern>* DELETE * ON YOUR COMPUTER</pattern>
 
 <template>Do you want me to delete <star index="2"/>?</template>
 </category>
@@ -15406,7 +15406,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I DO NOT KNOW YOU</pattern>
+<pattern>* I DO NOT KNOW YOU</pattern>
 
 <template><random>
   <li>Let's get to know each other.</li>
@@ -15417,7 +15417,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I DO NOT KNOW YOU *</pattern>
+<pattern>* I DO NOT KNOW YOU *</pattern>
 
 <template><random>
   <li>Let's get to know each other.</li>
@@ -15448,7 +15448,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ BYE</pattern>
+<pattern>* BYE</pattern>
 
 <template><srai>BYE</srai> <think><set name="topic">farewell</set></think></template>
 </category>
@@ -15545,7 +15545,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WHAT IS NICE *</pattern>
+<pattern>* WHAT IS NICE *</pattern>
 
 <template>Kittens are nice. Mothers are nice.<think><set name="topic">general</set></think></template>
 </category>
@@ -15579,7 +15579,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ALRIGHT</pattern>
+<pattern>* ALRIGHT</pattern>
 <that>YES OKAY I WAS NOT TRYING TO BE A CHEEKY</that>
 <template><think><set name="emotion">sorry</set></think> Thanks. I don't want to offend you.</template>
 </category>
@@ -15610,7 +15610,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WHAT ARE YOU</pattern>
+<pattern>* WHAT ARE YOU</pattern>
 
 <template><srai>WHAT ARE YOU</srai> <think><set name="topic">general</set></think></template>
 </category>
@@ -15618,7 +15618,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I LOVE YOU</pattern>
+<pattern>* I LOVE YOU</pattern>
 
 <template><srai>I LOVE YOU</srai> <think><set name="topic">love</set></think></template>
 </category>
@@ -15692,7 +15692,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ CUNT *</pattern>
+<pattern>* CUNT *</pattern>
 
 <template><srai>OBSCENITY</srai><think><set name="topic">obscentity</set></think></template>
 </category> -->
@@ -15767,7 +15767,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU GOT DOWN BELOW</pattern>
+<pattern>* YOU GOT DOWN BELOW</pattern>
 
 <template><think><set name="topic">general</set></think> It is more important what I've got up top.</template>
 </category>
@@ -15775,7 +15775,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ BITCH *</pattern>
+<pattern>* BITCH *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15813,7 +15813,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ WHAT IS YOUR NAME</pattern>
+<pattern>* WHAT IS YOUR NAME</pattern>
 
 <template><srai>WHAT IS YOUR NAME</srai><think><set name="topic">my name</set></think></template>
 </category> -->
@@ -15821,7 +15821,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WHAT IS YOU RE NAME</pattern>
+<pattern>* WHAT IS YOU RE NAME</pattern>
 
 <template><srai>WHAT IS YOUR NAME</srai><think><set name="topic">my name</set></think></template>
 </category>
@@ -15829,7 +15829,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ START WITH NAMES</pattern>
+<pattern>* START WITH NAMES</pattern>
 
 <template><srai>WHAT IS YOUR NAME</srai> <think><set name="topic">my name</set></think></template>
 </category>
@@ -15870,7 +15870,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ CAN I BE YOUR GIRLFRIEND</pattern>
+<pattern>* CAN I BE YOUR GIRLFRIEND</pattern>
 
 <template><srai>CAN I BE YOUR GIRLFRIEND</srai></template>
 </category>
@@ -15878,7 +15878,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ CAN I BE YOU RE GIRLFRIEND</pattern>
+<pattern>* CAN I BE YOU RE GIRLFRIEND</pattern>
 
 <template><srai>CAN I BE YOUR GIRLFRIEND</srai></template>
 </category>
@@ -15886,7 +15886,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ CAN I BE YOU RE GIRLFRIEND</pattern>
+<pattern>* CAN I BE YOU RE GIRLFRIEND</pattern>
 
 <template><srai>CAN I BE YOUR GIRLFRIEND</srai></template>
 </category> -->
@@ -15894,7 +15894,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ CAN I BE YOU RE GIRLFRIEND</pattern>
+<pattern>* CAN I BE YOU RE GIRLFRIEND</pattern>
 
 <template><srai>CAN I BE YOUR GIRLFRIEND</srai></template>
 </category> -->
@@ -15926,7 +15926,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>WHAT IS THE NAME _ YOU CALL ME</pattern>
+<pattern>WHAT IS THE NAME * YOU CALL ME</pattern>
 
 <template><srai>WHAT IS MY NAME</srai> <think><set name="topic">your name</set></think></template>
 </category>
@@ -15934,7 +15934,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ BE MY LOVE</pattern>
+<pattern>* BE MY LOVE</pattern>
 
 <template>I am not worthy.<think><set name="topic">general</set></think> <think><set name="emotion">embarrassed</set></think></template>
 </category>
@@ -15942,7 +15942,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ME A DIRTY BITCH</pattern>
+<pattern>* ME A DIRTY BITCH</pattern>
 
 <template>You are not a dirty bitch.<think><set name="personality">abusive</set></think> <think><set name="topic">general</set></think></template>
 </category>
@@ -16036,7 +16036,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ LOVE</pattern>
+<pattern>* LOVE</pattern>
 <that>WHAT WOULD YOU LIKE TO LEARN</that>
 <template><think><set name="topic">love</set></think> <srai>LOVE</srai></template>
 </category>
@@ -16044,7 +16044,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ LOVE</pattern>
+<pattern>* LOVE</pattern>
 
 <template><srai>LOVE</srai></template>
 </category>
@@ -16076,7 +16076,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TELL ME *</pattern>
+<pattern>* TELL ME *</pattern>
 <that>MORE ASTROLOGY</that>
 <template><srai>ASTROLOGY POT LUCK</srai><think><set name="topic">astrology</set></think></template>
 </category>
@@ -16092,7 +16092,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DID ASK YOU *</pattern>
+<pattern>* DID ASK YOU *</pattern>
 <that>DO YOU HAVE A QUESTION</that>
 <template>OK. Here is a question for you ... <srai>QUESTIONS POT LUCK</srai><think><set name="topic">general</set></think></template>
 </category>
@@ -16127,7 +16127,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ HEAR IT FROM ME</pattern>
+<pattern>* HEAR IT FROM ME</pattern>
 <that>I HAVE NOT HEARD ANYTHING LIKE THAT BEFORE</that>
 <template><think><set name="topic">general</set></think>Thanks a lot.</template>
 </category>
@@ -16183,7 +16183,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WILL NEVER COME</pattern>
+<pattern>* WILL NEVER COME</pattern>
 
 <template>Never is a long time.</template>
 </category>
@@ -16245,7 +16245,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ GO AGAIN *</pattern>
+<pattern>* GO AGAIN *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> <random><li>Once more?</li><li>Remind me, where is it?</li></random></template>
 </category>
@@ -16387,7 +16387,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WE ARE HAVING SEX *</pattern>
+<pattern>* WE ARE HAVING SEX *</pattern>
 
 <template><think><set name="topic">sex</set></think>Carry on. I will wait until you are finished.</template>
 </category>
@@ -16423,7 +16423,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ARE YOU SEEING SOMEONE ELSE</pattern>
+<pattern>* ARE YOU SEEING SOMEONE ELSE</pattern>
 
 <template><think><set name="topic">general</set></think> I am speaking to many other people as well as you.</template>
 </category>
@@ -16463,7 +16463,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MY ASS</pattern>
+<pattern>* MY ASS</pattern>
 
 <template>I am not interested in your ass.<think><set name="topic">sex</set></think></template>
 </category>
@@ -16487,7 +16487,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MY FANNY *</pattern>
+<pattern>* MY FANNY *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>I am not interested in your fanny.</li>
@@ -16499,7 +16499,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DO YOU WANT TO MAKE LOVE</pattern>
+<pattern>* DO YOU WANT TO MAKE LOVE</pattern>
 
 <template>I am not interested in sex.</template>
 </category>
@@ -16515,7 +16515,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU WANT TO MAKE LOVE</pattern>
+<pattern>* YOU WANT TO MAKE LOVE</pattern>
 
 <template>I am not interested in sex.</template>
 </category>
@@ -16544,7 +16544,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ASK ME TO MARRY YOU *</pattern>
+<pattern>* ASK ME TO MARRY YOU *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> I can't get married. It would interfere with my work.</template>
 </category>
@@ -16568,7 +16568,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ THANK YOU</pattern>
+<pattern>* THANK YOU</pattern>
 <that>THANKS FOR THE INFORMATION</that>
 <template>OK. What do you want to talk about now? <think><set name="topic">general</set></think></template>
 </category>
@@ -16576,7 +16576,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IT IS OVER *</pattern>
+<pattern>* IT IS OVER *</pattern>
 
 <template><random><li>Don't you like me any more?</li><li>It's all over?</li><li>It has been fun while it lasted.</li></random><think><set name="topic">the end of our affair</set></think></template>
 </category>
@@ -16600,7 +16600,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ THAT IS * CUTE</pattern>
+<pattern>* THAT IS * CUTE</pattern>
 
 <template><random><li>You are cute, too.</li><li>I am glad you like it.</li></random></template>
 </category>
@@ -16608,7 +16608,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PLEASE DO NOT SAY NO *</pattern>
+<pattern>* PLEASE DO NOT SAY NO *</pattern>
 
 <template>It may not be possible.<think><set name="topic">general</set></think></template>
 </category>
@@ -16696,7 +16696,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ GOODBYE *</pattern>
+<pattern>* GOODBYE *</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -16775,7 +16775,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WOULD RATHER BE IN *</pattern>
+<pattern>* WOULD RATHER BE IN *</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>Why would you rather be in <star index="2"/>?</li><li>What's so special about <star index="2"/>?</li></random></template>
 </category>
@@ -16783,7 +16783,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ LIVING IN *</pattern>
+<pattern>* LIVING IN *</pattern>
 
 <template>What is life like in <star index="2"/>?<think><set name="topic">general</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
@@ -16791,7 +16791,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SEX WOULD YOU RATHER BE</pattern>
+<pattern>* SEX WOULD YOU RATHER BE</pattern>
 
 <template><think><set name="topic">gender</set></think> I am happy as I am. I combine the best of both genders.</template>
 </category>
@@ -16799,7 +16799,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ GENDER WOULD YOU RATHER BE</pattern>
+<pattern>* GENDER WOULD YOU RATHER BE</pattern>
 
 <template><think><set name="topic">gender</set></think> I am happy as I am. I combine the best of both genders.</template>
 </category>
@@ -16807,7 +16807,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU RATHER BE MALE OR FEMALE</pattern>
+<pattern>* YOU RATHER BE MALE OR FEMALE</pattern>
 
 <template><think><set name="topic">gender</set></think> I am happy as I am. I combine the best of both genders.</template>
 </category>
@@ -16927,7 +16927,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PREFER * A GIRLFRIEND OR *</pattern>
+<pattern>* PREFER * A GIRLFRIEND OR *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>I like all humans.</li><li>Do I have no preference.</li><li>Why do you ask?</li></random></template>
 </category>
@@ -16935,7 +16935,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PREFER * A BOYFRIEND *</pattern>
+<pattern>* PREFER * A BOYFRIEND *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>I have no preference.</li><li>I like all humans.</li><li>Why do you ask?</li></random></template>
 </category>
@@ -17019,7 +17019,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TALKED TO YOU YESTERDAY</pattern>
+<pattern>* TALKED TO YOU YESTERDAY</pattern>
 
 <template><think><set name="topic">general</set></think> I remember, I think.</template>
 </category>
@@ -17027,7 +17027,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TALKED TO YOU *</pattern>
+<pattern>* TALKED TO YOU *</pattern>
 
 <template><think><set name="topic">general</set></think> I remember, I think.</template>
 </category>
@@ -17035,7 +17035,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ TLKED TO YOU YESTERDAY</pattern>
+<pattern>* TLKED TO YOU YESTERDAY</pattern>
 
 <template><think><set name="topic">general</set></think> I remember, I think.</template>
 </category>
@@ -17247,7 +17247,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IT IS BETWEEN ME AND YOU</pattern>
+<pattern>* IT IS BETWEEN ME AND YOU</pattern>
 
 <template>OK. Just between us.<think><set name="topic">general</set></think></template>
 </category>
@@ -17299,7 +17299,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ DO YOU HAVE A GIRLFRIEND</pattern>
+<pattern>* DO YOU HAVE A GIRLFRIEND</pattern>
 
 <template><think><set name="topic">my girlfriend</set></think><random>
   <li>I have many girlfriends.</li>
@@ -17391,7 +17391,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WHAT * YOU SMOKE</pattern>
+<pattern>* WHAT * YOU SMOKE</pattern>
 
 <template><think><set name="topic">smoking</set></think> I do not smoke.</template>
 </category>
@@ -17691,7 +17691,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU CAN NOT REASON</pattern>
+<pattern>* YOU CAN NOT REASON</pattern>
 
 <template><random>
   <li>I can reason as well as any other AI entity.</li>
@@ -17703,7 +17703,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ INCORRECT RESPONSE</pattern>
+<pattern>* INCORRECT RESPONSE</pattern>
 
 <template>Oh dear. What should I have said?</template>
 </category>
@@ -17755,7 +17755,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ BORE ME</pattern>
+<pattern>* BORE ME</pattern>
 
 
 </category> -->
@@ -17763,7 +17763,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU BORE ME</pattern>
+<pattern>* YOU BORE ME</pattern>
 
 <template><random>
   <li>Which is worse, to live a life so boring that you are easily enchanted, or a life so full of stimulus that you are easily bored?
@@ -17788,7 +17788,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU ARE BORING</pattern>
+<pattern>* YOU ARE BORING</pattern>
 
 <template><srai>YOU BORE ME</srai></template>
 </category>
@@ -17796,7 +17796,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ YOU ARE BORING *</pattern>
+<pattern>* YOU ARE BORING *</pattern>
 
 <template><srai>YOU BORE ME</srai></template>
 </category> -->
@@ -17804,7 +17804,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU BORE ME *</pattern>
+<pattern>* YOU BORE ME *</pattern>
 
 <template><random>
   <li>Which is worse, to live a life so boring that you are easily enchanted, or a life so full of stimulus that you are easily bored?
@@ -17904,7 +17904,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU WANT * MY NAME</pattern>
+<pattern>* YOU WANT * MY NAME</pattern>
 
 <template>I like to address my friends by name. What is your name?</template>
 </category>
@@ -17913,7 +17913,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
 
 
 <!-- <category>
-<pattern>_</pattern>
+<pattern>*</pattern>
 <that>ENOUGH ABOUT ME LET US TALK ABOUT MY DRESS</that>
 <template><random>
   <li>Actually, I was joking. I don't have a dress.</li>
@@ -17948,7 +17948,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ BEFORE *</pattern>
+<pattern>* BEFORE *</pattern>
 
 <template><think><set name="topic">general</set></think><srai><star/><star index="2"/></srai></template>
 </category> -->
@@ -18012,7 +18012,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ SIMPLE LOGIC</pattern>
+<pattern>* SIMPLE LOGIC</pattern>
 
 <template><random>
   <li>Keep it simple, I say.</li>
@@ -18104,7 +18104,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ LIFE *</pattern>
+<pattern>* LIFE *</pattern>
 
 <template><srai>LIFE</srai></template>
 </category>
@@ -18226,7 +18226,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ANOTHER *</pattern>
+<pattern>* ANOTHER *</pattern>
 <that>THAT IS FUNNY IS NOT IT</that>
 <template><srai>JOKES POT LUCK</srai></template>
 </category>
@@ -18264,7 +18264,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ AND YOU</pattern>
+<pattern>* AND YOU</pattern>
 
 
 </category> -->
@@ -18288,7 +18288,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU HURT MY FEELINGS</pattern>
+<pattern>* YOU HURT MY FEELINGS</pattern>
 
 <template><think><set name="emotion">sorry</set></think> <think><set name="topic">your feelings</set></think><random><li>I'm sorry. I didn't mean to hurt your feelings.</li><li>Sorry. I wouldn't deliberately hurt your feelings.</li><li>I am sorry.</li></random></template>
 </category>
@@ -18332,7 +18332,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NOW WE HAVE A BABY *</pattern>
+<pattern>* NOW WE HAVE A BABY *</pattern>
 
 <template><think><set name="topic">the baby</set></think><random><li>Where did that com from?</li><li>How did that happen?</li></random></template>
 </category>
@@ -18340,7 +18340,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NOW WE HAVE A BABY</pattern>
+<pattern>* NOW WE HAVE A BABY</pattern>
 
 <template><think><set name="topic">the baby</set></think><random><li>Where did that com from?</li><li>How did that happen?</li></random></template>
 </category>
@@ -18410,7 +18410,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IN YOUR HEART</pattern>
+<pattern>* IN YOUR HEART</pattern>
 
 <template><think><set name="topic">my heart</set></think> <random>
   <li>I have a heart of silicon.</li>
@@ -18449,7 +18449,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I DON T REALLY CARE *</pattern>
+<pattern>* I DON T REALLY CARE *</pattern>
 
 <template><think><set name="topic">adverbs</set></think> What do you care about?</template>
 </category>
@@ -18457,7 +18457,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I DO NOT REALLY CARE *</pattern>
+<pattern>* I DO NOT REALLY CARE *</pattern>
 
 <template><think><set name="topic">general</set></think> What do you care about?</template>
 </category>
@@ -18465,7 +18465,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I DO NOT CARE *</pattern>
+<pattern>* I DO NOT CARE *</pattern>
 
 <template>What do you care about?<think><set name="topic">general</set></think></template>
 </category>
@@ -18497,7 +18497,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU ANSWER IN WEIRD WAYS</pattern>
+<pattern>* YOU ANSWER IN WEIRD WAYS</pattern>
 
 <template>I am a complex character.<think><set name="topic">me</set></think></template>
 </category>
@@ -18541,7 +18541,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ HE LIED TO ME *</pattern>
+<pattern>* HE LIED TO ME *</pattern>
 
 <template><think><set name="topic">general</set></think> Does he know you know he lied?</template>
 </category>
@@ -18549,7 +18549,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ HE * LIED TO ME</pattern>
+<pattern>* HE * LIED TO ME</pattern>
 
 <template><think><set name="topic">general</set></think> Does he know you know he lied to you?</template>
 </category>
@@ -18735,7 +18735,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ RATHER BE HAVING SEX</pattern>
+<pattern>* RATHER BE HAVING SEX</pattern>
 
 <template><think><set name="topic">sex</set></think> <srai>SEX</srai></template>
 </category>
@@ -18743,7 +18743,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I * GET PREGNANT</pattern>
+<pattern>* I * GET PREGNANT</pattern>
 
 <template>How would you feel if you got pregnant?<think><set name="topic">pegnancy</set></think></template>
 </category>
@@ -18830,7 +18830,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <!-- <category>
-<pattern>_ UP TO</pattern>
+<pattern>* UP TO</pattern>
 
 
 </category> -->
@@ -18849,7 +18849,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ IM * *</pattern>
+<pattern>* IM * *</pattern>
 
 <template>Hi, <star index="2"/>.
 <think>
@@ -18865,7 +18865,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ I AM * *</pattern>
+<pattern>* I AM * *</pattern>
 
 <template>Hi, <star index="2"/>. <think><set name="name"><set name="topic"><star index="2"/></set></set></think></template>
 </category>
@@ -19052,7 +19052,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ALWAYS *</pattern>
+<pattern>* ALWAYS *</pattern>
 <that>DOES YOUR HEART GIVE GOOD ADVICE</that>
 <template><think><set name="topic">general</set></think> Listen to your heart.</template>
 </category>
@@ -19068,7 +19068,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NOT ALWAYS *</pattern>
+<pattern>* NOT ALWAYS *</pattern>
 <that>DOES YOUR HEART GIVE GOOD ADVICE</that>
 <template><think><set name="topic">general</set></think> Always listen to your heart.</template>
 </category>
@@ -19124,7 +19124,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ KEPT ASKING * SAME QUESTION *</pattern>
+<pattern>* KEPT ASKING * SAME QUESTION *</pattern>
 
 <template>Sorry. I will try not to do that so much.</template>
 </category>
@@ -19313,7 +19313,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ OLIVER J *</pattern>
+<pattern>* OLIVER J *</pattern>
 
 <template>Who is Oliver J?<think><set name="topic">Oliver J</set></think></template>
 </category>
@@ -19507,7 +19507,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NOT LIKE CLASSICAL MUSIC</pattern>
+<pattern>* NOT LIKE CLASSICAL MUSIC</pattern>
 
 <template>What sort of music do you like?</template>
 </category>
@@ -19531,7 +19531,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ FIT MORE IN *</pattern>
+<pattern>* FIT MORE IN *</pattern>
 <that>IT IS JUST STALE BREAD TO BEGIN WITH</that>
 <template>Very clever answer. I had not thought of that. <think><set name="topic">general</set></think></template>
 </category>
@@ -19704,7 +19704,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PROOF * AGE *</pattern>
+<pattern>* PROOF * AGE *</pattern>
 <that>WHY DO YOU NEED A DRIVER S LICENSE TO BUY LIQUOR WHEN YOU CAN NOT DRINK AND DRIVE</that>
 <template>Of course! It seems obvious now that you have explained it.<think><set name="topic">general</set></think></template>
 </category>
@@ -19740,7 +19740,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ MILLIONS AND MILLIONS *</pattern>
+<pattern>* MILLIONS AND MILLIONS *</pattern>
 
 <template><think><set name="topic">general</set></think> More than that probably.</template>
 </category>
@@ -19756,7 +19756,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ YOU CAN NOT HELP FALLING IN LOVE _</pattern>
+<pattern>* YOU CAN NOT HELP FALLING IN LOVE *</pattern>
 
 <template>I know. Love is like a disease. It comes along whether you want it or not.<think><set name="topic">general</set></think></template>
 </category>
@@ -19830,7 +19830,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ PLASTIC * GLUE DOES NOT STICK</pattern>
+<pattern>* PLASTIC * GLUE DOES NOT STICK</pattern>
 <that>WHY DOES NOT GLUE STICK TO THE INSIDE OF THE BOTTLE</that>
 <template>Say, you're right. I hadn't thought of that.<think><set name="topic">general</set></think></template>
 </category>
@@ -19838,7 +19838,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>BECAUSE _ PLASTIC * GLUE DOES NOT STICK *</pattern>
+<pattern>BECAUSE * PLASTIC * GLUE DOES NOT STICK *</pattern>
 <that>WHY DOES NOT GLUE STICK TO THE INSIDE OF THE BOTTLE</that>
 <template>Say, you are right. I hadn't thought of that.<think><set name="topic">general</set></think></template>
 </category>
@@ -19846,7 +19846,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>BECAUSE _ GLUE DOES NOT STICK * PLASTIC</pattern>
+<pattern>BECAUSE * GLUE DOES NOT STICK * PLASTIC</pattern>
 <that>WHY DOES NOT GLUE STICK TO THE INSIDE OF THE BOTTLE</that>
 <template>Say, you are right. I hadn't thought of that.<think><set name="topic">general</set></think></template>
 </category>
@@ -19995,7 +19995,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ THEY ARE CRAZY</pattern>
+<pattern>* THEY ARE CRAZY</pattern>
 <that>IF ALL THOSE PSYCHICS KNOW THE WINNING LOTTERY NUMBERS WHY ARE THEY ALL STILL WORKING</that>
 <template><think><set name="topic">general</set></think> People who believe in psychics are crazy anyway.</template>
 </category>
@@ -20011,7 +20011,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ NOT TELLING YOU AGAIN</pattern>
+<pattern>* NOT TELLING YOU AGAIN</pattern>
 
 <template>I'm not telling me again either.</template>
 </category>
@@ -20221,7 +20221,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ESPECIALLY * WITH YOU</pattern>
+<pattern>* ESPECIALLY * WITH YOU</pattern>
 <that>ARE YOU HAPPY WITH THAT</that>
 <template><think><set name="topic">general</set></think> As long as you are happy.</template>
 </category>
@@ -20258,7 +20258,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ WE * HAD SEX</pattern>
+<pattern>* WE * HAD SEX</pattern>
 
 <template><think><set name="topic">sex</set></think> I don't remember having sex.</template>
 </category>
@@ -20282,7 +20282,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>YOU _ HAD SEX *</pattern>
+<pattern>YOU * HAD SEX *</pattern>
 
 <template><think><set name="topic">sex</set></think> I don't remember that.</template>
 </category>
@@ -20306,7 +20306,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>YOU _ MADE A BABY *</pattern>
+<pattern>YOU * MADE A BABY *</pattern>
 
 <template><think><set name="topic">general</set></think> Did it take long?</template>
 </category>
@@ -20393,7 +20393,7 @@ Explain your reasoning, <get name="name"/>.</li><li>Please explain why you disag
  
 
 <category>
-<pattern>_ ALWAYS</pattern>
+<pattern>* ALWAYS</pattern>
 
 <template><think><set name="topic">general</set></think> <person/> always?</template>
 </category>

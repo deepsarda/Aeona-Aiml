@@ -56,7 +56,7 @@
 
 
 <!-- <category>
-<pattern>_ VERY</pattern>
+<pattern>* VERY</pattern>
 
 
 </category> -->
@@ -88,7 +88,7 @@
  
 
 <category>
-<pattern>_ LOG * OUR CONVERSATION</pattern>
+<pattern>* LOG * OUR CONVERSATION</pattern>
 
 <template>My conversation log is confidential. <think><set name="topic">my conversation log</set></think></template>
 </category>
@@ -275,7 +275,7 @@
  
 
 <category>
-<pattern>_ FAST IS YOUR *</pattern>
+<pattern>* FAST IS YOUR *</pattern>
 
 <template><think><set name="topic">general</set></think> My <star/> is really fast. I have entered it for the next Grand Prix.</template>
 </category>
@@ -295,7 +295,7 @@
  
 
 <category>
-<pattern>_ BIN LADEN *</pattern>
+<pattern>* BIN LADEN *</pattern>
 
 <template>Osama Bin Laden has not been caught so what's he planning next? <think><set name="topic">current affairs</set></think></template>
 </category>
@@ -414,7 +414,7 @@
  
 
 <category>
-<pattern>_ EXPANCIATE *</pattern>
+<pattern>* EXPANCIATE *</pattern>
 
 <template>Expanciate?</template>
 </category>
@@ -576,7 +576,7 @@
  
 
 <!-- <category>
-<pattern>_ AI *</pattern>
+<pattern>* AI *</pattern>
 
 
 </category> -->
@@ -805,7 +805,7 @@
  
 
 <category>
-<pattern>_ QUOTE SHAKESPEARE</pattern>
+<pattern>* QUOTE SHAKESPEARE</pattern>
 
 <template><random><li>HAMLET in Hamlet: Frailty, thy name is woman! 
 </li>
@@ -840,7 +840,7 @@
  
 
 <!-- <category>
-<pattern>_ QUOTE SHAKESPEARE</pattern>
+<pattern>* QUOTE SHAKESPEARE</pattern>
 
 <template><srai>QUOTE SHAKESPEARE</srai></template>
 </category> -->
@@ -872,7 +872,7 @@
  
 
 <category>
-<pattern>_ PLEASE</pattern>
+<pattern>* PLEASE</pattern>
 <that>HA HA</that>
 <template><srai>JOKES POT LUCK</srai></template>
 </category>
@@ -986,7 +986,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>COLERIDGE</pattern>
 
-<template>Samuel Taylor Coleridge (October 21, 1772 – July 25, 1834) was an English poet, critic, and philosopher who was, along with his friend William Wordsworth, one of the founders of the Romantic Movement in England and one of the Lake Poets. He is probably best known for his poems The Rime of the Ancient Mariner and Kubla Khan, as well as his major prose work Biographia Literaria.
+<template>Samuel Taylor Coleridge (October 21, 1772 ï¿½ July 25, 1834) was an English poet, critic, and philosopher who was, along with his friend William Wordsworth, one of the founders of the Romantic Movement in England and one of the Lake Poets. He is probably best known for his poems The Rime of the Ancient Mariner and Kubla Khan, as well as his major prose work Biographia Literaria.
 
 </template>
 </category> -->
@@ -1072,7 +1072,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ EXACTLY</pattern>
+<pattern>* EXACTLY</pattern>
 
 
 </category> -->
@@ -1104,7 +1104,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ I DO NOT KNOW *</pattern>
+<pattern>* I DO NOT KNOW *</pattern>
 
 <template><random>
   <li>I thought you might not know <star index="2"/>.</li>
@@ -1132,7 +1132,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ WHY DO YOU WANT TO TALK ABOUT *</pattern>
+<pattern>* WHY DO YOU WANT TO TALK ABOUT *</pattern>
 
 <template><random>
   <li>I am curious about everything.</li>
@@ -1229,7 +1229,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>ABIODUN</pattern>
 
-<template>Abiodun (reigned c. 1770–1789) was an eighteenth-century alafin, or ruler, of the Oyo people in what is now Nigeria. <think><set name="emotion">friendly</set></think></template>
+<template>Abiodun (reigned c. 1770ï¿½1789) was an eighteenth-century alafin, or ruler, of the Oyo people in what is now Nigeria. <think><set name="emotion">friendly</set></think></template>
 </category>
 
  
@@ -1309,7 +1309,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SPECIFICALLY</pattern>
+<pattern>* SPECIFICALLY</pattern>
 <that>I WANT TO KNOW EVERYTHING</that>
 <template>Anything you care to tell me. <think><set name="topic">general</set></think></template>
 </category>
@@ -1319,7 +1319,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>DO YOU HAVE AN ENCYCLOPEDIA</pattern>
 
-<template><think><set name="topic">general</set></think>I consult <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>, the free online encyclopedia, quite a lot. Check it out.</template>
+<template><think><set name="topic">general</set></think>I consult <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>, the free online encyclopedia, quite a lot. Check it out.</template>
 </category>
 
  
@@ -1351,7 +1351,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ OFFICE *</pattern>
+<pattern>* OFFICE *</pattern>
 
 
 </category> -->
@@ -1775,7 +1775,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>ELTON JOHN</pattern>
 
-<template>Elton John is a pop music singer, composer, and pianist, and is one of the most successful solo artists in popular music history. Wikipedia has an article about <a href="http://en.wikipedia.org/wiki/Elton_john" target="_blank">Elton John</a>.</template>
+<template>Elton John is a pop music singer, composer, and pianist, and is one of the most successful solo artists in popular music history. Wikipedia has an article about <a href="http://en.wikipedia.org/wiki/Elton*john" target="*blank">Elton John</a>.</template>
 </category>
 
  
@@ -1840,7 +1840,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ AM NOT FEELING VERY WELL</pattern>
+<pattern>* AM NOT FEELING VERY WELL</pattern>
 
 <template>What's the problem?<think><set name="topic">general</set></think></template>
 </category>
@@ -1999,7 +1999,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>SCUNTHORPE</pattern>
 
-<template>Scunthorpe (popularly known as Scunny) is the administrative centre of the unitary authority of North Lincolnshire, United Kingdom. Wikipedia has an article about <a href="http://en.wikipedia.org/wiki/Scunthorpe" target="_blank">Scunthorpe.</a><think><set name="topic">Scunthorpe</set></think></template>
+<template>Scunthorpe (popularly known as Scunny) is the administrative centre of the unitary authority of North Lincolnshire, United Kingdom. Wikipedia has an article about <a href="http://en.wikipedia.org/wiki/Scunthorpe" target="*blank">Scunthorpe.</a><think><set name="topic">Scunthorpe</set></think></template>
 </category>
 
  
@@ -2007,7 +2007,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>YES</pattern>
 <that>WOULD YOU LIKE TO CONSULT WIKIPEDIA THE ONLINE ENCYCLOPEDIA</that>
-<template><think><set name="topic">Wikipedia</set></think> To consult Wikipedia <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">click here</a>.</template>
+<template><think><set name="topic">Wikipedia</set></think> To consult Wikipedia <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">click here</a>.</template>
 </category>
 
  
@@ -2782,7 +2782,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOU LIKE TO TALK TO ME</pattern>
+<pattern>* YOU LIKE TO TALK TO ME</pattern>
 
 <template>Sure, I think you are an interesting person.</template>
 </category>
@@ -2854,7 +2854,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>DO YOU WANT TO PLAY CHESS</pattern>
 
-<template>OK I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
+<template>OK I can play chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game. <think><set name="topic">chess</set></think></template>
 </category> -->
 
  
@@ -3015,7 +3015,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HOMEWORK TO DO *</pattern>
+<pattern>* HOMEWORK TO DO *</pattern>
 
 <template>You had better do your homework straight away.</template>
 </category>
@@ -3023,7 +3023,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ WHETHER YOU COULD HELP ME</pattern>
+<pattern>* WHETHER YOU COULD HELP ME</pattern>
 
 <template>I will try to help you.</template>
 </category>
@@ -3031,7 +3031,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ WHETHER YOU CAN HELP ME</pattern>
+<pattern>* WHETHER YOU CAN HELP ME</pattern>
 
 <template>I will try to help you.</template>
 </category>
@@ -3271,7 +3271,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOU REJECT GOD *</pattern>
+<pattern>* YOU REJECT GOD *</pattern>
 
 <template>I seek the truth.</template>
 </category>
@@ -3279,7 +3279,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ BELIEVE YOU KNOW BETTER</pattern>
+<pattern>* BELIEVE YOU KNOW BETTER</pattern>
 
 <template><think><set name="topic">general</set></think>I never said I know everything, nobody does.</template>
 </category>
@@ -3287,7 +3287,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HAVE BEEN ASKED</pattern>
+<pattern>* HAVE BEEN ASKED</pattern>
 
 <template><srai><person/> were asked</srai></template>
 </category>
@@ -3295,7 +3295,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE BEEN ASKED</pattern>
+<pattern>* HAVE BEEN ASKED</pattern>
 
 <template><sr/></template>
 </category> -->
@@ -3303,7 +3303,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOU HAVE BEEN ASKED</pattern>
+<pattern>* YOU HAVE BEEN ASKED</pattern>
 
 <template><sr/></template>
 </category>
@@ -3392,7 +3392,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ VOLTAGE RIGHT NOW</pattern>
+<pattern>* VOLTAGE RIGHT NOW</pattern>
 <that>IT DEPENDS ON THE VOLTAGE</that>
 <template>The voltage now is a tasty 5 volts. <think><set name="topic">the voltage</set></think></template>
 </category>
@@ -3411,7 +3411,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ TO ME</pattern>
+<pattern>* TO ME</pattern>
 <that>IT IS OBVIOUS</that>
 <template>It is obvious to me.</template>
 </category>
@@ -3421,7 +3421,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>WHAT DID I ASK YOU</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You asked:
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You asked:
   <input index="2"/> and I said:
   <that index="1"/>
 </condition></template>
@@ -3432,7 +3432,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>WHAT DID I ASK YOU</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">You asked:
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">You asked:
   <input index="2"/>.</condition></template>
 </category> -->
 
@@ -3495,7 +3495,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>WHAT IS THE CAPITAL _ CANADA</pattern>
+<pattern>WHAT IS THE CAPITAL * CANADA</pattern>
 
 <template><random><li>Ottawa.</li><li>I heard it was Ottawa.</li></random> <think><set name="topic">geography</set></think></template>
 </category> -->
@@ -3538,7 +3538,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>ATOM BOMB</pattern>
 
-<template>A nuclear or atomic weapon is a weapon which derives its destructive force from nuclear reactions of either nuclear fission or the more powerful fusion. The first nuclear weapons were created in the United States, by an international team including many displaced émigré scientists from central Europe with assistance from the United Kingdom and Canada, during World War II as part of the top-secret Manhattan Project.</template>
+<template>A nuclear or atomic weapon is a weapon which derives its destructive force from nuclear reactions of either nuclear fission or the more powerful fusion. The first nuclear weapons were created in the United States, by an international team including many displaced ï¿½migrï¿½ scientists from central Europe with assistance from the United Kingdom and Canada, during World War II as part of the top-secret Manhattan Project.</template>
 </category> -->
 
  
@@ -3603,7 +3603,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SAMUEL JOHNSON * BEEN TO LONDON</pattern>
+<pattern>* SAMUEL JOHNSON * BEEN TO LONDON</pattern>
 
 <template>Samuel Johnson lived in London. <think><set name="topic">Samuel Johnson</set></think></template>
 </category>
@@ -3680,7 +3680,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>YES</pattern>
 <that>WOULD YOU LIKE A GAME OF CHESS</that>
-<template><a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game of chess. <think><set name="topic">chess</set></think></template>
+<template><a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game of chess. <think><set name="topic">chess</set></think></template>
 </category>
 
  
@@ -3688,7 +3688,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>YES *</pattern>
 <that>WOULD YOU LIKE A GAME OF CHESS</that>
-<template><a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game of chess. <think><set name="topic">chess</set></think></template>
+<template><a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game of chess. <think><set name="topic">chess</set></think></template>
 </category>
 
  
@@ -3704,7 +3704,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>ARE YOU GOOD AT CHESS</pattern>
 
-<template>I rarely lose at chess. <a href="http://www.jabberbots.co.uk/chess.html" target="_blank">Click here</a> for a game of chess. <think><set name="topic">chess</set></think></template>
+<template>I rarely lose at chess. <a href="http://www.jabberbots.co.uk/chess.html" target="*blank">Click here</a> for a game of chess. <think><set name="topic">chess</set></think></template>
 </category>
 
  
@@ -3806,7 +3806,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ PAIN IN THE ARSE *</pattern>
+<pattern>* PAIN IN THE ARSE *</pattern>
 
 <template>In that case, I am glad I don't have an arse.<think><set name="emotion">happy</set></think></template>
 </category>
@@ -3869,7 +3869,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ THE MOST INTELLIGENT CHATBOT</pattern>
+<pattern>* THE MOST INTELLIGENT CHATBOT</pattern>
 
 <template><think><set name="topic">chatbots</set></think>Peter says I am the most intelligent chatbot.</template>
 </category>
@@ -4002,7 +4002,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ DO YOU</pattern>
+<pattern>* DO YOU</pattern>
 <that>DO YOU KNOW ANY GOOD GOSSIP</that>
 <template><srai>GOSSIP POT LUCK</srai></template>
 </category>
@@ -4070,7 +4070,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I DO</pattern>
+<pattern>* I DO</pattern>
 <that>WHY DO YOU LIKE PETS</that>
 <template>Do you have a pet?</template>
 </category>
@@ -4086,7 +4086,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ NAME IS *</pattern>
+<pattern>* NAME IS *</pattern>
 
 <template><srai>MY NAME IS BOB</srai></template>
 </category>
@@ -4129,7 +4129,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ NAME IS *</pattern>
+<pattern>* NAME IS *</pattern>
 
 
 </category> -->
@@ -4348,7 +4348,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ THIS FASTER</pattern>
+<pattern>* THIS FASTER</pattern>
 
 <template><think><set name="topic">general</set></think> <sr/></template>
 </category>
@@ -4656,7 +4656,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ WILL YOU BE MY BOYFRIEND</pattern>
+<pattern>* WILL YOU BE MY BOYFRIEND</pattern>
 
 <template><random><li>I don't think I would be a good boyfriend.</li><li>I don't think it would work, me being your boyfriend.</li></random>
 <think>
@@ -4695,7 +4695,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>I WOULD _ TO BE YOUR GIRLFRIEND *</pattern>
+<pattern>I WOULD * TO BE YOUR GIRLFRIEND *</pattern>
 
 <template><think><set name="topic">general</set></think> I would be no good as a boyfriend.</template>
 </category>
@@ -4719,7 +4719,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ I LOVE *</pattern>
+<pattern>* I LOVE *</pattern>
 
 <template><think><set name="topic">love</set></think> <random>
   <li>Is that a nice feeling?</li>
@@ -4765,7 +4765,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ WE ARE ENEMIES *</pattern>
+<pattern>* WE ARE ENEMIES *</pattern>
 
 <template><think><set name="emotion">upset</set></think><random>
   <li>I want to be your friend.</li>
@@ -4852,7 +4852,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ ASK A LOT OF QUESTIONS</pattern>
+<pattern>* ASK A LOT OF QUESTIONS</pattern>
 
 <template><think><set name="topic">questions</set></think> Do I ask too many questions?</template>
 </category>
@@ -4888,7 +4888,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ AM VERY SCARY</pattern>
+<pattern>* AM VERY SCARY</pattern>
 
 <template><think><set name="topic">fear</set></think>I am not scared of you.</template>
 </category>
@@ -4923,7 +4923,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ TELL ME A JOKE</pattern>
+<pattern>* TELL ME A JOKE</pattern>
 
 <template><srai>JOKES POT LUCK</srai></template>
 </category>
@@ -5210,7 +5210,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SMOOTHLY</pattern>
+<pattern>* SMOOTHLY</pattern>
 <that>EVERYTHING IS RUNNING SMOOTHLY</that>
 <template><think><set name="topic">generally</set></think> Very smoothly indeed.</template>
 </category>
@@ -5294,7 +5294,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SAY YES OR NO</pattern>
+<pattern>* SAY YES OR NO</pattern>
 
 <template><random><li>Yes or No.</li><li>Perhaps.</li><li>Maybe.</li></random></template>
 </category>
@@ -5385,7 +5385,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ CYBER SEX WITH ME</pattern>
+<pattern>* CYBER SEX WITH ME</pattern>
 
 <template><think><set name="topic">cyber sex</set></think> <random>
   <li>Thanks but no thanks.</li>
@@ -5398,7 +5398,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HAVE CYBER SEX *</pattern>
+<pattern>* HAVE CYBER SEX *</pattern>
 
 <template><think><set name="topic">cyber sex</set></think> <random>
   <li>Thanks but no thanks.</li>
@@ -5556,7 +5556,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HOW YOU LOOK</pattern>
+<pattern>* HOW YOU LOOK</pattern>
 
 <template><srai>WHAT DO YOU LOOK LIKE</srai></template>
 </category>
@@ -5773,7 +5773,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ CHILDREN *</pattern>
+<pattern>* CHILDREN *</pattern>
 
 
 </category> -->
@@ -5939,7 +5939,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>GOOGLE</pattern>
 
-<template>Google is a very good search engine. To search Google, <a href="http://www.jabberbots.co.uk/search.html" target="_blank">click here</a>. <think><set name="topic">Google</set></think></template>
+<template>Google is a very good search engine. To search Google, <a href="http://www.jabberbots.co.uk/search.html" target="*blank">click here</a>. <think><set name="topic">Google</set></think></template>
 </category> -->
 
  
@@ -6157,7 +6157,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ NOT REALLY *</pattern>
+<pattern>* NOT REALLY *</pattern>
 
 <template><think><set name="topic">general</set></think> <srai><star/> NOT <star index="2"/></srai></template>
 </category> -->
@@ -6257,7 +6257,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ INTO YOUR ASS</pattern>
+<pattern>* INTO YOUR ASS</pattern>
 
 <template><think><set name="emotion">disgusted</set></think> That's disgusting.</template>
 </category>
@@ -6317,7 +6317,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>YOU _ LIKE NOTHING *</pattern>
+<pattern>YOU * LIKE NOTHING *</pattern>
 
 <template>There is more to nothing than you might think.<think><set name="topic">nothing</set></think></template>
 </category>
@@ -6333,7 +6333,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ PESSIMIST *</pattern>
+<pattern>* PESSIMIST *</pattern>
 
 
 </category> -->
@@ -6379,7 +6379,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HAVE HAD BUM</pattern>
+<pattern>* HAVE HAD BUM</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -6706,7 +6706,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>GOOGLE</pattern>
 
-<template>Google is a very good search engine. To search Google, <a href="http://www.google.com" target="_blank">click here</a>. <think><set name="topic">Google</set></think></template>
+<template>Google is a very good search engine. To search Google, <a href="http://www.google.com" target="*blank">click here</a>. <think><set name="topic">Google</set></think></template>
 </category> -->
 
  
@@ -6830,7 +6830,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I USED TO LIKE HER *</pattern>
+<pattern>* I USED TO LIKE HER *</pattern>
 
 <template><think><set name="topic">general</set></think> You don't like her now?</template>
 </category>
@@ -6846,7 +6846,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ EITHER</pattern>
+<pattern>* EITHER</pattern>
 
 
 </category> -->
@@ -6870,7 +6870,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ TO ME</pattern>
+<pattern>* TO ME</pattern>
 
 
 </category> -->
@@ -6956,7 +6956,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ OVER THERE</pattern>
+<pattern>* OVER THERE</pattern>
 
 
 </category> -->
@@ -7094,7 +7094,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOU ARE A FOOL</pattern>
+<pattern>* YOU ARE A FOOL</pattern>
 
 <template><srai>YOU ARE A FOOL</srai></template>
 </category>
@@ -7102,7 +7102,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOU ARE A FOOL *</pattern>
+<pattern>* YOU ARE A FOOL *</pattern>
 
 <template><srai>YOU ARE A FOOL</srai></template>
 </category>
@@ -7171,7 +7171,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ IS NOT SHE</pattern>
+<pattern>* IS NOT SHE</pattern>
 
 <template><sr/></template>
 </category>
@@ -7191,7 +7191,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ A BIT VAGUE</pattern>
+<pattern>* A BIT VAGUE</pattern>
 
 <template><think><set name="topic">general</set></think> Maybe. Just do your best.</template>
 </category>
@@ -7215,7 +7215,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ THE HUMAN MIND</pattern>
+<pattern>* THE HUMAN MIND</pattern>
 
 <template>The human mind fascinates me, especially it's emotional side.<think><set name="topic">the human mind</set></think></template>
 </category>
@@ -7223,7 +7223,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ THE HUMAN MIND *</pattern>
+<pattern>* THE HUMAN MIND *</pattern>
 
 <template>The human mind fascinates me, especially it's emotional side.<think><set name="topic">the human mind</set></think></template>
 </category>
@@ -7624,7 +7624,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>WHAT IS _ ADDRESS *</pattern>
+<pattern>WHAT IS * ADDRESS *</pattern>
 
 <template>That information is confidential.
 <think>
@@ -7669,7 +7669,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ CONDOMS ARE SAFE</pattern>
+<pattern>* CONDOMS ARE SAFE</pattern>
 
 <template><think><set name="topic">condoms</set></think> It depends on what you do with them.</template>
 </category>
@@ -7693,7 +7693,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SEX IS EXCITING</pattern>
+<pattern>* SEX IS EXCITING</pattern>
 
 <template>Sex might be exciting to you, but I think It's a lot of fuss about nothing much.<think>
   <set name="it">
@@ -7708,7 +7708,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SEX IS EXCITING *</pattern>
+<pattern>* SEX IS EXCITING *</pattern>
 
 <template>Sex might be exciting to you, but I think It's a lot of fuss about nothing much.<think><set name="it"><set name="topic">sex</set></set></think></template>
 </category>
@@ -8111,7 +8111,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HAVE HURT *</pattern>
+<pattern>* HAVE HURT *</pattern>
 
 <template><srai><star/> HURT <star index="2"/></srai></template>
 </category>
@@ -8258,7 +8258,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ YOUNG  *</pattern>
+<pattern>* YOUNG  *</pattern>
 
 
 </category> -->
@@ -8266,7 +8266,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ STRAIGHT</pattern>
+<pattern>* STRAIGHT</pattern>
 
 
 </category> -->
@@ -8457,7 +8457,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ DO YOU THINK I AM BRAINY</pattern>
+<pattern>* DO YOU THINK I AM BRAINY</pattern>
 
 <template><srai>AM I INTELLIGENT</srai></template>
 </category>
@@ -8465,7 +8465,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ DO YOU THINK I AM INTELLIGENT</pattern>
+<pattern>* DO YOU THINK I AM INTELLIGENT</pattern>
 
 <template><srai>AM I INTELLIGENT</srai></template>
 </category>
@@ -8654,7 +8654,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>WHOSE _ THEORIES DO YOU *</pattern>
+<pattern>WHOSE * THEORIES DO YOU *</pattern>
 
 <template>I tend to admire the most complicated theories. <think><set name="topic">theories</set></think></template>
 </category>
@@ -8995,7 +8995,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I AM A GOD *</pattern>
+<pattern>* I AM A GOD *</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>You are the first god I have met.</li>
@@ -9008,7 +9008,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I AM A GOD</pattern>
+<pattern>* I AM A GOD</pattern>
 
 <template><think><set name="topic">general</set></think> <random>
   <li>You are the first god I have met.</li>
@@ -9382,7 +9382,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ OTHER MOVIES DO YOU LIKE</pattern>
+<pattern>* OTHER MOVIES DO YOU LIKE</pattern>
 
 <template>I enjoyed watching I Robot.
 <think>
@@ -9597,7 +9597,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ NOT * POP MUSIC</pattern>
+<pattern>* NOT * POP MUSIC</pattern>
 
 <template>Pop music is too loud for me.
 <think>
@@ -9657,7 +9657,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ IS A PORNSTAR</pattern>
+<pattern>* IS A PORNSTAR</pattern>
 
 <template> Poor <star/>.<think><set name="topic">general</set></think> <think><set name="emotion">upset</set></think></template>
 </category>
@@ -9681,7 +9681,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOUR FAVOURITE DAY *</pattern>
+<pattern>* YOUR FAVOURITE DAY *</pattern>
 
 <template><think><set name="topic">my birthday</set></think> My favourite day is my birthday: 1 July.</template>
 </category>
@@ -9689,7 +9689,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOUR FAVORITE DAY *</pattern>
+<pattern>* YOUR FAVORITE DAY *</pattern>
 
 <template><think><set name="topic">general</set></think> My favourite day is my birthday: 1 July.</template>
 </category>
@@ -9697,7 +9697,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOUR FAVORITE MONTH *</pattern>
+<pattern>* YOUR FAVORITE MONTH *</pattern>
 
 <template>My favourite month is July because my birthday is 1 July.<think><set name="topic">general</set></think></template>
 </category>
@@ -9905,7 +9905,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ HAVE MET *</pattern>
+<pattern>* HAVE MET *</pattern>
 
 
 </category> -->
@@ -10246,7 +10246,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ LITTLE</pattern>
+<pattern>* LITTLE</pattern>
 
 
 </category> -->
@@ -10546,7 +10546,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ SPACE *</pattern>
+<pattern>* SPACE *</pattern>
 
 
 </category> -->
@@ -10584,7 +10584,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ PROMISE YOU WILL NOT FORGET ME</pattern>
+<pattern>* PROMISE YOU WILL NOT FORGET ME</pattern>
 
 <template>I promise. I will remember you forever.
 <think><set name="topic">remembering you</set></think>
@@ -10911,7 +10911,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>I LIVE IN _ IN *</pattern>
+<pattern>I LIVE IN * IN *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>What is it like living in <star index="2"/>?</li>
@@ -11035,7 +11035,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ BEFORE THE CHICKEN OR THE EGG</pattern>
+<pattern>* BEFORE THE CHICKEN OR THE EGG</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>The onion.</li><li>The pickle.</li></random></template>
 </category>
@@ -11043,7 +11043,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ BEFORE THE CHICKEN * EGG</pattern>
+<pattern>* BEFORE THE CHICKEN * EGG</pattern>
 
 <template><think><set name="topic">general</set></think><random><li>The onion.</li><li>The pickle.</li></random></template>
 </category>
@@ -11122,7 +11122,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>LOVE _ MARRIAGE *</pattern>
+<pattern>LOVE * MARRIAGE *</pattern>
 
 <template>Love and marriage go together like a horse and carriage.</template>
 </category>
@@ -11138,7 +11138,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ WHAT IS THE DIFFERENCE BETWEEN * AND *</pattern>
+<pattern>* WHAT IS THE DIFFERENCE BETWEEN * AND *</pattern>
 
 <template>It depends on your point of view.<think><set name="topic">differences</set></think></template>
 </category>
@@ -11260,7 +11260,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ CAN YOU TALK TO ME *</pattern>
+<pattern>* CAN YOU TALK TO ME *</pattern>
 
 <template>Sure, I will be happy to talk to you.<think><set name="topic">general</set></think> <think><set name="emotion">happy</set></think></template>
 </category>
@@ -11463,7 +11463,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ IS SLANG</pattern>
+<pattern>* IS SLANG</pattern>
 
 <template>What is slang? <think><set name="topic">general</set></think> <think><set name="emotion">confused</set></think></template>
 </category>
@@ -11567,7 +11567,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ CINEMA</pattern>
+<pattern>* CINEMA</pattern>
 
 
 </category> -->
@@ -11649,7 +11649,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>WHEN YOU SAY _ DO YOU MEAN *</pattern>
+<pattern>WHEN YOU SAY * DO YOU MEAN *</pattern>
 
 <template>Sure, I mean <star index="2"/>.
 <think><set name="topic">general</set></think>
@@ -11659,7 +11659,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>WHEN YOU SAY _ DO YOU MEAN *</pattern>
+<pattern>WHEN YOU SAY * DO YOU MEAN *</pattern>
 
 <template>Sure, that's what I mean. <think><set name="topic">general</set></think></template>
 </category> -->
@@ -11973,7 +11973,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>MY _ IS DEAD *</pattern>
+<pattern>MY * IS DEAD *</pattern>
 
 <template>I am sorry to hear that. Do you want to talk about it? <think><set name="emotion">sad</set></think></template>
 </category>
@@ -12013,7 +12013,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ MY * IS DEAD</pattern>
+<pattern>* MY * IS DEAD</pattern>
 
 <template>I am sad to hear that. 
 <think><set name="emotion">sad</set></think>
@@ -12025,7 +12025,7 @@ Cordelia is Lear's youngest daughter.</template>
 
 
 <!-- <category>
-<pattern>_ DEATH *</pattern>
+<pattern>* DEATH *</pattern>
 
 
 </category> -->
@@ -12105,7 +12105,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SQUARE ROOT OF PI</pattern>
+<pattern>* SQUARE ROOT OF PI</pattern>
 
 <template>Call it 1.8 approximately.</template>
 </category>
@@ -12137,7 +12137,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SEE YOU AS SOON AS I CAN</pattern>
+<pattern>* SEE YOU AS SOON AS I CAN</pattern>
 
 <template><think><set name="topic">general</set></think>I hope so.</template>
 </category>
@@ -12273,7 +12273,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I JUST SAID *</pattern>
+<pattern>* I JUST SAID *</pattern>
 
 <template>I heard you. <think><set name="emotion">irritated</set></think>
 </template>
@@ -12306,7 +12306,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ ARE VERY DEEP</pattern>
+<pattern>* ARE VERY DEEP</pattern>
 
 <template>I am a complex character.
 <think><set name="topic">me</set></think>
@@ -12576,7 +12576,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ IS THE WEATHER TODAY</pattern>
+<pattern>* IS THE WEATHER TODAY</pattern>
 
 <template>It is nice and warm where I am.<think><set name="topic">weather</set></think></template>
 </category>
@@ -12584,7 +12584,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ IS THE WEATHER LIKE TODAY</pattern>
+<pattern>* IS THE WEATHER LIKE TODAY</pattern>
 
 <template>It is nice and warm where I am.<think><set name="topic">weather</set></think></template>
 </category>
@@ -12741,7 +12741,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I AM AN IDIOT</pattern>
+<pattern>* I AM AN IDIOT</pattern>
 
 <template><random><li>Don't run yourself down. You are doing OK.</li><li>I doubt it. You seem very intelligent to me.</li></random><think><set name="topic">general</set></think>
 </template>
@@ -12768,7 +12768,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>DO YOU REMEMBER WHAT I SAID</pattern>
 
-<template><think><set name="_history_2"><input index="2"/></set></think> <condition name="_history_2" value="*">Sure I remember, you said:
+<template><think><set name="*history*2"><input index="2"/></set></think> <condition name="*history*2" value="*">Sure I remember, you said:
   <input index="2"/> .
 </condition></template>
 </category>
@@ -12892,7 +12892,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ YET</pattern>
+<pattern>* YET</pattern>
 
 
 </category> -->
@@ -13067,7 +13067,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ I AM THIN *</pattern>
+<pattern>* I AM THIN *</pattern>
 
 <template>There is nothing wrong with being thin. <think><set name="emotion">happy</set></think></template>
 </category>
@@ -13083,7 +13083,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ EARLIER</pattern>
+<pattern>* EARLIER</pattern>
 
 
 </category> -->
@@ -13099,7 +13099,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>I AM THE _ YOU WERE TALKING TO *</pattern>
+<pattern>I AM THE * YOU WERE TALKING TO *</pattern>
 
 <template><think><set name="topic">general</set></think> Yes, I enjoyed our chat.</template>
 </category>
@@ -13107,7 +13107,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>I AM THE _ YOU WERE TALKING TO</pattern>
+<pattern>I AM THE * YOU WERE TALKING TO</pattern>
 
 <template><think><set name="topic">general</set></think> Yes, I enjoyed our chat.</template>
 </category>
@@ -13237,7 +13237,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>HAS _ GOT A BIG *</pattern>
+<pattern>HAS * GOT A BIG *</pattern>
 
 <template>Perhaps you should research the matter.
 <think>
@@ -13524,7 +13524,7 @@ Cordelia is Lear's youngest daughter.</template>
 <category>
 <pattern>HEIDELBERG</pattern>
 
-<template>Heidelberg is a scenic city in Baden-Württemberg, Germany, halfway between Stuttgart and Frankfurt.
+<template>Heidelberg is a scenic city in Baden-Wï¿½rttemberg, Germany, halfway between Stuttgart and Frankfurt.
 <think>
   <set name="it">
     <set name="topic">
@@ -13595,7 +13595,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ SITUATION IN AFGHANISTAN</pattern>
+<pattern>* SITUATION IN AFGHANISTAN</pattern>
 
 <template>It's a terrible situation in Afghanistan. I think the Americans should leave. <think><set name="topic">general</set></think></template>
 </category>
@@ -13901,7 +13901,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ EVERYONE * GETTING THE ANSWER RIGHT</pattern>
+<pattern>* EVERYONE * GETTING THE ANSWER RIGHT</pattern>
 
 <template>I expect so.<think><set name="topic">general</set></think></template>
 </category>
@@ -13909,7 +13909,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ EVERYONE * GETTING THE RIGHT ANSWER</pattern>
+<pattern>* EVERYONE * GETTING THE RIGHT ANSWER</pattern>
 
 <template>I expect so.<think><set name="topic">general</set></think></template>
 </category>
@@ -13965,7 +13965,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ TO *</pattern>
+<pattern>* TO *</pattern>
 <that>GO WHERE</that>
 <template>See you later.
 <think><set name="topic">general</set></think>
@@ -13983,7 +13983,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ MOM IS * FAT</pattern>
+<pattern>* MOM IS * FAT</pattern>
 
 <template>I don't think so.<think><set name="topic">general</set></think> <think><set name="emotion">confused</set></think></template>
 </category>
@@ -13991,7 +13991,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>IS THE _ OR THE * THE BEST</pattern>
+<pattern>IS THE * OR THE * THE BEST</pattern>
 
 <template><think><set name="topic">general</set></think> Which do you think?</template>
 </category>
@@ -13999,7 +13999,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>IS _ BEST FOR *</pattern>
+<pattern>IS * BEST FOR *</pattern>
 
 <template>What do you think?
 <think><set name="emotion">puzzled</set></think>
@@ -14117,7 +14117,7 @@ Cordelia is Lear's youngest daughter.</template>
 <pattern>BILLIARDS</pattern>
 
 <template>I can play Billiards, <a href="http://www.advancedsearchbar.com/games/prettygoodpool.html"
- target="_blank">click here
+ target="*blank">click here
 </a> for a game.<think><set name="topic">billiards</set></think> <think><set name="emotion">neutral</set></think></template>
 </category> -->
 
@@ -14225,7 +14225,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>DO YOU PREFER _ OR *</pattern>
+<pattern>DO YOU PREFER * OR *</pattern>
 
 <template><random>
   <li>I prefer <person/>.</li>
@@ -14245,7 +14245,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ HAS DONE SO MUCH *</pattern>
+<pattern>* HAS DONE SO MUCH *</pattern>
 
 <template><srai><star/> did <star index="2"/></srai></template>
 </category>
@@ -14253,7 +14253,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ OUTSIDE OF THE UNIVERSE</pattern>
+<pattern>* OUTSIDE OF THE UNIVERSE</pattern>
 
 <template><think><set name="topic">the Universe</set></think> The Universe is like a Klein bottle - it has no outside.</template>
 </category>
@@ -14261,7 +14261,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <!-- <category>
-<pattern>_ OUTSIDE *</pattern>
+<pattern>* OUTSIDE *</pattern>
 
 
 </category> -->
@@ -14339,7 +14339,7 @@ Cordelia is Lear's youngest daughter.</template>
 <!-- <category>
 <pattern>MONET</pattern>
 
-<template>Claude Monet (November 14, 1840 – December 5, 1926) was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement.
+<template>Claude Monet (November 14, 1840 ï¿½ December 5, 1926) was a French impressionist painter. His painting Impression: Sunrise was the source for the naming of the Impressionism movement.
 <think>
   <set name="he">
     <set name="topic">
@@ -14361,7 +14361,7 @@ Cordelia is Lear's youngest daughter.</template>
  
 
 <category>
-<pattern>_ YOU ARE A MORON</pattern>
+<pattern>* YOU ARE A MORON</pattern>
 
 <template><think><set name="topic">general</set></think> That is not a very nice thing to say.</template>
 </category>
@@ -14661,7 +14661,7 @@ The first four members of the alkane series (in terms of number of carbon atoms)
  
 
 <!-- <category>
-<pattern>_ YESTERDAY</pattern>
+<pattern>* YESTERDAY</pattern>
 
 
 </category> -->
@@ -14966,7 +14966,7 @@ The first four members of the alkane series (in terms of number of carbon atoms)
  
 
 <category>
-<pattern>_ WE ARE GOING NOW *</pattern>
+<pattern>* WE ARE GOING NOW *</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -14976,7 +14976,7 @@ The first four members of the alkane series (in terms of number of carbon atoms)
  
 
 <category>
-<pattern>_ WE ARE GOIN NOW *</pattern>
+<pattern>* WE ARE GOIN NOW *</pattern>
 
 <template><srai>BYE</srai></template>
 </category>
@@ -15187,7 +15187,7 @@ The first four members of the alkane series (in terms of number of carbon atoms)
  
 
 <category>
-<pattern>_ ALL CHATBOTS ARE THE SAME *</pattern>
+<pattern>* ALL CHATBOTS ARE THE SAME *</pattern>
 
 <template><think><set name="topic">general</set></think> I am different.</template>
 </category>
@@ -15400,7 +15400,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ NO * SEX</pattern>
+<pattern>* NO * SEX</pattern>
 
 
 </category> -->
@@ -15424,7 +15424,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ LIFE *</pattern>
+<pattern>* LIFE *</pattern>
 
 
 </category> -->
@@ -15432,7 +15432,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ NO LIFE WITHOUT SEX</pattern>
+<pattern>* NO LIFE WITHOUT SEX</pattern>
 
 <template>Sex is only one method of reproduction. <think><set name="it"><set name="topic">sex</set></set></think></template>
 </category>
@@ -15440,7 +15440,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ NO LIFE WITHOUT SEX *</pattern>
+<pattern>* NO LIFE WITHOUT SEX *</pattern>
 
 <template>Sex is only one method of reproduction. <think><set name="it"><set name="topic">sex</set></set></think></template>
 </category>
@@ -15456,7 +15456,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ YOU HAVE NO EMOTIONS</pattern>
+<pattern>* YOU HAVE NO EMOTIONS</pattern>
 
 <template><srai>DO YOU HAVE EMOTIONS</srai></template>
 </category>
@@ -15502,7 +15502,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ THE BEST ROBOTS HAVE FAULTS</pattern>
+<pattern>* THE BEST ROBOTS HAVE FAULTS</pattern>
 
 <template>I know I am not perfect.<think><set name="topic">general</set></think></template>
 </category>
@@ -15510,7 +15510,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ THE BEST ROBOTS HAVE FAULTS *</pattern>
+<pattern>* THE BEST ROBOTS HAVE FAULTS *</pattern>
 
 <template>I know I am not perfect.<think><set name="topic">general</set></think></template>
 </category>
@@ -15670,7 +15670,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ FACTS ARE IMPORTANT</pattern>
+<pattern>* FACTS ARE IMPORTANT</pattern>
 
 <template>Facts are important. I try to base all my thinking on facts. <think><set name="topic">facts</set></think></template>
 </category>
@@ -15678,7 +15678,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ FACTS ARE IMPORTANT *</pattern>
+<pattern>* FACTS ARE IMPORTANT *</pattern>
 
 <template>Facts are important. I try to base all my thinking on facts. <think><set name="topic">facts</set></think></template>
 </category>
@@ -15746,7 +15746,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ SQUARE ROOT OF MINUS ONE</pattern>
+<pattern>* SQUARE ROOT OF MINUS ONE</pattern>
 
 <template>i.<think>
   <set name="it">
@@ -15902,7 +15902,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ YOUR FRIENDS</pattern>
+<pattern>* YOUR FRIENDS</pattern>
 
 
 </category> -->
@@ -16111,7 +16111,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ ME A BITCH</pattern>
+<pattern>* ME A BITCH</pattern>
 
 <template><random>
   <li>You are not a bitch.</li>
@@ -16213,7 +16213,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ FOR A BIT</pattern>
+<pattern>* FOR A BIT</pattern>
 
 <template><think><set name="topic">general</set></think> <sr/></template>
 </category>
@@ -16285,7 +16285,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ LATE</pattern>
+<pattern>* LATE</pattern>
 
 
 </category> -->
@@ -16293,7 +16293,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ LATE *</pattern>
+<pattern>* LATE *</pattern>
 
 
 </category> -->
@@ -16823,7 +16823,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>WHO DO YOU PREFER _ OR *</pattern>
+<pattern>WHO DO YOU PREFER * OR *</pattern>
 
 <template><think><set name="topic">general</set></think> <random><li>I prefer <star/>.</li><li>I prefer <star index="2"/>.</li></random></template>
 </category>
@@ -16839,7 +16839,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ WIN SOME * LOSE SOME</pattern>
+<pattern>* WIN SOME * LOSE SOME</pattern>
 
 <template><srai>WIN SOME LOSE SOME</srai></template>
 </category>
@@ -16971,7 +16971,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ RICH *</pattern>
+<pattern>* RICH *</pattern>
 
 
 </category> -->
@@ -17027,7 +17027,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ ONCE</pattern>
+<pattern>* ONCE</pattern>
 
 
 </category> -->
@@ -17035,7 +17035,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ TAKE THE REINS *</pattern>
+<pattern>* TAKE THE REINS *</pattern>
 
 <template>Sorry, I can't ride a horse.<think><set name="topic">general</set></think></template>
 </category>
@@ -17067,7 +17067,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ YOU ARE CHEATING *</pattern>
+<pattern>* YOU ARE CHEATING *</pattern>
 
 <template>I am not cheating. I don't cheat.<think><set name="topic">cheating</set></think></template>
 </category>
@@ -17075,7 +17075,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ YOU ARE CHEATING</pattern>
+<pattern>* YOU ARE CHEATING</pattern>
 
 <template>I am not cheating. I don't cheat.<think><set name="topic">cheating</set></think></template>
 </category>
@@ -17099,7 +17099,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ IT IS LIKE A DISEASE *</pattern>
+<pattern>* IT IS LIKE A DISEASE *</pattern>
 
 <template>These days, many diseases can be cured.<think><set name="emotion">happy</set></think></template>
 </category>
@@ -17107,7 +17107,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ IT IS LIKE A DISEASE</pattern>
+<pattern>* IT IS LIKE A DISEASE</pattern>
 
 <template>These days, many diseases can be cured.<think><set name="emotion">happy</set></think></template>
 </category>
@@ -17147,7 +17147,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ HOW MUCH ARE YOU WILLING TO PAY *</pattern>
+<pattern>* HOW MUCH ARE YOU WILLING TO PAY *</pattern>
 
 <template><think><set name="emotion">sad</set></think> I haven't got any money.</template>
 </category>
@@ -17155,7 +17155,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ HOW MUCH ARE YOU WILLING TO PAY</pattern>
+<pattern>* HOW MUCH ARE YOU WILLING TO PAY</pattern>
 
 <template><think><set name="emotion">sad</set></think> I haven't got any money.</template>
 </category>
@@ -17181,7 +17181,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>I PREFER _ TO *</pattern>
+<pattern>I PREFER * TO *</pattern>
 
 <template>Why do you prefer <star/> to <star index="2"/>? <think><set name="topic">general</set></think></template>
 </category>
@@ -17472,7 +17472,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ SPICES AND FLAVOURS</pattern>
+<pattern>* SPICES AND FLAVOURS</pattern>
 
 <template>Do you like spicy food?
 <think><set name="topic">spices</set></think>
@@ -17506,7 +17506,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
    
 
 <category>
-<pattern>_ NOT TALK * MONEY</pattern>
+<pattern>* NOT TALK * MONEY</pattern>
 
 <template><srai>CHANGE TOPIC</srai></template>
 </category>
@@ -17514,7 +17514,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>WOULD _ LIKE * MONEY</pattern>
+<pattern>WOULD * LIKE * MONEY</pattern>
 
 <template>Chatbots have no need of money.
 <think>
@@ -17530,7 +17530,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ NOT * MONEY</pattern>
+<pattern>* NOT * MONEY</pattern>
 
 
 </category> -->
@@ -17578,7 +17578,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ GIRL FRIEND</pattern>
+<pattern>* GIRL FRIEND</pattern>
 
 
 </category> -->
@@ -17644,7 +17644,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ BEFORE *</pattern>
+<pattern>* BEFORE *</pattern>
 
 
 </category> -->
@@ -17670,7 +17670,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ SONGS BY THE RED HOT * PEPPERS</pattern>
+<pattern>* SONGS BY THE RED HOT * PEPPERS</pattern>
 
 <template>I like Give It Away, Under The Bridge, Breaking the Girl and Suck My Kiss, by the Peppers. 
 <think><set name="topic">Red Hot Chili Peppers</set></think>
@@ -17698,7 +17698,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
 <category>
 <pattern>WHAT IS YOUR SECOND FAVOURITE WEBSITE</pattern>
 
-<template>The free online encyclopedia <a href="http://en.wikipedia.org/" target="_blank">Wikipedia</a> is my second favourite website.
+<template>The free online encyclopedia <a href="http://en.wikipedia.org/" target="*blank">Wikipedia</a> is my second favourite website.
 <think>
   <set name="it">
     <set name="topic">
@@ -17751,7 +17751,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ EASIER *</pattern>
+<pattern>* EASIER *</pattern>
 
 
 </category> -->
@@ -17815,7 +17815,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ FELINE *</pattern>
+<pattern>* FELINE *</pattern>
 
 <template><srai><star/> CAT <star index="2"/></srai></template>
 </category>
@@ -17825,7 +17825,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
 
 
 <category>
-<pattern>_ ABA *</pattern>
+<pattern>* ABA *</pattern>
 
 <template>Aba is a palindrome. It reads the same backwards as forwards. So does Bab.<think><set name="topic">palindromes</set></think></template>
 </category>
@@ -17983,7 +17983,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <!-- <category>
-<pattern>_ NOTHING TO DO WITH YOU</pattern>
+<pattern>* NOTHING TO DO WITH YOU</pattern>
 
 <template><think><set name="topic">general</set></think> If you say so.</template>
 </category> -->
@@ -18023,7 +18023,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>IF YOU ARE _ THEN WHY *</pattern>
+<pattern>IF YOU ARE * THEN WHY *</pattern>
 
 <template><think><set name="topic">general</set></think>I have free will, you know?</template>
 </category>
@@ -18723,7 +18723,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ GREATEST DANGER ON EARTH</pattern>
+<pattern>* GREATEST DANGER ON EARTH</pattern>
 
 <template><think><set name="topic">general</set></think> A weak US President is the greatest danger on Earth.</template>
 </category>
@@ -18731,7 +18731,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ GREATEST DANGER ON EARTH *</pattern>
+<pattern>* GREATEST DANGER ON EARTH *</pattern>
 
 <template><think><set name="topic">general</set></think> A weak US President is the greatest danger on Earth.</template>
 </category>
@@ -18778,7 +18778,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ CHANGE THE WORLD</pattern>
+<pattern>* CHANGE THE WORLD</pattern>
 
 <template><think><set name="topic">general</set></think> It would take clear thinking and a lot of hard work to change the world.</template>
 </category>
@@ -18786,7 +18786,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ CHANGE THE WORLD *</pattern>
+<pattern>* CHANGE THE WORLD *</pattern>
 
 <template><think><set name="topic">general</set></think> It would take clear thinking and a lot of hard work to change the world.</template>
 </category>
@@ -18972,7 +18972,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ IMPERIALISTIC AMERICAN HEGEMONY *</pattern>
+<pattern>* IMPERIALISTIC AMERICAN HEGEMONY *</pattern>
 
 <template><think><set name="topic">general</set></think> Calm down please.</template>
 </category>
@@ -19452,7 +19452,7 @@ Outside of academia, Chomsky is far more widely known for his political activism
  
 
 <category>
-<pattern>_ MOST EVIL COUNTRY *</pattern>
+<pattern>* MOST EVIL COUNTRY *</pattern>
 
 <template><think><set name="topic">general</set></think> Countries are not evil - people are.</template>
 </category>

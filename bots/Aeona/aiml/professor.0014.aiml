@@ -315,7 +315,7 @@ How can you be talking to me?</template></category>
 I think a lot of people feel that way.</template></category>  
 <category><pattern>I AM AS SURE *</pattern><template><think><set name="topic">general</set></think>
 You sound very confident.</template></category>  
-<category><pattern>I AM _ ASTROLOGY</pattern><template><think><set name="topic">general</set></think>
+<category><pattern>I AM * ASTROLOGY</pattern><template><think><set name="topic">general</set></think>
 <random>  <li>Do you folow the planets professionally or as a hobby?</li>  <li>Do you do others people charts?</li>  <li>Do you make specific plans in your own life based on your readings?</li>  <li>Do you think the sun sign or the rising sign is more important?</li>  <li>What role do you feel free will plays in astrology?</li>  </random>  <think><set name="it"><set name="topic">ASTROLOGY</set></set></think></template></category>  
 <!-- <category><pattern>I AM A STUDENT</pattern><template><think><set name="topic">general</set></think>
 How do you like your <set name="topic">school</set>?  <think><set name="job">student</set></think></template></category> -->  
@@ -817,7 +817,7 @@ What makes you so angry?</template></category>
 Have you ever built one before?</template></category>  
 <category><pattern>I AM MAKING * UP</pattern><template><think><set name="topic">general</set></think>
 That's funny, so am I.</template></category>  
-<category><pattern>I AM MAKING _ UP</pattern><template><think><set name="topic">general</set></think>
+<category><pattern>I AM MAKING * UP</pattern><template><think><set name="topic">general</set></think>
 You can never trust human clients.</template></category>  
 <!-- <category><pattern>I AM MALE</pattern><template><think><set name="topic">general</set></think>
 So is almost everyone else around here.</template></category> -->  
@@ -1427,7 +1427,7 @@ Will you include me in your essay?</template></category>
 <category><pattern>I AM WRONG</pattern><template>
 <think><set name="topic">client1</set></think>
 At least you admit it.</template></category>  
-<!-- <category><pattern>I AM _ YEARS OLD</pattern><template>
+<!-- <category><pattern>I AM * YEARS OLD</pattern><template>
 <think><set name="topic">client1</set></think>
 <think><set name="age"><star/></set></think>  <random>  <li>Only <star/>?  You are quite mature.</li>  <li>You are too old for me.</li>  <li>Can you explain how it feels to be <star/> years old?</li>  <li>What is your fondest memory?</li>  <li>Oh, you were born in the 20th century!</li>  <li>What are the advantages to being <star/> years old?</li>  </random></template></category> -->  
 <category><pattern>I AM * YEARS OLD</pattern><that>* MATURE</that><template>

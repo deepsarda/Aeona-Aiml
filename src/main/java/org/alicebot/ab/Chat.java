@@ -68,8 +68,9 @@ public class Chat {
      * Set bot
      * @param bot       bot to talk to
      */
-    void setBot(Bot bot){
+    public void setBot(Bot bot){
         this.bot=bot;
+        this.thatHistory= new History<History>("that");
     }
     /**
      * Load all predicate defaults

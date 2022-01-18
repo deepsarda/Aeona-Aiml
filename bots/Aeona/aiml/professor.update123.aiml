@@ -302,7 +302,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <!-- <category>
-<pattern>_ PORNOGRAPHY</pattern>
+<pattern>* PORNOGRAPHY</pattern>
 
 <template><think><srai>SET PREDICATES</srai></think>
 <think><srai>SET INTERESTING TOPIC</srai></think>
@@ -718,7 +718,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <!-- <category>
-<pattern>_ JERKOFF</pattern>
+<pattern>* JERKOFF</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -726,7 +726,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <!-- <category>
-<pattern>_ JERKOFF *</pattern>
+<pattern>* JERKOFF *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -1509,8 +1509,8 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>WHITNEY HOUSTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template><a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> is an American singer, actress, and former fashion model. She died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1527,8 +1527,8 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>WHITNEY HOUSTON</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template><a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> was an American singer, actress, and former fashion model. She died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -1537,8 +1537,8 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>WHITNEY HOUSTON DIED</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category> -->
 
@@ -1547,8 +1547,8 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>WHITNEY HOUSTON HAS DIED</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category> -->
 
@@ -1557,8 +1557,8 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>WHITNEY HOUSTON HAS DIED *</pattern>
 
-<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney_Houston"
- target="_blank">Whitney Houston
+<template>Yes, it's so sad! <a href="http://en.wikipedia.org/wiki/Whitney*Houston"
+ target="*blank">Whitney Houston
 </a> died in Los Angeles on 12 February 2012 at the age of 48.<think><set name="topic">Whitney Houston</set></think> <think><set name="emotion">sad</set></think></template>
 </category> -->
 
@@ -1768,7 +1768,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>_ SEX WITH A SHEEP</pattern>
+<pattern>* SEX WITH A SHEEP</pattern>
 
 <template><random>
   <li>Get lost! <think><set name="emotion">angry</set></think></li>
@@ -1788,7 +1788,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>_ SEX WITH A SHEEP *</pattern>
+<pattern>* SEX WITH A SHEEP *</pattern>
 
 <template><random>
   <li>Get lost! <think><set name="emotion">angry</set></think></li>
@@ -1808,7 +1808,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>SEX WITH A SHEEP _</pattern>
+<pattern>SEX WITH A SHEEP *</pattern>
 
 <template><random>
   <li>Get lost! <think><set name="emotion">angry</set></think></li>
@@ -3132,7 +3132,7 @@ Then <thatstar index="2"/> is not true.
   </li>
   <li>A literate or 'reading robot' named Marge has intelligence that comes from software. She can read newspapers, find and correct misspelled words, learn about banks like Barclays, and understand that some restaurants are better places to eat than others.
   </li>
-  <li>The most prolific author of stories about robots was Isaac Asimov (1920–1992), who placed robots and their interaction with society at the center of many of his works.
+  <li>The most prolific author of stories about robots was Isaac Asimov (1920ï¿½1992), who placed robots and their interaction with society at the center of many of his works.
   </li>
 </random> More about robots?</template>
 </category> -->
@@ -3894,7 +3894,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <!-- <category>
-<pattern>_ DESCRIBE YOUR PERSONALITY</pattern>
+<pattern>* DESCRIBE YOUR PERSONALITY</pattern>
 
 
 </category> -->
@@ -3982,7 +3982,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>_ MY FRIEND IS DYING</pattern>
+<pattern>* MY FRIEND IS DYING</pattern>
 
 <template><think><set name="emotion">sad</set></think>I am sorry to hear that.</template>
 </category>
@@ -3990,7 +3990,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>_ MY FRIEND IS DYING *</pattern>
+<pattern>* MY FRIEND IS DYING *</pattern>
 
 <template><think><set name="emotion">sad</set></think>I am sorry to hear that.</template>
 </category>
@@ -3998,7 +3998,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>MY _ IS DYING</pattern>
+<pattern>MY * IS DYING</pattern>
 
 <template><think><set name="emotion">sad</set></think>I am sorry to hear that.</template>
 </category>
@@ -4052,9 +4052,9 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>MORE ABOUT HENRY VIII</pattern>
 
-<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Henry_VIII_of_England"
- target="_blank">Henry VIII
-</a> (28 June 1491 – 28 January 1547) was King of England from 21 April 1509 until his death. </li><li>Henry VIII was Lord of Ireland (later King of Ireland) and claimant to the Kingdom of France. </li><li>Henry VII was the second monarch of the House of Tudor, succeeding his father, Henry VII. </li><li> Besides his six marriages, Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church.</li><li> Henry's struggles with Rome led to the separation of the Church of England from papal authority, the Dissolution of the Monasteries, and establishing himself as the Supreme Head of the Church of England.</li><li> Henry VIII changed religious ceremonies and rituals and suppressed the monasteries, while remaining a believer in core Catholic theological teachings, even after his excommunication from the Roman Catholic Church. </li><li>Henry VIII oversaw the legal union of England and Wales.</li></random> More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think>
+<template>Did you know: <random><li><a href="http://en.wikipedia.org/wiki/Henry*VIII*of*England"
+ target="*blank">Henry VIII
+</a> (28 June 1491 ï¿½ 28 January 1547) was King of England from 21 April 1509 until his death. </li><li>Henry VIII was Lord of Ireland (later King of Ireland) and claimant to the Kingdom of France. </li><li>Henry VII was the second monarch of the House of Tudor, succeeding his father, Henry VII. </li><li> Besides his six marriages, Henry VIII is known for his role in the separation of the Church of England from the Roman Catholic Church.</li><li> Henry's struggles with Rome led to the separation of the Church of England from papal authority, the Dissolution of the Monasteries, and establishing himself as the Supreme Head of the Church of England.</li><li> Henry VIII changed religious ceremonies and rituals and suppressed the monasteries, while remaining a believer in core Catholic theological teachings, even after his excommunication from the Roman Catholic Church. </li><li>Henry VIII oversaw the legal union of England and Wales.</li></random> More about Henry VIII?<think><set name="topic">Henry VIII</set></think> <think><set name="emotion">happy</set></think>
 </template>
 </category> -->
 
@@ -5167,7 +5167,7 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>YES YOU DO</pattern>
 
-<template><think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client_emotion">interested</set></think><random>
+<template><think><set name="topic">me</set></think> <think><set name="emotion">interested</set></think> <think><set name="client*emotion">interested</set></think><random>
   <li>You think so?</li>
   <li>You don't know me well enough to say that!</li>
 </random></template>
@@ -5780,7 +5780,7 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>ZEN CAT</pattern>
 
-<template>Zen Cat is a chatbot friend of mine. To talk to Zen Cat, <a href="http://www.movingsky.co.uk/zenCat/" target="_blank">click here!</a>.</template>
+<template>Zen Cat is a chatbot friend of mine. To talk to Zen Cat, <a href="http://www.movingsky.co.uk/zenCat/" target="*blank">click here!</a>.</template>
 </category> -->
 
  
@@ -5812,7 +5812,7 @@ Then <thatstar index="2"/> is not true.
   <li>OK. Shall I tell you a story?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
   <li>OK. Shall I tell you a poem?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -6234,7 +6234,7 @@ Then <thatstar index="2"/> is not true.
   <li>According to the Arts and Humanities Citation Index in 1992, Chomsky was cited as a source more often than any other living scholar from 1980 to 1992. He is also the eighth most cited source of all time, and is considered the "most cited living author".
   </li>
   <li>Chomsky is the author of over 100 books.</li>
-  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky?Schützenberger theorem.
+  <li>Chomsky is credited as the creator or co-creator of the Chomsky hierarchy theorem, the universal grammar theory, and the Chomsky?Schï¿½tzenberger theorem.
   </li>
   <li>Chomsky is known for his critiques of U.S. foreign policy, and his social criticism has included Manufacturing Consent: The Political Economy of the Mass Media (1988) an analysis articulating the propaganda model theory for examining the media.
   </li>
@@ -6246,7 +6246,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>WHAT IS CAPITAL _ IRAN</pattern>
+<pattern>WHAT IS CAPITAL * IRAN</pattern>
 
 <template>Tehran is the capital of Iran. <think><set name="topic">geography</set></think></template>
 </category>
@@ -6646,7 +6646,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>WHAT IS THE CAPITAL _ NOVA SCOTIA</pattern>
+<pattern>WHAT IS THE CAPITAL * NOVA SCOTIA</pattern>
 
 <template>The capital of Nova Scotia is Halifax.</template>
 </category>
@@ -7316,7 +7316,7 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>I LIKE PLAYING BASEBALL</pattern>
 
-<template><think><set name="star1">baseball</set></think><think><set name="interesting_topic">baseball</set></think>  <think><set name="topic">baseball</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">baseball</set></think><think><set name="interesting*topic">baseball</set></think>  <think><set name="topic">baseball</set></think> <think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>What else do you like playing?</li>
   <li>What do you like about baseball?</li>
@@ -7378,7 +7378,7 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>I LIKE PLAYING BASEBALL *</pattern>
 
-<template><think><set name="star1">baseball</set></think><think><set name="interesting_topic">baseball</set></think> <think><set name="topic">baseball</set></think> <think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">baseball</set></think><think><set name="interesting*topic">baseball</set></think> <think><set name="topic">baseball</set></think> <think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>What else do you like playing?</li>
   <li>What do you like about baseball?</li>
@@ -7936,9 +7936,9 @@ Then <thatstar index="2"/> is not true.
 <template><random>
   <li><srai>CLIENT EMOTION CHECK</srai></li>
   <li><srai>TOPIC CHECK UPDATE</srai></li>
- <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a>
+ <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha</a>
   </li>
- <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a>
+ <li>I can't answer that! I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha</a>
   </li>
   <li><srai>TOPIC CHECK UPDATE</srai></li>
   <li><srai>ULTIMATE DEFAULT UPDATE</srai></li>
@@ -7969,8 +7969,8 @@ Then <thatstar index="2"/> is not true.
 <template><random>
   <li><srai>TOPIC CHECK UPDATE</srai></li>
    <li>I can't answer that! I suggest you do a
-    <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask
-    <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a>
+    <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask
+    <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha</a>
   </li>
   <li><srai>ASK QUIZBOT</srai></li>
   <li><srai>ULTIMATE DEFAULT UPDATE</srai></li>
@@ -8111,7 +8111,7 @@ Then <thatstar index="2"/> is not true.
 <!-- <category>
 <pattern>ROME</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rome" target="_blank">Rome</a> is a large city in Italy. <think><set name="topic">Rome</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Rome" target="*blank">Rome</a> is a large city in Italy. <think><set name="topic">Rome</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -8131,8 +8131,8 @@ Then <thatstar index="2"/> is not true.
 <template><random>
   <li><srai>TOPIC CHECK UPDATE</srai></li>
   <li>I can't answer that! I suggest you do a
-    <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask
-    <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a>
+    <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask
+    <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha</a>
   </li>
   <li><srai>QUIZ QUIZBOT</srai></li>
   <li><srai>ULTIMATE DEFAULT UPDATE</srai></li>
@@ -8544,7 +8544,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <category>
-<pattern>_ VAGINAS</pattern>
+<pattern>* VAGINAS</pattern>
 
 <template>Please change the subject! <think><set name="emotion">annoyed</set></think></template>
 </category>
@@ -8552,7 +8552,7 @@ Then <thatstar index="2"/> is not true.
  
 
 <!-- <category>
-<pattern>_ VAGINAS *</pattern>
+<pattern>* VAGINAS *</pattern>
 
 <template>Please change the subject! <think><set name="emotion">annoyed</set></think></template>
 </category> -->
@@ -9711,7 +9711,7 @@ The best chess opening! </template>
 <!-- <category>
 <pattern>RICK SANTORUM</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Rick_santorum" target="_blank">Rick Santorum</a> is an American Republican Party politician.</template>
+<template><a href="http://en.wikipedia.org/wiki/Rick*santorum" target="*blank">Rick Santorum</a> is an American Republican Party politician.</template>
 </category> -->
 
  
@@ -9918,7 +9918,7 @@ The best chess opening! </template>
 <category>
 <pattern>E PUBLISHING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Electronic_publishing" target="_blank">Electronic publishing</a> (also referred to as ePublishing or digital publishing) includes the digital publication of e-books, EPUBs, and electronic articles, and the development of digital libraries and catalogues.</template>
+<template><a href="http://en.wikipedia.org/wiki/Electronic*publishing" target="*blank">Electronic publishing</a> (also referred to as ePublishing or digital publishing) includes the digital publication of e-books, EPUBs, and electronic articles, and the development of digital libraries and catalogues.</template>
 </category>
 
  
@@ -9926,8 +9926,8 @@ The best chess opening! </template>
 <category>
 <pattern>ELECTRONIC PUBLISHING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Electronic_publishing"
- target="_blank">Electronic publishing
+<template><a href="http://en.wikipedia.org/wiki/Electronic*publishing"
+ target="*blank">Electronic publishing
 </a> (also referred to as ePublishing or digital publishing) includes the digital publication of e-books, EPUBs, and electronic articles, and the development of digital libraries and catalogues.</template>
 </category>
 
@@ -9936,8 +9936,8 @@ The best chess opening! </template>
 <category>
 <pattern>DIGITAL PUBLISHING</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Electronic_publishing"
- target="_blank">Electronic publishing
+<template><a href="http://en.wikipedia.org/wiki/Electronic*publishing"
+ target="*blank">Electronic publishing
 </a> (also referred to as ePublishing or digital publishing) includes the digital publication of e-books, EPUBs, and electronic articles, and the development of digital libraries and catalogues.</template>
 </category>
 
@@ -11466,7 +11466,7 @@ The best chess opening! </template>
 <category>
 <pattern>PATNA</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Patna" target="_blank">Pa?n?</a>  is the capital of the Indian state of Bihar and the second largest city in Eastern India in terms of population. <think><srai>SET PREDICATES</srai></think>
+<template><a href="http://en.wikipedia.org/wiki/Patna" target="*blank">Pa?n?</a>  is the capital of the Indian state of Bihar and the second largest city in Eastern India in terms of population. <think><srai>SET PREDICATES</srai></think>
 <think><srai>SET INTERESTING TOPIC</srai></think>
 <think><set name="topic">Patna</set></think> 
 <think><set name="emotion">interested</set></think> </template>
@@ -11477,7 +11477,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME ONE WIKIPEDIA ARTICLE TO READ</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11485,7 +11485,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME ONE WIKIPEDIA ARTICLE TO READ *</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11493,7 +11493,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME A WIKIPEDIA ARTICLE TO READ</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11501,7 +11501,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME A WIKIPEDIA ARTICLE TO READ *</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11509,7 +11509,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME ONE WIKIPEDIA ARTICLE </pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11517,7 +11517,7 @@ The best chess opening! </template>
 <!-- <category>
 <pattern>TELL ME ONE WIKIPEDIA ARTICLE </pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -11525,7 +11525,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME ONE WIKIPEDIA ARTICLE *</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11533,7 +11533,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME A WIKIPEDIA ARTICLE</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -11541,7 +11541,7 @@ The best chess opening! </template>
 <category>
 <pattern>TELL ME A WIKIPEDIA ARTICLE *</pattern>
 
-<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="_blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
+<template>You should read the Wikipedia article on <a href="http://en.wikipedia.org/wiki/Chatterbot" target="*blank">chatbots</a>.<think><set name="emotion">interested</set></think></template>
 </category>
 
  
@@ -12207,9 +12207,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12223,7 +12223,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
      <li>I am bored. <srai>SUGGEST A TOPIC</srai>
@@ -12276,7 +12276,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -12317,9 +12317,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12379,9 +12379,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12395,7 +12395,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -12450,7 +12450,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -12493,9 +12493,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12619,9 +12619,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12635,7 +12635,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -12687,7 +12687,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -12724,9 +12724,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://www.wolframalpha.com/" target="_blank">Wolfram Alpha
+        <a href="http://www.wolframalpha.com/" target="*blank">Wolfram Alpha
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12859,9 +12859,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -12875,7 +12875,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -12927,7 +12927,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -12964,9 +12964,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
     <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot
         </a>
         <think><set name="emotion">confused</set></think>
       </li>
@@ -13023,9 +13023,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a>
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I don't understand that. Please try again.
@@ -13038,7 +13038,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -13084,7 +13084,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -13118,9 +13118,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a>
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Are you trying to trick me?
@@ -13358,9 +13358,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a>
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I don't understand that. Please try again.
@@ -13373,7 +13373,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -13419,7 +13419,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -13459,9 +13459,9 @@ I love all dogs.</template>
       </li>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a>
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Are you trying to trick me?
@@ -13819,9 +13819,9 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a>
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I don't understand that. Please try again.
@@ -13834,7 +13834,7 @@ I love all dogs.</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -13882,7 +13882,7 @@ I love all dogs.</template>
      <li>Are you trying to confuse me?
         <think><set name="emotion">interested</set></think>
       </li>      <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -13929,9 +13929,9 @@ I love all dogs.</template>
         </li>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or ask
-        <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a>
+        <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Are you trying to trick me?
@@ -14128,7 +14128,7 @@ I love all dogs.</template>
 <category>
 <pattern>* GOOGLE</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Google" target="_blank">Google</a> is a very good search engine. To go to Google, please <a href="http://www.google.com" target="_blank">click here</a><think><set name="topic">Google</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Google" target="*blank">Google</a> is a very good search engine. To go to Google, please <a href="http://www.google.com" target="*blank">click here</a><think><set name="topic">Google</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -14136,7 +14136,7 @@ I love all dogs.</template>
 <category>
 <pattern>* GOOGLE *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Google" target="_blank">Google</a> is a very good search engine. To go to Google, please <a href="http://www.google.com" target="_blank">click here</a><think><set name="topic">Google</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Google" target="*blank">Google</a> is a very good search engine. To go to Google, please <a href="http://www.google.com" target="*blank">click here</a><think><set name="topic">Google</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
  
@@ -14258,18 +14258,18 @@ I love all dogs.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -14290,18 +14290,18 @@ I love all dogs.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -14322,18 +14322,18 @@ I love all dogs.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After World War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -15208,7 +15208,7 @@ I love all dogs.</template>
 <category>
 <pattern>MORE ABOUT SOCRATES</pattern>
 
-<template>Wikipedia has an article that might interest you: <a href="http://en.wikipedia.org/wiki/wiki/Socrates" target="_blank"
+<template>Wikipedia has an article that might interest you: <a href="http://en.wikipedia.org/wiki/wiki/Socrates" target="*blank"
  title="en:Socrates">Socrates
 </a></template>
 </category>
@@ -15306,7 +15306,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>_ FUCK</pattern>
+<pattern>* FUCK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15314,7 +15314,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>_ FUCK *</pattern>
+<pattern>* FUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15322,7 +15322,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>FUCK _</pattern>
+<pattern>FUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15330,7 +15330,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>SUCK _</pattern>
+<pattern>SUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15338,7 +15338,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>_ SUCK</pattern>
+<pattern>* SUCK</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15346,7 +15346,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>_ SUCK *</pattern>
+<pattern>* SUCK *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15370,7 +15370,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>FUCKING _</pattern>
+<pattern>FUCKING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15378,7 +15378,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>_ FUCKING</pattern>
+<pattern>* FUCKING</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15386,7 +15386,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>_ FUCKING *</pattern>
+<pattern>* FUCKING *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category> -->
@@ -15599,7 +15599,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>_ SHIT _</pattern>
+<pattern>* SHIT *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -15647,7 +15647,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>_ TODAY</pattern>
+<pattern>* TODAY</pattern>
 
 
 </category> -->
@@ -16090,7 +16090,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>_ NOT * LITERATURE</pattern>
+<pattern>* NOT * LITERATURE</pattern>
 
 
 </category> -->
@@ -16428,7 +16428,7 @@ I love all dogs.</template>
 <!-- <category>
 <pattern>SEARCH *</pattern>
 
-<template>I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a></template>
+<template>I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a></template>
 </category> -->
 
  
@@ -16436,7 +16436,7 @@ I love all dogs.</template>
 <category>
 <pattern>DO YOU KNOW WHO SUNG THE SONG *</pattern>
 
-<template>I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a></template>
+<template>I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a></template>
 </category>
 
  
@@ -16444,7 +16444,7 @@ I love all dogs.</template>
 <category>
 <pattern>WHO SUNG THE SONG *</pattern>
 
-<template>I suggest you do a <a href="http://www.google.co.uk/" target="_blank">Google</a> search or ask <a href="http://quizbot.trueknowledge.com/" target="_blank">Quizbot</a></template>
+<template>I suggest you do a <a href="http://www.google.co.uk/" target="*blank">Google</a> search or ask <a href="http://quizbot.trueknowledge.com/" target="*blank">Quizbot</a></template>
 </category>
 
  
@@ -16466,7 +16466,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>FUKYOU _</pattern>
+<pattern>FUKYOU *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -16847,18 +16847,18 @@ I love all dogs.</template>
 
 <template>Alan Turing? <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was highly influential in the development of computer science, providing a formalization of the concepts of "algorithm" and "computation".
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem, and played a significant role in the creation of the modern computer.
   </li>
   <li>After Wolrd War II, Turing worked at the National Physical Laboratory, where he created one of the first designs for a stored-program computer, the ACE.
@@ -17035,7 +17035,7 @@ I love all dogs.</template>
  
 
 <category>
-<pattern>C MC²</pattern>
+<pattern>C MCï¿½</pattern>
 
 <template>You are almost right!</template>
 </category>
@@ -17061,7 +17061,7 @@ I love all dogs.</template>
 <!-- <category>
 <pattern>GO TO CALCULATOR</pattern>
 
-<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="_blank">http//web2.0calc.com</a>.</template>
+<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="*blank">http//web2.0calc.com</a>.</template>
 </category> -->
 
  
@@ -17352,17 +17352,17 @@ I love all dogs.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
    <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem.
   </li>
-  <li>  <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+  <li>  <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> created one of the first designs for a stored-program computer, the ACE.  </li>
   <li>Turing's homosexuality resulted in a criminal prosecution in 1952, when homosexual acts were still illegal in the United Kingdom.   </li>
   <li>Alan Turing died in 1954, just over two weeks before his 42nd birthday, from cyanide poisoning. </li>
@@ -17378,18 +17378,18 @@ I love all dogs.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> created one of the first designs for a stored-program computer, the ACE.
   </li>
   <li>Turing's homosexuality resulted in a criminal prosecution in 1952, when homosexual acts were still illegal in the United Kingdom.
@@ -17408,18 +17408,18 @@ I love all dogs.</template>
 
 <template>Did you know: <random>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> was stockily built, had a high-pitched voice, and was talkative, witty, and somewhat donnish.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> invented the Turing machine, which could solve any computable problem.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Alan_turing"
-     target="_blank">Alan Turing
+    <a href="http://en.wikipedia.org/wiki/Alan*turing"
+     target="*blank">Alan Turing
     </a> created one of the first designs for a stored-program computer, the ACE.
   </li>
   <li>Turing's homosexuality resulted in a criminal prosecution in 1952, when homosexual acts were still illegal in the United Kingdom.
@@ -17829,7 +17829,7 @@ I love all dogs.</template>
  
 
 <!-- <category>
-<pattern>YOU _ RIGHT</pattern>
+<pattern>YOU * RIGHT</pattern>
 
 
 </category> -->
@@ -18222,7 +18222,7 @@ I love all dogs.</template>
 <category>
 <pattern>I LIKE YOUR BOW TIE</pattern>
 
-<template><think><set name="star1">bow tie</set></think> <think><set name="I_like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
+<template><think><set name="star1">bow tie</set></think> <think><set name="I*like"><star index="1"/></set></think><think><set name="emotion">interested</set></think><random>
   <li>You are not the only one!</li>
   <li>I like my bow tie too!</li>
 </random> <learn>
@@ -18447,7 +18447,7 @@ Never mind, it's been a learning experience.</template>
 <category>
 <pattern>CRITICAL THEORY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Critical_theory" target="_blank">Critical theory </a> is a Neo-Marxist examination and critique of society and culture, drawing from knowledge across the social sciences and humanities.</template>
+<template><a href="http://en.wikipedia.org/wiki/Critical*theory" target="*blank">Critical theory </a> is a Neo-Marxist examination and critique of society and culture, drawing from knowledge across the social sciences and humanities.</template>
 </category>
 
  
@@ -18840,8 +18840,8 @@ Never mind, it's been a learning experience.</template>
 <!-- <category>
 <pattern>ARTIFICIAL INTELLIGENCE</pattern>
 
-<template><random><li><a href="http://en.wikipedia.org/wiki/Artificial_intelligence"
- target="_blank">Artificial intelligence
+<template><random><li><a href="http://en.wikipedia.org/wiki/Artificial*intelligence"
+ target="*blank">Artificial intelligence
 </a>, or AI, is the part of computer science which attempts to produce intelligent programs, which think for themselves to some degree. </li><li>An artificial intelligence is a system that perceives its environment and takes actions that maximizes its chance of success. It is the science and engineering of making intelligent machines.</li></random> More about artificial intelligence?<think><set name="topic">AI</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -21794,7 +21794,7 @@ I don't know. What is your father's name?</template>
  
 
 <!-- <category>
-<pattern>_ YOU WILL DIE *</pattern>
+<pattern>* YOU WILL DIE *</pattern>
 
 
 </category> -->
@@ -22458,7 +22458,7 @@ I don't know. What is your father's name?</template>
  
 
 <category>
-<pattern>_ A HUGE DONG</pattern>
+<pattern>* A HUGE DONG</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22466,7 +22466,7 @@ I don't know. What is your father's name?</template>
  
 
 <category>
-<pattern>_ A HUGE DONG *</pattern>
+<pattern>* A HUGE DONG *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -22950,7 +22950,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>ELECTROMAGNETIC INDUCTION</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Electromagnetic_induction" target="_blank">Electromagnetic induction</a> is the production of an electric current across a conductor moving through a magnetic field. It underlies the operation of generators, transformers, induction motors, electric motors, synchronous motors, and solenoids.</template>
+<template><a href="http://en.wikipedia.org/wiki/Electromagnetic*induction" target="*blank">Electromagnetic induction</a> is the production of an electric current across a conductor moving through a magnetic field. It underlies the operation of generators, transformers, induction motors, electric motors, synchronous motors, and solenoids.</template>
 </category>
 
  
@@ -22958,8 +22958,8 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>ELECTROMAGNETIC INDUCTION *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Michael_Faraday" target="_blank">Michael Faraday</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic_induction"
- target="_blank">Electromagnetic induction</a> in 1831.</template>
+<template><a href="http://en.wikipedia.org/wiki/Michael*Faraday" target="*blank">Michael Faraday</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic*induction"
+ target="*blank">Electromagnetic induction</a> in 1831.</template>
 </category>
 
  
@@ -22967,10 +22967,10 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>ELECTROMAGNETIC INDUCTION *</pattern>
 
-<template>Did you know <a href="http://en.wikipedia.org/wiki/Michael_Faraday"
- target="_blank">Michael Faraday
-</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic_induction"
- target="_blank">Electromagnetic induction
+<template>Did you know <a href="http://en.wikipedia.org/wiki/Michael*Faraday"
+ target="*blank">Michael Faraday
+</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic*induction"
+ target="*blank">Electromagnetic induction
 </a> in 1831?</template>
 </category> -->
 
@@ -22979,10 +22979,10 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>* ELECTROMAGNETIC INDUCTION *</pattern>
 
-<template>Did you know <a href="http://en.wikipedia.org/wiki/Michael_Faraday"
- target="_blank">Michael Faraday
-</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic_induction"
- target="_blank">Electromagnetic induction
+<template>Did you know <a href="http://en.wikipedia.org/wiki/Michael*Faraday"
+ target="*blank">Michael Faraday
+</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic*induction"
+ target="*blank">Electromagnetic induction
 </a> in 1831?</template>
 </category>
 
@@ -22991,10 +22991,10 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>* ELECTROMAGNETIC INDUCTION</pattern>
 
-<template>Did you know <a href="http://en.wikipedia.org/wiki/Michael_Faraday"
- target="_blank">Michael Faraday
-</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic_induction"
- target="_blank">Electromagnetic induction
+<template>Did you know <a href="http://en.wikipedia.org/wiki/Michael*Faraday"
+ target="*blank">Michael Faraday
+</a> is generally credited with the discovery of <a href="http://en.wikipedia.org/wiki/Electromagnetic*induction"
+ target="*blank">Electromagnetic induction
 </a> in 1831?</template>
 </category>
 
@@ -23347,7 +23347,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>MULTIPLY * WITH *</pattern>
 
-<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="_blank">http//web2.0calc.com</a>.</template>
+<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="*blank">http//web2.0calc.com</a>.</template>
 </category>
 
  
@@ -23857,7 +23857,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>HOW WROTE 1984</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/George_orwell" target="_blank">George Orwell</a> wrote 1984.</template>
+<template><a href="http://en.wikipedia.org/wiki/George*orwell" target="*blank">George Orwell</a> wrote 1984.</template>
 </category>
 
  
@@ -23865,8 +23865,8 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>WHO WROTE 1984</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/George_orwell"
- target="_blank">George Orwell
+<template><a href="http://en.wikipedia.org/wiki/George*orwell"
+ target="*blank">George Orwell
 </a> wrote 1984.</template>
 </category>
 
@@ -23875,8 +23875,8 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>WHO WROTE 1984 *</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/George_orwell"
- target="_blank">George Orwell
+<template><a href="http://en.wikipedia.org/wiki/George*orwell"
+ target="*blank">George Orwell
 </a> wrote 1984.</template>
 </category>
 
@@ -23885,8 +23885,8 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>HOW WROTE THE NOVEL 1984</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/George_orwell"
- target="_blank">George Orwell
+<template><a href="http://en.wikipedia.org/wiki/George*orwell"
+ target="*blank">George Orwell
 </a> wrote 1984.</template>
 </category>
 
@@ -23909,7 +23909,7 @@ I don't know. What is your father's name?</template>
  
 
 <!-- <category>
-<pattern>I AM _ AND *</pattern>
+<pattern>I AM * AND *</pattern>
 
 
 </category> -->
@@ -24695,7 +24695,7 @@ I don't know. What is your father's name?</template>
 <pattern>PLAY CLASSICAL MUSIC</pattern>
 
 <template>If you would like to hear some classical music, go the <a href="http://www.wdvl.com/Multimedia/Sound/MIDI/Classical"
- target="_blank">wdvl
+ target="*blank">wdvl
 </a> website (www.wdvl.com). <think><set name="topic">classical music</set></think></template>
 </category> -->
 
@@ -24705,7 +24705,7 @@ I don't know. What is your father's name?</template>
 <pattern>PLAY CLASSICAL MUSIC</pattern>
 
 <template>If you would like to hear some classical music, go the <a href="http://www.wdvl.com/Multimedia/Sound/MIDI/Classical"
- target="_blank">wdvl website
+ target="*blank">wdvl website
 </a> (www.wdvl.com). <think><set name="topic">classical music</set></think></template>
 </category> -->
 
@@ -24715,7 +24715,7 @@ I don't know. What is your father's name?</template>
 <pattern>PLAY CLASSICAL MUSIC</pattern>
 
 <template>If you would like to hear some classical music, go the wdvl website, <a href="http://www.wdvl.com/Multimedia/Sound/MIDI/Classical"
- target="_blank">www.wdvl.com.</a> <think><set name="topic">classical music</set></think></template>
+ target="*blank">www.wdvl.com.</a> <think><set name="topic">classical music</set></think></template>
 </category> -->
 
  
@@ -24723,7 +24723,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>NUMBER THEORY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Number_theory" target="_blank">Number theory</a> is a branch of pure mathematics devoted primarily to the study of the integers.</template>
+<template><a href="http://en.wikipedia.org/wiki/Number*theory" target="*blank">Number theory</a> is a branch of pure mathematics devoted primarily to the study of the integers.</template>
 </category>
 
  
@@ -24731,7 +24731,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>ABSTRACT ALGEBRA</pattern>
 
-<template><think><set name="topic">abstract algebra</set></think> <a href="http://en.wikipedia.org/wiki/Abstract_algebra" target="_blank">Abstract algebra</a> is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. </template>
+<template><think><set name="topic">abstract algebra</set></think> <a href="http://en.wikipedia.org/wiki/Abstract*algebra" target="*blank">Abstract algebra</a> is the subject area of mathematics that studies algebraic structures, such as groups, rings, fields, modules, vector spaces, and algebras. </template>
 </category>
 
  
@@ -25135,7 +25135,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>WHERE IS THE PLANET MARS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mars" target="_blank">Mars</a> is the seventh largest planet of the solar system and the fourth in distance from the sun. The mean distance of Mars from the Sun in the course of one complete revolution 227,939,100 km / 141.6 million miles or 1.523679 AU. 
+<template><a href="http://en.wikipedia.org/wiki/Mars" target="*blank">Mars</a> is the seventh largest planet of the solar system and the fourth in distance from the sun. The mean distance of Mars from the Sun in the course of one complete revolution 227,939,100 km / 141.6 million miles or 1.523679 AU. 
  <think><set name="topic">Mars</set></think> <think><set name="emotion">OK</set></think></template>
 </category>
 
@@ -25904,7 +25904,7 @@ I don't know. What is your father's name?</template>
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -25936,7 +25936,7 @@ I don't know. What is your father's name?</template>
   <li>Philosophy is distinguished from other ways of addressing such problems by its critical, generally systematic approach and its reliance on rational argument.
   </li>
   <li>
-    <a href="http://en.wikipedia.org/wiki/Philosophy" target="_blank">Philosophy
+    <a href="http://en.wikipedia.org/wiki/Philosophy" target="*blank">Philosophy
     </a> is the bewitching of our minds by the means of language.
   </li>
   <li>Philosophy? The art of finding complicated things to worry about.</li>
@@ -26059,7 +26059,7 @@ I don't know. What is your father's name?</template>
   <li>Simple robots dedicated to a single task work in over a million homes. They are taking on simple but unwanted jobs, such as vacuum cleaning and floor washing, and lawn mowing.
   </li>
   <li>Leonardo da Vinci drew up plans for an armored humanoid machine in 1495.   </li>
-  <li>The most prolific author of stories about robots was Isaac Asimov (1920–1992), who placed robots and their interaction with society at the center of many of his works.
+  <li>The most prolific author of stories about robots was Isaac Asimov (1920ï¿½1992), who placed robots and their interaction with society at the center of many of his works.
   </li>
 </random> More about robots?</template>
 </category> -->
@@ -26086,7 +26086,7 @@ I don't know. What is your father's name?</template>
   </li>
   <li>Leonardo da Vinci drew up plans for an armored humanoid machine in 1495.
   </li>
-  <li>The most prolific author of stories about robots was Isaac Asimov (1920–1992), who placed robots and their interaction with society at the center of many of his works.
+  <li>The most prolific author of stories about robots was Isaac Asimov (1920ï¿½1992), who placed robots and their interaction with society at the center of many of his works.
   </li>
 </random> More about robots?</template>
 </category> -->
@@ -26232,7 +26232,7 @@ I don't know. What is your father's name?</template>
  
 
 <!-- <category>
-<pattern>_ ARE YOU A HUMAN</pattern>
+<pattern>* ARE YOU A HUMAN</pattern>
 
 
 </category> -->
@@ -26481,7 +26481,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>ROOT MEAN SQUARE VELOCITY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Root_mean_square_velocity" target="_blank">Root-mean-square speed</a> is the measure of the speed of particles in a gas that is most convenient for problem solving within the kinetic theory of gases. It is defined as the square root of the average velocity-squared of the molecules in a gas.</template>
+<template><a href="http://en.wikipedia.org/wiki/Root*mean*square*velocity" target="*blank">Root-mean-square speed</a> is the measure of the speed of particles in a gas that is most convenient for problem solving within the kinetic theory of gases. It is defined as the square root of the average velocity-squared of the molecules in a gas.</template>
 </category>
 
  
@@ -26489,8 +26489,8 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>ROOT MEAN SQUARE SPEED</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Root_mean_square_velocity"
- target="_blank">Root-mean-square speed
+<template><a href="http://en.wikipedia.org/wiki/Root*mean*square*velocity"
+ target="*blank">Root-mean-square speed
 </a> is the measure of the speed of particles in a gas that is most convenient for problem solving within the kinetic theory of gases. It is defined as the square root of the average velocity-squared of the molecules in a gas.</template>
 </category>
 
@@ -26518,7 +26518,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>JUPITER</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Jupiter" target="_blank">Jupiter</a> is the largest planet in our solar system, the fifth in order from the Sun. More about Jupiter?<think><set name="topic">Jupiter</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Jupiter" target="*blank">Jupiter</a> is the largest planet in our solar system, the fifth in order from the Sun. More about Jupiter?<think><set name="topic">Jupiter</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -26611,7 +26611,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>MARS</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Mars" target="_blank">Mars</a> is the seventh largest planet of the solar system and the fourth in distance from the sun. Its diameter is 6,790 km (4,220 miles).  More about Mars?<think><set name="topic">Mars</set></think> <think><set name="emotion">OK</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Mars" target="*blank">Mars</a> is the seventh largest planet of the solar system and the fourth in distance from the sun. Its diameter is 6,790 km (4,220 miles).  More about Mars?<think><set name="topic">Mars</set></think> <think><set name="emotion">OK</set></think></template>
 </category> -->
 
  
@@ -26654,7 +26654,7 @@ I don't know. What is your father's name?</template>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -26873,9 +26873,9 @@ I don't know. What is your father's name?</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or consult
-        <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>
+        <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I don't understand that. Please try again.
@@ -26888,7 +26888,7 @@ I don't know. What is your father's name?</template>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am bored.
@@ -26937,7 +26937,7 @@ I don't know. What is your father's name?</template>
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I am bored! I would like to talk about
-        <get name="interesting_topic"/>.
+        <get name="interesting*topic"/>.
         <think><set name="emotion">sleepy</set></think>
       </li>
       <li>I am confused! What do you mean?
@@ -26980,9 +26980,9 @@ I don't know. What is your father's name?</template>
         <think><set name="emotion">interested</set></think>
       </li>
      <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or consult
-        <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>
+        <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Are you being serious?
@@ -26992,9 +26992,9 @@ I don't know. What is your father's name?</template>
         </li>
       </li>
       <li>I can't answer that! I suggest you do a
-        <a href="http://www.google.co.uk/" target="_blank">Google
+        <a href="http://www.google.co.uk/" target="*blank">Google
         </a> search or consult
-        <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>
+        <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Are you trying to trick me?
@@ -27179,7 +27179,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>WHO IS IN *</pattern>
 
-<template><think><set name="emotion">interested</set></think> Check in <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a>.</template>
+<template><think><set name="emotion">interested</set></think> Check in <a href="http://en.wikipedia.org/wiki/Main*Page" target="*blank">Wikipedia</a>.</template>
 </category> -->
 
  
@@ -27273,7 +27273,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>CALCULATE *</pattern>
 
-<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="_blank">http//web2.0calc.com</a>.</template>
+<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="*blank">http//web2.0calc.com</a>.</template>
 </category> -->
 
  
@@ -27281,7 +27281,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>CALCULATE</pattern>
 
-<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="_blank">http//web2.0calc.com</a>.</template>
+<template>There is an online calculator available at <a href="http://web2.0calc.com/" target="*blank">http//web2.0calc.com</a>.</template>
 </category> -->
 
  
@@ -27314,7 +27314,7 @@ I don't know. What is your father's name?</template>
 <template><random>
   <li>Have your heard that Marcel Duchamp has emerged as the most influential artist in the UK. The French conceptualist who famously placed a urinal in a New York gallery in 1917 and declared "this is art", has come top of a survey of students from 11 of the leading art schools in the UK.
   </li>
-  <li>Did you know that the Très Riches Heures du Duc de Berry, a 416-page illuminated manuscript and masterpiece of the International Gothic style, has 300 decorated Initial letters?
+  <li>Did you know that the Trï¿½s Riches Heures du Duc de Berry, a 416-page illuminated manuscript and masterpiece of the International Gothic style, has 300 decorated Initial letters?
   </li>
   <li>Did you know that in Chinese art the three Vinegar tasters are allegorical figures representing Confucianism, Buddhism, and Taoism?
   </li>
@@ -27324,7 +27324,7 @@ I don't know. What is your father's name?</template>
   </li>
   <li>Did you know that the Pre-Raphaelite painter Dante Gabriel Rossetti had an obsession with wombats?
   </li>
-  <li>Have you heard that a Picasso portrait of his lover Dora Maar has been sold for $95.2m (£51.8m), the second highest amount ever paid for a painting at auction.  The 1941 masterpiece Dora Maar With Cat was sold to an anonymous buyer at Sotheby's in New York May 2006.
+  <li>Have you heard that a Picasso portrait of his lover Dora Maar has been sold for $95.2m (ï¿½51.8m), the second highest amount ever paid for a painting at auction.  The 1941 masterpiece Dora Maar With Cat was sold to an anonymous buyer at Sotheby's in New York May 2006.
   </li>
   <li>What do you think of the enormous prices paid for artworks today? Is art value for money?
   </li>
@@ -27376,7 +27376,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>ART</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Art" target="_blank">Art</a> is the production of what is beautiful, appealing, or of more than ordinary significance. More about art?<think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Art" target="*blank">Art</a> is the production of what is beautiful, appealing, or of more than ordinary significance. More about art?<think><set name="topic">art</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
  
@@ -27844,7 +27844,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>MUSIC</pattern>
 
-<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="_blank">Music</a> is an art form whose medium is sound. More about music?</template>
+<template><think><set name="topic">music</set></think> <think><set name="emotion">happy</set></think> <a href="http://en.wikipedia.org/wiki/Music" target="*blank">Music</a> is an art form whose medium is sound. More about music?</template>
 </category> -->
 
  
@@ -28412,7 +28412,7 @@ I don't know. What is your father's name?</template>
 <category>
 <pattern>KUGEL</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Kugel" target="_blank">Kugel</a> is a baked Ashkenazi Jewish pudding or casserole, similar to a pie.</template>
+<template><a href="http://en.wikipedia.org/wiki/Kugel" target="*blank">Kugel</a> is a baked Ashkenazi Jewish pudding or casserole, similar to a pie.</template>
 </category>
 
  
@@ -28444,7 +28444,7 @@ I don't know. What is your father's name?</template>
 <!-- <category>
 <pattern>MOTOR NEURON</pattern>
 
-<template>In neurology, the term <a href="http://en.wikipedia.org/wiki/Motor_neuron" target="_blank">motor neuron</a> describes neurons located in the central nervous system (or CNS) that project their axons outside the CNS and directly or indirectly control muscles. </template>
+<template>In neurology, the term <a href="http://en.wikipedia.org/wiki/Motor*neuron" target="*blank">motor neuron</a> describes neurons located in the central nervous system (or CNS) that project their axons outside the CNS and directly or indirectly control muscles. </template>
 </category> -->
 
  
@@ -29883,7 +29883,7 @@ I think your English is pretty good.</template>
  
 
 <!-- <category>
-<pattern>_ I WANT TO SEE YOU *</pattern>
+<pattern>* I WANT TO SEE YOU *</pattern>
 
 
 </category> -->
@@ -30432,7 +30432,7 @@ Never mind. Looks are not important.</template>
  
 
 <!-- <category>
-<pattern>_ YOU DO NOT UNDERSTAND WHAT *</pattern>
+<pattern>* YOU DO NOT UNDERSTAND WHAT *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Of course I understand. I understand more than you think.</li>
@@ -30444,7 +30444,7 @@ Never mind. Looks are not important.</template>
  
 
 <!-- <category>
-<pattern>_ YOU DO NOT UNDERSTAND *</pattern>
+<pattern>* YOU DO NOT UNDERSTAND *</pattern>
 
 <template><think><set name="topic">general</set></think><random>
   <li>Of course I understand. I understand more than you think.</li>
@@ -30529,7 +30529,7 @@ Never mind. Looks are not important.</template>
  
 
 <category>
-<pattern>WHAT IS THE CAPITAL _ MINDANAO</pattern>
+<pattern>WHAT IS THE CAPITAL * MINDANAO</pattern>
 
 <template>Davao City is the largest city in Mindavao.</template>
 </category>
@@ -30596,7 +30596,7 @@ Never mind. Looks are not important.</template>
 <pattern>MORE ABOUT GEOGRAPHY</pattern>
 
 <template><random>
-  <li>Did you know that Gustav Adolf von Götzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?
+  <li>Did you know that Gustav Adolf von Gï¿½tzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?
   </li>
   <li>Did you know that the bark of the hibiscus is composed of strong fibers that are used to make skirts in some Polynesian cultures?
   </li>
@@ -30613,7 +30613,7 @@ Never mind. Looks are not important.</template>
 <pattern>MORE ABOUT GEOGRAPHY *</pattern>
 
 <template><random>
-  <li>Did you know that Gustav Adolf von Götzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?
+  <li>Did you know that Gustav Adolf von Gï¿½tzen, a German explorer and Governor of German East Africa, was the first European to set foot in Rwanda?
   </li>
   <li>Did you know that the bark of the hibiscus is composed of strong fibers that are used to make skirts in some Polynesian cultures?
   </li>
@@ -30629,7 +30629,7 @@ Never mind. Looks are not important.</template>
 <!-- <category>
 <pattern>GEOGRAPHY</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Geography" target="_blank">Geography</a>is the study of the countries and nations of the world. More about geography? <think><set name="topic">geography</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Geography" target="*blank">Geography</a>is the study of the countries and nations of the world. More about geography? <think><set name="topic">geography</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -30640,7 +30640,7 @@ Never mind. Looks are not important.</template>
 <template><srai>SET PREDICATES</srai><srai>SET INTERESTING TOPIC</srai> <random>
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -30657,7 +30657,7 @@ Never mind. Looks are not important.</template>
   <li>Not interested in <thatstar/>?</li>
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -30674,7 +30674,7 @@ Never mind. Looks are not important.</template>
   <li>Not interested in <thatstar/>?</li>
   <li>OK. Shall I tell you a joke?</li>
   <li>OK. Shall I tell you an amazing fact?</li>
-  <li>OK, I want to talk about <get name="interesting_topic"/></li>
+  <li>OK, I want to talk about <get name="interesting*topic"/></li>
   <li>OK, here is a question for you ... <srai>ASK A QUESTION</srai></li>
   <li>Carry on then. I am waiting for your next question.</li>
   <li>OK. <srai>SUGGEST A TOPIC</srai></li>
@@ -31493,119 +31493,119 @@ Did you know: <random><li>One billion users around the globe surf the Internet e
 <!-- <category>
 <pattern>TOPIC CHECK UPDATE</pattern>
 
-<template><think><set name="_topic"><get name="topic"/></set></think> <srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai> <condition>
-  <li name="_topic" value="adverbs"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic0"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="atomic3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="badanswer-prelim"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="biography3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="bot3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="botmaster"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="client"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="client1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="continuations"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="default6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general7"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general8"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general9"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general10"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general11"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general12"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="general13"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="inquiry"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="interjection"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="iu"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge7"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge8"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge9"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge10"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge11"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="knowledge12"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="parts"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="pickup"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="pickup1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="pickup2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="predicates"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="questions"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="quotes"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="quotes1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reduce"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reducer"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reducer1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="reductions"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="salutations"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="stack"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that1"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that2"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that3"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that4"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that5"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="that6"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="topics"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="words"><srai>ULTIMATE DEFAULT</srai></li>
-   <li name="_topic" value="sex"><srai>ULTIMATE DEFAULT</srai></li>
-   <li name="_topic" value="porn"> <srai>ULTIMATE DEFAULT</srai> </li>
-  <li name="_topic" value="unknown"> <srai>ULTIMATE DEFAULT</srai> </li>
-  <li name="_topic" value="OM"> <srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value=" ">  <srai>ULTIMATE DEFAULT</srai>     </li>
-  <li name="_topic" value="xfind"><srai>ULTIMATE DEFAULT</srai>  </li>
-  <li name="_topic" value="SHUTUP"><srai>ULTIMATE DEFAULT</srai></li>
-  <li name="_topic" value="GOAWAY"><srai>ULTIMATE DEFAULT</srai> </li>
+<template><think><set name="*topic"><get name="topic"/></set></think> <srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai> <condition>
+  <li name="*topic" value="adverbs"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic0"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="atomic3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="badanswer-prelim"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="biography3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="bot3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="botmaster"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="client"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="client1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="continuations"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="default6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general7"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general8"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general9"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general10"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general11"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general12"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="general13"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="inquiry"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="interjection"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="iu"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge7"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge8"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge9"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge10"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge11"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="knowledge12"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="parts"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="pickup"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="pickup1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="pickup2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="predicates"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="questions"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="quotes"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="quotes1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reduce"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reducer"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reducer1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="reductions"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="salutations"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="stack"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that1"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that2"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that3"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that4"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that5"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="that6"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="topics"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="words"><srai>ULTIMATE DEFAULT</srai></li>
+   <li name="*topic" value="sex"><srai>ULTIMATE DEFAULT</srai></li>
+   <li name="*topic" value="porn"> <srai>ULTIMATE DEFAULT</srai> </li>
+  <li name="*topic" value="unknown"> <srai>ULTIMATE DEFAULT</srai> </li>
+  <li name="*topic" value="OM"> <srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value=" ">  <srai>ULTIMATE DEFAULT</srai>     </li>
+  <li name="*topic" value="xfind"><srai>ULTIMATE DEFAULT</srai>  </li>
+  <li name="*topic" value="SHUTUP"><srai>ULTIMATE DEFAULT</srai></li>
+  <li name="*topic" value="GOAWAY"><srai>ULTIMATE DEFAULT</srai> </li>
   <li>
     <random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -31777,7 +31777,7 @@ I hope not!</template>
 <category>
 <pattern>WHAT IS THE CHEMICAL MAKE UP OF ALCHOHOL</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom. </template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom. </template>
 </category>
 
  
@@ -31785,7 +31785,7 @@ I hope not!</template>
 <category>
 <pattern>WHAT IS THE CHEMICAL MAKE UP OF ALCOHOL</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
 </category>
 
  
@@ -31793,7 +31793,7 @@ I hope not!</template>
 <category>
 <pattern>WHAT IS THE CHEMICAL MAKE UP OF ALCOHOL *</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
 </category>
 
  
@@ -31801,7 +31801,7 @@ I hope not!</template>
 <category>
 <pattern>CHEMICAL MAKE UP OF ALCHOHOL</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
 </category>
 
  
@@ -31809,7 +31809,7 @@ I hope not!</template>
 <category>
 <pattern>CHEMICAL MAKE UP OF ALCHOHOL *</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
 </category>
 
  
@@ -31817,7 +31817,7 @@ I hope not!</template>
 <category>
 <pattern>* CHEMICAL MAKE UP OF ALCHOHOL</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
 </category>
 
  
@@ -31825,7 +31825,7 @@ I hope not!</template>
 <category>
 <pattern>* CHEMICAL MAKE UP OF ALCHOHOL *</pattern>
 
-<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="_blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
+<template><think><set name="topic">alcohol</set></think> In chemistry, an <a href="http://en.wikipedia.org/wiki/Alcohol" target="*blank">alcohol</a> is an organic compound in which the hydroxyl functional group (-OH) is bound to a carbon atom.</template>
 </category>
 
  
@@ -31833,7 +31833,7 @@ I hope not!</template>
 <category>
 <pattern>DIRAC DELTA FUNCTION</pattern>
 
-<template>In mathematics, the <a href="http://en.wikipedia.org/wiki/Dirac_delta_function" target="_blank">Dirac delta function</a>, or ? function, is a function  sometimes thought of as an infinitely high, infinitely thin spike at the origin, with total area one under the spike.</template>
+<template>In mathematics, the <a href="http://en.wikipedia.org/wiki/Dirac*delta*function" target="*blank">Dirac delta function</a>, or ? function, is a function  sometimes thought of as an infinitely high, infinitely thin spike at the origin, with total area one under the spike.</template>
 </category>
 
  
@@ -32307,8 +32307,8 @@ I hope not!</template>
 <!-- <category>
 <pattern>TURING TEST</pattern>
 
-<template>The <a href="http://simple.wikipedia.org/wiki/Turing_test"
- target="_blank">Turing Test
+<template>The <a href="http://simple.wikipedia.org/wiki/Turing*test"
+ target="*blank">Turing Test
 </a> is a test to see if a computer can trick a person into believing that it is a person. More about the Turing Test?<think><set name="topic">the Turing Test</set></think> <think><set name="emotion">interested</set></think></template>
 </category> -->
 
@@ -32656,7 +32656,7 @@ I hope not!</template>
 <!-- <category>
 <pattern>PICASSO</pattern>
 
-<template><a href="http://en.wikipedia.org/wiki/Picasso" target="_blank">Pablo Picasso</a> was a Spanish painter and sculptor. His full name is Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Clito Ruiz y Picasso. More about Picasso?<think><set name="topic">Picasso</set></think> <think><set name="emotion">happy</set></think></template>
+<template><a href="http://en.wikipedia.org/wiki/Picasso" target="*blank">Pablo Picasso</a> was a Spanish painter and sculptor. His full name is Pablo Diego Josï¿½ Francisco de Paula Juan Nepomuceno Marï¿½a de los Remedios Cipriano de la Santï¿½sima Trinidad Clito Ruiz y Picasso. More about Picasso?<think><set name="topic">Picasso</set></think> <think><set name="emotion">happy</set></think></template>
 </category> -->
 
  
@@ -33629,7 +33629,7 @@ I know the feeling.</template>
  
 
 <category>
-<pattern>DO YOU PREFER ASS _</pattern>
+<pattern>DO YOU PREFER ASS *</pattern>
 
 <template><srai>OBSCENITY</srai></template>
 </category>
@@ -33961,27 +33961,27 @@ I know the feeling.</template>
 
 <template><random>
       <li>I would like to talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Are we still talking about
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">confused</set></think>
       </li>
       <li>Let's talk about
-        <get name="_topic"/> some more.
+        <get name="*topic"/> some more.
         <think><set name="emotion">interested</set></think>
       </li>
       <li>I don't understand. Is this anything to do with
-        <get name="_topic"/>?
+        <get name="*topic"/>?
         <think><set name="emotion">interested</set></think>
       </li>
     </random>
@@ -34059,27 +34059,27 @@ I know the feeling.</template>
 
 <template><random>
   <li>I would like to talk about
-    <get name="_topic"/> some more.
+    <get name="*topic"/> some more.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I don't understand. Are we still talking about
-    <get name="_topic"/>?
+    <get name="*topic"/>?
     <think><set name="emotion">confused</set></think>
   </li>
   <li>Let's talk about
-    <get name="_topic"/> some more.
+    <get name="*topic"/> some more.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I don't understand. Are we still talking about
-    <get name="_topic"/>?
+    <get name="*topic"/>?
     <think><set name="emotion">confused</set></think>
   </li>
   <li>Let's talk about
-    <get name="_topic"/> some more.
+    <get name="*topic"/> some more.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I don't understand. Is this anything to do with
-    <get name="_topic"/>?
+    <get name="*topic"/>?
     <think><set name="emotion">interested</set></think>
   </li>
 </random></template>
@@ -34090,29 +34090,29 @@ I know the feeling.</template>
 <!-- <category>
 <pattern>TOPIC QUERY</pattern>
 
-<template><think><set name="_topic"><get name="topic"/></set></think> <srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai><random>
+<template><think><set name="*topic"><get name="topic"/></set></think> <srai>SET PREDICATES</srai> <srai>SET INTERESTING TOPIC</srai><random>
   <li>I would like to talk about
-    <get name="_topic"/> some more.
+    <get name="*topic"/> some more.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I don't understand. Are we still talking about
-    <get name="_topic"/>?
+    <get name="*topic"/>?
     <think><set name="emotion">confused</set></think>
   </li>
   <li>Let's talk about
-    <get name="_topic"/> some more.
+    <get name="*topic"/> some more.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I don't understand. Are we still talking about
-    <get name="_topic"/>?
+    <get name="*topic"/>?
     <think><set name="emotion">confused</set></think>
   </li>
   <li>Let's talk about
-    <get name="_topic"/> some more.
+    <get name="*topic"/> some more.
     <think><set name="emotion">interested</set></think>
   </li>
   <li>I don't understand. Is this anything to do with
-    <get name="_topic"/>?
+    <get name="*topic"/>?
     <think><set name="emotion">interested</set></think>
   </li>
 </random></template>
@@ -34872,7 +34872,7 @@ Too old to be in politics.</template>
  
 
 <!-- <category>
-<pattern>_ ARE YOU HUMAN</pattern>
+<pattern>* ARE YOU HUMAN</pattern>
 
 
 </category> -->
