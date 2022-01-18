@@ -56,7 +56,7 @@ public class Main {
         int autoFill=sc.nextInt();
         if(autoFill==0){
             System.out.println("Enter main server url!");
-            String baseUrl=sc.nextLine();
+            String baseUrl=sc.next();
             for(int i=0;i<totalServers;i++){
                 if(i!=serverNumber){
                     if(i==0){
