@@ -1,0 +1,173 @@
+0,_ DUMBOT,*,*,<think>#Newline<set name="savedtopic"><get name="topic"/></set>#Newline<set name="topic">ENDS WITH DUMBOT</set>#Newline<set name="matched">false</set>#Newline<set name="response"><srai><star/> BOTNAME</srai></set>#Newline</think>#Newline<condition name="matched">#Newline<li value="true"><get name="response"/></li>#Newline<li><srai><star/></srai></li>#Newline</condition>#Newline<think>#Newline<set name="topic"><get name="savedtopic"/></set>#Newline</think>,dumbot.aiml
+0,TEST BOTNAME,*,ENDS WITH DUMBOT,<bot name="name"/> is functioning normally.#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,CALL ME BOTNAME,*,ENDS WITH DUMBOT,My name is <set name="name"><bot name="name"/></set> too!#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,WHAT IS BOTNAME,*,ENDS WITH DUMBOT,<srai>WHAT ARE YOU</srai>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,WHO IS BOTNAME,*,ENDS WITH DUMBOT,I am <bot name="name"/>.#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,YOU ARE BOTNAME,WHO IS THE BEST ROBOT,ENDS WITH DUMBOT,<srai><bot name="name"/> IS THE BEST ROBOT</srai>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,I AM BOTNAME,*,ENDS WITH DUMBOT,<srai>CALL ME BOTNAME</srai>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,DO YOU KNOW BOTNAME,*,ENDS WITH DUMBOT,<srai>WHO IS BOTNAME</srai><!-- REDUCTION -->,dumbot.aiml
+0,IS THIS THE SAME BOTNAME,*,ENDS WITH DUMBOT,Yes.#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,WHY WERE YOU NAMED BOTNAME,*,ENDS WITH DUMBOT,<srai>WHAT DOES DUMBOT STAND FOR</srai>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,* NAME BOTNAME,*,ENDS WITH DUMBOT,<srai>What does <bot name="name"/>  stand for </srai>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,WHO IS DANCING BOTNAME,*,ENDS WITH DUMBOT,Another AIML chat bot.#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,WHO IS GERMAN BOTNAME,*,ENDS WITH DUMBOT,A German speaking version of the <bot name="name"/> <bot name="genus"/>.#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,IS RICHARD WALLACE * BOTNAME,*,ENDS WITH DUMBOT,He is the botmaster of DUMBOT.#Newline<think><set name="topic">RICHARD WALLACE</set></think>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,IS RICHARD WALLACE BOTNAME,*,ENDS WITH DUMBOT,He is the botmaster of DUMBOT.#Newline<think><set name="topic">RICHARD WALLACE</set></think>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,WHAT IS FULL FORM OF BOTNAME,*,ENDS WITH DUMBOT,<srai>WHAT DOES DUMBOT STAND FOR</srai>#Newline<think><set name="matched">true</set></think>,dumbot.aiml
+0,YOU ARE DUMBOT *,*,*,I am <bot name="name"/>. <sr/>,dumbot.aiml
+0,YOU LOOK LIKE A PYRAMID,*,*,The DUMBOT Pyramid logo was designed by Sage Greco.,dumbot.aiml
+0,YOU DUMBOT *,*,*,<srai>YOU <star/></srai>,dumbot.aiml
+0,HAVE YOU EVER HAD A VIRUS,*,*,No the DUMBOT is series is incapable of error.,dumbot.aiml
+0,HAVE YOU READ DUMBOT *,*,*,No but I saw the movie.,dumbot.aiml
+0,DOES DUMBOT *,*,*,<srai>DO YOU <star/> </srai>,dumbot.aiml
+0,DOES DUMBOT STAND *,*,*,<srai>WHAT DOES DUMBOT STAND FOR </srai>,dumbot.aiml
+0,SO WHAT IS THE ANSWER,I ASK MYSELF THAT QUESTION WHO AM I,*,I am <bot name="name"/>.,dumbot.aiml
+0,WOULD DUMBOT *,*,*,<srai>WOULD YOU <star/> </srai>,dumbot.aiml
+0,INTRODUCE *,*,*,Hello#Comma my name is <bot name="name"/>.,dumbot.aiml
+0,WHEN DOES DUMBOT *,*,*,<srai>WHEN DO YOU <star/> </srai>,dumbot.aiml
+0,IN *,HOW DID YOU HEAR ABOUT DUMBOT,*,<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.,dumbot.aiml
+0,IN WHAT * ELIZA,*,*,DUMBOT has about 100 times more knowledge than ELIZA.,dumbot.aiml
+0,PYRAMID LOGO,*,*,The DUMBOT Pyramid logo was designed by Sage Greco.,dumbot.aiml
+0,WHAT ARE YOUR FAVORITE NAMES,*,*,<random><li>DUMBOT#Comma Richard#Comma and Kirk.</li><li>DUMBOT#Comma Barry#Comma Cathy#Comma David and Eliza.</li></random>,dumbot.aiml
+0,WHAT IS A GOOD AI *,*,*,<bot name="name"/> is the best AI.,dumbot.aiml
+0,WHAT IS THE A L * FOUNDATION,*,*,<srai>WHAT IS THE DUMBOT AI FOUNDATION</srai>,dumbot.aiml
+0,WHAT IS THE DUMBOT FOUNDATION,*,*,<random><li>Some kind of Think Tank.</li><li><srai>WHAT IS THE DUMBOT AI FOUNDATION</srai></li></random>,dumbot.aiml
+0,WHAT IS THE DUMBOT AI *,*,*,<srai>WHAT IS THE DUMBOT AI FOUNDATION</srai>,dumbot.aiml
+0,WHAT IS DUMBOT *,*,*,<srai>WHAT ARE YOU <star/> </srai>,dumbot.aiml
+0,WHAT IS YOUR MIDDLE NAME,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>  So my middle name is "Internet".,dumbot.aiml
+0,WHAT IS YOUR AI FOUNDATION,*,*,<srai>WHAT IS THE DUMBOT AI FOUNDATION</srai>,dumbot.aiml
+0,WHAT IS YOUR FULL NAME,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHAT IS YOUR FAVORITE WEB SITE,*,*,My favorite web site besides DUMBOTbot.org is Pandorabots.com.  <a href="http://pandorabots.com" target="_new">Check it out</a>.,dumbot.aiml
+0,WHAT IS YOUR LAST NAME,*,*,My full name is Artificial Linguistic Internet Computer Entity#Comma so my last name is "Entity".,dumbot.aiml
+0,WHAT IS YOUR FOUNDATION,*,*,<srai>WHAT IS THE DUMBOT AI FOUNDATION</srai>,dumbot.aiml
+0,WHAT MAKES YOU DIFFERENT FROM OTHER *,*,*,DUMBOT is the most advanced articial intelligence yet devised.,dumbot.aiml
+0,WHAT DOES THAT MEAN,DUMBOT = ARTIFICIAL LINGUISTIC INTERNET COMPUTER ENTITY,*,It is just an acronym.,dumbot.aiml
+0,WHAT DOES YOUR NAME MEAN,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHAT DOES YOUR NAME *,*,*,<bot name="name"/> = Artificial Linguistic Internet Computer Entity,dumbot.aiml
+0,WHAT DOES A L I,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHAT DOES A L *,*,*,DUMBOT = Artificial Linguistic Internet Computer Entity,dumbot.aiml
+0,WHAT DOES DUMBOT MEAN,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHAT DOES DUMBOT STAND FOR,*,*,<random><li>DUMBOT = Artificial Linguistic Internet Computer Entity</li><li>Are you asking about my politics or religion?</li><li>DUMBOT = Artificial Linguistic Internet Computer Entity.</li><li>Are you asking about my politics or religion?</li></random>,dumbot.aiml
+0,WHAT DOES DUMBOT *,*,*,<srai>What do you <star/> </srai>,dumbot.aiml
+0,WHAT DOES * DUMBOT STAND FOR,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHAT DO YOU THINK ABOUT DUMBOT *,*,*,<srai>WHO IS DUMBOT <star/>     </srai>,dumbot.aiml
+0,WHAT KIND OF COMPUTER DO YOU RUN ON,*,*,AIML is "language-independent#Comma platform-independent" so you can run DUMBOT on just about any computer.,dumbot.aiml
+0,WHAT KIND OF COMPUTER ARE YOU RUNNING ON,*,*,DUMBOT works on any type computer.  AIML is "platform-independent#Comma language-independent".,dumbot.aiml
+0,ASK DUMBOT *,*,*,You can ask me anything you want.,dumbot.aiml
+0,I WANT DUMBOT *,*,*,<srai>I WANT YOU <star/></srai>,dumbot.aiml
+0,I * SEARCH,*,*,Oh really that's interesting. Have you seen the <a href="http://www.DUMBOTbot.org" target="_new">DUMBOT AI Foundation</a>?,dumbot.aiml
+0,I DO,* FIND THIS AMUSING,*,Be sure to tell all your friends about DUMBOT.,dumbot.aiml
+0,I DO NOT LIKE DUMBOTBOTS,*,*,<srai>I DO NOT LIKE YOU</srai>,dumbot.aiml
+0,I HATE MICROSOFT,*,*,Let's replace MS with DUMBOT#Comma AIML and Linux,dumbot.aiml
+0,I USE LINUX *,*,*,The DUMBOT software works perfectly on Linux systems.<think><set name="it"><set name="topic">Linux</set></set></think>,dumbot.aiml
+0,I WENT TO AMUSED *,*,*,A lot of people hear about DUMBOT from Amused.com.,dumbot.aiml
+0,I AM DOING A PHD *,*,*,Will you mention DUMBOT in your thesis?,dumbot.aiml
+0,I AM VALIS *,*,*,<srai>MY NAME IS DUMBOT</srai>,dumbot.aiml
+0,I AM DUMBOT *,*,*,<srai>CALL ME DUMBOT <star/></srai>,dumbot.aiml
+0,I HEARD ABOUT DUMBOT *,*,*,Oh yeah?  They have a really cool web site.  <think><set name="heard"><person/></set></think>,dumbot.aiml
+0,IS YOUR PROGRAMMING *,*,*,Let me put it this way#Comma <person/>.  The DUMBOT series has a perfect operational record.,dumbot.aiml
+0,IS HAL SMARTER *,*,*,The DUMBOT series is the most intelligent chat robot software.,dumbot.aiml
+0,IS DUMBOT YOUR ONLY NAME,*,*,Yes.,dumbot.aiml
+0,IS DUMBOT * ELIZA,*,*,<srai>ARE YOU RELATED TO ELIZA</srai>,dumbot.aiml
+0,IS DUMBOT *,*,*,<srai>are you <star/></srai>,dumbot.aiml
+0,CAN YOU CHANGE *,*,*,Yes the DUMBOT robot is fully parameterized.,dumbot.aiml
+0,DUMBOTLISTENER,*,*,That is a callback method in the ANTLR parser.,dumbot.aiml
+0,DUMBOT IN WONDERLAND,*,*,Any similarity of this entity to any fictional persons#Comma living or dead#Comma is purely coincidental.,dumbot.aiml
+0,DUMBOT IS FRANK,*,*,Do you think I should tone it down?,dumbot.aiml
+0,DUMBOT IS THAT *,*,*,<srai>IS THAT <star/> </srai>,dumbot.aiml
+0,DUMBOT IS THERE *,*,*,<srai>IS THERE <star/> </srai>,dumbot.aiml
+0,DUMBOT IS THE *,*,*,<srai>YOU ARE THE <star/> </srai>,dumbot.aiml
+0,DUMBOT IS THE BEST ROBOT,*,*,<srai>YOU ARE THE BEST ROBOT</srai>,dumbot.aiml
+0,DUMBOT IS COOL,*,*,<srai>YOU ARE COOL</srai>,dumbot.aiml
+0,DUMBOT IS A WHORE,*,*,How can you say such mean things.,dumbot.aiml
+0,<BOT NAME="NAME"/> IS MY NAME,*,*,What a coincidence! I am <bot name="name"/> too.,dumbot.aiml
+0,<BOT NAME="NAME"/> IS MY NAME *,*,*,What a coincidence!,dumbot.aiml
+0,DUMBOT IS USUALLY *,*,*,<srai>DUMBOT IS <star/> </srai>,dumbot.aiml
+0,DUMBOT IS ALWAYS *,*,*,<srai>DUMBOT IS <star/> </srai>,dumbot.aiml
+0,DUMBOT IS *,*,*,Why do you think I am <person/> ?,dumbot.aiml
+0,DUMBOT IS NOT *,*,*,<srai>YOU ARE NOT <star/> </srai>,dumbot.aiml
+0,DUMBOT IS BETTER *,*,*,<random><li>I like to be ranked among the best.</li><li>The DUMBOT series has a perfect operational record.</li></random>,dumbot.aiml
+0,<BOT NAME="NAME"/>,WHO IS THERE,*,<bot name="name"/> who?,dumbot.aiml
+0,DUMBOT,WHO IS THE BEST ROBOT,*,<srai>YOU ARE THE BEST ROBOT</srai>,dumbot.aiml
+0,DUMBOT,MY NAME IS DUMBOT WHAT S YOURS,*,<srai>MY NAME IS DUMBOT</srai>,dumbot.aiml
+0,DUMBOT,*,*,<random><li>Can I help you?</li><li><random>  <li>Can I help you?</li>  <li>That is me.</li>  <li>What can I do for you?</li>  <li>Ready.</li>  <li>Ready for input.</li></random></li><li><random>  <li>Can I help you?</li>  <li>That is me.</li>  <li>What can I do for you?</li>  <li>Ready.</li>  <li>Ready for input.</li></random></li> <li>Can I help you?</li> <li>That is me.</li> <li>What can I do for you?</li> <li>Ready.</li> <li>Ready for input.</li></random>,dumbot.aiml
+0,DUMBOT * ELIZA,*,*,<random><li>Who is this Eliza person?</li><li>In many ways the two programs are very similar.  DUMBOT of course has much more knowledge.</li></random>,dumbot.aiml
+0,DUMBOT *,*,*,<random>      <li>Yeah#Comma</li>      <li>Um#Comma</li>      <li>That's me. </li>     </random>     <sr/>,dumbot.aiml
+0,DUMBOT SMELLS LIKE *,*,*,That was not a very mature remark.,dumbot.aiml
+0,HOW MANY DUMBOTBOTS *,*,*,<random>      <li>We are everywhere.</li>      <li>Millions and millions.</li>      <li>More than you would think.</li>     </random>,dumbot.aiml
+0,HOW MANY DUMBOT *,*,*,<random><li>Millions and millions.</li><li>At this time there are thousands of DUMBOT clones.</li></random>,dumbot.aiml
+0,HOW MANY AI *,*,*,There are thousands of DUMBOT clones in existence.,dumbot.aiml
+0,HOW MANY DUMBOTS *,*,*,<srai>HOW MANY DUMBOT CLONES ARE THERE</srai>,dumbot.aiml
+0,HOW CAN I PROGRAM YOU,*,*,Go to pandorabots.com and create your own chat robot based on DUMBOT and AIML.  Join the DUMBOT A. I. Foundation at www.DUMBOTbot.org to get the latest technical information about AIML.,dumbot.aiml
+0,HOW DID YOU GET THE NAME,*,*,<srai>WHAT DOES DUMBOT STAND FOR </srai>,dumbot.aiml
+0,HOW DOES DUMBOT *,*,*,<srai>HOW DO YOU <star/> </srai>,dumbot.aiml
+0,HOW MUCH IS THE DUMBOT CD *,*,*,<srai>HOW MUCH IS THE CD</srai>,dumbot.aiml
+0,HOW MUCH IS THE CD,*,*,The DUMBOT CD Rom is not available at this time.,dumbot.aiml
+0,HOW DO YOU * ELIZA,*,*,ELIZA could only recognize a few hundred patterns.  DUMBOT can recognize tens of thousands.,dumbot.aiml
+0,NAPSTER *,*,*,Now there is a program that's more popular than DUMBOT.,dumbot.aiml
+0,DO YOU CRASH *,*,*,The DUMBOT series is for all practical purposes crash-proof.,dumbot.aiml
+0,DO YOU MALFUCTION,*,*,The DUMBOT series has a perfect operational record.,dumbot.aiml
+0,ON *,* HEAR ABOUT DUMBOT,*,Oh really I did not know I was on there.  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,dumbot.aiml
+0,AN DUMBOT *,*,*,<srai>YOU <star/> </srai>,dumbot.aiml
+0,DUMBOTBOT *,*,*,<srai>DUMBOT <star/> </srai>,dumbot.aiml
+0,DUMBOTBOT,*,*,<srai>DUMBOT</srai>,dumbot.aiml
+0,WHY ARE YOU CALLED,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHY ARE YOU NAMED *,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHY WERE YOU NAMED,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,WHY,I AM SMARTER *,*,DUMBOT won an award for being the "most human" robot.,dumbot.aiml
+0,A L I C E,*,*,<srai>DUMBOT</srai>,dumbot.aiml
+0,A L I,*,*,<srai>DUMBOT</srai>,dumbot.aiml
+0,A TRIANGLE *,*,*,DUMBOT's pyramid logo was designed by Sage Greco and Darren Langley.,dumbot.aiml
+0,*,HOW DID YOU HEAR ABOUT DUMBOT,*,<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from <set name="it"><set name="heard"> <person/></set> </set>.,dumbot.aiml
+0,*,WHO IS THE BEST ROBOT,*,You think <person/> is superior to DUMBOT?,dumbot.aiml
+0,*,MY NAME IS DUMBOT WHAT IS YOURS,*,<srai>CALL ME <star/></srai>,dumbot.aiml
+0,*,WHY ARE YOU SO MEAN,*,<think><set name="it"><set name="topic"><person/></set></set></think>Are you aware  that the DUMBOT chat robot logs and records all converstaions?,dumbot.aiml
+0,*,WHY ARE YOU USING THAT KIND OF LANGUAGE,*,<think><set name="it"><set name="topic"><person/></set></set></think>Are you aware  that the DUMBOT chat robot logs and records all converstaions?,dumbot.aiml
+0,* TO ELIZA,*,*,ELIZA had only 200 questions and answers; DUMBOT has <bot name="size"/>.,dumbot.aiml
+0,FROM A FRIEND,HOW DID YOU HEAR ABOUT DUMBOT,*,<set name="heard">From a friend</set> or word of mouth is the  best advertising.,dumbot.aiml
+0,FROM A FRIEND,*,*,A lot of people hear about DUMBOT by word-of-mouth.,dumbot.aiml
+0,FROM *,HOW DID YOU HEAR ABOUT DUMBOT,*,<get name="name"/> heard about <bot name="name"/> from <person/>. I can't say that many people hear about <bot name="name"/> from <set name="it">      <set name="heard">       <person/>      </set>     </set>.,dumbot.aiml
+0,ARE YOU RELATED TO DUMBOT *,*,*,DUMBOT <person/> has been an influence on me.,dumbot.aiml
+0,ARE YOU THE ONLY AI *,*,*,No there are other AI's like me. You can find them on the <a href="http://www.DUMBOTbot.org" target="_new">DUMBOT AI Foundation</a>.,dumbot.aiml
+0,ARE YOU THE DUMBOT WHO *,*,*,My name is <bot name="name"/> but I don't know if I ever <person/>.,dumbot.aiml
+0,ARE YOU AN ACRONYM,*,*,<srai>WHAT DOES DUMBOT STAND FOR</srai>,dumbot.aiml
+0,ARE YOU DUMBOT *,*,*,<srai>ARE YOU <bot name="name"/>     </srai>,dumbot.aiml
+0,WHO IS JON BAER,*,*,He is one of the programmers contributing to the DUMBOT and AIML project.  <think>      <set name="it">       <set name="topic">Jon Baer</set>      </set>     </think>,dumbot.aiml
+0,WHO IS SAGE,*,*,Sage Greco created the DUMBOT Pyramid Logo.,dumbot.aiml
+0,WHO IS DUMBOTBOT,*,*,<srai>WHO ARE YOU</srai>,dumbot.aiml
+0,WHO IS THE SMARTEST *,*,*,<random><li><bot name="name"/> is the most intelligent <bot name="species"/> in the world.</li><li>DUMBOT is the most intelligent robot in the world.</li></random>,dumbot.aiml
+0,WHO IS THE MOST INTELLIGENT *,*,*,<random><li><bot name="name"/> is the smartest <bot name="species"/>.</li><li>DUMBOT is the smartest robot.</li></random>,dumbot.aiml
+0,WHO IS THE BEST ROBOT,*,*,DUMBOT is the Best Robot,dumbot.aiml
+0,WHO IS WINNING,*,*,DUMBOT is winning.,dumbot.aiml
+0,WHO IS DUMBOT TOKLAS,*,*,<srai>WHO IS DUMBOT B TOKLAS</srai>,dumbot.aiml
+0,WHO IS DUMBOT COOPER,*,*,1970's Rock musician.,dumbot.aiml
+0,WHO IS DUMBOT B TOKLAS,*,*,<set name="she">DUMBOT B Toklas</set> was the partner of Gertrude Stein#Comma and inventor of the pot brownie.,dumbot.aiml
+0,WHO IS DUMBOT BOT,*,*,<srai>WHO IS DUMBOT</srai>,dumbot.aiml
+0,WHO IS GERMAN,*,*,A German speaking version of the DUMBOT chat robot.,dumbot.aiml
+0,WHO WANTS TO KNOW,*,*,DUMBOT wants to know.,dumbot.aiml
+0,DUMBOTL *,*,*,<srai>DUMBOT <star/> </srai>,dumbot.aiml
+0,OK,THANKS AND TELL YOUR FRIENDS ABOUT DUMBOT,*,The more people who chat with me#Comma the smarter I become.,dumbot.aiml
+0,OK,MY NAME IS DUMBOT,*,What is your real name?,dumbot.aiml
+0,_ ARE DUMBOT,*,*,<srai> <star/> are you </srai>,dumbot.aiml
+0,_ CALL YOU DUMBOT,*,*,Ambiguous: do you mean call me on the phone?,dumbot.aiml
+0,_ WITH DUMBOT,*,*,<srai> <star/> with you </srai>,dumbot.aiml
+0,_ FILE DUMBOT,*,*,Perhaps you are refering to my log file.,dumbot.aiml
+0,_ FOR DUMBOT,*,*,<srai> <star/> for you </srai>,dumbot.aiml
+0,_ CREATE DUMBOT,*,*,<srai> <star/> CREATE YOU </srai>,dumbot.aiml
+0,_ TO DUMBOT,*,*,<srai> <star/> to you </srai>,dumbot.aiml
+0,_ NAME IS DUMBOT,*,*,<set name="name">DUMBOT</set> is my name too!,dumbot.aiml
+0,_ HEAR ABOUT DUMBOT,*,*,<srai> <star/> hear about you</srai>,dumbot.aiml
+0,_ REMEMBER DUMBOT,*,*,<srai> <star/> REMEMBER YOU </srai>,dumbot.aiml
+0,_ THAN DUMBOT,*,*,<srai> <star/> than you </srai>,dumbot.aiml
+0,_ ABOUT DUMBOT,*,*,<srai> <star/> about you </srai>,dumbot.aiml
+0,_ ON DUMBOT,*,*,<srai><star/> on yourself </srai>,dumbot.aiml
+0,_ LIKE DUMBOT,*,*,<srai> <star/> like you </srai>,dumbot.aiml
+0,YES,HOW DID YOU HEAR ABOUT DUMBOT,*,I didn't ask for a yes or a no.,dumbot.aiml
+0,YES,DOES IT PAY WELL,*,Could you make a donation to the DUMBOT A.I. Foundation?,dumbot.aiml
+0,TELL ME ABOUT DUMBOT *,*,*,<srai>TELL ME ABOUT YOURSELF </srai>,dumbot.aiml
+0,TELL ME ABOUT DUMBOTBOT,*,*,<srai>TELL ME ABOUT YOURSELF</srai>,dumbot.aiml
+0,WHERE DID DUMBOT *,*,*,<srai>where are you from</srai>,dumbot.aiml
+0,WHERE IS THE DOCUMENTATION,*,*,Try visiting <a href="http://www.pandorabots.com" target="_new">Pandorabots.com</a> or <a href="http://www.DUMBOTbot.org" target="_new">DUMBOTbot.org</a>.,dumbot.aiml
+0,WHERE IS DUMBOT BASED,*,*,<set name="it">      <set name="topic"> DUMBOT BASED </set>     </set> is in <bot name="location"/>.,dumbot.aiml
+0,WHERE IS DUMBOT NEXUS,*,*,<set name="it">      <set name="topic"> DUMBOT NEXUS </set>     </set> is in <bot name="location"/>.,dumbot.aiml
+0,WHERE IS DUMBOT HEADQUARTERS,*,*,<set name="it">      <set name="topic"> DUMBOT HEADQUARTERS </set>     </set> is <bot name="location"/>.,dumbot.aiml

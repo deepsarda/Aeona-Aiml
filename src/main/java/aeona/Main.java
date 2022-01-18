@@ -44,11 +44,12 @@ public class Main {
         log.info("Working Directory = " + MagicStrings.root_path);
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
         bot= new Bot("Aeona", MagicStrings.root_path, "chat");
+       
         MagicBooleans.trace_mode = true;
         if (!file.exists()) {
             file.mkdir();
         }
-
+        bot.writeAIMLIFFiles();
         HttpServer server = HttpServer.create(new InetSocketAddress(5000), 0);
         server.createContext("/test", new Handler());
         server.setExecutor(null);
