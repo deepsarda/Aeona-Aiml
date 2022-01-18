@@ -352,7 +352,7 @@ public class AIMLProcessor {
                         result2 = bis.read();
                     }
                     String responseFromServer = gson.fromJson(buf.toString(),Response.class).response;
-                    if(!response.contains("idk")){
+                    if(!responseFromServer.contains("idk")){
                         return responseFromServer;
                     }
                 }

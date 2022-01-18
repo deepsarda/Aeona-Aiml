@@ -150,7 +150,7 @@ public class Bot {
         else if (aimlDate.after(aimlIFDate)) {
             log.info("AIML modified after AIMLIF");
             addCategoriesFromAIML();
-            writeAIMLIFFiles();
+           
         }
         else {
             addCategoriesFromAIMLIF();
@@ -247,6 +247,7 @@ public class Bot {
             ex.printStackTrace();
         }
         log.info("Loaded {} categories in {} sec", brain.getCategories().size(), timer.elapsedTimeSecs());
+        
     }
 
     /**

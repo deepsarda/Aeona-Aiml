@@ -7,13 +7,16 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.InetSocketAddress;
 import java.net.URL;
@@ -109,6 +112,36 @@ public class Main {
                     gson.toJson(chat,fileWriter);
                     fileWriter.flush();
                     fileWriter.close();
+                }
+                if(response.response.contains("idk")){
+                    Response request=new Response(response.chat, query.get("text"));
+                    String requesString=gson.toJson(request);
+                    for(String server:Main.otherServers){
+                        URL url = new URL(server+"/test");
+                        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+                        con.setRequestMethod("GET");
+                        con.setDoOutput(true);
+                        con.setRequestMethod("POST");
+                        OutputStream os = con.getOutputStream();
+                        OutputStreamWriter osw = new OutputStreamWriter(os, "UTF-8");    
+                        osw.write(requesString);
+                        osw.flush();
+                        osw.close();
+                        os.close();  //don't forget to close the OutputStream
+                        con.connect();
+                        
+                        BufferedInputStream bis = new BufferedInputStream(con.getInputStream());
+                        ByteArrayOutputStream buf = new ByteArrayOutputStream();
+                        int result2 = bis.read();
+                        while(result2 != -1) {
+                            buf.write((byte) result2);
+                            result2 = bis.read();
+                        }
+                        String responseFromServer = gson.fromJson(buf.toString(),Response.class).response;
+                        if(!responseFromServer.contains("idk")){
+                           response.response=responseFromServer;
+                        }
+                    }
                 }
             }else{
                 InputStreamReader isReader = new InputStreamReader(t.getRequestBody());
