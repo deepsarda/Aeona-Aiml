@@ -205,10 +205,10 @@ public class Bot {
     
     File[] getFiles(File folder){
         File[] listOfFiles = folder.listFiles();
-        int chunk=listOfFiles.length/Main.serverNumber;
+        int chunk=listOfFiles.length/Main.totalServers;
 
         if(Main.serverNumber==Main.totalServers-1){
-            chunk+=listOfFiles.length%Main.serverNumber;
+            chunk+=listOfFiles.length%Main.totalServers;
         }
         int start=chunk*Main.serverNumber;
         int end=start+chunk-1;
