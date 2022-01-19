@@ -204,14 +204,22 @@ public class Bot {
      
     
     File[] getFiles(File folder){
+        int[] split={0,70,110,150,195,260};
+
         File[] listOfFiles = folder.listFiles();
-        int chunk=(listOfFiles.length-30)/Main.totalServers;
+        if(Main.totalServers!=5){
+        
+        int chunk=listOfFiles.length/Main.totalServers;
         int start=chunk*Main.serverNumber;
-        if(!Main.mainServer){
-            start+=30;
+       
+        int end=start+chunk-1;
+        if(Main.serverNumber==Main.totalServers-1){
+            end+=listOfFiles.length%Main.totalServers;
         }
-        int end=start+chunk-1+listOfFiles.length%Main.totalServers+30;
-        return Arrays.copyOfRange(listOfFiles,start,end);
+            return Arrays.copyOfRange(listOfFiles,start,end);
+        }else{
+            return Arrays.copyOfRange(listOfFiles,split[Main.serverNumber],split[Main.serverNumber+1]);
+        }
     }
     /**
      * Load all brain categories from AIML directory
