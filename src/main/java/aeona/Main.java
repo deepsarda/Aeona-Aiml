@@ -55,15 +55,16 @@ public class Main {
         System.out.println("Auto fill other servers? \n 0:Yes, 1:No \n works by adding -1,-2,-3 etc to a url which will be asked!");
         int autoFill=sc.nextInt();
         if(autoFill==0){
-            System.out.println("Enter main server url!");
+            System.out.println("Enter first part of the base server url!");
             String baseUrl=sc.next();
-            
+            System.out.println("Enter second part of the base server url!");
+            String nextpart=sc.next();
             for(int i=0;i<totalServers;i++){
                 if(i!=serverNumber){
                     if(i==0){
-                        otherServers[i]=baseUrl;
+                        otherServers[i]=baseUrl+nextpart;
                     }else{
-                        otherServers[i]=baseUrl+"-"+i;
+                        otherServers[i]=baseUrl+"-"+i+nextpart;
                     }
                 }
             }
