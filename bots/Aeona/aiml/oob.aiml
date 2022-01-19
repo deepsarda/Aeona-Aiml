@@ -29,7 +29,7 @@
 </category>
 <category><pattern>SEND FEATURE REQUEST *</pattern>
 <template><think><set name="featurerequest"><star/></set></think> Click send to mail your feature request.  
-<oob><email><to>callmom-info@pandorabots.com</to><subject>Feature request <get name="featurerequest"/></subject><body>Dear CallMom developers, I'd like to request that you add this feature to the next version of CallMom: <get name="featurerequest"/>.  Sincerely, <get name="name"/></body></email></oob></template>
+<oob><email><to>deep.p.sarda@gmail.com</to><subject>Feature request <get name="featurerequest"/></subject><body>Dear Aeona developers, I'd like to request that you add this feature to the next version of Aeona: <get name="featurerequest"/>.  Sincerely, <get name="name"/></body></email></oob></template>
 </category>
 <category><pattern>SHOW ME A VIDEO *</pattern>
 <template>I'm looking up videos for you.  <oob><search>VIDEO <star/></search></oob></template>

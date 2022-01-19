@@ -14,9 +14,12 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.Reader;
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Type;
 import java.net.InetSocketAddress;
 import java.net.URI;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -54,7 +57,7 @@ public class Main {
 
     static class Handler implements HttpHandler {
         public void handle(HttpExchange t) throws IOException {
-            Map<String, String> query = Handler.getQueryMap(t.getRequestURI().toString().replaceAll("%20", " ").trim());
+            Map<String, String> query = Handler.getQueryMap(t.getRequestURI().toString());
             Gson gson = new Gson();
             System.out.println(query.keySet().toArray().toString());
             File file = new File("save/" + query.get("id").trim() + ".json");
@@ -91,6 +94,12 @@ public class Main {
         }
     
         public static Map<String, String> getQueryMap(String query) {
+         
+            try {
+                query= URLDecoder.decode(query, StandardCharsets.UTF_8.name());
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
           String[] params = query.split("&");
           Map<String, String> map = new HashMap<String, String>();
     
