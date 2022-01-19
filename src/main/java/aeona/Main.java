@@ -69,6 +69,13 @@ public class Main {
         }else{
 
         }
+        System.out.println("Starting Server!");
+        HttpServer server = HttpServer.create(new InetSocketAddress(5000), 0);
+        server.createContext("/test", new Handler());
+        server.createContext("/alive", new Alive());
+        server.setExecutor(null);
+        server.start();
+        
         MagicStrings.root_path = System.getProperty("user.dir");
         log.info("Working Directory = " + MagicStrings.root_path);
         AIMLProcessor.extension =  new PCAIMLProcessorExtension();
@@ -78,12 +85,7 @@ public class Main {
         if (!file.exists()) {
             file.mkdir();
         }
-        
-        HttpServer server = HttpServer.create(new InetSocketAddress(5000), 0);
-        server.createContext("/test", new Handler());
-        server.createContext("/alive", new Alive());
-        server.setExecutor(null);
-        server.start();
+       
     }
 
     static class Handler implements HttpHandler {

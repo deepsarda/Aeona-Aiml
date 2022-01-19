@@ -204,7 +204,7 @@ public class Bot {
      
     
     File[] getFiles(File folder){
-        int[] split={0,70,110,150,195,260};
+        int[] split={0,80,110,150,195,260};
 
         File[] listOfFiles = folder.listFiles();
         if(Main.totalServers!=5){
