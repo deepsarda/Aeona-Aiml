@@ -330,31 +330,34 @@ public class AIMLProcessor {
                 Gson gson=new Gson();
                 Response request=new Response(ps.chatSession, ps.input);
                 String requesString=gson.toJson(request);
-                for(String server:Main.otherServers){
-                    URL url = new URL(server+"/test");
-                    HttpURLConnection con = (HttpURLConnection) url.openConnection();
-                    con.setRequestMethod("GET");
-                    con.setDoOutput(true);
-                    con.setRequestMethod("POST");
-                    OutputStream os = con.getOutputStream();
-                    OutputStreamWriter osw = new OutputStreamWriter(os, "UTF-8");    
-                    osw.write(requesString);
-                    osw.flush();
-                    osw.close();
-                    os.close();  //don't forget to close the OutputStream
-                    con.connect();
-                    
-                    BufferedInputStream bis = new BufferedInputStream(con.getInputStream());
-                    ByteArrayOutputStream buf = new ByteArrayOutputStream();
-                    int result2 = bis.read();
-                    while(result2 != -1) {
-                        buf.write((byte) result2);
-                        result2 = bis.read();
-                    }
-                    String responseFromServer = gson.fromJson(buf.toString(),Response.class).response;
-                    if(!responseFromServer.contains("idk")){
-                        return responseFromServer;
-                    }
+                for(int i=0;i<Main.totalServers;i++){
+                    if(i!=Main.serverNumber){
+                        String server=Main.otherServers[i];
+                        URL url = new URL(server+"/test");
+                        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+                        con.setRequestMethod("GET");
+                        con.setDoOutput(true);
+                        con.setRequestMethod("POST");
+                        OutputStream os = con.getOutputStream();
+                        OutputStreamWriter osw = new OutputStreamWriter(os, "UTF-8");    
+                        osw.write(requesString);
+                        osw.flush();
+                        osw.close();
+                        os.close();  //don't forget to close the OutputStream
+                        con.connect();
+                        
+                        BufferedInputStream bis = new BufferedInputStream(con.getInputStream());
+                        ByteArrayOutputStream buf = new ByteArrayOutputStream();
+                        int result2 = bis.read();
+                        while(result2 != -1) {
+                            buf.write((byte) result2);
+                            result2 = bis.read();
+                        }
+                        String responseFromServer = gson.fromJson(buf.toString(),Response.class).response;
+                        if(!responseFromServer.contains("idk")){
+                            return responseFromServer;
+                        }
+                    } 
                 }
             }
             //log.info("That="+that);
