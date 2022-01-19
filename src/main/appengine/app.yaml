@@ -1,0 +1,13 @@
+runtime: java11 # or another supported version
+
+instance_class: F4_1G
+
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto

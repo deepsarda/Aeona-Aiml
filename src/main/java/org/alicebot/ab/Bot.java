@@ -27,7 +27,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
@@ -35,8 +34,6 @@ import java.util.Set;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import aeona.Main;
 
 /**
  * Class representing the AIML bot
@@ -150,7 +147,7 @@ public class Bot {
         else if (aimlDate.after(aimlIFDate)) {
             log.info("AIML modified after AIMLIF");
             addCategoriesFromAIML();
-           
+            writeAIMLIFFiles();
         }
         else {
             addCategoriesFromAIMLIF();
@@ -201,26 +198,7 @@ public class Bot {
             //this.categories.addAll(moreCategories);
         }
     }
-     
-    
-    File[] getFiles(File folder){
-        int[] split={0,80,110,150,195,260};
 
-        File[] listOfFiles = folder.listFiles();
-        if(Main.totalServers!=5){
-        
-        int chunk=listOfFiles.length/Main.totalServers;
-        int start=chunk*Main.serverNumber;
-       
-        int end=start+chunk-1;
-        if(Main.serverNumber==Main.totalServers-1){
-            end+=listOfFiles.length%Main.totalServers;
-        }
-            return Arrays.copyOfRange(listOfFiles,start,end);
-        }else{
-            return Arrays.copyOfRange(listOfFiles,split[Main.serverNumber],split[Main.serverNumber+1]);
-        }
-    }
     /**
      * Load all brain categories from AIML directory
      */
@@ -232,7 +210,7 @@ public class Bot {
             String file;
             File folder = new File(MagicStrings.aiml_path);
             if (folder.exists()) {
-                File[] listOfFiles = getFiles(folder);
+                File[] listOfFiles = folder.listFiles();
                 log.info("Loading AIML files from '{}'", MagicStrings.aiml_path);
                 for (File listOfFile : listOfFiles) {
                     if (listOfFile.isFile()) {
@@ -254,7 +232,6 @@ public class Bot {
             ex.printStackTrace();
         }
         log.info("Loaded {} categories in {} sec", brain.getCategories().size(), timer.elapsedTimeSecs());
-        
     }
 
     /**
