@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: dialog.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: February 20, 2013 -->
+<!-- Last modified: September 5, 2014 -->
 <!--  -->
-<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
 <!--  -->
-<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
 <!--  -->
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
 <category><pattern>CLEAR DIALOG HISTORY</pattern>
 <template>Cleared.
 <think>
@@ -82,18 +87,6 @@
 <set name="request31"/>
 </think></template>
 </category>
-<category><pattern>SEND BUG REPORT</pattern>
-<template>Sending transcript to callmom-info@pandorabots.com.
-<oob><email><to>callmom-info@pandorabots.com</to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
-<srai>DIALOG HISTORY</srai></body></email></oob></template>
-</category>
-<category><pattern>REPORT A PROBLEM</pattern>
-<template><oob><dialog><title>Would you like to send a bug report?</title><list><item>Yes</item><item>No</item></list></dialog></oob>
-To help the developers understand your problem, you can choose to send us a transcript of your recent conversation with CallMom.  You can add your own comments to the email message too.  Would you like to send a report?</template>
-</category>
-<category><pattern>YES</pattern><that>WOULD YOU LIKE TO SEND A REPORT</that>
-<template><srai>SEND BUG REPORT</srai></template>
-</category>
 <category><pattern>XEXCHANGE *</pattern>
 <template><think>Badly formatted dialog exchage: <star/></think></template>
 </category>
@@ -143,9 +136,9 @@ To help the developers understand your problem, you can choose to send us a tran
 <srai>XEXCHANGE request2 XHUMAN  <request index="2"/> XBOT <response index="2"/></srai>
 <srai>XEXCHANGE request1 XHUMAN  <request index="1"/> XBOT <response index="1"/></srai></template>
 </category>
-<category><pattern>TRANSCRIPT</pattern>
-<template>Sending transcript to <get name="email"/>.
-<oob><email><to><get name="email"/></to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
-<srai>DIALOG HISTORY</srai></body></email></oob></template>
+<category><pattern>TEST REQUEST *</pattern>
+<template>request 1 = <request/>.
+request 2 = <request index="2"/>.
+request 3 = <request index="3"/>.</template>
 </category>
 </aiml>

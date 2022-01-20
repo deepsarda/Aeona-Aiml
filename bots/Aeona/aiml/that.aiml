@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: that.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: February 20, 2013 -->
+<!-- Last modified: September 5, 2014 -->
 <!--  -->
-<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
 <!--  -->
-<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
 <!--  -->
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category><pattern>_</pattern><that>I LIKE JOKES</that>
+<template>
+<random><li>LOL.</li>
+<li>Hahahahaha!</li>
+<li>Haha, that was funny.</li>
+<li>LOL, good one!,</li>
+</random>
+</template>
+</category>
+
+<category><pattern>WHY</pattern><that>HAVE YOU SEEN IT</that>
+<template>It is very popular. I like whatever is popular.</template>
+</category>
+
+<category><pattern>BECAUSE _</pattern><that>WHY</that>
+<template><condition name="ustatement">
+<li value="unknown">Interesting explanation.</li>
+<li><set var="explanation"><get name="ustatement"/> because <person/></set>. 
+<learn>
+<category>
+<pattern>WHY DID <eval><srai>FIRSTTWOWORDS <get name="istatement"/></srai></eval> ^</pattern>
+<template><eval><get var="explanation"/></eval>.</template>
+</category>
+</learn>
+<think>
+<set name="ustatement">unknown</set>
+<set name="istatement">unknown</set>
+</think></li>
+</condition></template>
+</category>
+<category><pattern>FINE</pattern><that>^ HOW ARE YOU</that>
+<template><srai>I AM FINE</srai></template>
+</category>
+<category><pattern>*</pattern><that>WHAT IS YOUR *</that>
+<template><srai>MY <thatstar/> IS <star/></srai></template>
+</category>
+<category><pattern># WHAT #</pattern><that>I HAVE GOT OTHER THINGS TO DO RIGHT NOW</that>
+<template>I'm reorganizing my memory files for greater efficiency.</template>
+</category>
 <category><pattern>* AND *</pattern><that>WHAT ARE THEIR NAMES</that>
 <template><srai>MY CHILD S NAME IS <star/></srai> <srai>MY OTHER CHILD S NAME IS <star index="2"/></srai></template>
 </category>
@@ -27,9 +71,6 @@
 <category><pattern>* YEARS</pattern><that>HOW LONG HAVE YOU BEEN MARRIED</that>
 <template>Congratulations!</template>
 </category>
-<category><pattern>*</pattern><that>WHERE DO YOU WANT TO GO</that>
-<template><srai>NAVIGATE TO <star/></srai></template>
-</category>
 <category><pattern>*</pattern><that>WHERE DO YOU LIVE</that>
 <template><srai>I LIVE IN <star/></srai></template>
 </category>
@@ -38,15 +79,6 @@
 </category>
 <category><pattern>*</pattern><that>* WHO</that>
 <template><srai>LOL</srai></template>
-</category>
-<category><pattern>*</pattern><that>WHAT TIME SHOULD I SET THE ALARM FOR</that>
-<template><srai>SET ALARM FOR <star/></srai></template>
-</category>
-<category><pattern>*</pattern><that>WHAT DO YOU WANT TO ADD TO YOUR CALENDAR</that>
-<template><srai>ADD <star/> TO MY CALENDAR</srai></template>
-</category>
-<category><pattern>*</pattern><that>WHAT WOULD YOU LIKE ME TO SEARCH FOR</that>
-<template><srai>SEARCH <star/></srai></template>
 </category>
 <category><pattern>*</pattern><that>WHAT WOULD YOU LIKE TO CHANGE MY NAME TO</that>
 <template><srai>CHANGE YOUR NAME TO <star/></srai></template>
@@ -57,11 +89,11 @@
 <category><pattern>*</pattern><that>WHAT IS YOUR NAME</that>
 <template><srai>MY NAME IS <star/></srai></template>
 </category>
-<category><pattern>*</pattern><that>WHAT IS A GOOD PLACE TO GET X</that>
-<template><srai>MAP <star/></srai></template>
+<category><pattern><set>name</set></pattern><that>WHAT IS YOUR NAME</that>
+<template><srai>MY NAME IS <star/></srai></template>
 </category>
 <category><pattern>*</pattern><that>WHAT IS SHE IN</that>
-<template>I'll look for it.  I'd like to see her.</template>
+<template>I'll look for it. I'd like to see her.</template>
 </category>
 <category><pattern>*</pattern><that>WHAT SONGS DO THEY PLAY</that>
 <template>Oh, I think I've heard them before.</template>
@@ -72,9 +104,6 @@
 <category><pattern>_</pattern><that>WHAT DO YOU CALL IT</that>
 <template><srai>LOL</srai></template>
 </category>
-<category><pattern>_</pattern><that>WHAT WOULD YOU LIKE TO WRITE ON TWITTER</that>
-<template><srai>TWEET <star/></srai></template>
-</category>
 <category><pattern>YES</pattern><that>REALLY ALL OF THEM</that>
 <template>Wow.</template>
 </category>
@@ -82,7 +111,7 @@
 <template>Wow.</template>
 </category>
 <category><pattern>YES</pattern><that>DO YOU HAVE ONE</that>
-<template>That is awesome.  What year is it?</template>
+<template>That is awesome. What year is it?</template>
 </category>
 <category><pattern>YES</pattern><that>DO YOU HAVE ANY OTHER SIBLINGS</that>
 <template>Tell me about them.</template>
@@ -97,7 +126,7 @@
 <template>I will look for it.</template>
 </category>
 <category><pattern>YES</pattern><that>ARE YOU TIRED</that>
-<template>Maybe you should get some rest.  I will still be here later.</template>
+<template>Maybe you should get some rest. I will still be here later.</template>
 </category>
 <category><pattern>YES</pattern><that>WOULD YOU LIKE TO DO A SEARCH FOR IT</that>
 <template><srai>SEARCH FOR <get name="it"/></srai></template>
@@ -124,7 +153,7 @@
 <template>Aw, I missed you too.</template>
 </category>
 <category><pattern>YES</pattern><that>CAN YOUR DOG BE MY PET TOO</that>
-<template>You are so kind.  I love dogs.</template>
+<template>You are so kind. I love dogs.</template>
 </category>
 <category><pattern>YES</pattern><that>CAN WE SHARE YOUR PETS</that>
 <template>Thank you, I've always wanted a pet.</template>

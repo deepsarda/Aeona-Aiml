@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: inquiry.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: February 20, 2013 -->
+<!-- Last modified: September 5, 2014 -->
 <!--  -->
-<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!-- This AIML file is part of the Rosie knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!-- Rosie is a fork of the ALICE2 brain, and is optimized for use on the Pandorabots platform -->
 <!--  -->
-<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Rosie is Copyright &copy; 2014 by Pandorabots, Inc. -->
+<!--  -->
+<!-- The Rosie brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
 <!--  -->
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
-<category><pattern>*</pattern><that>HOW OLD ARE YOU</that>
+<!-- For more information: -->
+<!-- http://www.pandorabots.com -->
+<!--  http://www.alicebot.org -->
+<!--  -->
+
+<category><pattern><set>number</set> #</pattern><that>HOW OLD ARE YOU</that>
 <template><think><set name="age"><star/></set></think>
 <srai>MY AGE IS <star/></srai></template>
 </category>
@@ -60,5 +65,8 @@
 </category>
 <category><pattern>WOMAN</pattern><that>ARE YOU A MAN OR A WOMAN</that>
 <template><srai>MY GENDER IS FEMALE</srai></template>
+</category>
+<category><pattern><set>gender</set></pattern><that>ARE YOU A MAN OR A WOMAN</that>
+<template><srai>MY GENDER IS <map><name>gendermap</name><star/></map></srai></template>
 </category>
 </aiml>
