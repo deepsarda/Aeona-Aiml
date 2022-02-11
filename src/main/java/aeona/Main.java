@@ -35,20 +35,21 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Main {
-	private static final Logger log = LoggerFactory.getLogger(Main.class);
-    public static Bot bot ; //
-    public  static File file = new File("save");
-    public static void main (String[] args)  throws IOException, ClassNotFoundException{
+    private static final Logger log = LoggerFactory.getLogger(Main.class);
+    public static Bot bot; //
+    public static File file = new File("save");
+
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         MagicStrings.root_path = System.getProperty("user.dir");
         log.info("Working Directory = " + MagicStrings.root_path);
-        AIMLProcessor.extension =  new PCAIMLProcessorExtension();
-        bot= new Bot("Aeona", MagicStrings.root_path, "chat");
-       
+        AIMLProcessor.extension = new PCAIMLProcessorExtension();
+        bot = new Bot("Aeona", MagicStrings.root_path, "chat");
+
         MagicBooleans.trace_mode = true;
         if (!file.exists()) {
             file.mkdir();
         }
-        
+
         HttpServer server = HttpServer.create(new InetSocketAddress(5000), 0);
         server.createContext("/", new Handler());
         server.setExecutor(null);
@@ -57,58 +58,69 @@ public class Main {
 
     static class Handler implements HttpHandler {
         public void handle(HttpExchange t) throws IOException {
-            Map<String, String> query = Handler.getQueryMap(t.getRequestURI().toString());
-            Gson gson = new Gson();
-            System.out.println(query.keySet().toArray().toString());
-            File file = new File("save/" + query.get("id").trim() + ".json");
-            String response ="";
-            if (file.exists()) {
-                
-                JsonReader reader = new JsonReader(new FileReader(file));
-                Chat chat = (Chat)gson.fromJson(reader, Chat.class);
-                chat.setBot(Main.bot);
-                response=chat.multisentenceRespond(query.get("text"));
-                FileWriter fileWriter = new FileWriter(file);
-                gson.toJson(chat,fileWriter);
-                fileWriter.flush();
-                fileWriter.close();
-            }else{
-                Chat chat= new Chat(Main.bot, query.get("id").trim());
-                response=chat.multisentenceRespond(query.get("text"));
-                FileWriter fileWriter = new FileWriter(file);
-                gson.toJson(chat,fileWriter);
-                fileWriter.flush();
-                fileWriter.close();
-            }
-           
-            
-            System.out.println("closing");
-            t.getResponseHeaders().add("Access-Control-Allow-Origin", "*");
-            t.getResponseHeaders().add("Content-Type", "text/html");
-            t.sendResponseHeaders(200, response.length());
-            OutputStream os = t.getResponseBody();
-            os.write(response.getBytes());
-            os.flush();
-            os.close();
-            t.close();
-        }
-    
-        public static Map<String, String> getQueryMap(String query) {
-         
             try {
-                query= URLDecoder.decode(query, StandardCharsets.UTF_8.name());
+                Map<String, String> query = Handler.getQueryMap(t.getRequestURI().toString());
+                Gson gson = new Gson();
+                System.out.println(query.keySet().toArray().toString());
+                File file = new File("save/" + query.get("id").trim() + ".json");
+                String response = "";
+                if (file.exists()) {
+
+                    JsonReader reader = new JsonReader(new FileReader(file));
+                    Chat chat = (Chat) gson.fromJson(reader, Chat.class);
+                    chat.setBot(Main.bot);
+                    response = chat.multisentenceRespond(query.get("text"));
+                    FileWriter fileWriter = new FileWriter(file);
+                    gson.toJson(chat, fileWriter);
+                    fileWriter.flush();
+                    fileWriter.close();
+                } else {
+                    Chat chat = new Chat(Main.bot, query.get("id").trim());
+                    response = chat.multisentenceRespond(query.get("text"));
+                    FileWriter fileWriter = new FileWriter(file);
+                    gson.toJson(chat, fileWriter);
+                    fileWriter.flush();
+                    fileWriter.close();
+                }
+
+                System.out.println("closing");
+                t.getResponseHeaders().add("Access-Control-Allow-Origin", "*");
+                t.getResponseHeaders().add("Content-Type", "text/html");
+                t.sendResponseHeaders(200, response.length());
+                OutputStream os = t.getResponseBody();
+                os.write(response.getBytes());
+                os.flush();
+                os.close();
+                t.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+                t.getResponseHeaders().add("Access-Control-Allow-Origin", "*");
+                t.getResponseHeaders().add("Content-Type", "text/html");
+                t.sendResponseHeaders(200, e.getMessage().length());
+                OutputStream os = t.getResponseBody();
+                os.write(e.getMessage().getBytes());
+                os.flush();
+                os.close();
+                t.close();
+            }
+        }
+
+        public static Map<String, String> getQueryMap(String query) {
+
+            try {
+                query = URLDecoder.decode(query, StandardCharsets.UTF_8.name());
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
-          String[] params = query.split("&");
-          Map<String, String> map = new HashMap<String, String>();
-    
-          for (String param : params) {
-            String name = param.split("=")[0];
-            String value = param.split("=")[1];
-            map.put(name, value.replaceAll("%20", " "));
-          }
-          return map;
+            String[] params = query.split("&");
+            Map<String, String> map = new HashMap<String, String>();
+
+            for (String param : params) {
+                String name = param.split("=")[0];
+                String value = param.split("=")[1];
+                map.put(name, value.replaceAll("%20", " "));
+            }
+            return map;
         }
-      }
+    }
 }
