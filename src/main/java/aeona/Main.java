@@ -7,13 +7,10 @@ import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.Reader;
@@ -60,20 +57,7 @@ public class Main {
 
     static class Handler implements HttpHandler {
         public void handle(HttpExchange t) throws IOException {
-            InputStreamReader isr =  new InputStreamReader(t.getRequestBody(),"utf-8");
-            BufferedReader br = new BufferedReader(isr);
-            
-            // From now on, the right way of moving from bytes to utf-8 characters:
-            
-            int b;
-            StringBuilder buf = new StringBuilder(512);
-            while ((b = br.read()) != -1) {
-                buf.append((char) b);
-            }
-            
-            br.close();
-            isr.close();
-            Map<String, String> query = Handler.getQueryMap(buf.toString());
+            Map<String, String> query = Handler.getQueryMap(t.getRequestURI().toString());
             Gson gson = new Gson();
             System.out.println(query.keySet().toArray().toString());
             File file = new File("save/" + query.get("id").trim() + ".json");
