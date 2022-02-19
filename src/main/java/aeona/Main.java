@@ -65,15 +65,23 @@ public class Main {
                 File file = new File("save/" + query.get("id").trim() + ".json");
                 String response = "";
                 if (file.exists()) {
-
-                    JsonReader reader = new JsonReader(new FileReader(file));
-                    Chat chat = (Chat) gson.fromJson(reader, Chat.class);
-                    chat.setBot(Main.bot);
-                    response = chat.multisentenceRespond(query.get("text"));
-                    FileWriter fileWriter = new FileWriter(file);
-                    gson.toJson(chat, fileWriter);
-                    fileWriter.flush();
-                    fileWriter.close();
+                    try {
+                        JsonReader reader = new JsonReader(new FileReader(file));
+                        Chat chat = (Chat) gson.fromJson(reader, Chat.class);
+                        chat.setBot(Main.bot);
+                        response = chat.multisentenceRespond(query.get("text"));
+                        FileWriter fileWriter = new FileWriter(file);
+                        gson.toJson(chat, fileWriter);
+                        fileWriter.flush();
+                        fileWriter.close();
+                    } catch (Exception e) {
+                        Chat chat = new Chat(Main.bot, query.get("id").trim());
+                        response = chat.multisentenceRespond(query.get("text"));
+                        FileWriter fileWriter = new FileWriter(file);
+                        gson.toJson(chat, fileWriter);
+                        fileWriter.flush();
+                        fileWriter.close();
+                    }
                 } else {
                     Chat chat = new Chat(Main.bot, query.get("id").trim());
                     response = chat.multisentenceRespond(query.get("text"));
