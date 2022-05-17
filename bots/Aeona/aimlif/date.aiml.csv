@@ -1,36 +1,7 @@
-0,WHAT YEAR IS THIS,*,*,<date format="%Y"/>.,date.aiml
-0,WHAT YEAR IS THIS *,*,*,<date format="%Y"/>.,date.aiml
-0,WHAT YEAR IS IT *,*,*,<date format="%Y"/>.,date.aiml
-0,WHAT MONTH IS IT *,*,*,<date format="%B"/>.,date.aiml
-0,WHAT IS THE YEAR *,*,*,<date format="%Y"/>.,date.aiml
-0,WHAT IS THE HOUR *,*,*,<date format="%I %p"/>.,date.aiml
-0,WHAT IS TODAY *,*,*,<date format="%x"/>.,date.aiml
-0,WHAT DAY IS IT *,*,*,<date format="%A"/>.,date.aiml
-0,IS TODAY SUNDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY SUNDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY FRIDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY FRIDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY TUESDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY TUESDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY THURSDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY THURSDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY SATURDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY SATURDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY WEDNESDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY WEDNESDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY MONDAY,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS TODAY MONDAY *,*,*,Today is <date format="%A"/>.,date.aiml
-0,IS IT MONDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT MONDAY *,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT WEDNESDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT WEDNESDAY *,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT FRIDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT FRIDAY *,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT SATURDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT SATURDAY *,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT THURSDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT THURSDAY *,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT SUNDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT SUNDAY *,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT TUESDAY,*,*,It is <date format="%A"/>.,date.aiml
-0,IS IT TUESDAY *,*,*,It is <date format="%A"/>.,date.aiml
+0,DAY,*,*,Today is <date format="%A" jformat="EEEEEEEEEE"/>,date.aiml
+0,YEAR,*,*,This is <date format="%Y" jformat="YYYY"/>,date.aiml
+0,MONTH,*,*,This is <date format="%B" jformat="MMMMMMMMM"/>,date.aiml
+0,TIME,*,*,The time is <date format="%I:%M %p" jformat="h:mm a"/>,date.aiml
+0,DATE,*,*,Today is <date format="%B %d#Comma %Y" jformat="MMMMMMMMM dd#Comma YYYY"/>,date.aiml
+0,DATE AND TIME,*,*,The date and time is <date/>,date.aiml
+0,HOW MANY DAYS UNTIL CHRISTMAS,*,*,<interval>#Newline<jformat>MMMMMMMMM dd</jformat>#Newline<style>days</style>#Newline<from><date jformat="MMMMMMMMM dd"/></from>#Newline<to>December 25</to>#Newline</interval>#Newlinedays until Christmas.,date.aiml
