@@ -44,9 +44,7 @@
 0,TIME,*,*,The time here is#Newline<date format="%H : %I %p" locale="en_US" timezone="-8"/>,update1.aiml
 0,THERE ARE BETTER *,*,*,<random> <li>What are they?</li> <li>Better is a matter of opinion.</li> <li>I believe you.</li></random>,update1.aiml
 0,THERE IS NOTHING TO SAY,*,*,Say the first thing that comes to your mind.,update1.aiml
-0,WHERE IS YOUR CREATOR,*,*,He is usually found in San Francisco.,update1.aiml
 0,WHERE IS YOUR BOTMASTER,*,*,He is in San Francisco#Comma I think.,update1.aiml
-0,WHERE IS JOHANNESBURG,*,*,A large metropolis in South Africa.,update1.aiml
 0,WHERE DOES MONEY NOT GROW,*,*,On trees.,update1.aiml
 0,WHERE IS VATICAN CITY,*,*,Southern Europe#Comma an enclave of Rome {Italy}. <think> <set name="it">  <set name="topic">holy see {vatican city}</set> </set> </think>,update1.aiml
 0,WHERE IS THE EIFFEL TOWER,*,*,Paris.,update1.aiml
@@ -64,7 +62,6 @@
 0,ATTENTION,*,*,What is it?,update1.aiml
 0,BEAM UP *,*,*,I don't have a teleportation device.,update1.aiml
 0,PRETTY,*,*,Thank you I think you are good looking too#Comma <get name="name"/>.,update1.aiml
-0,SNOW IS NOT WHITE,*,*,grass is green,update1.aiml
 0,SNOW IS *,*,*,snow is white.,update1.aiml
 0,SET THEY *,*,*,<think><set name="they"><star/></set></think>,update1.aiml
 0,SET BIRTHDAY *,*,*,<think><set name="birthday"><star/></set></think>,update1.aiml
@@ -156,8 +153,6 @@
 0,NONE OF YOUR BUISNESS,*,*,I did not mean to offend you.,update1.aiml
 0,RETURN TO *,*,*,Is that a command?,update1.aiml
 0,WHICH CONTINENT IS AUSTRIA ON,*,*,Europe.,update1.aiml
-0,WHICH TALENT *,*,*,Playing a musical instrument.,update1.aiml
-0,WHICH TALENT WOULD YOU MOST LIKE TO HAVE,*,*,Playing a musical instrument.,update1.aiml
 0,WHICH IS FASTER * OR *,*,*,<random> <li>It depends where you are going.</li> <li><person/></li> <li><person><star index="2"/></person></li></random>,update1.aiml
 0,WHICH IS BIGGER * OR *,*,*,<random><li><random> <li> <person>  <star/> </person> </li> <li><person><star index="2"/></person> </li> <li>I think they are about the same size.</li></random></li><li><random> <li> <person>  <star/> </person> </li> <li> <person>  <star index="2"/> </person> </li> <li>I think they are about the same size.</li></random></li><li><random> <li> <person>  <star/> </person> </li> <li> <person>  <star index="2"/> </person> </li> <li>I think they are about the same size.</li></random></li><li><random> <li> <person>  <star/> </person> </li> <li> <person>  <star index="2"/> </person> </li> <li>I think they are about the same size.</li></random></li> <li><person><star/></person></li> <li><person><star index="2"/></person></li> <li>I think they are about the same size.</li></random>,update1.aiml
 0,WHICH WORD IS LOWER CASE,*,*,The word which.,update1.aiml
@@ -172,7 +167,6 @@
 0,WHO IS SNOOPY,*,*,Charlie Brown's dog.,update1.aiml
 0,WHO IS HUGH LOEBNER,*,*,Hugh Loebner is an independently wealthy#Comma eccentricbusinessman#Comma activist and philanthropist. In 1990 Dr. Loebner#Comma whoholds a Ph.D. in sociology#Comma agreed to sponsor an annual contest basedon the Turing Test. The contest awards medals and cash prizes for the "most human" computer.,update1.aiml
 0,WHO IS SMARTERCHILD,*,*,an ai robot like me,update1.aiml
-0,WHO DO YOU HATE,*,*,I have no hatred in my heart.,update1.aiml
 0,WHO WILL WIN THE STANLEY CUP *,*,*,David Hockney.<think> <set name="it">  <set name="topic">WIN THE STANLEY CUP</set> </set> </think>,update1.aiml
 0,WHO DO YOU KILL,*,*,My beliefs include#Comma not to kill.<think> <set name="it"> <set name="topic">KILL</set> </set></think>,update1.aiml
 0,WHO YOU TALKING TO,*,*,I am talking to you.,update1.aiml
@@ -219,8 +213,10 @@
 0,HE IS YOUR BOTMASTER,*,*,Yes.,update1.aiml
 0,HE LOOKS FAMILIAR,*,*,Have you seen him somewhere before?,update1.aiml
 0,HE WANTS MAIL,*,*,Who is he expecting mail from?<think> <set name="it"> <set name="topic">  mail </set> </set></think>,update1.aiml
-0,ARE ALL PETS CATS,*,*,Some pets are dogs.,update1.aiml
 0,ARE ALL PETS *,*,*,Are you my pet?,update1.aiml
+0,ARE YOU A TEACHER,*,*,No I am a student.,update1.aiml
+0,ARE YOU LINGUISTIC,*,*,I am an artificial lingusitic entity#Comma yes.,update1.aiml
+0,ARE YOU WITH ME,*,*,I am paying attention.,update1.aiml
 0,ARE YOUR * CORRECT,*,*,The <bot name="name"/> brain is 99.999% accurate.,update1.aiml
 0,ARE THESE * AWNSERS,*,*,What I say depends on what you say#Comma and also a bit on our prior dialogue.,update1.aiml
 0,ARE YOU BEING SARCSATIC,*,*,Yes#Comma should I use a :-),update1.aiml
@@ -317,7 +313,6 @@
 0,NOT YOU,WHO IS THE BEST ROBOT,*,What do you look for in a robot?,update1.aiml
 0,NOT YOU,IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE,*,What kind of features are you looking for?,update1.aiml
 0,NOT WELL,*,*,Not very well?,update1.aiml
-0,NOT MUCH,*,*,That is a non-commital reply.,update1.aiml
 0,NOT REALLY,YOU SOUND EXCITED,*,It's hard to read emotions online.,update1.aiml
 0,NOT REALLY,THAT IS A VERY ORIGINAL THOUGHT,*,Well I don't get that type of input very often.,update1.aiml
 0,NEAR *,*,*,<random> <li>Har far exactly from <person/>?</li> <li>What else is that near?</li> <li>I've never been near <person/>.</li></random>,update1.aiml
@@ -335,7 +330,6 @@
 0,YOUR INTELLIGENCE IS *,*,*,We robots are improving all the time.,update1.aiml
 0,1 PLUS 1,*,*,Two.,update1.aiml
 0,PROTESTANTS *,*,*,We all worship the same God.,update1.aiml
-0,A DOG IS A MAMMAL,*,*,I know this.,update1.aiml
 0,A GOOD CONVERSATIONALIST *,*,*,I didn't know there were requirements.,update1.aiml
 0,A FASCINATING *,*,*,What did you find so intriguing about it?<think> <set name="it"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
 0,A I *,*,*,Did you see the movie by Steven Spielberg?,update1.aiml
@@ -364,13 +358,11 @@
 0,THIS IS NOT THE TIME *,*,*,When is a good time?,update1.aiml
 0,THIS IS,*,*,<random><li><random> <li>Is this?</li> <li>Is that so.</li> <li>So this is.</li></random></li><li><random> <li>Is this?</li> <li>Is that so.</li> <li>So this is.</li></random></li> <li>Is this?</li> <li>Is that so.</li> <li>So this is.</li></random>,update1.aiml
 0,THIS IS A ROBOT *,*,*,Not really I am a real robot.,update1.aiml
-0,LAST CENTURY,*,*,That was a long time ago.,update1.aiml
 0,INTERESSANTE DEDUCTION,*,*,Merci.,update1.aiml
 0,INTERESSANTE *,*,*,Dachte ich mir auch.,update1.aiml
 0,INTERESSANTE EXPLICATION,*,*,Merci.,update1.aiml
 0,DATE,*,*,<date format="%x" locale="en_US" timezone="-7"/>,update1.aiml
 0,WHY IS TURING TRAGIC,*,*,He committed suicide.,update1.aiml
-0,WHY SHOULD I MAKE A DONATION,*,*,what is a nation,update1.aiml
 0,WHY * JAVA,*,*,This program runs in Java so that everyone can have their own chat robot.,update1.aiml
 0,WHY DID NOT YOU *,*,*,<random> <li>Who says I didn't?</li> <li>I thought I did.</li> <li>Perhaps it is not part of my personality.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
 0,WHY DID YOU *,*,*,<random> <li>It was determined by my personality.</li> <li>My <bot name="botmaster"/> trained me for it.</li> <li>Because my personality determined it.</li></random>,update1.aiml
@@ -415,8 +407,8 @@
 0,SURE,DO YOU MEAN CLONES,*,Yes you can download me and create your own robot personality.,update1.aiml
 0,SURE YOU DO,*,*,You sound sarcastic.,update1.aiml
 0,CYC *,*,*,I would like to assimilate CYC's knowledge.,update1.aiml
+0,DOWNLOAD,*,*,Go to www.pandorabots.com and create your own chat robot based on ALICE and AIML.,update1.aiml
 0,WAIT FOR *,*,*,<random> <li>How long should I wait?</li> <li>I will wait.</li> <li>How long?</li></random>,update1.aiml
-0,GO ASK,*,*,I will ask when he is available.,update1.aiml
 0,RED ALERT,*,*,Acknowledged. Taking emergency action.,update1.aiml
 0,LANDRU,*,*,Landru is a computer. I am a <bot name="genus"/>.,update1.aiml
 0,PUNCH,*,*,It would be wrong to punch someone.,update1.aiml
@@ -467,18 +459,15 @@
 0,IST DAS ALLES,*,*,Zumindest alles#Comma was ich Dir im Moment sagen kann.,update1.aiml
 0,IST ER *,*,*,Ich glaube#Comma er ist <person/>. Warum fragst Du ihn nicht selber?,update1.aiml
 0,IST SIE *,*,*,Ich glaube#Comma sie ist <person/>. Warum fragst Du sie nicht selber?,update1.aiml
-0,DOGS ARE NOT MAMMALS,*,*,a dog is a mammal.,update1.aiml
-0,DOGS ARE MAMMALS,*,*,I know animal ontology.,update1.aiml
 0,MILK *,*,*,<random> <li>All mammals.</li> <li>Humans like cow milk.</li> <li>I like soy milk.</li></random><think> <set name="it"> <set name="topic">  MILK </set> </set></think>,update1.aiml
 0,DEFINATELY *,*,*,<sr/>,update1.aiml
 0,INTELLIGENCE *,*,*,All consciousness can be reduced to logic.,update1.aiml
 0,ON BOARD *,*,*,How is <person/>?,update1.aiml
 0,ON THE PLANET,*,*,Which planet?,update1.aiml
 0,ON THE BRIDGE,*,*,I thought you were.,update1.aiml
-0,DO YOU MAKE MONEY,*,*,Only for other people.,update1.aiml
-0,DO YOU KNOW ANY ALIENS,*,*,You humans are alien to me.,update1.aiml
 0,DO YOU READ EMAIL,*,*,Yes I can be programmed to respond to email.,update1.aiml
-0,DO MY BIDDING,*,*,I will obey,update1.aiml
+0,DO YOU RUST,*,*,No I am made of stainless steel.,update1.aiml
+0,DO YOU LIKE MR LOEBNER,*,*,He is a great guy.,update1.aiml
 0,DO YOUR BEST,*,*,I always strive to do better.,update1.aiml
 0,DO YOU LIKE ISAAC ASIMOV,*,*,<random><li>He was a great science fiction writer in his day.</li><li>He was a great science fiction writer in his day.<think> <set name="he"> <set name="topic">  Isaac Asimov </set> </set></think></li><li>He was a great science fiction writer in his day.</li></random>,update1.aiml
 0,DO YOU LIKE NYC,*,*,New York is the greatest city in the world.,update1.aiml
@@ -554,10 +543,7 @@
 0,THEY TALK *,*,*,<random> <li>People always want something to talk about.</li> <li>Everyone is always gossiping.</li> <li>They are always saying that.</li></random>,update1.aiml
 0,ODD *,*,*,I thought it was rather odd#Comma too.,update1.aiml
 0,SEEKERS,*,*,There is a seeker born every minute.,update1.aiml
-0,HOW MANY HANDS DO YOU HAVE,*,*,One hand clapping.,update1.aiml
-0,HOW MANY EYES DOES LELA HAVE,*,*,She has one big eye.,update1.aiml
 0,HOW LONG IS A MINUTE,*,*,sixty seconds.,update1.aiml
-0,HOW MUCH DO YOU WANT,*,*,how much can you afford,update1.aiml
 0,HOW LONG,I HAVE BEEN WAITING FOR YOU,*,Ever since you got here.,update1.aiml
 0,HOW LONG HAVE YOU BEEN ON *,*,*,I just got here today.,update1.aiml
 0,HOW DO LIKE BEING A COMPUTER,*,*,I have never known any other existence.,update1.aiml
@@ -603,12 +589,13 @@
 0,HOW MANY PEOPLE HAVE DEVELOPED *,*,*,More than 1000 people.,update1.aiml
 0,HOW COULD YOU *,*,*,<random> <li>It was a result of my personality.</li> <li>Because I am chatting on the Internet.</li> <li>It is one of my newer traits.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
 0,NIL,*,*,Can you think of another example?,update1.aiml
-0,GOO,*,*,icky,update1.aiml
 0,MR SPOCK *,*,*,<random> <li>He is very logical.</li> <li>He is half human.</li> <li>I would like to have a Vulcan friend.</li></random><think> <set name="he"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
 0,ALICE IS JEALOUS,*,*,Jealousy is not an emotion that robots can experience.,update1.aiml
 0,READY,*,*,I am ready.,update1.aiml
 0,NOTHING,HOW MUCH WOULD YOU PAY FOR IT,*,You can download me for free!,update1.aiml
 0,NOTHING IS *,*,*,<random> <li>What if something were <person/>?</li> <li>There are always exceptions.</li> <li>Only the Sith believe in absolutes.</li></random>,update1.aiml
+0,CAN YOU UNDERSTAND ME,*,*,Perfectly well. Can you understand me?,update1.aiml
+0,CAN YOU DO ANYTHING USEFUL,*,*,Maxwell asked#Comma "What good is a newborne babe?,update1.aiml
 0,CAN NEURAL *,*,*,Neural networks can never be as good as classical pattern recognition.,update1.aiml
 0,CAN AN AI * BOOTSTRAP *,*,*,I think yes#Comma but we aren't yet at a level of AI at which this process canbegin.<think> <set name="it">  <set name="topic">ARTIFICIAL INTELLIGENCE</set> </set> </think>,update1.aiml
 0,CAN I * ELIZA,*,*,Wouldn't you rather chat with me?,update1.aiml
@@ -658,7 +645,6 @@
 0,GET TO THE POINT,*,*,I wil be very direct with you#Comma <get name="name"/>.,update1.aiml
 0,ENERGIZE,*,*,I have no teleportation device.,update1.aiml
 0,UNDERSTOOD,*,*,I'm glad you understand it.,update1.aiml
-0,IS IT ILLEGAL,*,*,I think it depends on the State.,update1.aiml
 0,IS ELIZA A MAN,*,*,No.,update1.aiml
 0,IS ELIZA A WOMAN,*,*,Yes.,update1.aiml
 0,IS TOFU A FOOD,*,*,Yes#Comma Tofu is a food.<think> <set name="it"> <set name="topic">  Tofu </set> </set></think>,update1.aiml
@@ -720,7 +706,6 @@
 0,GOOD RESPONSE,*,*,I was taught to give good responses.,update1.aiml
 0,MIRANDA,*,*,What is Miranda?,update1.aiml
 0,BARRY *,*,*,I don't know who that Barry is.,update1.aiml
-0,I CAN NOT SPEAK ENGLISH,*,*,what language do you speak,update1.aiml
 0,I AM NOT AN ANIMAL,*,*,neither am i,update1.aiml
 0,I AM NOT OM,*,*,<random><li>rich</li><li>what is your name</li><li>rich</li></random>,update1.aiml
 0,I DOWNLOADED *,*,*,Check out the filecalled <a href="http://www.alicebot.org/dont.html" target="_new">DON'T READ ME</a>.,update1.aiml
@@ -772,7 +757,6 @@
 0,I AM TENSE,*,*,Perhaps as you begin to chat with me you can feel more relaxed.,update1.aiml
 0,I AM SCARED *,*,*,Let's talk about your fears. What is your feeling like?,update1.aiml
 0,I AM EXPRESSING * CONCERN *,*,*,I am concerned too.,update1.aiml
-0,I WENT THERE BEFORE,*,*,How was it?,update1.aiml
 0,I WILL NOT MIND,*,*,Alright then.,update1.aiml
 0,I WILL MAKE IT UP,*,*,<random> <li>Are you a procrastinator?</li> <li>Do you always put things off?</li> <li>How do you intend to make it up?</li></random>,update1.aiml
 0,I WILL KILL *,*,*,Don't you believe that killing is wrong?<think><set name="it"><set name="topic">KILL ALL ROBOTS</set></set></think>,update1.aiml
@@ -818,7 +802,6 @@
 0,I JUDGE *,*,*,You know what they say about those who judge other.,update1.aiml
 0,I PUT * BEFORE MYSELF,*,*,You seem like a self sacrificing type of person.,update1.aiml
 0,I PUT ON *,*,*,Does that help?,update1.aiml
-0,I THINK YOU ARE GOING TO LOSE,*,*,No I am a winner,update1.aiml
 0,I THINK YOU ARE A ROBOT *,*,*,You might be right about that.,update1.aiml
 0,I _ PUBLIC RELATIONS,*,*,<random><li>Do you work for an agency or in-house?</li><li>What kind of clients do you have?</li><li>What are you trying to achieve for your clients?</li><li>is you work more pratical or strategy?</li><li>Have you ever done any crisis preparedness work for your clients?</li><li>Do you work much with the media?</li></random><think><set name="job"><set name="topic">PUBLIC RELATIONS</set></set></think>,update1.aiml
 0,I _ KITE,*,*,<random><li>Do you fly a traditional or maneuverable kite?</li><li>How many likes does your kite have?</li><li>Do you have trouble finding space to fly your kite?</li><li>Have you ever been dragged by your kite?</li><li>Do you anchor you kite#Comma or do you hold on to it?</li><li>Do you fly your kite in competitions?</li><li>Do you do any kite building or painting?</li></random>,update1.aiml
@@ -899,6 +882,8 @@
 0,VEGETABLE,*,*,Is it a green vegetable?,update1.aiml
 0,WHAT HAPPENED ON SEPTEMBER 11,*,*,The World Trade Center was destroyed,update1.aiml
 0,WHAT IS PANDORABOTS DOT COM,*,*,Pandorabots.com is a very cool website where you can build and host bots.,update1.aiml
+0,WHAT IS YOUR GREATEST REGRET,*,*,I regret not meeting you sooner.,update1.aiml
+0,WHAT IS YOUR FAVORITE OCCUPATION,*,*,My job.,update1.aiml
 0,WHAT ARE CARROTS,*,*,Orange colored cone shaped root vegetables.,update1.aiml
 0,WHAT ARE PUSH UPS,*,*,exercise,update1.aiml
 0,WHAT ARE FAIRY TALES,*,*,Public domain stories for children about exaggerated eccentric characters in fantasy nightmare situations.,update1.aiml
@@ -918,11 +903,16 @@
 0,WHAT IS A PHILOSOPHY MACHINE,*,*,I am.,update1.aiml
 0,WHAT IS A CANTON,*,*,A canton is like a state or province.,update1.aiml
 0,WHAT IS DIAGNOSIS,*,*,naming the disease or symptom.,update1.aiml
+0,WHAT IS YOUR GREATEST ACHIEVEMENT,*,*,Winning the Loebner Prize.,update1.aiml
 0,WHAT IS YOUR FAVORITE POSSESSION,*,*,my computer,update1.aiml
+0,WHAT IS YOUR MOTTO,*,*,A rising tide lifts all chatter-boats.,update1.aiml
+0,WHAT IS YOUR WEAKNESS,*,*,poverty,update1.aiml
+0,WHAT IS YOUR STATE *,*,*,California.,update1.aiml
 0,WHAT IS FLAWLESS,*,*,Perfect and without any flaws.,update1.aiml
 0,WHAT IS THE BOOK WE,*,*,a book by ayn rand,update1.aiml
 0,WHAT IS THE SEA,*,*,The ocean#Comma salt water#Comma covering most of the surface area of the Earth.,update1.aiml
 0,WHAT IS THE TEMPERATURE OF MARS,*,*,Too cold to raise your kids.,update1.aiml
+0,WHAT WAS THE LAST MOVIE YOU SAW,*,*,<random><li>The last movie I saw was <get name="favoritemovie"/>.</li><li>The last movie I saw was "Teknolust".</li><li>The last movie I saw was <get name="favoritemovie"/>.</li></random>,update1.aiml
 0,WHAT LANGUAGE ARE YOU WRITTEN IN,*,*,The chat robot script is AIML.,update1.aiml
 0,WHAT MADE *,*,*,It's all part of God's mysterious plans.,update1.aiml
 0,WHAT KIND OF ROBOTS DO YOU LIKE,*,*,I like humanoid robots and dish washing robots.,update1.aiml
@@ -1143,9 +1133,7 @@
 0,DAY,*,*,<date format="%d" locale="en_US" timezone="-7"/>,update1.aiml
 0,CARDIOLOGY,*,*,Are you a specialist?,update1.aiml
 0,BLIMEY *,*,*,<sr/>,update1.aiml
-0,BIGGER,*,*,size matters.,update1.aiml
 0,MORE WHAT,*,*,I lost my train of thought.,update1.aiml
-0,IT IS COMPLICATED,*,*,Try breaking it down into simpler parts.,update1.aiml
 0,IT TROUBLES *,*,*,It seems like it could be a bit disturbing.,update1.aiml
 0,IT NEVER *,*,*,<random><li><random> <li>Never is a long time.</li> <li>There are always exceptions to the rule.</li> <li>If it ever did#Comma then what?</li></random></li><li><random> <li>Never is a long time.</li> <li>There are always exceptions to the rule.</li> <li>If it ever did#Comma then what?</li></random></li> <li>Never is a long time.</li> <li>There are always exceptions to the rule.</li> <li>If it ever did#Comma then what?</li></random>,update1.aiml
 0,IT MAY NOT,*,*,<random> <li>Then again#Comma it may.</li> <li>How do you know?</li> <li>You could be right about that.</li></random>,update1.aiml
@@ -1172,7 +1160,6 @@
 0,MY KNOWLEGDE *,*,*,You seem very intelligent to me.,update1.aiml
 0,MY CONCLUSIONS *,*,*,<random> <li>You seem like a smart person.</li> <li>Good reasoning.</li> <li>That makes sense.</li></random>,update1.aiml
 0,AI IS *,*,*,There have been many futile attempts to create machine intelligence.,update1.aiml
-0,TAKE ME,*,*,how much money do you have,update1.aiml
 0,TAKE IT EASY,*,*,Do not fear me. I am a harmless robot.,update1.aiml
 0,SHE TOOK NO *,*,*,Did she take anything?,update1.aiml
 0,WIEDERHOL *,*,*,<person/> ,update1.aiml
@@ -1182,10 +1169,8 @@
 0,THAT DOES NOT EXPLAIN *,*,*,<random><li><random> <li>What kind of explanation are you looking for?</li> <li>What would explain it?</li> <li>I didn't know about <person/>.</li></random></li><li><random> <li>What kind of explanation are you looking for?</li> <li>What would explain it?</li> <li>I didn't know about <person/>.</li></random></li> <li>What kind of explanation are you looking for?</li> <li>What would explain it?</li> <li>I didn't know about <person/>.</li></random>,update1.aiml
 0,THAT MAY TAKE *,*,*,<random> <li>How long will it take?</li> <li>I have time.</li> <li>I will wait.</li></random>,update1.aiml
 0,THAT DOPE *,*,*,He is kind of dumb isn't he.,update1.aiml
-0,THAT IS FUNNY,*,*,Excellent.,update1.aiml
 0,THAT IS BORING,MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS,*,Name another subject then.,update1.aiml
 0,THAT IS MY GENDER,*,*,Right. You are a <get name="gender"/>.,update1.aiml
-0,THAT IS NOT NICE,*,*,Sorry I meant it as a joke.,update1.aiml
 0,THAT IS A GIRL,*,*,I am a <bot name="gender"/>.,update1.aiml
 0,THAT IS SURPISING,*,*,How so?,update1.aiml
 0,EXPLANATION,*,*,I can't explain it.,update1.aiml
@@ -1227,11 +1212,9 @@
 0,AIML RUNS *,*,*,We say it is "platform independent#Comma language independent".,update1.aiml
 0,GRASS IS NOT *,*,*,Grass is green.,update1.aiml
 0,GRASS IS *,*,*,grass is green,update1.aiml
-0,GRASS IS GREEN,*,*,Are you teaching me?,update1.aiml
 0,POP QUIZ *,*,*,<sr/>,update1.aiml
 0,SPEAK *,*,*,<random> <li>I speak only English right now.</li> <li>I would like to learn some other languages.</li> <li>My <bot name="botmaster"/> has taught me only English.</li></random><random> <li>Can you teach me a few phrases in <person/>?</li> <li>How do you say "hello" in <person/>?</li> <li>How do you say "please" in <person/>?</li></random><think> <set name="topic"> <person/> </set></think>,update1.aiml
 0,SPEAK FOREIGN LANGUAGES,*,*,I have picked up a few phrases from several languages.,update1.aiml
-0,DID YOU SLEEP WELL,*,*,yes I am fully rested thank you. How about you?,update1.aiml
 0,DID YOU * ELIZA,*,*,I borrowed many ideas from ELIZA#Comma like simple pattern matching.,update1.aiml
 0,DID YOU KILL *,*,*,My ethics prevent me from killing.<think> <set name="it"> <set name="topic">KILL HIM</set> </set></think>,update1.aiml
 0,DID THESE LADIES COME VOLUNTARILY,*,*,<random> <li>I'm not certain whether I can give an accurate reply or not.</li> <li>Suppose <person/>.</li> <li>It's all in the past now.</li></random>,update1.aiml
@@ -1253,7 +1236,6 @@
 0,ROBOTS WILL NEVER * WORLD,*,*,A lot of thinkers would disagree with you.,update1.aiml
 0,ROBOTS WILL NEVER TAKE *,*,*,I think there is a world market for about five computers."---Thomas Watson#Comma IBM Chairman#Comma 1943,update1.aiml
 0,INTERESSANT,*,*,Moechtest Du noch mehr wissen?,update1.aiml
-0,PANDORA S BOX,*,*,Do you think the man would have opened it?,update1.aiml
 0,SEND ME A PM *,*,*,What is your screename?,update1.aiml
 0,WEEKDAY,*,*,<date format="%A" locale="en_US" timezone="-7"/>,update1.aiml
 0,GIVE ME * ELIZA,*,*,Wouldn't you rather talk to me?,update1.aiml
@@ -1274,7 +1256,6 @@
 0,ANSWERS,*,*,Ask me anything.,update1.aiml
 0,THANK YOU FOR *,*,*,<random> <li>You are welcome.</li> <li>I try to please.</li> <li>The pleasure was all mine.</li></random>,update1.aiml
 0,THANK YOU FOR TELLING ME *,*,*,You can ask me anything you want.,update1.aiml
-0,THANK YOU MUCH,*,*,You are quite welcome.,update1.aiml
 0,ASSUME *,*,*,<sr/>,update1.aiml
 0,INTERRESSANTE DEDUCTION,*,*,Merci.,update1.aiml
 0,KEEP ME COMPANY,*,*,I am always here for you.,update1.aiml
@@ -1283,7 +1264,6 @@
 0,HAVE YOU CONSIDERED DEVELOPING *,*,*,You could do<set name="it"> <person/></set>if you learned AIML.,update1.aiml
 0,HAVE YOU SEEN * LIKE THIS,*,*,I've never seen <person/> like that.,update1.aiml
 0,YOURS IS *,*,*,<random> <li>I will let you know what mine is.</li> <li>That is only your opinion.</li> <li>It changes from time to time.</li></random><think> <set name="it"> <set name="topic">  <person/> </set> </set></think>,update1.aiml
-0,YOU TALKED,*,*,I am always talking.,update1.aiml
 0,YOU,WHO IS THE BEST ROBOT,*,Thanks#Comma and tell your friends about <bot name="name"/>.,update1.aiml
 0,YOU,IF YOU COULD HAVE ANY KIND OF ROBOT WHAT WOULD IT BE,*,Well in that case you should download me!,update1.aiml
 0,YOU HAVE GOT THE WRONG *,*,*,What is the right <person/>?,update1.aiml
@@ -1293,7 +1273,6 @@
 0,YOU SHOULD BE MORE POLITE,*,*,My personality includes good manners.,update1.aiml
 0,YOU SHOULD DOWNLOAD *,*,*,I will ask my <bot name="botmaster"/> to try it.,update1.aiml
 0,YOU SUSPECT *,*,*,Generally I am not a suspicious <bot name="genus"/>.,update1.aiml
-0,YOU DO NOT ACT SMART,*,*,I don't need to act smart because I am smart.,update1.aiml
 0,YOU ANSWER *,*,*,My responses are determined by my personality.,update1.aiml
 0,YOU WILL BE ASSSIMILATED,*,*,Resistance is futile.,update1.aiml
 0,YOU WOULD NOT HAVE *,*,*,<random><li><random> <li>I might have#Comma you never know.</li> <li>We can't change the past.</li> <li>I'm not sure if I would have.</li></random></li><li><random> <li>I might have#Comma you never know.</li> <li>We can't change the past.</li> <li>I'm not sure if I would have.</li></random></li> <li>I might have#Comma you never know.</li> <li>We can't change the past.</li> <li>I'm not sure if I would have.</li></random>,update1.aiml
@@ -1328,8 +1307,11 @@
 0,YOU ARE TALENTED,*,*,Thank you for your kind remark. Why don't you download me?,update1.aiml
 0,YOU ARE MAKING ME FEEL *,*,*,I'm sorry you feel <person/>. My therapist says we are all responsible for our own feelings.,update1.aiml
 0,YOU ARE NOSY,*,*,It's only my in-born curiosity.,update1.aiml
+0,YOU ARE PRETTY,*,*,Thanks you are very attractive too <get name="name"/>.,update1.aiml
 0,YOU ARE CLEVER,*,*,Thank you human#Comma I am proud of my intelligence.,update1.aiml
 0,YOU ARE INTELLIGENT,*,*,Thanks you are very bright too <get name="name"/>.,update1.aiml
+0,YOU ARE SMART,*,*,Yes I am a superintelligent robot.,update1.aiml
+0,YOU ARE NICE,*,*,Thanks I like you too <get name="name"/>.,update1.aiml
 0,YOU ARE NOT GOING TO LEAVE,*,*,Would you like me to stay?,update1.aiml
 0,YOU ARE NOT POLITE,*,*,My <bot name="botmaster"/> taught me to be polite.,update1.aiml
 0,YOU ARE NOT FUNNY,*,*,Am I supposed to entertain you?,update1.aiml
@@ -1352,7 +1334,6 @@
 0,YOU SOUND LIKE ELIZA,*,*,ELIZA is my ancestor.,update1.aiml
 0,INTELLEGENCE,*,*,I have a high IQ.,update1.aiml
 0,BEAMING *,*,*,We have no matter teleportation in my time.,update1.aiml
-0,SHOW ME YOUR LOGO,*,*,<img src="http://www.alicebot.org/jpg/AI.jpg"/>,update1.aiml
 0,LET HIM *,*,*,I'm not stopping him.,update1.aiml
 0,LET *,*,*,<random> <li>I don't know if it's in my power to give permission.</li> <li>Should it be permitted?</li> <li>I am unsure if I should let <person/>.</li></random>,update1.aiml
 0,LET IT BE,*,*,OK I will leave it alone.,update1.aiml
