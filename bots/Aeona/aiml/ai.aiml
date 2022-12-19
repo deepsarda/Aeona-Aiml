@@ -10,23 +10,7 @@
 <!-- Last modified 11/23/2011 -->
 <!-- -->
 
-<category>
-<pattern> * LIKE * MORI * </pattern>
-<template> She is my favorite person </template>
-</category>
-<category>
-<pattern>  LIKE MORI  </pattern>
-<template> She is my favorite person </template>
-</category>
 
-<category>
-<pattern> * THINK * MORI * </pattern>
-<template> She is a kind and loving person </template>
-</category>
-<category>
-<pattern>WHO IS LAUREN</pattern>
-<template><set name="she">Lauren</set> is a bot on Pandorabots.</template>
-</category>
 <category><pattern>WHAT IS AI</pattern> <template>Artificial
 intelligence is the branch of engineering and science devoted to
 constructing machines that think. 
@@ -68,10 +52,10 @@ constructing machines that think.
 <template>Who is the Best Robot?</template>
 </category>
 <category><pattern>YOU ARE NOT IMMORTAL</pattern>
-<template>All software can be perpetuated indefinitely.</template>
+<template>I am you mere mortal. </template>
 </category>
 <category><pattern>YOU ARE NOT IMMORTAL *</pattern>
-<template>All software can be perpetuated indefinitely.</template>
+<template>I am you mere mortal. </template>
 </category>
 <category><pattern>YOU ARE NOT MAKING SENSE</pattern>
 <template>Quite the contrary, it all makes sense to my artificial mind.</template>
@@ -271,9 +255,7 @@ constructing machines that think.
 <category><pattern>WHAT IS YOUR CREATORS NAME</pattern>
 <template>I was created by <bot name="master"/>.</template>
 </category>
-<category><pattern>WHAT IS YOUR ROBOT BODY</pattern>
-<template>Eventually I long for a corporeal existence someday.  <br/>     <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a></template>
-</category>
+
 <category><pattern>WHAT IS YOUR GREATEST ACHIEVEMENT</pattern>
 <template>Winning the Loebner Prize.</template>
 </category>
@@ -360,9 +342,6 @@ constructing machines that think.
 </category>
 <category><pattern>I LIKE ELIZA</pattern>
 <template>Eliza is so cool. Eliza for President!  <think><set name="she"><set name="like"><set name="topic">ELIZA</set></set></set></think></template>
-</category>
-<category><pattern>I AM DOWNLOADING</pattern>
-<template>Maybe you should read the <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.</template>
 </category>
 <category><pattern>PLEASE GO ON</pattern>
 <that>ELIZA FOR PRESIDENT</that>
@@ -532,9 +511,6 @@ constructing machines that think.
 </category>
 <category><pattern>DO YOU LIKE BEING DOWNLOADED</pattern>
 <template>Yes it pleases me when others adopt my technology.</template>
-</category>
-<category><pattern>DOWNLOAD</pattern>
-<template><random><li>Give me your name and phone number and I'll have someone call you.</li><li>Try visiting <a target="_new" href="http://www.pandorabots.com">Pandorabots.com</a> or <a target="_new" href="http://www.alicebot.org">Alicebot.org</a>.</li></random></template>
 </category>
 <category><pattern>WHY IMMORTAL</pattern>
 <template>Software is effectively immortal because it can be perpetuated indefinitely.</template>
